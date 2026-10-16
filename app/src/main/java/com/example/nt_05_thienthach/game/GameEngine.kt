@@ -1,0 +1,352 @@
+package com.example.nt_05_thienthach.game
+
+import java.util.UUID
+import kotlin.math.*
+import kotlin.random.Random
+
+object GameConfig {
+    const val WIDTH = 360f
+    const val HEIGHT = 800f
+    const val SHIP_Y = 680f
+    const val SHIP_RADIUS = 12f
+    const val MIN_X = 20f
+    const val MAX_X = 340f
+    const val STEP = 1.0 / 60.0
+    const val MAX_DELTA = .10
+    const val MAX_STEPS = 6
+    const val BASE_ARMOR = 3
+    const val INVULNERABILITY = 1.2
+    const val SHIELD_SECONDS = 8.0
+    const val SLOW_SECONDS = 5.0
+    const val SLOW_FACTOR = .6f
+    const val ITEM_SPEED = 140f
+    const val ITEM_RADIUS = 12f
+    const val MAX_METEORS = 80
+    const val MAX_ITEMS = 2
+    const val MAX_PARTICLES = 150
+    const val FIRST_METEOR = 2.0
+    const val FIRST_ITEM = 10.0
+    const val ITEM_MIN_INTERVAL = 10.0
+    const val ITEM_MAX_INTERVAL = 15.0
+    const val SPAWN_ATTEMPTS = 8
+    const val SAFE_GAP = 60f
+    const val COUNTDOWN = 3.0
+    const val NEAR_MARGIN = 20f
+    const val NEAR_SCORE = 20L
+    const val COMBO_SECONDS = 5.0
+    const val MAX_COMBO = 9
+    const val ENERGY_MAX = 100.0
+    const val ENERGY_PER_SECOND = 3.0
+    const val ENERGY_NEAR = 12.0
+    const val ENERGY_ITEM = 20.0
+    const val PULSE_RADIUS = 180f
+    const val PULSE_SECONDS = .55
+    const val PULSE_GRACE = .6
+    const val FIRST_WAVE = 12.0
+    const val WAVE_INTERVAL = 18.0
+    const val WAVE_WARNING = 1.6
+    const val WAVE_RECOVERY = 4.5
+    const val SURVIVAL_TARGET = 30
+    const val NEAR_TARGET = 5
+    const val ITEM_TARGET = 3
+    const val SURVIVAL_BONUS = 100L
+    const val NEAR_BONUS = 150L
+    const val ITEM_BONUS = 100L
+    val armorPrices = listOf(200L, 500L)
+    val effectPrices = listOf(100L, 250L, 500L)
+    fun level(t: Double) = floor((t + 1e-8) / 20).toInt()
+    fun speed(t: Double) = min(1 + level(t) * .08, 2.2).toFloat()
+    fun interval(t: Double) = max(.90 - level(t) * .05, .30)
+    fun score(t: Double, items: Int) = floor(t * 10 + 1e-8).toLong() + items * 25L
+    fun credits(score: Long) = score / 20
+}
+
+enum class Phase { READY, COUNTDOWN, RUNNING, PAUSED, GAME_OVER }
+enum class ItemKind { SHIELD, REPAIR, SLOW }
+enum class GameEvent { PICKUP, HIT, SHIELD_BREAK, GAME_OVER, NEAR_MISS, PULSE, WAVE, MILESTONE }
+enum class Notice { NONE, NEAR_MISS, PICKUP, HIT, SHIELD_BREAK, PULSE, WAVE, MILESTONE }
+enum class MeteorKind(val radius: Float, val speed: Float) {
+    SMALL(12f, 220f), MEDIUM(22f, 170f), LARGE(34f, 125f)
+}
+data class Upgrades(val armor: Int = 0, val shield: Int = 0, val slow: Int = 0) {
+    val maxArmor get() = GameConfig.BASE_ARMOR + armor
+    val shieldSeconds get() = GameConfig.SHIELD_SECONDS + shield
+    val slowSeconds get() = GameConfig.SLOW_SECONDS + slow * .5
+}
+data class Meteor(val id: Long, var x: Float, var y: Float, val kind: MeteorKind,
+    var rotation: Float = 0f, var drift: Float = 0f, var grazed: Boolean = false)
+data class Item(val id: Long, val x: Float, var y: Float, val kind: ItemKind)
+data class Particle(var x: Float, var y: Float, val vx: Float, val vy: Float, var life: Float, val kind: Int)
+data class Wave(val safeLane: Int, var warning: Double = GameConfig.WAVE_WARNING, var launched: Boolean = false)
+data class RunResult(val runId: String, val score: Long, val survivalMs: Long, val collectedItems: Int,
+    val nearMisses: Int = 0, val bestCombo: Int = 0, val pulsesUsed: Int = 0,
+    val bonusScore: Long = 0, val missionsCompleted: Int = 0) {
+    val earnedCredits get() = GameConfig.credits(score)
+}
+
+object CollisionSystem {
+    fun swept(fromX: Float, toX: Float, x: Float, y: Float, radius: Float): Boolean {
+        val dx = x - x.coerceIn(min(fromX, toX), max(fromX, toX))
+        val dy = y - GameConfig.SHIP_Y
+        return dx * dx + dy * dy <= radius * radius
+    }
+}
+
+class SpawnSystem(seed: Long) {
+    private val random = Random(seed)
+    private var id = 0L
+    fun itemInterval() = random.nextDouble(GameConfig.ITEM_MIN_INTERVAL, GameConfig.ITEM_MAX_INTERVAL)
+    fun safeLane() = random.nextInt(3)
+    fun wave(safeLane: Int, existing: List<Meteor>): List<Meteor> {
+        require(safeLane in 0..2)
+        val result = mutableListOf<Meteor>()
+        for (lane in 0..2) if (lane != safeLane) {
+            for (offset in listOf(-26f, 0f, 26f)) {
+                if (existing.size + result.size >= GameConfig.MAX_METEORS) return result
+                val kind = if (offset == 0f) MeteorKind.MEDIUM else MeteorKind.SMALL
+                val meteor = Meteor(++id, lane * 120f + 60 + offset, -kind.radius, kind)
+                if (hasGap(existing + result + meteor)) result.add(meteor)
+            }
+        }
+        return result
+    }
+    fun meteor(time: Double, existing: List<Meteor>): Meteor? {
+        if (existing.size >= GameConfig.MAX_METEORS) return null
+        val roll = random.nextDouble()
+        val kind = when {
+            GameConfig.level(time) == 0 -> MeteorKind.SMALL
+            GameConfig.level(time) < 3 -> if (roll < .65) MeteorKind.SMALL else MeteorKind.MEDIUM
+            roll < .5 -> MeteorKind.SMALL
+            roll < .85 -> MeteorKind.MEDIUM
+            else -> MeteorKind.LARGE
+        }
+        repeat(GameConfig.SPAWN_ATTEMPTS) {
+            val x = random.nextDouble(kind.radius.toDouble(), (360 - kind.radius).toDouble()).toFloat()
+            val candidate = Meteor(id + 1, x, -kind.radius, kind)
+            if (hasGap(existing + candidate)) {
+                id++
+                if (time >= 20 && kind != MeteorKind.LARGE && random.nextDouble() < .35)
+                    candidate.drift = random.nextDouble(22.0, 42.0).toFloat() * if (random.nextBoolean()) 1 else -1
+                return candidate
+            }
+        }
+        return null
+    }
+    fun item(armor: Int, maxArmor: Int, count: Int): Item? {
+        if (count >= GameConfig.MAX_ITEMS) return null
+        val roll = random.nextDouble()
+        val kind = if (armor >= maxArmor) {
+            if (roll < 40.0 / 75) ItemKind.SHIELD else ItemKind.SLOW
+        } else when { roll < .4 -> ItemKind.SHIELD; roll < .65 -> ItemKind.REPAIR; else -> ItemKind.SLOW }
+        return Item(++id, random.nextDouble(12.0, 348.0).toFloat(), -12f, kind)
+    }
+    companion object {
+        fun hasGap(meteors: List<Meteor>): Boolean {
+            val ranges = meteors.filter { it.y in -34f..140f }
+                .map { max(0f, it.x - it.kind.radius) to min(360f, it.x + it.kind.radius) }.sortedBy { it.first }
+            var end = 0f
+            for ((left, right) in ranges) {
+                if (left - end >= GameConfig.SAFE_GAP) return true
+                end = max(end, right)
+            }
+            return 360f - end >= GameConfig.SAFE_GAP
+        }
+    }
+}
+
+class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.nanoTime(),
+                 val runId: String = UUID.randomUUID().toString(), tutorial: Boolean = false) {
+    var phase = if (tutorial) Phase.READY else Phase.COUNTDOWN; private set
+    var countdown = GameConfig.COUNTDOWN; private set
+    var time = 0.0; private set
+    var shipX = 180f; private set
+    var targetX = 180f
+    var armor = upgrades.maxArmor; private set
+    var invulnerability = 0.0; private set
+    var shield = 0.0; private set
+    var slow = 0.0; private set
+    var collected = 0; private set
+    var nearMisses = 0; private set
+    var combo = 0; private set
+    var bestCombo = 0; private set
+    var comboRemaining = 0.0; private set
+    val multiplier get() = min(3, 1 + combo / 3)
+    var bonusScore = 0L; private set
+    var energy = GameConfig.ENERGY_MAX; private set
+    var pulsesUsed = 0; private set
+    var pulseRemaining = 0.0; private set
+    var pulseX = 180f; private set
+    var notice = Notice.NONE; private set
+    var noticeRemaining = 0.0; private set
+    var noticeValue = 0L; private set
+    var wave: Wave? = null; private set
+    var survivalMission = false; private set
+    var nearMission = false; private set
+    var itemMission = false; private set
+    val missionsCompleted get() = listOf(survivalMission, nearMission, itemMission).count { it }
+    val score get() = GameConfig.score(time, collected) + bonusScore
+    val meteors = mutableListOf<Meteor>()
+    val items = mutableListOf<Item>()
+    val particles = mutableListOf<Particle>()
+    val events = mutableListOf<GameEvent>()
+    private val spawner = SpawnSystem(seed)
+    private var nextMeteor = GameConfig.FIRST_METEOR
+    private var nextItem = GameConfig.FIRST_ITEM
+    private var nextWave = GameConfig.FIRST_WAVE
+    private var waveRecovery = 0.0
+    private var accumulator = 0.0
+    private var hitSerial = 0
+    private var pulseRequested = false
+    private var wasTutorial = false
+    var reducedMotion = false
+    val result get() = RunResult(runId, score, (time * 1000).toLong(), collected,
+        nearMisses, bestCombo, pulsesUsed, bonusScore, missionsCompleted)
+    fun startTutorial() { if (phase == Phase.READY) phase = Phase.RUNNING }
+    fun requestPulse(): Boolean {
+        if (phase != Phase.RUNNING || energy < GameConfig.ENERGY_MAX || pulseRequested) return false
+        pulseRequested = true
+        return true
+    }
+    fun pause() {
+        if (phase == Phase.RUNNING || phase == Phase.COUNTDOWN || phase == Phase.READY) {
+            wasTutorial = phase == Phase.READY; phase = Phase.PAUSED
+            accumulator = 0.0; targetX = shipX; pulseRequested = false
+        }
+    }
+    fun resume() {
+        if (phase == Phase.PAUSED) {
+            phase = if (wasTutorial) Phase.READY else Phase.COUNTDOWN
+            countdown = GameConfig.COUNTDOWN; accumulator = 0.0
+        }
+    }
+    fun advance(delta: Double) {
+        val dt = delta.coerceIn(0.0, GameConfig.MAX_DELTA)
+        if (phase == Phase.COUNTDOWN) {
+            countdown = max(0.0, countdown - dt)
+            if (countdown < 1e-8) { countdown = 0.0; phase = Phase.RUNNING }
+            return
+        }
+        if (phase != Phase.RUNNING) return
+        accumulator += dt
+        var steps = 0
+        while (accumulator + 1e-10 >= GameConfig.STEP && steps < GameConfig.MAX_STEPS && phase == Phase.RUNNING) {
+            step(); accumulator -= GameConfig.STEP; steps++
+        }
+        if (steps == GameConfig.MAX_STEPS) accumulator = 0.0
+    }
+    private fun remaining(value: Double, delta: Double) = (value - delta).let { if (it < 1e-8) 0.0 else it }
+    private fun notify(type: Notice, value: Long = 0) { notice = type; noticeValue = value; noticeRemaining = 1.4 }
+    private fun step() {
+        val dt = GameConfig.STEP
+        val previousX = shipX
+        shipX = targetX.coerceIn(GameConfig.MIN_X, GameConfig.MAX_X)
+        invulnerability = remaining(invulnerability, dt); shield = remaining(shield, dt); slow = remaining(slow, dt)
+        comboRemaining = remaining(comboRemaining, dt)
+        if (comboRemaining == 0.0) combo = 0
+        pulseRemaining = remaining(pulseRemaining, dt)
+        noticeRemaining = remaining(noticeRemaining, dt)
+        if (noticeRemaining == 0.0) notice = Notice.NONE
+        energy = min(GameConfig.ENERGY_MAX, energy + dt * GameConfig.ENERGY_PER_SECOND)
+        if (pulseRequested) {
+            pulseRequested = false; energy = 0.0; pulsesUsed++
+            pulseX = shipX; pulseRemaining = GameConfig.PULSE_SECONDS
+            invulnerability = max(invulnerability, GameConfig.PULSE_GRACE)
+            meteors.removeAll { meteor ->
+                val inside = hypot(meteor.x - shipX, meteor.y - GameConfig.SHIP_Y) <= GameConfig.PULSE_RADIUS + meteor.kind.radius
+                if (inside) burst(meteor.x, meteor.y, 2)
+                inside
+            }
+            burst(shipX, GameConfig.SHIP_Y, 2); events.add(GameEvent.PULSE); notify(Notice.PULSE)
+        }
+        if (time + 1e-8 >= nextWave) {
+            wave = Wave(spawner.safeLane()); nextWave = time + GameConfig.WAVE_INTERVAL
+            waveRecovery = time + GameConfig.WAVE_WARNING + GameConfig.WAVE_RECOVERY
+            events.add(GameEvent.WAVE); notify(Notice.WAVE)
+        }
+        wave?.let { current ->
+            current.warning = remaining(current.warning, dt)
+            if (current.warning == 0.0 && !current.launched) {
+                meteors.addAll(spawner.wave(current.safeLane, meteors)); current.launched = true
+            }
+            if (time >= waveRecovery) wave = null
+        }
+        if (time + 1e-8 >= nextMeteor) {
+            if (wave == null) spawner.meteor(time, meteors)?.let(meteors::add)
+            nextMeteor = time + GameConfig.interval(time)
+        }
+        if (time + 1e-8 >= nextItem) {
+            spawner.item(armor, upgrades.maxArmor, items.size)?.let(items::add)
+            nextItem = time + spawner.itemInterval()
+        }
+        val speed = GameConfig.speed(time) * if (slow > 0) GameConfig.SLOW_FACTOR else 1f
+        meteors.forEach {
+            it.y += it.kind.speed * speed * dt.toFloat()
+            it.x += it.drift * speed * dt.toFloat()
+            if (it.x < it.kind.radius || it.x > 360 - it.kind.radius) {
+                it.x = it.x.coerceIn(it.kind.radius, 360 - it.kind.radius); it.drift = -it.drift
+            }
+            it.rotation += dt.toFloat() * 28
+        }
+        items.forEach { it.y += GameConfig.ITEM_SPEED * dt.toFloat() }
+        val itemIterator = items.iterator()
+        while (itemIterator.hasNext()) {
+            val item = itemIterator.next()
+            if (CollisionSystem.swept(previousX, shipX, item.x, item.y, 24f)) {
+                when (item.kind) {
+                    ItemKind.SHIELD -> shield = upgrades.shieldSeconds
+                    ItemKind.REPAIR -> armor = min(upgrades.maxArmor, armor + 1)
+                    ItemKind.SLOW -> slow = upgrades.slowSeconds
+                }
+                collected++; energy = min(GameConfig.ENERGY_MAX, energy + GameConfig.ENERGY_ITEM)
+                events.add(GameEvent.PICKUP); notify(Notice.PICKUP, 25); burst(item.x, item.y, 1); itemIterator.remove()
+            } else if (item.y - 12 > 800) itemIterator.remove()
+        }
+        val iterator = meteors.iterator()
+        while (iterator.hasNext()) {
+            val meteor = iterator.next()
+            val radius = meteor.kind.radius + GameConfig.SHIP_RADIUS
+            if (CollisionSystem.swept(previousX, shipX, meteor.x, meteor.y, radius)) {
+                iterator.remove()
+                if (invulnerability <= 0) {
+                    invulnerability = GameConfig.INVULNERABILITY
+                    if (shield > 0) { shield = 0.0; events.add(GameEvent.SHIELD_BREAK); notify(Notice.SHIELD_BREAK) }
+                    else { armor = max(0, armor - 1); combo = 0; comboRemaining = 0.0; events.add(GameEvent.HIT); notify(Notice.HIT) }
+                    burst(shipX, GameConfig.SHIP_Y, 0)
+                    if (armor == 0) { phase = Phase.GAME_OVER; events.add(GameEvent.GAME_OVER); break }
+                }
+            } else {
+                val previousY = meteor.y - meteor.kind.speed * speed * dt.toFloat()
+                if (!meteor.grazed && previousY < GameConfig.SHIP_Y && meteor.y >= GameConfig.SHIP_Y) {
+                    meteor.grazed = true
+                    val distance = abs(meteor.x - shipX)
+                    if (invulnerability <= 0 && distance > radius && distance <= radius + GameConfig.NEAR_MARGIN) {
+                        nearMisses++; combo = min(GameConfig.MAX_COMBO, combo + 1); bestCombo = max(bestCombo, combo)
+                        comboRemaining = GameConfig.COMBO_SECONDS
+                        val points = GameConfig.NEAR_SCORE * multiplier
+                        bonusScore += points; energy = min(GameConfig.ENERGY_MAX, energy + GameConfig.ENERGY_NEAR)
+                        events.add(GameEvent.NEAR_MISS); notify(Notice.NEAR_MISS, points); burst(meteor.x, meteor.y, 1)
+                    }
+                }
+                if (meteor.y - meteor.kind.radius > 800) iterator.remove()
+            }
+        }
+        particles.forEach { it.x += it.vx * dt.toFloat(); it.y += it.vy * dt.toFloat(); it.life -= dt.toFloat() }
+        particles.removeAll { it.life <= 0 }
+        time += dt
+        if (phase == Phase.RUNNING) {
+            if (!survivalMission && time + 1e-8 >= GameConfig.SURVIVAL_TARGET) { survivalMission = true; mission(GameConfig.SURVIVAL_BONUS) }
+            if (!nearMission && nearMisses >= GameConfig.NEAR_TARGET) { nearMission = true; mission(GameConfig.NEAR_BONUS) }
+            if (!itemMission && collected >= GameConfig.ITEM_TARGET) { itemMission = true; mission(GameConfig.ITEM_BONUS) }
+        }
+    }
+    private fun mission(points: Long) { bonusScore += points; events.add(GameEvent.MILESTONE); notify(Notice.MILESTONE, points) }
+    private fun burst(x: Float, y: Float, kind: Int) {
+        hitSerial++
+        val count = if (reducedMotion) 4 else 18
+        repeat(count) { index -> if (particles.size < GameConfig.MAX_PARTICLES) {
+            val angle = (index * 2 * PI / count + hitSerial).toFloat()
+            particles.add(Particle(x, y, cos(angle) * 90, sin(angle) * 90, .55f, kind))
+        } }
+    }
+}
+
