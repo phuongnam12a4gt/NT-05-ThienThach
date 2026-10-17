@@ -15,7 +15,8 @@ data class Hud(val phase: Phase = Phase.READY, val score: Long = 0, val armor: I
     val maxArmor: Int = 3, val shield: Int = 0, val slow: Int = 0, val countdown: Int = 3, val level: Int = 1, val combo: Int = 0, val multiplier: Int = 1, val energy: Int = 100,
     val comboSeconds: Int = 0, val notice: Notice = Notice.NONE, val noticeValue: Long = 0,
     val waveWarning: Int = 0, val safeLane: Int = -1, val missionIndex: Int = 0,
-    val missionProgress: Int = 0, val missionsDone: Int = 0)
+    val missionProgress: Int = 0, val missionsDone: Int = 0,
+    val flightUpgrades: List<FlightUpgrade> = emptyList(), val guideStep: Int = -1)
 
 class GameViewModel(app: Application) : AndroidViewModel(app) {
     private val repository = ProgressRepository(app)
@@ -98,11 +99,16 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         screen = destination
         syncAudio()
     }
+    private var guideActive = false
+    private var nextRunGuided = false
+    fun startGuided() { nextRunGuided = true; start() }
     fun start() {
         if (screen == Screen.GAME && engine != null) return
         if (!loaded || busy || (screen == Screen.RESULT && !rewardSaved)) return
         clearPointer(); result = null; rewardSaved = false; newRecord = false
-        engine = GameEngine(saved.progress.upgrades, tutorial = !saved.progress.tutorialCompleted)
+        guideActive = nextRunGuided || !saved.progress.tutorialCompleted
+        nextRunGuided = false
+        engine = GameEngine(saved.progress.upgrades, tutorial = guideActive)
         engine?.reducedMotion = saved.settings.reducedMotion
         screen = Screen.GAME
         refreshHud(); syncAudio()
@@ -114,6 +120,8 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         game.events.forEach(audio::event)
         game.events.clear()
         frame.intValue++
+        if (game.phase == Phase.CHOOSING) clearPointer()
+        if (guideActive && !error && game.collected > 0 && game.pulsesUsed > 0 && game.nearMisses > 0) finishGuide()
         refreshHud()
         if (game.phase == Phase.GAME_OVER && result == null) {
             result = game.result
@@ -138,9 +146,17 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         if (pointerId != id) return
         if (game.phase == Phase.READY && kotlin.math.abs(x - pointerStart) > 4) {
             game.startTutorial(); refreshHud(); syncAudio()
-            if (!saved.progress.tutorialCompleted) write({ repository.completeTutorial() })
+
         }
         if (game.phase == Phase.RUNNING) game.targetX = (shipStart + x - pointerStart).coerceIn(20f, 340f)
+    }
+    fun finishGuide() {
+        if (busy) return
+        write({ repository.completeTutorial() }) { guideActive = false; refreshHud() }
+    }
+    fun chooseUpgrade(choice: FlightUpgrade) {
+        if (!foreground) return
+        if (engine?.chooseUpgrade(choice) == true) { clearPointer(); refreshHud(); syncAudio() }
     }
     fun pulse() { engine?.requestPulse() }
     fun up(id: Long) { if (pointerId == id) clearPointer() }
@@ -153,13 +169,20 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
     }
     private fun refreshHud() {
         val game = engine ?: return
-        hud = Hud(game.phase, game.score, game.armor, game.upgrades.maxArmor,
+        hud = Hud(game.phase, game.score, game.armor, game.maxArmor,
             ceil(game.shield).toInt(), ceil(game.slow).toInt(), ceil(game.countdown).toInt(), GameConfig.level(game.time) + 1,
             game.combo, game.multiplier, game.energy.toInt(), ceil(game.comboRemaining).toInt(), game.notice, game.noticeValue,
             ceil(game.wave?.warning ?: 0.0).toInt(), game.wave?.safeLane ?: -1,
             when { !game.survivalMission -> 0; !game.nearMission -> 1; !game.itemMission -> 2; else -> 3 },
             when { !game.survivalMission -> game.time.toInt(); !game.nearMission -> game.nearMisses; !game.itemMission -> game.collected; else -> 3 },
-            game.missionsCompleted)
+            game.missionsCompleted, game.flightUpgrades,
+            if (!guideActive) -1 else when {
+                game.phase == Phase.READY -> 0
+                game.collected == 0 -> 1
+                game.pulsesUsed == 0 -> 2
+                game.nearMisses == 0 -> 3
+                else -> -1
+            })
     }
     fun abandon(destination: Screen) {
         confirmAbandon = null

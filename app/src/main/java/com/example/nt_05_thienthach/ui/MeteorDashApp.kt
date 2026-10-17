@@ -165,6 +165,7 @@ import java.util.Locale
                             if (vm.hud.slow > 0) Text(stringResource(R.string.slow_timer, vm.hud.slow), color = Color(0xFFBDA4FF), fontSize = 10.sp)
                         }
                         FlightChallenge(vm)
+                        if (vm.hud.flightUpgrades.isNotEmpty()) Text(vm.hud.flightUpgrades.joinToString(" · ") { flightUpgradeName(it) }, color = Cyan, fontSize = 10.sp)
                     }
                     FlightNotice(vm, Modifier.align(Alignment.TopCenter).padding(top = boardWidth * .75f, start = 8.dp, end = 8.dp))
                     Text(stringResource(R.string.drag_hint), color = Muted.copy(alpha = .65f), fontSize = 9.sp,
@@ -190,7 +191,33 @@ import java.util.Locale
                 }
                 LinearProgressIndicator(progress = { vm.hud.energy / 100f }, modifier = Modifier.fillMaxWidth().height(3.dp), color = Cyan, trackColor = Panel)
                 Text(stringResource(R.string.pulse_hint), fontSize = 9.sp, color = Muted)
+                if (vm.hud.guideStep >= 0 && vm.hud.phase == Phase.RUNNING) {
+                    Text(stringResource(when (vm.hud.guideStep) {
+                        1 -> R.string.guide_pickup; 2 -> R.string.guide_pulse; 3 -> R.string.guide_near; else -> R.string.tutorial_body
+                    }), color = Cyan, fontSize = 12.sp)
+                    TextButton(onClick = vm::finishGuide, enabled = !vm.busy) { Text(stringResource(R.string.guide_skip)) }
+                }
             }
+        }
+        if (vm.hud.phase == Phase.CHOOSING) Column(
+            Modifier.fillMaxSize().background(Space).verticalScroll(rememberScrollState()).padding(24.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Eyebrow(R.string.flight_upgrade_title)
+            Text(stringResource(R.string.flight_upgrade_body), color = Muted, lineHeight = 22.sp)
+            (vm.engine?.upgradeOptions ?: emptyList()).forEach { choice ->
+                Sheet {
+                    Text(flightUpgradeName(choice), color = Cyan, fontSize = 21.sp, fontWeight = FontWeight.Bold)
+                    Text(stringResource(when (choice) {
+                        FlightUpgrade.CAPACITOR -> R.string.capacitor_body
+                        FlightUpgrade.DAREDEVIL -> R.string.daredevil_body
+                        FlightUpgrade.FOCUS -> R.string.focus_body
+                    }), color = Ink, lineHeight = 22.sp)
+                    Button(onClick = { vm.chooseUpgrade(choice) }, modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp)) {
+                        Text(stringResource(R.string.flight_upgrade_choose))
+                    }
+                }
+            }
+            TextButton(onClick = vm::pause) { Text(stringResource(R.string.pause)) }
         }
         if (vm.hud.phase == Phase.PAUSED) Column(Modifier.fillMaxSize().background(Space.copy(alpha = .96f))
             .verticalScroll(rememberScrollState()).padding(28.dp), verticalArrangement = Arrangement.spacedBy(22.dp)) {
@@ -227,6 +254,26 @@ import java.util.Locale
             } else Text(stringResource(if (vm.error) R.string.reward_failed else R.string.reward_pending), color = Orange)
         }
         if (!vm.rewardSaved && vm.error) Action(R.string.retry_save, vm::retrySave, enabled = !vm.busy)
+        Sheet {
+            Eyebrow(R.string.next_flight)
+            Text(stringResource(when {
+                result.endingEnergy >= 100 -> R.string.tip_energy
+                result.survivalMs < 30000 -> R.string.tip_survive
+                result.nearMisses < 5 -> R.string.tip_near
+                else -> R.string.tip_combo
+            }), color = Ink, lineHeight = 22.sp)
+            if (result.flightUpgrades.isNotEmpty()) Text(result.flightUpgrades.joinToString(" · ") { flightUpgradeName(it) }, color = Cyan)
+            if (vm.rewardSaved) {
+                val progress = vm.saved.progress
+                val next = UpgradeKind.entries.mapNotNull { kind ->
+                    Transactions.prices(kind).getOrNull(Transactions.level(progress, kind))?.let { kind to it }
+                }.minByOrNull { it.second }
+                Text(if (next == null) stringResource(R.string.all_upgraded)
+                    else stringResource(if (progress.credits >= next.second) R.string.goal_ready else R.string.goal_remaining,
+                        (next.second - progress.credits).coerceAtLeast(0)), color = Orange)
+            }
+        }
+        if (vm.rewardSaved) Action(R.string.upgrades, { vm.navigate(Screen.UPGRADES) }, enabled = !vm.busy, primary = false)
         Action(R.string.play_again, vm::start, enabled = vm.rewardSaved && !vm.busy)
         Action(R.string.home, { vm.navigate(Screen.HOME) }, enabled = vm.rewardSaved && !vm.busy, primary = false)
         Text(stringResource(R.string.result_hint), color = Muted, fontSize = 12.sp)
@@ -314,8 +361,10 @@ import java.util.Locale
         R.string.wave_help to R.string.wave_help_body, R.string.mission_help to R.string.mission_help_body).forEach { (title, body) ->
         Sheet { Eyebrow(title); Text(stringResource(body), color = Muted, fontSize = 14.sp, lineHeight = 24.sp) }
     }
+    Sheet { Eyebrow(R.string.flight_upgrade_title); Text(stringResource(R.string.flight_upgrade_help), color = Muted, lineHeight = 24.sp) }
     Text(stringResource(R.string.help_accessibility), color = Muted, fontSize = 12.sp)
-    Action(R.string.understood, { vm.navigate(Screen.HOME) })
+    Action(R.string.guide_replay, vm::startGuided)
+    Action(R.string.understood, { vm.navigate(Screen.HOME) }, primary = false)
 }
 
 
@@ -352,3 +401,9 @@ import java.util.Locale
     }
 }
 
+
+private fun flightUpgradeName(choice: FlightUpgrade): String = when (choice) {
+    FlightUpgrade.CAPACITOR -> "Tụ khuếch đại"
+    FlightUpgrade.DAREDEVIL -> "Phi công mạo hiểm"
+    FlightUpgrade.FOCUS -> "Tập trung"
+}

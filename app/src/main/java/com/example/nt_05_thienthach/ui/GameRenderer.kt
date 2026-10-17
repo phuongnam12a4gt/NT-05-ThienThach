@@ -162,7 +162,7 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
             }
             if (game.pulseRemaining > 0) {
                 val progress = (1 - game.pulseRemaining / GameConfig.PULSE_SECONDS).toFloat().coerceIn(0f, 1f)
-                val radius = if (game.reducedMotion) 72f else 20 + GameConfig.PULSE_RADIUS * progress
+                val radius = if (game.reducedMotion) 72f else 20 + game.pulseRadius * progress
                 drawCircle(Color(0xFFBDA4FF).copy(alpha = (1 - progress) * .8f), radius,
                     Offset(game.pulseX, GameConfig.SHIP_Y), style = Stroke(if (game.reducedMotion) 2f else 4f * (1 - progress) + 1))
                 drawCircle(Cyan.copy(alpha = (1 - progress) * .12f), radius, Offset(game.pulseX, GameConfig.SHIP_Y))

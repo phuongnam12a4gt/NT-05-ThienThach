@@ -50,3 +50,7 @@ Cần playtest cân bằng và đo FPS/bộ nhớ trên thiết bị thật; kh�
 ## Bản 1.1
 
 Đã thêm combo né sát, xung năng lượng chủ động, đợt mưa có cảnh báo, thiên thạch bay chéo và ba mục tiêu trong mỗi lượt. Hướng dẫn, thông số và kết quả kiểm thử mới nằm trong [METEOR_DASH_UPGRADE_v1.1.md](METEOR_DASH_UPGRADE_v1.1.md). `QA.md` là báo cáo của bản MVP ban đầu; tham khảo tài liệu 1.1 cho trạng thái mới nhất.
+
+## Bản 1.2
+
+Thêm ba lựa chọn chiến thuật trong lượt tại mốc 45/90/135 giây, hướng dẫn theo hành động có thể chơi lại, mục tiêu và gợi ý ở màn kết quả. Xem [METEOR_DASH_UPGRADE_v1.2.md](METEOR_DASH_UPGRADE_v1.2.md) để biết lợi ích/đánh đổi và kết quả xác minh mới nhất (59 test đạt).

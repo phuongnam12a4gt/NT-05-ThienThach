@@ -15,7 +15,7 @@
 <string name="pause">Tạm dừng</string><string name="paused_title">NGHỈ GIỮA\nCÁC VÌ SAO</string><string name="paused_body">Chuyến bay đang được tạm dừng.\nHít thở một chút, rồi tiếp tục nhé.</string>
 <string name="score">ĐIỂM</string><string name="armor">GIÁP</string><string name="armor_value">%1$d/%2$d</string><string name="sector">KHU VỰC %1$02d</string>
 <string name="shield_timer">◇ Khiên %1$d s</string><string name="slow_timer">◷ Chậm %1$d s</string>
-<string name="tutorial_title">Kéo ngang để né thiên thạch</string><string name="tutorial_body">Chạm và kéo sang hai bên để bắt đầu.\nTàu sẽ di chuyển theo ngón tay của bạn.</string>
+<string name="tutorial_title">Kéo ngang để né thiên thạch</string><string name="tutorial_body">BƯỚC 1 / 4 · Chạm và kéo sang hai bên để bắt đầu.\nTàu sẽ di chuyển theo ngón tay của bạn.</string>
 <string name="drag_hint">← KÉO ĐỂ ĐIỀU KHIỂN →</string><string name="get_ready">CHUẨN BỊ CẤT CÁNH</string>
 <string name="abandon_title">Bỏ lượt hiện tại?</string><string name="abandon_body">Bạn sẽ không nhận thưởng hay ghi kỷ lục của lượt này.</string>
 <string name="keep_playing">Tiếp tục chơi</string><string name="abandon">Bỏ lượt</string>
@@ -38,7 +38,7 @@
 <string name="help_items">03 / VẬT PHẨM TIẾP TẾ</string><string name="help_shield">◇ Khiên — chặn một va chạm, tồn tại 8 giây.</string><string name="help_repair">+ Sửa chữa — hồi một giáp, tối đa bằng giáp tàu.</string><string name="help_slow" formatted="false">◷ Làm chậm — thiên thạch còn 60% tốc độ trong 5 giây.</string>
 <string name="help_rewards">04 / MỖI CHUYẾN BAY ĐỀU CÓ GIÁ TRỊ</string><string name="help_rewards_body">Mỗi giây sống sót được 10 điểm; mỗi vật phẩm được 25 điểm. Cứ 20 điểm hoàn tất nhận 1 tín dụng. Dùng tín dụng nâng cấp tàu. Bỏ lượt giữa chừng sẽ không có thưởng.</string>
 <string name="help_accessibility">Gameplay cần quan sát và thao tác kéo theo thời gian thực.</string><string name="time_format">%1$02d:%2$02d</string>
-<string name="update_badge">BẢN MỚI / RISK &amp; REWARD</string>
+<string name="update_badge">BẢN 1.2 / CHỌN CÁCH BAY</string>
 <string name="new_tagline">Né sát để nối combo. Phát xung để thoát hiểm.\nLàm chủ nhịp bay và phá kỷ lục của bạn.</string>
 <string name="pulse_ready">PHÁT XUNG</string>
 <string name="pulse_charging">NĂNG LƯỢNG %1$d/100</string>
@@ -71,6 +71,26 @@
 <string name="mission_help_body">Sống sót 30 giây: +100 điểm. Né sát 5 lần: +150 điểm. Nhặt 3 vật phẩm: +100 điểm. Mỗi mục tiêu chỉ thưởng một lần trong lượt, tự tính dù chưa hiện trên HUD. Tín dụng cuối lượt tính từ tổng điểm, bao gồm điểm thưởng kỹ năng.</string>
 <string name="challenge_title">BAY CÓ CHỦ ĐÍCH</string>
 <string name="challenge_body">Sống sót 30 giây · Né sát 5 lần · Nhặt 3 vật phẩm. Hoàn thành cả ba để thêm 350 điểm mỗi lượt.</string>
+<string name="flight_upgrade_title">NÂNG CẤP TRONG CHUYẾN BAY</string>
+<string name="flight_upgrade_body">Chọn một thay đổi cho phần còn lại của lượt. Thế giới đang dừng; bạn có thời gian cân nhắc. Mỗi loại chỉ chọn một lần.</string>
+<string name="flight_upgrade_choose">Chọn và tiếp tục</string>
+<string name="capacitor_body">Tụ khuếch đại: bán kính xung tăng từ 180 lên 250. Đánh đổi: tự nạp năng lượng chậm hơn 30%. Năng lượng từ vật phẩm và né sát giữ nguyên.</string>
+<string name="daredevil_body">Phi công mạo hiểm: điểm né sát gấp đôi. Đánh đổi: giảm 1 giáp tối đa và hạ giáp hiện có nếu vượt mức mới.</string>
+<string name="focus_body">Tập trung: thời gian nối combo tăng từ 5 lên 8 giây. Đánh đổi: vật phẩm làm chậm nhặt từ lúc này có thời gian ngắn hơn 20%.</string>
+<string name="flight_upgrade_help">Ở giây 45, 90 và 135, game dừng để bạn chọn nâng cấp dùng riêng trong lượt. Mỗi loại chỉ chọn một lần; đọc lợi ích và đánh đổi trước khi chọn. Chọn xong có đếm ngược 3 giây. Tụ khuếch đại mở rộng xung nhưng nạp chậm; Mạo hiểm tăng điểm né sát nhưng giảm giáp; Tập trung nối combo lâu hơn nhưng giảm thời gian vật phẩm làm chậm.</string>
+<string name="guide_pickup">BƯỚC 2 / 4 · Kéo tàu tới một vật phẩm để nhận hiệu ứng và năng lượng.</string>
+<string name="guide_pulse">BƯỚC 3 / 4 · Bấm PHÁT XUNG khi đầy năng lượng để dọn đường.</string>
+<string name="guide_near">BƯỚC 4 / 4 · Thử để thiên thạch lướt sát cạnh tàu mà không chạm để nhận combo.</string>
+<string name="guide_skip">Đã hiểu · Ẩn hướng dẫn</string>
+<string name="next_flight">MỤC TIÊU CHUYẾN BAY TIẾP</string>
+<string name="tip_energy">Bạn kết thúc khi xung đã sẵn sàng. Lượt sau hãy dùng xung trước khi bị dồn vào góc.</string>
+<string name="tip_survive">Thử sống sót 30 giây để nhận thêm 100 điểm. Ưu tiên khoảng trống và giữ khoảng cách với thiên thạch.</string>
+<string name="tip_near">Thử đạt 5 lần né sát để nhận thêm 150 điểm. Chỉ mạo hiểm khi phía trước có đường thoát.</string>
+<string name="tip_combo">Thử nối 6 lần né sát trong thời hạn combo để đạt hệ số thưởng ×3.</string>
+<string name="goal_ready">Bạn đủ tín dụng mua nâng cấp tiếp theo. Ghé xưởng tàu để chọn.</string>
+<string name="goal_remaining">Còn %1$d tín dụng để mua nâng cấp có giá thấp nhất tiếp theo.</string>
+<string name="all_upgraded">Tàu đã nâng cấp tối đa. Thử một lựa chọn chiến thuật khác và phá kỷ lục!</string>
+<string name="guide_replay">Chơi với hướng dẫn từng bước</string>
 </resources>
 
 
