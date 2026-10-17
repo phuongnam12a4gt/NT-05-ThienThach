@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Mỗi giây sống sót được 10 điểm; mỗi vật phẩm được 25 điểm. Cứ 20 điểm hoàn tất nhận 1 tín dụng. Dùng tín dụng nâng cấp tàu. Bỏ lượt giữa chừng sẽ không có thưởng.</string>
   <string name="help_accessibility" formatted="false">Gameplay cần quan sát và thao tác kéo theo thời gian thực.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">BẢN 1.3 / 20 NGÔN NGỮ</string>
+  <string name="update_badge" formatted="false">2.0 / Hành trình 100 màn</string>
   <string name="new_tagline" formatted="false">Né sát để nối combo. Phát xung để thoát hiểm.\nLàm chủ nhịp bay và phá kỷ lục của bạn.</string>
   <string name="pulse_ready" formatted="false">PHÁT XUNG</string>
   <string name="pulse_charging">NĂNG LƯỢNG %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Tụ khuếch đại</string>
   <string name="daredevil_name" formatted="false">Phi công mạo hiểm</string>
   <string name="focus_name" formatted="false">Tập trung</string>
+  <string name="stage_001_name" formatted="false">Cất cánh</string>
+  <string name="stage_001_goal" formatted="false">Sống 30s</string>
+  <string name="stage_001_special" formatted="false">0–10s chỉ đá nhỏ rơi thẳng; 10–20s khe giữa; 20–30s đổi khe sang hai bên. Hướng dẫn kéo bằng hành động.</string>
+  <string name="stage_001_skill" formatted="false">Qua cả 3 vệt hướng dẫn an toàn.</string>
+  <string name="stage_002_name" formatted="false">Ba lối về</string>
+  <string name="stage_002_goal" formatted="false">Qua 3 cổng</string>
+  <string name="stage_002_special" formatted="false">Cổng mở trái–giữa–phải, mỗi 8s; cổng bỏ lỡ lặp sau 4s. Trọng tâm là đón vị trí, không tăng mưa đá.</string>
+  <string name="stage_002_skill" formatted="false">Không bỏ lỡ lần mở đầu của cổng nào.</string>
+  <string name="stage_003_name" formatted="false">Tiếp tế đầu tiên</string>
+  <string name="stage_003_goal" formatted="false">Thu 2 kiện</string>
+  <string name="stage_003_special" formatted="false">4 kiện trên hai tuyến thay phiên; đá không chiếm đường đón trong cửa sổ hướng dẫn.</string>
+  <string name="stage_003_skill" formatted="false">Kết thúc đủ giáp tối đa.</string>
+  <string name="stage_004_name" formatted="false">Nhịp trái–phải</string>
+  <string name="stage_004_goal" formatted="false">Sống 35s</string>
+  <string name="stage_004_special" formatted="false">Hàng đá có một khe, đổi trái/phải theo nhịp; có khoảng quay đầu, đứng giữa không luôn an toàn.</string>
+  <string name="stage_004_skill" formatted="false">Qua 4 tâm khe đánh dấu đúng nhịp.</string>
+  <string name="stage_005_name" formatted="false">Xung mở đường</string>
+  <string name="stage_005_goal" formatted="false">Tắt 2 cụm mìn</string>
+  <string name="stage_005_special" formatted="false">Cụm xuống y=560, cấp pin nhiệm vụ trước mỗi cụm. Bấm sớm được nhắc và cụm lặp an toàn.</string>
+  <string name="stage_005_skill" formatted="false">Mỗi cụm bị tắt trọn bằng một xung.</string>
+  <string name="stage_006_name" formatted="false">Khoảng cách một cánh</string>
+  <string name="stage_006_goal" formatted="false">2 né sát hợp lệ</string>
+  <string name="stage_006_special" formatted="false">Hai tuyến đá nhỏ mẫu, hiển thị vùng tập, ít nhất 8 cơ hội. Va chạm không cộng mục tiêu.</string>
+  <string name="stage_006_skill" formatted="false">Nối 2 né sát trong 5s, đạt combo 2.</string>
+  <string name="stage_007_name" formatted="false">Áo giáp năng lượng</string>
+  <string name="stage_007_goal" formatted="false">Sống 40s</string>
+  <string name="stage_007_special" formatted="false">Khiên trước hai đoạn hẹp; vẫn có tuyến vòng ngoài rộng để không cần chịu đòn.</string>
+  <string name="stage_007_skill" formatted="false">Khiên chặn 1 lần, không mất giáp.</string>
+  <string name="stage_008_name" formatted="false">Một giây chậm lại</string>
+  <string name="stage_008_goal" formatted="false">Qua 4 cổng</string>
+  <string name="stage_008_special" formatted="false">Cổng ghép đồ làm chậm; cho thấy đồ không làm chậm đồng hồ mục tiêu. Có tuyến không cần nhặt làm chậm.</string>
+  <string name="stage_008_skill" formatted="false">Nhặt 2 đồ làm chậm khác ID.</string>
+  <string name="stage_009_name" formatted="false">Bài kiểm tra phi công</string>
+  <string name="stage_009_goal" formatted="false">Thu 2 kiện, qua 3 cổng</string>
+  <string name="stage_009_special" formatted="false">Ba đoạn: thu thập, chuyển làn, giữ xung mở lối cuối. Ghi nhận đồng thời cả hai mục tiêu.</string>
+  <string name="stage_009_skill" formatted="false">Ít nhất 3 né sát trước cổng cuối.</string>
+  <string name="stage_010_name" formatted="false">Người gác bến</string>
+  <string name="stage_010_goal" formatted="false">Phá 2 lõi</string>
+  <string name="stage_010_special" formatted="false">Pha 1 hai cột chừa giữa; pha 2 khe sang bên rồi lõi hạ. Pin/cửa sổ riêng cho từng lõi.</string>
+  <string name="stage_010_skill" formatted="false">Phá mỗi lõi ở lần mở đầu pha.</string>
+  <string name="stage_011_name" formatted="false">Xương cá</string>
+  <string name="stage_011_goal" formatted="false">Sống 40s</string>
+  <string name="stage_011_special" formatted="false">Hai nhánh chéo tạo khe xương cá; đổi hướng sau mỗi cặp, có đoạn thẳng báo quay đầu.</string>
+  <string name="stage_011_skill" formatted="false">Qua 5 tâm khe đánh dấu.</string>
+  <string name="stage_012_name" formatted="false">Cầu thang trôi</string>
+  <string name="stage_012_goal" formatted="false">Qua 4 cổng</string>
+  <string name="stage_012_special" formatted="false">Trái → hơi trái → hơi phải → phải; dạy dịch nhỏ liên tục. Bỏ lỡ lặp cổng hiện tại.</string>
+  <string name="stage_012_skill" formatted="false">Không dùng xung.</string>
+  <string name="stage_013_name" formatted="false">Kéo cắt</string>
+  <string name="stage_013_goal" formatted="false">Sống 45s</string>
+  <string name="stage_013_special" formatted="false">Hai dòng chéo giao nhau nhưng không tới hàng tàu đồng thời; cảnh báo đánh số dòng tới trước.</string>
+  <string name="stage_013_skill" formatted="false">4 né sát từ ít nhất 2 dòng.</string>
+  <string name="stage_014_name" formatted="false">Hẻm đổi chiều</string>
+  <string name="stage_014_goal" formatted="false">Qua 5 cổng</string>
+  <string name="stage_014_special" formatted="false">Hành lang đổi chiều báo mũi tên; giữ đà tàu. Cổng 3 có nhịp nghỉ để học quay đầu.</string>
+  <string name="stage_014_skill" formatted="false">Qua cả 5 ở lần mở đầu.</string>
+  <string name="stage_015_name" formatted="false">Đá sinh đôi</string>
+  <string name="stage_015_goal" formatted="false">Sống 45s</string>
+  <string name="stage_015_special" formatted="false">Mỗi cặp có đá chậm và đá nhanh theo sau, tránh khoảng trống giả sau viên đầu.</string>
+  <string name="stage_015_skill" formatted="false">Né sát mỗi loại tốc độ ít nhất 2 lần.</string>
+  <string name="stage_016_name" formatted="false">Lưỡi liềm</string>
+  <string name="stage_016_goal" formatted="false">Thu 3 mảnh bản đồ</string>
+  <string name="stage_016_special" formatted="false">Đá theo cung cong; đồ nằm ở phần lõm an toàn rồi đổi sang cung đối diện, có 6 cơ hội.</string>
+  <string name="stage_016_skill" formatted="false">Thu 3 mảnh trong 3 cơ hội đầu.</string>
+  <string name="stage_017_name" formatted="false">Nhịp kép</string>
+  <string name="stage_017_goal" formatted="false">Sống 50s</string>
+  <string name="stage_017_special" formatted="false">Hai hàng nhanh rồi nghỉ dài; cuối màn đổi ba hàng, không sinh đá đột ngột vào tàu.</string>
+  <string name="stage_017_skill" formatted="false">Một xung phá ít nhất 4 đá.</string>
+  <string name="stage_018_name" formatted="false">Quỹ đạo vệ tinh</string>
+  <string name="stage_018_goal" formatted="false">Qua 4 cổng</string>
+  <string name="stage_018_special" formatted="false">Đá nhỏ quay quanh khối lớn; khe quỹ đạo có dự báo vị trí đón tại hàng tàu.</string>
+  <string name="stage_018_skill" formatted="false">Không phá khối trung tâm.</string>
+  <string name="stage_019_name" formatted="false">Ngã ba tham vọng</string>
+  <string name="stage_019_goal" formatted="false">Sống 55s và thu 2 khóa</string>
+  <string name="stage_019_special" formatted="false">Đường rộng ít đồ, đường hẹp có khóa. Có 4 khóa, không bắt đi đường rủi ro mọi lần.</string>
+  <string name="stage_019_skill" formatted="false">Thu đủ 4 khóa trước 55s.</string>
+  <string name="stage_020_name" formatted="false">Máy nghiền vành đai</string>
+  <string name="stage_020_goal" formatted="false">Phá 3 lõi</string>
+  <string name="stage_020_special" formatted="false">Hai cánh ép tạo khe ngang; sau lượt ép một cánh dừng lộ lõi. Pha cuối đảo chiều quét có báo.</string>
+  <string name="stage_020_skill" formatted="false">Không bị mìn kẹp của cánh trúng tàu.</string>
+  <string name="stage_021_name" formatted="false">Pin giữa giông</string>
+  <string name="stage_021_goal" formatted="false">Thu 3 pin nhiệm vụ</string>
+  <string name="stage_021_special" formatted="false">Có 5 pin sau các cột điện có khe; phải đón đúng vị trí thay vì phát xung liên tục.</string>
+  <string name="stage_021_skill" formatted="false">Năng lượng không xuống dưới 30.</string>
+  <string name="stage_022_name" formatted="false">Khu vực cấm nạp</string>
+  <string name="stage_022_goal" formatted="false">Qua 4 cổng</string>
+  <string name="stage_022_special" formatted="false">Vùng sọc dừng hồi, vùng sáng nạp thường. Cổng xen kẽ buộc chọn ở lại nạp hay chuyển sớm.</string>
+  <string name="stage_022_skill" formatted="false">Qua cổng cuối với NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Cầu chì</string>
+  <string name="stage_023_goal" formatted="false">Tắt 3 nút điện</string>
+  <string name="stage_023_special" formatted="false">Nút chỉ tắt trong bán kính xung; có 3 pin nhiệm vụ. Nút chưa tắt vẫn có đường tránh và lượt tiếp theo.</string>
+  <string name="stage_023_skill" formatted="false">Tắt cả 3 khi vòng an toàn mở.</string>
+  <string name="stage_024_name" formatted="false">Dây chuyền</string>
+  <string name="stage_024_goal" formatted="false">Qua 5 cổng theo thứ tự</string>
+  <string name="stage_024_special" formatted="false">Cổng có số/ký hiệu; chỉ cổng hiện tại nhận tiến độ. Qua cổng tương lai không trừ mạng, không tăng đếm.</string>
+  <string name="stage_024_skill" formatted="false">Không qua cổng sai thứ tự.</string>
+  <string name="stage_025_name" formatted="false">Chọn nạp hay né</string>
+  <string name="stage_025_goal" formatted="false">Sống 55s</string>
+  <string name="stage_025_special" formatted="false">Mỗi 10s pin ở mép đối diện khe kế tiếp. Tự đánh giá đủ thời gian vòng lại hay bỏ pin; tuyến bỏ pin luôn tồn tại.</string>
+  <string name="stage_025_skill" formatted="false">Thu 3 pin rồi vẫn qua khe kế tiếp.</string>
+  <string name="stage_026_name" formatted="false">Tụ điện cộng hưởng</string>
+  <string name="stage_026_goal" formatted="false">Kích 2 trạm với NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Đi qua vùng trạm tiêu 80 NL; có tuyến nạp 100 trước mỗi trạm. Xung không thay thao tác chạm trạm.</string>
+  <string name="stage_026_skill" formatted="false">Cả hai trạm nhận khi NL đầu vào ≥95.</string>
+  <string name="stage_027_name" formatted="false">Mưa ion</string>
+  <string name="stage_027_goal" formatted="false">Sống 55s</string>
+  <string name="stage_027_special" formatted="false">Đám ion tăng hồi ở một làn, nhưng đá sẽ tới đó sau cảnh báo. Có ít nhất 3 pin thường để mục tiêu phụ khả thi.</string>
+  <string name="stage_027_skill" formatted="false">Phát 3 xung hợp lệ.</string>
+  <string name="stage_028_name" formatted="false">Bóng dẫn điện</string>
+  <string name="stage_028_goal" formatted="false">Thu 4 mảnh dẫn</string>
+  <string name="stage_028_special" formatted="false">Đồ nhiệm vụ trôi về cực trái/phải theo chu kỳ, có vạch dự báo điểm đón. Có 7 cơ hội.</string>
+  <string name="stage_028_skill" formatted="false">Thu 4 mảnh trong 4 cơ hội đầu.</string>
+  <string name="stage_029_name" formatted="false">Dự trữ cuối đường</string>
+  <string name="stage_029_goal" formatted="false">Qua 3 cổng, nạp ≥70 vào cổng cuối</string>
+  <string name="stage_029_special" formatted="false">Hai cổng đầu miễn phí; chi phí cổng cuối hiện từ đầu. Pin bù lặp mỗi 8s nếu thiếu, có đường chờ.</string>
+  <string name="stage_029_skill" formatted="false">Không dùng pin bù.</string>
+  <string name="stage_030_name" formatted="false">Lõi bão điện</string>
+  <string name="stage_030_goal" formatted="false">Phá 3 lõi</string>
+  <string name="stage_030_special" formatted="false">Ba cực sáng lần lượt; đứng đúng cực mở giáp rồi dùng pin trùm/xung. Pha cuối cấm hồi nhưng vẫn nhận pin nhiệm vụ.</string>
+  <string name="stage_030_skill" formatted="false">Mở đúng cả 3 cực lần thử đầu.</string>
+  <string name="stage_031_name" formatted="false">Người bạn đồng hành</string>
+  <string name="stage_031_goal" formatted="false">Đồng minh 3 giáp sống 50s</string>
+  <string name="stage_031_special" formatted="false">Bạn bay trước, báo đổi làn 2s; người chơi phá đá đe dọa bằng xung. 10s đầu áp lực thấp để học.</string>
+  <string name="stage_031_skill" formatted="false">Đồng minh không mất giáp.</string>
+  <string name="stage_032_name" formatted="false">Hai chuyến cứu hộ</string>
+  <string name="stage_032_goal" formatted="false">Đón 2 khoang cứu sinh</string>
+  <string name="stage_032_special" formatted="false">Giữ đúng vùng đón 1s; khoang có nhiều lần hạ, chạm nhanh không đếm lặp.</string>
+  <string name="stage_032_skill" formatted="false">Xong trước 40s.</string>
+  <string name="stage_033_name" formatted="false">Đứng trước hiểm nguy</string>
+  <string name="stage_033_goal" formatted="false">Trạm 4 giáp sống 55s</string>
+  <string name="stage_033_special" formatted="false">Đá lọt tuyến làm trạm mất giáp. Đá lớn ưu tiên trạm, đá nhỏ ưu tiên đường tàu; phân biệt nguy hiểm cần chặn.</string>
+  <string name="stage_033_skill" formatted="false">Không đá lớn nào lọt qua.</string>
+  <string name="stage_034_name" formatted="false">Hàng dễ vỡ</string>
+  <string name="stage_034_goal" formatted="false">Tàu hàng 2 giáp sống 55s</string>
+  <string name="stage_034_special" formatted="false">Tàu hàng ít đổi làn; hai đợt drone lao tới có pin xung được cấp theo lịch.</string>
+  <string name="stage_034_skill" formatted="false">Dùng không quá 3 xung.</string>
+  <string name="stage_035_name" formatted="false">Người dẫn đường</string>
+  <string name="stage_035_goal" formatted="false">Dẫn bạn qua 4 cổng</string>
+  <string name="stage_035_special" formatted="false">Bạn theo làn người chơi trễ 1,2s; cần đổi sớm. Vạch nối thể hiện độ trễ, không cần ngón điều khiển thứ hai.</string>
+  <string name="stage_035_skill" formatted="false">Bạn qua mỗi cổng lệch tâm khe ≤20 đơn vị.</string>
+  <string name="stage_036_name" formatted="false">Chia đôi nguồn cứu trợ</string>
+  <string name="stage_036_goal" formatted="false">Trạm sống và giao 3 kiện</string>
+  <string name="stage_036_special" formatted="false">Gói xanh hồi trạm, gói vàng cho tiền tùy chọn. Có đủ kiện chính; cân bằng cứu trạm với lợi nhuận.</string>
+  <string name="stage_036_skill" formatted="false">Trạm còn ít nhất 3/4 giáp.</string>
+  <string name="stage_037_name" formatted="false">Đoàn xe nối đuôi</string>
+  <string name="stage_037_goal" formatted="false">Cả 2 tàu bạn còn sống</string>
+  <string name="stage_037_special" formatted="false">Bạn trước/sau cùng tuyến nhưng lệch thời gian; đe dọa có cảnh báo định danh, hai thanh giáp riêng.</string>
+  <string name="stage_037_skill" formatted="false">Không bạn nào mất quá 1 giáp.</string>
+  <string name="stage_038_name" formatted="false">Cứu hộ trong mưa</string>
+  <string name="stage_038_goal" formatted="false">Sống 65s, cứu 3 khoang</string>
+  <string name="stage_038_special" formatted="false">Khoang nhận ở quãng nghỉ sau mưa, 5 lượt cứu có số. Phải dùng nhịp nghỉ để đón.</string>
+  <string name="stage_038_skill" formatted="false">Không nhặt mìn giả dạng có dấu cảnh báo.</string>
+  <string name="stage_039_name" formatted="false">Mồi nhử có chủ đích</string>
+  <string name="stage_039_goal" formatted="false">Bạn sống 65s</string>
+  <string name="stage_039_special" formatted="false">Drone khóa làn cũ của người chơi khi báo rồi mới lao; dẫn đe dọa ra khỏi bạn và chuyển đúng lúc.</string>
+  <string name="stage_039_skill" formatted="false">Dẫn 4 drone vào làn không có bạn.</string>
+  <string name="stage_040_name" formatted="false">Cướp không gian</string>
+  <string name="stage_040_goal" formatted="false">Phá 3 lõi, tàu hàng sống</string>
+  <string name="stage_040_special" formatted="false">Trùm luân phiên nhắm người chơi/tàu hàng, mỗi loạt có ký hiệu mục tiêu. Chặn đợt nhắm tàu hàng để mở lõi.</string>
+  <string name="stage_040_skill" formatted="false">Tàu hàng còn ≥2/3 giáp.</string>
+  <string name="stage_041_name" formatted="false">Băng mỏng</string>
+  <string name="stage_041_goal" formatted="false">Sống 55s</string>
+  <string name="stage_041_special" formatted="false">Chỉ 15–25s và 35–45s có trượt khi đổi hướng; vùng phanh xanh trước nơi chuyển làn.</string>
+  <string name="stage_041_skill" formatted="false">Không chạm viền băng hai mép.</string>
+  <string name="stage_042_name" formatted="false">Phanh trước cổng</string>
+  <string name="stage_042_goal" formatted="false">Qua 4 cổng</string>
+  <string name="stage_042_special" formatted="false">Khi qua cổng, tốc độ ngang phải ≤120 đơn vị/s. Có đồng hồ vận tốc để căn phanh; bỏ lỡ lặp cổng.</string>
+  <string name="stage_042_skill" formatted="false">Qua cả 4 ở lần mở đầu.</string>
+  <string name="stage_043_name" formatted="false">Tảng băng nứt</string>
+  <string name="stage_043_goal" formatted="false">Sống 60s</string>
+  <string name="stage_043_special" formatted="false">Đá băng tách 2 mảnh sau vạch nứt; có thể xung trước khi vỡ. Mảnh chỉ sinh một thế hệ.</string>
+  <string name="stage_043_skill" formatted="false">Phá 3 đá băng trước lúc tách.</string>
+  <string name="stage_044_name" formatted="false">Làn nước ấm</string>
+  <string name="stage_044_goal" formatted="false">Thu 3 lõi nhiệt</string>
+  <string name="stage_044_special" formatted="false">Lõi ở đoạn không trượt giữa hai băng chuyền; lấy đà rồi phanh, có 6 lõi theo lịch.</string>
+  <string name="stage_044_skill" formatted="false">Thu 3 lõi trong 3 cơ hội đầu.</string>
+  <string name="stage_045_name" formatted="false">Con lắc lạnh</string>
+  <string name="stage_045_goal" formatted="false">Qua 5 cổng</string>
+  <string name="stage_045_special" formatted="false">Cổng lắc theo pha, chỉ báo điểm đón; dự đoán vị trí tương lai thay vì đuổi điểm hiện tại.</string>
+  <string name="stage_045_skill" formatted="false">Không dùng xung.</string>
+  <string name="stage_046_name" formatted="false">Trượt dưới mái vòm</string>
+  <string name="stage_046_goal" formatted="false">Sống 65s</string>
+  <string name="stage_046_special" formatted="false">Vòm đá chậm có đường ngắn và vòng ngoài. Trượt quá tay dễ va mép đường ngắn, tuyến vòng vẫn đủ thời gian.</string>
+  <string name="stage_046_skill" formatted="false">Qua 3 đường ngắn đánh dấu.</string>
+  <string name="stage_047_name" formatted="false">Pin trên băng chuyền</string>
+  <string name="stage_047_goal" formatted="false">Nạp 2 trạm, qua cổng cuối</string>
+  <string name="stage_047_special" formatted="false">Băng chuyền đẩy pin chứ không đẩy tàu; dự báo điểm đón và tuyến phanh tách việc quan sát đồ/điều khiển.</string>
+  <string name="stage_047_skill" formatted="false">Nạp đủ 2 trạm trước 50s.</string>
+  <string name="stage_048_name" formatted="false">Tiếng vọng sương</string>
+  <string name="stage_048_goal" formatted="false">Sống 70s</string>
+  <string name="stage_048_special" formatted="false">Báo trước chuỗi khe. Sương chỉ che nền/trang trí, không che hitbox/vạch cảnh báo; có nhắc lại ký hiệu.</string>
+  <string name="stage_048_skill" formatted="false">Qua 6 khe không nhắc lại.</string>
+  <string name="stage_049_name" formatted="false">Đường nứt lan</string>
+  <string name="stage_049_goal" formatted="false">Qua 6 cổng</string>
+  <string name="stage_049_special" formatted="false">Qua mỗi cổng, làn cũ đóng sau 2s; phải chuyển tiếp, có đánh dấu vùng sắp đóng và vùng kế.</string>
+  <string name="stage_049_skill" formatted="false">Không quay vào làn cũ trong 2s báo đóng.</string>
+  <string name="stage_050_name" formatted="false">Bạch long</string>
+  <string name="stage_050_goal" formatted="false">Phá 4 lõi</string>
+  <string name="stage_050_special" formatted="false">Hai pha đầu băng trôi, hai pha cuối cung băng phân mảnh. Lõi mở tại vùng không trượt để mọi tàu tới được.</string>
+  <string name="stage_050_skill" formatted="false">Không trúng mảnh băng thứ cấp.</string>
+  <string name="stage_051_name" formatted="false">Công tắc hành lang</string>
+  <string name="stage_051_goal" formatted="false">Bật 3 công tắc, qua cổng</string>
+  <string name="stage_051_special" formatted="false">Qua công tắc ở hàng tàu mở đúng cửa phía sau. Bỏ lỡ được lặp, không thua tức thì.</string>
+  <string name="stage_051_skill" formatted="false">Bật cả 3 lần gặp đầu.</string>
+  <string name="stage_052_name" formatted="false">Mã ba hình</string>
+  <string name="stage_052_goal" formatted="false">Nhập chuỗi 3 ký hiệu</string>
+  <string name="stage_052_special" formatted="false">Hiện tam giác–tròn–vuông 4s rồi chọn cổng đúng. Sai cho xem lại, lặp mục hiện tại; tránh dựa riêng màu.</string>
+  <string name="stage_052_skill" formatted="false">Không nhập sai/nhắc lại.</string>
+  <string name="stage_053_name" formatted="false">Drone tuần tra</string>
+  <string name="stage_053_goal" formatted="false">Sống 65s</string>
+  <string name="stage_053_special" formatted="false">Drone ngang có tuyến cố định, chỉ bắn lúc đèn sáng; đọc hướng thân để đoán khe.</string>
+  <string name="stage_053_skill" formatted="false">Phá 4 drone bằng xung.</string>
+  <string name="stage_054_name" formatted="false">Gương lệch pha</string>
+  <string name="stage_054_goal" formatted="false">Qua 5 cổng thật</string>
+  <string name="stage_054_special" formatted="false">Bóng phản chiếu nét đứt, cổng thật khung liền + âm báo. Giảm chuyển động bỏ bóng nhưng giữ ký hiệu phân biệt.</string>
+  <string name="stage_054_skill" formatted="false">Không chạm vùng cổng giả.</string>
+  <string name="stage_055_name" formatted="false">Nút nhịp máy</string>
+  <string name="stage_055_goal" formatted="false">Tắt 3 bộ phát</string>
+  <string name="stage_055_special" formatted="false">Bộ phát mở nhận xung 6s rồi che giáp; pin nhiệm vụ cấp trước, bỏ lỡ được thử chu kỳ sau.</string>
+  <string name="stage_055_skill" formatted="false">Tắt cả 3 khi cửa sổ còn ≥3s.</string>
+  <string name="stage_056_name" formatted="false">Băng tải phân loại</string>
+  <string name="stage_056_goal" formatted="false">Thu 4 linh kiện tam giác</string>
+  <string name="stage_056_special" formatted="false">Ba loại trộn nhau: mục tiêu viền riêng, đồ thường, mìn cảnh báo. Phải phân loại thay vì hốt mọi vật.</string>
+  <string name="stage_056_skill" formatted="false">Không nhặt linh kiện sai loại.</string>
+  <string name="stage_057_name" formatted="false">Đường tắt có khóa</string>
+  <string name="stage_057_goal" formatted="false">Qua 4 cổng, mở cổng cuối</string>
+  <string name="stage_057_special" formatted="false">Đường dài miễn phí; đường tắt tiêu 40 NL nhưng tiết kiệm thời gian. Cổng cuối cần 60, có pin bù tránh khóa cứng.</string>
+  <string name="stage_057_skill" formatted="false">Xong trước 55s.</string>
+  <string name="stage_058_name" formatted="false">Bốn bánh răng</string>
+  <string name="stage_058_goal" formatted="false">Sống 75s</string>
+  <string name="stage_058_special" formatted="false">Drone theo cột, cung, chéo, khe trôi ở chu kỳ lệch. Báo mẫu kế, không ném cả bốn cùng lúc.</string>
+  <string name="stage_058_skill" formatted="false">Qua 1 chu kỳ đủ bốn mẫu không xung.</string>
+  <string name="stage_059_name" formatted="false">Khởi động di tích</string>
+  <string name="stage_059_goal" formatted="false">Thu 3 lõi, kích 1 trạm</string>
+  <string name="stage_059_special" formatted="false">Gom linh kiện rồi về làn trạm để xung mở cổng. Trạm chỉ nhận khi đủ lõi; có đường vòng chờ pin.</string>
+  <string name="stage_059_skill" formatted="false">Chỉ dùng đúng 1 xung.</string>
+  <string name="stage_060_name" formatted="false">Kiến trúc sư</string>
+  <string name="stage_060_goal" formatted="false">Phá 4 lõi</string>
+  <string name="stage_060_special" formatted="false">Giải đúng tuyến ký hiệu mở một lõi. Pha cuối đảo thứ tự nhưng hiện mẫu mới trước khi chạy.</string>
+  <string name="stage_060_skill" formatted="false">Không chọn sai ký hiệu các pha.</string>
+  <string name="stage_061_name" formatted="false">Gió ngang</string>
+  <string name="stage_061_goal" formatted="false">Sống 65s</string>
+  <string name="stage_061_special" formatted="false">Hai đợt đẩy theo mũi tên, vận tốc trôi nhỏ hơn khả năng bù của tàu chậm nhất.</string>
+  <string name="stage_061_skill" formatted="false">Không chạm vùng mép gió.</string>
+  <string name="stage_062_name" formatted="false">Mắt bão</string>
+  <string name="stage_062_goal" formatted="false">Qua 5 vùng tâm bão</string>
+  <string name="stage_062_special" formatted="false">Vùng trung hòa trôi qua 3 làn, không bị đẩy trong tâm. Chỉ tính khi qua đúng tâm tại hàng tàu.</string>
+  <string name="stage_062_skill" formatted="false">Qua cả 5 lần đầu xuất hiện.</string>
+  <string name="stage_063_name" formatted="false">Mưa ba tầng</string>
+  <string name="stage_063_goal" formatted="false">Sống 70s</string>
+  <string name="stage_063_special" formatted="false">Đá lớn chậm, đá nhỏ nhanh, mìn trôi khác tầng; đọc thứ tự tới tàu thay vì khoảng cách đơn thuần.</string>
+  <string name="stage_063_skill" formatted="false">Một xung phá vật thuộc cả 3 tầng.</string>
+  <string name="stage_064_name" formatted="false">Pin lạc hướng</string>
+  <string name="stage_064_goal" formatted="false">Thu 4 pin nhiệm vụ</string>
+  <string name="stage_064_special" formatted="false">Gió đẩy tàu và pin theo hệ số khác; có vạch điểm đón, không tăng tốc pin đột ngột. Tổng 7 cơ hội.</string>
+  <string name="stage_064_skill" formatted="false">Thu 4 pin trong 4 cơ hội đầu.</string>
+  <string name="stage_065_name" formatted="false">Chớp báo trước</string>
+  <string name="stage_065_goal" formatted="false">Qua 6 cổng</string>
+  <string name="stage_065_special" formatted="false">Chớp nền báo thứ tự, thay bằng ký hiệu tĩnh khi giảm chuyển động. Nguy hiểm chỉ xuất hiện sau khoảng chờ.</string>
+  <string name="stage_065_skill" formatted="false">Không dùng nhắc lại chuỗi.</string>
+  <string name="stage_066_name" formatted="false">Hành lang áp suất</string>
+  <string name="stage_066_goal" formatted="false">Sống 75s</string>
+  <string name="stage_066_special" formatted="false">Vùng áp lực đưa vào giữa rồi mở khe mép; cần rời giữa trước khi đóng, báo trước 2s.</string>
+  <string name="stage_066_skill" formatted="false">6 né sát, không dùng xung.</string>
+  <string name="stage_067_name" formatted="false">Đổi gió cứu tàu</string>
+  <string name="stage_067_goal" formatted="false">Bạn 3 giáp sống 75s</string>
+  <string name="stage_067_special" formatted="false">Gió không tác động bạn; dự đoán đá trôi vào tuyến bạn và phá trước bằng xung.</string>
+  <string name="stage_067_skill" formatted="false">Bạn không mất giáp do đá có trôi ngang.</string>
+  <string name="stage_068_name" formatted="false">Bão tĩnh điện</string>
+  <string name="stage_068_goal" formatted="false">Sống 80s</string>
+  <string name="stage_068_special" formatted="false">8s hồi thường / 4s khóa hồi, vẫn nhận pin. HUD ghi rõ đang khóa. Có pin tùy chọn đủ cơ hội cho sao.</string>
+  <string name="stage_068_skill" formatted="false">4 xung, mỗi xung phá ≥1 đe dọa.</string>
+  <string name="stage_069_name" formatted="false">Sáu nhịp trước bình minh</string>
+  <string name="stage_069_goal" formatted="false">Qua 6 cổng, thu 2 tín hiệu</string>
+  <string name="stage_069_special" formatted="false">Báo mẫu khe trước; tín hiệu ở nhịp nghỉ 2 và 5. Cần nhớ nghỉ để thu, không chỉ đuổi cổng.</string>
+  <string name="stage_069_skill" formatted="false">Thu hai tín hiệu ngay lần đầu.</string>
+  <string name="stage_070_name" formatted="false">Thần bão</string>
+  <string name="stage_070_goal" formatted="false">Phá 4 lõi</string>
+  <string name="stage_070_special" formatted="false">Gió trái, gió phải, tâm bão, mưa tầng ở bốn pha. Lõi mở thì gió giảm còn 25% để tới được.</string>
+  <string name="stage_070_skill" formatted="false">Không bị gió đẩy chạm biên.</string>
+  <string name="stage_071_name" formatted="false">Phi đội chữ V</string>
+  <string name="stage_071_goal" formatted="false">Sống 70s</string>
+  <string name="stage_071_special" formatted="false">Xung phá nút giữa chữ V mở đường tắt; hoặc đi ngoài cánh xa hơn nhưng không cần xung.</string>
+  <string name="stage_071_skill" formatted="false">Phá 3 nút giữa đội hình.</string>
+  <string name="stage_072_name" formatted="false">Khóa làn cũ</string>
+  <string name="stage_072_goal" formatted="false">Sống 75s</string>
+  <string name="stage_072_special" formatted="false">Drone đánh dấu làn rồi bắn sau 1,8s; dẫn đạn vào làn cũ và đổi có nhịp.</string>
+  <string name="stage_072_skill" formatted="false">Dẫn 6 loạt vào cùng một làn trống.</string>
+  <string name="stage_073_name" formatted="false">Tiếp tế bị bao vây</string>
+  <string name="stage_073_goal" formatted="false">Thu 3 kiện</string>
+  <string name="stage_073_special" formatted="false">Mỗi kiện có 2 drone canh, chọn xung hoặc khe nhỏ theo tàu. Có 5 kiện, không khóa lối.</string>
+  <string name="stage_073_skill" formatted="false">Thu đủ mà không xung phá drone canh.</string>
+  <string name="stage_074_name" formatted="false">Đòn nghi binh</string>
+  <string name="stage_074_goal" formatted="false">Qua 5 cổng thật</string>
+  <string name="stage_074_special" formatted="false">Mũi giả nét đứt không sát thương; cổng thật sau đòn chậm. Luật nghi binh được dạy, không giả thông báo hệ thống.</string>
+  <string name="stage_074_skill" formatted="false">Không chuyển sang làn mồi nhử.</string>
+  <string name="stage_075_name" formatted="false">Phá lớp hộ vệ</string>
+  <string name="stage_075_goal" formatted="false">Phá 3 nút bảo vệ</string>
+  <string name="stage_075_special" formatted="false">Nút hạ tới tầm xung khác thời điểm; có một điểm giao đủ tắt 2 nút bằng một xung. Pin nhiệm vụ đủ.</string>
+  <string name="stage_075_skill" formatted="false">Một xung tắt 2 nút lúc giao nhau.</string>
+  <string name="stage_076_name" formatted="false">Đường rút của đoàn hàng</string>
+  <string name="stage_076_goal" formatted="false">Bạn qua 4 cổng</string>
+  <string name="stage_076_special" formatted="false">Địch chặn tuyến tương lai của bạn. Đổi sớm để bạn theo; mỗi cổng có 2 đường thoát hợp lệ.</string>
+  <string name="stage_076_skill" formatted="false">Bạn qua đủ cổng không mất giáp.</string>
+  <string name="stage_077_name" formatted="false">Vòng vây hai nhịp</string>
+  <string name="stage_077_goal" formatted="false">Sống 80s</string>
+  <string name="stage_077_special" formatted="false">Vòng chỉ khép ở nửa trên; cửa thoát lần lượt mép/giữa, không chụp ở hàng tàu.</string>
+  <string name="stage_077_skill" formatted="false">Thoát 4 vòng không xung.</string>
+  <string name="stage_078_name" formatted="false">Kho nhiên liệu địch</string>
+  <string name="stage_078_goal" formatted="false">Thu 3 lõi, phá 2 kho</string>
+  <string name="stage_078_special" formatted="false">Phá kho giảm áp lực nhưng cần giữ năng lượng cho nhịp sau. Kho chỉ tính khi phá, không tự bay khỏi màn hình.</string>
+  <string name="stage_078_skill" formatted="false">Đúng 2 xung cho 2 kho, không bấm thừa.</string>
+  <string name="stage_079_name" formatted="false">Đội săn luân phiên</string>
+  <string name="stage_079_goal" formatted="false">Sống 85s</string>
+  <string name="stage_079_special" formatted="false">Mỗi 15s đổi vai trò khóa làn/hộ vệ/quét ngang; chỉ tối đa 2 vai trò đồng thời.</string>
+  <string name="stage_079_skill" formatted="false">Đạt combo 6.</string>
+  <string name="stage_080_name" formatted="false">Soái hạm Hắc Vũ</string>
+  <string name="stage_080_goal" formatted="false">Phá 5 lõi</string>
+  <string name="stage_080_special" formatted="false">Vượt khóa làn để hộ vệ tách và lộ lõi. Hai pha cuối phối chữ V/vòng thoát; pin trùm riêng từng pha.</string>
+  <string name="stage_080_skill" formatted="false">Không xung khi giáp lõi đóng.</string>
+  <string name="stage_081_name" formatted="false">Dấu vết tương lai</string>
+  <string name="stage_081_goal" formatted="false">Sống 75s</string>
+  <string name="stage_081_special" formatted="false">Báo điểm đến đá trước 2s rồi đá chạy đúng dự báo. Đọc dấu tương lai thay vì chỉ nhìn đá hiện tại.</string>
+  <string name="stage_081_skill" formatted="false">Qua 6 khe dự báo không xung.</string>
+  <string name="stage_082_name" formatted="false">Dòng chảy chậm</string>
+  <string name="stage_082_goal" formatted="false">Qua 5 cổng</string>
+  <string name="stage_082_special" formatted="false">Mỗi làn có tốc độ vật thể khác nhau; tàu/đồng hồ không chậm. So thời gian tới hàng tàu thay vì khoảng cách.</string>
+  <string name="stage_082_skill" formatted="false">Qua cả 5 lần mở đầu.</string>
+  <string name="stage_083_name" formatted="false">Một lần quay lại</string>
+  <string name="stage_083_goal" formatted="false">Sống 80s</string>
+  <string name="stage_083_special" formatted="false">Đá ký hiệu tua đi lùi rồi rơi lại đúng một lần; giữ ID/cờ né sát, không thưởng hai lần.</string>
+  <string name="stage_083_skill" formatted="false">4 né sát từ 4 ID sau khi tua.</string>
+  <string name="stage_084_name" formatted="false">Cổng hai thời điểm</string>
+  <string name="stage_084_goal" formatted="false">Qua 4 cổng pha</string>
+  <string name="stage_084_special" formatted="false">Cửa đầu hẹp, cửa sau rộng. Chọn đi sớm lấy lợi thế hoặc đợi an toàn hơn; không đổi ngẫu nhiên vị trí cửa.</string>
+  <string name="stage_084_skill" formatted="false">Qua ≥3 cổng ở cửa đầu.</string>
+  <string name="stage_085_name" formatted="false">Kiện hàng đứng yên</string>
+  <string name="stage_085_goal" formatted="false">Thu 4 kiện</string>
+  <string name="stage_085_special" formatted="false">Kiện dừng y=560 rồi tiếp tục theo đếm ngược; không nhặt trước khi tới hàng tàu. Có 6 cơ hội.</string>
+  <string name="stage_085_skill" formatted="false">Không bỏ lỡ 4 kiện đầu.</string>
+  <string name="stage_086_name" formatted="false">Tín hiệu lùi</string>
+  <string name="stage_086_goal" formatted="false">Qua 5 cổng theo chuỗi ngược</string>
+  <string name="stage_086_special" formatted="false">Hiện chuỗi kèm nhãn “đi ngược thứ tự” trước khi bắt đầu; có hỗ trợ đọc lại thứ tự thực thi.</string>
+  <string name="stage_086_skill" formatted="false">Không nhắc lại.</string>
+  <string name="stage_087_name" formatted="false">Bóng của chính mình</string>
+  <string name="stage_087_goal" formatted="false">Sống 85s</string>
+  <string name="stage_087_special" formatted="false">Bóng ghi đường đi 3s trước báo vị trí bắn sắp tới; bóng không va chạm. Rời đường cũ thay vì theo bóng.</string>
+  <string name="stage_087_skill" formatted="false">6 loạt vào đường bóng không trúng tàu.</string>
+  <string name="stage_088_name" formatted="false">Đóng băng có giới hạn</string>
+  <string name="stage_088_goal" formatted="false">Tắt 3 bộ phát thời gian</string>
+  <string name="stage_088_special" formatted="false">Xung lúc đóng chỉ dừng đạn, không tăng mục tiêu; chờ cửa lõi. Pin đủ các lần đúng, lỡ được lặp.</string>
+  <string name="stage_088_skill" formatted="false">Đúng 3 xung tắt 3 bộ.</string>
+  <string name="stage_089_name" formatted="false">Hiện tại là điểm hẹn</string>
+  <string name="stage_089_goal" formatted="false">Bạn 3 giáp sống</string>
+  <string name="stage_089_special" formatted="false">Bạn theo thời gian thật, đe dọa qua vùng nhanh/chậm. Vạch dự báo giúp đọc vật nào tới bạn trước.</string>
+  <string name="stage_089_skill" formatted="false">Không đe dọa từ vùng nhanh chạm bạn.</string>
+  <string name="stage_090_name" formatted="false">Người giữ đồng hồ</string>
+  <string name="stage_090_goal" formatted="false">Phá 5 lõi</string>
+  <string name="stage_090_special" formatted="false">Năm pha: dự báo, dừng, tua một lần, hai cửa sổ, chuỗi ngược. Chỉ hồi vị trí, không hồi máu trùm đã mất.</string>
+  <string name="stage_090_skill" formatted="false">Không xung lúc chưa mở lõi.</string>
+  <string name="stage_091_name" formatted="false">Ba con đường cuối</string>
+  <string name="stage_091_goal" formatted="false">Qua 6 cổng một tuyến</string>
+  <string name="stage_091_special" formatted="false">Trước màn chọn tuyến rộng ít tiếp tế / nhiều pin / né sát. Cùng dẫn tới đích, mỗi tuyến có cổng cứu trợ để đổi nếu cần.</string>
+  <string name="stage_091_skill" formatted="false">Không đổi tuyến bằng cổng cứu trợ.</string>
+  <string name="stage_092_name" formatted="false">Xung hay khiên</string>
+  <string name="stage_092_goal" formatted="false">Sống 85s</string>
+  <string name="stage_092_special" formatted="false">3 trạm cho chọn pin hoặc khiên bằng làn, không nhận cả hai. Mẫu tiếp sau có hai lời giải tương ứng.</string>
+  <string name="stage_092_skill" formatted="false">Không chọn cùng loại ở cả 3 trạm.</string>
+  <string name="stage_093_name" formatted="false">Đưa người cuối cùng về</string>
+  <string name="stage_093_goal" formatted="false">Bạn sống, cứu 2 khoang</string>
+  <string name="stage_093_special" formatted="false">Đường cứu cắt đường bảo vệ bạn; có pin trước lúc giao để một xung xử lý nguy hiểm chung.</string>
+  <string name="stage_093_skill" formatted="false">Bạn không mất giáp ở hai đợt cứu.</string>
+  <string name="stage_094_name" formatted="false">Hành lang bốn mùa</string>
+  <string name="stage_094_goal" formatted="false">Qua 8 cổng</string>
+  <string name="stage_094_special" formatted="false">Bốn đoạn thường → gió → băng → cấm nạp, mỗi đoạn 2 cổng. Giữa đoạn trung hòa 3s, không cộng trôi quá giới hạn.</string>
+  <string name="stage_094_skill" formatted="false">Qua đủ 8 lần mở đầu.</string>
+  <string name="stage_095_name" formatted="false">Vành đai phản công</string>
+  <string name="stage_095_goal" formatted="false">Sống 90s, phá 4 cụm mục tiêu</string>
+  <string name="stage_095_special" formatted="false">Đá thường gây áp lực; cụm có khiên mở theo nhịp, phải dành xung đúng lúc. Có 6 cửa sổ mục tiêu.</string>
+  <string name="stage_095_skill" formatted="false">Không phá cụm giả khung nét đứt.</string>
+  <string name="stage_096_name" formatted="false">Lựa chọn phi công</string>
+  <string name="stage_096_goal" formatted="false">Thu 3 khóa, qua cổng cuối</string>
+  <string name="stage_096_special" formatted="false">Mỗi khóa có nhánh hẹp giữ combo hoặc rộng để nạp. Lựa chọn ảnh hưởng đoạn sau nhưng không khóa khả năng thắng.</string>
+  <string name="stage_096_skill" formatted="false">Không dùng trạm nạp cứu trợ.</string>
+  <string name="stage_097_name" formatted="false">Phòng tuyến Nova</string>
+  <string name="stage_097_goal" formatted="false">Trạm 5 giáp sống</string>
+  <string name="stage_097_special" formatted="false">Ưu tiên tấn công 3 làn đổi theo tín hiệu; có nghỉ sau đợt lớn để quay vị trí. Không giả định đã có tàu đắt.</string>
+  <string name="stage_097_skill" formatted="false">Trạm còn ≥4/5 giáp.</string>
+  <string name="stage_098_name" formatted="false">Hành trình đã học</string>
+  <string name="stage_098_goal" formatted="false">Sống qua 5 đoạn</string>
+  <string name="stage_098_special" formatted="false">Lấy mẫu chương 2, 3, 5, 7, 9; công bố thứ tự trước, mỗi chỗ nối có quy tắc chuyển rõ.</string>
+  <string name="stage_098_skill" formatted="false">Không nhắc lại/cổng cứu trợ.</string>
+  <string name="stage_099_name" formatted="false">Cánh cửa bình minh</string>
+  <string name="stage_099_goal" formatted="false">Qua 6 cổng, tắt 2 khóa lõi</string>
+  <string name="stage_099_special" formatted="false">Cổng vị trí xen khóa xung; pin cấp trước khóa. Nếu dùng nhầm có vòng nạp cứu trợ, không khóa cứng.</string>
+  <string name="stage_099_skill" formatted="false">Xong trước 85s, không dùng vòng cứu trợ.</string>
+  <string name="stage_100_name" formatted="false">Trái tim thiên thạch</string>
+  <string name="stage_100_goal" formatted="false">Phá 6 lõi</string>
+  <string name="stage_100_special" formatted="false">Ba hồi, mỗi hồi 2 lõi: đá/cổng; bảo vệ/gió; thời gian/mở giáp. Giữa hồi nghỉ 5s, hồi 1 giáp/cấp NL. Pha cuối tối đa 2 cơ chế đã biết.</string>
+  <string name="stage_100_skill" formatted="false">Thắng chưa kích cứu mạng hoặc cổng cứu trợ; không cần sở hữu Sentinel.</string>
+  <string name="chapter_01" formatted="false">Bến sao: làm chủ con tàu</string>
+  <string name="chapter_02" formatted="false">Vành đai đá: đọc đường đi</string>
+  <string name="chapter_03" formatted="false">Vùng điện từ: dùng và giữ năng lượng</string>
+  <string name="chapter_04" formatted="false">Đoàn tàu lưu lạc: bảo vệ và ưu tiên</string>
+  <string name="chapter_05" formatted="false">Băng tinh vân: làm chủ quán tính</string>
+  <string name="chapter_06" formatted="false">Phế tích cơ giới: đọc máy và giải tuyến</string>
+  <string name="chapter_07" formatted="false">Cơn bão không gian: thích nghi môi trường</string>
+  <string name="chapter_08" formatted="false">Hạm đội bóng tối: phản xạ có chiến thuật</string>
+  <string name="chapter_09" formatted="false">Khe nứt thời gian: đọc quy luật thay đổi</string>
+  <string name="chapter_10" formatted="false">Tâm thiên thạch: tổng hợp và lựa chọn</string>
+  <string name="ship_s01_body" formatted="false">Cân bằng, không luật phụ; chuẩn kiểm chứng mọi màn. Đánh đổi: Không chuyên môn hóa.</string>
+  <string name="ship_s02_body" formatted="false">Chuyển làn nhanh, thân nhỏ. Đánh đổi: Ít giáp.</string>
+  <string name="ship_s03_body" formatted="false">Chịu nhiều va chạm lẻ. Đánh đổi: To, chậm, nạp chậm.</string>
+  <string name="ship_s04_body" formatted="false">Hút vật phẩm tùy chọn trong 45 đơn vị quanh hàng tàu. Đánh đổi: Không tự hút đồ bắt buộc/cổng; thân lớn.</string>
+  <string name="ship_s05_body" formatted="false">Nạp thụ động nhanh. Đánh đổi: Giáp thấp; pin thường chỉ nạp 15 thay vì 20.</string>
+  <string name="ship_s06_body" formatted="false">Khiên vật phẩm thêm 2s. Đánh đổi: Xung cơ bản chỉ bán kính 160.</string>
+  <string name="ship_s07_body" formatted="false">Sau né sát, giảm trôi môi trường 50% trong 1s. Đánh đổi: Cửa sổ combo cơ bản 4s.</string>
+  <string name="ship_s08_body" formatted="false">Mỗi 25s thực hồi 1 giáp nếu thiếu; tối đa 2 lần/màn, 3 lần/vô tận. Đánh đổi: Vật phẩm hồi giáp không nạp năng lượng.</string>
+  <string name="ship_s09_body" formatted="false">Xung đẩy đá thường chưa bị phá ra xa thêm 30 đơn vị nếu vẫn có đường thoát. Đánh đổi: Bảo vệ sau xung chỉ 0,45s.</string>
+  <string name="ship_s10_body" formatted="false">Một lần/màn ngăn đòn chí mạng, còn 1 giáp, bất tử 1s. Đánh đổi: Không ngăn thua do hộ tống/hết hạn; không cộng dồn hồi sinh.</string>
+  <string name="ship_s11_body" formatted="false">Lần nhặt đồ đầu mỗi chu kỳ 15s thêm 8 năng lượng. Đánh đổi: Làm chậm cơ bản ngắn hơn 1s.</string>
+  <string name="ship_s12_body" formatted="false">Trước màn chọn +1 giáp **hoặc** +30 bán kính xung. Đánh đổi: Cấu hình giáp: tốc độ còn 680; cấu hình xung: hồi NL còn 2,6.</string>
+  <string name="campaign" formatted="false">Hành trình 100 màn</string>
+  <string name="campaign_continue" formatted="false">Tiếp tục hành trình</string>
+  <string name="fleet" formatted="false">Xưởng tàu</string>
+  <string name="stage" formatted="false">Màn</string>
+  <string name="chapter" formatted="false">Chương</string>
+  <string name="stars" formatted="false">Sao</string>
+  <string name="stage_ready" formatted="false">Chuẩn bị chuyến bay</string>
+  <string name="stage_goal" formatted="false">Mục tiêu chính</string>
+  <string name="stage_special" formatted="false">Điểm đặc biệt</string>
+  <string name="stage_skill" formatted="false">Sao kỹ năng</string>
+  <string name="stage_damage" formatted="false">Sao giữ tàu: số lần mất giáp không quá</string>
+  <string name="stage_play" formatted="false">Bắt đầu màn</string>
+  <string name="stage_map" formatted="false">Bản đồ</string>
+  <string name="stage_next" formatted="false">Màn kế tiếp</string>
+  <string name="stage_retry" formatted="false">Thử lại màn này</string>
+  <string name="stage_victory" formatted="false">HOÀN THÀNH MÀN</string>
+  <string name="stage_defeat" formatted="false">CHƯA VƯỢT QUA MÀN</string>
+  <string name="stage_locked" formatted="false">Cần vượt màn trước</string>
+  <string name="stage_complete" formatted="false">Đã hoàn thành</string>
+  <string name="stage_first" formatted="false">Thưởng thắng lần đầu</string>
+  <string name="stage_star_reward" formatted="false">Thưởng sao mới</string>
+  <string name="stage_boss_reward" formatted="false">Thưởng cửa ải</string>
+  <string name="stage_chapter_reward" formatted="false">Thưởng chương</string>
+  <string name="ship_owned" formatted="false">Đã sở hữu</string>
+  <string name="ship_equipped" formatted="false">Đang dùng</string>
+  <string name="ship_equip" formatted="false">Trang bị</string>
+  <string name="ship_buy" formatted="false">Mua tàu</string>
+  <string name="ship_speed" formatted="false">Tốc độ ngang</string>
+  <string name="ship_radius" formatted="false">Bán kính va chạm</string>
+  <string name="ship_energy" formatted="false">Hồi năng lượng mỗi giây</string>
+  <string name="ship_choose" formatted="false">Chọn tàu</string>
+  <string name="account_upgrades" formatted="false">Nâng cấp tài khoản</string>
+  <string name="practice" formatted="false">Luyện tập</string>
+  <string name="practice_note" formatted="false">Luyện tập không mở màn, không nhận tiền hoặc sao.</string>
+  <string name="practice_active" formatted="false">ĐANG LUYỆN TẬP — KHÔNG THƯỞNG</string>
+  <string name="route" formatted="false">Tuyến đường</string>
+  <string name="route_safe" formatted="false">Đường rộng</string>
+  <string name="route_energy" formatted="false">Đường năng lượng</string>
+  <string name="route_risk" formatted="false">Đường né sát</string>
+  <string name="astra_armor" formatted="false">Cấu hình giáp</string>
+  <string name="astra_pulse" formatted="false">Cấu hình xung</string>
+  <string name="goal_gate" formatted="false">Cổng</string>
+  <string name="cargo" formatted="false">Kiện nhiệm vụ</string>
+  <string name="nodes" formatted="false">Nút kích hoạt</string>
+  <string name="cores" formatted="false">Lõi trùm</string>
+  <string name="ally" formatted="false">Đồng minh</string>
+  <string name="station" formatted="false">Trạm phòng thủ</string>
+  <string name="time_left" formatted="false">Còn lại</string>
+  <string name="boss_open" formatted="false">LÕI ĐÃ MỞ — PHÁT XUNG TRONG TẦM</string>
+  <string name="boss_closed" formatted="false">CHỜ LÕI MỞ</string>
+  <string name="memory" formatted="false">Chuỗi cổng</string>
+  <string name="memory_hint" formatted="false">Nhắc lại chuỗi</string>
+  <string name="defeat_armor" formatted="false">Hết giáp</string>
+  <string name="defeat_ally" formatted="false">Đồng minh bị phá hủy</string>
+  <string name="defeat_station" formatted="false">Trạm bị phá hủy</string>
+  <string name="defeat_timeout" formatted="false">Hết thời hạn mục tiêu</string>
+  <string name="sensitivity" formatted="false">Độ nhạy kéo</string>
+  <string name="campaign_finished" formatted="false">Đã hoàn thành 100 màn!</string>
+  <string name="ship_stats" formatted="false">Thông số tàu</string>
+  <string name="reward_base" formatted="false">Tiền sinh tồn</string>
+  <string name="reward_total" formatted="false">Tổng tín dụng nhận được</string>
+  <string name="save_before_next" formatted="false">Lưu kết quả trước khi đi tiếp.</string>
+  <string name="star_damage_info" formatted="false">Sao giữ tàu chỉ tính số lần mất giáp; sửa chữa không xóa số lần đã mất.</string>
+  <string name="practice_hint" formatted="false">Kéo để đón vật phẩm, đi qua cổng đúng và dùng xung khi lõi mở.</string>
 </resources>

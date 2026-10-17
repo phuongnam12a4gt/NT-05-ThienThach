@@ -95,4 +95,50 @@ class ProgressRepositoryTest {
         assertEquals(50L, repository.data.first().progress.credits)
         assertEquals(1L, repository.data.first().progress.totalRuns)
     }
+    @Test fun schemaOneMigratesWithoutChangingWalletRecordsOrSettings() = runBlocking {
+        withRepository { repository, store ->
+            store.edit {
+                it[intPreferencesKey("schemaVersion")]=1
+                it[longPreferencesKey("credits")]=1234L
+                it[longPreferencesKey("bestScore")]=9876L
+                it[intPreferencesKey("armorUpgradeLevel")]=2
+                it[booleanPreferencesKey("musicEnabled")]=false
+            }
+            val before=repository.data.first()
+            assertEquals(1234L,before.progress.credits)
+            assertEquals(setOf("S01"),before.progress.ownedShips)
+            assertTrue(before.progress.stages.isEmpty())
+            val after=repository.equipShip("S01")
+            assertEquals(before,after)
+            assertEquals(2,store.data.first()[intPreferencesKey("schemaVersion")])
+        }
+    }
+    @Test fun concurrentShipPurchaseAndCampaignRewardRemainAtomic() = runBlocking {
+        withRepository { repository, _ ->
+            repository.reward(RunResult("fundships",10000,100000,0))
+            val victory=RunResult("stagefirst",0,1000,0,stageId=1,victory=true,achievementBits=7)
+            coroutineScope { repeat(20) { launch { repository.reward(victory) };launch { runCatching { repository.buyShip("S02") } } } }
+            val p=repository.data.first().progress
+            assertEquals(setOf("S01","S02"),p.ownedShips)
+            assertEquals(500L-250+56+35,p.credits)
+            assertEquals(7,p.stages[1]?.bits)
+            assertEquals(2L,p.totalRuns)
+            val equipped=repository.equipShip("S02")
+            assertEquals("S02",equipped.progress.equippedShip)
+            val reset=repository.reset()
+            assertEquals(Progress(),reset.progress)
+        }
+    }
+    @Test fun fleetAndCampaignPersistWhenStoreReopens() = runBlocking {
+        val file=File(temporary.newFolder(),"campaign.preferences_pb")
+        val scope=CoroutineScope(SupervisorJob()+Dispatchers.IO)
+        val repo=ProgressRepository(store(file,scope))
+        repo.reward(RunResult("fleetfund",10000,100000,0))
+        repo.buyShip("S02");repo.equipShip("S02")
+        val expected=repo.reward(RunResult("campaignpersist",50,1000,0,stageId=1,victory=true,achievementBits=5))
+        scope.coroutineContext[Job]!!.cancelAndJoin()
+        val reopened=CoroutineScope(SupervisorJob()+Dispatchers.IO)
+        try { assertEquals(expected,ProgressRepository(store(file,reopened)).data.first()) }
+        finally { reopened.coroutineContext[Job]!!.cancelAndJoin() }
+    }
 }

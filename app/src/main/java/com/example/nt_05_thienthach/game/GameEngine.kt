@@ -61,7 +61,7 @@ object GameConfig {
     fun credits(score: Long) = score / 20
 }
 
-enum class Phase { READY, COUNTDOWN, RUNNING, PAUSED, CHOOSING, GAME_OVER }
+enum class Phase { READY, COUNTDOWN, RUNNING, PAUSED, CHOOSING, GAME_OVER, VICTORY }
 enum class FlightUpgrade { CAPACITOR, DAREDEVIL, FOCUS }
 
 enum class ItemKind { SHIELD, REPAIR, SLOW }
@@ -76,14 +76,17 @@ data class Upgrades(val armor: Int = 0, val shield: Int = 0, val slow: Int = 0) 
     val slowSeconds get() = GameConfig.SLOW_SECONDS + slow * .5
 }
 data class Meteor(val id: Long, var x: Float, var y: Float, val kind: MeteorKind,
-    var rotation: Float = 0f, var drift: Float = 0f, var grazed: Boolean = false)
+    var rotation: Float = 0f, var drift: Float = 0f, var grazed: Boolean = false,
+    val tag: Int = 0, var rewound: Boolean = false, val createdAt: Double = 0.0, val targetAlly: Boolean = false)
 data class Item(val id: Long, val x: Float, var y: Float, val kind: ItemKind)
 data class Particle(var x: Float, var y: Float, val vx: Float, val vy: Float, var life: Float, val kind: Int)
 data class Wave(val safeLane: Int, var warning: Double = GameConfig.WAVE_WARNING, var launched: Boolean = false)
 data class RunResult(val runId: String, val score: Long, val survivalMs: Long, val collectedItems: Int,
     val nearMisses: Int = 0, val bestCombo: Int = 0, val pulsesUsed: Int = 0,
     val bonusScore: Long = 0, val missionsCompleted: Int = 0,
-    val flightUpgrades: List<FlightUpgrade> = emptyList(), val endingEnergy: Int = 0) {
+    val flightUpgrades: List<FlightUpgrade> = emptyList(), val endingEnergy: Int = 0,
+    val stageId: Int? = null, val victory: Boolean = false, val achievementBits: Int = 0,
+    val shipId: String = "S01", val practice: Boolean = false, val defeat: DefeatReason = DefeatReason.NONE) {
     val earnedCredits get() = GameConfig.credits(score)
 }
 
@@ -158,13 +161,16 @@ class SpawnSystem(seed: Long) {
 }
 
 class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.nanoTime(),
-                 val runId: String = UUID.randomUUID().toString(), tutorial: Boolean = false) {
+                 val runId: String = UUID.randomUUID().toString(), tutorial: Boolean = false,
+                 val ship: ShipDefinition = ShipCatalog.nova, val stage: StageDefinition? = null,
+                 val astra: AstraConfiguration = AstraConfiguration.ARMOR, val practice: Boolean = false,
+                 val route: Int = 0) {
     var phase = if (tutorial) Phase.READY else Phase.COUNTDOWN; private set
     var countdown = GameConfig.COUNTDOWN; private set
     var time = 0.0; private set
     var shipX = 180f; private set
     var targetX = 180f
-    var armor = upgrades.maxArmor; private set
+    var armor = ship.armor + upgrades.armor + if (ship.id == "S12" && astra == AstraConfiguration.ARMOR) 1 else 0; private set
     var invulnerability = 0.0; private set
     var shield = 0.0; private set
     var slow = 0.0; private set
@@ -192,6 +198,15 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
     val items = mutableListOf<Item>()
     val particles = mutableListOf<Particle>()
     val events = mutableListOf<GameEvent>()
+    val campaign = stage?.let { StageSession(it, practice, route) }
+    var horizontalVelocity = 0f; private set
+    var armorHits = 0; private set
+    var sentinelUsed = false; private set
+    var defeatReason = DefeatReason.NONE; private set
+    private var medicHeals = 0
+    private var nextMedic = 25.0
+    private var nextAurora = 0.0
+    private var wraithUntil = 0.0
     private val spawner = SpawnSystem(seed)
     private var nextMeteor = GameConfig.FIRST_METEOR
     private var nextItem = GameConfig.FIRST_ITEM
@@ -204,9 +219,35 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
     private val chosenUpgrades = mutableListOf<FlightUpgrade>()
     val flightUpgrades: List<FlightUpgrade> get() = chosenUpgrades.toList()
     val upgradeOptions get() = FlightUpgrade.entries.filter { it !in chosenUpgrades }
-    val maxArmor get() = upgrades.maxArmor - if (FlightUpgrade.DAREDEVIL in chosenUpgrades) 1 else 0
-    val pulseRadius get() = GameConfig.PULSE_RADIUS + if (FlightUpgrade.CAPACITOR in chosenUpgrades) 70f else 0f
+    val maxArmor get() = ship.armor + upgrades.armor + (if (ship.id == "S12" && astra == AstraConfiguration.ARMOR) 1 else 0) - (if (FlightUpgrade.DAREDEVIL in chosenUpgrades) 1 else 0)
+    val pulseRadius get() = (if (ship.id == "S06") 160f else 180f) +
+        (if (ship.id == "S12" && astra == AstraConfiguration.PULSE) 30f else 0f) +
+        (if (FlightUpgrade.CAPACITOR in chosenUpgrades) 70f else 0f)
+    val speedLimit get() = if (ship.id == "S12" && astra == AstraConfiguration.ARMOR) 680f else ship.speed
+    fun rechargeEnergy(value: Double) { energy = (energy + value).coerceIn(0.0, 100.0) }
+    fun grantShield() { shield = upgrades.shieldSeconds + if (ship.id == "S06") 2 else 0 }
+    fun repair(value: Int = 1) { armor = min(maxArmor, armor + value) }
+    fun finishStage(won: Boolean, reason: DefeatReason = DefeatReason.NONE) {
+        if (phase != Phase.RUNNING) return
+        phase = if (won) Phase.VICTORY else Phase.GAME_OVER
+        defeatReason = reason; pulseRequested = false; accumulator = 0.0
+        events.add(if (won) GameEvent.MILESTONE else GameEvent.GAME_OVER)
+    }
+    fun damage(tag: Int = 0) {
+        if (phase != Phase.RUNNING || invulnerability > 0) return
+        invulnerability = GameConfig.INVULNERABILITY
+        if (shield > 0) { campaign?.onShieldBlock(); shield = 0.0; events.add(GameEvent.SHIELD_BREAK); notify(Notice.SHIELD_BREAK) }
+        else {
+            armorHits++; campaign?.recordHit(tag)
+            armor = max(0, armor - 1); combo = 0; comboRemaining = 0.0
+            events.add(GameEvent.HIT); notify(Notice.HIT)
+            if (armor == 0 && ship.id == "S10" && !sentinelUsed) { armor = 1; sentinelUsed = true; invulnerability = 1.0 }
+            if (armor == 0) { phase = Phase.GAME_OVER; defeatReason = DefeatReason.ARMOR; events.add(GameEvent.GAME_OVER) }
+        }
+        burst(shipX, GameConfig.SHIP_Y, 0)
+    }
     private var pausedFrom = Phase.RUNNING
+    fun offerUpgrade() { if (phase == Phase.RUNNING && upgradeOptions.isNotEmpty()) { phase = Phase.CHOOSING; targetX = shipX; pulseRequested = false } }
     fun chooseUpgrade(choice: FlightUpgrade): Boolean {
         if (phase != Phase.CHOOSING || choice !in upgradeOptions) return false
         chosenUpgrades.add(choice)
@@ -216,8 +257,10 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
         return true
     }
     var reducedMotion = false
-    val result get() = RunResult(runId, score, (time * 1000).toLong(), collected,
-        nearMisses, bestCombo, pulsesUsed, bonusScore, missionsCompleted, flightUpgrades, energy.toInt())
+    val result get() = RunResult(runId, score, (time * 1000).roundToLong(), collected,
+        nearMisses, bestCombo, pulsesUsed, bonusScore, missionsCompleted, flightUpgrades, energy.toInt(),
+        stage?.id, phase == Phase.VICTORY, if (phase == Phase.VICTORY) (1 or (if (armorHits <= (stage?.damageLimit ?: 0)) 2 else 0) or (if (campaign?.skillAchieved(this) == true) 4 else 0)) else 0,
+        ship.id, practice, defeatReason)
     fun startTutorial() { if (phase == Phase.READY) phase = Phase.RUNNING }
     fun requestPulse(): Boolean {
         if (phase != Phase.RUNNING || energy < GameConfig.ENERGY_MAX || pulseRequested) return false
@@ -256,26 +299,42 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
     private fun step() {
         val dt = GameConfig.STEP
         val previousX = shipX
-        shipX = targetX.coerceIn(GameConfig.MIN_X, GameConfig.MAX_X)
+        val desired = ((targetX.coerceIn(GameConfig.MIN_X, GameConfig.MAX_X) - shipX) / dt.toFloat()).coerceIn(-speedLimit, speedLimit)
+        val inWarmZone = stage?.id==44 && campaign?.tokens?.any{abs(it.x-shipX)<50}==true || stage?.id==50 && campaign?.bossOpen(time)==true
+        horizontalVelocity = if (campaign?.icy(time) == true && !inWarmZone) horizontalVelocity + (desired-horizontalVelocity) * min(1f, dt.toFloat()*4f) else desired
+        val wind = (if(stage?.id==62 && abs(shipX-(campaign?.safeX(this)?:180f))<45)0f else campaign?.wind(time) ?: 0f) * if (ship.id == "S07" && time < wraithUntil) .5f else 1f
+        shipX = (shipX + (horizontalVelocity + wind) * dt.toFloat()).coerceIn(GameConfig.MIN_X, GameConfig.MAX_X)
+        campaign?.beforeStep(this, dt)
+        if (ship.id == "S08" && time >= nextMedic) {
+            nextMedic += 25.0
+            if (armor < maxArmor && medicHeals < if (stage == null) 3 else 2) { repair(); medicHeals++ }
+        }
         invulnerability = remaining(invulnerability, dt); shield = remaining(shield, dt); slow = remaining(slow, dt)
         comboRemaining = remaining(comboRemaining, dt)
         if (comboRemaining == 0.0) combo = 0
         pulseRemaining = remaining(pulseRemaining, dt)
         noticeRemaining = remaining(noticeRemaining, dt)
         if (noticeRemaining == 0.0) notice = Notice.NONE
-        energy = min(GameConfig.ENERGY_MAX, energy + dt * GameConfig.ENERGY_PER_SECOND * if (FlightUpgrade.CAPACITOR in chosenUpgrades) .7 else 1.0)
+        val recharge = if (ship.id == "S12" && astra == AstraConfiguration.PULSE) 2.6 else ship.recharge
+        if (campaign?.rechargeAllowed(this) != false) rechargeEnergy(dt * recharge * if (FlightUpgrade.CAPACITOR in chosenUpgrades) .7 else 1.0)
         if (pulseRequested) {
             pulseRequested = false; energy = 0.0; pulsesUsed++
             pulseX = shipX; pulseRemaining = GameConfig.PULSE_SECONDS
-            invulnerability = max(invulnerability, GameConfig.PULSE_GRACE)
+            invulnerability = max(invulnerability, if (ship.id == "S09") .45 else GameConfig.PULSE_GRACE)
+            val nearby = meteors.filter { hypot(it.x-shipX, it.y-GameConfig.SHIP_Y) <= pulseRadius + it.kind.radius }
+            campaign?.onPulse(this, nearby)
             meteors.removeAll { meteor ->
                 val inside = hypot(meteor.x - shipX, meteor.y - GameConfig.SHIP_Y) <= pulseRadius + meteor.kind.radius
                 if (inside) burst(meteor.x, meteor.y, 2)
                 inside
             }
+            if (ship.id == "S09" && campaign?.hasAllies != true) meteors.filter { hypot(it.x-shipX, it.y-GameConfig.SHIP_Y) < pulseRadius + 60 }.forEach {
+                val x = (it.x + if (it.x < shipX) -30f else 30f).coerceIn(it.kind.radius, 360-it.kind.radius)
+                if (kotlin.math.abs(x-(campaign?.safeX(this) ?: shipX)) >= 65f + it.kind.radius) it.x = x
+            }
             burst(shipX, GameConfig.SHIP_Y, 2); events.add(GameEvent.PULSE); notify(Notice.PULSE)
         }
-        if (time + 1e-8 >= nextWave) {
+        if (stage == null && time + 1e-8 >= nextWave) {
             wave = Wave(spawner.safeLane()); nextWave = time + GameConfig.WAVE_INTERVAL
             waveRecovery = time + GameConfig.WAVE_WARNING + GameConfig.WAVE_RECOVERY
             events.add(GameEvent.WAVE); notify(Notice.WAVE)
@@ -287,17 +346,17 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
             }
             if (time >= waveRecovery) wave = null
         }
-        if (time + 1e-8 >= nextMeteor) {
+        if (stage == null && time + 1e-8 >= nextMeteor) {
             if (wave == null) spawner.meteor(time, meteors)?.let(meteors::add)
             nextMeteor = time + GameConfig.interval(time)
         }
         if (time + 1e-8 >= nextItem) {
             spawner.item(armor, maxArmor, items.size)?.let(items::add)
-            nextItem = time + spawner.itemInterval()
+            nextItem = time + if (stage != null) 7.0 else spawner.itemInterval()
         }
-        val speed = GameConfig.speed(time) * if (slow > 0) GameConfig.SLOW_FACTOR else 1f
+        val speed = (if (stage != null) (.8f + stage.chapter * .035f) else GameConfig.speed(time)) * if (slow > 0) GameConfig.SLOW_FACTOR else 1f
         meteors.forEach {
-            it.y += it.kind.speed * speed * dt.toFloat()
+            it.y += it.kind.speed * speed * dt.toFloat() * (campaign?.timeFactor(it, time) ?: 1f)
             it.x += it.drift * speed * dt.toFloat()
             if (it.x < it.kind.radius || it.x > 360 - it.kind.radius) {
                 it.x = it.x.coerceIn(it.kind.radius, 360 - it.kind.radius); it.drift = -it.drift
@@ -308,29 +367,26 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
         val itemIterator = items.iterator()
         while (itemIterator.hasNext()) {
             val item = itemIterator.next()
-            if (CollisionSystem.swept(previousX, shipX, item.x, item.y, 24f)) {
+            if (CollisionSystem.swept(previousX, shipX, item.x, item.y, ship.radius + 12f) || (ship.id == "S04" && hypot(item.x-shipX, item.y-GameConfig.SHIP_Y) <= 45f)) {
                 when (item.kind) {
-                    ItemKind.SHIELD -> shield = upgrades.shieldSeconds
+                    ItemKind.SHIELD -> shield = upgrades.shieldSeconds + if (ship.id == "S06") 2 else 0
                     ItemKind.REPAIR -> armor = min(maxArmor, armor + 1)
-                    ItemKind.SLOW -> slow = upgrades.slowSeconds * if (FlightUpgrade.FOCUS in chosenUpgrades) .8 else 1.0
+                    ItemKind.SLOW -> slow = (upgrades.slowSeconds - if (ship.id == "S11") 1 else 0) * if (FlightUpgrade.FOCUS in chosenUpgrades) .8 else 1.0
                 }
-                collected++; energy = min(GameConfig.ENERGY_MAX, energy + GameConfig.ENERGY_ITEM)
+                collected++; campaign?.onPickup(item.kind)
+                if (!(ship.id == "S08" && item.kind == ItemKind.REPAIR)) rechargeEnergy(if (ship.id == "S05") 15.0 else 20.0)
+                if (ship.id == "S11" && time >= nextAurora) { rechargeEnergy(8.0); nextAurora = time + 15.0 }
                 events.add(GameEvent.PICKUP); notify(Notice.PICKUP, 25); burst(item.x, item.y, 1); itemIterator.remove()
             } else if (item.y - 12 > 800) itemIterator.remove()
         }
         val iterator = meteors.iterator()
         while (iterator.hasNext()) {
             val meteor = iterator.next()
-            val radius = meteor.kind.radius + GameConfig.SHIP_RADIUS
+            val radius = meteor.kind.radius + ship.radius
             if (CollisionSystem.swept(previousX, shipX, meteor.x, meteor.y, radius)) {
                 iterator.remove()
-                if (invulnerability <= 0) {
-                    invulnerability = GameConfig.INVULNERABILITY
-                    if (shield > 0) { shield = 0.0; events.add(GameEvent.SHIELD_BREAK); notify(Notice.SHIELD_BREAK) }
-                    else { armor = max(0, armor - 1); combo = 0; comboRemaining = 0.0; events.add(GameEvent.HIT); notify(Notice.HIT) }
-                    burst(shipX, GameConfig.SHIP_Y, 0)
-                    if (armor == 0) { phase = Phase.GAME_OVER; events.add(GameEvent.GAME_OVER); break }
-                }
+                damage(meteor.tag)
+                if (phase == Phase.GAME_OVER) break
             } else {
                 val previousY = meteor.y - meteor.kind.speed * speed * dt.toFloat()
                 if (!meteor.grazed && previousY < GameConfig.SHIP_Y && meteor.y >= GameConfig.SHIP_Y) {
@@ -338,7 +394,8 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
                     val distance = abs(meteor.x - shipX)
                     if (invulnerability <= 0 && distance > radius && distance <= radius + GameConfig.NEAR_MARGIN) {
                         nearMisses++; combo = min(GameConfig.MAX_COMBO, combo + 1); bestCombo = max(bestCombo, combo)
-                        comboRemaining = GameConfig.COMBO_SECONDS + if (FlightUpgrade.FOCUS in chosenUpgrades) 3.0 else 0.0
+                        comboRemaining = (if (ship.id == "S07") 4.0 else GameConfig.COMBO_SECONDS) + if (FlightUpgrade.FOCUS in chosenUpgrades) 3.0 else 0.0
+                        wraithUntil = time + 1.0; campaign?.onNear(meteor)
                         val points = GameConfig.NEAR_SCORE * multiplier * if (FlightUpgrade.DAREDEVIL in chosenUpgrades) 2 else 1
                         bonusScore += points; energy = min(GameConfig.ENERGY_MAX, energy + GameConfig.ENERGY_NEAR)
                         events.add(GameEvent.NEAR_MISS); notify(Notice.NEAR_MISS, points); burst(meteor.x, meteor.y, 1)
@@ -350,13 +407,14 @@ class GameEngine(val upgrades: Upgrades = Upgrades(), val seed: Long = System.na
         particles.forEach { it.x += it.vx * dt.toFloat(); it.y += it.vy * dt.toFloat(); it.life -= dt.toFloat() }
         particles.removeAll { it.life <= 0 }
         time += dt
+        campaign?.afterStep(this, dt)
         if (phase == Phase.RUNNING) {
-            if (chosenUpgrades.size < FlightUpgrade.entries.size && time + 1e-8 >= (chosenUpgrades.size + 1) * 45.0) {
+            if (stage == null && chosenUpgrades.size < FlightUpgrade.entries.size && time + 1e-8 >= (chosenUpgrades.size + 1) * 45.0) {
                 phase = Phase.CHOOSING; targetX = shipX; pulseRequested = false
             }
-            if (!survivalMission && time + 1e-8 >= GameConfig.SURVIVAL_TARGET) { survivalMission = true; mission(GameConfig.SURVIVAL_BONUS) }
-            if (!nearMission && nearMisses >= GameConfig.NEAR_TARGET) { nearMission = true; mission(GameConfig.NEAR_BONUS) }
-            if (!itemMission && collected >= GameConfig.ITEM_TARGET) { itemMission = true; mission(GameConfig.ITEM_BONUS) }
+            if (stage == null && !survivalMission && time + 1e-8 >= GameConfig.SURVIVAL_TARGET) { survivalMission = true; mission(GameConfig.SURVIVAL_BONUS) }
+            if (stage == null && !nearMission && nearMisses >= GameConfig.NEAR_TARGET) { nearMission = true; mission(GameConfig.NEAR_BONUS) }
+            if (stage == null && !itemMission && collected >= GameConfig.ITEM_TARGET) { itemMission = true; mission(GameConfig.ITEM_BONUS) }
         }
     }
     private fun mission(points: Long) { bonusScore += points; events.add(GameEvent.MILESTONE); notify(Notice.MILESTONE, points) }

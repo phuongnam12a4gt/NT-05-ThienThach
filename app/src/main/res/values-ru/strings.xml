@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Выживание: 10 очков/с. Предметы: по 25 очков. Каждые 20 итоговых очков дают 1 кредит на улучшения. Прерванный полёт ничего не даёт.</string>
   <string name="help_accessibility" formatted="false">Нужны наблюдение и управление пальцем в реальном времени.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">ВЕРСИЯ 1.3 / 20 ЯЗЫКОВ</string>
+  <string name="update_badge" formatted="false">2.0 / Путешествие в 100 этапов</string>
   <string name="new_tagline" formatted="false">Проходите вплотную к метеорам для комбо. Спасайтесь импульсом и побейте рекорд.</string>
   <string name="pulse_ready" formatted="false">ИМПУЛЬС</string>
   <string name="pulse_charging">ЭНЕРГИЯ %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Усилитель</string>
   <string name="daredevil_name" formatted="false">Сорвиголова</string>
   <string name="focus_name" formatted="false">Фокус</string>
+  <string name="stage_001_name" formatted="false">Взлетай</string>
+  <string name="stage_001_goal" formatted="false">Живи 30 секунд</string>
+  <string name="stage_001_special" formatted="false">0–10 с прямо падают только небольшие камни; средний разрыв 10–20 с; 20–30 секунд меняйте прорези в обе стороны. Инструкция по вытягиванию по действию.</string>
+  <string name="stage_001_skill" formatted="false">Пройдите все 3 инструкции по технике безопасности.</string>
+  <string name="stage_002_name" formatted="false">Три пути назад</string>
+  <string name="stage_002_goal" formatted="false">Через 3 врата</string>
+  <string name="stage_002_special" formatted="false">Ворота открываются слева-центр-направо каждые 8 секунд; Промахи по воротам повторяются через 4 секунды. Основное внимание уделяется выбору местоположения, а не увеличению количества града.</string>
+  <string name="stage_002_skill" formatted="false">Не пропусти ни одного открытия ворот.</string>
+  <string name="stage_003_name" formatted="false">Первое пополнение запасов</string>
+  <string name="stage_003_goal" formatted="false">Соберите 2 пакета.</string>
+  <string name="stage_003_special" formatted="false">4 пакета по двум чередующимся маршрутам; Камень не занимает линию подбора в направляющем окне.</string>
+  <string name="stage_003_skill" formatted="false">Получил полную максимальную броню.</string>
+  <string name="stage_004_name" formatted="false">Лево-правый ритм</string>
+  <string name="stage_004_goal" formatted="false">Живи 35 секунд</string>
+  <string name="stage_004_special" formatted="false">В ряду камней есть прорезь, меняющаяся влево/вправо в зависимости от ритма; Есть где развернуться, стоять посередине не всегда безопасно.</string>
+  <string name="stage_004_skill" formatted="false">Через 4 центра прорезей отметьте правильный ритм.</string>
+  <string name="stage_005_name" formatted="false">Пульс открывает путь</string>
+  <string name="stage_005_goal" formatted="false">Отключите 2 минных кластера</string>
+  <string name="stage_005_special" formatted="false">Кластер вниз y=560, назначьте метку задачи перед каждым кластером. Нажмите раньше, чтобы получить подсказку, и повторите безопасно.</string>
+  <string name="stage_005_skill" formatted="false">Каждый кластер полностью отключается одним импульсом.</string>
+  <string name="stage_006_name" formatted="false">Расстояние до одного крыла</string>
+  <string name="stage_006_goal" formatted="false">2 действительных уклонения</string>
+  <string name="stage_006_special" formatted="false">Два небольших каменных маршрута, показывающие тренировочную площадку, минимум 8 возможностей. Столкновение не добавляет цели.</string>
+  <string name="stage_006_skill" formatted="false">Подключитесь 2, уклоняйтесь в течение 5 секунд, выполните комбо 2.</string>
+  <string name="stage_007_name" formatted="false">Энергетическая броня</string>
+  <string name="stage_007_goal" formatted="false">Живи 40-е</string>
+  <string name="stage_007_special" formatted="false">Передний щиток с двумя узкими секциями; по-прежнему имеет широкую внешнюю линию, поэтому вам не нужно принимать удар на себя.</string>
+  <string name="stage_007_skill" formatted="false">Щит блокируется один раз, броню не теряет.</string>
+  <string name="stage_008_name" formatted="false">На одну секунду помедленнее.</string>
+  <string name="stage_008_goal" formatted="false">Через 4 врата</string>
+  <string name="stage_008_special" formatted="false">Медленные ворота трансплантата; показывает, что предмет не замедляет целевые часы. Есть маршруты, на которых не нужно тормозить.</string>
+  <string name="stage_008_skill" formatted="false">Подберите 2 медленных предмета с разными идентификаторами.</string>
+  <string name="stage_009_name" formatted="false">Пилотное испытание</string>
+  <string name="stage_009_goal" formatted="false">Соберите 2 тюка, пройдите через 3 ворот.</string>
+  <string name="stage_009_special" formatted="false">Три этапа: собрать, сменить полосу, удержать пульс, чтобы открыть последний путь. Признайте обе цели одновременно.</string>
+  <string name="stage_009_skill" formatted="false">По крайней мере 3 уклоняйтесь от последних ворот.</string>
+  <string name="stage_010_name" formatted="false">Смотритель дока</string>
+  <string name="stage_010_goal" formatted="false">Разбить 2 ядра</string>
+  <string name="stage_010_special" formatted="false">Фаза 1: две колонки слева посередине; Смешайте 2 прорези в сторону, а затем опустите ядро. Отдельный вывод/окно для каждого ядра.</string>
+  <string name="stage_010_skill" formatted="false">Уничтожьте каждое ядро ​​в начале фазы.</string>
+  <string name="stage_011_name" formatted="false">Рыбья кость</string>
+  <string name="stage_011_goal" formatted="false">Живи 40-е</string>
+  <string name="stage_011_special" formatted="false">Две диагональные ветви образуют разрез «елочкой»; меняйте направление после каждой пары, причем прямая линия указывает на поворот.</string>
+  <string name="stage_011_skill" formatted="false">Через 5 отмеченных центральных слотов.</string>
+  <string name="stage_012_name" formatted="false">Парящая лестница</string>
+  <string name="stage_012_goal" formatted="false">Через 4 врата</string>
+  <string name="stage_012_special" formatted="false">Влево → немного влево → немного вправо → вправо; Постоянное обучение небольшому переводу. Пропущен текущий шлейф порта.</string>
+  <string name="stage_012_skill" formatted="false">Не используйте бобовые.</string>
+  <string name="stage_013_name" formatted="false">Ножницы</string>
+  <string name="stage_013_goal" formatted="false">Живи 45 секунд</string>
+  <string name="stage_013_special" formatted="false">Две диагональные линии пересекаются, но не достигают железнодорожной линии одновременно; Предупреждение о нумерации строк идет первым.</string>
+  <string name="stage_013_skill" formatted="false">4 уклонения минимум с 2-х линий.</string>
+  <string name="stage_014_name" formatted="false">Переулок меняет направление.</string>
+  <string name="stage_014_goal" formatted="false">Через 5 врат</string>
+  <string name="stage_014_special" formatted="false">Коридор меняет направление со стрелкой; сохранить инерцию корабля. У ворот 3 есть перерыв, чтобы научиться поворачивать.</string>
+  <string name="stage_014_skill" formatted="false">Сдал все 5 в первой попытке.</string>
+  <string name="stage_015_name" formatted="false">Камень-близнец</string>
+  <string name="stage_015_goal" formatted="false">Живи 45 секунд</string>
+  <string name="stage_015_special" formatted="false">Каждая пара выполняет медленный удар, за которым следует быстрый удар, избегая ложных пробелов после первого удара.</string>
+  <string name="stage_015_skill" formatted="false">Избегайте каждого типа скорости как минимум дважды.</string>
+  <string name="stage_016_name" formatted="false">Полумесяц</string>
+  <string name="stage_016_goal" formatted="false">Соберите 3 части карты.</string>
+  <string name="stage_016_special" formatted="false">Удар по изогнутой дуге; Предмет находится в безопасной вогнутой зоне, а затем меняется на противоположную дугу, есть 6 шансов.</string>
+  <string name="stage_016_skill" formatted="false">Соберите 3 части за первые 3 попытки.</string>
+  <string name="stage_017_name" formatted="false">Двойной ритм</string>
+  <string name="stage_017_goal" formatted="false">Живи 50-е</string>
+  <string name="stage_017_special" formatted="false">Два быстрых ряда, а затем длинный перерыв; В конце этапа поменяйте три ряда, чтобы избежать внезапного попадания камней в корабль.</string>
+  <string name="stage_017_skill" formatted="false">Один импульс уничтожает минимум 4 камня.</string>
+  <string name="stage_018_name" formatted="false">Орбита спутника</string>
+  <string name="stage_018_goal" formatted="false">Через 4 врата</string>
+  <string name="stage_018_special" formatted="false">Маленькие камни вращаются вокруг больших блоков; Орбитальный слот предсказывает место посадки в ряду кораблей.</string>
+  <string name="stage_018_skill" formatted="false">Не разрушайте центральный блок.</string>
+  <string name="stage_019_name" formatted="false">Пересечение амбиций</string>
+  <string name="stage_019_goal" formatted="false">Проживи 55 секунд и собери 2 блюда.</string>
+  <string name="stage_019_special" formatted="false">На широких дорогах мало вещей, на узких дорогах есть замки. Здесь 4 шлюза, поэтому не придется каждый раз выбирать рискованные маршруты.</string>
+  <string name="stage_019_skill" formatted="false">Соберите все 4 курса за 55 секунд.</string>
+  <string name="stage_020_name" formatted="false">Ленточная дробилка</string>
+  <string name="stage_020_goal" formatted="false">Разбить 3 ядра</string>
+  <string name="stage_020_special" formatted="false">Два крыла прижимаются, образуя горизонтальную прорезь; После нажатия на одно крыло оно перестает раскрывать сердцевину. Заключительная фаза меняет сканирование с сигналом тревоги.</string>
+  <string name="stage_020_skill" formatted="false">Корабль не пострадал от крыльевой мины.</string>
+  <string name="stage_021_name" formatted="false">Батарея посреди грозы</string>
+  <string name="stage_021_goal" formatted="false">Соберите 3 значка миссии.</string>
+  <string name="stage_021_special" formatted="false">За стойками с прорезями расположены 5 аккумуляторов; должен подобрать правильное положение вместо того, чтобы непрерывно посылать импульсы.</string>
+  <string name="stage_021_skill" formatted="false">Энергия не опускается ниже 30.</string>
+  <string name="stage_022_name" formatted="false">Нет погрузочной зоны</string>
+  <string name="stage_022_goal" formatted="false">Через 4 врата</string>
+  <string name="stage_022_special" formatted="false">Полосатая область перестает реагировать, яркая область заряжается нормально. Чередование портов заставляет выбирать: оставаться загруженным или рано переключаться.</string>
+  <string name="stage_022_skill" formatted="false">Пройдите последние ворота с NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Предохранитель</string>
+  <string name="stage_023_goal" formatted="false">Выключите 3 кнопки питания.</string>
+  <string name="stage_023_special" formatted="false">Кнопка выключается только в пределах радиуса импульса; Есть 3 дежурных аккумулятора. Невыключенная кнопка все равно имеет обход и следующий поворот.</string>
+  <string name="stage_023_skill" formatted="false">Выключите все 3, когда предохранительное кольцо открыто.</string>
+  <string name="stage_024_name" formatted="false">Ожерелье</string>
+  <string name="stage_024_goal" formatted="false">Через 5 ворот по порядку</string>
+  <string name="stage_024_special" formatted="false">Порт имеет номер/символ; только текущий порт получает прогресс. Прохождение через врата будущего не отнимает жизни и не увеличивает счет.</string>
+  <string name="stage_024_skill" formatted="false">Не проходите через ворота в неправильном порядке.</string>
+  <string name="stage_025_name" formatted="false">Выбирайте, атаковать или уклониться.</string>
+  <string name="stage_025_goal" formatted="false">Живи 55 с</string>
+  <string name="stage_025_special" formatted="false">Каждые 10 секунд штифт оказывается на противоположном краю следующего слота. Самостоятельно оцените, достаточно ли времени, чтобы вернуться на велосипеде или извлечь батарею; Путь извлечения аккумулятора существует всегда.</string>
+  <string name="stage_025_skill" formatted="false">Соберите 3 батарейки и все равно пройдите к следующему слоту.</string>
+  <string name="stage_026_name" formatted="false">Резонансный конденсатор</string>
+  <string name="stage_026_goal" formatted="false">Активировать 2 станции с NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Проходим территорию дренажной станции 80 NL; Перед каждой станцией есть очередь на 100 заправок. Импульс не заменяет сенсорную работу станции.</string>
+  <string name="stage_026_skill" formatted="false">Обе станции принимают, если входное значение NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">Ионный дождь</string>
+  <string name="stage_027_goal" formatted="false">Живи 55 секунд</string>
+  <string name="stage_027_special" formatted="false">Ионное облако заживает в одной полосе, но после предупреждения камень доберется и туда. Наличие как минимум 3 батарей обычно делает вторичную цель жизнеспособной.</string>
+  <string name="stage_027_skill" formatted="false">Передайте 3 действительных импульса.</string>
+  <string name="stage_028_name" formatted="false">Лампочка проводника</string>
+  <string name="stage_028_goal" formatted="false">Соберите 4 куска отводок.</string>
+  <string name="stage_028_special" formatted="false">Карта миссии циклически смещается в крайнее левое/правое положение, а линия указывает точку начала. Есть 7 возможностей.</string>
+  <string name="stage_028_skill" formatted="false">Соберите 4 предмета за первые 4 возможности.</string>
+  <string name="stage_029_name" formatted="false">Резерв в конце дороги</string>
+  <string name="stage_029_goal" formatted="false">Через 3 порта внесите ≥70 в последний порт</string>
+  <string name="stage_029_special" formatted="false">Первые два порта свободны; Затраты на конечные ворота появляются с самого начала. Компенсация заряда батареи происходит каждые 8 ​​секунд, если она отсутствует, имеется резервная линия.</string>
+  <string name="stage_029_skill" formatted="false">Не используйте компенсацию заряда батареи.</string>
+  <string name="stage_030_name" formatted="false">Ядро электрического шторма</string>
+  <string name="stage_030_goal" formatted="false">Разбить 3 ядра</string>
+  <string name="stage_030_special" formatted="false">Три ярких полюса сменяются; Встаньте, соблюдая правильную полярность, чтобы открыть броню, а затем используйте импульсную батарею. Последняя фаза не имеет времени восстановления, но все равно принимает значки миссий.</string>
+  <string name="stage_030_skill" formatted="false">Все три полюса открылись правильно с первой попытки.</string>
+  <string name="stage_031_name" formatted="false">Компаньон</string>
+  <string name="stage_031_goal" formatted="false">Союзники с 3 единицами брони живут 50 секунд.</string>
+  <string name="stage_031_special" formatted="false">Вы летите первым, подайте сигнал о перестроении на 2 секунды; игрок разбивает угрожающие камни импульсами. Первые 10 секунд низкого давления, чтобы научиться.</string>
+  <string name="stage_031_skill" formatted="false">Союзники не теряют броню.</string>
+  <string name="stage_032_name" formatted="false">Два спасательных рейса</string>
+  <string name="stage_032_goal" formatted="false">Подберите 2 спасательные шлюпки.</string>
+  <string name="stage_032_special" formatted="false">Удерживайте правильную зону приема в течение 1 секунды; В отсеке много быстрых падений и прикосновений, не повторяющихся.</string>
+  <string name="stage_032_skill" formatted="false">Готово за 40 секунд.</string>
+  <string name="stage_033_name" formatted="false">Перед лицом опасности</string>
+  <string name="stage_033_goal" formatted="false">Броня Станции 4 длится 55 секунд.</string>
+  <string name="stage_033_special" formatted="false">Камень провалился сквозь линию, из-за чего станция потеряла броню. Большие камни отдают приоритет станциям, маленькие — железнодорожным линиям; Определить опасности, которые необходимо предотвратить.</string>
+  <string name="stage_033_skill" formatted="false">Никакие большие камни не смогут пройти.</string>
+  <string name="stage_034_name" formatted="false">Хрупкие товары</string>
+  <string name="stage_034_goal" formatted="false">2-броненосный грузовой корабль 55с</string>
+  <string name="stage_034_special" formatted="false">Грузовые поезда редко меняют полосу движения; Две волны приближающихся дронов снабжаются импульсными батареями по расписанию.</string>
+  <string name="stage_034_skill" formatted="false">Используйте не более 3 импульсов.</string>
+  <string name="stage_035_name" formatted="false">Гид</string>
+  <string name="stage_035_goal" formatted="false">Проведет вас через 4 врата.</string>
+  <string name="stage_035_special" formatted="false">Вы следуете за полосой игрока с опозданием на 1,2 секунды; надо срочно менять. Пунктирная линия обозначает задержку, отсутствие необходимости во втором управляющем пальце.</string>
+  <string name="stage_035_skill" formatted="false">Вы проходите через каждые ворота, эксцентриситет щели ≤20 единиц.</string>
+  <string name="stage_036_name" formatted="false">Разделите источник рельефа пополам.</string>
+  <string name="stage_036_goal" formatted="false">Станция живет и доставляет 3 посылки</string>
+  <string name="stage_036_special" formatted="false">Зеленый пакет возвращается на станцию, желтый пакет дает дополнительные деньги. Иметь все основные факты; Спасение балансовой станции с прибылью.</string>
+  <string name="stage_036_skill" formatted="false">На станции осталось как минимум 3/4 брони.</string>
+  <string name="stage_037_name" formatted="false">Конвой следовал следом.</string>
+  <string name="stage_037_goal" formatted="false">Оба корабля живы.</string>
+  <string name="stage_037_special" formatted="false">Предыдущий/следующий друг ехал по тому же маршруту, но с разницей во времени; угрозы имеют идентификационные предупреждения, две отдельные бронепанели.</string>
+  <string name="stage_037_skill" formatted="false">Никто не потеряет более 1 брони.</string>
+  <string name="stage_038_name" formatted="false">Спасение под дождем</string>
+  <string name="stage_038_goal" formatted="false">Живи 65 секунд, сохрани 3 отсека.</string>
+  <string name="stage_038_special" formatted="false">Приемный отсек на перерыве после дождя, на счету 5 спасательных операций. Чтобы подняться, необходимо использовать ритм отдыха.</string>
+  <string name="stage_038_skill" formatted="false">Не подбирайте мины, замаскированные под предупреждающие знаки.</string>
+  <string name="stage_039_name" formatted="false">Намеренная приманка</string>
+  <string name="stage_039_goal" formatted="false">Ты живешь 65 секунд</string>
+  <string name="stage_039_special" formatted="false">Дрон блокирует старую полосу игрока, когда его предупреждают, а затем устремляется; Уведите угрозы от себя и двигайтесь дальше в нужный момент.</string>
+  <string name="stage_039_skill" formatted="false">Выведите 4 дронов на полосу без вас.</string>
+  <string name="stage_040_name" formatted="false">Космическое ограбление</string>
+  <string name="stage_040_goal" formatted="false">Разбив 3 ядра, грузовой корабль жив</string>
+  <string name="stage_040_special" formatted="false">Босс нацеливается на игроков/корабли поочередно, каждая серия имеет символ цели. Заблокируйте цель грузового корабля, чтобы открыть ядро.</string>
+  <string name="stage_040_skill" formatted="false">На грузовом корабле осталось ≥2/3 брони.</string>
+  <string name="stage_041_name" formatted="false">Тонкий лед</string>
+  <string name="stage_041_goal" formatted="false">Живи 55 с</string>
+  <string name="stage_041_special" formatted="false">Только 15–25 и 35–45 имеют проскальзывание при смене направления; зеленая зона торможения перед сменой полосы движения.</string>
+  <string name="stage_041_skill" formatted="false">Не прикасайтесь к двум краям ленты.</string>
+  <string name="stage_042_name" formatted="false">Тормоз перед воротами</string>
+  <string name="stage_042_goal" formatted="false">Через 4 врата</string>
+  <string name="stage_042_special" formatted="false">При прохождении через ворота горизонтальная скорость должна быть ≤120 ед./с. Есть спидометр для регулировки тормозов; Пропал ретранслятор портов.</string>
+  <string name="stage_042_skill" formatted="false">Сдал все 4 в первой попытке.</string>
+  <string name="stage_043_name" formatted="false">Лед треснул.</string>
+  <string name="stage_043_goal" formatted="false">Живите 60-ми</string>
+  <string name="stage_043_special" formatted="false">Лед раскололся на две части после линии трещины; может пульсировать перед разрывом. Фрагмент рождает только одно поколение.</string>
+  <string name="stage_043_skill" formatted="false">Разбейте 3 ледяных блока, прежде чем расколоть их.</string>
+  <string name="stage_044_name" formatted="false">Теплая вода</string>
+  <string name="stage_044_goal" formatted="false">Соберите 3 тепловых ядра.</string>
+  <string name="stage_044_special" formatted="false">Сердцевина находится в противоскользящей секции между двумя конвейерными лентами; набирай обороты потом тормози, по расписанию 6 ядер.</string>
+  <string name="stage_044_skill" formatted="false">Соберите 3 крора за первые 3 возможности.</string>
+  <string name="stage_045_name" formatted="false">Маятник холодный.</string>
+  <string name="stage_045_goal" formatted="false">Через 5 врат</string>
+  <string name="stage_045_special" formatted="false">Фазовая поворотная заслонка, индикатор точки срабатывания; предсказывать будущие позиции вместо того, чтобы гоняться за текущими точками.</string>
+  <string name="stage_045_skill" formatted="false">Не используйте бобовые.</string>
+  <string name="stage_046_name" formatted="false">Скользите под купол.</string>
+  <string name="stage_046_goal" formatted="false">Живи 65-е</string>
+  <string name="stage_046_special" formatted="false">Медленная каменная арка имеет короткий путь и внешнее кольцо. Если вы поскользнетесь слишком сильно, вы легко столкнетесь с краем короткой дороги. Времени на обход еще достаточно.</string>
+  <string name="stage_046_skill" formatted="false">Через 3 короткие строчки отмечено.</string>
+  <string name="stage_047_name" formatted="false">Батарейки на конвейере</string>
+  <string name="stage_047_goal" formatted="false">Загрузите 2 станции, пройдите через последние ворота</string>
+  <string name="stage_047_special" formatted="false">Конвейер толкает батарею, а не поезд; Прогнозирование точки посадки и маршрута остановки разделяет наблюдение/контроль.</string>
+  <string name="stage_047_skill" formatted="false">Перезарядите 2 станции за 50 секунд.</string>
+  <string name="stage_048_name" formatted="false">Эхо тумана</string>
+  <string name="stage_048_goal" formatted="false">Живите 70-ми</string>
+  <string name="stage_048_special" formatted="false">Предвещает цепочку игровых автоматов. Туман покрывает только фон/декорацию, но не закрывает хитбокс/панель предупреждений; с повторяющимися символами.</string>
+  <string name="stage_048_skill" formatted="false">Пройти 6 слотов не повторяясь.</string>
+  <string name="stage_049_name" formatted="false">Трещины распространяются</string>
+  <string name="stage_049_goal" formatted="false">Через 6 врат</string>
+  <string name="stage_049_special" formatted="false">Через каждые ворота старая полоса закрывается через 2 секунды; необходимо перейти, при этом область должна закрыться, а следующая область быть отмечена.</string>
+  <string name="stage_049_skill" formatted="false">Не возвращайтесь на старую полосу движения в течение 2 секунд после сигнала закрытия.</string>
+  <string name="stage_050_name" formatted="false">Белый Дракон</string>
+  <string name="stage_050_goal" formatted="false">Разбить 4 ядра</string>
+  <string name="stage_050_special" formatted="false">Первые две фазы представляют собой дрейфующие льды, последние две фазы представляют собой фрагментированные ледяные дуги. Ядро открыто в зоне нескользкости, до которой могут добраться все корабли.</string>
+  <string name="stage_050_skill" formatted="false">Не попал во вторичный фрагмент льда.</string>
+  <string name="stage_051_name" formatted="false">Переключатель в коридоре</string>
+  <string name="stage_051_goal" formatted="false">Включите 3 переключателя, пройдите через ворота.</string>
+  <string name="stage_051_special" formatted="false">Пройдите через переключатель в ряду поездов, чтобы открыть нужную заднюю дверь. Если промахнетесь, то сможете повторить, но сразу не проиграете.</string>
+  <string name="stage_051_skill" formatted="false">Включите все три первых встречи.</string>
+  <string name="stage_052_name" formatted="false">Код из трех изображений</string>
+  <string name="stage_052_goal" formatted="false">Введите строку из 3 символов.</string>
+  <string name="stage_052_special" formatted="false">Покажите треугольник-круг-квадрат в течение 4 секунд, затем выберите правильный порт. Значение False позволяет просмотреть и повторить текущий элемент; Не полагайтесь только на цвет.</string>
+  <string name="stage_052_skill" formatted="false">Не вводите неправильно/не повторяйте.</string>
+  <string name="stage_053_name" formatted="false">Патруль дронов</string>
+  <string name="stage_053_goal" formatted="false">Живые 65-е</string>
+  <string name="stage_053_special" formatted="false">Горизонтальные дроны имеют фиксированный маршрут, стреляют только при включенном свете; Прочитайте направление штока, чтобы угадать слот.</string>
+  <string name="stage_053_skill" formatted="false">Уничтожьте 4 дрона импульсом.</string>
+  <string name="stage_054_name" formatted="false">Зеркало не в фазе.</string>
+  <string name="stage_054_goal" formatted="false">Через 5 настоящих врат</string>
+  <string name="stage_054_special" formatted="false">Тень отражает ломаную линию, настоящие ворота представляют собой сплошную рамку + звуковой сигнал. Уменьшено движение тени, но сохранена различимость символов.</string>
+  <string name="stage_054_skill" formatted="false">Не прикасайтесь к ложному порту.</string>
+  <string name="stage_055_name" formatted="false">Кнопка ритма</string>
+  <string name="stage_055_goal" formatted="false">Выключите 3 передатчика</string>
+  <string name="stage_055_special" formatted="false">Передатчик открывается для приема импульса на 6 секунд, а затем накрывает броню; уровень рабочего контакта раньше, в следующем цикле будет предпринята попытка промаха.</string>
+  <string name="stage_055_skill" formatted="false">Выключите все 3, когда в окне останется ≥3 с.</string>
+  <string name="stage_056_name" formatted="false">Сортировочный конвейер</string>
+  <string name="stage_056_goal" formatted="false">Соберите 4 компонента треугольника.</string>
+  <string name="stage_056_special" formatted="false">Три типа смешаны вместе: отдельные цели, обычные предметы, предупредительные мины. Надо классифицировать, а не сгребать все подряд.</string>
+  <string name="stage_056_skill" formatted="false">Не берите детали неправильного типа.</string>
+  <string name="stage_057_name" formatted="false">Ярлык заблокирован</string>
+  <string name="stage_057_goal" formatted="false">Через 4 врата откройте последние ворота.</string>
+  <string name="stage_057_special" formatted="false">Бесплатная междугородняя связь; Ярлык стоит 40 NL, но экономит время. Последний порт требует 60, имеет компенсационный контакт, чтобы избежать жесткой блокировки.</string>
+  <string name="stage_057_skill" formatted="false">Готово за 55 секунд.</string>
+  <string name="stage_058_name" formatted="false">Четыре передачи</string>
+  <string name="stage_058_goal" formatted="false">Живи 75-е</string>
+  <string name="stage_058_special" formatted="false">Дрон следует за колоннами, дугами, диагоналями и смещается в цикле отклонения. Следующая модель, не бросайте все четыре одновременно.</string>
+  <string name="stage_058_skill" formatted="false">После 1 цикла четыре образца не пульсируют.</string>
+  <string name="stage_059_name" formatted="false">Запускаем реликвию</string>
+  <string name="stage_059_goal" formatted="false">Соберите 3 ядра, активируйте 1 станцию.</string>
+  <string name="stage_059_special" formatted="false">Соберите компоненты, затем вернитесь на станционный переулок, чтобы открыть ворота. Станция принимает только тогда, когда имеется достаточно ядер; Есть байпас для ожидания батареи.</string>
+  <string name="stage_059_skill" formatted="false">Использует только 1 импульс.</string>
+  <string name="stage_060_name" formatted="false">Архитектор</string>
+  <string name="stage_060_goal" formatted="false">Разбить 4 ядра</string>
+  <string name="stage_060_special" formatted="false">Правильно решите одноядерный маршрут с открытым символом. На заключительном этапе порядок меняется на обратный, но перед запуском отображается новый образец.</string>
+  <string name="stage_060_skill" formatted="false">Не выбирайте неправильные символы фаз.</string>
+  <string name="stage_061_name" formatted="false">Горизонтальный ветер</string>
+  <string name="stage_061_goal" formatted="false">Живи 65-е</string>
+  <string name="stage_061_special" formatted="false">Два толчка вслед за стрелкой, скорость дрейфа меньше компенсационной способности самого медленного корабля.</string>
+  <string name="stage_061_skill" formatted="false">Не прикасайтесь к кромке ветра.</string>
+  <string name="stage_062_name" formatted="false">Глаз бури</string>
+  <string name="stage_062_goal" formatted="false">Через 5 зон штормового центра</string>
+  <string name="stage_062_special" formatted="false">Нейтральная зона проходит через 3 полосы, не смещаясь в центр. Засчитывается только при проезде через центр ряда поездов.</string>
+  <string name="stage_062_skill" formatted="false">Во всех пяти первых появлениях.</string>
+  <string name="stage_063_name" formatted="false">Трехслойный дождь</string>
+  <string name="stage_063_goal" formatted="false">Живите 70-ми</string>
+  <string name="stage_063_special" formatted="false">Большие камни медленные, маленькие быстрые, мины дрейфуют на разных уровнях; прочитайте приказ тренироваться вместо простой дистанции.</string>
+  <string name="stage_063_skill" formatted="false">Импульс, уничтожающий объекты на всех 3 этажах.</string>
+  <string name="stage_064_name" formatted="false">Батарея сбилась</string>
+  <string name="stage_064_goal" formatted="false">Соберите 4 батарейки миссии.</string>
+  <string name="stage_064_special" formatted="false">Ветер толкает корабль и батареи с другой силой; Имеется линия пикапа, не ускоряйте аккумулятор резко. Всего 7 возможностей.</string>
+  <string name="stage_064_skill" formatted="false">Соберите 4 значка при первых 4 попытках.</string>
+  <string name="stage_065_name" formatted="false">Мгновенное предупреждение</string>
+  <string name="stage_065_goal" formatted="false">Через 6 врат</string>
+  <string name="stage_065_special" formatted="false">Фоновая вспышка обозначает последовательность, заменяется статическим символом при уменьшении движения. Опасность появляется только после периода ожидания.</string>
+  <string name="stage_065_skill" formatted="false">Не повторяйте строки.</string>
+  <string name="stage_066_name" formatted="false">Коридор давления</string>
+  <string name="stage_066_goal" formatted="false">Живые 75-е</string>
+  <string name="stage_066_special" formatted="false">Область давления доводится до середины, а затем открывается край; Необходимо покинуть середину перед закрытием, дать предупреждение за 2 секунды.</string>
+  <string name="stage_066_skill" formatted="false">6 уклоняйтесь ближе, не используйте импульс.</string>
+  <string name="stage_067_name" formatted="false">Измени ветер, чтобы спасти корабль.</string>
+  <string name="stage_067_goal" formatted="false">3 друга в броне живут 75 секунд</string>
+  <string name="stage_067_special" formatted="false">Ветер тебя не трогает; Ожидайте попадания камней на вашу полосу движения и первыми уничтожайте их импульсом.</string>
+  <string name="stage_067_skill" formatted="false">Вы не теряете броню из-за откатывающих в сторону камней.</string>
+  <string name="stage_068_name" formatted="false">Электростатический шторм</string>
+  <string name="stage_068_goal" formatted="false">Жизнь 80-х</string>
+  <string name="stage_068_special" formatted="false">8 секунд нормального восстановления / 4 секунды восстановления блокировки, батарея все еще получает. HUD четко показывает, что заблокировано. Наличие дополнительной батареи дает звездам достаточно возможностей.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​импульса, каждый импульс уничтожает ≥1 угрозу.</string>
+  <string name="stage_069_name" formatted="false">Шесть ударов до рассвета</string>
+  <string name="stage_069_goal" formatted="false">Через 6 портов примите 2 сигнала</string>
+  <string name="stage_069_special" formatted="false">Сначала образец отчета; Сигнал в состоянии покоя равен 2 и 5. Не забывайте отдыхать, чтобы получать, а не просто гоняться за воротами.</string>
+  <string name="stage_069_skill" formatted="false">С первого раза получено два сигнала.</string>
+  <string name="stage_070_name" formatted="false">Бог бури</string>
+  <string name="stage_070_goal" formatted="false">Разбить 4 ядра</string>
+  <string name="stage_070_special" formatted="false">Левый ветер, правый ветер, центр грозы, каскадный дождь в четыре фазы. При открытом ядре скорость ветра снижается до 25%.</string>
+  <string name="stage_070_skill" formatted="false">Не сброшенный ветром на край.</string>
+  <string name="stage_071_name" formatted="false">V-образная эскадрилья</string>
+  <string name="stage_071_goal" formatted="false">Живи 70-ми</string>
+  <string name="stage_071_special" formatted="false">Нажмите импульсно кнопку посередине буквы V, чтобы открыть ярлык; или выйти за крыло дальше но без необходимости пульса.</string>
+  <string name="stage_071_skill" formatted="false">Уничтожьте 3 кнопки в центре отряда.</string>
+  <string name="stage_072_name" formatted="false">Старый замок полосы движения</string>
+  <string name="stage_072_goal" formatted="false">Живые 75-е</string>
+  <string name="stage_072_special" formatted="false">Дрон отмечает полосу движения и стреляет через 1,8 секунды; Направьте пули в старую полосу и ритмично меняйтесь.</string>
+  <string name="stage_072_skill" formatted="false">Веду 6 серию по одной и той же пустой полосе.</string>
+  <string name="stage_073_name" formatted="false">Припасы окружены.</string>
+  <string name="stage_073_goal" formatted="false">Соберите 3 пакета.</string>
+  <string name="stage_073_special" formatted="false">В каждом пакете есть 2 дрона, которые охраняют и выбирают импульсы или небольшие слоты в зависимости от корабля. В наличии 5 пакетов, вход не заперт.</string>
+  <string name="stage_073_skill" formatted="false">Соберите достаточно, не уничтожив дрон наблюдения.</string>
+  <string name="stage_074_name" formatted="false">Диверсионная атака</string>
+  <string name="stage_074_goal" formatted="false">Через 5 настоящих врат</string>
+  <string name="stage_074_special" formatted="false">Искусственный нос с ломаными линиями не наносит ущерба; Настоящие ворота после медленного удара. Учат закону диверсии, а не фейковым системным уведомлениям.</string>
+  <string name="stage_074_skill" formatted="false">Не переключайтесь на ложную полосу.</string>
+  <string name="stage_075_name" formatted="false">Уничтожьте защитный слой.</string>
+  <string name="stage_075_goal" formatted="false">Уничтожьте 3 кнопки безопасности.</string>
+  <string name="stage_075_special" formatted="false">Кнопка достигает диапазона импульсов в разное время; Точки пересечения достаточно, чтобы одним импульсом отключить 2 узла. Достаточный ресурс аккумулятора.</string>
+  <string name="stage_075_skill" formatted="false">Импульс выключает 2 узла на пересечении.</string>
+  <string name="stage_076_name" formatted="false">Отступление конвоя</string>
+  <string name="stage_076_goal" formatted="false">Вы проходите через 4 врата.</string>
+  <string name="stage_076_special" formatted="false">Враг блокирует ваш дальнейший маршрут. Вносите изменения заранее, чтобы ваши друзья могли следить за ними; Каждый порт имеет два допустимых пути выхода.</string>
+  <string name="stage_076_skill" formatted="false">Вы проходите через достаточное количество врат, не теряя брони.</string>
+  <string name="stage_077_name" formatted="false">Двухпролетная осада</string>
+  <string name="stage_077_goal" formatted="false">Жизнь 80-х</string>
+  <string name="stage_077_special" formatted="false">Петля замкнута только в верхней половине; Выходные двери по очереди располагаются на краю/середине, а не в ряду поездов.</string>
+  <string name="stage_077_skill" formatted="false">Выход 4 раунда без пульса.</string>
+  <string name="stage_078_name" formatted="false">Вражеский склад топлива</string>
+  <string name="stage_078_goal" formatted="false">Соберите 3 крора, уничтожьте 2 склада.</string>
+  <string name="stage_078_special" formatted="false">Разрушение склада снижает давление, но требует сохранения энергии для следующего удара. Склады засчитываются только при уничтожении, они не вылетают за пределы экрана.</string>
+  <string name="stage_078_skill" formatted="false">Правильные 2 импульса на 2 склада, без лишних нажатий.</string>
+  <string name="stage_079_name" formatted="false">Смена охотничьего отряда</string>
+  <string name="stage_079_goal" formatted="false">Живые 85-е</string>
+  <string name="stage_079_special" formatted="false">Меняйте роли каждые 15 секунд, чтобы заблокировать полосу движения/охрану/обход; Максимум 2 роли одновременно.</string>
+  <string name="stage_079_skill" formatted="false">Выполните комбо 6.</string>
+  <string name="stage_080_name" formatted="false">Флагманский черный Вю</string>
+  <string name="stage_080_goal" formatted="false">Перерыв 5 крор</string>
+  <string name="stage_080_special" formatted="false">Пройдите через шлюз, чтобы позволить охраннику отделиться и обнажить ядро. Последние две фазы имеют V-образную форму и петлю выхода; Батарея покрывает каждую фазу отдельно.</string>
+  <string name="stage_080_skill" formatted="false">Нет импульса, когда броня ядра закрыта.</string>
+  <string name="stage_081_name" formatted="false">Следы будущего</string>
+  <string name="stage_081_goal" formatted="false">Живые 75-е</string>
+  <string name="stage_081_special" formatted="false">Сообщите о месте удара за 2 секунды и затем нанесите удар, как было предсказано. Читайте будущее, а не просто смотрите на настоящий камень.</string>
+  <string name="stage_081_skill" formatted="false">Через 6 слотов пульс не прогнозируется.</string>
+  <string name="stage_082_name" formatted="false">Медленный поток</string>
+  <string name="stage_082_goal" formatted="false">Через 5 врат</string>
+  <string name="stage_082_special" formatted="false">Каждая полоса имеет разную скорость объекта; Поезд/часы не отстают. Сравните время прибытия поезда, а не расстояние.</string>
+  <string name="stage_082_skill" formatted="false">Через все 5 отверстий.</string>
+  <string name="stage_083_name" formatted="false">Еще раз</string>
+  <string name="stage_083_goal" formatted="false">Живи 80-ми</string>
+  <string name="stage_083_special" formatted="false">Камень-символ движется назад, а затем падает ровно один раз; Держите флаг идентификации/уклонения близко, не награждайте дважды.</string>
+  <string name="stage_083_skill" formatted="false">4 уклоняйтесь от 4 ID после перемотки назад.</string>
+  <string name="stage_084_name" formatted="false">Двукратные ворота</string>
+  <string name="stage_084_goal" formatted="false">Через 4 фазных порта</string>
+  <string name="stage_084_special" formatted="false">Первая дверь узкая, задняя дверь широкая. Выбирайте: пойти пораньше, чтобы воспользоваться преимуществом, или подождать, чтобы быть в большей безопасности; не меняйте случайно положение двери.</string>
+  <string name="stage_084_skill" formatted="false">Через ≥3 ворот у первых ворот.</string>
+  <string name="stage_085_name" formatted="false">Пакет стационарный.</string>
+  <string name="stage_085_goal" formatted="false">Соберите 4 пакета.</string>
+  <string name="stage_085_special" formatted="false">Сью останавливает y=560 и продолжает обратный отсчет; Не забирайте машину, пока не доедете до железнодорожной линии. Есть 6 шансов.</string>
+  <string name="stage_085_skill" formatted="false">Не пропустите первые 4 пакета.</string>
+  <string name="stage_086_name" formatted="false">Сигнал обратного хода</string>
+  <string name="stage_086_goal" formatted="false">Через 5 портов в обратной цепочке</string>
+  <string name="stage_086_special" formatted="false">Перед запуском показывать строку с меткой «обратный порядок»; имеет поддержку перечитывания порядка выполнения.</string>
+  <string name="stage_086_skill" formatted="false">Не повторяй.</string>
+  <string name="stage_087_name" formatted="false">Моя собственная тень</string>
+  <string name="stage_087_goal" formatted="false">Живые 85-е</string>
+  <string name="stage_087_special" formatted="false">Мяч фиксирует путь за 3 секунды до указания позиции предстоящего броска; Мяч не сталкивается. Оставьте старый путь вместо того, чтобы следовать за мячом.</string>
+  <string name="stage_087_skill" formatted="false">6 выстрелов мяч не попал в корабль.</string>
+  <string name="stage_088_name" formatted="false">Ограниченное замораживание</string>
+  <string name="stage_088_goal" formatted="false">Выключите 3 передатчика времени.</string>
+  <string name="stage_088_special" formatted="false">Закрывающий импульс только останавливает пулю, не увеличивает цель; дождитесь основной двери. Закрепите правильное количество раз и повторите ошибку.</string>
+  <string name="stage_088_skill" formatted="false">Исправьте 3 импульса в 3 подходах.</string>
+  <string name="stage_089_name" formatted="false">Теперь место встречи.</string>
+  <string name="stage_089_goal" formatted="false">У тебя три живых знака зодиака.</string>
+  <string name="stage_089_special" formatted="false">Вы следите за происходящим в реальном времени, угрожая пересечь зону быстрого/медленного движения. Линии прогнозирования помогут вам увидеть, какой объект достигнет вас первым.</string>
+  <string name="stage_089_skill" formatted="false">Никакие угрозы из быстрой зоны до вас не доходят.</string>
+  <string name="stage_090_name" formatted="false">Смотритель стражи</string>
+  <string name="stage_090_goal" formatted="false">Перерыв 5 крор</string>
+  <string name="stage_090_special" formatted="false">Пять фаз: прогноз, остановка, однократная перемотка, два окна, обратная последовательность. Только восстанавливает позицию, не восстанавливает потерянное здоровье босса.</string>
+  <string name="stage_090_skill" formatted="false">Не пульсируйте, не открыв ядро.</string>
+  <string name="stage_091_name" formatted="false">Последние три дороги</string>
+  <string name="stage_091_goal" formatted="false">Через 6 ворот в одну линию</string>
+  <string name="stage_091_special" formatted="false">Перед экраном выберите широкий маршрут с небольшим запасом / большим количеством батареи / близким уклонением. На каждом маршруте, ведущем к одному и тому же пункту назначения, есть вспомогательные ворота, которые можно изменить в случае необходимости.</string>
+  <string name="stage_091_skill" formatted="false">Не меняйте маршрут, используя запасные ворота.</string>
+  <string name="stage_092_name" formatted="false">Импульс или щит</string>
+  <string name="stage_092_goal" formatted="false">Живые 85-е</string>
+  <string name="stage_092_special" formatted="false">3 станции позволяют вам выбирать батарею или щит по полосам, а не то и другое. Следующий шаблон имеет два соответствующих решения.</string>
+  <string name="stage_092_skill" formatted="false">Не выбирайте один и тот же тип на всех трех станциях.</string>
+  <string name="stage_093_name" formatted="false">Верни последнего человека.</string>
+  <string name="stage_093_goal" formatted="false">Ты жив, сохрани 2 отсека</string>
+  <string name="stage_093_special" formatted="false">Дорога к спасению отрезает путь к защите; Сохраните аккумулятор перед доставкой на случай общего опасного пульса.</string>
+  <string name="stage_093_skill" formatted="false">Вы не теряете броню при двух спасбросках.</string>
+  <string name="stage_094_name" formatted="false">Коридор четырех сезонов</string>
+  <string name="stage_094_goal" formatted="false">Через 8 врат</string>
+  <string name="stage_094_special" formatted="false">Четыре нормальные секции → ветер → лед → запрещенная нагрузка, в каждой секции по 2 порта. В середине нейтрализации в течение 3 секунд не добавляйте занос за пределы лимита.</string>
+  <string name="stage_094_skill" formatted="false">Пройдены все 8 попыток открытия.</string>
+  <string name="stage_095_name" formatted="false">Пояс контратаки</string>
+  <string name="stage_095_goal" formatted="false">Проживите 90 секунд, уничтожьте 4 группы целей.</string>
+  <string name="stage_095_special" formatted="false">Удары ногами часто вызывают давление; Кластер имеет щит, который раскрывается в ритме, импульс нужно сохранять в нужный момент. Имеется 6 целевых окон.</string>
+  <string name="stage_095_skill" formatted="false">Не уничтожайте пунктирный кластер псевдокадров.</string>
+  <string name="stage_096_name" formatted="false">Выбор пилота</string>
+  <string name="stage_096_goal" formatted="false">Соберите 3 замка, пройдите последние ворота.</string>
+  <string name="stage_096_special" formatted="false">У каждого замка есть узкая ветвь для хранения комбо или широкая ветвь для загрузки. Выбор влияет на следующий этап, но не блокирует возможность победы.</string>
+  <string name="stage_096_skill" formatted="false">Не пользуйтесь заправочной станцией.</string>
+  <string name="stage_097_name" formatted="false">Нова Лайн</string>
+  <string name="stage_097_goal" formatted="false">Живая броня Станции 5</string>
+  <string name="stage_097_special" formatted="false">Приоритет атаки по 3 линиям меняется в зависимости от сигнала; После большой волны наступает перерыв для ротации позиций. Не думайте, что дорогие корабли уже есть.</string>
+  <string name="stage_097_skill" formatted="false">На станции осталось ≥4/5 брони.</string>
+  <string name="stage_098_name" formatted="false">Путешествие изучено</string>
+  <string name="stage_098_goal" formatted="false">Проживи 5 абзацев</string>
+  <string name="stage_098_special" formatted="false">Примеры глав 2, 3, 5, 7, 9; объявлено заранее, на каждом перекрестке действуют четкие правила пересадки.</string>
+  <string name="stage_098_skill" formatted="false">Нет повторного/разгрузочного порта.</string>
+  <string name="stage_099_name" formatted="false">Дверь рассвета</string>
+  <string name="stage_099_goal" formatted="false">Через 6 портов отключите 2 блокировки ядра</string>
+  <string name="stage_099_special" formatted="false">Импульсная блокировка положения ворот; уровень заряда батареи перед блокировкой. В случае ошибочного использования имеется незафиксированное кольцо для заправки.</string>
+  <string name="stage_099_skill" formatted="false">Выполнено до истечения 85 секунд, не используйте спасательное кольцо.</string>
+  <string name="stage_100_name" formatted="false">Метеоритное сердце</string>
+  <string name="stage_100_goal" formatted="false">Разбить 6 ядер</string>
+  <string name="stage_100_special" formatted="false">Три раунда, в каждом раунде 2 ядра: камень/ворота; защита/ветер; время/открытие брони. Отдыхайте 5 секунд между ними, восстанавливайте 1 уровень брони/энергии. Терминальная фаза максимум 2 известных механизма.</string>
+  <string name="stage_100_skill" formatted="false">Танг не активировал спасательный спусковой крючок или порт сброса; Нет необходимости владеть Sentinel.</string>
+  <string name="chapter_01" formatted="false">Бен Стар: владей кораблем</string>
+  <string name="chapter_02" formatted="false">Каменный пояс: прочитать маршрут</string>
+  <string name="chapter_03" formatted="false">Электромагнитная область: использование и удержание энергии</string>
+  <string name="chapter_04" formatted="false">Потерянный поезд: защита и приоритет</string>
+  <string name="chapter_05" formatted="false">Ледяная туманность: мастер инерции</string>
+  <string name="chapter_06" formatted="false">Механические руины: машинное чтение и декодирование</string>
+  <string name="chapter_07" formatted="false">Космический шторм: экологическая адаптация</string>
+  <string name="chapter_08" formatted="false">Темный Флот: тактические рефлексы</string>
+  <string name="chapter_09" formatted="false">Разлом Времени: прочти правила смены</string>
+  <string name="chapter_10" formatted="false">Метеоритный центр: синтез и отбор</string>
+  <string name="ship_s01_body" formatted="false">Баланс, никаких второстепенных правил; Стандартная проверка каждого экрана. Компромисс: отсутствие специализации.</string>
+  <string name="ship_s02_body" formatted="false">Быстрая смена полосы движения, маленький кузов. Компромисс: меньше брони.</string>
+  <string name="ship_s03_body" formatted="false">Терпит множество странных столкновений. Компромиссы: Большая, медленная, медленная загрузка.</string>
+  <string name="ship_s04_body" formatted="false">Собирайте дополнительные предметы в пределах 45 единиц вокруг ряда корабля. Компромиссы: нет принудительного самовсасывания/порта; большое тело.</string>
+  <string name="ship_s05_body" formatted="false">Быстрая пассивная зарядка. Компромиссы: низкая броня; Батареи обычно заряжаются всего на 15 вместо 20.</string>
+  <string name="ship_s06_body" formatted="false">Защищает предметы еще на 2 секунды. Компромисс: радиус базового импульса составляет всего 160.</string>
+  <string name="ship_s07_body" formatted="false">После уклонения уменьшает снос окружающей среды на 50% на 1 секунду. Компромисс: базовое комбинированное окно 4s.</string>
+  <string name="ship_s08_body" formatted="false">Каждые 25 секунд восстанавливает 1 броню в случае ее отсутствия; Максимум 2 раза/уровень, 3 раза/бесконечно. Компромисс: предметы восстановления брони не перезаряжаются.</string>
+  <string name="ship_s09_body" formatted="false">Импульс толкает обычно неразрушенные камни на 30 единиц дальше, если еще есть путь к отступлению. Компромисс: время защиты после импульса составляет всего 0,45 с.</string>
+  <string name="ship_s10_body" formatted="false">Один раз/уровень предотвращает критический удар, остается 1 броня, неуязвимость на 1 секунду. Компромисс: не предотвращает потери из-за сопровождения/истечения срока действия; Не стакается, возрождается.</string>
+  <string name="ship_s11_body" formatted="false">При первом сборе предметов каждые 15 секунд добавляется 8 энергии. Компромисс: базовое замедление короче на 1 секунду.</string>
+  <string name="ship_s12_body" formatted="false">Перед сценой выберите +1 броню **или** +30 радиус импульса. Компромисс: конфигурация брони: скорость снижена до 680; Импульсная конфигурация: восстановить NL до 2,6.</string>
+  <string name="campaign" formatted="false">Путешествие в 100 этапов</string>
+  <string name="campaign_continue" formatted="false">Продолжайте свое путешествие.</string>
+  <string name="fleet" formatted="false">Верфь</string>
+  <string name="stage" formatted="false">Экран</string>
+  <string name="chapter" formatted="false">Глава</string>
+  <string name="stars" formatted="false">Почему</string>
+  <string name="stage_ready" formatted="false">Готовьтесь к полету</string>
+  <string name="stage_goal" formatted="false">Основная цель</string>
+  <string name="stage_special" formatted="false">Особый момент</string>
+  <string name="stage_skill" formatted="false">Звездные навыки</string>
+  <string name="stage_damage" formatted="false">Зачем держать корабль: количество раз, когда он теряет броню, не так уж и велико</string>
+  <string name="stage_play" formatted="false">Начать сцену</string>
+  <string name="stage_map" formatted="false">Карта</string>
+  <string name="stage_next" formatted="false">Следующий этап</string>
+  <string name="stage_retry" formatted="false">Попробуйте этот уровень еще раз</string>
+  <string name="stage_victory" formatted="false">ПОЛНЫЙ АКТ</string>
+  <string name="stage_defeat" formatted="false">НЕ ПРОШЛА КРИВУЮ</string>
+  <string name="stage_locked" formatted="false">Сначала нужно пройти уровень</string>
+  <string name="stage_complete" formatted="false">Завершено</string>
+  <string name="stage_first" formatted="false">Бонус за первую победу</string>
+  <string name="stage_star_reward" formatted="false">Новый звездный бонус</string>
+  <string name="stage_boss_reward" formatted="false">Наградите ворота.</string>
+  <string name="stage_chapter_reward" formatted="false">Бонусная глава</string>
+  <string name="ship_owned" formatted="false">В собственности</string>
+  <string name="ship_equipped" formatted="false">Используется</string>
+  <string name="ship_equip" formatted="false">Оборудование</string>
+  <string name="ship_buy" formatted="false">Купить корабль</string>
+  <string name="ship_speed" formatted="false">Горизонтальная скорость</string>
+  <string name="ship_radius" formatted="false">Радиус столкновения</string>
+  <string name="ship_energy" formatted="false">Регенерация энергии каждую секунду.</string>
+  <string name="ship_choose" formatted="false">Выбрать поезд</string>
+  <string name="account_upgrades" formatted="false">Обновите свою учетную запись</string>
+  <string name="practice" formatted="false">Практика</string>
+  <string name="practice_note" formatted="false">Практикуйтесь не открывая, не получая ни денег, ни чего-либо еще.</string>
+  <string name="practice_active" formatted="false">НА ПРАКТИКЕ — БЕЗ НАГРАЖДЕНИЯ</string>
+  <string name="route" formatted="false">Маршрут</string>
+  <string name="route_safe" formatted="false">Широкая дорога</string>
+  <string name="route_energy" formatted="false">Энергетическая линия</string>
+  <string name="route_risk" formatted="false">Близкое уклонение</string>
+  <string name="astra_armor" formatted="false">Конфигурация брони</string>
+  <string name="astra_pulse" formatted="false">Импульсная конфигурация</string>
+  <string name="goal_gate" formatted="false">Ворота</string>
+  <string name="cargo" formatted="false">Подайте в суд на миссию</string>
+  <string name="nodes" formatted="false">Кнопка активации</string>
+  <string name="cores" formatted="false">Ядро босса</string>
+  <string name="ally" formatted="false">Союзники</string>
+  <string name="station" formatted="false">Станция обороны</string>
+  <string name="time_left" formatted="false">Слева</string>
+  <string name="boss_open" formatted="false">CORE OPEN — ИМПУЛЬС В ДИАПАЗОНЕ</string>
+  <string name="boss_closed" formatted="false">ЖДИТЕ ОТКРЫТОГО ЯДРА</string>
+  <string name="memory" formatted="false">Строка порта</string>
+  <string name="memory_hint" formatted="false">Повторите строку</string>
+  <string name="defeat_armor" formatted="false">Без брони</string>
+  <string name="defeat_ally" formatted="false">Союзники уничтожены</string>
+  <string name="defeat_station" formatted="false">Станция уничтожена</string>
+  <string name="defeat_timeout" formatted="false">Целевой срок истек</string>
+  <string name="sensitivity" formatted="false">Чувствительность к тяге</string>
+  <string name="campaign_finished" formatted="false">Пройдено 100 уровней!</string>
+  <string name="ship_stats" formatted="false">Параметры корабля</string>
+  <string name="reward_base" formatted="false">Предварительное выживание</string>
+  <string name="reward_total" formatted="false">Общее количество полученных кредитов</string>
+  <string name="save_before_next" formatted="false">Прежде чем продолжить, сохраните результаты.</string>
+  <string name="star_damage_info" formatted="false">Почему обслуживание корабля учитывает только количество раз, когда он теряет броню; Ремонт не стирает утраченное время.</string>
+  <string name="practice_hint" formatted="false">Потяните, чтобы взять предмет, пройдите через правильные ворота и используйте импульс, когда ядро ​​откроется.</string>
 </resources>

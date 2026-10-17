@@ -44,6 +44,9 @@ import com.example.nt_05_thienthach.game.*
                     Screen.UPGRADES -> Upgrades(vm)
                     Screen.SETTINGS -> SettingsScreen(vm, openLanguages)
                     Screen.HELP -> Help(vm)
+                    Screen.CAMPAIGN -> CampaignMap(vm)
+                    Screen.PREPARE -> StagePreparation(vm)
+                    Screen.FLEET -> Fleet(vm)
                 }
             }
         }
@@ -75,17 +78,17 @@ import com.example.nt_05_thienthach.game.*
         if (vm.error) TextButton(onClick = vm::reload) { Text(stringResource(R.string.retry)) }
     }
 }
-@Composable private fun Eyebrow(id: Int) {
+@Composable internal fun Eyebrow(id: Int) {
     val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
     Text(stringResource(id), color = Cyan, fontSize = 10.sp, letterSpacing = if (rtl) 0.sp else 2.sp, fontWeight = FontWeight.Bold)
 }
-@Composable private fun BigTitle(id: Int) {
+@Composable internal fun BigTitle(id: Int) {
     val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
     Text(stringResource(id), modifier = Modifier.fillMaxWidth(), fontSize = 38.sp,
         lineHeight = if (rtl) 50.sp else 42.sp, fontWeight = FontWeight.Black,
         letterSpacing = if (rtl) 0.sp else (-1).sp, color = Ink)
 }
-@Composable private fun Action(id: Int, onClick: () -> Unit, enabled: Boolean = true, primary: Boolean = true) {
+@Composable internal fun Action(id: Int, onClick: () -> Unit, enabled: Boolean = true, primary: Boolean = true) {
     if (primary) Button(onClick = onClick, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
         shape = RoundedCornerShape(16.dp), contentPadding = PaddingValues(16.dp)) { Text(stringResource(id), fontWeight = FontWeight.Bold, fontSize = 14.sp) }
     else OutlinedButton(onClick = onClick, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),
@@ -93,15 +96,15 @@ import com.example.nt_05_thienthach.game.*
         Text(stringResource(id), color = if (enabled) Ink else Muted, fontWeight = FontWeight.Medium)
     }
 }
-@Composable private fun Sheet(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
+@Composable internal fun Sheet(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     Column(modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(Panel.copy(alpha = .88f))
         .border(1.dp, Muted.copy(alpha = .12f), RoundedCornerShape(22.dp)).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp), content = content)
 }
-@Composable private fun MenuPage(vm: GameViewModel, content: @Composable ColumnScope.() -> Unit) {
+@Composable internal fun MenuPage(vm: GameViewModel, content: @Composable ColumnScope.() -> Unit) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp)) {
-        TextButton(onClick = { vm.navigate(Screen.HOME) }, contentPadding = PaddingValues(0.dp), modifier = Modifier.heightIn(min = 48.dp)) {
+        TextButton(onClick = vm::back, contentPadding = PaddingValues(0.dp), modifier = Modifier.heightIn(min = 48.dp)) {
             Text((if (LocalLayoutDirection.current == LayoutDirection.Rtl) "→  " else "←  ") + stringResource(R.string.back), color = Muted)
         }
         content()
@@ -125,11 +128,14 @@ import com.example.nt_05_thienthach.game.*
                 Text(stringResource(R.string.survival_mode), fontSize = 10.sp, color = Cyan, letterSpacing = 1.sp)
                 Text("01", fontSize = 10.sp, color = Muted)
             }
-            ShipPortrait(Modifier.fillMaxWidth().height(150.dp).clearAndSetSemantics { })
-            Text(stringResource(R.string.ship_name), color = Ink, fontSize = 11.sp, letterSpacing = 1.sp)
+            ShipPortrait(Modifier.fillMaxWidth().height(150.dp).clearAndSetSemantics { }, vm.selectedShip)
+            Text(vm.selectedShip.name, color = Ink, fontSize = 11.sp, letterSpacing = 1.sp)
             Text(stringResource(R.string.ship_ready), color = Muted, fontSize = 11.sp, modifier = Modifier.padding(top = 4.dp))
         }
-        Action(R.string.play, vm::start, enabled = !vm.busy)
+        Action(R.string.campaign_continue, { vm.prepareStage(CampaignCatalog.unlocked(vm.saved.progress.stages)) }, enabled = !vm.busy)
+        Action(R.string.campaign, { vm.navigate(Screen.CAMPAIGN) }, primary = false)
+        Action(R.string.survival_mode, vm::startEndless, enabled = !vm.busy, primary = false)
+        Action(R.string.fleet, vm::openFleet, primary = false)
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Stat(stringResource(R.string.best), vm.saved.progress.bestScore.toString(), Modifier.weight(1f), Cyan)
             Stat(stringResource(R.string.wallet), vm.saved.progress.credits.toString(), Modifier.weight(1f), Orange)
@@ -143,7 +149,7 @@ import com.example.nt_05_thienthach.game.*
         Text(stringResource(R.string.offline), color = Muted.copy(alpha = .6f), fontSize = 9.sp, letterSpacing = 1.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
     }
 }
-@Composable private fun Stat(label: String, value: String, modifier: Modifier = Modifier, color: Color = Cyan) {
+@Composable internal fun Stat(label: String, value: String, modifier: Modifier = Modifier, color: Color = Cyan) {
     Column(modifier.clip(RoundedCornerShape(16.dp)).background(Panel.copy(alpha = .8f)).padding(16.dp)) {
         Text(label, color = Muted, fontSize = 10.sp, letterSpacing = 1.sp)
         Text(value, color = color, fontSize = 25.sp, fontWeight = FontWeight.Bold, modifier = Modifier.padding(top = 6.dp))
@@ -183,7 +189,7 @@ import com.example.nt_05_thienthach.game.*
                             if (vm.hud.shield > 0) Text(stringResource(R.string.shield_timer, vm.hud.shield), color = Cyan, fontSize = 10.sp)
                             if (vm.hud.slow > 0) Text(stringResource(R.string.slow_timer, vm.hud.slow), color = Color(0xFFBDA4FF), fontSize = 10.sp)
                         }
-                        FlightChallenge(vm)
+                        if (vm.campaignHud.id > 0) CampaignObjectiveHud(vm) else FlightChallenge(vm)
                         if (vm.hud.flightUpgrades.isNotEmpty()) Text(flightUpgradeNames(vm.hud.flightUpgrades), color = Cyan, fontSize = 10.sp)
                     }
                     FlightNotice(vm, Modifier.align(Alignment.TopCenter).padding(top = boardWidth * .75f, start = 8.dp, end = 8.dp))
@@ -252,7 +258,13 @@ import com.example.nt_05_thienthach.game.*
 @Composable private fun Results(vm: GameViewModel) {
     val result = vm.result ?: return
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
-        Spacer(Modifier.height(16.dp)); Eyebrow(R.string.mission_end); BigTitle(R.string.result_title)
+        Spacer(Modifier.height(16.dp)); Eyebrow(R.string.mission_end)
+        if (result.stageId != null) {
+            Text(stringResource(if(result.victory) R.string.stage_victory else R.string.stage_defeat)+" ${result.stageId}", color = if(result.victory) Cyan else Orange, fontSize=28.sp, fontWeight=FontWeight.Black)
+            Text("★".repeat(Integer.bitCount(result.achievementBits))+"☆".repeat(3-Integer.bitCount(result.achievementBits)),color=Orange,fontSize=30.sp)
+            if (!result.victory) Text(stringResource(when(result.defeat) { DefeatReason.ALLY->R.string.defeat_ally;DefeatReason.STATION->R.string.defeat_station;DefeatReason.TIMEOUT->R.string.defeat_timeout;else->R.string.defeat_armor }),color=Orange)
+            if(result.practice) Text(stringResource(R.string.practice_active),color=Orange)
+        } else BigTitle(R.string.result_title)
         if (vm.newRecord) Text(stringResource(R.string.new_record), color = Orange, fontSize = 12.sp, letterSpacing = 2.sp)
         Sheet {
             Eyebrow(R.string.final_score)
@@ -268,9 +280,22 @@ import com.example.nt_05_thienthach.game.*
             Detail(R.string.stat_bonus, "+${result.bonusScore}", Orange)
             Detail(R.string.stat_missions, "${result.missionsCompleted}/3", Orange)
             if (vm.rewardSaved) {
-                Detail(R.string.earned, "+${result.earnedCredits}", Orange)
+                Detail(R.string.earned, "+${vm.resultRewards.total}", Orange)
                 Detail(R.string.wallet, vm.saved.progress.credits.toString(), Orange)
             } else Text(stringResource(if (vm.error) R.string.reward_failed else R.string.reward_pending), color = Orange)
+        }
+        if (result.stageId != null && vm.rewardSaved && !result.practice) Sheet {
+            Detail(R.string.reward_base, "+${vm.resultRewards.base}")
+            Detail(R.string.stage_first, "+${vm.resultRewards.first}")
+            Detail(R.string.stage_star_reward, "+${vm.resultRewards.stars}")
+            Detail(R.string.stage_boss_reward, "+${vm.resultRewards.boss}")
+            Detail(R.string.stage_chapter_reward, "+${vm.resultRewards.chapter}")
+        }
+        if(result.stageId != null && vm.rewardSaved) {
+            if(result.victory && !result.practice && result.stageId < 100) Action(R.string.stage_next, { vm.prepareStage(result.stageId+1) }, enabled=!vm.busy)
+            if(result.victory && result.stageId==100) Text(stringResource(R.string.campaign_finished),color=Cyan,fontSize=20.sp)
+            Action(R.string.stage_map, { vm.navigate(Screen.CAMPAIGN) }, enabled=!vm.busy,primary=false)
+            Action(R.string.ship_choose, vm::openFleet, enabled=!vm.busy,primary=false)
         }
         if (!vm.rewardSaved && vm.error) Action(R.string.retry_save, vm::retrySave, enabled = !vm.busy)
         Sheet {
@@ -298,7 +323,7 @@ import com.example.nt_05_thienthach.game.*
         Text(stringResource(R.string.result_hint), color = Muted, fontSize = 12.sp)
     }
 }
-@Composable private fun Detail(id: Int, value: String, color: Color = Ink) {
+@Composable internal fun Detail(id: Int, value: String, color: Color = Ink) {
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
         Text(stringResource(id), color = Muted, fontSize = 13.sp, modifier = Modifier.weight(1f))
         Text(value, color = color, fontWeight = FontWeight.Bold, fontSize = 16.sp)
@@ -356,6 +381,14 @@ import com.example.nt_05_thienthach.game.*
         Toggle(R.string.sound, R.string.sound_hint, s.sound, !vm.busy) { vm.settings(s.copy(sound = it)) }
         Toggle(R.string.vibration, R.string.vibration_hint, s.vibration, !vm.busy) { vm.settings(s.copy(vibration = it)) }
         Toggle(R.string.reduced_motion, R.string.reduced_motion_hint, s.reducedMotion, !vm.busy) { vm.settings(s.copy(reducedMotion = it)) }
+    }
+    Sheet {
+        Text(stringResource(R.string.sensitivity),color=Ink)
+        Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+            listOf("0.75×","1×","1.25×").forEachIndexed { index,label ->
+                OutlinedButton(onClick={ vm.settings(vm.saved.settings.copy(sensitivity=index)) },enabled=!vm.busy) {Text((if(vm.saved.settings.sensitivity==index) "✓ " else "")+label)}
+            }
+        }
     }
     Text(stringResource(R.string.privacy), color = Muted, fontSize = 13.sp, lineHeight = 22.sp)
     OutlinedButton(onClick = { vm.confirmReset = true }, enabled = !vm.busy, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp),

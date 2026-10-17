@@ -33,8 +33,9 @@ class GameEngineTest {
     @Test fun touchingDoesNotMoveUntilNextFixedStepAndClamps() {
         val game = running(); game.targetX = 999f
         assertEquals(180f, game.shipX, 0f)
-        steps(game, 1); assertEquals(340f, game.shipX, 0f)
-        game.targetX = -100f; steps(game, 1); assertEquals(20f, game.shipX, 0f)
+        steps(game, 1); assertEquals(192f, game.shipX, .001f)
+        steps(game, 14); assertEquals(340f, game.shipX, .001f)
+        game.targetX = -100f; steps(game, 30); assertEquals(20f, game.shipX, .001f)
     }
     @Test fun countdownDoesNotSimulateAndResumesFromThree() {
         val game = GameEngine(seed = 42)

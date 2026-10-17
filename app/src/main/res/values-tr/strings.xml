@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Hayatta kalma: saniyede 10 puan. Eşyalar: her biri 25 puan. Son puandaki her 20 puan 1 geliştirme kredisi kazandırır. Bırakılan uçuş ödül vermez.</string>
   <string name="help_accessibility" formatted="false">Gerçek zamanlı gözlem ve sürükleme gerektirir.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">SÜRÜM 1.3 / 20 DİL</string>
+  <string name="update_badge" formatted="false">2.0 / 100 etaplık yolculuk</string>
   <string name="new_tagline" formatted="false">Meteorlara yakın geçerek kombo yap. Darbeyle kurtul ve rekorunu kır.</string>
   <string name="pulse_ready" formatted="false">DARBE</string>
   <string name="pulse_charging">ENERJİ %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Yükseltici</string>
   <string name="daredevil_name" formatted="false">Gözü pek</string>
   <string name="focus_name" formatted="false">Odak</string>
+  <string name="stage_001_name" formatted="false">Kalkış</string>
+  <string name="stage_001_goal" formatted="false">Canlı 30 saniye</string>
+  <string name="stage_001_special" formatted="false">0–10s yalnızca küçük kayalar düz düşer; 10–20s orta boşluk; 20–30 saniye boyunca yuvaları her iki tarafa değiştirin. Eylemle çekme talimatları.</string>
+  <string name="stage_001_skill" formatted="false">3 güvenlik talimatının tamamını uygulayın.</string>
+  <string name="stage_002_name" formatted="false">Üç dönüş yolu</string>
+  <string name="stage_002_goal" formatted="false">3 kapıdan</string>
+  <string name="stage_002_special" formatted="false">Kapı her 8 saniyede bir sol-orta-sağ açılır; Kapı 4 saniye sonra tekrarlamayı kaçırıyor. Odak noktası doluyu artırmak değil, konumu tespit etmektir.</string>
+  <string name="stage_002_skill" formatted="false">Hiçbir kapı açılışını kaçırmayın.</string>
+  <string name="stage_003_name" formatted="false">İlk ikmal</string>
+  <string name="stage_003_goal" formatted="false">2 paket toplayın</string>
+  <string name="stage_003_special" formatted="false">İki alternatif rotada 4 paket; Kaya, kılavuz penceresindeki toplama hattını işgal etmiyor.</string>
+  <string name="stage_003_skill" formatted="false">Tam maksimum zırhla tamamlandı.</string>
+  <string name="stage_004_name" formatted="false">Sol–sağ ritim</string>
+  <string name="stage_004_goal" formatted="false">Canlı 35\'ler</string>
+  <string name="stage_004_special" formatted="false">Taş sırasının ritme göre sola/sağa değişen bir yuvası vardır; Geri dönecek yer var, ortada durmak her zaman güvenli değil.</string>
+  <string name="stage_004_skill" formatted="false">Yuvaların 4 merkezi aracılığıyla doğru ritmi işaretleyin.</string>
+  <string name="stage_005_name" formatted="false">Pulse yolu açıyor</string>
+  <string name="stage_005_goal" formatted="false">2 mayın kümesini kapatın</string>
+  <string name="stage_005_special" formatted="false">Küme aşağı y=560, her kümeden önce görev pini atayın. İstenmek ve güvenli bir şekilde tekrarlamak için erken tıklayın.</string>
+  <string name="stage_005_skill" formatted="false">Her küme bir darbeyle tamamen kapatılır.</string>
+  <string name="stage_006_name" formatted="false">Tek kanat mesafesi</string>
+  <string name="stage_006_goal" formatted="false">2 geçerli kaçış</string>
+  <string name="stage_006_special" formatted="false">İki örnek küçük kaya rotası, uygulama alanını gösteren, en az 8 fırsat. Çarpışma hedefe katkıda bulunmaz.</string>
+  <string name="stage_006_skill" formatted="false">Bağlan 2, 5 saniye boyunca yakından kaçın, kombo 2\'ye ulaşın.</string>
+  <string name="stage_007_name" formatted="false">Enerji zırhı</string>
+  <string name="stage_007_goal" formatted="false">Canlı 40\'lar</string>
+  <string name="stage_007_special" formatted="false">İki dar kesitli ön koruma; hala geniş bir dış çizgisi var, bu yüzden darbe almanıza gerek yok.</string>
+  <string name="stage_007_skill" formatted="false">Kalkan bir kez bloke eder, zırhı kaybetmez.</string>
+  <string name="stage_008_name" formatted="false">Bir saniyelik yavaşlama</string>
+  <string name="stage_008_goal" formatted="false">4 kapıdan</string>
+  <string name="stage_008_special" formatted="false">Yavaş aşılama kapısı; öğenin hedef saati yavaşlatmadığını gösterir. Yavaşlamak için alınması gerekmeyen rotalar var.</string>
+  <string name="stage_008_skill" formatted="false">Farklı kimliklere sahip 2 yavaş öğeyi alın.</string>
+  <string name="stage_009_name" formatted="false">Pilot test</string>
+  <string name="stage_009_goal" formatted="false">2 balya topla, 3 kapıdan geç</string>
+  <string name="stage_009_special" formatted="false">Üç aşama: toplama, şerit değiştirme, son yolu açmak için nabzı tutma. Her iki hedefi de aynı anda kabul edin.</string>
+  <string name="stage_009_skill" formatted="false">Son kapıya yakın en az 3 kaçış.</string>
+  <string name="stage_010_name" formatted="false">Liman sorumlusu</string>
+  <string name="stage_010_goal" formatted="false">2 çekirdeği kırın</string>
+  <string name="stage_010_special" formatted="false">Aşama 1 ortada iki sütun kaldı; 2 yuvayı yan tarafa karıştırın ve ardından çekirdeği indirin. Her çekirdek için ayrı pin/pencere.</string>
+  <string name="stage_010_skill" formatted="false">Aşamanın başında her çekirdeği yok edin.</string>
+  <string name="stage_011_name" formatted="false">Kılçık</string>
+  <string name="stage_011_goal" formatted="false">Canlı 40\'lar</string>
+  <string name="stage_011_special" formatted="false">İki çapraz dal bir balıksırtı yarığı oluşturur; Her çiftten sonra yönü değiştirin; düz bir çizgi dönüşü belirtir.</string>
+  <string name="stage_011_skill" formatted="false">İşaretli 5 orta yuva aracılığıyla.</string>
+  <string name="stage_012_name" formatted="false">Yüzen merdivenler</string>
+  <string name="stage_012_goal" formatted="false">4 kapıdan</string>
+  <string name="stage_012_special" formatted="false">Sol → biraz sol → biraz sağ → sağ; Sürekli olarak küçük çevirileri öğretmek. Geçerli bağlantı noktası geri döngüsü kaçırıldı.</string>
+  <string name="stage_012_skill" formatted="false">Darbe kullanmayın.</string>
+  <string name="stage_013_name" formatted="false">Makas</string>
+  <string name="stage_013_goal" formatted="false">Canlı 45\'ler</string>
+  <string name="stage_013_special" formatted="false">İki çapraz çizgi kesişiyor ancak aynı anda tren hattına ulaşmıyor; Önce satır numaralandırma uyarısı gelir.</string>
+  <string name="stage_013_skill" formatted="false">En az 2 satırdan 4 kaçış.</string>
+  <string name="stage_014_name" formatted="false">Sokak yön değiştiriyor</string>
+  <string name="stage_014_goal" formatted="false">5 kapıdan</string>
+  <string name="stage_014_special" formatted="false">Koridor bir okla yön değiştirir; geminin ivmesini koruyun. Kapı 3\'ün dönmeyi öğrenmek için bir molası var.</string>
+  <string name="stage_014_skill" formatted="false">Açılış denemesinde 5\'in tamamını geçti.</string>
+  <string name="stage_015_name" formatted="false">İkiz taş</string>
+  <string name="stage_015_goal" formatted="false">Canlı 45\'ler</string>
+  <string name="stage_015_special" formatted="false">İlk vuruştan sonra yanlış boşluklardan kaçınmak için her çiftin yavaş bir vuruşu ve ardından hızlı bir vuruşu vardır.</string>
+  <string name="stage_015_skill" formatted="false">Her hız türünden en az iki kez kaçının.</string>
+  <string name="stage_016_name" formatted="false">Hilal</string>
+  <string name="stage_016_goal" formatted="false">3 harita parçası toplayın</string>
+  <string name="stage_016_special" formatted="false">Kavisli bir yay çizin; Öğe güvenli içbükey alandadır ve daha sonra karşı yaya değiştirilir, 6 şans vardır.</string>
+  <string name="stage_016_skill" formatted="false">İlk 3 şansta 3 adet toplayın.</string>
+  <string name="stage_017_name" formatted="false">Çift ritim</string>
+  <string name="stage_017_goal" formatted="false">Canlı 50\'ler</string>
+  <string name="stage_017_special" formatted="false">İki kısa sıra ve ardından uzun bir ara; Etabın sonunda ani kayaların gemiye girmesini önlemek için üç sırayı değiştirin.</string>
+  <string name="stage_017_skill" formatted="false">Bir darbe en az 4 taşı yok eder.</string>
+  <string name="stage_018_name" formatted="false">Uydu yörüngesi</string>
+  <string name="stage_018_goal" formatted="false">4 kapıdan</string>
+  <string name="stage_018_special" formatted="false">Küçük kayalar büyük blokların etrafında döner; Yörünge yuvası, gemi sırasındaki toplama konumunu tahmin eder.</string>
+  <string name="stage_018_skill" formatted="false">Orta bloğu tahrip etmeyin.</string>
+  <string name="stage_019_name" formatted="false">Hırsın kesişimi</string>
+  <string name="stage_019_goal" formatted="false">55 saniye yaşayın ve 2 kurs toplayın</string>
+  <string name="stage_019_special" formatted="false">Geniş yollarda çok az şey vardır, dar yollarda ise kilitler vardır. 4 adet kilit bulunmaktadır, bu sayede her seferinde riskli rotalara girmenize gerek kalmaz.</string>
+  <string name="stage_019_skill" formatted="false">55 saniyeden önce 4 parkurun tamamını toplayın.</string>
+  <string name="stage_020_name" formatted="false">Bantlı kırıcı</string>
+  <string name="stage_020_goal" formatted="false">3 çekirdeği kırın</string>
+  <string name="stage_020_special" formatted="false">İki kanat yatay bir yuva oluşturmak için bastırır; Bir kanada bastıktan sonra çekirdeğin ortaya çıkması durur. Son aşama, taramayı bir alarmla tersine çevirir.</string>
+  <string name="stage_020_skill" formatted="false">Gemiye kanat mayını çarpmadı.</string>
+  <string name="stage_021_name" formatted="false">Pil fırtınanın ortasında</string>
+  <string name="stage_021_goal" formatted="false">3 görev rozeti toplayın</string>
+  <string name="stage_021_special" formatted="false">Yuvalı direklerin arkasında 5 adet pil bulunmaktadır; sürekli darbe göndermek yerine doğru pozisyonu almalıdır.</string>
+  <string name="stage_021_skill" formatted="false">Enerji 30\'un altına düşmüyor.</string>
+  <string name="stage_022_name" formatted="false">Yükleme alanı yok</string>
+  <string name="stage_022_goal" formatted="false">4 kapıdan</string>
+  <string name="stage_022_special" formatted="false">Çizgili alan yanıt vermiyor, parlak alan normal şekilde şarj oluyor. Alternatif bağlantı noktaları, yüklü kalma veya erken geçiş yapma seçeneğini zorlar.</string>
+  <string name="stage_022_skill" formatted="false">NL ≥70 olan son kapıyı geçin.</string>
+  <string name="stage_023_name" formatted="false">Sigorta</string>
+  <string name="stage_023_goal" formatted="false">3 güç düğmesini kapatın</string>
+  <string name="stage_023_special" formatted="false">Düğme yalnızca darbe yarıçapı dahilinde kapanır; 3 adet görev aküsü bulunmaktadır. Kapatılmayan düğmenin hala bir bypass\'ı ve bir sonraki dönüşü var.</string>
+  <string name="stage_023_skill" formatted="false">Emniyet halkası açıkken 3\'ünü de kapatın.</string>
+  <string name="stage_024_name" formatted="false">Kolye</string>
+  <string name="stage_024_goal" formatted="false">Sırasıyla 5 kapıdan geçiyoruz</string>
+  <string name="stage_024_special" formatted="false">Bağlantı noktasının bir numarası/sembolü vardır; yalnızca geçerli bağlantı noktası ilerleme alır. Gelecek kapıdan geçmek can eksiltmez, sayımı arttırmaz.</string>
+  <string name="stage_024_skill" formatted="false">Kapıdan yanlış sırayla geçmeyin.</string>
+  <string name="stage_025_name" formatted="false">Hücum etmeyi veya kaçmayı seçin</string>
+  <string name="stage_025_goal" formatted="false">Canlı 55\'ler</string>
+  <string name="stage_025_special" formatted="false">Her 10 saniyede bir pim bir sonraki yuvanın karşı kenarındadır. Geri dönmek veya pili çıkarmak için yeterli zamanın olup olmadığını kendiniz değerlendirin; Pil çıkarma yolu her zaman mevcuttur.</string>
+  <string name="stage_025_skill" formatted="false">3 pil toplayın ve yine de bir sonraki yuvaya geçin.</string>
+  <string name="stage_026_name" formatted="false">Rezonans kapasitör</string>
+  <string name="stage_026_goal" formatted="false">NL ≥80 olan 2 istasyonu etkinleştirin</string>
+  <string name="stage_026_special" formatted="false">80 NL drenaj istasyonu alanından geçerek; Her istasyonun önünde 100\'lük dolum hattı bulunmaktadır. Darbe, istasyona dokunma işleminin yerini almaz.</string>
+  <string name="stage_026_skill" formatted="false">Giriş NL ≥95 olduğunda her iki istasyon da alım yapar.</string>
+  <string name="stage_027_name" formatted="false">İyon yağmuru</string>
+  <string name="stage_027_goal" formatted="false">Canlı 55\'ler</string>
+  <string name="stage_027_special" formatted="false">İyon bulutu tek şeritte iyileşir ancak uyarı sonrasında kaya oraya ulaşacaktır. En az 3 bataryaya sahip olmak genellikle ikincil hedefi uygun kılar.</string>
+  <string name="stage_027_skill" formatted="false">3 geçerli darbe iletin.</string>
+  <string name="stage_028_name" formatted="false">İletken ampul</string>
+  <string name="stage_028_goal" formatted="false">4 adet potansiyel müşteri toplayın</string>
+  <string name="stage_028_special" formatted="false">Görev haritası, alım noktasını tahmin eden bir çizgi ile döngüsel olarak aşırı sola/sağa doğru kayar. 7 fırsat var.</string>
+  <string name="stage_028_skill" formatted="false">İlk 4 fırsatta 4 parça toplayın.</string>
+  <string name="stage_029_name" formatted="false">Yolun sonunda rezervasyon yapın</string>
+  <string name="stage_029_goal" formatted="false">3 port üzerinden, son porta ≥70 yatırın</string>
+  <string name="stage_029_special" formatted="false">İlk iki bağlantı noktası ücretsizdir; Son kapı maliyetleri başlangıçtan itibaren ortaya çıkar. Pil kompanzasyonu her 8 saniyede bir eksikse döngü yapar, bekleme hattına sahiptir.</string>
+  <string name="stage_029_skill" formatted="false">Pil telafisini kullanmayın.</string>
+  <string name="stage_030_name" formatted="false">Elektriksel fırtına çekirdeği</string>
+  <string name="stage_030_goal" formatted="false">3 çekirdeği kırın</string>
+  <string name="stage_030_special" formatted="false">Üç parlak kutup sırasıyla; Zırhı açmak için doğru kutupta durun ve ardından patron/darbe pilini kullanın. Son aşamada bekleme süresi yoktur ancak yine de görev rozetleri kabul edilir.</string>
+  <string name="stage_030_skill" formatted="false">İlk denemede 3 kutbun tamamı doğru şekilde açıldı.</string>
+  <string name="stage_031_name" formatted="false">Yardımcı</string>
+  <string name="stage_031_goal" formatted="false">3 zırhlı müttefikler 50 saniye boyunca hayatta kalır</string>
+  <string name="stage_031_special" formatted="false">Önce siz uçun, 2 saniye boyunca şerit değiştirme sinyali verin; Oyuncu tehditkar kayaları darbelerle kırar. Öğrenmek için ilk 10 saniyelik düşük basınç.</string>
+  <string name="stage_031_skill" formatted="false">Müttefikler zırhlarını kaybetmezler.</string>
+  <string name="stage_032_name" formatted="false">İki kurtarma gezisi</string>
+  <string name="stage_032_goal" formatted="false">2 cankurtaran filikası alın</string>
+  <string name="stage_032_special" formatted="false">Doğru toplama alanını 1 saniye boyunca basılı tutun; Bölmede tekrarlanmayan birçok hızlı düşüş ve dokunuş vardır.</string>
+  <string name="stage_032_skill" formatted="false">40 saniyeden önce yapılır.</string>
+  <string name="stage_033_name" formatted="false">Tehlikeyle karşı karşıyayız</string>
+  <string name="stage_033_goal" formatted="false">İstasyon 4\'ün zırhı 55 saniye sürer</string>
+  <string name="stage_033_special" formatted="false">Kaya hattın üzerinden düşerek istasyonun zırhını kaybetmesine neden oldu. Büyük taşlar istasyonlara, küçük taşlar ise tren hatlarına öncelik veriyor; Önlenmesi gereken tehlikeleri belirleyin.</string>
+  <string name="stage_033_skill" formatted="false">Hiçbir büyük kaya geçemez.</string>
+  <string name="stage_034_name" formatted="false">Kırılabilir ürünler</string>
+  <string name="stage_034_goal" formatted="false">2 zırhlı kargo gemisi 55\'ler</string>
+  <string name="stage_034_special" formatted="false">Yük trenleri nadiren şerit değiştirir; gelen dronların iki dalgası planlı olarak darbeli pillerle beslendi.</string>
+  <string name="stage_034_skill" formatted="false">En fazla 3 darbe kullanın.</string>
+  <string name="stage_035_name" formatted="false">Kılavuz</string>
+  <string name="stage_035_goal" formatted="false">Sizi 4 kapıdan geçirir</string>
+  <string name="stage_035_special" formatted="false">Oyuncunun şeridini 1,2 saniye geç takip ediyorsunuz; yakın zamanda değişmesi gerekiyor. Noktalı çizgi gecikmeyi temsil eder, ikinci bir kontrol parmağına gerek yoktur.</string>
+  <string name="stage_035_skill" formatted="false">Her kapıdan geçiyorsunuz, yuvanın dışmerkezliği ≤20 birimdir.</string>
+  <string name="stage_036_name" formatted="false">Yardım kaynağını ikiye bölün</string>
+  <string name="stage_036_goal" formatted="false">İstasyon 3 paketi yaşıyor ve teslim ediyor</string>
+  <string name="stage_036_special" formatted="false">Yeşil paket istasyona geri döner, sarı paket isteğe bağlı para verir. Tüm temel gerçeklere sahip olun; İstasyon kurtarmayı kârla dengeleyin.</string>
+  <string name="stage_036_skill" formatted="false">İstasyonun en az 3/4 zırhı kaldı.</string>
+  <string name="stage_037_name" formatted="false">Konvoy takip etti</string>
+  <string name="stage_037_goal" formatted="false">Her iki gemi de hayatta</string>
+  <string name="stage_037_special" formatted="false">Önceki/sonraki arkadaş aynı rotadaydı ancak saat farkı vardı; tehditlerin kimlik uyarıları vardır, iki ayrı zırh çubuğu vardır.</string>
+  <string name="stage_037_skill" formatted="false">Hiç kimse 1\'den fazla zırh kaybetmeyecek.</string>
+  <string name="stage_038_name" formatted="false">Yağmurda kurtarma</string>
+  <string name="stage_038_goal" formatted="false">65 saniye yaşayın, 3 bölmeden tasarruf edin</string>
+  <string name="stage_038_special" formatted="false">Yağmur sonrası molada karşılama kompartımanı, 5 kurtarıcı görevlendirildi. Toparlanmak için dinlenme ritmini kullanmalısınız.</string>
+  <string name="stage_038_skill" formatted="false">Uyarı işaretleri varmış gibi görünen mayınları almayın.</string>
+  <string name="stage_039_name" formatted="false">Kasıtlı yem</string>
+  <string name="stage_039_goal" formatted="false">65 saniye yaşarsınız</string>
+  <string name="stage_039_special" formatted="false">Drone, uyarıldığında oyuncunun eski şeridini kilitler ve ardından koşar; Tehditleri kendinizden uzaklaştırın ve doğru zamanda yola devam edin.</string>
+  <string name="stage_039_skill" formatted="false">Siz olmadan 4 drone\'u şeride yönlendirin.</string>
+  <string name="stage_040_name" formatted="false">Uzay soygunu</string>
+  <string name="stage_040_goal" formatted="false">3 çekirdeği kırılan kargo gemisi hayatta</string>
+  <string name="stage_040_special" formatted="false">Patron dönüşümlü olarak oyuncuları/gemileri hedef alır, her serinin bir hedef sembolü vardır. Çekirdeği açmak için kargo gemisi hedefini engelleyin.</string>
+  <string name="stage_040_skill" formatted="false">Kargo gemisinin ≥2/3 zırhı kaldı.</string>
+  <string name="stage_041_name" formatted="false">İnce buz</string>
+  <string name="stage_041_goal" formatted="false">Canlı 55\'ler</string>
+  <string name="stage_041_special" formatted="false">Yalnızca 15–25\'ler ve 35–45\'ler yön değiştirirken kayma yaşıyor; Şerit değiştirmeden önce yeşil fren bölgesi.</string>
+  <string name="stage_041_skill" formatted="false">Bandın iki kenarına dokunmayın.</string>
+  <string name="stage_042_name" formatted="false">Kapının önünde fren yapın</string>
+  <string name="stage_042_goal" formatted="false">4 kapıdan</string>
+  <string name="stage_042_special" formatted="false">Kapıdan geçerken yatay hız ≤120 birim/s olmalıdır. Frenleri ayarlamak için bir hız göstergesi vardır; Bağlantı noktası tekrarlayıcısı kaçırıldı.</string>
+  <string name="stage_042_skill" formatted="false">Açılış denemesinde 4\'ü de geçti.</string>
+  <string name="stage_043_name" formatted="false">Buz çatladı</string>
+  <string name="stage_043_goal" formatted="false">Canlı 60\'lar</string>
+  <string name="stage_043_special" formatted="false">Buz, çatlak çizgisinden sonra 2 parçaya ayrıldı; yırtılmadan önce nabız atabilir. Parça sadece bir nesil doğurur.</string>
+  <string name="stage_043_skill" formatted="false">Bölmeden önce 3 buz bloğunu kırın.</string>
+  <string name="stage_044_name" formatted="false">Sıcak su</string>
+  <string name="stage_044_goal" formatted="false">3 termal çekirdek toplayın</string>
+  <string name="stage_044_special" formatted="false">Çekirdek, iki taşıma bandı arasındaki kaymaz bölümdedir; ivme kazanıp frenleyin, programa göre 6 çekirdek var.</string>
+  <string name="stage_044_skill" formatted="false">İlk 3 fırsatta 3 crore toplayın.</string>
+  <string name="stage_045_name" formatted="false">Sarkaç soğuk</string>
+  <string name="stage_045_goal" formatted="false">5 kapıdan</string>
+  <string name="stage_045_special" formatted="false">Faz salınım kapısı, başlatma noktası göstergesi; Mevcut noktaları kovalamak yerine gelecekteki pozisyonları tahmin edin.</string>
+  <string name="stage_045_skill" formatted="false">Darbe kullanmayın.</string>
+  <string name="stage_046_name" formatted="false">Kubbenin altına kaydırın</string>
+  <string name="stage_046_goal" formatted="false">Canlı 65\'ler</string>
+  <string name="stage_046_special" formatted="false">Yavaş taş kemerin kısa bir yolu ve bir dış halkası vardır. Çok fazla kayarsanız kısa yolun kenarına çarpmanız kolaydır. Dönüş için hala yeterli zaman var.</string>
+  <string name="stage_046_skill" formatted="false">3 kısa çizgiyle işaretlenmiştir.</string>
+  <string name="stage_047_name" formatted="false">Taşıma bandındaki piller</string>
+  <string name="stage_047_goal" formatted="false">2 istasyonu yükleyin, son kapıdan geçin</string>
+  <string name="stage_047_special" formatted="false">Taşıma bandı treni değil aküyü iter; Alış noktasının ve durma rotasının tahmini, gözlem/kontrolleri ayırır.</string>
+  <string name="stage_047_skill" formatted="false">2 istasyonu 50 saniye içinde şarj edin.</string>
+  <string name="stage_048_name" formatted="false">Sis yankısı</string>
+  <string name="stage_048_goal" formatted="false">Canlı 70\'ler</string>
+  <string name="stage_048_special" formatted="false">Slot zincirinin habercisidir. Sis yalnızca arka planı/dekorasyonu kaplar, hitbox\'ı/uyarı çubuğunu kapsamaz; tekrarlanan sembollerle.</string>
+  <string name="stage_048_skill" formatted="false">Tekrar etmeden 6 slotu geçin.</string>
+  <string name="stage_049_name" formatted="false">Çatlaklar yayıldı</string>
+  <string name="stage_049_goal" formatted="false">6 kapıdan</string>
+  <string name="stage_049_special" formatted="false">Her kapıdan geçerken eski şerit 2 saniye sonra kapanır; Kapatılmak üzere olan alan ve bir sonraki alan işaretlenerek geçiş yapılmalıdır.</string>
+  <string name="stage_049_skill" formatted="false">Kapanma sinyalinden sonraki 2 saniye içinde eski şeride dönmeyin.</string>
+  <string name="stage_050_name" formatted="false">Beyaz Ejderha</string>
+  <string name="stage_050_goal" formatted="false">4 çekirdeği kırın</string>
+  <string name="stage_050_special" formatted="false">İlk iki aşama sürüklenen buzdur, son iki aşama ise parçalanmış buz yaylarıdır. Çekirdek, tüm gemilerin ulaşabileceği kaymaz bölgede açıktır.</string>
+  <string name="stage_050_skill" formatted="false">İkincil buz parçasına çarpmadı.</string>
+  <string name="stage_051_name" formatted="false">Koridor anahtarı</string>
+  <string name="stage_051_goal" formatted="false">3 anahtarı açın, kapıdan geçin</string>
+  <string name="stage_051_special" formatted="false">Doğru arka kapıyı açmak için tren sırasındaki anahtardan geçin. Eğer kaçırırsanız tekrarlayabilirsiniz ama hemen kaybetmezsiniz.</string>
+  <string name="stage_051_skill" formatted="false">3 ilk karşılaşmanın tümünü etkinleştirin.</string>
+  <string name="stage_052_name" formatted="false">Üç resimli kod</string>
+  <string name="stage_052_goal" formatted="false">3 sembolden oluşan bir dizi girin</string>
+  <string name="stage_052_special" formatted="false">Üçgen–daire–kare\'yi 4 saniye boyunca gösterin, ardından doğru bağlantı noktasını seçin. False geçerli öğeyi gözden geçirmenizi ve tekrarlamanızı sağlar; Yalnızca renge güvenmekten kaçının.</string>
+  <string name="stage_052_skill" formatted="false">Yanlış girmeyin/tekrarlamayın.</string>
+  <string name="stage_053_name" formatted="false">Drone devriyesi</string>
+  <string name="stage_053_goal" formatted="false">Canlı 65\'ler</string>
+  <string name="stage_053_special" formatted="false">Yatay dronların sabit bir rotası vardır, yalnızca ışıklar açıkken ateş edin; Yuvayı tahmin etmek için gövde yönünü okuyun.</string>
+  <string name="stage_053_skill" formatted="false">Darbe ile 4 insansız hava aracını yok edin.</string>
+  <string name="stage_054_name" formatted="false">Ayna faz dışı</string>
+  <string name="stage_054_goal" formatted="false">5 gerçek kapıdan geçiyoruz</string>
+  <string name="stage_054_special" formatted="false">Gölge kesik çizgiyi yansıtır, gerçek kapı ise sağlam bir çerçeve + alarm sesidir. Alt gölge hareketi azaltıldı ancak sembollerin ayırt edilmesi sağlandı.</string>
+  <string name="stage_054_skill" formatted="false">Sahte bağlantı noktası alanına dokunmayın.</string>
+  <string name="stage_055_name" formatted="false">Ritim düğmesi</string>
+  <string name="stage_055_goal" formatted="false">3 vericiyi kapatın</string>
+  <string name="stage_055_special" formatted="false">Verici 6 saniye boyunca darbeyi almak üzere açılır ve ardından zırhı kaplar; Önceki görev pimi seviyesi, bir sonraki döngüde kaçırma denenir.</string>
+  <string name="stage_055_skill" formatted="false">Pencerede ≥3 saniye kaldığında 3\'ü de kapatın.</string>
+  <string name="stage_056_name" formatted="false">Sıralama konveyörü</string>
+  <string name="stage_056_goal" formatted="false">4 üçgen bileşeni toplayın</string>
+  <string name="stage_056_special" formatted="false">Üç tür birbirine karıştırılmıştır: ayrı hedefler, normal öğeler, uyarı mayınları. Herşeyi toplamak yerine sınıflandırmak lazım.</string>
+  <string name="stage_056_skill" formatted="false">Yanlış türden parçaları almayın.</string>
+  <string name="stage_057_name" formatted="false">Kilitli kısayol</string>
+  <string name="stage_057_goal" formatted="false">4 kapıdan geçerek son kapıyı açın</string>
+  <string name="stage_057_special" formatted="false">Ücretsiz uzun mesafe; Kısayolun maliyeti 40 NL\'dir ancak zaman kazandırır. Son bağlantı noktasının 60\'a ihtiyacı vardır ve sert kilitlemeyi önlemek için bir dengeleme pimine sahiptir.</string>
+  <string name="stage_057_skill" formatted="false">55 saniyeden önce tamamlandı.</string>
+  <string name="stage_058_name" formatted="false">Dört vites</string>
+  <string name="stage_058_goal" formatted="false">Canlı 75\'ler</string>
+  <string name="stage_058_special" formatted="false">Drone, sapma döngüsünde sütunları, yayları, köşegenleri ve sürüklenmeleri takip eder. Bir sonraki modelde dördünü aynı anda atmayın.</string>
+  <string name="stage_058_skill" formatted="false">1 döngüden sonra dört örnek darbe vermiyor.</string>
+  <string name="stage_059_name" formatted="false">Kalıntıyı başlat</string>
+  <string name="stage_059_goal" formatted="false">3 çekirdek toplayın, 1 istasyonu etkinleştirin</string>
+  <string name="stage_059_special" formatted="false">Bileşenleri toplayın ve kapıyı açmak için istasyon şeridine dönün. İstasyon yalnızca yeterli çekirdek olduğunda alım yapar; Aküyü beklemek için bir bypass var.</string>
+  <string name="stage_059_skill" formatted="false">Yalnızca 1 darbe kullanır.</string>
+  <string name="stage_060_name" formatted="false">Mimar</string>
+  <string name="stage_060_goal" formatted="false">4 çekirdeği kırın</string>
+  <string name="stage_060_special" formatted="false">Tek çekirdekli açık sembol rotasını doğru şekilde çözün. Son aşama, sırayı tersine çevirir ancak çalıştırmadan önce yeni bir örnek görüntüler.</string>
+  <string name="stage_060_skill" formatted="false">Yanlış faz sembollerini seçmeyin.</string>
+  <string name="stage_061_name" formatted="false">Yatay rüzgar</string>
+  <string name="stage_061_goal" formatted="false">Canlı 65\'ler</string>
+  <string name="stage_061_special" formatted="false">Oku takip eden iki itişte, sürüklenme hızı en yavaş geminin telafi etme yeteneğinden daha azdır.</string>
+  <string name="stage_061_skill" formatted="false">Rüzgar kenarına dokunmayın.</string>
+  <string name="stage_062_name" formatted="false">Fırtınanın gözü</string>
+  <string name="stage_062_goal" formatted="false">5 fırtına merkezi alanı aracılığıyla</string>
+  <string name="stage_062_special" formatted="false">Tarafsız bölge, merkeze itilmeden 3 şeritten geçer. Yalnızca tren sırasındaki merkezden geçerken sayılır.</string>
+  <string name="stage_062_skill" formatted="false">İlk 5 karşılaşmanın tamamında.</string>
+  <string name="stage_063_name" formatted="false">Üç katmanlı yağmur</string>
+  <string name="stage_063_goal" formatted="false">Canlı 70\'ler</string>
+  <string name="stage_063_special" formatted="false">Büyük kayalar yavaştır, küçük kayalar hızlıdır, mayınlar farklı seviyelerde sürüklenir; Basit mesafe yerine eğitim sırasını okuyun.</string>
+  <string name="stage_063_skill" formatted="false">3 katın tamamındaki nesneleri yok eden bir darbe.</string>
+  <string name="stage_064_name" formatted="false">Pil bozuldu</string>
+  <string name="stage_064_goal" formatted="false">4 görev bataryası toplayın</string>
+  <string name="stage_064_special" formatted="false">Rüzgar, gemiyi ve bataryaları farklı bir faktörle iter; Alış noktası çizgisi vardır, aküyü aniden hızlandırmayın. Toplam 7 fırsat.</string>
+  <string name="stage_064_skill" formatted="false">İlk 4 şansta 4 pin toplayın.</string>
+  <string name="stage_065_name" formatted="false">Flaş uyarısı</string>
+  <string name="stage_065_goal" formatted="false">6 kapıdan</string>
+  <string name="stage_065_special" formatted="false">Arka plan flaşı, hareket azaldığında yerini statik sembole bırakan sırayı belirtir. Tehlike ancak bir bekleme süresinden sonra ortaya çıkar.</string>
+  <string name="stage_065_skill" formatted="false">Dizeleri tekrarlamayın.</string>
+  <string name="stage_066_name" formatted="false">Basınç koridoru</string>
+  <string name="stage_066_goal" formatted="false">Canlı 75\'ler</string>
+  <string name="stage_066_special" formatted="false">Baskı alanı ortaya getirilerek kenar açılır; Kapatmadan önce ortayı terk etmeniz gerekiyor, 2s uyarı verin.</string>
+  <string name="stage_066_skill" formatted="false">6 Yakından kaçın, dürtü kullanmayın.</string>
+  <string name="stage_067_name" formatted="false">Gemiyi kurtarmak için rüzgarı değiştirin</string>
+  <string name="stage_067_goal" formatted="false">3 zırhlı arkadaş 75 saniye boyunca yaşıyor</string>
+  <string name="stage_067_special" formatted="false">Rüzgar sizi etkilemez; Kayaların şeridinize doğru sürükleneceğini tahmin edin ve ilk önce onları bir darbe ile yok edin.</string>
+  <string name="stage_067_skill" formatted="false">Yanlara doğru kayan kayalar nedeniyle zırhınızı kaybetmezsiniz.</string>
+  <string name="stage_068_name" formatted="false">Elektrostatik fırtına</string>
+  <string name="stage_068_goal" formatted="false">80\'leri yaşamak</string>
+  <string name="stage_068_special" formatted="false">8 saniye normal kurtarma / 4 saniye kilit kurtarma, hala pil alıyor. HUD açıkça kilitli olduğunu belirtiyor. Opsiyonel bir bataryaya sahip olmak yıldızlar için yeterli fırsat sunuyor.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​darbe, her darbe ≥1 tehdidi yok eder.</string>
+  <string name="stage_069_name" formatted="false">Şafaktan önce altı vuruş</string>
+  <string name="stage_069_goal" formatted="false">6 bağlantı noktası aracılığıyla 2 sinyal alın</string>
+  <string name="stage_069_special" formatted="false">Önce slot örneğini rapor edin; Dinlenme sırasındaki sinyal 2 ve 5\'i yener. Sadece kapıyı takip etmek için değil, almak için dinlenmeyi de unutmayın.</string>
+  <string name="stage_069_skill" formatted="false">İlk seferde iki sinyal alındı.</string>
+  <string name="stage_070_name" formatted="false">Fırtına tanrısı</string>
+  <string name="stage_070_goal" formatted="false">4 çekirdeği kırın</string>
+  <string name="stage_070_special" formatted="false">Sol rüzgar, sağ rüzgar, fırtına merkezi, dört aşamada basamaklı yağmur. Çekirdek açıkken rüzgarın ulaşması %25\'e düşürülür.</string>
+  <string name="stage_070_skill" formatted="false">Rüzgar nedeniyle kenara itilmemiştir.</string>
+  <string name="stage_071_name" formatted="false">V şekilli filo</string>
+  <string name="stage_071_goal" formatted="false">Canlı 70\'ler</string>
+  <string name="stage_071_special" formatted="false">Bir kısayol açmak için V\'nin ortasındaki düğmeyi kırın; veya bir darbeye ihtiyaç duymadan kanadın ötesine geçin.</string>
+  <string name="stage_071_skill" formatted="false">Takımın ortasındaki 3 düğmeyi yok edin.</string>
+  <string name="stage_072_name" formatted="false">Eski şerit kilidi</string>
+  <string name="stage_072_goal" formatted="false">Canlı 75\'ler</string>
+  <string name="stage_072_special" formatted="false">Drone şeridi işaretliyor ve 1,8 saniye sonra ateş ediyor; Mermileri eski şeride yönlendirin ve ritmik olarak değiştirin.</string>
+  <string name="stage_072_skill" formatted="false">Aynı boş şeride önde giden 6 seri.</string>
+  <string name="stage_073_name" formatted="false">Sarf malzemeleri kuşatılmıştır</string>
+  <string name="stage_073_goal" formatted="false">3 paket toplayın</string>
+  <string name="stage_073_special" formatted="false">Her pakette, gemiye göre darbeleri veya küçük yuvaları korumak ve seçmek için 2 drone bulunur. 5 paket var, giriş kilitli değil.</string>
+  <string name="stage_073_skill" formatted="false">Gözetleme drone\'unu yok etmeden yeterince toplayın.</string>
+  <string name="stage_074_name" formatted="false">Yönlendirici saldırı</string>
+  <string name="stage_074_goal" formatted="false">5 gerçek kapıdan</string>
+  <string name="stage_074_special" formatted="false">Kırık hatlı sahte burun zarar vermez; Yavaş darbeden sonra gerçek kapı. Sahte sistem bildirimleri değil, yönlendirme kanunu öğretiliyor.</string>
+  <string name="stage_074_skill" formatted="false">Tuzak şeridine geçmeyin.</string>
+  <string name="stage_075_name" formatted="false">Koruma katmanını yok edin</string>
+  <string name="stage_075_goal" formatted="false">3 güvenlik düğmesini yok edin</string>
+  <string name="stage_075_special" formatted="false">Düğme darbe aralığına farklı bir zamanda ulaşır; Tek darbe ile 2 düğümü kapatabilecek kadar kesişme noktası bulunmaktadır. Yeterli görev aküsü.</string>
+  <string name="stage_075_skill" formatted="false">Bir darbe kesişme noktasındaki 2 düğümü kapatır.</string>
+  <string name="stage_076_name" formatted="false">Konvoyun geri çekilmesi</string>
+  <string name="stage_076_goal" formatted="false">4 kapıdan geçiyorsunuz</string>
+  <string name="stage_076_special" formatted="false">Düşman gelecekteki rotanızı engelliyor. Arkadaşlarınızın takip edebilmesi için erken değiştirin; Her bağlantı noktasının 2 geçerli çıkış yolu vardır.</string>
+  <string name="stage_076_skill" formatted="false">Zırhınızı kaybetmeden yeterince kapıdan geçiyorsunuz.</string>
+  <string name="stage_077_name" formatted="false">İki açıklıklı kuşatma</string>
+  <string name="stage_077_goal" formatted="false">80\'leri yaşamak</string>
+  <string name="stage_077_special" formatted="false">Döngü yalnızca üst yarıda kapalıdır; Çıkış kapıları tren sırasında değil kenarda/ortada döner.</string>
+  <string name="stage_077_skill" formatted="false">Nabız olmadan 4 turdan çıkın.</string>
+  <string name="stage_078_name" formatted="false">Düşman yakıt deposu</string>
+  <string name="stage_078_goal" formatted="false">3 crore toplayın, 2 depoyu yok edin</string>
+  <string name="stage_078_special" formatted="false">Depoyu kırmak basıncı azaltır ancak bir sonraki vuruş için enerjinin korunması gerekir. Depolar yalnızca yok edildiğinde sayılır, ekrandan uçup gitmezler.</string>
+  <string name="stage_078_skill" formatted="false">2 depo için 2 darbeyi düzeltin, fazla baskı yok.</string>
+  <string name="stage_079_name" formatted="false">Dönüşümlü avlanma ekibi</string>
+  <string name="stage_079_goal" formatted="false">Canlı 85\'ler</string>
+  <string name="stage_079_special" formatted="false">Şerit/koruma/süpürmeyi engellemek için her 15 saniyede bir rol değiştirin; Aynı anda en fazla 2 rol.</string>
+  <string name="stage_079_skill" formatted="false">Kombinasyon 6\'ya ulaşın.</string>
+  <string name="stage_080_name" formatted="false">Amiral gemisi Siyah Vu</string>
+  <string name="stage_080_goal" formatted="false">5 crore kırın</string>
+  <string name="stage_080_special" formatted="false">Korumanın ayrılmasına ve merkezi açığa çıkarmasına izin vermek için şerit kilidini geçin. Son iki aşama V şeklinde/kaçış döngüsüdür; Pil her fazı ayrı ayrı kapsar.</string>
+  <string name="stage_080_skill" formatted="false">Çekirdek zırhı kapatıldığında darbe yok.</string>
+  <string name="stage_081_name" formatted="false">Geleceğin izleri</string>
+  <string name="stage_081_goal" formatted="false">Canlı 75\'ler</string>
+  <string name="stage_081_special" formatted="false">Tekme atılacağı yeri 2 saniye önceden bildirin ve ardından tahmin edildiği gibi tekme atın. Sadece mevcut taşa bakmak yerine geleceği okuyun.</string>
+  <string name="stage_081_skill" formatted="false">6 yuva aracılığıyla darbe öngörülmez.</string>
+  <string name="stage_082_name" formatted="false">Yavaş akış</string>
+  <string name="stage_082_goal" formatted="false">5 kapıdan</string>
+  <string name="stage_082_special" formatted="false">Her şeridin farklı bir nesne hızı vardır; Tren/saat yavaş değil. Mesafe yerine trenin varış süresini karşılaştırın.</string>
+  <string name="stage_082_skill" formatted="false">5 açıklığın tamamından.</string>
+  <string name="stage_083_name" formatted="false">Bir kez daha</string>
+  <string name="stage_083_goal" formatted="false">Canlı 80\'ler</string>
+  <string name="stage_083_special" formatted="false">Taş sembolü geriye doğru hareket eder ve ardından tam olarak bir kez geri düşer; Kimlik/kaçma bayrağını yakın tutun, iki kez ödül vermeyin.</string>
+  <string name="stage_083_skill" formatted="false">4, geri sarmanın ardından 4 ID\'den yakından kaçınır.</string>
+  <string name="stage_084_name" formatted="false">İki zamanlı kapı</string>
+  <string name="stage_084_goal" formatted="false">4 fazlı port aracılığıyla</string>
+  <string name="stage_084_special" formatted="false">Birinci kapı dar, arka kapı geniş. Avantajlardan yararlanmak için erken gitmeyi veya daha güvenli olmak için beklemeyi seçin; kapı konumunu rastgele değiştirmeyin.</string>
+  <string name="stage_084_skill" formatted="false">İlk kapıdaki ≥3 kapıdan.</string>
+  <string name="stage_085_name" formatted="false">Paket sabittir</string>
+  <string name="stage_085_goal" formatted="false">4 paket toplayın</string>
+  <string name="stage_085_special" formatted="false">Sue y=560\'ı durdurur ve geri saymaya devam eder; Tren hattına ulaşmadan telefonu almayın. 6 ihtimal var.</string>
+  <string name="stage_085_skill" formatted="false">İlk 4 paketi kaçırmayın.</string>
+  <string name="stage_086_name" formatted="false">Geri vites sinyali</string>
+  <string name="stage_086_goal" formatted="false">Ters zincirde 5 bağlantı noktası aracılığıyla</string>
+  <string name="stage_086_special" formatted="false">Başlamadan önce “ters sıra” etiketli dizeyi göster; Yürütme emrinin yeniden okunması desteğine sahiptir.</string>
+  <string name="stage_086_skill" formatted="false">Tekrarlamayın.</string>
+  <string name="stage_087_name" formatted="false">Kendi gölgem</string>
+  <string name="stage_087_goal" formatted="false">Canlı 85\'ler</string>
+  <string name="stage_087_special" formatted="false">Top, yaklaşmakta olan atış pozisyonunu belirtmeden 3 saniye önce yolu kaydeder; Top çarpışmaz. Topu takip etmek yerine eski yolu terk edin.</string>
+  <string name="stage_087_skill" formatted="false">6 topun atışları gemiye çarpmadı.</string>
+  <string name="stage_088_name" formatted="false">Sınırlı dondurma</string>
+  <string name="stage_088_goal" formatted="false">3 zaman vericisini kapatın</string>
+  <string name="stage_088_special" formatted="false">Kapanış darbesi yalnızca mermiyi durdurur, hedefi artırmaz; çekirdek kapıyı bekle. Doğru sayıda sabitleyin ve hatayı tekrarlayın.</string>
+  <string name="stage_088_skill" formatted="false">3 sette 3 darbeyi düzeltin.</string>
+  <string name="stage_089_name" formatted="false">Şimdi buluşma noktası</string>
+  <string name="stage_089_goal" formatted="false">3 yaşayan burcunuz var</string>
+  <string name="stage_089_special" formatted="false">Hızlı/yavaş bölgeyi geçmekle tehdit ederek gerçek zamanlı takip ediyorsunuz. Tahmin çizgileri hangi nesnenin size ilk ulaşacağını görmenize yardımcı olur.</string>
+  <string name="stage_089_skill" formatted="false">Hızlı bölgeden gelen hiçbir tehdit size ulaşmaz.</string>
+  <string name="stage_090_name" formatted="false">Nöbetçi</string>
+  <string name="stage_090_goal" formatted="false">5 crore kırın</string>
+  <string name="stage_090_special" formatted="false">Beş aşama: tahmin, durdurma, tek geri sarma, iki pencere, ters sıralama. Yalnızca konumu yeniler, kaybedilen boss sağlığını geri getirmez.</string>
+  <string name="stage_090_skill" formatted="false">Çekirdeği açmadan darbe yapmayın.</string>
+  <string name="stage_091_name" formatted="false">Son üç yol</string>
+  <string name="stage_091_goal" formatted="false">Tek hatta 6 kapıdan</string>
+  <string name="stage_091_special" formatted="false">Ekrandan önce, az güç kaynağı / çok fazla pil / yakın kaçınma içeren geniş bir rota seçin. Aynı hedefe giden her rotanın gerektiğinde değiştirilebilecek bir yardım kapısı vardır.</string>
+  <string name="stage_091_skill" formatted="false">Tahliye kapısını kullanarak yeniden rota çizmeyin.</string>
+  <string name="stage_092_name" formatted="false">Darbe veya koruma</string>
+  <string name="stage_092_goal" formatted="false">Canlı 85\'ler</string>
+  <string name="stage_092_special" formatted="false">3 istasyon, her ikisini birden değil, şerit bazında pili veya kalkanı seçmenize olanak tanır. Aşağıdaki modelin karşılık gelen iki çözümü vardır.</string>
+  <string name="stage_092_skill" formatted="false">3 istasyonda da aynı türü seçmeyin.</string>
+  <string name="stage_093_name" formatted="false">Son kişiyi geri getirin</string>
+  <string name="stage_093_goal" formatted="false">Yaşayın, 2 bölmeden tasarruf edin</string>
+  <string name="stage_093_special" formatted="false">Kurtarmaya giden yol, seni korumanın yolunu keser; Genel olarak tehlikeli bir darbe için pili teslimattan önce hazır bulundurun.</string>
+  <string name="stage_093_skill" formatted="false">İki kaydetmede zırhınızı kaybetmezsiniz.</string>
+  <string name="stage_094_name" formatted="false">Dört mevsim koridoru</string>
+  <string name="stage_094_goal" formatted="false">8 kapıdan</string>
+  <string name="stage_094_special" formatted="false">Dört normal bölüm → rüzgar → buz → yasak yükleme, her bölümde 2 bağlantı noktası bulunur. Nötralizasyonun ortasında 3 saniye boyunca limitin ötesinde sapma eklemeyin.</string>
+  <string name="stage_094_skill" formatted="false">8 açma denemesinin tamamını geçti.</string>
+  <string name="stage_095_name" formatted="false">Karşı saldırı kemeri</string>
+  <string name="stage_095_goal" formatted="false">90 saniye yaşa, 4 hedef kümesini yok et</string>
+  <string name="stage_095_special" formatted="false">Tekme atmak sıklıkla baskıya neden olur; Kümenin ritimle açılan bir kalkanı var, nabzın doğru zamanda ayrılması gerekiyor. 6 hedef penceresi vardır.</string>
+  <string name="stage_095_skill" formatted="false">Kesikli sözde çerçeve kümesini yok etmeyin.</string>
+  <string name="stage_096_name" formatted="false">Pilot seçimi</string>
+  <string name="stage_096_goal" formatted="false">3 kilidi topla, son kapıyı geç</string>
+  <string name="stage_096_special" formatted="false">Her kilidin kombinasyonları tutmak için dar bir dalı veya yüklemek için geniş bir dalı vardır. Seçim bir sonraki aşamayı etkiler ancak kazanma olasılığını engellemez.</string>
+  <string name="stage_096_skill" formatted="false">Yardım dolum istasyonunu kullanmayın.</string>
+  <string name="stage_097_name" formatted="false">Nova Hattı</string>
+  <string name="stage_097_goal" formatted="false">İstasyon 5 canlı zırhı</string>
+  <string name="stage_097_special" formatted="false">3 şeritli saldırı önceliği sinyale göre değişir; Büyük dalganın ardından pozisyonları döndürmek için bir mola var. Zaten pahalı gemilerin olduğunu varsaymayın.</string>
+  <string name="stage_097_skill" formatted="false">İstasyonun ≥4/5 zırhı kaldı.</string>
+  <string name="stage_098_name" formatted="false">Yolculuk öğrenildi</string>
+  <string name="stage_098_goal" formatted="false">5 paragraf boyunca canlı yayın yapın</string>
+  <string name="stage_098_special" formatted="false">Örnek bölümler 2, 3, 5, 7, 9; önceden duyurulduğu için her kavşağın net aktarım kuralları vardır.</string>
+  <string name="stage_098_skill" formatted="false">Tekrarlama/boşaltma bağlantı noktası yok.</string>
+  <string name="stage_099_name" formatted="false">Şafak kapısı</string>
+  <string name="stage_099_goal" formatted="false">6 bağlantı noktası aracılığıyla 2 çekirdek kilidini kapatın</string>
+  <string name="stage_099_special" formatted="false">Darbe kilitleme konum kapısı; Kilitlenmeden önce pil seviyesi. Yanlışlıkla kullanılması durumunda kilitli olmayan bir tahliye doldurma halkası bulunmaktadır.</string>
+  <string name="stage_099_skill" formatted="false">85 saniyeden önce yapılırsa kurtarma halkasını kullanmayın.</string>
+  <string name="stage_100_name" formatted="false">Meteor kalbi</string>
+  <string name="stage_100_goal" formatted="false">6 çekirdeği kırın</string>
+  <string name="stage_100_special" formatted="false">Üç tur, her turda 2 çekirdek: taş/kapı; koruma/rüzgar; zaman/zırh açılması. Arada 5 saniye dinlenin, 1 zırh/enerji seviyesini yenileyin. Terminal fazı maksimum 2 bilinen mekanizma.</string>
+  <string name="stage_100_skill" formatted="false">Thang, hayat kurtaran tetiği veya tahliye portunu etkinleştirmedi; Sentinel\'e sahip olmanıza gerek yok.</string>
+  <string name="chapter_01" formatted="false">Ben star: geminin sahibi olun</string>
+  <string name="chapter_02" formatted="false">Taş kemer: rotayı oku</string>
+  <string name="chapter_03" formatted="false">Elektromanyetik bölge: enerjiyi kullanma ve tutma</string>
+  <string name="chapter_04" formatted="false">Kayıp tren: koruma ve öncelik</string>
+  <string name="chapter_05" formatted="false">Buz bulutsusu: ana eylemsizlik</string>
+  <string name="chapter_06" formatted="false">Mekanik kalıntılar: makine okuma ve kod çözme</string>
+  <string name="chapter_07" formatted="false">Uzay fırtınası: çevresel adaptasyon</string>
+  <string name="chapter_08" formatted="false">Karanlık Filo: taktiksel refleksler</string>
+  <string name="chapter_09" formatted="false">Zaman Yarığı: değişim kurallarını okuyun</string>
+  <string name="chapter_10" formatted="false">Meteor merkezi: sentez ve seçim</string>
+  <string name="ship_s01_body" formatted="false">Bakiye, ikincil kural yok; Her ekranın standart doğrulaması. Takas: Uzmanlık yok.</string>
+  <string name="ship_s02_body" formatted="false">Hızlı şerit değiştirme, küçük gövde. Takas: Daha az zırh.</string>
+  <string name="ship_s03_body" formatted="false">Pek çok tuhaf çarpışmaya maruz kalıyor. Takaslar: Büyük, yavaş, yavaş yükleme.</string>
+  <string name="ship_s04_body" formatted="false">Gemi sırasındaki 45 birim içindeki isteğe bağlı öğeleri absorbe edin. Takaslar: Zorla kendi kendine emme/port yok; büyük vücut.</string>
+  <string name="ship_s05_body" formatted="false">Hızlı pasif şarj. Takaslar: Düşük zırh; Piller genellikle 20 yerine yalnızca 15 şarj olur.</string>
+  <string name="ship_s06_body" formatted="false">Öğeleri 2 saniye daha korur. Takas: Temel darbe yalnızca 160 yarıçaptır.</string>
+  <string name="ship_s07_body" formatted="false">Kaçtıktan sonra, çevresel sürüklenmeyi 1 saniyeliğine %50 azaltır. Takas: 4\'lü temel birleşik pencere.</string>
+  <string name="ship_s08_body" formatted="false">Her 25 saniyede bir, eksikse 1 zırhı yeniler; Maksimum 2 kat/seviye, 3 kat/sonsuz. Takas: Zırh yenileme öğeleri yeniden şarj edilmez.</string>
+  <string name="ship_s09_body" formatted="false">Eğer hala bir kaçış yolu varsa, darbe normalde kırılmamış kayaları 30 birim daha iter. Takas: Darbe sonrası koruma yalnızca 0,45 saniyedir.</string>
+  <string name="ship_s10_body" formatted="false">Bir kez/seviye kritik darbeyi, kalan 1 zırhı, 1 saniye boyunca hasar görmezliği önler. Takas: Eskort/son kullanma tarihi nedeniyle oluşan kayıpları engellemez; Canlanmaları biriktirmez.</string>
+  <string name="ship_s11_body" formatted="false">Her 15 saniyede bir ilk kez eşya toplamak 8 enerji katar. Takas: Temel yavaşlatma 1 saniye daha kısadır.</string>
+  <string name="ship_s12_body" formatted="false">Aşamadan önce +1 zırh **veya** +30 darbe yarıçapını seçin. Takas: Zırh konfigürasyonu: hız 680\'e düşürüldü; Darbe konfigürasyonu: NL\'yi 2.6\'ya geri yükleyin.</string>
+  <string name="campaign" formatted="false">100 etaplık yolculuk</string>
+  <string name="campaign_continue" formatted="false">Yolculuğunuza devam edin</string>
+  <string name="fleet" formatted="false">Tersane</string>
+  <string name="stage" formatted="false">Ekran</string>
+  <string name="chapter" formatted="false">Bölüm</string>
+  <string name="stars" formatted="false">Neden</string>
+  <string name="stage_ready" formatted="false">Uçuşa hazırlanın</string>
+  <string name="stage_goal" formatted="false">Ana hedef</string>
+  <string name="stage_special" formatted="false">Özel nokta</string>
+  <string name="stage_skill" formatted="false">Yıldız becerileri</string>
+  <string name="stage_damage" formatted="false">Gemiyi neden elinizde tutuyorsunuz? Zırhını kaybetme sayısı çok fazla değil</string>
+  <string name="stage_play" formatted="false">Sahneyi başlat</string>
+  <string name="stage_map" formatted="false">Harita</string>
+  <string name="stage_next" formatted="false">Sonraki aşama</string>
+  <string name="stage_retry" formatted="false">Bu seviyeyi tekrar deneyin</string>
+  <string name="stage_victory" formatted="false">İŞLEMİ TAMAMLAYIN</string>
+  <string name="stage_defeat" formatted="false">EĞRİYİ GEÇMEDİ</string>
+  <string name="stage_locked" formatted="false">Önce seviyeyi geçmeniz gerekiyor</string>
+  <string name="stage_complete" formatted="false">Tamamlandı</string>
+  <string name="stage_first" formatted="false">İlk galibiyet bonusu</string>
+  <string name="stage_star_reward" formatted="false">Yeni yıldız bonusu</string>
+  <string name="stage_boss_reward" formatted="false">Kapıyı ödüllendirin</string>
+  <string name="stage_chapter_reward" formatted="false">Bonus bölümü</string>
+  <string name="ship_owned" formatted="false">Sahip olunan</string>
+  <string name="ship_equipped" formatted="false">Kullanımda</string>
+  <string name="ship_equip" formatted="false">Ekipman</string>
+  <string name="ship_buy" formatted="false">Bir gemi satın alın</string>
+  <string name="ship_speed" formatted="false">Yatay hız</string>
+  <string name="ship_radius" formatted="false">Çarpışma yarıçapı</string>
+  <string name="ship_energy" formatted="false">Her saniye enerji yenilenir</string>
+  <string name="ship_choose" formatted="false">Treni seçin</string>
+  <string name="account_upgrades" formatted="false">Hesabınızı yükseltin</string>
+  <string name="practice" formatted="false">Alıştırma</string>
+  <string name="practice_note" formatted="false">Açmadan, para falan almadan pratik yapın.</string>
+  <string name="practice_active" formatted="false">UYGULAMADA — ÖDÜL YOK</string>
+  <string name="route" formatted="false">Rota</string>
+  <string name="route_safe" formatted="false">Geniş yol</string>
+  <string name="route_energy" formatted="false">Enerji hattı</string>
+  <string name="route_risk" formatted="false">Kaçmayı kapat</string>
+  <string name="astra_armor" formatted="false">Zırh konfigürasyonu</string>
+  <string name="astra_pulse" formatted="false">Darbe yapılandırması</string>
+  <string name="goal_gate" formatted="false">Kapı</string>
+  <string name="cargo" formatted="false">Görevi Sue</string>
+  <string name="nodes" formatted="false">Etkinleştirme düğmesi</string>
+  <string name="cores" formatted="false">Patron çekirdeği</string>
+  <string name="ally" formatted="false">Müttefikler</string>
+  <string name="station" formatted="false">Savunma istasyonu</string>
+  <string name="time_left" formatted="false">Sol</string>
+  <string name="boss_open" formatted="false">CORE OPEN — ARALIKTA DARBE</string>
+  <string name="boss_closed" formatted="false">AÇILMASINI BEKLEYİN</string>
+  <string name="memory" formatted="false">Bağlantı noktası dizesi</string>
+  <string name="memory_hint" formatted="false">Dizeyi tekrarlayın</string>
+  <string name="defeat_armor" formatted="false">Zırhın dışında</string>
+  <string name="defeat_ally" formatted="false">Müttefikler yok edildi</string>
+  <string name="defeat_station" formatted="false">İstasyon yok edildi</string>
+  <string name="defeat_timeout" formatted="false">Hedefin son tarihi sona erdi</string>
+  <string name="sensitivity" formatted="false">Çekme hassasiyeti</string>
+  <string name="campaign_finished" formatted="false">100 seviyeyi tamamladık!</string>
+  <string name="ship_stats" formatted="false">Gönderim parametreleri</string>
+  <string name="reward_base" formatted="false">Hayatta Kalma Öncesi</string>
+  <string name="reward_total" formatted="false">Alınan toplam kredi</string>
+  <string name="save_before_next" formatted="false">Devam etmeden önce sonuçları kaydedin.</string>
+  <string name="star_damage_info" formatted="false">Gemi bakımı neden yalnızca zırh kaybı sayısını sayıyor; Onarım kayıp süreleri silmez.</string>
+  <string name="practice_hint" formatted="false">Öğeyi almak için çekin, doğru kapıdan geçin ve çekirdek açıldığında darbeyi kullanın.</string>
 </resources>

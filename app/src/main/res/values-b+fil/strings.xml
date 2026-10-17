@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Kaligtasan: 10 puntos/segundo. Item: tig-25 puntos. Bawat 20 huling puntos ay 1 kredito para sa upgrade. Walang makukuha sa iniwang lipad.</string>
   <string name="help_accessibility" formatted="false">Kailangan ng pagmamasid at pag-drag sa mismong oras ng laro.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">BERSYON 1.3 / 20 WIKA</string>
+  <string name="update_badge" formatted="false">2.0 / Paglalakbay ng 100 yugto</string>
   <string name="new_tagline" formatted="false">Dumaan malapit sa meteor para sa combo. Tumakas gamit ang pulso at lampasan ang rekord.</string>
   <string name="pulse_ready" formatted="false">PULSO</string>
   <string name="pulse_charging">ENERHIYA %1$d/100</string>
@@ -157,4 +157,491 @@
   <string name="capacitor_name" formatted="false">Amplifier</string>
   <string name="daredevil_name" formatted="false">Matapang</string>
   <string name="focus_name" formatted="false">Pokus</string>
+  <string name="stage_001_name" formatted="false">Umalis</string>
+  <string name="stage_001_goal" formatted="false">Live 30 segundo</string>
+  <string name="stage_001_special" formatted="false">0–10s maliliit na bato lang ang nahuhulog nang tuwid; 10–20s gitnang agwat; 20–30 segundo baguhin ang mga puwang sa magkabilang panig. Mga tagubilin para sa paghila sa pamamagitan ng pagkilos.</string>
+  <string name="stage_001_skill" formatted="false">Suriin ang lahat ng 3 tagubiling pangkaligtasan.</string>
+  <string name="stage_002_name" formatted="false">Tatlong daan pabalik</string>
+  <string name="stage_002_goal" formatted="false">Sa pamamagitan ng 3 gate</string>
+  <string name="stage_002_special" formatted="false">Nagbubukas ang Gate sa kaliwa–gitna–kanan, bawat 8 segundo; Gate miss repeat after 4s. Ang focus ay sa pagkuha ng lokasyon, hindi pagtaas ng granizo.</string>
+  <string name="stage_002_skill" formatted="false">Huwag palampasin ang anumang pagbubukas ng gate.</string>
+  <string name="stage_003_name" formatted="false">Unang muling supply</string>
+  <string name="stage_003_goal" formatted="false">Mangolekta ng 2 pakete</string>
+  <string name="stage_003_special" formatted="false">4 na pakete sa dalawang alternatibong ruta; Ang bato ay hindi sumasakop sa pick-up line sa window ng gabay.</string>
+  <string name="stage_003_skill" formatted="false">Tapos na may buong maximum na armor.</string>
+  <string name="stage_004_name" formatted="false">Kaliwa–kanang ritmo</string>
+  <string name="stage_004_goal" formatted="false">Live 35s</string>
+  <string name="stage_004_special" formatted="false">Ang hilera ng bato ay may puwang, nagbabago pakaliwa/kanan ayon sa ritmo; May puwang upang lumiko, ang nakatayo sa gitna ay hindi palaging ligtas.</string>
+  <string name="stage_004_skill" formatted="false">Sa pamamagitan ng 4 na sentro ng mga puwang, markahan ang tamang ritmo.</string>
+  <string name="stage_005_name" formatted="false">Pulse ang nagbubukas ng daan</string>
+  <string name="stage_005_goal" formatted="false">I-off ang 2 mine cluster</string>
+  <string name="stage_005_special" formatted="false">Cluster pababa y=560, magtalaga ng task pin bago ang bawat cluster. Mag-click nang maaga para ma-prompt at ligtas na ulitin.</string>
+  <string name="stage_005_skill" formatted="false">Ang bawat cluster ay ganap na pinapatay ng isang pulso.</string>
+  <string name="stage_006_name" formatted="false">Isang distansya ng pakpak</string>
+  <string name="stage_006_goal" formatted="false">2 wastong pag-iwas</string>
+  <string name="stage_006_special" formatted="false">Dalawang sample na maliliit na ruta ng bato, na nagpapakita ng lugar ng pagsasanay, hindi bababa sa 8 mga pagkakataon. Hindi nakadagdag sa target ang banggaan.</string>
+  <string name="stage_006_skill" formatted="false">Connect 2, umigtad nang malapit nang 5 segundo, makamit ang combo 2.</string>
+  <string name="stage_007_name" formatted="false">Enerhiya na baluti</string>
+  <string name="stage_007_goal" formatted="false">Live 40s</string>
+  <string name="stage_007_special" formatted="false">Front shield na may dalawang makitid na seksyon; mayroon pa ring malawak na panlabas na linya kaya hindi mo na kailangang tumama.</string>
+  <string name="stage_007_skill" formatted="false">Isang beses na humaharang si Shield, hindi nawawala ang armor.</string>
+  <string name="stage_008_name" formatted="false">Isang segundong bumagal</string>
+  <string name="stage_008_goal" formatted="false">Sa pamamagitan ng 4 na gate</string>
+  <string name="stage_008_special" formatted="false">Mabagal na graft gate; ay nagpapakita na ang item ay hindi nagpapabagal sa target na orasan. May mga ruta na hindi na kailangang kunin para bumagal.</string>
+  <string name="stage_008_skill" formatted="false">Pumili ng 2 mabagal na item na may magkaibang ID.</string>
+  <string name="stage_009_name" formatted="false">Pilot test</string>
+  <string name="stage_009_goal" formatted="false">Mangolekta ng 2 bale, dumaan sa 3 gate</string>
+  <string name="stage_009_special" formatted="false">Tatlong yugto: kolektahin, palitan ang mga linya, hawakan ang pulso upang buksan ang huling landas. Kilalanin ang parehong mga layunin nang sabay-sabay.</string>
+  <string name="stage_009_skill" formatted="false">Hindi bababa sa 3 umigtad malapit sa huling gate.</string>
+  <string name="stage_010_name" formatted="false">Dock keeper</string>
+  <string name="stage_010_goal" formatted="false">Hatiin ang 2 core</string>
+  <string name="stage_010_special" formatted="false">Phase 1 dalawang column ang natitira sa gitna; Paghaluin ang 2 puwang sa gilid at pagkatapos ay ibaba ang core. Paghiwalayin ang pin/window para sa bawat core.</string>
+  <string name="stage_010_skill" formatted="false">Wasakin ang bawat core sa simula ng yugto.</string>
+  <string name="stage_011_name" formatted="false">Fishbone</string>
+  <string name="stage_011_goal" formatted="false">Live 40s</string>
+  <string name="stage_011_special" formatted="false">Dalawang dayagonal na sanga ang lumikha ng herringbone slit; baguhin ang direksyon pagkatapos ng bawat pares, na may isang tuwid na linya na nagpapahiwatig ng isang pagliko.</string>
+  <string name="stage_011_skill" formatted="false">Sa pamamagitan ng 5 center slots na minarkahan.</string>
+  <string name="stage_012_name" formatted="false">Lumulutang na hagdan</string>
+  <string name="stage_012_goal" formatted="false">Sa pamamagitan ng 4 na gate</string>
+  <string name="stage_012_special" formatted="false">Kaliwa → bahagyang pakaliwa → bahagyang pakanan → kanan; Patuloy na pagtuturo ng maliit na pagsasalin. Hindi nakuha ang kasalukuyang port loopback.</string>
+  <string name="stage_012_skill" formatted="false">Huwag gumamit ng mga pulso.</string>
+  <string name="stage_013_name" formatted="false">Gunting</string>
+  <string name="stage_013_goal" formatted="false">Live 45s</string>
+  <string name="stage_013_special" formatted="false">Ang dalawang diagonal na linya ay nagsalubong ngunit hindi nakakarating sa linya ng tren nang sabay; Nauuna ang babala sa pagnunumero ng linya.</string>
+  <string name="stage_013_skill" formatted="false">4 na pag-iwas mula sa hindi bababa sa 2 linya.</string>
+  <string name="stage_014_name" formatted="false">Ang eskinita ay nagbabago ng direksyon</string>
+  <string name="stage_014_goal" formatted="false">Sa 5 gate</string>
+  <string name="stage_014_special" formatted="false">Ang koridor ay nagbabago ng direksyon gamit ang isang arrow; panatilihin ang momentum ng barko. May pahinga ang Gate 3 para matutong lumiko.</string>
+  <string name="stage_014_skill" formatted="false">Naipasa ang lahat ng 5 sa pambungad na pagtatangka.</string>
+  <string name="stage_015_name" formatted="false">Kambal na bato</string>
+  <string name="stage_015_goal" formatted="false">Live 45s</string>
+  <string name="stage_015_special" formatted="false">Ang bawat pares ay may mabagal na sipa na sinusundan ng isang mabilis na sipa, na nag-iwas sa mga false gaps pagkatapos ng unang sipa.</string>
+  <string name="stage_015_skill" formatted="false">Iwasan ang bawat uri ng bilis ng hindi bababa sa dalawang beses.</string>
+  <string name="stage_016_name" formatted="false">Crescent</string>
+  <string name="stage_016_goal" formatted="false">Mangolekta ng 3 piraso ng mapa</string>
+  <string name="stage_016_special" formatted="false">Sipa sa isang hubog na arko; Ang item ay nasa ligtas na lugar na malukong at pagkatapos ay binago sa kabaligtaran na arko, mayroong 6 na pagkakataon.</string>
+  <string name="stage_016_skill" formatted="false">Mangolekta ng 3 piraso sa unang 3 pagkakataon.</string>
+  <string name="stage_017_name" formatted="false">Dobleng ritmo</string>
+  <string name="stage_017_goal" formatted="false">Live 50s</string>
+  <string name="stage_017_special" formatted="false">Dalawang mabilis na hanay at pagkatapos ay isang mahabang pahinga; Sa dulo ng entablado, baguhin ang tatlong hilera upang maiwasan ang biglaang pagpasok ng mga bato sa barko.</string>
+  <string name="stage_017_skill" formatted="false">Isang pulso ang sumisira ng hindi bababa sa 4 na bato.</string>
+  <string name="stage_018_name" formatted="false">Satellite orbit</string>
+  <string name="stage_018_goal" formatted="false">Sa pamamagitan ng 4 na gate</string>
+  <string name="stage_018_special" formatted="false">Ang maliliit na bato ay umiikot sa malalaking bloke; Hinuhulaan ng orbital slot ang lokasyon ng pick-up sa hilera ng barko.</string>
+  <string name="stage_018_skill" formatted="false">Huwag sirain ang center block.</string>
+  <string name="stage_019_name" formatted="false">Ang intersection ng ambisyon</string>
+  <string name="stage_019_goal" formatted="false">Live 55 segundo at mangolekta ng 2 kurso</string>
+  <string name="stage_019_special" formatted="false">Ang malalawak na kalsada ay kakaunti ang mga bagay, ang makipot na kalsada ay may mga kandado. Mayroong 4 na lock, kaya hindi mo kailangang dumaan sa mga mapanganib na ruta sa bawat oras.</string>
+  <string name="stage_019_skill" formatted="false">Kolektahin ang lahat ng 4 na kurso bago ang 55 segundo.</string>
+  <string name="stage_020_name" formatted="false">Belt crusher</string>
+  <string name="stage_020_goal" formatted="false">Hatiin ang 3 core</string>
+  <string name="stage_020_special" formatted="false">Ang dalawang pakpak ay pumipindot upang lumikha ng pahalang na puwang; Pagkatapos ng pagpindot sa isang pakpak, hihinto ito sa pagbubunyag ng core. Ang huling yugto ay binabaligtad ang pag-scan gamit ang isang alarma.</string>
+  <string name="stage_020_skill" formatted="false">Hindi natamaan ng wing mine ang barko.</string>
+  <string name="stage_021_name" formatted="false">Baterya sa gitna ng bagyo</string>
+  <string name="stage_021_goal" formatted="false">Mangolekta ng 3 mission pin</string>
+  <string name="stage_021_special" formatted="false">Mayroong 5 baterya sa likod ng mga poste na may mga puwang; dapat kunin ang tamang posisyon sa halip na patuloy na magpadala ng mga pulso.</string>
+  <string name="stage_021_skill" formatted="false">Ang enerhiya ay hindi bababa sa 30.</string>
+  <string name="stage_022_name" formatted="false">Walang loading area</string>
+  <string name="stage_022_goal" formatted="false">Sa pamamagitan ng 4 na gate</string>
+  <string name="stage_022_special" formatted="false">Humihinto sa pagtugon ang may guhit na bahagi, normal na nagre-recharge ang maliwanag na bahagi. Pinipilit ng mga alternating port ang pagpili ng manatiling naka-load o lumipat nang maaga.</string>
+  <string name="stage_022_skill" formatted="false">Dumaan sa huling gate na may NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Piyus</string>
+  <string name="stage_023_goal" formatted="false">I-off ang 3 power button</string>
+  <string name="stage_023_special" formatted="false">Ang button ay naka-off lamang sa loob ng pulse radius; Mayroong 3 duty na baterya. Ang pindutan na hindi pa naka-off ay mayroon pa ring bypass at ang susunod na pagliko.</string>
+  <string name="stage_023_skill" formatted="false">I-off ang lahat ng 3 kapag nakabukas ang safety ring.</string>
+  <string name="stage_024_name" formatted="false">Kwintas</string>
+  <string name="stage_024_goal" formatted="false">Sa pamamagitan ng 5 gate sa pagkakasunud-sunod</string>
+  <string name="stage_024_special" formatted="false">Ang port ay may numero/simbulo; ang kasalukuyang port lamang ang tumatanggap ng pag-unlad. Ang pagdaan sa hinaharap na gate ay hindi nagbabawas ng mga buhay, hindi nagpapataas ng bilang.</string>
+  <string name="stage_024_skill" formatted="false">Huwag dumaan sa gate sa maling ayos.</string>
+  <string name="stage_025_name" formatted="false">Piliin upang singilin o umiwas</string>
+  <string name="stage_025_goal" formatted="false">Live 55s</string>
+  <string name="stage_025_special" formatted="false">Bawat 10 segundo ang pin ay nasa tapat na gilid ng susunod na slot. Self-evaluate kung may sapat na oras para umikot pabalik o tanggalin ang baterya; Ang ruta ng pag-alis ng baterya ay palaging umiiral.</string>
+  <string name="stage_025_skill" formatted="false">Mangolekta ng 3 baterya at pumunta pa rin sa susunod na slot.</string>
+  <string name="stage_026_name" formatted="false">Resonant capacitor</string>
+  <string name="stage_026_goal" formatted="false">I-activate ang 2 istasyon na may NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Dumaan sa 80 NL drainage station area; Mayroong 100 refill line sa harap ng bawat istasyon. Hindi pinapalitan ng pulso ang operasyon ng pagpindot sa istasyon.</string>
+  <string name="stage_026_skill" formatted="false">Ang parehong mga istasyon ay tumatanggap kapag nag-input ng NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">Ion rain</string>
+  <string name="stage_027_goal" formatted="false">Live 55s</string>
+  <string name="stage_027_special" formatted="false">Ang ion cloud ay gumagaling sa isang lane, ngunit ang bato ay aabot doon pagkatapos ng babala. Ang pagkakaroon ng hindi bababa sa 3 baterya ay karaniwang ginagawang mabubuhay ang pangalawang target.</string>
+  <string name="stage_027_skill" formatted="false">Magpadala ng 3 balidong pulso.</string>
+  <string name="stage_028_name" formatted="false">Bumbilya ng konduktor</string>
+  <string name="stage_028_goal" formatted="false">Mangolekta ng 4 na piraso ng lead</string>
+  <string name="stage_028_special" formatted="false">Ang mapa ng misyon ay umaanod sa matinding kaliwa/kanan nang paikot, na may linyang hinuhulaan ang pick-up point. Mayroong 7 pagkakataon.</string>
+  <string name="stage_028_skill" formatted="false">Mangolekta ng 4 na piraso sa unang 4 na pagkakataon.</string>
+  <string name="stage_029_name" formatted="false">Reserve sa dulo ng kalsada</string>
+  <string name="stage_029_goal" formatted="false">Sa pamamagitan ng 3 port, magdeposito ng ≥70 sa huling port</string>
+  <string name="stage_029_special" formatted="false">Ang unang dalawang port ay libre; Lumilitaw ang mga gastos sa pagtatapos ng gate mula sa simula. Ang kompensasyon ng baterya ay umiikot bawat 8 segundo kung nawawala, may standby line.</string>
+  <string name="stage_029_skill" formatted="false">Huwag gumamit ng bayad sa baterya.</string>
+  <string name="stage_030_name" formatted="false">Electrical storm core</string>
+  <string name="stage_030_goal" formatted="false">Hatiin ang 3 core</string>
+  <string name="stage_030_special" formatted="false">Ang tatlong matingkad na poste ay nagpapalitan; Tumayo sa tamang polarity para buksan ang armor at pagkatapos ay gamitin ang boss/pulse na baterya. Ang huling yugto ay walang cooldown ngunit tumatanggap pa rin ng mga mission pin.</string>
+  <string name="stage_030_skill" formatted="false">Binuksan nang tama ang lahat ng 3 pole sa unang pagsubok.</string>
+  <string name="stage_031_name" formatted="false">Kasama</string>
+  <string name="stage_031_goal" formatted="false">Mga kaalyado na may 3 baluti nang live sa loob ng 50 segundo</string>
+  <string name="stage_031_special" formatted="false">Lumipad ka muna, signal na magpalit ng lane sa loob ng 2 segundo; binasag ng manlalaro ang mga nagbabantang bato gamit ang mga pulso. Unang 10 segundo ng mababang presyon upang matuto.</string>
+  <string name="stage_031_skill" formatted="false">Ang mga kaalyado ay hindi nawawalan ng sandata.</string>
+  <string name="stage_032_name" formatted="false">Dalawang rescue trip</string>
+  <string name="stage_032_goal" formatted="false">Pumili ng 2 lifeboat</string>
+  <string name="stage_032_special" formatted="false">Hawakan ang tamang pickup area nang 1s; Ang kompartimento ay may maraming mabilis na patak at pagpindot nang hindi umuulit.</string>
+  <string name="stage_032_skill" formatted="false">Tapos bago ang 40 segundo.</string>
+  <string name="stage_033_name" formatted="false">Nakaharap sa panganib</string>
+  <string name="stage_033_goal" formatted="false">Ang armor ng Station 4 ay tumatagal ng 55 segundo</string>
+  <string name="stage_033_special" formatted="false">Nahulog ang bato sa linya dahilan para mawalan ng armor ang istasyon. Ang mga malalaking bato ay nagbibigay ng prayoridad sa mga istasyon, ang mga maliliit na bato ay nagbibigay ng prayoridad sa mga linya ng tren; Tukuyin ang mga panganib na kailangang pigilan.</string>
+  <string name="stage_033_skill" formatted="false">Walang madadaanan na malalaking bato.</string>
+  <string name="stage_034_name" formatted="false">Mga marupok na kalakal</string>
+  <string name="stage_034_goal" formatted="false">2-armored cargo ship 55s</string>
+  <string name="stage_034_special" formatted="false">Ang mga tren ng kargamento ay bihirang magpalit ng lane; dalawang alon ng mga papasok na drone ay may mga pulsed na baterya na ibinibigay sa isang naka-iskedyul na batayan.</string>
+  <string name="stage_034_skill" formatted="false">Gumamit ng hindi hihigit sa 3 pulso.</string>
+  <string name="stage_035_name" formatted="false">Gabay</string>
+  <string name="stage_035_goal" formatted="false">Inaakay ka sa 4 na gate</string>
+  <string name="stage_035_special" formatted="false">Susundan mo ang lane ng player nang huli ng 1.2 segundo; kailangang magbago kaagad. Ang may tuldok na linya ay kumakatawan sa pagkaantala, hindi na kailangan ng pangalawang daliri ng kontrol.</string>
+  <string name="stage_035_skill" formatted="false">Dumaan ka sa bawat gate ang eccentricity ng slot ay ≤20 units.</string>
+  <string name="stage_036_name" formatted="false">Hatiin sa kalahati ang pinagmumulan ng tulong</string>
+  <string name="stage_036_goal" formatted="false">Ang istasyon ay nabubuhay at naghahatid ng 3 pakete</string>
+  <string name="stage_036_special" formatted="false">Bumalik ang berdeng pakete sa istasyon, ang dilaw na pakete ay nagbibigay ng opsyonal na pera. Magkaroon ng lahat ng mga pangunahing katotohanan; Balansehin ang station rescue na may tubo.</string>
+  <string name="stage_036_skill" formatted="false">Ang istasyon ay may hindi bababa sa 3/4 na armor na natitira.</string>
+  <string name="stage_037_name" formatted="false">Sumunod ang convoy</string>
+  <string name="stage_037_goal" formatted="false">Ang parehong barko ay buhay</string>
+  <string name="stage_037_special" formatted="false">Ang nauna/susunod na kaibigan ay nasa parehong ruta ngunit may pagkakaiba sa oras; ang mga banta ay may mga babala sa pagkakakilanlan, dalawang magkahiwalay na armor bar.</string>
+  <string name="stage_037_skill" formatted="false">Walang mawawalan ng higit sa 1 armor.</string>
+  <string name="stage_038_name" formatted="false">Pagsagip sa ulan</string>
+  <string name="stage_038_goal" formatted="false">Live na 65 segundo, makatipid ng 3 compartments</string>
+  <string name="stage_038_special" formatted="false">Pagtanggap ng compartment sa break pagkatapos ng ulan, 5 rescue ang binibilang. Dapat gumamit ng ritmo ng pahinga upang kunin.</string>
+  <string name="stage_038_skill" formatted="false">Huwag kunin ang mga mina na nakabalatkayo bilang may mga palatandaan ng babala.</string>
+  <string name="stage_039_name" formatted="false">Sinadyang pain</string>
+  <string name="stage_039_goal" formatted="false">Mabuhay ka ng 65 segundo</string>
+  <string name="stage_039_special" formatted="false">Nila-lock ng Drone ang lumang lane ng player kapag naalerto at pagkatapos ay nagmamadali; Akayin ang mga banta palayo sa iyo at magpatuloy sa tamang oras.</string>
+  <string name="stage_039_skill" formatted="false">Pangunahan ang 4 na drone sa lane nang wala ka.</string>
+  <string name="stage_040_name" formatted="false">Space robbery</string>
+  <string name="stage_040_goal" formatted="false">Nasira ang 3 core, buhay ang cargo ship</string>
+  <string name="stage_040_special" formatted="false">Salit-salit na tinatarget ng boss ang mga manlalaro/barko, bawat serye ay may target na simbolo. I-block ang target ng cargo ship para buksan ang core.</string>
+  <string name="stage_040_skill" formatted="false">Cargo ship ay may ≥2/3 armor na natitira.</string>
+  <string name="stage_041_name" formatted="false">Manipis na yelo</string>
+  <string name="stage_041_goal" formatted="false">Live 55s</string>
+  <string name="stage_041_special" formatted="false">Tanging 15–25s at 35–45s lamang ang may pagkadulas kapag nagbabago ng direksyon; green braking zone bago magpalit ng lane.</string>
+  <string name="stage_041_skill" formatted="false">Huwag hawakan ang dalawang gilid ng tape.</string>
+  <string name="stage_042_name" formatted="false">Preno sa harap ng gate</string>
+  <string name="stage_042_goal" formatted="false">Sa pamamagitan ng 4 na gate</string>
+  <string name="stage_042_special" formatted="false">Kapag dumadaan sa gate, ang pahalang na bilis ay dapat na ≤120 units/s. Mayroong isang speedometer upang ayusin ang mga preno; Hindi nakuha ang port repeater.</string>
+  <string name="stage_042_skill" formatted="false">Naipasa ang lahat ng 4 sa panimulang pagtatangka.</string>
+  <string name="stage_043_name" formatted="false">Nabasag ang yelo</string>
+  <string name="stage_043_goal" formatted="false">Live 60s</string>
+  <string name="stage_043_special" formatted="false">Nahati ang yelo sa 2 piraso pagkatapos ng crack line; maaaring pulso bago pumutok. Ang fragment ay nagsilang lamang ng isang henerasyon.</string>
+  <string name="stage_043_skill" formatted="false">Basagin ang 3 bloke ng yelo bago hatiin.</string>
+  <string name="stage_044_name" formatted="false">Mainit na tubig</string>
+  <string name="stage_044_goal" formatted="false">Mangolekta ng 3 thermal core</string>
+  <string name="stage_044_special" formatted="false">Ang core ay nasa non-slip section sa pagitan ng dalawang conveyor belt; makakuha ng momentum pagkatapos ay preno, mayroong 6 na mga core ayon sa iskedyul.</string>
+  <string name="stage_044_skill" formatted="false">Mangolekta ng 3 crores sa unang 3 pagkakataon.</string>
+  <string name="stage_045_name" formatted="false">Malamig ang pendulum</string>
+  <string name="stage_045_goal" formatted="false">Sa 5 gate</string>
+  <string name="stage_045_special" formatted="false">Phase swing gate, pick-up point indicator; hulaan ang mga posisyon sa hinaharap sa halip na habulin ang mga kasalukuyang puntos.</string>
+  <string name="stage_045_skill" formatted="false">Huwag gumamit ng mga pulso.</string>
+  <string name="stage_046_name" formatted="false">Slide sa ilalim ng simboryo</string>
+  <string name="stage_046_goal" formatted="false">Live 65s</string>
+  <string name="stage_046_special" formatted="false">Ang mabagal na arko ng bato ay may maikling landas at isang panlabas na singsing. Kung madulas ka ng sobra, madaling tumama sa gilid ng maikling kalsada. May sapat pang oras para sa paglilihis.</string>
+  <string name="stage_046_skill" formatted="false">Sa pamamagitan ng 3 maikling linya na minarkahan.</string>
+  <string name="stage_047_name" formatted="false">Mga baterya sa conveyor belt</string>
+  <string name="stage_047_goal" formatted="false">Mag-load ng 2 istasyon, dumaan sa huling gate</string>
+  <string name="stage_047_special" formatted="false">Ang conveyor belt ang nagtutulak sa baterya, hindi sa tren; Ang hula sa pick-up point at stopping route ay naghihiwalay sa pagmamasid/kontrol.</string>
+  <string name="stage_047_skill" formatted="false">Mag-recharge ng 2 istasyon sa loob ng 50 segundo.</string>
+  <string name="stage_048_name" formatted="false">Umalingawngaw ang umalingawngaw</string>
+  <string name="stage_048_goal" formatted="false">Live 70s</string>
+  <string name="stage_048_special" formatted="false">Inilalarawan ang chain ng slot. Ang ambon ay sumasaklaw lamang sa background/dekorasyon, hindi sumasaklaw sa hitbox/babala bar; na may paulit-ulit na mga simbolo.</string>
+  <string name="stage_048_skill" formatted="false">Pumasa ng 6 na puwang nang hindi umuulit.</string>
+  <string name="stage_049_name" formatted="false">Nagkalat ang mga bitak</string>
+  <string name="stage_049_goal" formatted="false">Sa 6 na gate</string>
+  <string name="stage_049_special" formatted="false">Sa bawat gate, magsasara ang lumang lane pagkalipas ng 2 segundo; dapat ilipat, na ang lugar ay malapit nang magsara at ang susunod na lugar ay minarkahan.</string>
+  <string name="stage_049_skill" formatted="false">Huwag bumalik sa lumang lane sa loob ng 2 segundo ng pagsasara ng signal.</string>
+  <string name="stage_050_name" formatted="false">Puting Dragon</string>
+  <string name="stage_050_goal" formatted="false">Hatiin ang 4 na core</string>
+  <string name="stage_050_special" formatted="false">Ang unang dalawang phase ay drifting ice, ang huling dalawang phase ay fragmented ice arcs. Bukas ang core sa no-slip zone para marating ng lahat ng barko.</string>
+  <string name="stage_050_skill" formatted="false">Hindi natamaan ang pangalawang bahagi ng yelo.</string>
+  <string name="stage_051_name" formatted="false">Lumipat ng pasilyo</string>
+  <string name="stage_051_goal" formatted="false">I-on ang 3 switch, dumaan sa gate</string>
+  <string name="stage_051_special" formatted="false">Dumaan sa switch sa hilera ng tren para buksan ang tamang pinto sa likuran. Kung makaligtaan, maaari mong ulitin ito, ngunit hindi ka agad matatalo.</string>
+  <string name="stage_051_skill" formatted="false">I-on ang lahat ng 3 unang pagkikita.</string>
+  <string name="stage_052_name" formatted="false">Tatlong larawang code</string>
+  <string name="stage_052_goal" formatted="false">Maglagay ng string ng 3 simbolo</string>
+  <string name="stage_052_special" formatted="false">Ipakita ang triangle–circle–square sa loob ng 4 na segundo pagkatapos ay piliin ang tamang port. Hinahayaan ka ng False na suriin at ulitin ang kasalukuyang item; Iwasang umasa sa kulay lamang.</string>
+  <string name="stage_052_skill" formatted="false">Huwag ipasok nang mali/ulitin.</string>
+  <string name="stage_053_name" formatted="false">Drone patrol</string>
+  <string name="stage_053_goal" formatted="false">Live 65s</string>
+  <string name="stage_053_special" formatted="false">Ang mga pahalang na drone ay may nakapirming ruta, kukunan lamang kapag nakabukas ang mga ilaw; Basahin ang direksyon ng stem para hulaan ang slot.</string>
+  <string name="stage_053_skill" formatted="false">Wasakin ang 4 na drone na may pulso.</string>
+  <string name="stage_054_name" formatted="false">Wala na sa phase ang salamin</string>
+  <string name="stage_054_goal" formatted="false">Sa pamamagitan ng 5 totoong gate</string>
+  <string name="stage_054_special" formatted="false">Sinasalamin ng anino ang putol na linya, ang tunay na gate ay isang solidong frame + tunog ng alarma. Binawasan ang paggalaw ng drop shadow ngunit pinananatiling nakikilala ang mga simbolo.</string>
+  <string name="stage_054_skill" formatted="false">Huwag hawakan ang pekeng port area.</string>
+  <string name="stage_055_name" formatted="false">Button ng ritmo</string>
+  <string name="stage_055_goal" formatted="false">I-off ang 3 transmitter</string>
+  <string name="stage_055_special" formatted="false">Bubukas ang transmitter upang matanggap ang pulso sa loob ng 6 na segundo at pagkatapos ay sakop ang baluti; duty pin level dati, subok si miss next cycle.</string>
+  <string name="stage_055_skill" formatted="false">I-off ang lahat ng 3 kapag ang window ay may natitira pang ≥3s.</string>
+  <string name="stage_056_name" formatted="false">Pag-uuri ng conveyor</string>
+  <string name="stage_056_goal" formatted="false">Kolektahin ang 4 na bahagi ng tatsulok</string>
+  <string name="stage_056_special" formatted="false">Tatlong uri na pinaghalo: magkahiwalay na mga target, normal na mga item, mga mina ng babala. Dapat classify sa halip na scooping up ang lahat.</string>
+  <string name="stage_056_skill" formatted="false">Huwag kunin ang mga bahagi ng maling uri.</string>
+  <string name="stage_057_name" formatted="false">Naka-lock na shortcut</string>
+  <string name="stage_057_goal" formatted="false">Sa pamamagitan ng 4 na gate, buksan ang huling gate</string>
+  <string name="stage_057_special" formatted="false">Libreng long distance; Ang shortcut ay nagkakahalaga ng 40 NL ngunit nakakatipid ng oras. Ang huling port ay nangangailangan ng 60, ay may isang compensation pin upang maiwasan ang hard locking.</string>
+  <string name="stage_057_skill" formatted="false">Tapos bago ang 55 segundo.</string>
+  <string name="stage_058_name" formatted="false">Apat na gear</string>
+  <string name="stage_058_goal" formatted="false">Live 75s</string>
+  <string name="stage_058_special" formatted="false">Sinusundan ng drone ang mga column, arc, diagonal, at drifts sa deflection cycle. Susunod na modelo, huwag ihagis ang lahat ng apat sa parehong oras.</string>
+  <string name="stage_058_skill" formatted="false">Pagkatapos ng 1 cycle, apat na sample ang hindi pulso.</string>
+  <string name="stage_059_name" formatted="false">Simulan ang relic</string>
+  <string name="stage_059_goal" formatted="false">Mangolekta ng 3 core, buhayin ang 1 istasyon</string>
+  <string name="stage_059_special" formatted="false">Ipunin ang mga sangkap pagkatapos ay bumalik sa station lane upang buksan ang gate. Ang istasyon ay tumatanggap lamang kapag may sapat na mga core; Mayroong isang bypass upang maghintay para sa baterya.</string>
+  <string name="stage_059_skill" formatted="false">Gumagamit lamang ng 1 pulso.</string>
+  <string name="stage_060_name" formatted="false">Arkitekto</string>
+  <string name="stage_060_goal" formatted="false">Hatiin ang 4 na core</string>
+  <string name="stage_060_special" formatted="false">Tamang lutasin ang one-core open symbol route. Binabaliktad ng huling yugto ang pagkakasunud-sunod ngunit nagpapakita ng bagong sample bago tumakbo.</string>
+  <string name="stage_060_skill" formatted="false">Huwag pumili ng mga maling simbolo ng phase.</string>
+  <string name="stage_061_name" formatted="false">Pahalang na hangin</string>
+  <string name="stage_061_goal" formatted="false">Live 65s</string>
+  <string name="stage_061_special" formatted="false">Dalawang tulak kasunod ng arrow, ang bilis ng drift ay mas mababa kaysa sa kakayahang magbayad ng pinakamabagal na barko.</string>
+  <string name="stage_061_skill" formatted="false">Huwag hawakan ang gilid ng hangin.</string>
+  <string name="stage_062_name" formatted="false">Mata ng bagyo</string>
+  <string name="stage_062_goal" formatted="false">Sa pamamagitan ng 5 storm center areas</string>
+  <string name="stage_062_special" formatted="false">Ang neutral zone ay dumadaan sa 3 lane, nang hindi itinutulak sa gitna. Binibilang lamang kapag dumaan sa gitna sa hilera ng tren.</string>
+  <string name="stage_062_skill" formatted="false">Sa lahat ng 5 unang pagpapakita.</string>
+  <string name="stage_063_name" formatted="false">Tatlong layer na ulan</string>
+  <string name="stage_063_goal" formatted="false">Live 70s</string>
+  <string name="stage_063_special" formatted="false">Ang malalaking bato ay mabagal, ang maliliit na bato ay mabilis, ang mga minahan ay naaanod sa iba\'t ibang antas; basahin ang order upang magsanay sa halip na simpleng distansya.</string>
+  <string name="stage_063_skill" formatted="false">Isang pulso na sumisira sa mga bagay sa lahat ng 3 palapag.</string>
+  <string name="stage_064_name" formatted="false">Nawala ang baterya</string>
+  <string name="stage_064_goal" formatted="false">Mangolekta ng 4 na baterya ng misyon</string>
+  <string name="stage_064_special" formatted="false">Itinutulak ng hangin ang barko at mga baterya sa pamamagitan ng ibang salik; May pick-up point line, huwag pabilisin ang baterya nang biglaan. Kabuuang 7 pagkakataon.</string>
+  <string name="stage_064_skill" formatted="false">Mangolekta ng 4 na pin sa unang 4 na pagkakataon.</string>
+  <string name="stage_065_name" formatted="false">Flash na babala</string>
+  <string name="stage_065_goal" formatted="false">Sa pamamagitan ng 6 na gate</string>
+  <string name="stage_065_special" formatted="false">Ang flash sa background ay nagpapahiwatig ng pagkakasunod-sunod, pinapalitan ng static na simbolo kapag nabawasan ang paggalaw. Ang panganib ay lilitaw lamang pagkatapos ng isang panahon ng paghihintay.</string>
+  <string name="stage_065_skill" formatted="false">Huwag ulitin ang mga string.</string>
+  <string name="stage_066_name" formatted="false">Pressure corridor</string>
+  <string name="stage_066_goal" formatted="false">Live 75s</string>
+  <string name="stage_066_special" formatted="false">Ang lugar ng presyon ay dinadala sa gitna at pagkatapos ay bubuksan ang gilid; Kailangang umalis sa gitna bago isara, magbigay ng 2s babala.</string>
+  <string name="stage_066_skill" formatted="false">6 umiwas malapit, huwag gumamit ng impulse.</string>
+  <string name="stage_067_name" formatted="false">Baguhin ang hangin upang iligtas ang barko</string>
+  <string name="stage_067_goal" formatted="false">3 nakabaluti na kaibigan ang live sa loob ng 75 segundo</string>
+  <string name="stage_067_special" formatted="false">Hindi ka naaapektuhan ng hangin; Asahan ang pag-anod ng mga bato sa iyong linya at sirain muna ang mga ito gamit ang isang pulso.</string>
+  <string name="stage_067_skill" formatted="false">Hindi ka mawawalan ng sandata dahil sa mga batong naaanod patagilid.</string>
+  <string name="stage_068_name" formatted="false">Electrostatic na bagyo</string>
+  <string name="stage_068_goal" formatted="false">Buhay noong 80s</string>
+  <string name="stage_068_special" formatted="false">8s normal recovery / 4s lock recovery, tumatanggap pa rin ng baterya. Malinaw na sinasabi ng HUD na naka-lock. Ang pagkakaroon ng opsyonal na baterya ay nagbibigay ng sapat na pagkakataon para sa mga bituin.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​​​pulse, ang bawat pulso ay sumisira ng ≥1 banta.</string>
+  <string name="stage_069_name" formatted="false">Anim na beats bago madaling araw</string>
+  <string name="stage_069_goal" formatted="false">Sa pamamagitan ng 6 na port, makatanggap ng 2 signal</string>
+  <string name="stage_069_special" formatted="false">Iulat muna ang sample ng slot; signal at rest beats 2 at 5. Tandaan na magpahinga para makatanggap, hindi basta basta basta humabol sa gate.</string>
+  <string name="stage_069_skill" formatted="false">Nakatanggap ng dalawang signal sa unang pagkakataon.</string>
+  <string name="stage_070_name" formatted="false">Bagyo diyos</string>
+  <string name="stage_070_goal" formatted="false">Hatiin ang 4 na core</string>
+  <string name="stage_070_special" formatted="false">Kaliwang hangin, kanang hangin, sentro ng bagyo, unti-unting pag-ulan sa apat na yugto. Sa bukas na core, ang hangin ay nabawasan sa 25% upang maabot.</string>
+  <string name="stage_070_skill" formatted="false">Hindi itinulak sa gilid ng hangin.</string>
+  <string name="stage_071_name" formatted="false">V-shaped squadron</string>
+  <string name="stage_071_goal" formatted="false">Live 70s</string>
+  <string name="stage_071_special" formatted="false">Pinutol ng pulso ang button sa gitna ng V upang magbukas ng shortcut; o lumampas pa sa pakpak ngunit hindi nangangailangan ng pulso.</string>
+  <string name="stage_071_skill" formatted="false">Wasakin ang 3 button sa gitna ng squad.</string>
+  <string name="stage_072_name" formatted="false">Old lane lock</string>
+  <string name="stage_072_goal" formatted="false">Live 75s</string>
+  <string name="stage_072_special" formatted="false">Minamarkahan ng drone ang lane at pagkatapos ay magpapaputok pagkatapos ng 1.8 segundo; Gabayan ang mga bala sa lumang lane at baguhin ang ritmo.</string>
+  <string name="stage_072_skill" formatted="false">Nangunguna sa 6 na serye sa parehong bakanteng lane.</string>
+  <string name="stage_073_name" formatted="false">Napapalibutan ang mga suplay</string>
+  <string name="stage_073_goal" formatted="false">Mangolekta ng 3 pakete</string>
+  <string name="stage_073_special" formatted="false">Bawat package ay may 2 drone na babantayan at piliin ang mga pulso o maliliit na slot ayon sa barko. Mayroong 5 pakete, ang pasukan ay hindi naka-lock.</string>
+  <string name="stage_073_skill" formatted="false">Mangolekta ng sapat nang hindi sinisira ang surveillance drone.</string>
+  <string name="stage_074_name" formatted="false">Diversionary attack</string>
+  <string name="stage_074_goal" formatted="false">Sa pamamagitan ng 5 totoong gate</string>
+  <string name="stage_074_special" formatted="false">Ang pekeng ilong na may sirang linya ay hindi nagdudulot ng pinsala; Tunay na gate pagkatapos ng mabagal na suntok. Ang batas ng diversion ay itinuro, hindi pekeng system notifications.</string>
+  <string name="stage_074_skill" formatted="false">Huwag lumipat sa decoy lane.</string>
+  <string name="stage_075_name" formatted="false">Wasakin ang guard layer</string>
+  <string name="stage_075_goal" formatted="false">Wasakin ang 3 button ng seguridad</string>
+  <string name="stage_075_special" formatted="false">Naabot ng button ang hanay ng pulso sa ibang oras; Mayroong sapat na intersection point upang i-off ang 2 node na may isang pulso. Sapat na baterya ng tungkulin.</string>
+  <string name="stage_075_skill" formatted="false">Pinapatay ng pulso ang 2 node sa intersection.</string>
+  <string name="stage_076_name" formatted="false">Ang retreat ng convoy</string>
+  <string name="stage_076_goal" formatted="false">Dumaan ka sa 4 na gate</string>
+  <string name="stage_076_special" formatted="false">Hinaharangan ng kaaway ang iyong ruta sa hinaharap. Magbago nang maaga para masundan ng iyong mga kaibigan; Ang bawat port ay may 2 wastong exit path.</string>
+  <string name="stage_076_skill" formatted="false">Dumaan ka sa sapat na gate nang hindi nawawala ang armor.</string>
+  <string name="stage_077_name" formatted="false">Two-span na pagkubkob</string>
+  <string name="stage_077_goal" formatted="false">Buhay noong 80s</string>
+  <string name="stage_077_special" formatted="false">Ang loop ay sarado lamang sa itaas na bahagi; Ang mga pintuan sa labasan ay salitan sa gilid/gitna, hindi sa hilera ng tren.</string>
+  <string name="stage_077_skill" formatted="false">Lumabas ng 4 na round na walang pulso.</string>
+  <string name="stage_078_name" formatted="false">Depot ng gasolina ng kaaway</string>
+  <string name="stage_078_goal" formatted="false">Mangolekta ng 3 crores, sirain ang 2 bodega</string>
+  <string name="stage_078_special" formatted="false">Ang pagsira sa warehouse ay nakakabawas ng pressure ngunit kailangang mag-preserba ng enerhiya para sa susunod na beat. Ang mga bodega ay binibilang lamang kapag nawasak, hindi sila lumilipad sa screen.</string>
+  <string name="stage_078_skill" formatted="false">Itama ang 2 pulso para sa 2 bodega, walang labis na pagpindot.</string>
+  <string name="stage_079_name" formatted="false">Umiikot na pangkat ng pangangaso</string>
+  <string name="stage_079_goal" formatted="false">Live 85s</string>
+  <string name="stage_079_special" formatted="false">Lumipat ng mga tungkulin tuwing 15 segundo para harangan ang lane/guard/sweep; Maximum ng 2 tungkulin sa parehong oras.</string>
+  <string name="stage_079_skill" formatted="false">Makamit ang combo 6.</string>
+  <string name="stage_080_name" formatted="false">Flagship Black Vu</string>
+  <string name="stage_080_goal" formatted="false">Magbreak ng 5 crores</string>
+  <string name="stage_080_special" formatted="false">Ipasa ang lock ng lane para hayaang maghiwalay ang guard at ilantad ang core. Ang huling dalawang yugto ay V-shaped/escape loop; Sinasaklaw ng baterya ang bawat bahagi nang hiwalay.</string>
+  <string name="stage_080_skill" formatted="false">Walang pulso kapag nakasara ang core armor.</string>
+  <string name="stage_081_name" formatted="false">Bakas ng hinaharap</string>
+  <string name="stage_081_goal" formatted="false">Live 75s</string>
+  <string name="stage_081_special" formatted="false">Iulat ang patutunguhan ng pagsipa 2 segundo nang maaga at pagkatapos ay sipa gaya ng hinulaang. Basahin ang hinaharap sa halip na tingnan lamang ang kasalukuyang bato.</string>
+  <string name="stage_081_skill" formatted="false">Sa pamamagitan ng 6 na puwang, walang pulso ang hinulaang.</string>
+  <string name="stage_082_name" formatted="false">Mabagal na daloy</string>
+  <string name="stage_082_goal" formatted="false">Sa 5 gate</string>
+  <string name="stage_082_special" formatted="false">Ang bawat lane ay may iba\'t ibang bilis ng bagay; Hindi mabagal ang tren/orasan. Ihambing ang oras ng pagdating ng tren sa halip na distansya.</string>
+  <string name="stage_082_skill" formatted="false">Sa lahat ng 5 openings.</string>
+  <string name="stage_083_name" formatted="false">Muli</string>
+  <string name="stage_083_goal" formatted="false">Live 80s</string>
+  <string name="stage_083_special" formatted="false">Ang simbolo na bato ay gumagalaw paatras at pagkatapos ay bumagsak pabalik nang eksaktong isang beses; Panatilihing malapit ang ID/dodge flag, huwag magbigay ng reward nang dalawang beses.</string>
+  <string name="stage_083_skill" formatted="false">4 na umiwas nang malapit sa 4 ID pagkatapos mag-rewind.</string>
+  <string name="stage_084_name" formatted="false">Dalawang beses na gate</string>
+  <string name="stage_084_goal" formatted="false">Sa pamamagitan ng 4 phase port</string>
+  <string name="stage_084_special" formatted="false">Ang unang pinto ay makitid, ang likod na pinto ay malawak. Piliin na pumunta ng maaga para samantalahin o maghintay para maging mas ligtas; huwag basta-basta baguhin ang posisyon ng pinto.</string>
+  <string name="stage_084_skill" formatted="false">Sa pamamagitan ng ≥3 gate sa unang gate.</string>
+  <string name="stage_085_name" formatted="false">Nakatigil ang package</string>
+  <string name="stage_085_goal" formatted="false">Mangolekta ng 4 na pakete</string>
+  <string name="stage_085_special" formatted="false">Huminto si Sue sa y=560 pagkatapos ay nagpatuloy sa pagbibilang; Huwag mag-pick up bago makarating sa linya ng tren. Mayroong 6 na pagkakataon.</string>
+  <string name="stage_085_skill" formatted="false">Huwag palampasin ang unang 4 na pakete.</string>
+  <string name="stage_086_name" formatted="false">Baliktarin ang signal</string>
+  <string name="stage_086_goal" formatted="false">Sa pamamagitan ng 5 port sa reverse chain</string>
+  <string name="stage_086_special" formatted="false">Ipakita ang string na may label na \"reverse order\" bago magsimula; ay may suporta para sa muling pagbabasa ng utos ng pagpapatupad.</string>
+  <string name="stage_086_skill" formatted="false">Wag mo nang ulitin.</string>
+  <string name="stage_087_name" formatted="false">Sariling anino ko</string>
+  <string name="stage_087_goal" formatted="false">Live 85s</string>
+  <string name="stage_087_special" formatted="false">Itinala ng bola ang landas 3 segundo bago ipahiwatig ang paparating na posisyon ng pagbaril; Hindi bumabangga ang bola. Iwanan ang lumang landas sa halip na sundin ang bola.</string>
+  <string name="stage_087_skill" formatted="false">6 shot ng bola ang hindi tumama sa barko.</string>
+  <string name="stage_088_name" formatted="false">Limitadong pagyeyelo</string>
+  <string name="stage_088_goal" formatted="false">I-off ang 3 time transmitter</string>
+  <string name="stage_088_special" formatted="false">Ang pagsasara ng pulso ay humihinto lamang sa bala, hindi nagpapataas ng target; maghintay para sa pangunahing pinto. I-pin ang tamang dami ng beses at ulitin ang error.</string>
+  <string name="stage_088_skill" formatted="false">Itama ang 3 pulso sa 3 set.</string>
+  <string name="stage_089_name" formatted="false">Ngayon ang punto ng pagtatagpo</string>
+  <string name="stage_089_goal" formatted="false">Mayroon kang 3 buhay na zodiac sign</string>
+  <string name="stage_089_special" formatted="false">Sinusundan mo ang real time, nagbabantang tatawid sa mabilis/mabagal na sona. Tinutulungan ka ng mga linya ng hula na makita kung aling bagay ang unang makakarating sa iyo.</string>
+  <string name="stage_089_skill" formatted="false">Walang mga banta mula sa fast zone ang makakarating sa iyo.</string>
+  <string name="stage_090_name" formatted="false">Watch keeper</string>
+  <string name="stage_090_goal" formatted="false">Magbreak ng 5 crores</string>
+  <string name="stage_090_special" formatted="false">Limang yugto: forecast, stop, single rewind, dalawang bintana, reverse sequence. Ibinabalik lamang ang posisyon, hindi ibinabalik ang nawalang kalusugan ng boss.</string>
+  <string name="stage_090_skill" formatted="false">Huwag pulso nang hindi binubuksan ang core.</string>
+  <string name="stage_091_name" formatted="false">Ang huling tatlong kalsada</string>
+  <string name="stage_091_goal" formatted="false">Sa pamamagitan ng 6 na gate sa isang linya</string>
+  <string name="stage_091_special" formatted="false">Bago ang screen, pumili ng malawak na ruta na may kaunting supply / maraming baterya / malapit na pag-iwas. Na humahantong sa parehong destinasyon, ang bawat ruta ay may gate ng tulong upang baguhin kung kinakailangan.</string>
+  <string name="stage_091_skill" formatted="false">Huwag i-reroute gamit ang relief gate.</string>
+  <string name="stage_092_name" formatted="false">Pulse o kalasag</string>
+  <string name="stage_092_goal" formatted="false">Live 85s</string>
+  <string name="stage_092_special" formatted="false">Hinahayaan ka ng 3 istasyon na pumili ng baterya o shield ayon sa lane, hindi pareho. Ang sumusunod na pattern ay may dalawang katumbas na solusyon.</string>
+  <string name="stage_092_skill" formatted="false">Huwag pumili ng parehong uri sa lahat ng 3 istasyon.</string>
+  <string name="stage_093_name" formatted="false">Ibalik ang huling tao</string>
+  <string name="stage_093_goal" formatted="false">Mabuhay ka, magtipid ng 2 compartments</string>
+  <string name="stage_093_special" formatted="false">Ang daan sa pagsagip ay pumuputol sa paraan para protektahan ka; Hayaan ang baterya bago ihatid para sa isang pangkalahatang mapanganib na pulso.</string>
+  <string name="stage_093_skill" formatted="false">Hindi ka mawawalan ng armor sa dalawang save.</string>
+  <string name="stage_094_name" formatted="false">Four seasons corridor</string>
+  <string name="stage_094_goal" formatted="false">Sa pamamagitan ng 8 gate</string>
+  <string name="stage_094_special" formatted="false">Apat na normal na seksyon → hangin → yelo → ipinagbabawal na pag-load, bawat seksyon ay may 2 port. Sa gitna ng neutralisasyon sa loob ng 3 segundo, huwag magdagdag ng drift na lampas sa limitasyon.</string>
+  <string name="stage_094_skill" formatted="false">Naipasa ang lahat ng 8 pagtatangka sa pagbubukas.</string>
+  <string name="stage_095_name" formatted="false">Counterattack belt</string>
+  <string name="stage_095_goal" formatted="false">Live sa loob ng 90 segundo, sirain ang 4 na target na cluster</string>
+  <string name="stage_095_special" formatted="false">Madalas nagdudulot ng pressure ang pagsipa; Ang kumpol ay may kalasag na bumubukas sa ritmo, ang pulso ay dapat na nakalaan sa tamang oras. Mayroong 6 na target na bintana.</string>
+  <string name="stage_095_skill" formatted="false">Huwag sirain ang putol-putol na pseudo-frame cluster.</string>
+  <string name="stage_096_name" formatted="false">Pagpili ng piloto</string>
+  <string name="stage_096_goal" formatted="false">Mangolekta ng 3 kandado, dumaan sa huling gate</string>
+  <string name="stage_096_special" formatted="false">Ang bawat lock ay may makitid na sangay na paglagyan ng mga combo o isang malawak na sangay na ilo-load. Ang pagpili ay nakakaapekto sa susunod na yugto ngunit hindi humahadlang sa posibilidad na manalo.</string>
+  <string name="stage_096_skill" formatted="false">Huwag gamitin ang aid filling station.</string>
+  <string name="stage_097_name" formatted="false">Nova Line</string>
+  <string name="stage_097_goal" formatted="false">Station 5 live armor</string>
+  <string name="stage_097_special" formatted="false">3-lane attack priority ay nagbabago ayon sa signal; May pahinga pagkatapos ng malaking alon upang paikutin ang mga posisyon. Huwag ipagpalagay na mayroon nang mga mamahaling barko.
+Ang</string>
+  <string name="stage_097_skill" formatted="false">Station ay may natitira pang ≥4/5 na armor.</string>
+  <string name="stage_098_name" formatted="false">Natutunan ang paglalakbay</string>
+  <string name="stage_098_goal" formatted="false">Live hanggang sa 5 talata</string>
+  <string name="stage_098_special" formatted="false">Mga halimbawang kabanata 2, 3, 5, 7, 9; inihayag nang maaga, ang bawat junction ay may malinaw na mga panuntunan sa paglilipat.</string>
+  <string name="stage_098_skill" formatted="false">Walang repeat/relief port.</string>
+  <string name="stage_099_name" formatted="false">Pintuan ng madaling araw</string>
+  <string name="stage_099_goal" formatted="false">Sa pamamagitan ng 6 na port, i-off ang 2 core lock</string>
+  <string name="stage_099_special" formatted="false">Pulse interlocking position gate; antas ng baterya bago i-lock. Kung ginamit nang hindi sinasadya, may relief refill ring, hindi naka-lock.</string>
+  <string name="stage_099_skill" formatted="false">Tapos bago ang 85 segundo, huwag gamitin ang rescue ring.</string>
+  <string name="stage_100_name" formatted="false">Meteor heart</string>
+  <string name="stage_100_goal" formatted="false">Hatiin ang 6 na core</string>
+  <string name="stage_100_special" formatted="false">Tatlong round, bawat round ay 2 core: bato/gate; proteksyon/hangin; oras/nakasuot na pagbubukas. Magpahinga ng 5 segundo sa pagitan, ibalik ang 1 armor/energy level. Terminal phase maximum na 2 alam na mekanismo.</string>
+  <string name="stage_100_skill" formatted="false">Hindi pa na-activate ni Thang ang nagliligtas-buhay na trigger o ang relief port; Hindi na kailangang magkaroon ng Sentinel.</string>
+  <string name="chapter_01" formatted="false">Ben star: pagmamay-ari ang barko</string>
+  <string name="chapter_02" formatted="false">Stone belt: basahin ang ruta</string>
+  <string name="chapter_03" formatted="false">Electromagnetic region: paggamit at paghawak ng enerhiya</string>
+  <string name="chapter_04" formatted="false">Nawalang tren: proteksyon at priyoridad</string>
+  <string name="chapter_05" formatted="false">Ice nebula: master inertia</string>
+  <string name="chapter_06" formatted="false">Mga pagkasira ng mekanikal: machine reading at decoding</string>
+  <string name="chapter_07" formatted="false">Space storm: adaptasyon sa kapaligiran</string>
+  <string name="chapter_08" formatted="false">Dark Fleet: mga taktikal na reflexes</string>
+  <string name="chapter_09" formatted="false">Time Rift: basahin ang mga patakaran ng pagbabago</string>
+  <string name="chapter_10" formatted="false">Meteor center: synthesis at pagpili</string>
+  <string name="ship_s01_body" formatted="false">Balanse, walang pangalawang panuntunan; Karaniwang pag-verify ng bawat screen. Trade-off: Walang espesyalisasyon.</string>
+  <string name="ship_s02_body" formatted="false">Mabilis na pagbabago ng lane, maliit ang katawan. Trade-off: Mas kaunting armor.</string>
+  <string name="ship_s03_body" formatted="false">Dumaranas ng maraming kakaibang banggaan. Mga Trade-off: Malaki, mabagal, mabagal na pag-load.</string>
+  <string name="ship_s04_body" formatted="false">I-absorb ang mga opsyonal na item sa loob ng 45 unit sa paligid ng hilera ng barko. Trade-off: Walang sapilitang self-suction/port; malaking katawan.</string>
+  <string name="ship_s05_body" formatted="false">Mabilis na passive charging. Trade-off: Mababang baluti; Ang mga baterya ay karaniwang nagcha-charge lamang ng 15 sa halip na 20.</string>
+  <string name="ship_s06_body" formatted="false">Shields item para sa karagdagang 2 segundo. Trade-off: Ang base pulse ay 160 radius lamang.</string>
+  <string name="ship_s07_body" formatted="false">Pagkatapos umiwas, binabawasan ang environmental drift ng 50% sa loob ng 1 segundo. Trade-off: 4s basic combo window.</string>
+  <string name="ship_s08_body" formatted="false">Bawat 25 segundo, nagre-restore ng 1 armor kung nawawala; Maximum na 2 beses/antas, 3 beses/walang katapusan. Trade-off: Ang mga item sa pagpapanumbalik ng armor ay hindi nagre-recharge.</string>
+  <string name="ship_s09_body" formatted="false">Ang impulse ay nagtutulak ng normal na hindi naputol na mga bato ng 30 units pa kung mayroon pa ring rutang pagtakas. Trade-off: Ang post-impulse na proteksyon ay 0.45s lamang.</string>
+  <string name="ship_s10_body" formatted="false">Isang beses/level ang pumipigil sa kritikal na suntok, 1 armor ang natitira, invulnerability sa loob ng 1 segundo. Trade-off: Hindi pinipigilan ang pagkawala dahil sa escort/expire; Hindi stack revives.</string>
+  <string name="ship_s11_body" formatted="false">Ang unang pagkuha ng mga item tuwing 15 segundo ay nagdaragdag ng 8 enerhiya. Trade-off: Ang base slow ay 1s na mas maikli.</string>
+  <string name="ship_s12_body" formatted="false">Bago ang stage pumili ng +1 armor **o** +30 pulse radius. Trade-off: Armor configuration: nabawasan ang bilis sa 680; Configuration ng pulso: ibalik ang NL sa 2.6.</string>
+  <string name="campaign" formatted="false">Paglalakbay ng 100 yugto</string>
+  <string name="campaign_continue" formatted="false">Ipagpatuloy ang iyong paglalakbay</string>
+  <string name="fleet" formatted="false">Shipyard</string>
+  <string name="stage" formatted="false">Screen</string>
+  <string name="chapter" formatted="false">Kabanata</string>
+  <string name="stars" formatted="false">Bakit</string>
+  <string name="stage_ready" formatted="false">Maghanda para sa paglipad</string>
+  <string name="stage_goal" formatted="false">Pangunahing layunin</string>
+  <string name="stage_special" formatted="false">Espesyal na punto</string>
+  <string name="stage_skill" formatted="false">Mga kasanayan sa bituin</string>
+  <string name="stage_damage" formatted="false">Bakit panatilihin ang barko: ang bilang ng beses na nawalan ito ng sandata ay hindi masyadong marami</string>
+  <string name="stage_play" formatted="false">Simulan ang entablado</string>
+  <string name="stage_map" formatted="false">Mapa</string>
+  <string name="stage_next" formatted="false">Susunod na yugto</string>
+  <string name="stage_retry" formatted="false">Subukang muli ang antas na ito</string>
+  <string name="stage_victory" formatted="false">KUMPLETO ANG GAWA</string>
+  <string name="stage_defeat" formatted="false">HINDI PA NAKASA SA CURVE</string>
+  <string name="stage_locked" formatted="false">Kailangang makapasa muna sa level</string>
+  <string name="stage_complete" formatted="false">Nakumpleto</string>
+  <string name="stage_first" formatted="false">Bonus sa unang panalo</string>
+  <string name="stage_star_reward" formatted="false">Bagong star bonus</string>
+  <string name="stage_boss_reward" formatted="false">Gantimpalaan ang gate</string>
+  <string name="stage_chapter_reward" formatted="false">Bonus na kabanata</string>
+  <string name="ship_owned" formatted="false">Pagmamay-ari</string>
+  <string name="ship_equipped" formatted="false">Ginagamit</string>
+  <string name="ship_equip" formatted="false">Kagamitan</string>
+  <string name="ship_buy" formatted="false">Bumili ng barko</string>
+  <string name="ship_speed" formatted="false">Pahalang na bilis</string>
+  <string name="ship_radius" formatted="false">Radius ng banggaan</string>
+  <string name="ship_energy" formatted="false">Energy regen bawat segundo</string>
+  <string name="ship_choose" formatted="false">Pumili ng tren</string>
+  <string name="account_upgrades" formatted="false">I-upgrade ang iyong account</string>
+  <string name="practice" formatted="false">Magsanay</string>
+  <string name="practice_note" formatted="false">Magsanay nang hindi nagbubukas, nang hindi tumatanggap ng pera o anumang bagay.</string>
+  <string name="practice_active" formatted="false">SA PAGSASANAY — WALANG REWARD</string>
+  <string name="route" formatted="false">Ruta</string>
+  <string name="route_safe" formatted="false">Malapad na kalsada</string>
+  <string name="route_energy" formatted="false">Linya ng enerhiya</string>
+  <string name="route_risk" formatted="false">Isara ang umigtad</string>
+  <string name="astra_armor" formatted="false">Configuration ng baluti</string>
+  <string name="astra_pulse" formatted="false">Configuration ng pulso</string>
+  <string name="goal_gate" formatted="false">Gate</string>
+  <string name="cargo" formatted="false">Idemanda ang misyon</string>
+  <string name="nodes" formatted="false">Button ng pag-activate</string>
+  <string name="cores" formatted="false">Boss core</string>
+  <string name="ally" formatted="false">Mga kaalyado</string>
+  <string name="station" formatted="false">Depensa istasyon</string>
+  <string name="time_left" formatted="false">Kaliwa</string>
+  <string name="boss_open" formatted="false">CORE OPEN — PULSE IN RANGE</string>
+  <string name="boss_closed" formatted="false">WAIT FOR OPEN CORE</string>
+  <string name="memory" formatted="false">Port string</string>
+  <string name="memory_hint" formatted="false">Ulitin ang string</string>
+  <string name="defeat_armor" formatted="false">Wala ng baluti</string>
+  <string name="defeat_ally" formatted="false">Nawasak ang mga kaalyado</string>
+  <string name="defeat_station" formatted="false">Nawasak ang istasyon</string>
+  <string name="defeat_timeout" formatted="false">Nag-expire ang target na deadline</string>
+  <string name="sensitivity" formatted="false">Pull sensitivity</string>
+  <string name="campaign_finished" formatted="false">Nakumpleto ang 100 na antas!</string>
+  <string name="ship_stats" formatted="false">Mga parameter ng barko</string>
+  <string name="reward_base" formatted="false">Pre-survival</string>
+  <string name="reward_total" formatted="false">Kabuuang mga kredito na natanggap</string>
+  <string name="save_before_next" formatted="false">I-save ang mga resulta bago magpatuloy.</string>
+  <string name="star_damage_info" formatted="false">Bakit binibilang lang ng maintenance ng barko kung ilang beses itong nawalan ng armor; Ang pag-aayos ay hindi binubura ang mga nawawalang oras.</string>
+  <string name="practice_hint" formatted="false">Hilahin para kunin ang item, dumaan sa tamang gate at gamitin ang pulso kapag bumukas ang core.</string>
 </resources>

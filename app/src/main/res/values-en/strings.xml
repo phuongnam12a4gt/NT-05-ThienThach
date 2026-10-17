@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Survival: 10 points/second. Items: 25 points each. Every 20 final points earn 1 credit for ship upgrades. Abandoned flights earn nothing.</string>
   <string name="help_accessibility" formatted="false">Play requires real-time observation and dragging.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">VERSION 1.3 / 20 LANGUAGES</string>
+  <string name="update_badge" formatted="false">2.0 / Journey of 100 stages</string>
   <string name="new_tagline" formatted="false">Graze meteors to build combos. Pulse to escape. Master your flight and beat your best.</string>
   <string name="pulse_ready" formatted="false">PULSE</string>
   <string name="pulse_charging">ENERGY %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Amplifier</string>
   <string name="daredevil_name" formatted="false">Daredevil</string>
   <string name="focus_name" formatted="false">Focus</string>
+  <string name="stage_001_name" formatted="false">Take off</string>
+  <string name="stage_001_goal" formatted="false">Live 30 seconds</string>
+  <string name="stage_001_special" formatted="false">0–10s only small rocks fall straight; 10–20s middle gap; 20–30 seconds change slots to both sides. Instructions for pulling by action.</string>
+  <string name="stage_001_skill" formatted="false">Go through all 3 safety instructions.</string>
+  <string name="stage_002_name" formatted="false">Three ways back</string>
+  <string name="stage_002_goal" formatted="false">Through 3 gates</string>
+  <string name="stage_002_special" formatted="false">Gate opens left–center–right, every 8 seconds; Gate misses repeat after 4s. The focus is on picking up location, not increasing hail.</string>
+  <string name="stage_002_skill" formatted="false">Don\'t miss any gate opening.</string>
+  <string name="stage_003_name" formatted="false">First resupply</string>
+  <string name="stage_003_goal" formatted="false">Collect 2 packages</string>
+  <string name="stage_003_special" formatted="false">4 packages on two alternating routes; The rock does not occupy the pick-up line in the guide window.</string>
+  <string name="stage_003_skill" formatted="false">Finished with full maximum armor.</string>
+  <string name="stage_004_name" formatted="false">Left–right rhythm</string>
+  <string name="stage_004_goal" formatted="false">Live 35s</string>
+  <string name="stage_004_special" formatted="false">The stone row has a slot, changing left/right according to the rhythm; There is room to turn around, standing in the middle is not always safe.</string>
+  <string name="stage_004_skill" formatted="false">Through the 4 centers of the slots, mark the correct rhythm.</string>
+  <string name="stage_005_name" formatted="false">Pulse opens the way</string>
+  <string name="stage_005_goal" formatted="false">Turn off 2 mine clusters</string>
+  <string name="stage_005_special" formatted="false">Cluster down y=560, assign task pin before each cluster. Click early to be prompted and repeat safely.</string>
+  <string name="stage_005_skill" formatted="false">Each cluster is completely turned off by one pulse.</string>
+  <string name="stage_006_name" formatted="false">One wing distance</string>
+  <string name="stage_006_goal" formatted="false">2 valid dodges</string>
+  <string name="stage_006_special" formatted="false">Two sample small rock routes, showing practice area, at least 8 opportunities. Collision does not add to the target.</string>
+  <string name="stage_006_skill" formatted="false">Connect 2, dodge close for 5 seconds, achieve combo 2.</string>
+  <string name="stage_007_name" formatted="false">Energy armor</string>
+  <string name="stage_007_goal" formatted="false">Live 40s</string>
+  <string name="stage_007_special" formatted="false">Front shield with two narrow sections; still has a wide outer line so you don\'t need to take the hit.</string>
+  <string name="stage_007_skill" formatted="false">Shield blocks once, does not lose armor.</string>
+  <string name="stage_008_name" formatted="false">One second slow down</string>
+  <string name="stage_008_goal" formatted="false">Through 4 gates</string>
+  <string name="stage_008_special" formatted="false">Slow graft gate; shows that the item does not slow down the target clock. There are routes that don\'t need to be picked up to slow down.</string>
+  <string name="stage_008_skill" formatted="false">Pick up 2 slow items with different IDs.</string>
+  <string name="stage_009_name" formatted="false">Pilot test</string>
+  <string name="stage_009_goal" formatted="false">Collect 2 bales, go through 3 gates</string>
+  <string name="stage_009_special" formatted="false">Three stages: collect, change lanes, hold the pulse to open the final path. Acknowledge both goals simultaneously.</string>
+  <string name="stage_009_skill" formatted="false">At least 3 dodge close to the last gate.</string>
+  <string name="stage_010_name" formatted="false">Dock keeper</string>
+  <string name="stage_010_goal" formatted="false">Break 2 cores</string>
+  <string name="stage_010_special" formatted="false">Phase 1 two columns left in the middle; Mix 2 slots to the side and then lower the core. Separate pin/window for each core.</string>
+  <string name="stage_010_skill" formatted="false">Destroy each core at the beginning of the phase.</string>
+  <string name="stage_011_name" formatted="false">Fishbone</string>
+  <string name="stage_011_goal" formatted="false">Live 40s</string>
+  <string name="stage_011_special" formatted="false">Two diagonal branches create a herringbone slit; change direction after each pair, with a straight line indicating a turn.</string>
+  <string name="stage_011_skill" formatted="false">Through the 5 center slots marked.</string>
+  <string name="stage_012_name" formatted="false">Floating stairs</string>
+  <string name="stage_012_goal" formatted="false">Through 4 gates</string>
+  <string name="stage_012_special" formatted="false">Left → slightly left → slightly right → right; Teaching small translation continuously. Missed current port loopback.</string>
+  <string name="stage_012_skill" formatted="false">Do not use pulses.</string>
+  <string name="stage_013_name" formatted="false">Scissors</string>
+  <string name="stage_013_goal" formatted="false">Live 45s</string>
+  <string name="stage_013_special" formatted="false">The two diagonal lines intersect but do not reach the train line at the same time; Line numbering warning comes first.</string>
+  <string name="stage_013_skill" formatted="false">4 dodges from at least 2 lines.</string>
+  <string name="stage_014_name" formatted="false">The alley changes direction</string>
+  <string name="stage_014_goal" formatted="false">Through 5 gates</string>
+  <string name="stage_014_special" formatted="false">The corridor changes direction with an arrow; keep the ship\'s momentum. Gate 3 has a break to learn to turn.</string>
+  <string name="stage_014_skill" formatted="false">Passed all 5 in the opening attempt.</string>
+  <string name="stage_015_name" formatted="false">Twin stone</string>
+  <string name="stage_015_goal" formatted="false">Live 45s</string>
+  <string name="stage_015_special" formatted="false">Each pair has a slow kick followed by a fast kick, avoiding false gaps after the first kick.</string>
+  <string name="stage_015_skill" formatted="false">Avoid each type of speed at least twice.</string>
+  <string name="stage_016_name" formatted="false">Crescent</string>
+  <string name="stage_016_goal" formatted="false">Collect 3 map pieces</string>
+  <string name="stage_016_special" formatted="false">Kick in a curved arc; The item is in the safe concave area and then changed to the opposite arc, there are 6 chances.</string>
+  <string name="stage_016_skill" formatted="false">Collect 3 pieces in the first 3 chances.</string>
+  <string name="stage_017_name" formatted="false">Double rhythm</string>
+  <string name="stage_017_goal" formatted="false">Live 50s</string>
+  <string name="stage_017_special" formatted="false">Two quick rows and then a long break; At the end of the stage, change three rows to avoid sudden rocks entering the ship.</string>
+  <string name="stage_017_skill" formatted="false">One pulse destroys at least 4 rocks.</string>
+  <string name="stage_018_name" formatted="false">Satellite orbit</string>
+  <string name="stage_018_goal" formatted="false">Through 4 gates</string>
+  <string name="stage_018_special" formatted="false">Small rocks rotate around large blocks; The orbital slot predicts the pick-up location at the ship row.</string>
+  <string name="stage_018_skill" formatted="false">Do not destroy the center block.</string>
+  <string name="stage_019_name" formatted="false">The intersection of ambition</string>
+  <string name="stage_019_goal" formatted="false">Live 55 seconds and collect 2 courses</string>
+  <string name="stage_019_special" formatted="false">Wide roads have few things, narrow roads have locks. There are 4 locks, so you don\'t have to take risky routes every time.</string>
+  <string name="stage_019_skill" formatted="false">Collect all 4 courses before 55 seconds.</string>
+  <string name="stage_020_name" formatted="false">Belt crusher</string>
+  <string name="stage_020_goal" formatted="false">Break 3 cores</string>
+  <string name="stage_020_special" formatted="false">The two wings press to create a horizontal slot; After pressing one wing, it stops revealing the core. The final phase reverses the scan with an alarm.</string>
+  <string name="stage_020_skill" formatted="false">The ship was not hit by a wing mine.</string>
+  <string name="stage_021_name" formatted="false">Battery in the middle of a storm</string>
+  <string name="stage_021_goal" formatted="false">Collect 3 mission pins</string>
+  <string name="stage_021_special" formatted="false">There are 5 batteries behind the poles with slots; must pick up the correct position instead of sending pulses continuously.</string>
+  <string name="stage_021_skill" formatted="false">Energy does not drop below 30.</string>
+  <string name="stage_022_name" formatted="false">No loading area</string>
+  <string name="stage_022_goal" formatted="false">Through 4 gates</string>
+  <string name="stage_022_special" formatted="false">The striped area stops responding, the bright area recharges normally. Alternating ports force the choice of staying loaded or switching early.</string>
+  <string name="stage_022_skill" formatted="false">Pass the last gate with NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Fuse</string>
+  <string name="stage_023_goal" formatted="false">Turn off 3 power buttons</string>
+  <string name="stage_023_special" formatted="false">The button turns off only within the pulse radius; There are 3 duty batteries. The button that has not been turned off still has a bypass and the next turn.</string>
+  <string name="stage_023_skill" formatted="false">Turn off all 3 when the safety ring is open.</string>
+  <string name="stage_024_name" formatted="false">Necklace</string>
+  <string name="stage_024_goal" formatted="false">Through 5 gates in order</string>
+  <string name="stage_024_special" formatted="false">The port has a number/symbol; only the current port receives progress. Going through the future gate does not subtract lives, does not increase the count.</string>
+  <string name="stage_024_skill" formatted="false">Do not go through the gate in the wrong order.</string>
+  <string name="stage_025_name" formatted="false">Choose to charge or dodge</string>
+  <string name="stage_025_goal" formatted="false">Live 55s</string>
+  <string name="stage_025_special" formatted="false">Every 10 seconds the pin is on the opposite edge of the next slot. Self-evaluate whether there is enough time to cycle back or remove the battery; The battery removal route always exists.</string>
+  <string name="stage_025_skill" formatted="false">Collect 3 batteries and still go to the next slot.</string>
+  <string name="stage_026_name" formatted="false">Resonant capacitor</string>
+  <string name="stage_026_goal" formatted="false">Activate 2 stations with NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Going through the 80 NL drainage station area; There is a 100 refill line in front of each station. The pulse does not replace the station touch operation.</string>
+  <string name="stage_026_skill" formatted="false">Both stations receive when input NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">Ion rain</string>
+  <string name="stage_027_goal" formatted="false">Live 55s</string>
+  <string name="stage_027_special" formatted="false">The ion cloud heals in one lane, but the rock will get there after the warning. Having at least 3 batteries usually makes the secondary target viable.</string>
+  <string name="stage_027_skill" formatted="false">Transmit 3 valid pulses.</string>
+  <string name="stage_028_name" formatted="false">Conductor bulb</string>
+  <string name="stage_028_goal" formatted="false">Collect 4 pieces of leads</string>
+  <string name="stage_028_special" formatted="false">The mission map drifts to extreme left/right cyclically, with a line predicting the pick-up point. There are 7 opportunities.</string>
+  <string name="stage_028_skill" formatted="false">Collect 4 pieces in the first 4 opportunities.</string>
+  <string name="stage_029_name" formatted="false">Reserve at the end of the road</string>
+  <string name="stage_029_goal" formatted="false">Through 3 ports, deposit ≥70 into the last port</string>
+  <string name="stage_029_special" formatted="false">The first two ports are free; End gate costs appear from the beginning. Battery compensation loops every 8 seconds if missing, has standby line.</string>
+  <string name="stage_029_skill" formatted="false">Do not use battery compensation.</string>
+  <string name="stage_030_name" formatted="false">Electrical storm core</string>
+  <string name="stage_030_goal" formatted="false">Break 3 cores</string>
+  <string name="stage_030_special" formatted="false">The three bright poles take turns; Stand at the correct polarity to open the armor and then use the boss/pulse battery. The last phase has no cooldown but still accepts mission pins.</string>
+  <string name="stage_030_skill" formatted="false">Opened all 3 poles correctly on first try.</string>
+  <string name="stage_031_name" formatted="false">Companion</string>
+  <string name="stage_031_goal" formatted="false">Allies with 3 armor live for 50 seconds</string>
+  <string name="stage_031_special" formatted="false">You fly first, signal to change lanes for 2 seconds; the player breaks threatening rocks with pulses. First 10 seconds of low pressure to learn.</string>
+  <string name="stage_031_skill" formatted="false">Allies do not lose armor.</string>
+  <string name="stage_032_name" formatted="false">Two rescue trips</string>
+  <string name="stage_032_goal" formatted="false">Pick up 2 lifeboats</string>
+  <string name="stage_032_special" formatted="false">Hold the correct pickup area for 1s; The compartment has many rapid drops and touches without repeating.</string>
+  <string name="stage_032_skill" formatted="false">Done before 40 seconds.</string>
+  <string name="stage_033_name" formatted="false">Facing danger</string>
+  <string name="stage_033_goal" formatted="false">Station 4 armor lasts 55 seconds</string>
+  <string name="stage_033_special" formatted="false">The rock fell through the line causing the station to lose armor. Big stones give priority to stations, small stones give priority to train lines; Identify dangers that need to be prevented.</string>
+  <string name="stage_033_skill" formatted="false">No big rocks can get through.</string>
+  <string name="stage_034_name" formatted="false">Fragile goods</string>
+  <string name="stage_034_goal" formatted="false">2-armored cargo ship 55s</string>
+  <string name="stage_034_special" formatted="false">Freight trains rarely change lanes; two waves of incoming drones have pulsed batteries supplied on a scheduled basis.</string>
+  <string name="stage_034_skill" formatted="false">Use no more than 3 pulses.</string>
+  <string name="stage_035_name" formatted="false">Guide</string>
+  <string name="stage_035_goal" formatted="false">Leads you through 4 gates</string>
+  <string name="stage_035_special" formatted="false">You follow the player\'s lane 1.2 seconds late; need to change soon. The dotted line represents the delay, no need for a second control finger.</string>
+  <string name="stage_035_skill" formatted="false">You pass through each gate the slot eccentricity is ≤20 units.</string>
+  <string name="stage_036_name" formatted="false">Divide the relief source in half</string>
+  <string name="stage_036_goal" formatted="false">The station lives and delivers 3 packages</string>
+  <string name="stage_036_special" formatted="false">Green package returns to the station, yellow package gives optional money. Have all the main facts; Balance station rescue with profit.</string>
+  <string name="stage_036_skill" formatted="false">The station has at least 3/4 armor remaining.</string>
+  <string name="stage_037_name" formatted="false">The convoy followed</string>
+  <string name="stage_037_goal" formatted="false">Both ships are alive</string>
+  <string name="stage_037_special" formatted="false">The previous/next friend was on the same route but with a time difference; threats have identification warnings, two separate armor bars.</string>
+  <string name="stage_037_skill" formatted="false">No one will lose more than 1 armor.</string>
+  <string name="stage_038_name" formatted="false">Rescue in the rain</string>
+  <string name="stage_038_goal" formatted="false">Live 65 seconds, save 3 compartments</string>
+  <string name="stage_038_special" formatted="false">Receiving compartment at the break after the rain, 5 rescues are numbered. Must use rest rhythm to pick up.</string>
+  <string name="stage_038_skill" formatted="false">Do not pick up mines disguised as having warning signs.</string>
+  <string name="stage_039_name" formatted="false">Intentional bait</string>
+  <string name="stage_039_goal" formatted="false">You live 65 seconds</string>
+  <string name="stage_039_special" formatted="false">Drone locks the player\'s old lane when alerted and then rushes; Lead threats away from you and move on at the right time.</string>
+  <string name="stage_039_skill" formatted="false">Lead 4 drones into the lane without you.</string>
+  <string name="stage_040_name" formatted="false">Space robbery</string>
+  <string name="stage_040_goal" formatted="false">Breaking 3 cores, the cargo ship is alive</string>
+  <string name="stage_040_special" formatted="false">The boss targets players/ships alternately, each series has a target symbol. Block the cargo ship target to open the core.</string>
+  <string name="stage_040_skill" formatted="false">Cargo ship has ≥2/3 armor left.</string>
+  <string name="stage_041_name" formatted="false">Thin ice</string>
+  <string name="stage_041_goal" formatted="false">Live 55s</string>
+  <string name="stage_041_special" formatted="false">Only 15–25s and 35–45s have slippage when changing direction; green braking zone before lane change.</string>
+  <string name="stage_041_skill" formatted="false">Do not touch the two edges of the tape.</string>
+  <string name="stage_042_name" formatted="false">Brake in front of the gate</string>
+  <string name="stage_042_goal" formatted="false">Through 4 gates</string>
+  <string name="stage_042_special" formatted="false">When passing through the gate, the horizontal speed must be ≤120 units/s. There is a speedometer to adjust the brakes; Missed port repeater.</string>
+  <string name="stage_042_skill" formatted="false">Passed all 4 in the opening attempt.</string>
+  <string name="stage_043_name" formatted="false">The ice cracked</string>
+  <string name="stage_043_goal" formatted="false">Live 60s</string>
+  <string name="stage_043_special" formatted="false">The ice split into 2 pieces after the crack line; may pulse before rupture. Fragment only gives birth to one generation.</string>
+  <string name="stage_043_skill" formatted="false">Break 3 ice blocks before splitting.</string>
+  <string name="stage_044_name" formatted="false">Warm water</string>
+  <string name="stage_044_goal" formatted="false">Collect 3 thermal cores</string>
+  <string name="stage_044_special" formatted="false">The core is in the non-slip section between the two conveyor belts; gain momentum then brake, there are 6 cores according to schedule.</string>
+  <string name="stage_044_skill" formatted="false">Collect 3 crores in the first 3 opportunities.</string>
+  <string name="stage_045_name" formatted="false">The pendulum is cold</string>
+  <string name="stage_045_goal" formatted="false">Through 5 gates</string>
+  <string name="stage_045_special" formatted="false">Phase swing gate, pick-up point indicator; predict future positions instead of chasing current points.</string>
+  <string name="stage_045_skill" formatted="false">Do not use pulses.</string>
+  <string name="stage_046_name" formatted="false">Slide under the dome</string>
+  <string name="stage_046_goal" formatted="false">Live 65s</string>
+  <string name="stage_046_special" formatted="false">Slow stone arch has a short path and an outer ring. If you slip too much, it\'s easy to hit the edge of the short road. There\'s still enough time for the detour.</string>
+  <string name="stage_046_skill" formatted="false">Through 3 short lines marked.</string>
+  <string name="stage_047_name" formatted="false">Batteries on the conveyor belt</string>
+  <string name="stage_047_goal" formatted="false">Load 2 stations, go through the last gate</string>
+  <string name="stage_047_special" formatted="false">The conveyor belt pushes the battery, not the train; Prediction of pick-up point and stopping route separates observation/control.</string>
+  <string name="stage_047_skill" formatted="false">Recharge 2 stations within 50 seconds.</string>
+  <string name="stage_048_name" formatted="false">Mist echo</string>
+  <string name="stage_048_goal" formatted="false">Live 70s</string>
+  <string name="stage_048_special" formatted="false">Foreshadows the slot chain. The mist only covers the background/decoration, does not cover the hitbox/warning bar; with repeating symbols.</string>
+  <string name="stage_048_skill" formatted="false">Pass 6 slots without repeating.</string>
+  <string name="stage_049_name" formatted="false">Cracks spread</string>
+  <string name="stage_049_goal" formatted="false">Through 6 gates</string>
+  <string name="stage_049_special" formatted="false">Through each gate, the old lane closes after 2 seconds; must be transitioned, with the area about to close and the next area marked.</string>
+  <string name="stage_049_skill" formatted="false">Do not return to the old lane within 2 seconds of closing signal.</string>
+  <string name="stage_050_name" formatted="false">White Dragon</string>
+  <string name="stage_050_goal" formatted="false">Break 4 cores</string>
+  <string name="stage_050_special" formatted="false">The first two phases are drifting ice, the last two phases are fragmented ice arcs. The core is open in the no-slip zone for all ships to reach.</string>
+  <string name="stage_050_skill" formatted="false">Did not hit the secondary ice fragment.</string>
+  <string name="stage_051_name" formatted="false">Hallway switch</string>
+  <string name="stage_051_goal" formatted="false">Turn on 3 switches, go through the gate</string>
+  <string name="stage_051_special" formatted="false">Go through the switch in the train row to open the correct rear door. If you miss, you can repeat it, but you won\'t lose immediately.</string>
+  <string name="stage_051_skill" formatted="false">Turn on all 3 first encounters.</string>
+  <string name="stage_052_name" formatted="false">Three-image code</string>
+  <string name="stage_052_goal" formatted="false">Enter a string of 3 symbols</string>
+  <string name="stage_052_special" formatted="false">Show triangle–circle–square for 4 seconds then select the correct port. False lets you review and repeat the current item; Avoid relying on color alone.</string>
+  <string name="stage_052_skill" formatted="false">Do not enter incorrectly/repeat.</string>
+  <string name="stage_053_name" formatted="false">Drone patrol</string>
+  <string name="stage_053_goal" formatted="false">Live 65s</string>
+  <string name="stage_053_special" formatted="false">Horizontal drones have a fixed route, only shoot when the lights are on; Read the stem direction to guess the slot.</string>
+  <string name="stage_053_skill" formatted="false">Destroy 4 drones with pulse.</string>
+  <string name="stage_054_name" formatted="false">Mirror is out of phase</string>
+  <string name="stage_054_goal" formatted="false">Through 5 real gates</string>
+  <string name="stage_054_special" formatted="false">The shadow reflects the broken line, the real gate is a solid frame + alarm sound. Reduced drop shadow movement but kept distinguishing symbols.</string>
+  <string name="stage_054_skill" formatted="false">Do not touch the fake port area.</string>
+  <string name="stage_055_name" formatted="false">Rhythm button</string>
+  <string name="stage_055_goal" formatted="false">Turn off 3 transmitters</string>
+  <string name="stage_055_special" formatted="false">The transmitter opens to receive the pulse for 6 seconds and then covers the armor; duty pin level before, miss is tried next cycle.</string>
+  <string name="stage_055_skill" formatted="false">Turn off all 3 when the window has ≥3s remaining.</string>
+  <string name="stage_056_name" formatted="false">Sorting conveyor</string>
+  <string name="stage_056_goal" formatted="false">Collect 4 triangle components</string>
+  <string name="stage_056_special" formatted="false">Three types mixed together: separate targets, normal items, warning mines. Must classify instead of scooping up everything.</string>
+  <string name="stage_056_skill" formatted="false">Do not pick up parts of the wrong type.</string>
+  <string name="stage_057_name" formatted="false">Locked shortcut</string>
+  <string name="stage_057_goal" formatted="false">Through 4 gates, open the last gate</string>
+  <string name="stage_057_special" formatted="false">Free long distance; Shortcut costs 40 NL but saves time. The last port needs 60, has a compensation pin to avoid hard locking.</string>
+  <string name="stage_057_skill" formatted="false">Done before 55 seconds.</string>
+  <string name="stage_058_name" formatted="false">Four gears</string>
+  <string name="stage_058_goal" formatted="false">Live 75s</string>
+  <string name="stage_058_special" formatted="false">Drone follows columns, arcs, diagonals, and drifts at deflection cycle. Next model, don\'t throw all four at the same time.</string>
+  <string name="stage_058_skill" formatted="false">After 1 cycle, four samples do not pulse.</string>
+  <string name="stage_059_name" formatted="false">Start the relic</string>
+  <string name="stage_059_goal" formatted="false">Collect 3 cores, activate 1 station</string>
+  <string name="stage_059_special" formatted="false">Gather the components then return to the station lane to open the gate. The station only receives when there are enough cores; There is a bypass to wait for the battery.</string>
+  <string name="stage_059_skill" formatted="false">Only uses 1 pulse.</string>
+  <string name="stage_060_name" formatted="false">Architect</string>
+  <string name="stage_060_goal" formatted="false">Break 4 cores</string>
+  <string name="stage_060_special" formatted="false">Correctly solve the one-core open symbol route. The final phase reverses the order but displays a new sample before running.</string>
+  <string name="stage_060_skill" formatted="false">Do not choose the wrong phase symbols.</string>
+  <string name="stage_061_name" formatted="false">Horizontal wind</string>
+  <string name="stage_061_goal" formatted="false">Live 65s</string>
+  <string name="stage_061_special" formatted="false">Two thrusts following the arrow, the drift speed is less than the compensating ability of the slowest ship.</string>
+  <string name="stage_061_skill" formatted="false">Do not touch the wind edge.</string>
+  <string name="stage_062_name" formatted="false">Eye of the storm</string>
+  <string name="stage_062_goal" formatted="false">Through 5 storm center areas</string>
+  <string name="stage_062_special" formatted="false">The neutral zone passes through 3 lanes, without being pushed in the center. Only counted when passing through the center at the train row.</string>
+  <string name="stage_062_skill" formatted="false">Through all 5 first appearances.</string>
+  <string name="stage_063_name" formatted="false">Three-layer rain</string>
+  <string name="stage_063_goal" formatted="false">Live 70s</string>
+  <string name="stage_063_special" formatted="false">Big rocks are slow, small rocks are fast, mines drift on different levels; read order to train instead of simple distance.</string>
+  <string name="stage_063_skill" formatted="false">A pulse that destroys objects on all 3 floors.</string>
+  <string name="stage_064_name" formatted="false">The battery went astray</string>
+  <string name="stage_064_goal" formatted="false">Collect 4 mission batteries</string>
+  <string name="stage_064_special" formatted="false">Wind pushes the ship and batteries by a different factor; There is a pick-up point line, do not accelerate the battery suddenly. Total 7 opportunities.</string>
+  <string name="stage_064_skill" formatted="false">Collect 4 pins in the first 4 chances.</string>
+  <string name="stage_065_name" formatted="false">Flash warning</string>
+  <string name="stage_065_goal" formatted="false">Through 6 gates</string>
+  <string name="stage_065_special" formatted="false">Background flash indicates sequence, replaced by static symbol when motion is reduced. Danger only appears after a waiting period.</string>
+  <string name="stage_065_skill" formatted="false">Do not repeat strings.</string>
+  <string name="stage_066_name" formatted="false">Pressure corridor</string>
+  <string name="stage_066_goal" formatted="false">Live 75s</string>
+  <string name="stage_066_special" formatted="false">The pressure area is brought to the middle and then the edge is opened; Need to leave the middle before closing, give 2s warning.</string>
+  <string name="stage_066_skill" formatted="false">6 dodge close, don\'t use impulse.</string>
+  <string name="stage_067_name" formatted="false">Change the wind to save the ship</string>
+  <string name="stage_067_goal" formatted="false">3 armored friends live for 75 seconds</string>
+  <string name="stage_067_special" formatted="false">The wind does not affect you; Anticipate rocks drifting into your lane and destroy them first with a pulse.</string>
+  <string name="stage_067_skill" formatted="false">You don\'t lose armor due to rocks drifting sideways.</string>
+  <string name="stage_068_name" formatted="false">Electrostatic storm</string>
+  <string name="stage_068_goal" formatted="false">Living 80s</string>
+  <string name="stage_068_special" formatted="false">8s normal recovery / 4s lock recovery, still receiving battery. HUD clearly states locked. Having an optional battery gives enough opportunity for stars.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​pulses, each pulse destroys ≥1 threat.</string>
+  <string name="stage_069_name" formatted="false">Six beats before dawn</string>
+  <string name="stage_069_goal" formatted="false">Through 6 ports, receive 2 signals</string>
+  <string name="stage_069_special" formatted="false">Report slot sample first; signal at rest beats 2 and 5. Remember to rest to receive, not just chase the gate.</string>
+  <string name="stage_069_skill" formatted="false">Received two signals the first time.</string>
+  <string name="stage_070_name" formatted="false">Storm god</string>
+  <string name="stage_070_goal" formatted="false">Break 4 cores</string>
+  <string name="stage_070_special" formatted="false">Left wind, right wind, storm center, cascading rain in four phases. With the core open, the wind is reduced to 25% to reach.</string>
+  <string name="stage_070_skill" formatted="false">Not pushed to the edge by the wind.</string>
+  <string name="stage_071_name" formatted="false">V-shaped squadron</string>
+  <string name="stage_071_goal" formatted="false">Live 70s</string>
+  <string name="stage_071_special" formatted="false">Pulse breaking the button in the middle of the V to open a shortcut; or go beyond the wing further but without the need for a pulse.</string>
+  <string name="stage_071_skill" formatted="false">Destroy 3 buttons in the middle of the squad.</string>
+  <string name="stage_072_name" formatted="false">Old lane lock</string>
+  <string name="stage_072_goal" formatted="false">Live 75s</string>
+  <string name="stage_072_special" formatted="false">Drone marks the lane and then fires after 1.8 seconds; Guide the bullets into the old lane and change rhythmically.</string>
+  <string name="stage_072_skill" formatted="false">Leading 6 series into the same empty lane.</string>
+  <string name="stage_073_name" formatted="false">Supplies are surrounded</string>
+  <string name="stage_073_goal" formatted="false">Collect 3 packages</string>
+  <string name="stage_073_special" formatted="false">Each package has 2 drones to guard and select pulses or small slots according to the ship. There are 5 packages, the entrance is not locked.</string>
+  <string name="stage_073_skill" formatted="false">Collect enough without destroying the surveillance drone.</string>
+  <string name="stage_074_name" formatted="false">Diversionary attack</string>
+  <string name="stage_074_goal" formatted="false">Through 5 real gates</string>
+  <string name="stage_074_special" formatted="false">Fake nose with broken lines does not cause damage; Real gate after slow blow. The law of diversion is taught, not fake system notifications.</string>
+  <string name="stage_074_skill" formatted="false">Do not switch to the decoy lane.</string>
+  <string name="stage_075_name" formatted="false">Destroy the guard layer</string>
+  <string name="stage_075_goal" formatted="false">Destroy 3 security buttons</string>
+  <string name="stage_075_special" formatted="false">The button reaches the pulse range at a different time; There is an intersection point enough to turn off 2 nodes with one pulse. Sufficient duty battery.</string>
+  <string name="stage_075_skill" formatted="false">A pulse turns off 2 nodes at intersection.</string>
+  <string name="stage_076_name" formatted="false">The retreat of the convoy</string>
+  <string name="stage_076_goal" formatted="false">You pass through 4 gates</string>
+  <string name="stage_076_special" formatted="false">The enemy blocks your future route. Change early so your friends can follow; Each port has 2 valid exit paths.</string>
+  <string name="stage_076_skill" formatted="false">You pass through enough gates without losing armor.</string>
+  <string name="stage_077_name" formatted="false">Two-span siege</string>
+  <string name="stage_077_goal" formatted="false">Living 80s</string>
+  <string name="stage_077_special" formatted="false">The loop is only closed on the upper half; Exit doors take turns at the edge/middle, not at the train row.</string>
+  <string name="stage_077_skill" formatted="false">Exit 4 rounds without pulse.</string>
+  <string name="stage_078_name" formatted="false">Enemy fuel depot</string>
+  <string name="stage_078_goal" formatted="false">Collect 3 crores, destroy 2 warehouses</string>
+  <string name="stage_078_special" formatted="false">Breaking the warehouse reduces pressure but needs to preserve energy for the next beat. Warehouses only count when destroyed, they do not fly off the screen.</string>
+  <string name="stage_078_skill" formatted="false">Correct 2 pulses for 2 warehouses, no excess presses.</string>
+  <string name="stage_079_name" formatted="false">Rotating hunting team</string>
+  <string name="stage_079_goal" formatted="false">Live 85s</string>
+  <string name="stage_079_special" formatted="false">Switch roles every 15 seconds to block lane/guard/sweep; Maximum of 2 roles at the same time.</string>
+  <string name="stage_079_skill" formatted="false">Achieve combo 6.</string>
+  <string name="stage_080_name" formatted="false">Flagship Black Vu</string>
+  <string name="stage_080_goal" formatted="false">Break 5 crores</string>
+  <string name="stage_080_special" formatted="false">Pass the lane lock to let the guard separate and expose the core. The last two phases are V-shaped/escape loop; The battery covers each phase separately.</string>
+  <string name="stage_080_skill" formatted="false">No pulse when core armor is closed.</string>
+  <string name="stage_081_name" formatted="false">Traces of the future</string>
+  <string name="stage_081_goal" formatted="false">Live 75s</string>
+  <string name="stage_081_special" formatted="false">Report the kicking destination 2 seconds in advance and then kick as predicted. Read the future instead of just looking at the present stone.</string>
+  <string name="stage_081_skill" formatted="false">Through 6 slots, no pulse is predicted.</string>
+  <string name="stage_082_name" formatted="false">Slow flow</string>
+  <string name="stage_082_goal" formatted="false">Through 5 gates</string>
+  <string name="stage_082_special" formatted="false">Each lane has a different object speed; The train/clock is not slow. Compare train arrival time instead of distance.</string>
+  <string name="stage_082_skill" formatted="false">Through all 5 openings.</string>
+  <string name="stage_083_name" formatted="false">Once again</string>
+  <string name="stage_083_goal" formatted="false">Living in the 80s</string>
+  <string name="stage_083_special" formatted="false">The symbol rock moves backwards and then falls back exactly once; Keep the ID/dodge flag close, don\'t reward twice.</string>
+  <string name="stage_083_skill" formatted="false">4 dodge closely from 4 ID after rewind.</string>
+  <string name="stage_084_name" formatted="false">Two-time gate</string>
+  <string name="stage_084_goal" formatted="false">Through 4 phase ports</string>
+  <string name="stage_084_special" formatted="false">The first door is narrow, the back door is wide. Choose to go early to take advantage or wait to be safer; do not randomly change the door position.</string>
+  <string name="stage_084_skill" formatted="false">Through ≥3 gates at the first gate.</string>
+  <string name="stage_085_name" formatted="false">The package is stationary</string>
+  <string name="stage_085_goal" formatted="false">Collect 4 packages</string>
+  <string name="stage_085_special" formatted="false">Sue stops y=560 then continues counting down; Do not pick up before reaching train line. There are 6 chances.</string>
+  <string name="stage_085_skill" formatted="false">Don\'t miss the first 4 packages.</string>
+  <string name="stage_086_name" formatted="false">Reverse signal</string>
+  <string name="stage_086_goal" formatted="false">Through 5 ports in reverse chain</string>
+  <string name="stage_086_special" formatted="false">Show string with label “reverse order” before starting; has support for rereading execution order.</string>
+  <string name="stage_086_skill" formatted="false">Don\'t repeat.</string>
+  <string name="stage_087_name" formatted="false">My own shadow</string>
+  <string name="stage_087_goal" formatted="false">Live 85s</string>
+  <string name="stage_087_special" formatted="false">The ball records the path 3 seconds before indicating the upcoming shooting position; The ball does not collide. Leave the old path instead of following the ball.</string>
+  <string name="stage_087_skill" formatted="false">6 shots of the ball did not hit the ship.</string>
+  <string name="stage_088_name" formatted="false">Limited freezing</string>
+  <string name="stage_088_goal" formatted="false">Turn off 3 time transmitters</string>
+  <string name="stage_088_special" formatted="false">The closing pulse only stops the bullet, does not increase the target; wait for the core door. Pin the correct number of times and repeat the error.</string>
+  <string name="stage_088_skill" formatted="false">Correct 3 pulses off 3 sets.</string>
+  <string name="stage_089_name" formatted="false">Now is the rendezvous point</string>
+  <string name="stage_089_goal" formatted="false">You have 3 living zodiac signs</string>
+  <string name="stage_089_special" formatted="false">You follow real time, threatening to cross the fast/slow zone. Prediction lines help you see which object will reach you first.</string>
+  <string name="stage_089_skill" formatted="false">No threats from the fast zone reach you.</string>
+  <string name="stage_090_name" formatted="false">Watch keeper</string>
+  <string name="stage_090_goal" formatted="false">Break 5 crores</string>
+  <string name="stage_090_special" formatted="false">Five phases: forecast, stop, single rewind, two windows, reverse sequence. Only restores position, does not restore lost boss health.</string>
+  <string name="stage_090_skill" formatted="false">Do not pulse without opening the core.</string>
+  <string name="stage_091_name" formatted="false">The last three roads</string>
+  <string name="stage_091_goal" formatted="false">Through 6 gates in one line</string>
+  <string name="stage_091_special" formatted="false">Before the screen, choose a wide route with little supply / lots of battery / close avoidance. Leading to the same destination, each route has an aid gate to change if needed.</string>
+  <string name="stage_091_skill" formatted="false">Do not reroute using the relief gate.</string>
+  <string name="stage_092_name" formatted="false">Pulse or shield</string>
+  <string name="stage_092_goal" formatted="false">Live 85s</string>
+  <string name="stage_092_special" formatted="false">3 stations let you choose battery or shield by lane, not both. The following pattern has two corresponding solutions.</string>
+  <string name="stage_092_skill" formatted="false">Do not choose the same type at all 3 stations.</string>
+  <string name="stage_093_name" formatted="false">Bring the last person back</string>
+  <string name="stage_093_goal" formatted="false">You live, save 2 compartments</string>
+  <string name="stage_093_special" formatted="false">The road to rescue cuts the way to protect you; Have the battery before delivery for a general dangerous pulse.</string>
+  <string name="stage_093_skill" formatted="false">You do not lose armor on two saves.</string>
+  <string name="stage_094_name" formatted="false">Four seasons corridor</string>
+  <string name="stage_094_goal" formatted="false">Through 8 gates</string>
+  <string name="stage_094_special" formatted="false">Four normal sections → wind → ice → forbidden loading, each section has 2 ports. In the middle of neutralization for 3 seconds, do not add drift beyond the limit.</string>
+  <string name="stage_094_skill" formatted="false">Passed all 8 opening attempts.</string>
+  <string name="stage_095_name" formatted="false">Counterattack belt</string>
+  <string name="stage_095_goal" formatted="false">Live for 90 seconds, destroy 4 target clusters</string>
+  <string name="stage_095_special" formatted="false">Kicking often causes pressure; The cluster has a shield that opens in rhythm, the pulse must be reserved at the right time. There are 6 target windows.</string>
+  <string name="stage_095_skill" formatted="false">Do not destroy the dashed pseudo-frame cluster.</string>
+  <string name="stage_096_name" formatted="false">Pilot selection</string>
+  <string name="stage_096_goal" formatted="false">Collect 3 locks, pass the last gate</string>
+  <string name="stage_096_special" formatted="false">Each lock has a narrow branch to hold combos or a wide branch to load. The choice affects the next phase but does not block the possibility of winning.</string>
+  <string name="stage_096_skill" formatted="false">Do not use the aid filling station.</string>
+  <string name="stage_097_name" formatted="false">Nova Line</string>
+  <string name="stage_097_goal" formatted="false">Station 5 live armor</string>
+  <string name="stage_097_special" formatted="false">3-lane attack priority changes according to the signal; There is a break after the big wave to rotate positions. Do not assume there are already expensive ships.</string>
+  <string name="stage_097_skill" formatted="false">Station has ≥4/5 armor remaining.</string>
+  <string name="stage_098_name" formatted="false">Journey learned</string>
+  <string name="stage_098_goal" formatted="false">Live through 5 paragraphs</string>
+  <string name="stage_098_special" formatted="false">Sample chapters 2, 3, 5, 7, 9; announced in advance, each junction has clear transfer rules.</string>
+  <string name="stage_098_skill" formatted="false">No repeat/relief port.</string>
+  <string name="stage_099_name" formatted="false">Door of dawn</string>
+  <string name="stage_099_goal" formatted="false">Through 6 ports, turn off 2 core locks</string>
+  <string name="stage_099_special" formatted="false">Pulse interlocking position gate; battery level before lock. If used by mistake, there is a relief refill ring, not locked.</string>
+  <string name="stage_099_skill" formatted="false">Done before 85 seconds, do not use the rescue ring.</string>
+  <string name="stage_100_name" formatted="false">Meteor heart</string>
+  <string name="stage_100_goal" formatted="false">Break 6 cores</string>
+  <string name="stage_100_special" formatted="false">Three rounds, each round 2 cores: stone/gate; protection/wind; time/armor opening. Rest 5 seconds in between, restore 1 armor/energy level. Terminal phase maximum 2 known mechanisms.</string>
+  <string name="stage_100_skill" formatted="false">Thang has not activated the life-saving trigger or the relief port; No need to own Sentinel.</string>
+  <string name="chapter_01" formatted="false">Ben star: own the ship</string>
+  <string name="chapter_02" formatted="false">Stone belt: read the route</string>
+  <string name="chapter_03" formatted="false">Electromagnetic region: using and holding energy</string>
+  <string name="chapter_04" formatted="false">Lost train: protection and priority</string>
+  <string name="chapter_05" formatted="false">Ice nebula: master inertia</string>
+  <string name="chapter_06" formatted="false">Mechanical ruins: machine reading and decoding</string>
+  <string name="chapter_07" formatted="false">Space storm: environmental adaptation</string>
+  <string name="chapter_08" formatted="false">Dark Fleet: tactical reflexes</string>
+  <string name="chapter_09" formatted="false">Time Rift: read the rules of change</string>
+  <string name="chapter_10" formatted="false">Meteor center: synthesis and selection</string>
+  <string name="ship_s01_body" formatted="false">Balance, no secondary rules; Standard verification of every screen. Trade-off: No specialization.</string>
+  <string name="ship_s02_body" formatted="false">Quick lane change, small body. Trade-off: Less armor.</string>
+  <string name="ship_s03_body" formatted="false">Suffers many odd collisions. Trade-offs: Big, slow, slow loading.</string>
+  <string name="ship_s04_body" formatted="false">Absorb optional items within 45 units around the ship row. Trade-offs: No forced self-suction/port; big body.</string>
+  <string name="ship_s05_body" formatted="false">Fast passive charging. Trade-offs: Low armor; Batteries usually only charge 15 instead of 20.</string>
+  <string name="ship_s06_body" formatted="false">Shields items for an additional 2 seconds. Trade-off: Base pulse is only 160 radius.</string>
+  <string name="ship_s07_body" formatted="false">After dodging, reduces environmental drift by 50% for 1 second. Trade-off: 4s basic combo window.</string>
+  <string name="ship_s08_body" formatted="false">Every 25 seconds, restores 1 armor if missing; Maximum 2 times/level, 3 times/infinite. Trade-off: Armor restore items do not recharge.</string>
+  <string name="ship_s09_body" formatted="false">The impulse pushes normally unbroken rocks 30 units further if there is still an escape route. Trade-off: Post-impulse protection is only 0.45s.</string>
+  <string name="ship_s10_body" formatted="false">Once/level prevents critical blow, 1 armor remaining, invulnerability for 1 second. Trade-off: Does not prevent loss due to escort/expiration; Does not stack revives.</string>
+  <string name="ship_s11_body" formatted="false">The first time picking up items every 15 seconds adds 8 energy. Trade-off: Base slow is 1s shorter.</string>
+  <string name="ship_s12_body" formatted="false">Before the stage choose +1 armor **or** +30 pulse radius. Trade-off: Armor configuration: speed reduced to 680; Pulse configuration: restore NL to 2.6.</string>
+  <string name="campaign" formatted="false">Journey of 100 stages</string>
+  <string name="campaign_continue" formatted="false">Continue your journey</string>
+  <string name="fleet" formatted="false">Shipyard</string>
+  <string name="stage" formatted="false">Screen</string>
+  <string name="chapter" formatted="false">Chapter</string>
+  <string name="stars" formatted="false">Why</string>
+  <string name="stage_ready" formatted="false">Prepare for flight</string>
+  <string name="stage_goal" formatted="false">Main goal</string>
+  <string name="stage_special" formatted="false">Special point</string>
+  <string name="stage_skill" formatted="false">Star skills</string>
+  <string name="stage_damage" formatted="false">Why keep the ship: the number of times it loses armor is not too much</string>
+  <string name="stage_play" formatted="false">Start the stage</string>
+  <string name="stage_map" formatted="false">Map</string>
+  <string name="stage_next" formatted="false">Next stage</string>
+  <string name="stage_retry" formatted="false">Try this level again</string>
+  <string name="stage_victory" formatted="false">COMPLETE ACT</string>
+  <string name="stage_defeat" formatted="false">HAVEN\'T PASSED THE CURVE</string>
+  <string name="stage_locked" formatted="false">Need to pass the level first</string>
+  <string name="stage_complete" formatted="false">Completed</string>
+  <string name="stage_first" formatted="false">First win bonus</string>
+  <string name="stage_star_reward" formatted="false">New star bonus</string>
+  <string name="stage_boss_reward" formatted="false">Reward the gate</string>
+  <string name="stage_chapter_reward" formatted="false">Bonus chapter</string>
+  <string name="ship_owned" formatted="false">Owned</string>
+  <string name="ship_equipped" formatted="false">In use</string>
+  <string name="ship_equip" formatted="false">Equipment</string>
+  <string name="ship_buy" formatted="false">Buy a ship</string>
+  <string name="ship_speed" formatted="false">Horizontal speed</string>
+  <string name="ship_radius" formatted="false">Collision radius</string>
+  <string name="ship_energy" formatted="false">Energy regen every second</string>
+  <string name="ship_choose" formatted="false">Select train</string>
+  <string name="account_upgrades" formatted="false">Upgrade your account</string>
+  <string name="practice" formatted="false">Practice</string>
+  <string name="practice_note" formatted="false">Practice without opening, without receiving money or anything.</string>
+  <string name="practice_active" formatted="false">IN PRACTICE — NO REWARDS</string>
+  <string name="route" formatted="false">Route</string>
+  <string name="route_safe" formatted="false">Wide road</string>
+  <string name="route_energy" formatted="false">Energy line</string>
+  <string name="route_risk" formatted="false">Close dodge</string>
+  <string name="astra_armor" formatted="false">Armor configuration</string>
+  <string name="astra_pulse" formatted="false">Pulse configuration</string>
+  <string name="goal_gate" formatted="false">Gate</string>
+  <string name="cargo" formatted="false">Sue the mission</string>
+  <string name="nodes" formatted="false">Activation button</string>
+  <string name="cores" formatted="false">Boss core</string>
+  <string name="ally" formatted="false">Allies</string>
+  <string name="station" formatted="false">Defense station</string>
+  <string name="time_left" formatted="false">Left</string>
+  <string name="boss_open" formatted="false">CORE OPEN — PULSE IN RANGE</string>
+  <string name="boss_closed" formatted="false">WAIT FOR OPEN CORE</string>
+  <string name="memory" formatted="false">Port string</string>
+  <string name="memory_hint" formatted="false">Repeat the string</string>
+  <string name="defeat_armor" formatted="false">Out of armor</string>
+  <string name="defeat_ally" formatted="false">Allies destroyed</string>
+  <string name="defeat_station" formatted="false">Station destroyed</string>
+  <string name="defeat_timeout" formatted="false">Target deadline expired</string>
+  <string name="sensitivity" formatted="false">Pull sensitivity</string>
+  <string name="campaign_finished" formatted="false">Completed 100 levels!</string>
+  <string name="ship_stats" formatted="false">Ship parameters</string>
+  <string name="reward_base" formatted="false">Pre-survival</string>
+  <string name="reward_total" formatted="false">Total credits received</string>
+  <string name="save_before_next" formatted="false">Save the results before continuing.</string>
+  <string name="star_damage_info" formatted="false">Why does ship maintenance only count the number of times it loses armor; Repair does not erase lost times.</string>
+  <string name="practice_hint" formatted="false">Pull to pick up the item, go through the correct gate and use pulse when the core opens.</string>
 </resources>

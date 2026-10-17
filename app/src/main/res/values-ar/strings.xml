@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">البقاء: 10 نقاط/ثانية. العناصر: 25 نقطة لكل عنصر. كل 20 نقطة نهائية تمنح 1 رصيد للترقيات. ترك الرحلة لا يمنح شيئًا.</string>
   <string name="help_accessibility" formatted="false">يتطلب اللعب المراقبة والسحب في الوقت الفعلي.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">الإصدار 1.3 / 20 لغة</string>
+  <string name="update_badge" formatted="false">2.0 / رحلة الـ 100 مرحلة</string>
   <string name="new_tagline" formatted="false">مر قرب النيازك لبناء سلسلة. اهرب بالنبضة وحطم رقمك القياسي.</string>
   <string name="pulse_ready" formatted="false">نبضة</string>
   <string name="pulse_charging">الطاقة %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">المضخّم</string>
   <string name="daredevil_name" formatted="false">المغامر</string>
   <string name="focus_name" formatted="false">التركيز</string>
+  <string name="stage_001_name" formatted="false">انزل</string>
+  <string name="stage_001_goal" formatted="false">لايف 30 ثانية</string>
+  <string name="stage_001_special" formatted="false">0–10s فقط الصخور الصغيرة تسقط بشكل مستقيم؛ الفجوة المتوسطة 10-20 ثانية؛ 20-30 ثانية تغيير الفتحات على كلا الجانبين. تعليمات للسحب عن طريق العمل.</string>
+  <string name="stage_001_skill" formatted="false">اتبع جميع تعليمات السلامة الثلاثة.</string>
+  <string name="stage_002_name" formatted="false">ثلاث طرق للوراء</string>
+  <string name="stage_002_goal" formatted="false">من خلال 3 بوابات</string>
+  <string name="stage_002_special" formatted="false">تفتح البوابة من اليسار إلى الوسط إلى اليمين كل 8 ثوانٍ؛ تتكرر أخطاء البوابة بعد 4 ثوانٍ. ينصب التركيز على التقاط الموقع، وليس زيادة حبات البرد.</string>
+  <string name="stage_002_skill" formatted="false">لا تفوت أي فرصة لفتح البوابة.</string>
+  <string name="stage_003_name" formatted="false">إعادة الإمداد الأولى</string>
+  <string name="stage_003_goal" formatted="false">اجمع طردين</string>
+  <string name="stage_003_special" formatted="false">4 حزم على طريقين متناوبين؛ الصخرة لا تشغل خط الالتقاط في نافذة الدليل.</string>
+  <string name="stage_003_skill" formatted="false">تم الانتهاء بأقصى درع كامل.</string>
+  <string name="stage_004_name" formatted="false">إيقاع اليسار واليمين</string>
+  <string name="stage_004_goal" formatted="false">لايف 35 ثانية</string>
+  <string name="stage_004_special" formatted="false">يحتوي الصف الحجري على فتحة، تتغير إلى اليسار/اليمين وفقًا للإيقاع؛ هناك مجال للالتفاف، والوقوف في المنتصف ليس آمنًا دائمًا.</string>
+  <string name="stage_004_skill" formatted="false">من خلال المراكز الأربعة للفتحات، حدد الإيقاع الصحيح.</string>
+  <string name="stage_005_name" formatted="false">نبض يفتح الطريق</string>
+  <string name="stage_005_goal" formatted="false">قم بإيقاف تشغيل مجموعتي الألغام</string>
+  <string name="stage_005_special" formatted="false">الكتلة لأسفل y=560، قم بتعيين دبوس المهمة قبل كل مجموعة. انقر مبكرًا لتتم مطالبتك وكرر ذلك بأمان.</string>
+  <string name="stage_005_skill" formatted="false">يتم إيقاف تشغيل كل مجموعة بالكامل بنبضة واحدة.</string>
+  <string name="stage_006_name" formatted="false">مسافة جناح واحد</string>
+  <string name="stage_006_goal" formatted="false">2 مراوغات صالحة</string>
+  <string name="stage_006_special" formatted="false">نموذجان للطرق الصخرية الصغيرة، يوضحان منطقة التدريب، 8 فرص على الأقل. الاصطدام لا يضيف إلى الهدف.</string>
+  <string name="stage_006_skill" formatted="false">قم بتوصيل 2، دودج بالقرب لمدة 5 ثوان، حقق التحرير والسرد 2.</string>
+  <string name="stage_007_name" formatted="false">درع الطاقة</string>
+  <string name="stage_007_goal" formatted="false">يعيش الأربعينيات</string>
+  <string name="stage_007_special" formatted="false">درع أمامي ذو قسمين ضيقين؛ لا يزال لديه خط خارجي عريض لذا لا تحتاج إلى تلقي الضربة.</string>
+  <string name="stage_007_skill" formatted="false">يحجب الدرع مرة واحدة، ولا يفقد الدرع.</string>
+  <string name="stage_008_name" formatted="false">أبطئ السرعة لمدة ثانية واحدة</string>
+  <string name="stage_008_goal" formatted="false">من خلال 4 بوابات</string>
+  <string name="stage_008_special" formatted="false">بوابة الكسب غير المشروع البطيئة؛ يوضح أن العنصر لا يبطئ الساعة المستهدفة. هناك طرق لا تحتاج إلى التقاطها لإبطاء السرعة.</string>
+  <string name="stage_008_skill" formatted="false">التقط عنصرين بطيئين بمعرفات مختلفة.</string>
+  <string name="stage_009_name" formatted="false">اختبار تجريبي</string>
+  <string name="stage_009_goal" formatted="false">اجمع بالتين، واذهب عبر 3 بوابات</string>
+  <string name="stage_009_special" formatted="false">ثلاث مراحل: التجميع، تغيير المسارات، الضغط على النبض لفتح المسار النهائي. الاعتراف بكلا الهدفين في وقت واحد.</string>
+  <string name="stage_009_skill" formatted="false">مراوغة 3 أشخاص على الأقل بالقرب من البوابة الأخيرة.</string>
+  <string name="stage_010_name" formatted="false">حارس الرصيف</string>
+  <string name="stage_010_goal" formatted="false">كسر 2 النوى</string>
+  <string name="stage_010_special" formatted="false">المرحلة الأولى بقي عمودان في المنتصف؛ امزج فتحتين على الجانب ثم اخفض القلب. دبوس/نافذة منفصلة لكل قلب.</string>
+  <string name="stage_010_skill" formatted="false">قم بتدمير كل نواة في بداية المرحلة.</string>
+  <string name="stage_011_name" formatted="false">هيكل السمكة</string>
+  <string name="stage_011_goal" formatted="false">يعيش الأربعينيات</string>
+  <string name="stage_011_special" formatted="false">فرعان قطريان يشكلان شقًا متعرجًا. قم بتغيير الاتجاه بعد كل زوج، مع وجود خط مستقيم يشير إلى الدوران.</string>
+  <string name="stage_011_skill" formatted="false">من خلال فتحات المركز الخمس المميزة.</string>
+  <string name="stage_012_name" formatted="false">السلالم العائمة</string>
+  <string name="stage_012_goal" formatted="false">من خلال 4 بوابات</string>
+  <string name="stage_012_special" formatted="false">اليسار → اليسار قليلاً → اليمين قليلاً → اليمين؛ تعليم الترجمة الصغيرة بشكل مستمر. غاب عن الاسترجاع المنفذ الحالي.</string>
+  <string name="stage_012_skill" formatted="false">لا تستخدم البقول.</string>
+  <string name="stage_013_name" formatted="false">مقص</string>
+  <string name="stage_013_goal" formatted="false">لايف 45 ثانية</string>
+  <string name="stage_013_special" formatted="false">يتقاطع الخطان القطريان لكن لا يصلان إلى خط القطار في نفس الوقت؛ يأتي تحذير ترقيم الأسطر أولاً.</string>
+  <string name="stage_013_skill" formatted="false">4 مراوغات من خطين على الأقل.</string>
+  <string name="stage_014_name" formatted="false">الزقاق يغير اتجاهه</string>
+  <string name="stage_014_goal" formatted="false">من خلال 5 بوابات</string>
+  <string name="stage_014_special" formatted="false">يغير الممر اتجاهه بسهم؛ الحفاظ على زخم السفينة. البوابة 3 لديها استراحة لتعلم الدوران.</string>
+  <string name="stage_014_skill" formatted="false">نجح في جميع المحاولة الخمسة في المحاولة الافتتاحية.</string>
+  <string name="stage_015_name" formatted="false">توين ستون</string>
+  <string name="stage_015_goal" formatted="false">لايف 45 ثانية</string>
+  <string name="stage_015_special" formatted="false">كل زوج لديه ركلة بطيئة تليها ركلة سريعة، مع تجنب الفجوات الخاطئة بعد الركلة الأولى.</string>
+  <string name="stage_015_skill" formatted="false">تجنب كل نوع من أنواع السرعة مرتين على الأقل.</string>
+  <string name="stage_016_name" formatted="false">الهلال</string>
+  <string name="stage_016_goal" formatted="false">اجمع 3 قطع من الخريطة</string>
+  <string name="stage_016_special" formatted="false">ركلة في قوس منحني؛ العنصر في المنطقة المقعرة الآمنة ثم تم تغييره إلى القوس المقابل، هناك 6 فرص.</string>
+  <string name="stage_016_skill" formatted="false">اجمع 3 قطع في أول 3 فرص.</string>
+  <string name="stage_017_name" formatted="false">إيقاع مزدوج</string>
+  <string name="stage_017_goal" formatted="false">عش الخمسينيات</string>
+  <string name="stage_017_special" formatted="false">صفين سريعين ثم استراحة طويلة؛ في نهاية المرحلة، قم بتغيير ثلاثة صفوف لتجنب دخول الصخور المفاجئة إلى السفينة.</string>
+  <string name="stage_017_skill" formatted="false">نبضة واحدة تدمر ما لا يقل عن 4 أحجار.</string>
+  <string name="stage_018_name" formatted="false">مدار القمر الصناعي</string>
+  <string name="stage_018_goal" formatted="false">من خلال 4 بوابات</string>
+  <string name="stage_018_special" formatted="false">الصخور الصغيرة تدور حول كتل كبيرة؛ تتنبأ الفتحة المدارية بموقع الالتقاء عند صف السفينة.</string>
+  <string name="stage_018_skill" formatted="false">لا تقم بتدمير الكتلة المركزية.</string>
+  <string name="stage_019_name" formatted="false">تقاطع الطموح</string>
+  <string name="stage_019_goal" formatted="false">عش 55 ثانية واجمع دورتين</string>
+  <string name="stage_019_special" formatted="false">الطرق الواسعة بها أشياء قليلة، والطرق الضيقة بها أقفال. هناك 4 أقفال، لذلك لا يتعين عليك اتباع طرق محفوفة بالمخاطر في كل مرة.</string>
+  <string name="stage_019_skill" formatted="false">اجمع الدورات الأربع كلها قبل 55 ثانية.</string>
+  <string name="stage_020_name" formatted="false">كسارة الحزام</string>
+  <string name="stage_020_goal" formatted="false">كسر 3 مراكز</string>
+  <string name="stage_020_special" formatted="false">يتم الضغط على الجناحين لعمل فتحة أفقية؛ بعد الضغط على أحد الأجنحة، يتوقف عن الكشف عن القلب. المرحلة النهائية تعكس الفحص باستخدام إنذار.</string>
+  <string name="stage_020_skill" formatted="false">لم تتعرض السفينة لغم في جناحها.</string>
+  <string name="stage_021_name" formatted="false">بطارية في وسط العاصفة</string>
+  <string name="stage_021_goal" formatted="false">اجمع 3 دبابيس مهمة</string>
+  <string name="stage_021_special" formatted="false">يوجد 5 بطاريات خلف القطبين مع فتحات؛ يجب التقاط الموضع الصحيح بدلاً من إرسال النبضات بشكل مستمر.</string>
+  <string name="stage_021_skill" formatted="false">الطاقة لا تنخفض عن 30.</string>
+  <string name="stage_022_name" formatted="false">لا توجد منطقة تحميل</string>
+  <string name="stage_022_goal" formatted="false">من خلال 4 بوابات</string>
+  <string name="stage_022_special" formatted="false">تتوقف المنطقة المخططة عن الاستجابة، ويتم إعادة شحن المنطقة المضيئة بشكل طبيعي. تفرض المنافذ البديلة خيار البقاء محملاً أو التبديل مبكرًا.</string>
+  <string name="stage_022_skill" formatted="false">قم باجتياز البوابة الأخيرة بـ NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">فيوز</string>
+  <string name="stage_023_goal" formatted="false">قم بإيقاف تشغيل 3 أزرار الطاقة</string>
+  <string name="stage_023_special" formatted="false">يتم إيقاف تشغيل الزر فقط داخل نصف قطر النبض؛ هناك 3 بطاريات العمل. الزر الذي لم يتم إيقاف تشغيله لا يزال به تجاوز ومنعطف آخر.</string>
+  <string name="stage_023_skill" formatted="false">قم بإيقاف تشغيل الثلاثة جميعاً عندما تكون حلقة الأمان مفتوحة.</string>
+  <string name="stage_024_name" formatted="false">قلادة</string>
+  <string name="stage_024_goal" formatted="false">من خلال 5 بوابات بالترتيب</string>
+  <string name="stage_024_special" formatted="false">المنفذ له رقم/رمز؛ فقط المنفذ الحالي يتلقى التقدم. المرور عبر بوابة المستقبل لا يقلل من الأرواح ولا يزيد العدد.</string>
+  <string name="stage_024_skill" formatted="false">لا تدخل عبر البوابة بالترتيب الخاطئ.</string>
+  <string name="stage_025_name" formatted="false">اختر الشحن أو المراوغة</string>
+  <string name="stage_025_goal" formatted="false">لايف 55 ثانية</string>
+  <string name="stage_025_special" formatted="false">كل 10 ثوانٍ، يكون الدبوس على الحافة المقابلة للفتحة التالية. إجراء تقييم ذاتي لمعرفة ما إذا كان هناك ما يكفي من الوقت لإعادة البطارية أو إزالتها؛ مسار إزالة البطارية موجود دائمًا.</string>
+  <string name="stage_025_skill" formatted="false">اجمع 3 بطاريات واستمر في الانتقال إلى الفتحة التالية.</string>
+  <string name="stage_026_name" formatted="false">مكثف الرنين</string>
+  <string name="stage_026_goal" formatted="false">قم بتنشيط محطتين بـ NL ≥80</string>
+  <string name="stage_026_special" formatted="false">مروراً بمنطقة محطة الصرف الصحي رقم 80 شمالاً؛ يوجد خط تعبئة 100 أمام كل محطة. النبض لا يحل محل عملية لمس المحطة.</string>
+  <string name="stage_026_skill" formatted="false">تستقبل كلتا المحطتين عند الإدخال NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">المطر الأيوني</string>
+  <string name="stage_027_goal" formatted="false">لايف 55 ثانية</string>
+  <string name="stage_027_special" formatted="false">السحابة الأيونية تلتئم في حارة واحدة لكن الصخرة ستصل هناك بعد الإنذار. إن وجود 3 بطاريات على الأقل عادة ما يجعل الهدف الثانوي قابلاً للتطبيق.</string>
+  <string name="stage_027_skill" formatted="false">إرسال 3 نبضات صالحة.</string>
+  <string name="stage_028_name" formatted="false">لمبة موصل</string>
+  <string name="stage_028_goal" formatted="false">اجمع 4 قطع من الخيوط</string>
+  <string name="stage_028_special" formatted="false">تنحرف خريطة المهمة إلى أقصى اليسار/اليمين بشكل دوري، مع وجود خط يتنبأ بنقطة الالتقاط. هناك 7 فرص.</string>
+  <string name="stage_028_skill" formatted="false">اجمع 4 قطع في أول 4 فرص.</string>
+  <string name="stage_029_name" formatted="false">احجز في نهاية الطريق</string>
+  <string name="stage_029_goal" formatted="false">من خلال 3 منافذ، قم بإيداع ≥70 في المنفذ الأخير</string>
+  <string name="stage_029_special" formatted="false">أول منفذين مجانيان؛ تظهر تكاليف البوابة النهائية منذ البداية. حلقات تعويض البطارية كل 8 ثوانٍ في حالة فقدها، ولها خط استعداد.</string>
+  <string name="stage_029_skill" formatted="false">لا تستخدم تعويض البطارية.</string>
+  <string name="stage_030_name" formatted="false">قلب العاصفة الكهربائية</string>
+  <string name="stage_030_goal" formatted="false">كسر 3 مراكز</string>
+  <string name="stage_030_special" formatted="false">تتناوب الأعمدة المضيئة الثلاثة؛ قف عند القطبية الصحيحة لفتح الدرع ثم استخدم بطارية الرئيس/النبض. المرحلة الأخيرة لا تحتوي على فترة تباطؤ ولكنها لا تزال تقبل دبابيس المهمة.</string>
+  <string name="stage_030_skill" formatted="false">تم فتح جميع الأعمدة الثلاثة بشكل صحيح في المحاولة الأولى.</string>
+  <string name="stage_031_name" formatted="false">رفيق</string>
+  <string name="stage_031_goal" formatted="false">الحلفاء الذين لديهم 3 دروع يعيشون لمدة 50 ثانية</string>
+  <string name="stage_031_special" formatted="false">أنت تطير أولاً، قم بالإشارة لتغيير المسار لمدة ثانيتين؛ يكسر اللاعب الصخور المهددة بالنبضات. أول 10 ثواني من الضغط المنخفض للتعلم.</string>
+  <string name="stage_031_skill" formatted="false">الحلفاء لا يفقدون دروعهم.</string>
+  <string name="stage_032_name" formatted="false">رحلتي إنقاذ</string>
+  <string name="stage_032_goal" formatted="false">التقط قاربي نجاة</string>
+  <string name="stage_032_special" formatted="false">أمسك منطقة الالتقاط الصحيحة لمدة ثانية واحدة؛ تحتوي المقصورة على العديد من القطرات واللمسات السريعة دون تكرار.</string>
+  <string name="stage_032_skill" formatted="false">تم قبل 40 ثانية.</string>
+  <string name="stage_033_name" formatted="false">مواجهة الخطر</string>
+  <string name="stage_033_goal" formatted="false">يدوم درع المحطة 4 لمدة 55 ثانية</string>
+  <string name="stage_033_special" formatted="false">سقطت الصخرة عبر الخط مما تسبب في فقدان المحطة للدروع. الحجارة الكبيرة تعطي الأولوية للمحطات، والحجارة الصغيرة تعطي الأولوية لخطوط القطار؛ تحديد المخاطر التي يجب الوقاية منها.</string>
+  <string name="stage_033_skill" formatted="false">لا يمكن لصخور كبيرة أن تمر عبرها.</string>
+  <string name="stage_034_name" formatted="false">البضائع الهشة</string>
+  <string name="stage_034_goal" formatted="false">2-سفينة شحن مدرعة 55س</string>
+  <string name="stage_034_special" formatted="false">نادرًا ما تغير قطارات الشحن مساراتها؛ تحتوي موجتان من الطائرات بدون طيار القادمة على بطاريات نابضة يتم توفيرها على أساس مجدول.</string>
+  <string name="stage_034_skill" formatted="false">لا تستخدم أكثر من 3 نبضات.</string>
+  <string name="stage_035_name" formatted="false">الدليل</string>
+  <string name="stage_035_goal" formatted="false">يقودك عبر 4 بوابات</string>
+  <string name="stage_035_special" formatted="false">اتبعت مسار اللاعب متأخرًا بمقدار 1.2 ثانية؛ بحاجة إلى التغيير قريبا. يمثل الخط المنقط التأخير، ولا حاجة لإصبع تحكم ثانٍ.</string>
+  <string name="stage_035_skill" formatted="false">أنت تمر عبر كل بوابة، ويبلغ انحراف الفتحة 20 وحدة.</string>
+  <string name="stage_036_name" formatted="false">قسم مصدر الإغاثة إلى نصفين</string>
+  <string name="stage_036_goal" formatted="false">المحطة تعيش وتقوم بتسليم 3 طرود</string>
+  <string name="stage_036_special" formatted="false">تعود الحزمة الخضراء إلى المحطة، بينما تمنح الحزمة الصفراء أموالاً اختيارية. احصل على كل الحقائق الرئيسية؛ إنقاذ محطة التوازن مع الربح.</string>
+  <string name="stage_036_skill" formatted="false">المحطة لديها ما لا يقل عن 3/4 درع متبقي.</string>
+  <string name="stage_037_name" formatted="false">تبعت القافلة</string>
+  <string name="stage_037_goal" formatted="false">كلتا السفينتين على قيد الحياة</string>
+  <string name="stage_037_special" formatted="false">الصديق السابق/التالي كان على نفس الطريق ولكن مع فارق التوقيت؛ التهديدات لها تحذيرات تحديد الهوية، وقضيبين منفصلين للدروع.</string>
+  <string name="stage_037_skill" formatted="false">لن يخسر أحد أكثر من درع واحد.</string>
+  <string name="stage_038_name" formatted="false">الإنقاذ في المطر</string>
+  <string name="stage_038_goal" formatted="false">بث مباشر 65 ثانية، حفظ 3 أجزاء</string>
+  <string name="stage_038_special" formatted="false">حجرة الاستقبال في فترة الاستراحة بعد المطر، تم ترقيم 5 عمليات إنقاذ. يجب استخدام إيقاع الراحة لالتقاط.</string>
+  <string name="stage_038_skill" formatted="false">لا تلتقط الألغام المتخفية على شكل علامات تحذير.</string>
+  <string name="stage_039_name" formatted="false">طعم متعمد</string>
+  <string name="stage_039_goal" formatted="false">تعيش 65 ثانية</string>
+  <string name="stage_039_special" formatted="false">تقفل الطائرة بدون طيار المسار القديم للاعب عند تنبيهه ثم تندفع؛ أبعد التهديدات عنك وتحرك في الوقت المناسب.</string>
+  <string name="stage_039_skill" formatted="false">قم بقيادة 4 طائرات بدون طيار إلى المسار بدونك.</string>
+  <string name="stage_040_name" formatted="false">سرقة الفضاء</string>
+  <string name="stage_040_goal" formatted="false">بعد كسر 3 مراكز، تظل سفينة الشحن على قيد الحياة</string>
+  <string name="stage_040_special" formatted="false">يستهدف الزعيم اللاعبين/السفن بالتناوب، ولكل سلسلة رمز هدف. منع هدف سفينة الشحن لفتح القلب.</string>
+  <string name="stage_040_skill" formatted="false">سفينة الشحن لديها 2/3 درع متبقي.</string>
+  <string name="stage_041_name" formatted="false">ثلج رقيق</string>
+  <string name="stage_041_goal" formatted="false">لايف 55 ثانية</string>
+  <string name="stage_041_special" formatted="false">فقط 15–25 ثانية و35–45 ثانية لديهم انزلاق عند تغيير الاتجاه؛ منطقة الكبح الخضراء قبل تغيير المسار.</string>
+  <string name="stage_041_skill" formatted="false">لا تلمس حافتي الشريط.</string>
+  <string name="stage_042_name" formatted="false">الفرامل أمام البوابة</string>
+  <string name="stage_042_goal" formatted="false">من خلال 4 بوابات</string>
+  <string name="stage_042_special" formatted="false">عند المرور عبر البوابة، يجب أن تكون السرعة الأفقية ≥120 وحدة/ثانية. يوجد عداد السرعة لضبط الفرامل. مكرر المنفذ المفقود.</string>
+  <string name="stage_042_skill" formatted="false">نجح في كل الأربعة في المحاولة الافتتاحية.</string>
+  <string name="stage_043_name" formatted="false">تشقق الجليد</string>
+  <string name="stage_043_goal" formatted="false">عش الستينيات</string>
+  <string name="stage_043_special" formatted="false">ينقسم الجليد إلى قطعتين بعد خط الكسر؛ قد ينبض قبل التمزق. الشظية لا تلد سوى جيل واحد.</string>
+  <string name="stage_043_skill" formatted="false">كسر 3 كتل ثلج قبل الانقسام.</string>
+  <string name="stage_044_name" formatted="false">ماء دافئ</string>
+  <string name="stage_044_goal" formatted="false">اجمع 3 نوى حرارية</string>
+  <string name="stage_044_special" formatted="false">يقع القلب في القسم غير القابل للانزلاق بين الحزامين الناقلين؛ اكتساب الزخم ثم الفرامل، هناك 6 النوى وفقا للجدول الزمني.</string>
+  <string name="stage_044_skill" formatted="false">اجمع 3 كرور في أول 3 فرص.</string>
+  <string name="stage_045_name" formatted="false">البندول بارد</string>
+  <string name="stage_045_goal" formatted="false">من خلال 5 بوابات</string>
+  <string name="stage_045_special" formatted="false">بوابة تأرجح المرحلة، مؤشر نقطة الالتقاط؛ التنبؤ بالمواقف المستقبلية بدلا من مطاردة النقاط الحالية.</string>
+  <string name="stage_045_skill" formatted="false">لا تستخدم البقول.</string>
+  <string name="stage_046_name" formatted="false">حرك تحت القبة</string>
+  <string name="stage_046_goal" formatted="false">لايف 65 ثانية</string>
+  <string name="stage_046_special" formatted="false">القوس الحجري البطيء له مسار قصير وحلقة خارجية. إذا انزلقت كثيرًا، فمن السهل أن تصطدم بحافة الطريق القصير. لا يزال هناك ما يكفي من الوقت للالتفاف.</string>
+  <string name="stage_046_skill" formatted="false">من خلال 3 أسطر قصيرة محددة.</string>
+  <string name="stage_047_name" formatted="false">البطاريات الموجودة على الحزام الناقل</string>
+  <string name="stage_047_goal" formatted="false">قم بتحميل محطتين، ثم مر عبر البوابة الأخيرة</string>
+  <string name="stage_047_special" formatted="false">الحزام الناقل هو الذي يدفع البطارية، وليس القطار؛ التنبؤ بنقطة الالتقاط ومسار التوقف يفصل بين المراقبة والتحكم.</string>
+  <string name="stage_047_skill" formatted="false">قم بإعادة شحن محطتين خلال 50 ثانية.</string>
+  <string name="stage_048_name" formatted="false">صدى الضباب</string>
+  <string name="stage_048_goal" formatted="false">نعيش السبعينيات</string>
+  <string name="stage_048_special" formatted="false">ينذر بسلسلة الفتحات. يغطي الضباب الخلفية/الزخرفة فقط، ولا يغطي شريط الوصول/التحذير؛ مع تكرار الرموز</string>
+  <string name="stage_048_skill" formatted="false">قم باجتياز 6 خانات دون تكرار.</string>
+  <string name="stage_049_name" formatted="false">انتشار الشقوق</string>
+  <string name="stage_049_goal" formatted="false">من خلال 6 بوابات</string>
+  <string name="stage_049_special" formatted="false">من خلال كل بوابة، يتم إغلاق المسار القديم بعد ثانيتين؛ يجب أن يتم نقلها، مع المنطقة على وشك الإغلاق ووضع علامة على المنطقة التالية.</string>
+  <string name="stage_049_skill" formatted="false">لا تعود إلى المسار القديم خلال ثانيتين من إشارة الإغلاق.</string>
+  <string name="stage_050_name" formatted="false">التنين الأبيض</string>
+  <string name="stage_050_goal" formatted="false">كسر 4 مراكز</string>
+  <string name="stage_050_special" formatted="false">المرحلتان الأوليتان هما الجليد المنجرف، والمرحلتان الأخيرتان عبارة عن أقواس جليدية مجزأة. القلب مفتوح في منطقة عدم الانزلاق بحيث يمكن لجميع السفن الوصول إليه.</string>
+  <string name="stage_050_skill" formatted="false">لم تصطدم بشظية الجليد الثانوية.</string>
+  <string name="stage_051_name" formatted="false">مفتاح المدخل</string>
+  <string name="stage_051_goal" formatted="false">قم بتشغيل 3 مفاتيح، واذهب عبر البوابة</string>
+  <string name="stage_051_special" formatted="false">مرر المفتاح الموجود في صف القطار لفتح الباب الخلفي الصحيح. إذا فاتتك، يمكنك تكرار ذلك، لكنك لن تخسر على الفور.</string>
+  <string name="stage_051_skill" formatted="false">قم بتشغيل جميع اللقاءات الثلاثة الأولى.</string>
+  <string name="stage_052_name" formatted="false">رمز ثلاثي الصور</string>
+  <string name="stage_052_goal" formatted="false">أدخل سلسلة مكونة من 3 رموز</string>
+  <string name="stage_052_special" formatted="false">أظهر المثلث – الدائرة – المربع لمدة 4 ثواني ثم حدد المنفذ الصحيح. يتيح لك False مراجعة العنصر الحالي وتكراره؛ تجنب الاعتماد على اللون وحده.</string>
+  <string name="stage_052_skill" formatted="false">لا تدخل بشكل غير صحيح/تكرر.</string>
+  <string name="stage_053_name" formatted="false">دورية بدون طيار</string>
+  <string name="stage_053_goal" formatted="false">لايف 65 ثانية</string>
+  <string name="stage_053_special" formatted="false">الطائرات بدون طيار الأفقية لها مسار ثابت، ولا تطلق النار إلا عندما تكون الأضواء مضاءة؛ اقرأ اتجاه الجذع لتخمين الفتحة.</string>
+  <string name="stage_053_skill" formatted="false">تدمير 4 طائرات بدون طيار بالنبض.</string>
+  <string name="stage_054_name" formatted="false">المرآة خارج المرحلة</string>
+  <string name="stage_054_goal" formatted="false">من خلال 5 بوابات حقيقية</string>
+  <string name="stage_054_special" formatted="false">الظل يعكس الخط المكسور، البوابة الحقيقية عبارة عن إطار صلب + صوت إنذار. تم تقليل حركة الظل المسقط مع الاحتفاظ بالرموز المميزة.</string>
+  <string name="stage_054_skill" formatted="false">لا تلمس منطقة المنفذ المزيف.</string>
+  <string name="stage_055_name" formatted="false">زر الإيقاع</string>
+  <string name="stage_055_goal" formatted="false">قم بإيقاف تشغيل 3 أجهزة إرسال</string>
+  <string name="stage_055_special" formatted="false">يفتح جهاز الإرسال لاستقبال النبض لمدة 6 ثواني ثم يغطي الدرع؛ مستوى الدبوس الواجب من قبل، يتم تجربة ملكة جمال الدورة القادمة.</string>
+  <string name="stage_055_skill" formatted="false">قم بإيقاف تشغيل جميع العناصر الثلاثة عندما يكون هناك ≥3 ثوانٍ متبقية في النافذة.</string>
+  <string name="stage_056_name" formatted="false">ناقل الفرز</string>
+  <string name="stage_056_goal" formatted="false">اجمع 4 مكونات مثلث</string>
+  <string name="stage_056_special" formatted="false">ثلاثة أنواع ممزوجة ببعضها: أهداف منفصلة، عناصر عادية، ألغام تحذيرية. يجب التصنيف بدلاً من جمع كل شيء.</string>
+  <string name="stage_056_skill" formatted="false">لا تلتقط أجزاء من النوع الخطأ.</string>
+  <string name="stage_057_name" formatted="false">الاختصار مغلق</string>
+  <string name="stage_057_goal" formatted="false">من خلال 4 بوابات، افتح البوابة الأخيرة</string>
+  <string name="stage_057_special" formatted="false">مسافة طويلة مجانية؛ تكاليف الاختصار 40 NL ولكنه يوفر الوقت. يحتاج المنفذ الأخير إلى 60، ويحتوي على دبوس تعويض لتجنب القفل الصعب.</string>
+  <string name="stage_057_skill" formatted="false">تم قبل 55 ثانية.</string>
+  <string name="stage_058_name" formatted="false">أربع تروس</string>
+  <string name="stage_058_goal" formatted="false">لايف 75 ثانية</string>
+  <string name="stage_058_special" formatted="false">تتبع الطائرة بدون طيار الأعمدة والأقواس والأقطار والانجرافات في دورة الانحراف. النموذج التالي، لا ترمي الأربعة في نفس الوقت.</string>
+  <string name="stage_058_skill" formatted="false">بعد دورة واحدة، لا تنبض أربع عينات.</string>
+  <string name="stage_059_name" formatted="false">ابدأ الأثر</string>
+  <string name="stage_059_goal" formatted="false">اجمع 3 مراكز، وقم بتنشيط محطة واحدة</string>
+  <string name="stage_059_special" formatted="false">اجمع المكونات ثم عد إلى مسار المحطة لفتح البوابة. تستقبل المحطة فقط عندما يكون هناك ما يكفي من النوى؛ هناك تجاوز لانتظار البطارية.</string>
+  <string name="stage_059_skill" formatted="false">يستخدم نبضة واحدة فقط.</string>
+  <string name="stage_060_name" formatted="false">مهندس معماري</string>
+  <string name="stage_060_goal" formatted="false">كسر 4 مراكز</string>
+  <string name="stage_060_special" formatted="false">حل مسار الرمز المفتوح أحادي النواة بشكل صحيح. تعكس المرحلة النهائية الترتيب ولكنها تعرض عينة جديدة قبل التشغيل.</string>
+  <string name="stage_060_skill" formatted="false">لا تختر رموز المرحلة الخاطئة.</string>
+  <string name="stage_061_name" formatted="false">الرياح الأفقية</string>
+  <string name="stage_061_goal" formatted="false">لايف 65 ثانية</string>
+  <string name="stage_061_special" formatted="false">بعد دفعتين للسهم، تكون سرعة الانجراف أقل من القدرة التعويضية لأبطأ سفينة.</string>
+  <string name="stage_061_skill" formatted="false">لا تلمس حافة الريح.</string>
+  <string name="stage_062_name" formatted="false">عين العاصفة</string>
+  <string name="stage_062_goal" formatted="false">من خلال 5 مناطق مركز العاصفة</string>
+  <string name="stage_062_special" formatted="false">المنطقة المحايدة تمر عبر 3 حارات دون دفعها في الوسط. يتم احتسابها فقط عند المرور عبر المركز في صف القطار.</string>
+  <string name="stage_062_skill" formatted="false">خلال جميع المشاركات الخمس الأولى.</string>
+  <string name="stage_063_name" formatted="false">مطر ثلاثي الطبقات</string>
+  <string name="stage_063_goal" formatted="false">عش السبعينيات</string>
+  <string name="stage_063_special" formatted="false">الصخور الكبيرة بطيئة، والصخور الصغيرة سريعة، والمناجم تنجرف على مستويات مختلفة؛ قراءة ترتيب التدريب بدلاً من المسافة البسيطة.</string>
+  <string name="stage_063_skill" formatted="false">نبضة تدمر الأشياء في الطوابق الثلاثة.</string>
+  <string name="stage_064_name" formatted="false">البطارية ضللت</string>
+  <string name="stage_064_goal" formatted="false">اجمع 4 بطاريات مهمة</string>
+  <string name="stage_064_special" formatted="false">تدفع الرياح السفينة والبطاريات بعامل مختلف؛ هناك خط نقطة الالتقاط، لا تسريع البطارية فجأة. إجمالي 7 فرص.</string>
+  <string name="stage_064_skill" formatted="false">اجمع 4 دبابيس في أول 4 فرص.</string>
+  <string name="stage_065_name" formatted="false">تحذير فلاش</string>
+  <string name="stage_065_goal" formatted="false">من خلال 6 بوابات</string>
+  <string name="stage_065_special" formatted="false">يشير فلاش الخلفية إلى التسلسل، ويتم استبداله برمز ثابت عند تقليل الحركة. الخطر لا يظهر إلا بعد فترة انتظار.</string>
+  <string name="stage_065_skill" formatted="false">لا تكرر السلاسل.</string>
+  <string name="stage_066_name" formatted="false">ممر الضغط</string>
+  <string name="stage_066_goal" formatted="false">لايف 75 ثانية</string>
+  <string name="stage_066_special" formatted="false">يتم إحضار منطقة الضغط إلى المنتصف ثم يتم فتح الحافة؛ يجب ترك المنتصف قبل الإغلاق، وإعطاء تحذير ثانيتين.</string>
+  <string name="stage_066_skill" formatted="false">6 دودج قريب، لا تستخدم الاندفاع.</string>
+  <string name="stage_067_name" formatted="false">قم بتغيير الريح لإنقاذ السفينة</string>
+  <string name="stage_067_goal" formatted="false">3 أصدقاء مدرعين يعيشون لمدة 75 ثانية</string>
+  <string name="stage_067_special" formatted="false">الريح لا تؤثر فيك؛ توقع أن تنجرف الصخور إلى مسارك وقم بتدميرها أولاً بنبضة واحدة.</string>
+  <string name="stage_067_skill" formatted="false">لن تفقد درعك بسبب انجراف الصخور جانبًا.</string>
+  <string name="stage_068_name" formatted="false">العاصفة الكهروستاتيكية</string>
+  <string name="stage_068_goal" formatted="false">الذين يعيشون في الثمانينات</string>
+  <string name="stage_068_special" formatted="false">الاسترداد العادي لمدة 8 ثوانٍ / استرداد القفل لمدة 4 ثوانٍ، ولا تزال البطارية تتلقى. HUD ينص بوضوح على أنه مقفل. وجود بطارية اختيارية يعطي فرصة كافية للنجوم.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​نبضات، كل نبضة تدمر ≥1 تهديد.</string>
+  <string name="stage_069_name" formatted="false">ست دقات قبل الفجر</string>
+  <string name="stage_069_goal" formatted="false">من خلال 6 منافذ، يمكنك استقبال إشارتين</string>
+  <string name="stage_069_special" formatted="false">قم بالإبلاغ عن عينة الفتحة أولاً؛ الإشارة في حالة السكون تدق 2 و5. تذكر أن تستريح لتستقبل، وليس مجرد مطاردة البوابة.</string>
+  <string name="stage_069_skill" formatted="false">تم استلام إشارتين في المرة الأولى.</string>
+  <string name="stage_070_name" formatted="false">إله العاصفة</string>
+  <string name="stage_070_goal" formatted="false">كسر 4 مراكز</string>
+  <string name="stage_070_special" formatted="false">الرياح اليسرى، الرياح اليمنى، مركز العاصفة، المطر المتتالي على أربع مراحل. مع فتح القلب، تنخفض نسبة الرياح إلى 25% للوصول.</string>
+  <string name="stage_070_skill" formatted="false">لا تدفعه الريح إلى الحافة.</string>
+  <string name="stage_071_name" formatted="false">سرب على شكل حرف V</string>
+  <string name="stage_071_goal" formatted="false">عش السبعينيات</string>
+  <string name="stage_071_special" formatted="false">قم بكسر الزر الموجود في منتصف حرف V لفتح الاختصار؛ أو تجاوز الجناح أبعد ولكن دون الحاجة إلى نبض.</string>
+  <string name="stage_071_skill" formatted="false">قم بتدمير 3 أزرار في منتصف الفرقة.</string>
+  <string name="stage_072_name" formatted="false">قفل الممر القديم</string>
+  <string name="stage_072_goal" formatted="false">لايف 75 ثانية</string>
+  <string name="stage_072_special" formatted="false">تحدد الطائرة بدون طيار المسار ثم تطلق النار بعد 1.8 ثانية؛ قم بتوجيه الرصاص إلى المسار القديم وقم بالتغيير بشكل إيقاعي.</string>
+  <string name="stage_072_skill" formatted="false">قيادة السلسلة السادسة إلى نفس المسار الفارغ.</string>
+  <string name="stage_073_name" formatted="false">الإمدادات محاطة</string>
+  <string name="stage_073_goal" formatted="false">اجمع 3 طرود</string>
+  <string name="stage_073_special" formatted="false">تحتوي كل طرد على طائرتين بدون طيار لحراسة واختيار النبضات أو الفتحات الصغيرة حسب السفينة. هناك 5 حزم، المدخل غير مغلق.</string>
+  <string name="stage_073_skill" formatted="false">اجمع ما يكفي دون تدمير طائرة المراقبة بدون طيار.</string>
+  <string name="stage_074_name" formatted="false">هجوم تحويلي</string>
+  <string name="stage_074_goal" formatted="false">من خلال 5 بوابات حقيقية</string>
+  <string name="stage_074_special" formatted="false">الأنف المزيف ذو الخطوط المكسورة لا يسبب ضرراً؛ البوابة الحقيقية بعد ضربة بطيئة. يتم تدريس قانون التحويل، وليس إشعارات النظام المزيفة.</string>
+  <string name="stage_074_skill" formatted="false">لا تقم بالتبديل إلى المسار الخادع.</string>
+  <string name="stage_075_name" formatted="false">قم بتدمير طبقة الحماية</string>
+  <string name="stage_075_goal" formatted="false">قم بتدمير 3 أزرار أمان</string>
+  <string name="stage_075_special" formatted="false">يصل الزر إلى نطاق النبض في وقت مختلف؛ توجد نقطة تقاطع كافية لإيقاف عقدتين بنبضة واحدة. بطارية عمل كافية.</string>
+  <string name="stage_075_skill" formatted="false">تقوم النبضة بإيقاف عقدتين عند التقاطع.</string>
+  <string name="stage_076_name" formatted="false">تراجع القافلة</string>
+  <string name="stage_076_goal" formatted="false">تمر عبر 4 بوابات</string>
+  <string name="stage_076_special" formatted="false">العدو يسد طريقك المستقبلي. قم بالتغيير مبكرًا حتى يتمكن أصدقاؤك من المتابعة؛ يحتوي كل منفذ على مسارين صالحين للخروج.</string>
+  <string name="stage_076_skill" formatted="false">أنت تمر عبر بوابات كافية دون أن تفقد درعك.</string>
+  <string name="stage_077_name" formatted="false">حصار ذو شقين</string>
+  <string name="stage_077_goal" formatted="false">الذين يعيشون في الثمانينات</string>
+  <string name="stage_077_special" formatted="false">الحلقة مغلقة فقط في النصف العلوي؛ أبواب الخروج تتناوب عند الحافة/الوسط، وليس عند صف القطار.</string>
+  <string name="stage_077_skill" formatted="false">خروج 4 جولات بدون نبض.</string>
+  <string name="stage_078_name" formatted="false">مستودع وقود العدو</string>
+  <string name="stage_078_goal" formatted="false">اجمع 3 كرور، ودمر مستودعين</string>
+  <string name="stage_078_special" formatted="false">كسر المستودع يقلل الضغط ولكنه يحتاج إلى الحفاظ على الطاقة للإيقاع التالي. لا يتم احتساب المستودعات إلا عند تدميرها، ولا تطير خارج الشاشة.</string>
+  <string name="stage_078_skill" formatted="false">تصحيح نبضتين لمستودعين، بدون مكابس زائدة.</string>
+  <string name="stage_079_name" formatted="false">فريق الصيد الدوار</string>
+  <string name="stage_079_goal" formatted="false">لايف 85 ثانية</string>
+  <string name="stage_079_special" formatted="false">قم بتبديل الأدوار كل 15 ثانية لحظر الممر/الحارس/التمشيط؛ الحد الأقصى لدورين في نفس الوقت.</string>
+  <string name="stage_079_skill" formatted="false">تحقيق التحرير والسرد 6.</string>
+  <string name="stage_080_name" formatted="false">الرائد بلاك فو</string>
+  <string name="stage_080_goal" formatted="false">كسر 5 كرور</string>
+  <string name="stage_080_special" formatted="false">مرر قفل المسار للسماح للحارس بالانفصال وكشف القلب. المرحلتان الأخيرتان على شكل حرف V/حلقة الهروب؛ تغطي البطارية كل مرحلة على حدة.</string>
+  <string name="stage_080_skill" formatted="false">لا يوجد نبض عند إغلاق الدرع الأساسي.</string>
+  <string name="stage_081_name" formatted="false">آثار المستقبل</string>
+  <string name="stage_081_goal" formatted="false">لايف 75 ثانية</string>
+  <string name="stage_081_special" formatted="false">قم بالإبلاغ عن وجهة الركل مقدمًا بثانيتين ثم قم بالركل كما هو متوقع. اقرأ المستقبل بدلًا من مجرد النظر إلى الحجر الحاضر.</string>
+  <string name="stage_081_skill" formatted="false">من خلال 6 فتحات، لا يتم التنبؤ بأي نبض.</string>
+  <string name="stage_082_name" formatted="false">التدفق البطيء</string>
+  <string name="stage_082_goal" formatted="false">من خلال 5 بوابات</string>
+  <string name="stage_082_special" formatted="false">كل حارة لها سرعة كائن مختلفة؛ القطار/الساعة ليست بطيئة. قارن وقت وصول القطار بدلا من المسافة.</string>
+  <string name="stage_082_skill" formatted="false">من خلال جميع الفتحات الخمس.</string>
+  <string name="stage_083_name" formatted="false">مرة أخرى</string>
+  <string name="stage_083_goal" formatted="false">عش الثمانينات</string>
+  <string name="stage_083_special" formatted="false">تتحرك صخرة الرمز للخلف ثم تتراجع مرة واحدة بالضبط؛ أبقِ علامة الهوية/علم المراوغة قريبة، ولا تكافئ مرتين.</string>
+  <string name="stage_083_skill" formatted="false">4 مراوغة قريبة من 4 ID بعد الترجيع.</string>
+  <string name="stage_084_name" formatted="false">بوابة ثنائية الوقت</string>
+  <string name="stage_084_goal" formatted="false">من خلال 4 منافذ المرحلة</string>
+  <string name="stage_084_special" formatted="false">الباب الأول ضيق والباب الخلفي واسع. اختر الذهاب مبكرًا للاستفادة من هذه الفرصة أو الانتظار حتى تصبح أكثر أمانًا؛ لا تغير موضع الباب بشكل عشوائي.</string>
+  <string name="stage_084_skill" formatted="false">من خلال ≥3 بوابات عند البوابة الأولى.</string>
+  <string name="stage_085_name" formatted="false">الحزمة ثابتة</string>
+  <string name="stage_085_goal" formatted="false">اجمع 4 طرود</string>
+  <string name="stage_085_special" formatted="false">توقفت سو عن y=560 ثم واصلت العد التنازلي؛ لا تلتقط قبل الوصول إلى خط القطار. هناك 6 فرص.</string>
+  <string name="stage_085_skill" formatted="false">لا تفوت الحزم الأربعة الأولى.</string>
+  <string name="stage_086_name" formatted="false">إشارة عكسية</string>
+  <string name="stage_086_goal" formatted="false">من خلال 5 منافذ في سلسلة عكسية</string>
+  <string name="stage_086_special" formatted="false">إظهار السلسلة ذات التسمية \"ترتيب عكسي\" قبل البدء؛ لديه دعم لإعادة قراءة أمر التنفيذ.</string>
+  <string name="stage_086_skill" formatted="false">لا تكرر.</string>
+  <string name="stage_087_name" formatted="false">ظلي الخاص</string>
+  <string name="stage_087_goal" formatted="false">لايف 85 ثانية</string>
+  <string name="stage_087_special" formatted="false">تسجل الكرة المسار قبل 3 ثوانٍ من الإشارة إلى موضع التسديد القادم؛ الكرة لا تصطدم. اترك المسار القديم بدلاً من متابعة الكرة.</string>
+  <string name="stage_087_skill" formatted="false">6 طلقات من الكرة لم تصطدم بالسفينة.</string>
+  <string name="stage_088_name" formatted="false">تجميد محدود</string>
+  <string name="stage_088_goal" formatted="false">قم بإيقاف تشغيل 3 أجهزة إرسال زمنية</string>
+  <string name="stage_088_special" formatted="false">نبض الإغلاق يوقف الرصاصة فقط، ولا يزيد الهدف؛ انتظر الباب الأساسي. قم بتثبيت العدد الصحيح من المرات وكرر الخطأ.</string>
+  <string name="stage_088_skill" formatted="false">تصحيح 3 نبضات من 3 مجموعات.</string>
+  <string name="stage_089_name" formatted="false">الآن هي نقطة الالتقاء</string>
+  <string name="stage_089_goal" formatted="false">لديك 3 أبراج حية</string>
+  <string name="stage_089_special" formatted="false">أنت تتابع الوقت الفعلي، وتهدد بعبور المنطقة السريعة/البطيئة. تساعدك خطوط التنبؤ على معرفة الكائن الذي سيصل إليك أولاً.</string>
+  <string name="stage_089_skill" formatted="false">لا تصلك أي تهديدات من المنطقة السريعة.</string>
+  <string name="stage_090_name" formatted="false">شاهد الحارس</string>
+  <string name="stage_090_goal" formatted="false">كسر 5 كرور</string>
+  <string name="stage_090_special" formatted="false">خمس مراحل: التنبؤ، التوقف، الترجيع الفردي، نافذتان، التسلسل العكسي. يستعيد المنصب فقط، ولا يستعيد صحة الرئيس المفقودة.</string>
+  <string name="stage_090_skill" formatted="false">لا تنبض دون فتح القلب.</string>
+  <string name="stage_091_name" formatted="false">آخر ثلاث طرق</string>
+  <string name="stage_091_goal" formatted="false">من خلال 6 بوابات في خط واحد</string>
+  <string name="stage_091_special" formatted="false">قبل الشاشة، اختر طريقًا واسعًا به إمدادات قليلة / الكثير من البطارية / تجنب قريب. يؤدي كل طريق إلى نفس الوجهة، ويحتوي على بوابة مساعدة يمكن تغييرها إذا لزم الأمر.</string>
+  <string name="stage_091_skill" formatted="false">لا تقم بإعادة التوجيه باستخدام بوابة الإغاثة.</string>
+  <string name="stage_092_name" formatted="false">نبض أو درع</string>
+  <string name="stage_092_goal" formatted="false">لايف 85 ثانية</string>
+  <string name="stage_092_special" formatted="false">تتيح لك 3 محطات اختيار البطارية أو الدرع حسب المسار، وليس كليهما. يحتوي النمط التالي على حلين متطابقين.</string>
+  <string name="stage_092_skill" formatted="false">لا تختر نفس النوع في جميع المحطات الثلاث.</string>
+  <string name="stage_093_name" formatted="false">قم بإحضار آخر شخص</string>
+  <string name="stage_093_goal" formatted="false">أنت على قيد الحياة، احفظ مقصورتين</string>
+  <string name="stage_093_special" formatted="false">طريق الإنقاذ يقطع الطريق لحمايتك؛ احتفظ بالبطارية قبل التسليم من أجل نبض خطير عام.</string>
+  <string name="stage_093_skill" formatted="false">لن تفقد درعك عند التصدي مرتين.</string>
+  <string name="stage_094_name" formatted="false">ممر الفصول الأربعة</string>
+  <string name="stage_094_goal" formatted="false">من خلال 8 بوابات</string>
+  <string name="stage_094_special" formatted="false">أربعة أقسام عادية ← الرياح ← الجليد ← التحميل المحظور، كل قسم له منفذين. في منتصف التحييد لمدة 3 ثوان، لا تضيف الانجراف إلى ما هو أبعد من الحد.</string>
+  <string name="stage_094_skill" formatted="false">نجح في جميع المحاولات الافتتاحية الثمانية.</string>
+  <string name="stage_095_name" formatted="false">حزام الهجوم المضاد</string>
+  <string name="stage_095_goal" formatted="false">بث مباشر لمدة 90 ثانية، دمر 4 مجموعات مستهدفة</string>
+  <string name="stage_095_special" formatted="false">الركل غالباً ما يسبب الضغط؛ تحتوي الكتلة على درع ينفتح بالإيقاع، ويجب حجز النبض في الوقت المناسب. هناك 6 نوافذ مستهدفة.</string>
+  <string name="stage_095_skill" formatted="false">لا تقم بتدمير مجموعة الإطارات الزائفة المتقطعة.</string>
+  <string name="stage_096_name" formatted="false">اختيار الطيار</string>
+  <string name="stage_096_goal" formatted="false">اجمع 3 أقفال، واجتاز البوابة الأخيرة</string>
+  <string name="stage_096_special" formatted="false">يحتوي كل قفل على فرع ضيق لحمل المجموعات أو فرع واسع للتحميل. يؤثر الاختيار على المرحلة التالية ولكنه لا يمنع إمكانية الفوز.</string>
+  <string name="stage_096_skill" formatted="false">لا تستخدم محطة تعبئة المساعدات.</string>
+  <string name="stage_097_name" formatted="false">نوفا لاين</string>
+  <string name="stage_097_goal" formatted="false">الدرع الحي للمحطة 5</string>
+  <string name="stage_097_special" formatted="false">تتغير أولوية الهجوم ثلاثي الممرات وفقًا للإشارة؛ هناك استراحة بعد الموجة الكبيرة لتدوير المواقف. لا تفترض أن هناك بالفعل سفن باهظة الثمن.</string>
+  <string name="stage_097_skill" formatted="false">المحطة لديها ≥4/5 درع متبقي.</string>
+  <string name="stage_098_name" formatted="false">رحلة تعلمت</string>
+  <string name="stage_098_goal" formatted="false">مباشر من خلال 5 فقرات</string>
+  <string name="stage_098_special" formatted="false">نماذج الفصول 2، 3، 5، 7، 9؛ تم الإعلان عنها مسبقًا، ولكل تقاطع قواعد نقل واضحة.</string>
+  <string name="stage_098_skill" formatted="false">لا يوجد منفذ تكرار/إغاثة.</string>
+  <string name="stage_099_name" formatted="false">باب الفجر</string>
+  <string name="stage_099_goal" formatted="false">من خلال 6 منافذ، قم بإيقاف تشغيل قفلين أساسيين</string>
+  <string name="stage_099_special" formatted="false">بوابة موقف النبض المتشابك. مستوى البطارية قبل القفل. إذا تم استخدامها عن طريق الخطأ، فهناك حلقة إعادة تعبئة مريحة، وليست مغلقة.</string>
+  <string name="stage_099_skill" formatted="false">تم ذلك قبل 85 ثانية، ولا تستخدم حلقة الإنقاذ.</string>
+  <string name="stage_100_name" formatted="false">قلب النيزك</string>
+  <string name="stage_100_goal" formatted="false">كسر 6 مراكز</string>
+  <string name="stage_100_special" formatted="false">ثلاث جولات، كل جولة تحتوي على قلبين: حجر/بوابة؛ الحماية/الرياح؛ الوقت/فتح الدرع. استرح لمدة 5 ثوانٍ بينهما، واستعيد مستوى درع/طاقة واحد. المرحلة النهائية الحد الأقصى 2 آليات معروفة.</string>
+  <string name="stage_100_skill" formatted="false">لم يقم Thang بتنشيط مشغل الإنقاذ أو منفذ الإغاثة؛ لا حاجة لامتلاك Sentinel.</string>
+  <string name="chapter_01" formatted="false">بن ستار: امتلك السفينة</string>
+  <string name="chapter_02" formatted="false">الحزام الحجري: اقرأ الطريق</string>
+  <string name="chapter_03" formatted="false">المنطقة الكهرومغناطيسية: استخدام الطاقة والاحتفاظ بها</string>
+  <string name="chapter_04" formatted="false">القطار المفقود: الحماية والأولوية</string>
+  <string name="chapter_05" formatted="false">سديم الجليد: القصور الذاتي الرئيسي</string>
+  <string name="chapter_06" formatted="false">الآثار الميكانيكية: القراءة الآلية وفك التشفير</string>
+  <string name="chapter_07" formatted="false">العاصفة الفضائية: التكيف البيئي</string>
+  <string name="chapter_08" formatted="false">الأسطول المظلم: ردود الفعل التكتيكية</string>
+  <string name="chapter_09" formatted="false">Time Rift: اقرأ قواعد التغيير</string>
+  <string name="chapter_10" formatted="false">مركز النيزك: التوليف والاختيار</string>
+  <string name="ship_s01_body" formatted="false">التوازن، لا توجد قواعد ثانوية؛ التحقق القياسي لكل شاشة. المقايضة: لا يوجد تخصص.</string>
+  <string name="ship_s02_body" formatted="false">تغيير سريع للمسار، جسم صغير. المقايضة: درع أقل.</string>
+  <string name="ship_s03_body" formatted="false">يعاني من العديد من الاصطدامات الغريبة. المقايضات: تحميل كبير وبطيء وبطيء.</string>
+  <string name="ship_s04_body" formatted="false">استيعاب العناصر الاختيارية ضمن 45 وحدة حول صف السفينة. المقايضات: لا يوجد شفط ذاتي/منفذ قسري؛ جسم كبير.</string>
+  <string name="ship_s05_body" formatted="false">الشحن السلبي السريع. المقايضات: درع منخفض؛ عادة ما يتم شحن البطاريات 15 فقط بدلاً من 20.</string>
+  <string name="ship_s06_body" formatted="false">يحمي العناصر لمدة ثانيتين إضافيتين. المقايضة: النبض الأساسي يبلغ نصف قطره 160 فقط.</string>
+  <string name="ship_s07_body" formatted="false">بعد المراوغة، يقلل الانجراف البيئي بنسبة 50% لمدة ثانية واحدة. المقايضة: نافذة التحرير والسرد الأساسية 4S.</string>
+  <string name="ship_s08_body" formatted="false">كل 25 ثانية، يتم استعادة درع واحد إذا كان مفقودًا؛ الحد الأقصى 2 مرات/مستوى، 3 مرات/لانهائي. المقايضة: لا يتم إعادة شحن عناصر استعادة الدروع.</string>
+  <string name="ship_s09_body" formatted="false">يدفع الدافع الصخور غير المنكسرة عادة بمقدار 30 وحدة أبعد إذا كان لا يزال هناك طريق للهروب. المقايضة: الحماية بعد الاندفاع هي 0.45 ثانية فقط.</string>
+  <string name="ship_s10_body" formatted="false">مرة واحدة/المستوى يمنع الضربة الحرجة، ويتبقى درع واحد، والحصانة لمدة ثانية واحدة. المقايضة: لا تمنع الخسارة بسبب المرافقة/انتهاء الصلاحية؛ لا كومة ينعش.</string>
+  <string name="ship_s11_body" formatted="false">المرة الأولى التي تقوم فيها بالتقاط العناصر كل 15 ثانية تضيف 8 طاقة. المقايضة: القاعدة البطيئة أقصر بمقدار 1 ثانية.</string>
+  <string name="ship_s12_body" formatted="false">قبل المرحلة اختر +1 درع **أو** +30 نصف قطر النبض. المقايضة: تكوين الدرع: تم تخفيض السرعة إلى 680؛ تكوين النبض: استعادة NL إلى 2.6.</string>
+  <string name="campaign" formatted="false">رحلة الـ 100 مرحلة</string>
+  <string name="campaign_continue" formatted="false">واصل رحلتك</string>
+  <string name="fleet" formatted="false">حوض بناء السفن</string>
+  <string name="stage" formatted="false">الشاشة</string>
+  <string name="chapter" formatted="false">الفصل</string>
+  <string name="stars" formatted="false">لماذا</string>
+  <string name="stage_ready" formatted="false">الاستعداد للرحلة</string>
+  <string name="stage_goal" formatted="false">الهدف الرئيسي</string>
+  <string name="stage_special" formatted="false">نقطة خاصة</string>
+  <string name="stage_skill" formatted="false">مهارات النجوم</string>
+  <string name="stage_damage" formatted="false">لماذا تحتفظ بالسفينة: عدد المرات التي تفقد فيها درعها ليس كثيرًا</string>
+  <string name="stage_play" formatted="false">ابدأ المرحلة</string>
+  <string name="stage_map" formatted="false">الخريطة</string>
+  <string name="stage_next" formatted="false">المرحلة القادمة</string>
+  <string name="stage_retry" formatted="false">حاول هذا المستوى مرة أخرى</string>
+  <string name="stage_victory" formatted="false">العمل الكامل</string>
+  <string name="stage_defeat" formatted="false">لم أتجاوز المنحنى</string>
+  <string name="stage_locked" formatted="false">تحتاج إلى اجتياز المستوى أولاً</string>
+  <string name="stage_complete" formatted="false">مكتمل</string>
+  <string name="stage_first" formatted="false">مكافأة الفوز الأول</string>
+  <string name="stage_star_reward" formatted="false">مكافأة النجم الجديد</string>
+  <string name="stage_boss_reward" formatted="false">مكافأة البوابة</string>
+  <string name="stage_chapter_reward" formatted="false">فصل المكافأة</string>
+  <string name="ship_owned" formatted="false">مملوكة</string>
+  <string name="ship_equipped" formatted="false">قيد الاستخدام</string>
+  <string name="ship_equip" formatted="false">المعدات</string>
+  <string name="ship_buy" formatted="false">اشتري سفينة</string>
+  <string name="ship_speed" formatted="false">السرعة الأفقية</string>
+  <string name="ship_radius" formatted="false">نصف قطر الاصطدام</string>
+  <string name="ship_energy" formatted="false">تتجدد الطاقة في كل ثانية</string>
+  <string name="ship_choose" formatted="false">اختر القطار</string>
+  <string name="account_upgrades" formatted="false">قم بترقية حسابك</string>
+  <string name="practice" formatted="false">الممارسة</string>
+  <string name="practice_note" formatted="false">تدرب بدون فتح وبدون استلام فلوس أو أي شيء.</string>
+  <string name="practice_active" formatted="false">في الممارسة العملية - لا توجد مكافآت</string>
+  <string name="route" formatted="false">الطريق</string>
+  <string name="route_safe" formatted="false">طريق واسع</string>
+  <string name="route_energy" formatted="false">خط الطاقة</string>
+  <string name="route_risk" formatted="false">أغلق المراوغة</string>
+  <string name="astra_armor" formatted="false">تكوين الدرع</string>
+  <string name="astra_pulse" formatted="false">تكوين النبض</string>
+  <string name="goal_gate" formatted="false">البوابة</string>
+  <string name="cargo" formatted="false">مقاضاة المهمة</string>
+  <string name="nodes" formatted="false">زر التنشيط</string>
+  <string name="cores" formatted="false">بوس الأساسية</string>
+  <string name="ally" formatted="false">الحلفاء</string>
+  <string name="station" formatted="false">محطة الدفاع</string>
+  <string name="time_left" formatted="false">اليسار</string>
+  <string name="boss_open" formatted="false">النواة مفتوحة - النبض في النطاق</string>
+  <string name="boss_closed" formatted="false">انتظر النواة المفتوحة</string>
+  <string name="memory" formatted="false">سلسلة المنفذ</string>
+  <string name="memory_hint" formatted="false">كرر السلسلة</string>
+  <string name="defeat_armor" formatted="false">خارج الدرع</string>
+  <string name="defeat_ally" formatted="false">تم تدمير الحلفاء</string>
+  <string name="defeat_station" formatted="false">المحطة مدمرة</string>
+  <string name="defeat_timeout" formatted="false">انتهى الموعد النهائي المستهدف</string>
+  <string name="sensitivity" formatted="false">سحب الحساسية</string>
+  <string name="campaign_finished" formatted="false">أكملت 100 مستوى!</string>
+  <string name="ship_stats" formatted="false">معلمات السفينة</string>
+  <string name="reward_base" formatted="false">ما قبل البقاء</string>
+  <string name="reward_total" formatted="false">إجمالي الاعتمادات المستلمة</string>
+  <string name="save_before_next" formatted="false">احفظ النتائج قبل المتابعة.</string>
+  <string name="star_damage_info" formatted="false">لماذا لا تحسب صيانة السفينة إلا عدد المرات التي تفقد فيها الدروع؛ الإصلاح لا يمحو الأوقات الضائعة.</string>
+  <string name="practice_hint" formatted="false">اسحب لالتقاط العنصر، ثم مر عبر البوابة الصحيحة واستخدم النبض عندما ينفتح المركز.</string>
 </resources>

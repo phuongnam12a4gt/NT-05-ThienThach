@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">بقا: 10 پوائنٹ فی سیکنڈ۔ اشیا: ہر ایک 25 پوائنٹ۔ ہر 20 آخری پوائنٹ پر اپ گریڈ کے لیے 1 کریڈٹ۔ پرواز چھوڑنے پر کچھ نہیں ملتا۔</string>
   <string name="help_accessibility" formatted="false">کھیل کے دوران فوری مشاہدہ اور کھینچنا ضروری ہے۔</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">ورژن 1.3 / 20 زبانیں</string>
+  <string name="update_badge" formatted="false">2.0 / 100 مراحل کا سفر</string>
   <string name="new_tagline" formatted="false">شہاب کے پاس سے بچ کر کومبو بنائیں۔ پلس سے نکلیں اور ریکارڈ توڑیں۔</string>
   <string name="pulse_ready" formatted="false">پلس</string>
   <string name="pulse_charging">توانائی %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">ایمپلی فائر</string>
   <string name="daredevil_name" formatted="false">دلیر</string>
   <string name="focus_name" formatted="false">توجہ</string>
+  <string name="stage_001_name" formatted="false">اتاریں۔</string>
+  <string name="stage_001_goal" formatted="false">لائیو 30 سیکنڈ</string>
+  <string name="stage_001_special" formatted="false">0–10s صرف چھوٹی چٹانیں سیدھی گرتی ہیں۔ 10-20s درمیانی وقفہ؛ 20-30 سیکنڈ دونوں طرف سلاٹ تبدیل کریں۔ عمل کے ذریعے کھینچنے کی ہدایات۔</string>
+  <string name="stage_001_skill" formatted="false">تمام 3 حفاظتی ہدایات پر عمل کریں۔</string>
+  <string name="stage_002_name" formatted="false">تین راستے واپس</string>
+  <string name="stage_002_goal" formatted="false">3 دروازوں کے ذریعے</string>
+  <string name="stage_002_special" formatted="false">گیٹ ہر 8 سیکنڈ بعد بائیں–مرکز– دائیں کھلتا ہے۔ گیٹ مسز 4 سیکنڈ کے بعد دہرائیں۔ توجہ مقام کو اٹھانے پر ہے، اولے بڑھانے پر نہیں۔</string>
+  <string name="stage_002_skill" formatted="false">کسی بھی گیٹ کو کھلنے سے مت چھوڑیں۔</string>
+  <string name="stage_003_name" formatted="false">پہلی دوبارہ فراہمی</string>
+  <string name="stage_003_goal" formatted="false">2 پیکجز جمع کریں۔</string>
+  <string name="stage_003_special" formatted="false">دو متبادل راستوں پر 4 پیکجز؛ چٹان گائیڈ ونڈو میں پک اپ لائن پر قبضہ نہیں کرتی ہے۔</string>
+  <string name="stage_003_skill" formatted="false">مکمل زیادہ سے زیادہ کوچ کے ساتھ ختم۔</string>
+  <string name="stage_004_name" formatted="false">بائیں-دائیں تال</string>
+  <string name="stage_004_goal" formatted="false">لائیو 35 سیکنڈ</string>
+  <string name="stage_004_special" formatted="false">پتھر کی قطار میں ایک سلاٹ ہے، تال کے مطابق بائیں/دائیں تبدیل ہوتا ہے؛ گھومنے کی گنجائش ہے، درمیان میں کھڑا ہونا ہمیشہ محفوظ نہیں ہوتا۔</string>
+  <string name="stage_004_skill" formatted="false">سلاٹ کے 4 مراکز کے ذریعے، صحیح تال کو نشان زد کریں۔</string>
+  <string name="stage_005_name" formatted="false">نبض راستہ کھولتی ہے۔</string>
+  <string name="stage_005_goal" formatted="false">2 مائن کلسٹرز کو بند کر دیں۔</string>
+  <string name="stage_005_special" formatted="false">کلسٹر ڈاؤن y=560، ہر کلسٹر سے پہلے ٹاسک پن تفویض کریں۔ اشارہ کرنے کے لیے جلد پر کلک کریں اور محفوظ طریقے سے دہرائیں۔</string>
+  <string name="stage_005_skill" formatted="false">ہر کلسٹر ایک نبض سے مکمل طور پر بند ہو جاتا ہے۔</string>
+  <string name="stage_006_name" formatted="false">ایک بازو کا فاصلہ</string>
+  <string name="stage_006_goal" formatted="false">2 درست ڈاجز</string>
+  <string name="stage_006_special" formatted="false">دو نمونے چھوٹے چٹان کے راستے، پریکٹس ایریا دکھا رہے ہیں، کم از کم 8 مواقع۔ تصادم ہدف میں اضافہ نہیں کرتا۔</string>
+  <string name="stage_006_skill" formatted="false">کنیکٹ 2، 5 سیکنڈ کے لیے بند کریں، کومبو 2 حاصل کریں۔</string>
+  <string name="stage_007_name" formatted="false">انرجی آرمر</string>
+  <string name="stage_007_goal" formatted="false">لائیو 40s</string>
+  <string name="stage_007_special" formatted="false">دو تنگ حصوں کے ساتھ فرنٹ شیلڈ؛ اب بھی ایک وسیع بیرونی لائن ہے لہذا آپ کو ہٹ لینے کی ضرورت نہیں ہے۔</string>
+  <string name="stage_007_skill" formatted="false">شیلڈ ایک بار بلاک کرتی ہے، بکتر نہیں کھوتی۔</string>
+  <string name="stage_008_name" formatted="false">ایک سیکنڈ کی رفتار کم</string>
+  <string name="stage_008_goal" formatted="false">4 دروازوں سے</string>
+  <string name="stage_008_special" formatted="false">سست گرافٹ گیٹ؛ ظاہر کرتا ہے کہ آئٹم ہدف کی گھڑی کو سست نہیں کرتا ہے۔ ایسے راستے ہیں جنہیں سست کرنے کے لیے اٹھانے کی ضرورت نہیں ہے۔</string>
+  <string name="stage_008_skill" formatted="false">مختلف آئی ڈیز کے ساتھ 2 سست آئٹمز اٹھا لیں۔</string>
+  <string name="stage_009_name" formatted="false">پائلٹ ٹیسٹ</string>
+  <string name="stage_009_goal" formatted="false">2 گانٹھیں جمع کریں، 3 دروازوں سے گزریں۔</string>
+  <string name="stage_009_special" formatted="false">تین مراحل: جمع کریں، لین بدلیں، آخری راستہ کھولنے کے لیے نبض کو تھامیں۔ بیک وقت دونوں مقاصد کو تسلیم کریں۔</string>
+  <string name="stage_009_skill" formatted="false">آخری گیٹ کے قریب کم از کم 3 ڈاج۔</string>
+  <string name="stage_010_name" formatted="false">گودی کیپر</string>
+  <string name="stage_010_goal" formatted="false">2 کور توڑیں۔</string>
+  <string name="stage_010_special" formatted="false">فیز 1 درمیان میں دو کالم رہ گئے ہیں۔ 2 سلاٹوں کو سائیڈ میں ملائیں اور پھر کور کو نیچے کریں۔ ہر کور کے لیے علیحدہ پن/ونڈو۔</string>
+  <string name="stage_010_skill" formatted="false">مرحلے کے آغاز میں ہر کور کو تباہ کریں۔</string>
+  <string name="stage_011_name" formatted="false">فش بون</string>
+  <string name="stage_011_goal" formatted="false">لائیو 40s</string>
+  <string name="stage_011_special" formatted="false">دو ترچھی شاخیں ہیرنگ بون کا سلٹ بناتی ہیں۔ ہر جوڑے کے بعد سمت تبدیل کریں، ایک سیدھی لکیر کے ساتھ جو موڑ کی نشاندہی کرتی ہے۔</string>
+  <string name="stage_011_skill" formatted="false">نشان زد 5 سینٹر سلاٹس کے ذریعے۔</string>
+  <string name="stage_012_name" formatted="false">تیرتی سیڑھیاں</string>
+  <string name="stage_012_goal" formatted="false">4 دروازوں سے</string>
+  <string name="stage_012_special" formatted="false">بائیں → تھوڑا سا بائیں → تھوڑا سا دائیں → دائیں؛ چھوٹے ترجمے کو مسلسل پڑھانا۔ موجودہ پورٹ لوپ بیک چھوٹ گیا۔</string>
+  <string name="stage_012_skill" formatted="false">دالیں استعمال نہ کریں۔</string>
+  <string name="stage_013_name" formatted="false">قینچی</string>
+  <string name="stage_013_goal" formatted="false">لائیو 45s</string>
+  <string name="stage_013_special" formatted="false">دو ترچھی لکیریں آپس میں ملتی ہیں لیکن ایک ہی وقت میں ٹرین لائن تک نہیں پہنچتی ہیں۔ لائن نمبرنگ وارننگ پہلے آتی ہے۔</string>
+  <string name="stage_013_skill" formatted="false">کم از کم 2 لائنوں سے 4 ڈاجز۔</string>
+  <string name="stage_014_name" formatted="false">گلی سمت بدلتی ہے۔</string>
+  <string name="stage_014_goal" formatted="false">5 دروازوں سے</string>
+  <string name="stage_014_special" formatted="false">راہداری تیر سے سمت بدلتی ہے۔ جہاز کی رفتار کو برقرار رکھیں. گیٹ 3 کو موڑنا سیکھنے کے لیے وقفہ ہے۔</string>
+  <string name="stage_014_skill" formatted="false">ابتدائی کوشش میں تمام 5 پاس کر لیے۔</string>
+  <string name="stage_015_name" formatted="false">جڑواں پتھر</string>
+  <string name="stage_015_goal" formatted="false">لائیو 45 سیکنڈ</string>
+  <string name="stage_015_special" formatted="false">ہر جوڑے میں ایک سست کِک ہوتی ہے جس کے بعد تیز کِک ہوتی ہے، پہلی کِک کے بعد جھوٹے خلا سے بچتے ہوئے</string>
+  <string name="stage_015_skill" formatted="false">ہر قسم کی رفتار سے کم از کم دو بار گریز کریں۔</string>
+  <string name="stage_016_name" formatted="false">کریسنٹ</string>
+  <string name="stage_016_goal" formatted="false">نقشے کے 3 ٹکڑے جمع کریں۔</string>
+  <string name="stage_016_special" formatted="false">ایک خمیدہ قوس میں لات مارو؛ آئٹم محفوظ مقعر کے علاقے میں ہے اور پھر اسے مخالف آرک میں تبدیل کر دیا گیا ہے، اس کے 6 امکانات ہیں۔</string>
+  <string name="stage_016_skill" formatted="false">پہلے 3 مواقع میں 3 ٹکڑے جمع کریں۔</string>
+  <string name="stage_017_name" formatted="false">ڈبل تال</string>
+  <string name="stage_017_goal" formatted="false">لائیو 50s</string>
+  <string name="stage_017_special" formatted="false">دو تیز قطاریں اور پھر ایک طویل وقفہ؛ مرحلے کے اختتام پر، جہاز میں اچانک پتھروں کے داخل ہونے سے بچنے کے لیے تین قطاریں تبدیل کریں۔</string>
+  <string name="stage_017_skill" formatted="false">ایک نبض کم از کم 4 پتھروں کو تباہ کر دیتی ہے۔</string>
+  <string name="stage_018_name" formatted="false">سیٹلائٹ مدار</string>
+  <string name="stage_018_goal" formatted="false">4 دروازوں سے</string>
+  <string name="stage_018_special" formatted="false">چھوٹی چٹانیں بڑے بلاکس کے گرد گھومتی ہیں۔ مداری سلاٹ جہاز کی قطار میں پک اپ کے مقام کی پیش گوئی کرتا ہے۔</string>
+  <string name="stage_018_skill" formatted="false">سینٹر بلاک کو تباہ نہ کریں۔</string>
+  <string name="stage_019_name" formatted="false">امنگ کا سنگم</string>
+  <string name="stage_019_goal" formatted="false">55 سیکنڈ لائیو اور 2 کورسز اکٹھا کریں۔</string>
+  <string name="stage_019_special" formatted="false">چوڑی سڑکوں میں کچھ چیزیں ہوتی ہیں، تنگ سڑکوں پر تالے ہوتے ہیں۔ یہاں 4 تالے ہیں، لہذا آپ کو ہر بار خطرناک راستے اختیار کرنے کی ضرورت نہیں ہے۔</string>
+  <string name="stage_019_skill" formatted="false">تمام 4 کورسز کو 55 سیکنڈ سے پہلے جمع کریں۔</string>
+  <string name="stage_020_name" formatted="false">بیلٹ کولہو</string>
+  <string name="stage_020_goal" formatted="false">3 کور توڑیں۔</string>
+  <string name="stage_020_special" formatted="false">ایک افقی سلاٹ بنانے کے لیے دونوں بازو دباتے ہیں۔ ایک بازو کو دبانے کے بعد، یہ کور کو ظاہر کرنا بند کر دیتا ہے۔ آخری مرحلہ الارم کے ساتھ اسکین کو الٹ دیتا ہے۔</string>
+  <string name="stage_020_skill" formatted="false">جہاز کو پروں کی بارودی سرنگ سے نہیں ٹکرایا گیا تھا۔</string>
+  <string name="stage_021_name" formatted="false">طوفان کے بیچ میں بیٹری</string>
+  <string name="stage_021_goal" formatted="false">3 مشن پن جمع کریں۔</string>
+  <string name="stage_021_special" formatted="false">کھمبے کے پیچھے سلاٹ کے ساتھ 5 بیٹریاں ہیں۔ دالیں مسلسل بھیجنے کے بجائے صحیح پوزیشن کو اٹھانا چاہیے۔</string>
+  <string name="stage_021_skill" formatted="false">توانائی 30 سے نیچے نہیں گرتی ہے۔</string>
+  <string name="stage_022_name" formatted="false">کوئی لوڈنگ ایریا نہیں ہے۔</string>
+  <string name="stage_022_goal" formatted="false">4 دروازوں سے</string>
+  <string name="stage_022_special" formatted="false">دھاری دار علاقہ جواب دینا بند کر دیتا ہے، روشن علاقہ عام طور پر ری چارج ہوتا ہے۔ متبادل بندرگاہیں لوڈ رہنے یا جلد سوئچ کرنے کے انتخاب پر مجبور کرتی ہیں۔</string>
+  <string name="stage_022_skill" formatted="false">NL ≥70 کے ساتھ آخری گیٹ سے گزریں۔</string>
+  <string name="stage_023_name" formatted="false">فیوز</string>
+  <string name="stage_023_goal" formatted="false">3 پاور بٹن بند کریں۔</string>
+  <string name="stage_023_special" formatted="false">بٹن صرف نبض کے دائرے میں ہی بند ہو جاتا ہے۔ 3 ڈیوٹی بیٹریاں ہیں۔ جو بٹن بند نہیں ہوا ہے اس میں اب بھی بائی پاس ہے اور اگلی باری ہے۔</string>
+  <string name="stage_023_skill" formatted="false">حفاظتی انگوٹھی کھلنے پر تمام 3 کو بند کر دیں۔</string>
+  <string name="stage_024_name" formatted="false">ہار</string>
+  <string name="stage_024_goal" formatted="false">ترتیب میں 5 دروازوں کے ذریعے</string>
+  <string name="stage_024_special" formatted="false">پورٹ میں ایک نمبر/علامت ہے؛ صرف موجودہ بندرگاہ پر پیش رفت ہوتی ہے۔ مستقبل کے گیٹ سے گزرنے سے زندگی نہیں گھٹتی، گنتی میں اضافہ نہیں ہوتا۔</string>
+  <string name="stage_024_skill" formatted="false">غلط ترتیب میں گیٹ سے نہ گزریں۔</string>
+  <string name="stage_025_name" formatted="false">چارج کرنے یا چکنے کا انتخاب کریں۔</string>
+  <string name="stage_025_goal" formatted="false">لائیو 55 سیکنڈ</string>
+  <string name="stage_025_special" formatted="false">ہر 10 سیکنڈ میں پن اگلے سلاٹ کے مخالف کنارے پر ہوتا ہے۔ خود جائزہ لیں کہ آیا واپس سائیکل چلانے یا بیٹری کو ہٹانے کے لیے کافی وقت ہے۔ بیٹری ہٹانے کا راستہ ہمیشہ موجود ہے۔</string>
+  <string name="stage_025_skill" formatted="false">3 بیٹریاں جمع کریں اور پھر بھی اگلے سلاٹ پر جائیں۔</string>
+  <string name="stage_026_name" formatted="false">گونج دار کیپسیٹر</string>
+  <string name="stage_026_goal" formatted="false">NL ≥80 کے ساتھ 2 اسٹیشنوں کو فعال کریں۔</string>
+  <string name="stage_026_special" formatted="false">80 NL ڈرینیج اسٹیشن کے علاقے سے گزرنا؛ ہر اسٹیشن کے سامنے 100 ری فل لائن ہے۔ نبض اسٹیشن ٹچ آپریشن کی جگہ نہیں لیتی ہے۔</string>
+  <string name="stage_026_skill" formatted="false">ان پٹ NL ≥95 پر دونوں اسٹیشن وصول کرتے ہیں۔</string>
+  <string name="stage_027_name" formatted="false">آئن بارش</string>
+  <string name="stage_027_goal" formatted="false">لائیو 55s</string>
+  <string name="stage_027_special" formatted="false">آئن کلاؤڈ ایک لین میں ٹھیک ہو جاتا ہے، لیکن چٹان وارننگ کے بعد وہاں پہنچ جائے گی۔ کم از کم 3 بیٹریاں عام طور پر ثانوی ہدف کو قابل عمل بناتی ہیں۔</string>
+  <string name="stage_027_skill" formatted="false">3 درست دالیں منتقل کریں۔</string>
+  <string name="stage_028_name" formatted="false">کنڈکٹر بلب</string>
+  <string name="stage_028_goal" formatted="false">لیڈز کے 4 ٹکڑے جمع کریں۔</string>
+  <string name="stage_028_special" formatted="false">مشن کا نقشہ سائیکل کے لحاظ سے انتہائی بائیں/دائیں طرف جاتا ہے، جس میں ایک لائن پک اپ پوائنٹ کی پیش گوئی کرتی ہے۔ 7 مواقع ہیں۔</string>
+  <string name="stage_028_skill" formatted="false">پہلے 4 مواقع میں 4 ٹکڑے جمع کریں۔</string>
+  <string name="stage_029_name" formatted="false">سڑک کے آخر میں ریزرو</string>
+  <string name="stage_029_goal" formatted="false">3 بندرگاہوں کے ذریعے، آخری بندرگاہ میں ≥70 جمع کریں</string>
+  <string name="stage_029_special" formatted="false">پہلی دو بندرگاہیں مفت ہیں۔ اختتامی دروازے کے اخراجات شروع سے ظاہر ہوتے ہیں۔ بیٹری کا معاوضہ ہر 8 سیکنڈ میں غائب ہونے کی صورت میں، اسٹینڈ بائی لائن ہے۔</string>
+  <string name="stage_029_skill" formatted="false">بیٹری معاوضہ استعمال نہ کریں۔</string>
+  <string name="stage_030_name" formatted="false">برقی طوفان کا مرکز</string>
+  <string name="stage_030_goal" formatted="false">3 کور توڑیں۔</string>
+  <string name="stage_030_special" formatted="false">تین روشن قطب موڑ لیتے ہیں۔ آرمر کو کھولنے کے لیے صحیح قطبیت پر کھڑے ہوں اور پھر باس/پلس بیٹری استعمال کریں۔ آخری مرحلے میں کوئی کولڈاؤن نہیں ہے لیکن پھر بھی مشن پنوں کو قبول کرتا ہے۔</string>
+  <string name="stage_030_skill" formatted="false">پہلی کوشش میں تمام 3 کھمبوں کو صحیح طریقے سے کھول دیا۔</string>
+  <string name="stage_031_name" formatted="false">ساتھی۔</string>
+  <string name="stage_031_goal" formatted="false">3 آرمر کے ساتھ اتحادی 50 سیکنڈ تک زندہ رہتے ہیں۔</string>
+  <string name="stage_031_special" formatted="false">آپ پہلے پرواز کریں، 2 سیکنڈ کے لیے لین تبدیل کرنے کا اشارہ کریں؛ کھلاڑی دالوں سے خطرناک پتھروں کو توڑتا ہے۔ کم پریشر کے پہلے 10 سیکنڈ سیکھنے کے لیے۔</string>
+  <string name="stage_031_skill" formatted="false">اتحادی ہتھیار نہیں کھوتے۔</string>
+  <string name="stage_032_name" formatted="false">دو ریسکیو ٹرپ</string>
+  <string name="stage_032_goal" formatted="false">2 لائف بوٹس اٹھاو</string>
+  <string name="stage_032_special" formatted="false">1s کے لیے صحیح پک اپ ایریا کو پکڑیں؛ کمپارٹمنٹ میں بہت سے تیز قطرے اور چھوئے بغیر دہرائے جاتے ہیں۔</string>
+  <string name="stage_032_skill" formatted="false">40 سیکنڈ سے پہلے ہو گیا۔</string>
+  <string name="stage_033_name" formatted="false">خطرے کا سامنا</string>
+  <string name="stage_033_goal" formatted="false">اسٹیشن 4 آرمر 55 سیکنڈ تک چلتا ہے۔</string>
+  <string name="stage_033_special" formatted="false">چٹان لائن سے گر گئی جس کی وجہ سے سٹیشن کی بکتر بند ہو گئی۔ بڑے پتھر اسٹیشنوں کو ترجیح دیتے ہیں، چھوٹے پتھر ٹرین کی لائنوں کو ترجیح دیتے ہیں۔ ان خطرات کی نشاندہی کریں جن سے بچنا ضروری ہے۔</string>
+  <string name="stage_033_skill" formatted="false">کوئی بڑی چٹان اس سے نہیں گزر سکتی۔</string>
+  <string name="stage_034_name" formatted="false">نازک سامان</string>
+  <string name="stage_034_goal" formatted="false">2 بکتر بند کارگو جہاز 55s</string>
+  <string name="stage_034_special" formatted="false">مال بردار ٹرینیں شاذ و نادر ہی لین بدلتی ہیں۔ آنے والے ڈرونز کی دو لہروں نے ایک مقررہ بنیاد پر سپلائی بیٹریاں سپلائی کی ہیں۔</string>
+  <string name="stage_034_skill" formatted="false">3 سے زیادہ دالیں استعمال نہ کریں۔</string>
+  <string name="stage_035_name" formatted="false">گائیڈ</string>
+  <string name="stage_035_goal" formatted="false">آپ کو 4 دروازوں سے لے جاتا ہے۔</string>
+  <string name="stage_035_special" formatted="false">آپ پلیئرز لین کو 1.2 سیکنڈ لیٹ فالو کرتے ہیں۔ جلد ہی تبدیل کرنے کی ضرورت ہے. نقطے والی لکیر تاخیر کی نمائندگی کرتی ہے، دوسری کنٹرول انگلی کی ضرورت نہیں۔</string>
+  <string name="stage_035_skill" formatted="false">آپ ہر دروازے سے گزرتے ہیں سلاٹ سنکیت ≤20 یونٹس ہے۔</string>
+  <string name="stage_036_name" formatted="false">امدادی ذرائع کو آدھے حصے میں تقسیم کریں۔</string>
+  <string name="stage_036_goal" formatted="false">اسٹیشن رہتا ہے اور 3 پیکج فراہم کرتا ہے۔</string>
+  <string name="stage_036_special" formatted="false">گرین پیکج اسٹیشن پر واپس آتا ہے، پیلا پیکیج اختیاری رقم دیتا ہے۔ تمام اہم حقائق ہیں؛ منافع کے ساتھ اسٹیشن ریسکیو کو بیلنس کریں۔</string>
+  <string name="stage_036_skill" formatted="false">اسٹیشن کے پاس کم از کم 3/4 آرمر باقی ہیں۔</string>
+  <string name="stage_037_name" formatted="false">قافلے نے تعاقب کیا۔</string>
+  <string name="stage_037_goal" formatted="false">دونوں جہاز زندہ ہیں۔</string>
+  <string name="stage_037_special" formatted="false">پچھلا/اگلا دوست ایک ہی راستے پر تھا لیکن وقت کے فرق کے ساتھ؛ دھمکیوں میں شناختی انتباہات، دو الگ الگ آرمر بارز ہوتے ہیں۔</string>
+  <string name="stage_037_skill" formatted="false">کوئی بھی 1 سے زیادہ بکتر نہیں کھوئے گا۔</string>
+  <string name="stage_038_name" formatted="false">بارش میں ریسکیو</string>
+  <string name="stage_038_goal" formatted="false">65 سیکنڈ لائیو، 3 کمپارٹمنٹ محفوظ کریں۔</string>
+  <string name="stage_038_special" formatted="false">بارش کے بعد وقفے پر کمپارٹمنٹ وصول کرنا، 5 ریسکیو کی تعداد ہے۔ اٹھانے کے لیے آرام کی تال کا استعمال کرنا چاہیے۔</string>
+  <string name="stage_038_skill" formatted="false">انتباہی علامات کے بھیس میں بارودی سرنگیں نہ اٹھائیں۔</string>
+  <string name="stage_039_name" formatted="false">جان بوجھ کر بیت</string>
+  <string name="stage_039_goal" formatted="false">آپ 65 سیکنڈ جیتے ہیں۔</string>
+  <string name="stage_039_special" formatted="false">الرٹ ہونے پر ڈرون کھلاڑی کی پرانی لین کو لاک کر دیتا ہے اور پھر دوڑتا ہے۔ خطرات کو اپنے سے دور رکھیں اور صحیح وقت پر آگے بڑھیں۔</string>
+  <string name="stage_039_skill" formatted="false">آپ کے بغیر لین میں 4 ڈرون کی قیادت کریں۔</string>
+  <string name="stage_040_name" formatted="false">خلائی ڈکیتی</string>
+  <string name="stage_040_goal" formatted="false">3 کور توڑتے ہوئے، کارگو جہاز زندہ ہے۔</string>
+  <string name="stage_040_special" formatted="false">باس باری باری کھلاڑیوں/بحری جہازوں کو نشانہ بناتا ہے، ہر سیریز میں ہدف کی علامت ہوتی ہے۔ کور کو کھولنے کے لیے کارگو جہاز کے ہدف کو مسدود کریں۔</string>
+  <string name="stage_040_skill" formatted="false">کارگو جہاز میں ≥2/3 آرمر باقی ہیں۔</string>
+  <string name="stage_041_name" formatted="false">پتلی برف</string>
+  <string name="stage_041_goal" formatted="false">لائیو 55s</string>
+  <string name="stage_041_special" formatted="false">سمت بدلتے وقت صرف 15–25s اور 35–45s میں پھسلن ہوتی ہے۔ لین کی تبدیلی سے پہلے گرین بریکنگ زون۔</string>
+  <string name="stage_041_skill" formatted="false">ٹیپ کے دونوں کناروں کو مت چھوئے۔</string>
+  <string name="stage_042_name" formatted="false">گیٹ کے سامنے بریک</string>
+  <string name="stage_042_goal" formatted="false">4 دروازوں سے</string>
+  <string name="stage_042_special" formatted="false">گیٹ سے گزرتے وقت، افقی رفتار ≤120 یونٹس فی سیکنڈ ہونی چاہیے۔ بریک کو ایڈجسٹ کرنے کے لئے ایک سپیڈومیٹر ہے؛ مسڈ پورٹ ریپیٹر۔</string>
+  <string name="stage_042_skill" formatted="false">ابتدائی کوشش میں تمام 4 پاس کر گئے۔</string>
+  <string name="stage_043_name" formatted="false">برف پھٹ گئی۔</string>
+  <string name="stage_043_goal" formatted="false">لائیو 60</string>
+  <string name="stage_043_special" formatted="false">کریک لائن کے بعد برف 2 ٹکڑوں میں تقسیم ہو گئی۔ پھٹنے سے پہلے نبض چل سکتی ہے۔ ٹکڑا صرف ایک نسل کو جنم دیتا ہے۔</string>
+  <string name="stage_043_skill" formatted="false">تقسیم کرنے سے پہلے 3 برف کے ٹکڑے توڑ دیں۔</string>
+  <string name="stage_044_name" formatted="false">گرم پانی</string>
+  <string name="stage_044_goal" formatted="false">3 تھرمل کور جمع کریں۔</string>
+  <string name="stage_044_special" formatted="false">کور دو کنویئر بیلٹ کے درمیان غیر پرچی والے حصے میں ہے۔ رفتار حاصل کریں پھر بریک کریں، شیڈول کے مطابق 6 کور ہیں۔</string>
+  <string name="stage_044_skill" formatted="false">پہلے 3 مواقع میں 3 کروڑ جمع کریں۔</string>
+  <string name="stage_045_name" formatted="false">پینڈولم ٹھنڈا ہے۔</string>
+  <string name="stage_045_goal" formatted="false">5 دروازوں سے</string>
+  <string name="stage_045_special" formatted="false">فیز سوئنگ گیٹ، پک اپ پوائنٹ انڈیکیٹر؛ موجودہ پوائنٹس کا پیچھا کرنے کے بجائے مستقبل کی پوزیشنوں کی پیش گوئی کریں۔</string>
+  <string name="stage_045_skill" formatted="false">دالیں استعمال نہ کریں۔</string>
+  <string name="stage_046_name" formatted="false">گنبد کے نیچے سلائیڈ کریں۔</string>
+  <string name="stage_046_goal" formatted="false">لائیو 65s</string>
+  <string name="stage_046_special" formatted="false">سست پتھر کے محراب میں ایک چھوٹا راستہ اور ایک بیرونی حلقہ ہے۔ اگر آپ بہت زیادہ پھسل جاتے ہیں، تو چھوٹی سڑک کے کنارے کو مارنا آسان ہے۔ چکر لگانے کے لیے ابھی بھی کافی وقت ہے۔</string>
+  <string name="stage_046_skill" formatted="false">نشان زد 3 مختصر لائنوں کے ذریعے۔</string>
+  <string name="stage_047_name" formatted="false">کنویئر بیلٹ پر بیٹریاں</string>
+  <string name="stage_047_goal" formatted="false">2 اسٹیشن لوڈ کریں، آخری گیٹ سے گزریں۔</string>
+  <string name="stage_047_special" formatted="false">کنویئر بیلٹ بیٹری کو دھکیلتی ہے، ٹرین کو نہیں۔ پک اپ پوائنٹ اور رکنے کے راستے کی پیشن گوئی مشاہدے/کنٹرول کو الگ کرتی ہے۔</string>
+  <string name="stage_047_skill" formatted="false">50 سیکنڈ کے اندر 2 اسٹیشن ریچارج کریں۔</string>
+  <string name="stage_048_name" formatted="false">مسٹ ایکو</string>
+  <string name="stage_048_goal" formatted="false">لائیو 70</string>
+  <string name="stage_048_special" formatted="false">سلاٹ چین کو پیش کرتا ہے۔ دھند صرف پس منظر/سجاوٹ کو ڈھانپتی ہے، ہٹ باکس/وارننگ بار کا احاطہ نہیں کرتی۔ دہرائی جانے والی علامتوں کے ساتھ۔</string>
+  <string name="stage_048_skill" formatted="false">دہرائے بغیر 6 سلاٹ پاس کریں۔</string>
+  <string name="stage_049_name" formatted="false">دراڑیں پھیل گئیں۔</string>
+  <string name="stage_049_goal" formatted="false">6 دروازوں کے ذریعے</string>
+  <string name="stage_049_special" formatted="false">ہر گیٹ سے پرانی لین 2 سیکنڈ کے بعد بند ہو جاتی ہے۔ منتقلی ہونی چاہیے، جس علاقے کو بند ہونے والا ہے اور اگلے علاقے کو نشان زد کیا گیا ہے۔</string>
+  <string name="stage_049_skill" formatted="false">بند ہونے کے سگنل کے 2 سیکنڈ کے اندر پرانی لین پر واپس نہ جائیں۔</string>
+  <string name="stage_050_name" formatted="false">سفید ڈریگن</string>
+  <string name="stage_050_goal" formatted="false">4 کور توڑیں۔</string>
+  <string name="stage_050_special" formatted="false">پہلے دو مرحلے بہتی ہوئی برف ہیں، آخری دو مراحل برف کے ٹکڑے ٹکڑے ہیں۔ تمام بحری جہازوں تک پہنچنے کے لیے کور نو سلپ زون میں کھلا ہے۔</string>
+  <string name="stage_050_skill" formatted="false">ثانوی برف کے ٹکڑے سے نہیں ٹکرایا۔</string>
+  <string name="stage_051_name" formatted="false">ہال وے سوئچ</string>
+  <string name="stage_051_goal" formatted="false">3 سوئچ آن کریں، گیٹ سے گزریں۔</string>
+  <string name="stage_051_special" formatted="false">درست پیچھے کا دروازہ کھولنے کے لیے ٹرین کی قطار میں سوئچ سے گزریں۔ اگر آپ یاد کرتے ہیں، تو آپ اسے دوبارہ کر سکتے ہیں، لیکن آپ فوری طور پر نہیں ہاریں گے۔</string>
+  <string name="stage_051_skill" formatted="false">تمام 3 پہلے مقابلوں کو آن کریں۔</string>
+  <string name="stage_052_name" formatted="false">تین تصویری کوڈ</string>
+  <string name="stage_052_goal" formatted="false">3 علامتوں کی ایک تار درج کریں۔</string>
+  <string name="stage_052_special" formatted="false">4 سیکنڈ کے لیے مثلث – دائرہ – مربع دکھائیں پھر صحیح پورٹ منتخب کریں۔ False آپ کو موجودہ آئٹم کا جائزہ لینے اور دہرانے دیتا ہے۔ صرف رنگ پر انحصار کرنے سے گریز کریں۔</string>
+  <string name="stage_052_skill" formatted="false">غلط درج نہ کریں/دوہرائیں۔</string>
+  <string name="stage_053_name" formatted="false">ڈرون گشت</string>
+  <string name="stage_053_goal" formatted="false">لائیو 65s</string>
+  <string name="stage_053_special" formatted="false">افقی ڈرون کا ایک مقررہ راستہ ہے، صرف اس وقت گولی مارو جب لائٹس آن ہوں؛ سلاٹ کا اندازہ لگانے کے لیے اسٹیم کی سمت پڑھیں۔</string>
+  <string name="stage_053_skill" formatted="false">نبض کے ساتھ 4 ڈرون کو تباہ کریں۔</string>
+  <string name="stage_054_name" formatted="false">آئینہ مرحلہ سے باہر ہے۔</string>
+  <string name="stage_054_goal" formatted="false">5 اصلی دروازوں کے ذریعے</string>
+  <string name="stage_054_special" formatted="false">سایہ ٹوٹی ہوئی لکیر کی عکاسی کرتا ہے، اصلی گیٹ ایک ٹھوس فریم + الارم کی آواز ہے۔ ڈراپ شیڈو کی نقل و حرکت کو کم کیا لیکن علامتوں کو ممتاز کرتے رہے۔</string>
+  <string name="stage_054_skill" formatted="false">جعلی بندرگاہ کے علاقے کو مت چھونا۔</string>
+  <string name="stage_055_name" formatted="false">تال بٹن</string>
+  <string name="stage_055_goal" formatted="false">3 ٹرانسمیٹر بند کر دیں۔</string>
+  <string name="stage_055_special" formatted="false">ٹرانسمیٹر 6 سیکنڈ کے لیے پلس وصول کرنے کے لیے کھلتا ہے اور پھر کوچ کو ڈھانپ لیتا ہے۔ ڈیوٹی پن کی سطح سے پہلے، مس اگلے سائیکل کی کوشش کی جاتی ہے.</string>
+  <string name="stage_055_skill" formatted="false">جب ونڈو میں ≥3s باقی ہوں تو تمام 3 کو بند کر دیں۔</string>
+  <string name="stage_056_name" formatted="false">چھانٹی کنویئر</string>
+  <string name="stage_056_goal" formatted="false">4 مثلث اجزاء جمع کریں۔</string>
+  <string name="stage_056_special" formatted="false">تین قسمیں آپس میں ملی ہوئی ہیں: الگ الگ اہداف، عام اشیاء، وارننگ مائنز۔ ہر چیز کو چھپانے کے بجائے درجہ بندی کرنا ضروری ہے۔</string>
+  <string name="stage_056_skill" formatted="false">غلط قسم کے حصے نہ اٹھائیں۔</string>
+  <string name="stage_057_name" formatted="false">مقفل شارٹ کٹ</string>
+  <string name="stage_057_goal" formatted="false">4 دروازوں سے، آخری گیٹ کھولیں۔</string>
+  <string name="stage_057_special" formatted="false">مفت لمبی دوری؛ شارٹ کٹ کی قیمت 40 NL ہے لیکن وقت بچاتا ہے۔ آخری بندرگاہ کو 60 کی ضرورت ہے، سخت تالا لگانے سے بچنے کے لیے معاوضہ پن ہے۔</string>
+  <string name="stage_057_skill" formatted="false">55 سیکنڈ سے پہلے ہو گیا۔</string>
+  <string name="stage_058_name" formatted="false">چار گیئرز</string>
+  <string name="stage_058_goal" formatted="false">لائیو 75s</string>
+  <string name="stage_058_special" formatted="false">ڈرون ڈفلیکشن سائیکل پر کالموں، آرکس، اخترن اور بہاؤ کی پیروی کرتا ہے۔ اگلا ماڈل، چاروں کو ایک ہی وقت میں نہ پھینکیں۔</string>
+  <string name="stage_058_skill" formatted="false">1 سائیکل کے بعد، چار نمونے نبض نہیں کرتے۔</string>
+  <string name="stage_059_name" formatted="false">اوشیش شروع کریں۔</string>
+  <string name="stage_059_goal" formatted="false">3 کور جمع کریں، 1 اسٹیشن کو چالو کریں۔</string>
+  <string name="stage_059_special" formatted="false">اجزاء کو جمع کریں پھر گیٹ کھولنے کے لیے اسٹیشن لین پر واپس جائیں۔ اسٹیشن صرف اس وقت وصول کرتا ہے جب کافی کور موجود ہوں۔ بیٹری کا انتظار کرنے کے لیے ایک بائی پاس ہے۔</string>
+  <string name="stage_059_skill" formatted="false">صرف 1 نبض استعمال کرتا ہے۔</string>
+  <string name="stage_060_name" formatted="false">معمار</string>
+  <string name="stage_060_goal" formatted="false">4 کور توڑیں۔</string>
+  <string name="stage_060_special" formatted="false">ون کور اوپن سمبل روٹ کو درست طریقے سے حل کریں۔ آخری مرحلہ آرڈر کو الٹ دیتا ہے لیکن چلانے سے پہلے ایک نیا نمونہ دکھاتا ہے۔</string>
+  <string name="stage_060_skill" formatted="false">غلط فیز علامتوں کا انتخاب نہ کریں۔</string>
+  <string name="stage_061_name" formatted="false">افقی ہوا</string>
+  <string name="stage_061_goal" formatted="false">لائیو 65s</string>
+  <string name="stage_061_special" formatted="false">تیر کے پیچھے دو زور، بڑھنے کی رفتار سست ترین جہاز کی معاوضہ کی صلاحیت سے کم ہے۔</string>
+  <string name="stage_061_skill" formatted="false">ہوا کے کنارے کو مت چھونا۔</string>
+  <string name="stage_062_name" formatted="false">طوفان کی آنکھ</string>
+  <string name="stage_062_goal" formatted="false">طوفان کے مرکز کے 5 علاقوں کے ذریعے</string>
+  <string name="stage_062_special" formatted="false">نیوٹرل زون 3 لین سے گزرتا ہے، مرکز میں دھکیلئے بغیر۔ صرف ٹرین کی قطار میں مرکز سے گزرتے وقت شمار کیا جاتا ہے۔</string>
+  <string name="stage_062_skill" formatted="false">تمام 5 پہلی پیشیوں کے ذریعے۔</string>
+  <string name="stage_063_name" formatted="false">تین تہوں والی بارش</string>
+  <string name="stage_063_goal" formatted="false">لائیو 70</string>
+  <string name="stage_063_special" formatted="false">بڑی چٹانیں سست ہیں، چھوٹی چٹانیں تیز ہیں، بارودی سرنگیں مختلف سطحوں پر بہہ رہی ہیں۔ سادہ فاصلے کے بجائے تربیت کا آرڈر پڑھیں۔</string>
+  <string name="stage_063_skill" formatted="false">ایک نبض جو تمام 3 منزلوں پر موجود اشیاء کو تباہ کر دیتی ہے۔</string>
+  <string name="stage_064_name" formatted="false">بیٹری بھٹک گئی۔</string>
+  <string name="stage_064_goal" formatted="false">4 مشن بیٹریاں جمع کریں۔</string>
+  <string name="stage_064_special" formatted="false">ہوا جہاز اور بیٹریوں کو مختلف عنصر سے دھکیلتی ہے۔ ایک پک اپ پوائنٹ لائن ہے، بیٹری کو اچانک تیز نہ کریں۔ کل 7 مواقع۔</string>
+  <string name="stage_064_skill" formatted="false">پہلے 4 مواقع میں 4 پن جمع کریں۔</string>
+  <string name="stage_065_name" formatted="false">فلیش وارننگ</string>
+  <string name="stage_065_goal" formatted="false">6 دروازوں کے ذریعے</string>
+  <string name="stage_065_special" formatted="false">پس منظر کا فلیش تسلسل کی نشاندہی کرتا ہے، جب حرکت کم ہوتی ہے تو اس کی جگہ جامد علامت لے لی جاتی ہے۔ خطرہ صرف انتظار کی مدت کے بعد ظاہر ہوتا ہے۔</string>
+  <string name="stage_065_skill" formatted="false">تاروں کو نہ دہرائیں۔</string>
+  <string name="stage_066_name" formatted="false">پریشر کوریڈور</string>
+  <string name="stage_066_goal" formatted="false">لائیو 75</string>
+  <string name="stage_066_special" formatted="false">پریشر ایریا کو درمیان میں لایا جاتا ہے اور پھر کنارے کو کھول دیا جاتا ہے۔ بند کرنے سے پہلے درمیان کو چھوڑنے کی ضرورت ہے، 2s وارننگ دیں۔</string>
+  <string name="stage_066_skill" formatted="false">6 ڈاج بند کریں، تسلسل کا استعمال نہ کریں۔</string>
+  <string name="stage_067_name" formatted="false">جہاز کو بچانے کے لیے ہوا کو تبدیل کریں۔</string>
+  <string name="stage_067_goal" formatted="false">3 بکتر بند دوست 75 سیکنڈ تک زندہ رہتے ہیں۔</string>
+  <string name="stage_067_special" formatted="false">ہوا آپ کو متاثر نہیں کرتی۔ اپنی لین میں پتھروں کے بہتے جانے کا اندازہ لگائیں اور انہیں نبض سے پہلے تباہ کریں۔</string>
+  <string name="stage_067_skill" formatted="false">پتھروں کے بہنے کی وجہ سے آپ کے زرہ بکتر نہیں کھوتے۔</string>
+  <string name="stage_068_name" formatted="false">الیکٹرو سٹیٹک طوفان</string>
+  <string name="stage_068_goal" formatted="false">80 کی دہائی کی زندگی</string>
+  <string name="stage_068_special" formatted="false">8s نارمل ریکوری / 4s لاک ریکوری، اب بھی بیٹری موصول ہو رہی ہے۔ HUD واضح طور پر مقفل ہے۔ اختیاری بیٹری کا ہونا ستاروں کے لیے کافی موقع فراہم کرتا ہے۔</string>
+  <string name="stage_068_skill" formatted="false">4 ​​دالیں، ہر نبض ≥1 خطرے کو ختم کرتی ہے۔</string>
+  <string name="stage_069_name" formatted="false">طلوع فجر سے پہلے چھ دھڑکن</string>
+  <string name="stage_069_goal" formatted="false">6 بندرگاہوں کے ذریعے، 2 سگنل وصول کریں۔</string>
+  <string name="stage_069_special" formatted="false">پہلے سلاٹ نمونے کی اطلاع دیں؛ ریسٹ بیٹس 2 اور 5 پر سگنل۔ وصول کرنے کے لیے آرام کرنا یاد رکھیں، نہ صرف گیٹ کا پیچھا کریں۔</string>
+  <string name="stage_069_skill" formatted="false">پہلی بار دو سگنل موصول ہوئے۔</string>
+  <string name="stage_070_name" formatted="false">طوفان خدا</string>
+  <string name="stage_070_goal" formatted="false">4 کور توڑیں۔</string>
+  <string name="stage_070_special" formatted="false">بائیں ہوا، دائیں ہوا، طوفان کا مرکز، چار مرحلوں میں بارش۔ کور کھلنے کے ساتھ، ہوا 25 فیصد تک پہنچ جاتی ہے۔</string>
+  <string name="stage_070_skill" formatted="false">ہوا سے کنارے پر نہیں دھکیلا گیا۔</string>
+  <string name="stage_071_name" formatted="false">وی کے سائز کا سکواڈرن</string>
+  <string name="stage_071_goal" formatted="false">لائیو 70</string>
+  <string name="stage_071_special" formatted="false">شارٹ کٹ کھولنے کے لیے V کے بیچ میں پلس بٹن کو توڑنا؛ یا بازو سے آگے بڑھیں لیکن نبض کی ضرورت کے بغیر۔</string>
+  <string name="stage_071_skill" formatted="false">اسکواڈ کے بیچ میں 3 بٹنوں کو تباہ کریں۔</string>
+  <string name="stage_072_name" formatted="false">پرانی لین کا تالا</string>
+  <string name="stage_072_goal" formatted="false">لائیو 75s</string>
+  <string name="stage_072_special" formatted="false">ڈرون لین کو نشان زد کرتا ہے اور پھر 1.8 سیکنڈ کے بعد فائر کرتا ہے۔ گولیوں کو پرانی لین میں لے جائیں اور تال سے تبدیل کریں۔</string>
+  <string name="stage_072_skill" formatted="false">اسی خالی لین میں 6 سیریز کی قیادت کر رہے ہیں۔</string>
+  <string name="stage_073_name" formatted="false">سپلائی گھیرے ہوئے ہے۔</string>
+  <string name="stage_073_goal" formatted="false">3 پیکجز جمع کریں۔</string>
+  <string name="stage_073_special" formatted="false">ہر پیکج میں 2 ڈرون ہوتے ہیں اور جہاز کے مطابق دالیں یا چھوٹے سلاٹ کی حفاظت اور انتخاب کرتے ہیں۔ 5 پیکجز ہیں، داخلی دروازہ مقفل نہیں ہے۔</string>
+  <string name="stage_073_skill" formatted="false">نگرانی والے ڈرون کو تباہ کیے بغیر کافی مقدار میں جمع کریں۔</string>
+  <string name="stage_074_name" formatted="false">متنوع حملہ</string>
+  <string name="stage_074_goal" formatted="false">5 اصلی دروازوں کے ذریعے</string>
+  <string name="stage_074_special" formatted="false">ٹوٹی ہوئی لکیروں والی جعلی ناک نقصان کا باعث نہیں بنتی۔ سست دھچکے کے بعد اصلی گیٹ۔ ڈائیورشن کا قانون سکھایا جاتا ہے، جعلی سسٹم نوٹیفیکیشن نہیں.</string>
+  <string name="stage_074_skill" formatted="false">ڈیکوئی لین میں نہ جائیں۔</string>
+  <string name="stage_075_name" formatted="false">گارڈ پرت کو تباہ کریں۔</string>
+  <string name="stage_075_goal" formatted="false">3 سیکیورٹی بٹن کو تباہ کریں۔</string>
+  <string name="stage_075_special" formatted="false">بٹن مختلف وقت پر نبض کی حد تک پہنچتا ہے۔ ایک نبض کے ساتھ 2 نوڈس کو بند کرنے کے لیے ایک انٹرسیکشن پوائنٹ کافی ہے۔ کافی ڈیوٹی بیٹری۔</string>
+  <string name="stage_075_skill" formatted="false">ایک نبض چوراہے پر 2 نوڈس کو بند کر دیتی ہے۔</string>
+  <string name="stage_076_name" formatted="false">قافلے کی پسپائی</string>
+  <string name="stage_076_goal" formatted="false">آپ 4 دروازوں سے گزرتے ہیں۔</string>
+  <string name="stage_076_special" formatted="false">دشمن آپ کے مستقبل کا راستہ روکتا ہے۔ جلد تبدیل کریں تاکہ آپ کے دوست پیروی کر سکیں۔ ہر بندرگاہ میں 2 درست خارجی راستے ہوتے ہیں۔</string>
+  <string name="stage_076_skill" formatted="false">آپ بکتر کھوئے بغیر کافی دروازوں سے گزرتے ہیں۔</string>
+  <string name="stage_077_name" formatted="false">دو دور کا محاصرہ</string>
+  <string name="stage_077_goal" formatted="false">80 کی دہائی کی زندگی</string>
+  <string name="stage_077_special" formatted="false">لوپ صرف اوپری نصف پر بند ہے؛ باہر نکلنے کے دروازے کنارے/درمیانی طرف موڑ لیتے ہیں، ٹرین کی قطار میں نہیں۔</string>
+  <string name="stage_077_skill" formatted="false">بغیر نبض کے 4 چکروں سے باہر نکلیں۔</string>
+  <string name="stage_078_name" formatted="false">دشمن ایندھن ڈپو</string>
+  <string name="stage_078_goal" formatted="false">3 کروڑ جمع، 2 گودام تباہ</string>
+  <string name="stage_078_special" formatted="false">گودام کو توڑنے سے دباؤ کم ہوتا ہے لیکن اگلی دھڑکن کے لیے توانائی کو محفوظ رکھنے کی ضرورت ہے۔ گودام صرف تب ہی گنتے ہیں جب تباہ ہو جاتے ہیں، وہ سکرین سے نہیں اڑتے۔</string>
+  <string name="stage_078_skill" formatted="false">2 گوداموں کے لیے 2 دالیں درست کریں، کوئی اضافی دباؤ نہیں۔</string>
+  <string name="stage_079_name" formatted="false">گھومتی شکار ٹیم</string>
+  <string name="stage_079_goal" formatted="false">لائیو 85s</string>
+  <string name="stage_079_special" formatted="false">لین/گارڈ/ جھاڑو کو بلاک کرنے کے لیے ہر 15 سیکنڈ میں رولز تبدیل کریں۔ ایک ہی وقت میں زیادہ سے زیادہ 2 کردار۔</string>
+  <string name="stage_079_skill" formatted="false">کمبو 6 حاصل کریں۔</string>
+  <string name="stage_080_name" formatted="false">فلیگ شپ بلیک وو</string>
+  <string name="stage_080_goal" formatted="false">بریک 5 کروڑ</string>
+  <string name="stage_080_special" formatted="false">گارڈ کو الگ کرنے اور کور کو بے نقاب کرنے کے لیے لین لاک سے گزریں۔ آخری دو مراحل V-shaped/escape loop ہیں؛ بیٹری ہر مرحلے کو الگ سے کور کرتی ہے۔</string>
+  <string name="stage_080_skill" formatted="false">جب کور بکتر بند ہو تو کوئی نبض نہیں۔</string>
+  <string name="stage_081_name" formatted="false">مستقبل کے آثار</string>
+  <string name="stage_081_goal" formatted="false">لائیو 75s</string>
+  <string name="stage_081_special" formatted="false">لات مارنے والی منزل کی 2 سیکنڈ پہلے اطلاع دیں اور پھر پیشین گوئی کے مطابق کک کریں۔ موجودہ پتھر کو دیکھنے کے بجائے مستقبل کو پڑھیں۔</string>
+  <string name="stage_081_skill" formatted="false">6 سلاٹس کے ذریعے، کسی نبض کی پیش گوئی نہیں کی جاتی ہے۔</string>
+  <string name="stage_082_name" formatted="false">سست بہاؤ</string>
+  <string name="stage_082_goal" formatted="false">5 دروازوں سے</string>
+  <string name="stage_082_special" formatted="false">ہر لین میں مختلف چیز کی رفتار ہوتی ہے۔ ٹرین/گھڑی سست نہیں ہے۔ فاصلے کے بجائے ٹرین کے پہنچنے کے وقت کا موازنہ کریں۔</string>
+  <string name="stage_082_skill" formatted="false">تمام 5 سوراخوں کے ذریعے۔</string>
+  <string name="stage_083_name" formatted="false">ایک بار پھر</string>
+  <string name="stage_083_goal" formatted="false">لائیو 80</string>
+  <string name="stage_083_special" formatted="false">علامت چٹان پیچھے کی طرف حرکت کرتی ہے اور پھر بالکل ایک بار پیچھے گرتی ہے۔ ID/dodge پرچم کو قریب رکھیں، دو بار انعام نہ دیں۔</string>
+  <string name="stage_083_skill" formatted="false">4 ریوائنڈ کے بعد 4 ID سے قریب سے ڈاج کریں۔</string>
+  <string name="stage_084_name" formatted="false">دو وقتی گیٹ</string>
+  <string name="stage_084_goal" formatted="false">4 فیز پورٹس کے ذریعے</string>
+  <string name="stage_084_special" formatted="false">پہلا دروازہ تنگ ہے، پچھلا دروازہ چوڑا ہے۔ فائدہ اٹھانے کے لیے جلدی جانے کا انتخاب کریں یا محفوظ ہونے کا انتظار کریں۔ دروازے کی پوزیشن کو تصادفی طور پر تبدیل نہ کریں۔</string>
+  <string name="stage_084_skill" formatted="false">پہلے گیٹ پر ≥3 گیٹس کے ذریعے۔</string>
+  <string name="stage_085_name" formatted="false">پیکیج ساکن ہے۔</string>
+  <string name="stage_085_goal" formatted="false">4 پیکجز جمع کریں۔</string>
+  <string name="stage_085_special" formatted="false">Sue y=560 رک جاتا ہے پھر گنتی جاری رہتی ہے۔ ٹرین لائن تک پہنچنے سے پہلے نہ اٹھائیں. 6 امکانات ہیں۔</string>
+  <string name="stage_085_skill" formatted="false">پہلے 4 پیکجز کو مت چھوڑیں۔</string>
+  <string name="stage_086_name" formatted="false">ریورس سگنل</string>
+  <string name="stage_086_goal" formatted="false">ریورس چین میں 5 بندرگاہوں کے ذریعے</string>
+  <string name="stage_086_special" formatted="false">شروع کرنے سے پہلے \"ریورس آرڈر\" لیبل کے ساتھ سٹرنگ دکھائیں؛ پھانسی کے حکم کو دوبارہ پڑھنے کی حمایت حاصل ہے۔</string>
+  <string name="stage_086_skill" formatted="false">مت دہرائیں۔</string>
+  <string name="stage_087_name" formatted="false">میرا اپنا سایہ</string>
+  <string name="stage_087_goal" formatted="false">لائیو 85s</string>
+  <string name="stage_087_special" formatted="false">گیند آنے والی شوٹنگ پوزیشن کی نشاندہی کرنے سے 3 سیکنڈ پہلے راستے کو ریکارڈ کرتی ہے۔ گیند نہیں ٹکراتی۔ گیند کے پیچھے چلنے کے بجائے پرانا راستہ چھوڑ دیں۔</string>
+  <string name="stage_087_skill" formatted="false">گیند کے 6 شاٹس جہاز کو نہیں لگے۔</string>
+  <string name="stage_088_name" formatted="false">محدود منجمد</string>
+  <string name="stage_088_goal" formatted="false">3 ٹائم ٹرانسمیٹر بند کریں۔</string>
+  <string name="stage_088_special" formatted="false">بند ہونے والی نبض صرف گولی کو روکتی ہے، ہدف کو نہیں بڑھاتی؛ بنیادی دروازے کا انتظار کریں۔ بار کی صحیح تعداد کو پن کریں اور غلطی کو دہرائیں۔</string>
+  <string name="stage_088_skill" formatted="false">3 سیٹوں پر 3 دالیں درست کریں۔</string>
+  <string name="stage_089_name" formatted="false">اب ملاقات کا مقام ہے۔</string>
+  <string name="stage_089_goal" formatted="false">آپ کے پاس 3 زندہ رقم ہیں۔</string>
+  <string name="stage_089_special" formatted="false">آپ تیز/سست زون کو عبور کرنے کی دھمکی دیتے ہوئے حقیقی وقت کی پیروی کرتے ہیں۔ پیشین گوئی کی لکیریں آپ کو یہ دیکھنے میں مدد کرتی ہیں کہ کون سی چیز آپ تک پہلے پہنچے گی۔</string>
+  <string name="stage_089_skill" formatted="false">فاسٹ زون سے کوئی خطرہ آپ تک نہیں پہنچتا۔</string>
+  <string name="stage_090_name" formatted="false">واچ کیپر</string>
+  <string name="stage_090_goal" formatted="false">بریک 5 کروڑ</string>
+  <string name="stage_090_special" formatted="false">پانچ مراحل: پیشن گوئی، سٹاپ، سنگل ریوائنڈ، دو ونڈوز، ریورس ترتیب۔ صرف پوزیشن کو بحال کرتا ہے، کھوئے ہوئے باس کی صحت کو بحال نہیں کرتا ہے۔</string>
+  <string name="stage_090_skill" formatted="false">کور کو کھولے بغیر پلس نہ کریں۔</string>
+  <string name="stage_091_name" formatted="false">آخری تین سڑکیں۔</string>
+  <string name="stage_091_goal" formatted="false">ایک لائن میں 6 دروازوں کے ذریعے</string>
+  <string name="stage_091_special" formatted="false">اسکرین سے پہلے، کم سپلائی / بہت سی بیٹری / قریبی اجتناب کے ساتھ ایک وسیع راستہ منتخب کریں۔ اسی منزل کی طرف جاتے ہوئے، ہر راستے میں ضرورت پڑنے پر تبدیل کرنے کے لیے ایک امدادی گیٹ ہوتا ہے۔</string>
+  <string name="stage_091_skill" formatted="false">ریلیف گیٹ کا استعمال کرتے ہوئے راستہ تبدیل نہ کریں۔</string>
+  <string name="stage_092_name" formatted="false">نبض یا ڈھال</string>
+  <string name="stage_092_goal" formatted="false">لائیو 85s</string>
+  <string name="stage_092_special" formatted="false">3 اسٹیشنز آپ کو لین کے ذریعے بیٹری یا شیلڈ کا انتخاب کرنے دیتے ہیں، دونوں نہیں۔ مندرجہ ذیل پیٹرن میں دو متعلقہ حل ہیں۔</string>
+  <string name="stage_092_skill" formatted="false">تمام 3 اسٹیشنوں پر ایک ہی قسم کا انتخاب نہ کریں۔</string>
+  <string name="stage_093_name" formatted="false">آخری شخص کو واپس لائیں۔</string>
+  <string name="stage_093_goal" formatted="false">آپ رہتے ہیں، 2 کمپارٹمنٹ محفوظ کریں۔</string>
+  <string name="stage_093_special" formatted="false">بچاؤ کا راستہ آپ کی حفاظت کا راستہ کاٹتا ہے۔ عام خطرناک نبض کے لیے ڈیلیوری سے پہلے بیٹری اپنے پاس رکھیں۔</string>
+  <string name="stage_093_skill" formatted="false">آپ دو بچتوں پر بکتر نہیں کھوتے۔</string>
+  <string name="stage_094_name" formatted="false">چار موسموں کی راہداری</string>
+  <string name="stage_094_goal" formatted="false">8 دروازوں کے ذریعے</string>
+  <string name="stage_094_special" formatted="false">چار عام حصے → ہوا → برف → حرام لوڈنگ، ہر سیکشن میں 2 بندرگاہیں ہیں۔ 3 سیکنڈ کے لیے نیوٹرلائزیشن کے وسط میں، حد سے آگے بڑھنے کو شامل نہ کریں۔</string>
+  <string name="stage_094_skill" formatted="false">تمام 8 افتتاحی کوششوں کو پاس کیا۔</string>
+  <string name="stage_095_name" formatted="false">جوابی حملہ بیلٹ</string>
+  <string name="stage_095_goal" formatted="false">90 سیکنڈ کے لیے لائیو، 4 ٹارگٹ کلسٹرز کو تباہ کریں۔</string>
+  <string name="stage_095_special" formatted="false">لات مارنے سے اکثر دباؤ پڑتا ہے۔ جھرمٹ میں ایک ڈھال ہے جو تال میں کھلتی ہے، نبض کو صحیح وقت پر محفوظ رکھنا ضروری ہے۔ 6 ٹارگٹ ونڈوز ہیں۔</string>
+  <string name="stage_095_skill" formatted="false">ڈیشڈ سیوڈو فریم کلسٹر کو تباہ نہ کریں۔</string>
+  <string name="stage_096_name" formatted="false">پائلٹ کا انتخاب</string>
+  <string name="stage_096_goal" formatted="false">3 تالے جمع کریں، آخری گیٹ سے گزریں۔</string>
+  <string name="stage_096_special" formatted="false">ہر تالے میں کمبوز رکھنے کے لیے ایک تنگ شاخ یا لوڈ کرنے کے لیے ایک چوڑی شاخ ہوتی ہے۔ انتخاب اگلے مرحلے کو متاثر کرتا ہے لیکن جیتنے کے امکان کو مسدود نہیں کرتا۔</string>
+  <string name="stage_096_skill" formatted="false">ایڈ فلنگ اسٹیشن کا استعمال نہ کریں۔</string>
+  <string name="stage_097_name" formatted="false">نووا لائن</string>
+  <string name="stage_097_goal" formatted="false">اسٹیشن 5 لائیو آرمر</string>
+  <string name="stage_097_special" formatted="false">سگنل کے مطابق 3-لین حملے کی ترجیحات میں تبدیلی؛ پوزیشنوں کو گھومنے کے لئے بڑی لہر کے بعد ایک وقفہ ہے. یہ مت سمجھو کہ پہلے ہی مہنگے جہاز موجود ہیں۔</string>
+  <string name="stage_097_skill" formatted="false">اسٹیشن کے پاس ≥4/5 آرمر باقی ہیں۔</string>
+  <string name="stage_098_name" formatted="false">سفر سیکھا۔</string>
+  <string name="stage_098_goal" formatted="false">5 پیراگراف کے ذریعے لائیو</string>
+  <string name="stage_098_special" formatted="false">نمونہ باب 2، 3، 5، 7، 9؛ پیشگی اعلان کیا گیا ہے، ہر جنکشن کی منتقلی کے واضح اصول ہیں۔</string>
+  <string name="stage_098_skill" formatted="false">کوئی اعادہ/ریلیف پورٹ نہیں۔</string>
+  <string name="stage_099_name" formatted="false">فجر کا دروازہ</string>
+  <string name="stage_099_goal" formatted="false">6 بندرگاہوں کے ذریعے، 2 بنیادی تالے بند کریں۔</string>
+  <string name="stage_099_special" formatted="false">پلس انٹر لاکنگ پوزیشن گیٹ؛ تالا لگانے سے پہلے بیٹری کی سطح۔ اگر غلطی سے استعمال ہو جائے تو، ایک ریلیف ریفِل کی انگوٹھی ہوتی ہے، لاک نہیں ہوتی۔</string>
+  <string name="stage_099_skill" formatted="false">85 سیکنڈ سے پہلے ہو گیا، ریسکیو رنگ استعمال نہ کریں۔</string>
+  <string name="stage_100_name" formatted="false">الکا دل</string>
+  <string name="stage_100_goal" formatted="false">6 کور توڑیں۔</string>
+  <string name="stage_100_special" formatted="false">تین راؤنڈ، ہر گول 2 کور: پتھر/گیٹ؛ تحفظ/ہوا؛ وقت / کوچ کھولنے. درمیان میں 5 سیکنڈ آرام کریں، 1 آرمر/توانائی کی سطح کو بحال کریں۔ ٹرمینل فیز زیادہ سے زیادہ 2 معلوم میکانزم۔</string>
+  <string name="stage_100_skill" formatted="false">تھانگ نے زندگی بچانے والے محرک یا امدادی بندرگاہ کو چالو نہیں کیا ہے۔ سینٹینیل کے مالک ہونے کی ضرورت نہیں ہے۔</string>
+  <string name="chapter_01" formatted="false">بین اسٹار: جہاز کے مالک ہیں۔</string>
+  <string name="chapter_02" formatted="false">پتھر کی پٹی: راستہ پڑھیں</string>
+  <string name="chapter_03" formatted="false">برقی مقناطیسی علاقہ: توانائی کا استعمال اور انعقاد</string>
+  <string name="chapter_04" formatted="false">گمشدہ ٹرین: تحفظ اور ترجیح</string>
+  <string name="chapter_05" formatted="false">آئس نیبولا: ماسٹر جڑتا</string>
+  <string name="chapter_06" formatted="false">مکینیکل کھنڈرات: مشین ریڈنگ اور ڈی کوڈنگ</string>
+  <string name="chapter_07" formatted="false">خلائی طوفان: ماحولیاتی موافقت</string>
+  <string name="chapter_08" formatted="false">ڈارک فلیٹ: ٹیکٹیکل اضطراری</string>
+  <string name="chapter_09" formatted="false">ٹائم ریفٹ: تبدیلی کے اصول پڑھیں</string>
+  <string name="chapter_10" formatted="false">میٹیور سینٹر: ترکیب اور انتخاب</string>
+  <string name="ship_s01_body" formatted="false">بیلنس، کوئی ثانوی اصول نہیں؛ ہر اسکرین کی معیاری تصدیق۔ تجارت بند: کوئی تخصص نہیں۔</string>
+  <string name="ship_s02_body" formatted="false">لین میں فوری تبدیلی، چھوٹا جسم۔ تجارت بند: کم بکتر۔</string>
+  <string name="ship_s03_body" formatted="false">بہت سے عجیب تصادم کا شکار ہیں۔ ٹریڈ آف: بڑا، سست، سست لوڈنگ۔</string>
+  <string name="ship_s04_body" formatted="false">جہاز کی قطار کے ارد گرد 45 یونٹوں کے اندر اختیاری اشیاء کو جذب کریں۔ ٹریڈ آف: کوئی زبردستی سیلف سکشن/پورٹ نہیں؛ بڑا جسم.</string>
+  <string name="ship_s05_body" formatted="false">تیز غیر فعال چارجنگ۔ ٹریڈ آف: کم بکتر؛ بیٹریاں عام طور پر 20 کے بجائے صرف 15 چارج کرتی ہیں۔</string>
+  <string name="ship_s06_body" formatted="false">اضافی 2 سیکنڈ کے لیے آئٹمز کو ڈھالیں۔ ٹریڈ آف: بیس پلس صرف 160 رداس ہے۔</string>
+  <string name="ship_s07_body" formatted="false">چکما دینے کے بعد، 1 سیکنڈ کے لیے ماحولیاتی بہاؤ کو 50% کم کرتا ہے۔ ٹریڈ آف: 4s بنیادی کومبو ونڈو۔</string>
+  <string name="ship_s08_body" formatted="false">ہر 25 سیکنڈ، غائب ہونے پر 1 کوچ کو بحال کرتا ہے۔ زیادہ سے زیادہ 2 بار/ لیول، 3 بار/ لامحدود۔ تجارت بند: آرمر بحال کرنے والی اشیاء دوبارہ چارج نہیں ہوتی ہیں۔</string>
+  <string name="ship_s09_body" formatted="false">اگر اب بھی فرار کا راستہ باقی ہے تو تسلسل عام طور پر ٹوٹی ہوئی چٹانوں کو 30 یونٹ آگے دھکیل دیتا ہے۔ ٹریڈ آف: پوسٹ امپلس تحفظ صرف 0.45 سیکنڈ ہے۔</string>
+  <string name="ship_s10_body" formatted="false">ایک بار/سطح اہم دھچکے کو روکتا ہے، 1 بکتر باقی، 1 سیکنڈ کے لیے ناقابل تسخیر۔ تجارت بند: تخرکشک / میعاد ختم ہونے کی وجہ سے نقصان کو نہیں روکتا ہے۔ اسٹیک نہیں کرتا revives.</string>
+  <string name="ship_s11_body" formatted="false">ہر 15 سیکنڈ میں پہلی بار آئٹمز لینے سے 8 انرجی شامل ہوتی ہے۔ ٹریڈ آف: بیس سلو 1 سیکنڈ چھوٹا ہے۔</string>
+  <string name="ship_s12_body" formatted="false">اسٹیج سے پہلے +1 آرمر **یا** +30 پلس رداس کا انتخاب کریں۔ ٹریڈ آف: آرمر کنفیگریشن: رفتار کم کر کے 680 کر دی گئی۔ نبض کی ترتیب: NL کو 2.6 پر بحال کریں۔</string>
+  <string name="campaign" formatted="false">100 مراحل کا سفر</string>
+  <string name="campaign_continue" formatted="false">اپنا سفر جاری رکھیں</string>
+  <string name="fleet" formatted="false">شپ یارڈ</string>
+  <string name="stage" formatted="false">اسکرین</string>
+  <string name="chapter" formatted="false">باب</string>
+  <string name="stars" formatted="false">کیوں؟</string>
+  <string name="stage_ready" formatted="false">پرواز کی تیاری کریں۔</string>
+  <string name="stage_goal" formatted="false">بنیادی مقصد</string>
+  <string name="stage_special" formatted="false">خصوصی نقطہ</string>
+  <string name="stage_skill" formatted="false">اسٹار کی مہارتیں۔</string>
+  <string name="stage_damage" formatted="false">جہاز کو کیوں رکھیں: جتنی بار یہ بکتر کھوتا ہے وہ زیادہ نہیں ہے۔</string>
+  <string name="stage_play" formatted="false">اسٹیج شروع کریں۔</string>
+  <string name="stage_map" formatted="false">نقشہ</string>
+  <string name="stage_next" formatted="false">اگلا مرحلہ</string>
+  <string name="stage_retry" formatted="false">اس سطح کو دوبارہ آزمائیں۔</string>
+  <string name="stage_victory" formatted="false">مکمل ایکٹ</string>
+  <string name="stage_defeat" formatted="false">وکر کو پاس نہیں کیا ہے۔</string>
+  <string name="stage_locked" formatted="false">پہلے سطح کو پاس کرنے کی ضرورت ہے۔</string>
+  <string name="stage_complete" formatted="false">مکمل</string>
+  <string name="stage_first" formatted="false">پہلا جیت کا بونس</string>
+  <string name="stage_star_reward" formatted="false">نیا اسٹار بونس</string>
+  <string name="stage_boss_reward" formatted="false">گیٹ کو انعام دیں۔</string>
+  <string name="stage_chapter_reward" formatted="false">بونس باب</string>
+  <string name="ship_owned" formatted="false">ملکیت</string>
+  <string name="ship_equipped" formatted="false">استعمال میں ہے۔</string>
+  <string name="ship_equip" formatted="false">سامان</string>
+  <string name="ship_buy" formatted="false">ایک جہاز خریدیں۔</string>
+  <string name="ship_speed" formatted="false">افقی رفتار</string>
+  <string name="ship_radius" formatted="false">تصادم کا رداس</string>
+  <string name="ship_energy" formatted="false">ہر سیکنڈ میں انرجی ریجن</string>
+  <string name="ship_choose" formatted="false">ٹرین منتخب کریں۔</string>
+  <string name="account_upgrades" formatted="false">اپنا اکاؤنٹ اپ گریڈ کریں۔</string>
+  <string name="practice" formatted="false">مشق کریں۔</string>
+  <string name="practice_note" formatted="false">کھولے بغیر، پیسے یا کچھ بھی وصول کیے بغیر مشق کریں۔</string>
+  <string name="practice_active" formatted="false">پریکٹس میں - کوئی انعام نہیں۔</string>
+  <string name="route" formatted="false">راستہ</string>
+  <string name="route_safe" formatted="false">چوڑی سڑک</string>
+  <string name="route_energy" formatted="false">انرجی لائن</string>
+  <string name="route_risk" formatted="false">ڈاج بند کرو</string>
+  <string name="astra_armor" formatted="false">آرمر کنفیگریشن</string>
+  <string name="astra_pulse" formatted="false">پلس کنفیگریشن</string>
+  <string name="goal_gate" formatted="false">گیٹ</string>
+  <string name="cargo" formatted="false">مشن پر مقدمہ کریں۔</string>
+  <string name="nodes" formatted="false">ایکٹیویشن بٹن</string>
+  <string name="cores" formatted="false">باس کور</string>
+  <string name="ally" formatted="false">اتحادی</string>
+  <string name="station" formatted="false">دفاعی اسٹیشن</string>
+  <string name="time_left" formatted="false">بائیں</string>
+  <string name="boss_open" formatted="false">کور اوپن — پلس ان رینج</string>
+  <string name="boss_closed" formatted="false">اوپن کور کا انتظار کریں۔</string>
+  <string name="memory" formatted="false">پورٹ سٹرنگ</string>
+  <string name="memory_hint" formatted="false">سٹرنگ کو دہرائیں۔</string>
+  <string name="defeat_armor" formatted="false">بکتر بند</string>
+  <string name="defeat_ally" formatted="false">اتحادی تباہ</string>
+  <string name="defeat_station" formatted="false">اسٹیشن تباہ</string>
+  <string name="defeat_timeout" formatted="false">ہدف کی آخری تاریخ ختم ہو گئی۔</string>
+  <string name="sensitivity" formatted="false">حساسیت کو کھینچیں۔</string>
+  <string name="campaign_finished" formatted="false">100 سطحیں مکمل!</string>
+  <string name="ship_stats" formatted="false">جہاز کے پیرامیٹرز</string>
+  <string name="reward_base" formatted="false">پری بقا</string>
+  <string name="reward_total" formatted="false">کل کریڈٹ موصول ہوئے۔</string>
+  <string name="save_before_next" formatted="false">جاری رکھنے سے پہلے نتائج کو محفوظ کریں۔</string>
+  <string name="star_damage_info" formatted="false">جہاز کی دیکھ بھال صرف اتنی ہی گنتی کیوں کرتی ہے کہ اس کے بکتر بند ہونے کی تعداد؟ مرمت کھوئے ہوئے اوقات کو نہیں مٹاتی ہے۔</string>
+  <string name="practice_hint" formatted="false">آئٹم لینے کے لیے کھینچیں، درست گیٹ سے گزریں اور جب کور کھلے تو پلس استعمال کریں۔</string>
 </resources>

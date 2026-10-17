@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">生存每秒 10 分，每个道具 25 分。最终每 20 分获得 1 信用点用于升级。放弃飞行没有奖励。</string>
   <string name="help_accessibility" formatted="false">游戏需要实时观察并拖动操作。</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">版本 1.3 / 20 种语言</string>
+  <string name="update_badge" formatted="false">2.0 / 100个阶段的旅程</string>
   <string name="new_tagline" formatted="false">擦身躲避积累连击，用脉冲脱险。掌控飞行，突破纪录。</string>
   <string name="pulse_ready" formatted="false">释放脉冲</string>
   <string name="pulse_charging">能量 %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">放大器</string>
   <string name="daredevil_name" formatted="false">冒险家</string>
   <string name="focus_name" formatted="false">专注</string>
+  <string name="stage_001_name" formatted="false">起飞</string>
+  <string name="stage_001_goal" formatted="false">直播30秒</string>
+  <string name="stage_001_special" formatted="false">0–10s 只有小石头直落； 10-20秒中间间隙； 20-30 秒将插槽换到两侧。通过动作拉动的说明。</string>
+  <string name="stage_001_skill" formatted="false">仔细阅读所有 3 条安全说明。</string>
+  <string name="stage_002_name" formatted="false">三路返回</string>
+  <string name="stage_002_goal" formatted="false">通过 3 个门</string>
+  <string name="stage_002_special" formatted="false">门从左-中-右打开，每8秒一次；门未命中 4 秒后重复。重点是寻找位置，而不是增加冰雹。</string>
+  <string name="stage_002_skill" formatted="false">不要错过任何开门机会。</string>
+  <string name="stage_003_name" formatted="false">第一次补给</string>
+  <string name="stage_003_goal" formatted="false">收集2个包裹</string>
+  <string name="stage_003_special" formatted="false">两条交替路线上的 4 个包裹；石头不占用引导窗口的接送线。</string>
+  <string name="stage_003_skill" formatted="false">已完成最大装甲值。</string>
+  <string name="stage_004_name" formatted="false">左右节奏</string>
+  <string name="stage_004_goal" formatted="false">直播35秒</string>
+  <string name="stage_004_special" formatted="false">石排有槽位，根据节奏左右变化；有转身的空间，站在中间并不总是安全的。</string>
+  <string name="stage_004_skill" formatted="false">通过插槽的 4 个中心，标记正确的节奏。</string>
+  <string name="stage_005_name" formatted="false">脉冲开辟道路</string>
+  <string name="stage_005_goal" formatted="false">关闭2个矿井集群</string>
+  <string name="stage_005_special" formatted="false">Cluster down y=560，在每个簇之前分配任务引脚。尽早点击以获得提示并安全地重复。</string>
+  <string name="stage_005_skill" formatted="false">每个簇都被一个脉冲完全关闭。</string>
+  <string name="stage_006_name" formatted="false">一翼距离</string>
+  <string name="stage_006_goal" formatted="false">2次有效闪避</string>
+  <string name="stage_006_special" formatted="false">两条小岩石路线样本，展示练习区域，至少8次机会。碰撞不会增加目标。</string>
+  <string name="stage_006_skill" formatted="false">连接2，闪避5秒，连击2。</string>
+  <string name="stage_007_name" formatted="false">能量装甲</string>
+  <string name="stage_007_goal" formatted="false">活40多岁</string>
+  <string name="stage_007_special" formatted="false">前屏蔽有两个狭窄部分；仍然有很宽的外线，所以你不需要承受打击。</string>
+  <string name="stage_007_skill" formatted="false">盾牌格挡一次，不会失去护甲。</string>
+  <string name="stage_008_name" formatted="false">慢一秒</string>
+  <string name="stage_008_goal" formatted="false">通过4个门</string>
+  <string name="stage_008_special" formatted="false">慢嫁接门；表明该项目不会减慢目标时钟。有些路线不需要减速。</string>
+  <string name="stage_008_skill" formatted="false">拾取2个不同ID的慢速物品。</string>
+  <string name="stage_009_name" formatted="false">中试</string>
+  <string name="stage_009_goal" formatted="false">收集2包，穿过3个门</string>
+  <string name="stage_009_special" formatted="false">三个阶段：收集、变道、按住脉冲打开最后的路径。同时确认这两个目标。</string>
+  <string name="stage_009_skill" formatted="false">至少有 3 人在最后一个门附近躲避。</string>
+  <string name="stage_010_name" formatted="false">码头管理员</string>
+  <string name="stage_010_goal" formatted="false">破坏2个核心</string>
+  <string name="stage_010_special" formatted="false">一期中间留两列；将 2 个槽混合到侧面，然后降低核心。每个内核都有单独的引脚/窗口。</string>
+  <string name="stage_010_skill" formatted="false">在阶段开始时摧毁每个核心。</string>
+  <string name="stage_011_name" formatted="false">鱼骨</string>
+  <string name="stage_011_goal" formatted="false">现场40秒</string>
+  <string name="stage_011_special" formatted="false">两条对角线分支形成人字形缝隙；每对后改变方向，用直线表示转弯。</string>
+  <string name="stage_011_skill" formatted="false">通过标记的 5 个中心槽。</string>
+  <string name="stage_012_name" formatted="false">浮动楼梯</string>
+  <string name="stage_012_goal" formatted="false">通过4个门</string>
+  <string name="stage_012_special" formatted="false">左→稍左→稍右→右；持续教授小翻译。错过当前端口环回。</string>
+  <string name="stage_012_skill" formatted="false">不要使用豆类。</string>
+  <string name="stage_013_name" formatted="false">剪刀</string>
+  <string name="stage_013_goal" formatted="false">直播45秒</string>
+  <string name="stage_013_special" formatted="false">两条对角线相交但不同时到达火车线；行编号警告首先出现。</string>
+  <string name="stage_013_skill" formatted="false">至少 2 条线有 4 次闪避。</string>
+  <string name="stage_014_name" formatted="false">小巷改变方向</string>
+  <string name="stage_014_goal" formatted="false">穿过5个门</string>
+  <string name="stage_014_special" formatted="false">走廊用箭头改变方向；保持船的动力。 3号门有休息时间学习转弯。</string>
+  <string name="stage_014_skill" formatted="false">在开场尝试中通过了全部 5 项。</string>
+  <string name="stage_015_name" formatted="false">双石</string>
+  <string name="stage_015_goal" formatted="false">直播45秒</string>
+  <string name="stage_015_special" formatted="false">每对都有一个慢踢，然后一个快踢，避免第一次踢后出现虚假间隙。</string>
+  <string name="stage_015_skill" formatted="false">每种速度至少避免两次。</string>
+  <string name="stage_016_name" formatted="false">新月</string>
+  <string name="stage_016_goal" formatted="false">收集3张地图</string>
+  <string name="stage_016_special" formatted="false">踢出弧线；物品在安全凹区再换到对面弧线，有6次机会。</string>
+  <string name="stage_016_skill" formatted="false">在前 3 次机会中收集 3 件。</string>
+  <string name="stage_017_name" formatted="false">双节奏</string>
+  <string name="stage_017_goal" formatted="false">现场50秒</string>
+  <string name="stage_017_special" formatted="false">快排两排，然后休息很长时间；在阶段结束时，换三排以避免突然的岩石进入船内。</string>
+  <string name="stage_017_skill" formatted="false">一个脉冲可以摧毁至少 4 块岩石。</string>
+  <string name="stage_018_name" formatted="false">卫星轨道</string>
+  <string name="stage_018_goal" formatted="false">通过4个门</string>
+  <string name="stage_018_special" formatted="false">小岩石围绕大块旋转；轨道槽预测船排的接送位置。</string>
+  <string name="stage_018_skill" formatted="false">不要破坏中心方块。</string>
+  <string name="stage_019_name" formatted="false">野心的交集</string>
+  <string name="stage_019_goal" formatted="false">直播55秒并收集2道菜</string>
+  <string name="stage_019_special" formatted="false">宽路东西少，窄路有锁。有4把锁，所以你不必每次都走危险的路线。</string>
+  <string name="stage_019_skill" formatted="false">55秒前收集全部4道菜。</string>
+  <string name="stage_020_name" formatted="false">带式破碎机</string>
+  <string name="stage_020_goal" formatted="false">打破3个核心</string>
+  <string name="stage_020_special" formatted="false">两个翼压成水平槽；按下一侧翅膀后，它就不再露出核心。最后阶段通过警报反转扫描。</string>
+  <string name="stage_020_skill" formatted="false">这艘船没有被翼雷击中。</string>
+  <string name="stage_021_name" formatted="false">暴风雨中的电池</string>
+  <string name="stage_021_goal" formatted="false">收集 3 个任务徽章</string>
+  <string name="stage_021_special" formatted="false">杆子后面有5节电池，有槽；必须拾取正确的位置而不是连续发送脉冲。</string>
+  <string name="stage_021_skill" formatted="false">能量不会低于 30。</string>
+  <string name="stage_022_name" formatted="false">无装载区</string>
+  <string name="stage_022_goal" formatted="false">通过4个门</string>
+  <string name="stage_022_special" formatted="false">条纹区域停止响应，亮色区域正常充电。交替端口迫使我们选择保持加载或提前切换。</string>
+  <string name="stage_022_skill" formatted="false">通过NL≥70的最后一个门。</string>
+  <string name="stage_023_name" formatted="false">保险丝</string>
+  <string name="stage_023_goal" formatted="false">关闭3个电源按钮</string>
+  <string name="stage_023_special" formatted="false">该按钮仅在脉冲半径内关闭；有 3 个工作电池。没有关闭的按钮仍然有旁路和下一个转弯。</string>
+  <string name="stage_023_skill" formatted="false">当安全环打开时，关闭所有 3 个。</string>
+  <string name="stage_024_name" formatted="false">项链</string>
+  <string name="stage_024_goal" formatted="false">按顺序通过5个门</string>
+  <string name="stage_024_special" formatted="false">端口有数字/符号；只有当前端口收到进度。穿过未来之门不会减少生命，也不会增加计数。</string>
+  <string name="stage_024_skill" formatted="false">请勿按错误的顺序通过大门。</string>
+  <string name="stage_025_name" formatted="false">选择冲锋或闪避</string>
+  <string name="stage_025_goal" formatted="false">直播55秒</string>
+  <string name="stage_025_special" formatted="false">每 10 秒，引脚就会位于下一个插槽的相对边缘。自我评估是否有足够的时间循环或取出电池；电池拆卸路线始终存在。</string>
+  <string name="stage_025_skill" formatted="false">收集 3 块电池并继续前往下一个插槽。</string>
+  <string name="stage_026_name" formatted="false">谐振电容器</string>
+  <string name="stage_026_goal" formatted="false">激活 2 个 NL ≥80 的站</string>
+  <string name="stage_026_special" formatted="false">经过80NL排水站区域；每个车站前都有 100 条加油线。脉冲不能代替站触摸操作。</string>
+  <string name="stage_026_skill" formatted="false">当输入 NL ≥95 时，两个站都会接收。</string>
+  <string name="stage_027_name" formatted="false">离子雨</string>
+  <string name="stage_027_goal" formatted="false">直播55秒</string>
+  <string name="stage_027_special" formatted="false">离子云在一条车道上愈合，但岩石会在警告后到达那里。拥有至少 3 个电池通常可以使次要目标可行。</string>
+  <string name="stage_027_skill" formatted="false">发送3个有效脉冲。</string>
+  <string name="stage_028_name" formatted="false">导体灯泡</string>
+  <string name="stage_028_goal" formatted="false">收集4条线索</string>
+  <string name="stage_028_special" formatted="false">任务地图周期性地向左/右漂移，有一条线预测接载点。有7个机会。</string>
+  <string name="stage_028_skill" formatted="false">在前 4 次机会中收集 4 件。</string>
+  <string name="stage_029_name" formatted="false">路尽头预留</string>
+  <string name="stage_029_goal" formatted="false">通过3个端口，存入≥70到最后一个端口</string>
+  <string name="stage_029_special" formatted="false">前两个端口是免费的；结束门成本从一开始就出现。电池补偿每8秒循环一次，如有缺失，有备用线路。</string>
+  <string name="stage_029_skill" formatted="false">请勿使用电池补偿。</string>
+  <string name="stage_030_name" formatted="false">电风暴核心</string>
+  <string name="stage_030_goal" formatted="false">打破3个核心</string>
+  <string name="stage_030_special" formatted="false">三个亮极轮流；站在正确的极性处打开装甲，然后使用boss/脉冲电池。最后一个阶段没有冷却时间，但仍然接受任务徽章。</string>
+  <string name="stage_030_skill" formatted="false">第一次尝试时正确打开了所有 3 个极。</string>
+  <string name="stage_031_name" formatted="false">同伴</string>
+  <string name="stage_031_goal" formatted="false">拥有 3 件盔甲的盟友存活 50 秒</string>
+  <string name="stage_031_special" formatted="false">你先飞，示意变道2秒；玩家用脉冲打破威胁的岩石。前10秒的低压力学习。</string>
+  <string name="stage_031_skill" formatted="false">盟友不会失去装甲。</string>
+  <string name="stage_032_name" formatted="false">两次救援之旅</string>
+  <string name="stage_032_goal" formatted="false">拿起2艘救生艇</string>
+  <string name="stage_032_special" formatted="false">按住正确拾取区域1秒；隔室有多次快速跌落和接触，没有重复。</string>
+  <string name="stage_032_skill" formatted="false">40 秒前完成。</string>
+  <string name="stage_033_name" formatted="false">面临危险</string>
+  <string name="stage_033_goal" formatted="false">4号站装甲持续55秒</string>
+  <string name="stage_033_special" formatted="false">岩石掉落穿过线路，导致空间站失去装甲。大石头优先车站，小石头优先火车线路；识别需要预防的危险。</string>
+  <string name="stage_033_skill" formatted="false">大石头都穿不过去。</string>
+  <string name="stage_034_name" formatted="false">易碎品</string>
+  <string name="stage_034_goal" formatted="false">2艘装甲货船55s</string>
+  <string name="stage_034_special" formatted="false">货运列车很少变道；两波来袭的无人机都按计划提供了脉冲电池。</string>
+  <string name="stage_034_skill" formatted="false">使用不超过 3 个脉冲。</string>
+  <string name="stage_035_name" formatted="false">指南</string>
+  <string name="stage_035_goal" formatted="false">带你穿过4扇门</string>
+  <string name="stage_035_special" formatted="false">你跟随玩家的车道晚了 1.2 秒；需要尽快改变。虚线代表延迟，不需要第二个控制手指。</string>
+  <string name="stage_035_skill" formatted="false">您通过每个闸门时，槽偏心率≤20 个单位。</string>
+  <string name="stage_036_name" formatted="false">将救济源分成两半</string>
+  <string name="stage_036_goal" formatted="false">站住送3个包裹</string>
+  <string name="stage_036_special" formatted="false">绿色包裹返回车站，黄色包裹给可选钱。掌握所有主要事实；平衡站救援与利润。</string>
+  <string name="stage_036_skill" formatted="false">该空间站至少剩余 3/4 装甲。</string>
+  <string name="stage_037_name" formatted="false">车队紧随其后</string>
+  <string name="stage_037_goal" formatted="false">两艘船都还活着</string>
+  <string name="stage_037_special" formatted="false">上一个/下一个朋友在同一条路线上，但有时差；威胁有识别警告、两个独立的装甲条。</string>
+  <string name="stage_037_skill" formatted="false">没有人会损失超过 1 件护甲。</string>
+  <string name="stage_038_name" formatted="false">雨中救援</string>
+  <string name="stage_038_goal" formatted="false">存活65秒，节省3格</string>
+  <string name="stage_038_special" formatted="false">雨后休息的接收车厢，5名救援人员已排完。必须用休息节奏来拾取。</string>
+  <string name="stage_038_skill" formatted="false">不要捡起伪装成带有警告标志的地雷。</string>
+  <string name="stage_039_name" formatted="false">故意诱饵</string>
+  <string name="stage_039_goal" formatted="false">你活了65秒</string>
+  <string name="stage_039_special" formatted="false">无人机在收到警报时锁定玩家的旧车道，然后冲去；将威胁远离您并在正确的时间继续前进。</string>
+  <string name="stage_039_skill" formatted="false">带领 4 架无人机进入没有你的车道。</string>
+  <string name="stage_040_name" formatted="false">空间抢劫</string>
+  <string name="stage_040_goal" formatted="false">打破3个核心，货船还活着</string>
+  <string name="stage_040_special" formatted="false">boss交替瞄准玩家/船只，每个系列都有一个目标符号。阻挡货船目标以打开核心。</string>
+  <string name="stage_040_skill" formatted="false">货船剩余装甲≥2/3。</string>
+  <string name="stage_041_name" formatted="false">薄冰</string>
+  <string name="stage_041_goal" formatted="false">直播 55 秒</string>
+  <string name="stage_041_special" formatted="false">变向时只有15-25s和35-45s有打滑；变道前的绿色制动区。</string>
+  <string name="stage_041_skill" formatted="false">不要触摸胶带的两个边缘。</string>
+  <string name="stage_042_name" formatted="false">闸门前刹车</string>
+  <string name="stage_042_goal" formatted="false">穿过4个门</string>
+  <string name="stage_042_special" formatted="false">通过闸门时，水平速度必须≤120单位/秒。有车速表调节刹车；错过端口中继器。</string>
+  <string name="stage_042_skill" formatted="false">在开局尝试中全部通过了 4 项。</string>
+  <string name="stage_043_name" formatted="false">冰裂了</string>
+  <string name="stage_043_goal" formatted="false">现场60年代</string>
+  <string name="stage_043_special" formatted="false">冰块在裂纹线后分裂成两块；破裂前可能会出现脉冲。碎片只产生一代。</string>
+  <string name="stage_043_skill" formatted="false">在分裂前打破 3 个冰块。</string>
+  <string name="stage_044_name" formatted="false">温水</string>
+  <string name="stage_044_goal" formatted="false">收集3个热芯</string>
+  <string name="stage_044_special" formatted="false">核心在两条传送带之间的防滑部分；得势而后刹车，按计划有6个核心。</string>
+  <string name="stage_044_skill" formatted="false">在前 3 次机会中收集 3 千万卢比。</string>
+  <string name="stage_045_name" formatted="false">钟摆是冷的</string>
+  <string name="stage_045_goal" formatted="false">穿过5个门</string>
+  <string name="stage_045_special" formatted="false">相位摆门、拾取点指示器；预测未来的位置而不是追逐当前的点。</string>
+  <string name="stage_045_skill" formatted="false">不要使用豆类。</string>
+  <string name="stage_046_name" formatted="false">滑到穹顶下</string>
+  <string name="stage_046_goal" formatted="false">直播 65 秒</string>
+  <string name="stage_046_special" formatted="false">慢石拱门，路短，外环。如果打滑太多，很容易撞到短路的边缘。还有足够的时间绕道走。</string>
+  <string name="stage_046_skill" formatted="false">通过3条短线标记。</string>
+  <string name="stage_047_name" formatted="false">传送带上的电池</string>
+  <string name="stage_047_goal" formatted="false">加载2站，通过最后一个门</string>
+  <string name="stage_047_special" formatted="false">传送带推动电池，而不是火车；上车点和停车路线的预测将观察/控制分开。</string>
+  <string name="stage_047_skill" formatted="false">50秒内充电2站。</string>
+  <string name="stage_048_name" formatted="false">雾气回声</string>
+  <string name="stage_048_goal" formatted="false">现场70年代</string>
+  <string name="stage_048_special" formatted="false">预示着槽链。雾气仅覆盖背景/装饰，不覆盖命中框/警告栏；带有重复符号。</string>
+  <string name="stage_048_skill" formatted="false">通过 6 个槽位，不重复。</string>
+  <string name="stage_049_name" formatted="false">裂缝蔓延</string>
+  <string name="stage_049_goal" formatted="false">穿过6个门</string>
+  <string name="stage_049_special" formatted="false">通过每个门，旧车道在2秒后关闭；必须进行过渡，并标记即将关闭的区域和下一个区域。</string>
+  <string name="stage_049_skill" formatted="false">关闭信号后 2 秒内不要返回原车道。</string>
+  <string name="stage_050_name" formatted="false">白龙</string>
+  <string name="stage_050_goal" formatted="false">打破4核</string>
+  <string name="stage_050_special" formatted="false">前两相是流冰，后两相是碎冰弧。核心区在防滑区​​是开放的，可供所有船只到达。</string>
+  <string name="stage_050_skill" formatted="false">没有击中次级冰碎片。</string>
+  <string name="stage_051_name" formatted="false">走廊开关</string>
+  <string name="stage_051_goal" formatted="false">打开3个开关，穿过大门</string>
+  <string name="stage_051_special" formatted="false">通过火车排的开关打开正确的后门。如果你错过了，你可以重复，但你不会立即失败。</string>
+  <string name="stage_051_skill" formatted="false">开启所有 3 次初次遭遇。</string>
+  <string name="stage_052_name" formatted="false">三图码</string>
+  <string name="stage_052_goal" formatted="false">输入 3 个符号的字符串</string>
+  <string name="stage_052_special" formatted="false">显示三角形-圆形-方形 4 秒，然后选择正确的端口。 False 让您查看并重复当前项目；避免仅仅依赖颜色。</string>
+  <string name="stage_052_skill" formatted="false">不要输入错误/重复。</string>
+  <string name="stage_053_name" formatted="false">无人机巡逻</string>
+  <string name="stage_053_goal" formatted="false">直播65秒</string>
+  <string name="stage_053_special" formatted="false">水平无人机有固定航线，只有在灯亮时才拍摄；阅读阀杆方向来猜测插槽。</string>
+  <string name="stage_053_skill" formatted="false">用脉冲摧毁 4 架无人机。</string>
+  <string name="stage_054_name" formatted="false">镜子异相</string>
+  <string name="stage_054_goal" formatted="false">通过5个真实的大门</string>
+  <string name="stage_054_special" formatted="false">影子反映的是折线，真正的大门是实心框+报警声。减少了阴影移动，但保留了区分符号。</string>
+  <string name="stage_054_skill" formatted="false">不要触摸假端口区域。</string>
+  <string name="stage_055_name" formatted="false">节奏按钮</string>
+  <string name="stage_055_goal" formatted="false">关闭3个发射器</string>
+  <string name="stage_055_special" formatted="false">发射器打开接收脉冲6秒，然后覆盖装甲；之前的占空比引脚电平，在下一个周期尝试未命中。</string>
+  <string name="stage_055_skill" formatted="false">当窗口剩余时间≥3秒时，关闭所有3个。</string>
+  <string name="stage_056_name" formatted="false">分拣输送机</string>
+  <string name="stage_056_goal" formatted="false">收集4个三角形组件</string>
+  <string name="stage_056_special" formatted="false">三种类型混合在一起：单独目标、普通物品、警告地雷。必须分类，而不是把所有东西都捞起来。</string>
+  <string name="stage_056_skill" formatted="false">不要拾取错误类型的零件。</string>
+  <string name="stage_057_name" formatted="false">锁定的快捷方式</string>
+  <string name="stage_057_goal" formatted="false">穿过4个门，打开最后一个门</string>
+  <string name="stage_057_special" formatted="false">免费长途；捷径费用为 40 NL，但可以节省时间。最后一个端口需要60，有一个补偿销以避免硬锁定。</string>
+  <string name="stage_057_skill" formatted="false">55 秒前完成。</string>
+  <string name="stage_058_name" formatted="false">四档</string>
+  <string name="stage_058_goal" formatted="false">直播75秒</string>
+  <string name="stage_058_special" formatted="false">无人机以偏转周期跟随柱、弧、对角线和漂移。下一个模型，不要同时抛出所有四个。</string>
+  <string name="stage_058_skill" formatted="false">1 个周期后，四个样本不再产生脉冲。</string>
+  <string name="stage_059_name" formatted="false">启动圣物</string>
+  <string name="stage_059_goal" formatted="false">收集3个核心，激活1个站</string>
+  <string name="stage_059_special" formatted="false">收集组件然后返回车站车道打开大门。该站仅在有足够核心时才接收；有旁路等待电池。</string>
+  <string name="stage_059_skill" formatted="false">仅使用 1 个脉冲。</string>
+  <string name="stage_060_name" formatted="false">建筑师</string>
+  <string name="stage_060_goal" formatted="false">打破4核</string>
+  <string name="stage_060_special" formatted="false">正确解决一核开放符号路线。最后阶段颠倒顺序，但在运行前显示新样本。</string>
+  <string name="stage_060_skill" formatted="false">不要选择错误的相位符号。</string>
+  <string name="stage_061_name" formatted="false">水平风</string>
+  <string name="stage_061_goal" formatted="false">直播65秒</string>
+  <string name="stage_061_special" formatted="false">跟随箭头的两次推力，漂移速度小于最慢船的补偿能力。</string>
+  <string name="stage_061_skill" formatted="false">请勿触摸风缘。</string>
+  <string name="stage_062_name" formatted="false">风暴之眼</string>
+  <string name="stage_062_goal" formatted="false">穿过5个风暴中心区域</string>
+  <string name="stage_062_special" formatted="false">中立区经过3条车道，没有被推到中央。仅在穿过火车排中心时才计算。</string>
+  <string name="stage_062_skill" formatted="false">全部 5 次首次亮相。</string>
+  <string name="stage_063_name" formatted="false">三层雨</string>
+  <string name="stage_063_goal" formatted="false">现场70年代</string>
+  <string name="stage_063_special" formatted="false">大石头慢，小石头快，地雷在不同高度上漂移；阅读训练顺序而不是简单的距离。</string>
+  <string name="stage_063_skill" formatted="false">摧毁所有 3 层物体的脉冲。</string>
+  <string name="stage_064_name" formatted="false">电池误入歧途</string>
+  <string name="stage_064_goal" formatted="false">收集 4 个任务电池</string>
+  <string name="stage_064_special" formatted="false">风以不同的因素推动船舶和电池；有一个接点线，不要突然加速电池。总共 7 个机会。</string>
+  <string name="stage_064_skill" formatted="false">在前 4 次机会中收集 4 个别针。</string>
+  <string name="stage_065_name" formatted="false">闪光警告</string>
+  <string name="stage_065_goal" formatted="false">通过6个门</string>
+  <string name="stage_065_special" formatted="false">背景闪烁表示序列，当运动减少时由静态符号取代。等待一段时间后才会出现危险。</string>
+  <string name="stage_065_skill" formatted="false">不要重复字符串。</string>
+  <string name="stage_066_name" formatted="false">压力走廊</string>
+  <string name="stage_066_goal" formatted="false">直播75秒</string>
+  <string name="stage_066_special" formatted="false">将压力区域带到中间，然后打开边缘；关闭前需要离开中间，给予2s警告。</string>
+  <string name="stage_066_skill" formatted="false">6 闪避靠近，不要使用冲动。</string>
+  <string name="stage_067_name" formatted="false">改变风向来拯救船只</string>
+  <string name="stage_067_goal" formatted="false">3个装甲好友存活75秒</string>
+  <string name="stage_067_special" formatted="false">风不影响你；预计岩石会漂入你的车道，并首先用脉冲摧毁它们。</string>
+  <string name="stage_067_skill" formatted="false">你不会因为岩石向侧面漂移而失去护甲。</string>
+  <string name="stage_068_name" formatted="false">静电风暴</string>
+  <string name="stage_068_goal" formatted="false">80年代生活</string>
+  <string name="stage_068_special" formatted="false">8秒正常恢复/4秒锁定恢复，仍在接收电池。 HUD 明确指出已锁定。拥有可选电池为明星提供了足够的机会。</string>
+  <string name="stage_068_skill" formatted="false">4个脉冲，每个脉冲摧毁≥1个威胁。</string>
+  <string name="stage_069_name" formatted="false">黎明前六拍</string>
+  <string name="stage_069_goal" formatted="false">通过6个端口，接收2个信号</string>
+  <string name="stage_069_special" formatted="false">首先报告槽样本；休息时的信号节拍为 2 和 5。记住要休息才能接收，而不仅仅是追门。</string>
+  <string name="stage_069_skill" formatted="false">第一次收到两个信号。</string>
+  <string name="stage_070_name" formatted="false">风暴神</string>
+  <string name="stage_070_goal" formatted="false">破坏4个核心</string>
+  <string name="stage_070_special" formatted="false">左风、右风、风暴中心、四期倾盆大雨。当核心打开时，风力可降低至 25%。</string>
+  <string name="stage_070_skill" formatted="false">没有被风推到边缘。</string>
+  <string name="stage_071_name" formatted="false">V型中队</string>
+  <string name="stage_071_goal" formatted="false">现场70年代</string>
+  <string name="stage_071_special" formatted="false">脉冲打破V中间的按钮以打开快捷方式；或者进一步超出机翼但不需要脉冲。</string>
+  <string name="stage_071_skill" formatted="false">摧毁小队中间的 3 个按钮。</string>
+  <string name="stage_072_name" formatted="false">旧车道锁</string>
+  <string name="stage_072_goal" formatted="false">直播75秒</string>
+  <string name="stage_072_special" formatted="false">无人机标记车道，然后在 1.8 秒后开火；引导子弹进入旧车道并有节奏地改变。</string>
+  <string name="stage_072_skill" formatted="false">带领6个系列进入同一个空车道。</string>
+  <string name="stage_073_name" formatted="false">物资被包围</string>
+  <string name="stage_073_goal" formatted="false">收集3个包裹</string>
+  <string name="stage_073_special" formatted="false">每个包裹有 2 架无人机来守卫并根据船舶选择脉冲或小槽。有5个包裹，入口没锁。</string>
+  <string name="stage_073_skill" formatted="false">在不破坏无人侦察机的情况下收集足够的数据。</string>
+  <string name="stage_074_name" formatted="false">牵制攻击</string>
+  <string name="stage_074_goal" formatted="false">通过5个真实的大门</string>
+  <string name="stage_074_special" formatted="false">断线假鼻子不会造成伤害；慢击后真正的门。传授的是分流法则，而不是虚假的系统通知。</string>
+  <string name="stage_074_skill" formatted="false">不要切换到诱饵车道。</string>
+  <string name="stage_075_name" formatted="false">摧毁守护层</string>
+  <string name="stage_075_goal" formatted="false">摧毁3个安全按钮</string>
+  <string name="stage_075_special" formatted="false">按钮在不同时间达到脉冲范围；有一个交点足以用一个脉冲关闭 2 个节点。充足的工作电池。</string>
+  <string name="stage_075_skill" formatted="false">一个脉冲会关闭交叉处的 2 个节点。</string>
+  <string name="stage_076_name" formatted="false">车队撤退</string>
+  <string name="stage_076_goal" formatted="false">你穿过4个门</string>
+  <string name="stage_076_special" formatted="false">敌人封锁了你未来的路线。尽早更改，以便您的朋友可以跟随；每个端口有 2 个有效的退出路径。</string>
+  <string name="stage_076_skill" formatted="false">你穿过足够多的大门而不会失去盔甲。</string>
+  <string name="stage_077_name" formatted="false">两段围攻</string>
+  <string name="stage_077_goal" formatted="false">80年代生活</string>
+  <string name="stage_077_special" formatted="false">循环仅在上半部分闭合；出口门轮流位于边缘/中间，而不是火车排。</string>
+  <string name="stage_077_skill" formatted="false">无脉冲退出 4 轮。</string>
+  <string name="stage_078_name" formatted="false">敌方燃料库</string>
+  <string name="stage_078_goal" formatted="false">收集 3 千万卢比，摧毁 2 个仓库</string>
+  <string name="stage_078_special" formatted="false">打破仓库可以减轻压力，但需要为下一次节拍保存能量。仓库只有在被摧毁时才算数，它们不会飞出屏幕。</string>
+  <string name="stage_078_skill" formatted="false">纠正2个仓库的2个脉冲，没有多余的压力。</string>
+  <string name="stage_079_name" formatted="false">轮换狩猎队</string>
+  <string name="stage_079_goal" formatted="false">直播85秒</string>
+  <string name="stage_079_special" formatted="false">每15秒切换角色以阻挡车道/守卫/清扫；最多同时扮演 2 个角色。</string>
+  <string name="stage_079_skill" formatted="false">达到连击 6。</string>
+  <string name="stage_080_name" formatted="false">旗舰黑Vu</string>
+  <string name="stage_080_goal" formatted="false">突破5千万卢比</string>
+  <string name="stage_080_special" formatted="false">通过通道锁让守卫分开并暴露核心。最后两相为V形/逃生环；电池分别覆盖每一相。</string>
+  <string name="stage_080_skill" formatted="false">核心装甲关闭时无脉冲。</string>
+  <string name="stage_081_name" formatted="false">未来的痕迹</string>
+  <string name="stage_081_goal" formatted="false">直播75秒</string>
+  <string name="stage_081_special" formatted="false">提前2秒报告踢球目的地，然后按预测踢球。读未来，而不是只看现在的石头。</string>
+  <string name="stage_081_skill" formatted="false">通过6个时隙，没有预测到脉冲。</string>
+  <string name="stage_082_name" formatted="false">慢流</string>
+  <string name="stage_082_goal" formatted="false">通过5个门</string>
+  <string name="stage_082_special" formatted="false">每个车道都有不同的物体速度；火车/时钟并不慢。比较火车到达时间而不是距离。</string>
+  <string name="stage_082_skill" formatted="false">通过所有 5 个开口。</string>
+  <string name="stage_083_name" formatted="false">再一次</string>
+  <string name="stage_083_goal" formatted="false">现场80年代</string>
+  <string name="stage_083_special" formatted="false">符号岩石向后移动，然后恰好向后落一次；保持 ID/闪避标志靠近，不要奖励两次。</string>
+  <string name="stage_083_skill" formatted="false">4 倒带后近距离躲避4 ID。</string>
+  <string name="stage_084_name" formatted="false">两次门</string>
+  <string name="stage_084_goal" formatted="false">通过4相端口</string>
+  <string name="stage_084_special" formatted="false">第一门窄，后门宽。选择早去占便宜，或者等待更安全；不要随意改变门的位置。</string>
+  <string name="stage_084_skill" formatted="false">在第一个门处通过≥3个门。</string>
+  <string name="stage_085_name" formatted="false">包裹静止不动</string>
+  <string name="stage_085_goal" formatted="false">收集4个包裹</string>
+  <string name="stage_085_special" formatted="false">Sue 停止 y=560，然后继续倒计时；请勿在到达火车线路之前接载。有6次机会。</string>
+  <string name="stage_085_skill" formatted="false">不要错过前 4 个套餐。</string>
+  <string name="stage_086_name" formatted="false">倒车信号</string>
+  <string name="stage_086_goal" formatted="false">通过反向链中的5个端口</string>
+  <string name="stage_086_special" formatted="false">在开始之前显示带有标签“reverse order”的字符串；支持重读执行顺序。</string>
+  <string name="stage_086_skill" formatted="false">不要重复。</string>
+  <string name="stage_087_name" formatted="false">我自己的影子</string>
+  <string name="stage_087_goal" formatted="false">直播85秒</string>
+  <string name="stage_087_special" formatted="false">球在指示即将射击位置前3秒记录路径；球不发生碰撞。离开原来的路径而不是跟随球。</string>
+  <string name="stage_087_skill" formatted="false">6次射击都没有击中船。</string>
+  <string name="stage_088_name" formatted="false">有限冻结</string>
+  <string name="stage_088_goal" formatted="false">关闭3个时间发射器</string>
+  <string name="stage_088_special" formatted="false">关闭脉冲仅阻止子弹，不增加目标；等待核心门。固定正确的次数并重复错误。</string>
+  <string name="stage_088_skill" formatted="false">纠正 3 个脉冲关闭 3 组。</string>
+  <string name="stage_089_name" formatted="false">现在是集合点</string>
+  <string name="stage_089_goal" formatted="false">你有3个活着的星座</string>
+  <string name="stage_089_special" formatted="false">你实时跟踪，威胁要穿越快/慢区。预测线可帮助您了解哪个物体将首先到达您。</string>
+  <string name="stage_089_skill" formatted="false">没有来自快速区的威胁到达你。</string>
+  <string name="stage_090_name" formatted="false">值班员</string>
+  <string name="stage_090_goal" formatted="false">突破5千万卢比</string>
+  <string name="stage_090_special" formatted="false">五个阶段：预测、停止、单次倒带、两个窗口、倒序。只恢复位置，不恢复失去的boss生命值。</string>
+  <string name="stage_090_skill" formatted="false">在未打开核心的情况下请勿脉冲。</string>
+  <string name="stage_091_name" formatted="false">最后三条路</string>
+  <string name="stage_091_goal" formatted="false">通过一排 6 个门</string>
+  <string name="stage_091_special" formatted="false">屏幕前，选择一条宽阔的路线，补给少/电池多/近距离躲避。通往同一目的地的每条路线都有一个援助门，可以根据需要更改。</string>
+  <string name="stage_091_skill" formatted="false">请勿使用安全门改变路线。</string>
+  <string name="stage_092_name" formatted="false">脉冲或屏蔽</string>
+  <string name="stage_092_goal" formatted="false">直播85秒</string>
+  <string name="stage_092_special" formatted="false">3个站让您按车道选择电池或防护罩，但不能同时选择两者。下面的模式有两个相应的解决方案。</string>
+  <string name="stage_092_skill" formatted="false">3 个站不要选择相同的类型。</string>
+  <string name="stage_093_name" formatted="false">把最后一个人带回来</string>
+  <string name="stage_093_goal" formatted="false">你住，省2个隔间</string>
+  <string name="stage_093_special" formatted="false">拯救之路，断了保护你的路；交货前备好电池以应对一般危险脉冲。</string>
+  <string name="stage_093_skill" formatted="false">你不会在两次豁免中失去护甲。</string>
+  <string name="stage_094_name" formatted="false">四季走廊</string>
+  <string name="stage_094_goal" formatted="false">穿过8个门</string>
+  <string name="stage_094_special" formatted="false">四个正常段→风→冰→禁止装载，每个段有2个端口。中和中间3秒，不要添加超出极限的漂移。</string>
+  <string name="stage_094_skill" formatted="false">通过了所有 8 次开放尝试。</string>
+  <string name="stage_095_name" formatted="false">反击腰带</string>
+  <string name="stage_095_goal" formatted="false">存活90秒，摧毁4个目标集群</string>
+  <string name="stage_095_special" formatted="false">踢腿往往会造成压力；集群有一个有节奏打开的护盾，脉冲必须在正确的时间保留。有 6 个目标窗口。</string>
+  <string name="stage_095_skill" formatted="false">不要破坏虚线伪框簇。</string>
+  <string name="stage_096_name" formatted="false">飞行员选择</string>
+  <string name="stage_096_goal" formatted="false">收集3把锁，通过最后一个门</string>
+  <string name="stage_096_special" formatted="false">每个锁都有一个狭窄的分支来容纳组合或一个宽的分支来加载。选择会影响下一阶段，但不会阻止获胜的可能性。</string>
+  <string name="stage_096_skill" formatted="false">请勿使用援助加油站。</string>
+  <string name="stage_097_name" formatted="false">新星线</string>
+  <string name="stage_097_goal" formatted="false">5号站的实弹</string>
+  <string name="stage_097_special" formatted="false">3车道攻击优先级根据信号变化；大浪过后有一个休息轮换仓位的机会。不要假设已经有昂贵的船只。</string>
+  <string name="stage_097_skill" formatted="false">车站剩余装甲量≥4/5。</string>
+  <string name="stage_098_name" formatted="false">学习之旅</string>
+  <string name="stage_098_goal" formatted="false">活过5段</string>
+  <string name="stage_098_special" formatted="false">示例章节 2、3、5、7、9；提前公布，每个路口都有明确的换乘规则。</string>
+  <string name="stage_098_skill" formatted="false">无重复/释放端口。</string>
+  <string name="stage_099_name" formatted="false">黎明之门</string>
+  <string name="stage_099_goal" formatted="false">通过6个端口，关闭2个核心锁</string>
+  <string name="stage_099_special" formatted="false">脉冲联锁位置门；锁定前的电池电量。如果误用，有一个安全填充环，未锁定。</string>
+  <string name="stage_099_skill" formatted="false">在 85 秒之前完成，请勿使用救援环。</string>
+  <string name="stage_100_name" formatted="false">流星心</string>
+  <string name="stage_100_goal" formatted="false">打破6核</string>
+  <string name="stage_100_special" formatted="false">三轮，每轮2个核心：石头/门；防护/防风；时间/装甲开启。中间休息 5 秒，恢复 1 点护甲/能量等级。末期最多有 2 个已知机制。</string>
+  <string name="stage_100_skill" formatted="false">Thang 尚未启动救生触发器或泄压口；无需拥有 Sentinel。</string>
+  <string name="chapter_01" formatted="false">本星：拥有这艘船</string>
+  <string name="chapter_02" formatted="false">石带：读取路线</string>
+  <string name="chapter_03" formatted="false">电磁区域：使用和保持能量</string>
+  <string name="chapter_04" formatted="false">丢失的火车：保护和优先权</string>
+  <string name="chapter_05" formatted="false">冰星云：掌握惯性</string>
+  <string name="chapter_06" formatted="false">机械废墟：机器读取与解码</string>
+  <string name="chapter_07" formatted="false">太空风暴：环境适应</string>
+  <string name="chapter_08" formatted="false">黑暗舰队：战术反应</string>
+  <string name="chapter_09" formatted="false">时空裂缝：阅读变革规则</string>
+  <string name="chapter_10" formatted="false">流星中心：合成与选择</string>
+  <string name="ship_s01_body" formatted="false">平衡，没有次要规则；每个屏幕的标准验证。权衡：没有专业化。</string>
+  <string name="ship_s02_body" formatted="false">变道快，车身小。权衡：更少的护甲。</string>
+  <string name="ship_s03_body" formatted="false">遭受许多奇怪的碰撞。权衡：大、慢、加载慢。</string>
+  <string name="ship_s04_body" formatted="false">吸收船排周围45个单位内的可选物品。权衡：无强制自吸/端口；大身体。</string>
+  <string name="ship_s05_body" formatted="false">快速被动充电。权衡：低护甲；电池通常只能充电 15 节而不是 20 节。</string>
+  <string name="ship_s06_body" formatted="false">额外屏蔽物品 2 秒。权衡：基础脉冲只有 160 半径。</string>
+  <string name="ship_s07_body" formatted="false">躲避后，环境漂移减少50%，持续1秒。权衡：4s 基本组合窗口。</string>
+  <string name="ship_s08_body" formatted="false">每25秒，如果丢失则恢复1点护甲；最多2次/级，3次/无限。权衡：护甲恢复物品不会充电。</string>
+  <string name="ship_s09_body" formatted="false">如果仍有逃生路线，则脉冲会将通常未破碎的岩石进一步推开 30 个单位。权衡：脉冲后保护仅为 0.45 秒。</string>
+  <string name="ship_s10_body" formatted="false">一次/等级可防止致命一击，剩余1点护甲，1秒内无敌。权衡：不能防止因护送/过期而造成的损失；不叠加复活。</string>
+  <string name="ship_s11_body" formatted="false">每15秒第一次拾取物品会增加8点能量。权衡：基础慢速缩短 1 秒。</string>
+  <string name="ship_s12_body" formatted="false">阶段前选择+1护甲 **或** +30脉冲半径。权衡：装甲配置：速度降低至680；脉冲配置：将NL恢复至2.6。</string>
+  <string name="campaign" formatted="false">100个阶段的旅程</string>
+  <string name="campaign_continue" formatted="false">继续你的旅程</string>
+  <string name="fleet" formatted="false">船厂</string>
+  <string name="stage" formatted="false">屏幕</string>
+  <string name="chapter" formatted="false">章</string>
+  <string name="stars" formatted="false">为什么</string>
+  <string name="stage_ready" formatted="false">准备飞行</string>
+  <string name="stage_goal" formatted="false">主要目标</string>
+  <string name="stage_special" formatted="false">特别之处</string>
+  <string name="stage_skill" formatted="false">明星技能</string>
+  <string name="stage_damage" formatted="false">为什么要保留这艘船：它失去装甲的次数并不算太多</string>
+  <string name="stage_play" formatted="false">开始舞台</string>
+  <string name="stage_map" formatted="false">地图</string>
+  <string name="stage_next" formatted="false">下一阶段</string>
+  <string name="stage_retry" formatted="false">再次尝试这个级别</string>
+  <string name="stage_victory" formatted="false">完整的行动</string>
+  <string name="stage_defeat" formatted="false">还没有越过弯道</string>
+  <string name="stage_locked" formatted="false">需要先通过关卡</string>
+  <string name="stage_complete" formatted="false">已完成</string>
+  <string name="stage_first" formatted="false">首胜奖金</string>
+  <string name="stage_star_reward" formatted="false">新星奖金</string>
+  <string name="stage_boss_reward" formatted="false">奖励大门</string>
+  <string name="stage_chapter_reward" formatted="false">奖励章节</string>
+  <string name="ship_owned" formatted="false">拥有</string>
+  <string name="ship_equipped" formatted="false">使用中</string>
+  <string name="ship_equip" formatted="false">设备</string>
+  <string name="ship_buy" formatted="false">买一艘船</string>
+  <string name="ship_speed" formatted="false">水平速度</string>
+  <string name="ship_radius" formatted="false">碰撞半径</string>
+  <string name="ship_energy" formatted="false">每秒能量再生</string>
+  <string name="ship_choose" formatted="false">选择列车</string>
+  <string name="account_upgrades" formatted="false">升级您的帐户</string>
+  <string name="practice" formatted="false">练习</string>
+  <string name="practice_note" formatted="false">不开封、不收钱什么的就练习。</string>
+  <string name="practice_active" formatted="false">实践中 — 无奖励</string>
+  <string name="route" formatted="false">路线</string>
+  <string name="route_safe" formatted="false">宽阔的道路</string>
+  <string name="route_energy" formatted="false">能量线</string>
+  <string name="route_risk" formatted="false">近距离闪避</string>
+  <string name="astra_armor" formatted="false">装甲配置</string>
+  <string name="astra_pulse" formatted="false">脉冲配置</string>
+  <string name="goal_gate" formatted="false">门</string>
+  <string name="cargo" formatted="false">起诉任务</string>
+  <string name="nodes" formatted="false">激活按钮</string>
+  <string name="cores" formatted="false">老大核心</string>
+  <string name="ally" formatted="false">盟友</string>
+  <string name="station" formatted="false">防御站</string>
+  <string name="time_left" formatted="false">左</string>
+  <string name="boss_open" formatted="false">核心打开 — 脉冲范围内</string>
+  <string name="boss_closed" formatted="false">等待开放核心</string>
+  <string name="memory" formatted="false">端口字符串</string>
+  <string name="memory_hint" formatted="false">重复字符串</string>
+  <string name="defeat_armor" formatted="false">脱甲</string>
+  <string name="defeat_ally" formatted="false">盟友被摧毁</string>
+  <string name="defeat_station" formatted="false">车站被毁</string>
+  <string name="defeat_timeout" formatted="false">目标截止日期已过</string>
+  <string name="sensitivity" formatted="false">拉动灵敏度</string>
+  <string name="campaign_finished" formatted="false">已完成 100 个关卡！</string>
+  <string name="ship_stats" formatted="false">船舶参数</string>
+  <string name="reward_base" formatted="false">生存前</string>
+  <string name="reward_total" formatted="false">收到的总学分</string>
+  <string name="save_before_next" formatted="false">在继续之前保存结果。</string>
+  <string name="star_damage_info" formatted="false">为什么舰艇维护只统计失去装甲的次数；修复并不能消除失去的时间。</string>
+  <string name="practice_hint" formatted="false">拉动拾取物品，穿过正确的门，并在核心打开时使用脉冲。</string>
 </resources>

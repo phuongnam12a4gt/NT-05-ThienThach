@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">생존 초당 10점, 아이템당 25점. 최종 점수 20점마다 강화용 크레딧 1 획득. 비행 포기 시 보상이 없습니다.</string>
   <string name="help_accessibility" formatted="false">실시간 관찰과 드래그 조작이 필요합니다.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">버전 1.3 / 20개 언어</string>
+  <string name="update_badge" formatted="false">2.0 / 100단계의 여정</string>
   <string name="new_tagline" formatted="false">운석을 아슬아슬하게 피해 콤보를 쌓고 펄스로 탈출하세요. 최고 기록에 도전하세요.</string>
   <string name="pulse_ready" formatted="false">펄스</string>
   <string name="pulse_charging">에너지 %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">증폭기</string>
   <string name="daredevil_name" formatted="false">모험가</string>
   <string name="focus_name" formatted="false">집중</string>
+  <string name="stage_001_name" formatted="false">이륙해</string>
+  <string name="stage_001_goal" formatted="false">라이브 30초</string>
+  <string name="stage_001_special" formatted="false">0~10초 작은 암석만 직선으로 떨어집니다. 10~20초 중간 간격; 20~30초 동안 슬롯을 양쪽으로 변경합니다. 행동으로 당기는 방법에 대한 지침.</string>
+  <string name="stage_001_skill" formatted="false">3가지 안전 지침을 모두 따르세요.</string>
+  <string name="stage_002_name" formatted="false">세 가지 방법으로 돌아가서</string>
+  <string name="stage_002_goal" formatted="false">3개 게이트를 통해</string>
+  <string name="stage_002_special" formatted="false">게이트는 8초마다 왼쪽-중앙-오른쪽으로 열립니다. 게이트는 4초 후에 반복을 놓칩니다. 초점은 우박을 늘리는 것이 아니라 위치를 찾는 데 있습니다.</string>
+  <string name="stage_002_skill" formatted="false">문 열림도 놓치지 마세요.</string>
+  <string name="stage_003_name" formatted="false">첫 재보급</string>
+  <string name="stage_003_goal" formatted="false">패키지 2개 수집</string>
+  <string name="stage_003_special" formatted="false">2개의 교대 경로로 4개의 패키지; 바위는 가이드 창의 픽업 라인을 차지하지 않습니다.</string>
+  <string name="stage_003_skill" formatted="false">최대방어구까지 완성했습니다.</string>
+  <string name="stage_004_name" formatted="false">좌우리듬</string>
+  <string name="stage_004_goal" formatted="false">실시간 35초</string>
+  <string name="stage_004_special" formatted="false">돌줄에는 홈이 있어 리듬에 따라 왼쪽/오른쪽으로 바뀌며, 돌아설 수 있는 공간은 있지만, 중간에 서는 것이 항상 안전한 것은 아닙니다.</string>
+  <string name="stage_004_skill" formatted="false">슬롯 중앙 4개를 통해 정확한 리듬을 표시해 보세요.</string>
+  <string name="stage_005_name" formatted="false">펄스가 길을 열어준다</string>
+  <string name="stage_005_goal" formatted="false">지뢰 클러스터 2개 끄기</string>
+  <string name="stage_005_special" formatted="false">클러스터 다운 y=560, 각 클러스터 앞에 작업 핀을 할당합니다. 메시지가 나타나면 일찍 클릭하고 안전하게 반복하세요.</string>
+  <string name="stage_005_skill" formatted="false">각 클러스터는 한 번의 펄스로 완전히 꺼집니다.</string>
+  <string name="stage_006_name" formatted="false">한쪽 날개 거리</string>
+  <string name="stage_006_goal" formatted="false">유효한 회피 2회</string>
+  <string name="stage_006_special" formatted="false">연습 영역을 보여주는 두 개의 작은 바위 루트 샘플, 최소 8개의 기회. 충돌은 대상에 추가되지 않습니다.</string>
+  <string name="stage_006_skill" formatted="false">2를 연결하고 5초 동안 근접 회피하고 콤보 2를 달성하세요.</string>
+  <string name="stage_007_name" formatted="false">에너지갑옷</string>
+  <string name="stage_007_goal" formatted="false">라이브 40대</string>
+  <string name="stage_007_special" formatted="false">두 개의 좁은 섹션으로 구성된 전면 쉴드; 여전히 바깥쪽 라인이 넓어서 공격을 받을 필요가 없습니다.</string>
+  <string name="stage_007_skill" formatted="false">실드는 한번 막아도 방어력은 잃지 않습니다.</string>
+  <string name="stage_008_name" formatted="false">1초 느리게</string>
+  <string name="stage_008_goal" formatted="false">4개 게이트를 통해</string>
+  <string name="stage_008_special" formatted="false">느린 이식 게이트; 항목이 목표 시계를 늦추지 않음을 보여줍니다. 속도를 늦추기 위해 선택하지 않아도 되는 경로가 있습니다.</string>
+  <string name="stage_008_skill" formatted="false">ID가 다른 느린 아이템 2개를 선택하세요.</string>
+  <string name="stage_009_name" formatted="false">파일럿 테스트</string>
+  <string name="stage_009_goal" formatted="false">2베일을 모아서 3개의 게이트를 통과하세요</string>
+  <string name="stage_009_special" formatted="false">3단계: 수집, 차선 변경, 최종 경로 열기를 위한 펄스 유지. 두 가지 목표를 동시에 인식하십시오.</string>
+  <string name="stage_009_skill" formatted="false">마지막 관문 근처에서 최소 3번은 피하세요.</string>
+  <string name="stage_010_name" formatted="false">부두지기</string>
+  <string name="stage_010_goal" formatted="false">코어 2개 파괴</string>
+  <string name="stage_010_special" formatted="false">1단계 중앙에 두 개의 열이 남습니다. 슬롯 2개를 옆으로 섞은 후 코어를 내립니다. 각 코어마다 별도의 핀/창이 있습니다.</string>
+  <string name="stage_010_skill" formatted="false">페이즈 시작 시 각 코어를 파괴하세요.</string>
+  <string name="stage_011_name" formatted="false">피시본</string>
+  <string name="stage_011_goal" formatted="false">라이브 40대</string>
+  <string name="stage_011_special" formatted="false">두 개의 대각선 가지가 헤링본 슬릿을 만듭니다. 회전을 나타내는 직선으로 각 쌍 후에 방향을 변경합니다.</string>
+  <string name="stage_011_skill" formatted="false">표시된 중앙 슬롯 5개를 통과합니다.</string>
+  <string name="stage_012_name" formatted="false">공중계단</string>
+  <string name="stage_012_goal" formatted="false">4개 게이트를 통해</string>
+  <string name="stage_012_special" formatted="false">왼쪽 → 약간 왼쪽 → 약간 오른쪽 → 오른쪽; 작은 번역을 지속적으로 가르치고 있습니다. 현재 포트 루프백이 누락되었습니다.</string>
+  <string name="stage_012_skill" formatted="false">펄스를 사용하지 마십시오.</string>
+  <string name="stage_013_name" formatted="false">가위</string>
+  <string name="stage_013_goal" formatted="false">라이브 45초</string>
+  <string name="stage_013_special" formatted="false">두 대각선이 교차하지만 동시에 기차 선로에 도달하지 않습니다. 줄 번호 매기기 경고가 먼저 나타납니다.</string>
+  <string name="stage_013_skill" formatted="false">최소 2줄에서 4번 회피하세요.</string>
+  <string name="stage_014_name" formatted="false">골목이 방향을 바꾼다</string>
+  <string name="stage_014_goal" formatted="false">5개 게이트 통과</string>
+  <string name="stage_014_special" formatted="false">복도는 화살표로 방향을 바꾼다. 배의 추진력을 유지하십시오. Gate 3에는 회전하는 법을 배우기 위한 휴식 시간이 있습니다.</string>
+  <string name="stage_014_skill" formatted="false">개회 시도에서 5개를 모두 통과했습니다.</string>
+  <string name="stage_015_name" formatted="false">트윈스톤</string>
+  <string name="stage_015_goal" formatted="false">라이브 45초</string>
+  <string name="stage_015_special" formatted="false">각 쌍은 느린 킥과 빠른 킥으로 첫 번째 킥 이후 잘못된 간격을 피합니다.</string>
+  <string name="stage_015_skill" formatted="false">각 유형의 속도를 두 번 이상 피하세요.</string>
+  <string name="stage_016_name" formatted="false">초승달</string>
+  <string name="stage_016_goal" formatted="false">지도 조각 3개 수집</string>
+  <string name="stage_016_special" formatted="false">곡선 호를 그리며 걷어차세요. 아이템이 안전한 오목 영역에 있다가 반대쪽 호로 바뀌면 6번의 기회가 있습니다.</string>
+  <string name="stage_016_skill" formatted="false">처음 3번의 기회 안에 조각 3개를 모아보세요.</string>
+  <string name="stage_017_name" formatted="false">더블리듬</string>
+  <string name="stage_017_goal" formatted="false">라이브 50대</string>
+  <string name="stage_017_special" formatted="false">두 개의 빠른 행과 긴 휴식; 스테이지 마지막에는 배 안으로 갑작스런 암석이 들어오는 것을 방지하기 위해 3열을 바꿔주세요.</string>
+  <string name="stage_017_skill" formatted="false">한 번의 펄스로 최소 4개의 돌을 파괴할 수 있습니다.</string>
+  <string name="stage_018_name" formatted="false">위성궤도</string>
+  <string name="stage_018_goal" formatted="false">4개 게이트 통과</string>
+  <string name="stage_018_special" formatted="false">작은 바위가 큰 블록을 중심으로 회전합니다. 궤도 슬롯은 선박 열의 픽업 위치를 예측합니다.</string>
+  <string name="stage_018_skill" formatted="false">중앙블록을 파괴하지 마세요.</string>
+  <string name="stage_019_name" formatted="false">야망의 교차점</string>
+  <string name="stage_019_goal" formatted="false">55초 라이브하고 2개 코스 수집</string>
+  <string name="stage_019_special" formatted="false">넓은 길에는 물건이 적고, 좁은 길에는 자물쇠가 있다. 자물쇠가 4개 있어서 매번 위험한 길을 택할 필요가 없습니다.</string>
+  <string name="stage_019_skill" formatted="false">55초 전에 4개 코스를 모두 수집하세요.</string>
+  <string name="stage_020_name" formatted="false">벨트 크러셔</string>
+  <string name="stage_020_goal" formatted="false">코어 3개 파괴</string>
+  <string name="stage_020_special" formatted="false">두 개의 날개를 눌러 수평 슬롯을 만듭니다. 한쪽 날개를 누르면 코어가 드러나지 않습니다. 마지막 단계에서는 알람과 함께 검색이 반전됩니다.</string>
+  <string name="stage_020_skill" formatted="false">배는 날개 지뢰에 맞지 않았습니다.</string>
+  <string name="stage_021_name" formatted="false">폭풍 속의 배터리</string>
+  <string name="stage_021_goal" formatted="false">미션핀 3개 수집</string>
+  <string name="stage_021_special" formatted="false">기둥 뒤에는 슬롯이 있는 5개의 배터리가 있습니다. 연속적으로 펄스를 보내는 대신 올바른 위치를 선택해야 합니다.</string>
+  <string name="stage_021_skill" formatted="false">에너지가 30 이하로 떨어지지 않습니다.</string>
+  <string name="stage_022_name" formatted="false">로딩 영역 없음</string>
+  <string name="stage_022_goal" formatted="false">4개 게이트를 통해</string>
+  <string name="stage_022_special" formatted="false">줄무늬 부분이 응답하지 않고 밝은 부분이 정상적으로 재충전됩니다. 포트를 교대로 사용하면 로드 상태를 유지하거나 조기에 전환할 수 있습니다.</string>
+  <string name="stage_022_skill" formatted="false">NL ≥70으로 마지막 관문을 통과하세요.</string>
+  <string name="stage_023_name" formatted="false">퓨즈</string>
+  <string name="stage_023_goal" formatted="false">전원 버튼 3개를 꺼주세요</string>
+  <string name="stage_023_special" formatted="false">펄스 반경 내에서만 버튼이 꺼집니다. 3개의 의무 배터리가 있습니다. 아직 꺼지지 않은 버튼은 바이패스 기능과 다음 턴 기능을 갖고 있습니다.</string>
+  <string name="stage_023_skill" formatted="false">안전링이 열리면 3개를 모두 꺼주세요.</string>
+  <string name="stage_024_name" formatted="false">목걸이</string>
+  <string name="stage_024_goal" formatted="false">5개 게이트를 순서대로 통과</string>
+  <string name="stage_024_special" formatted="false">포트에는 숫자/기호가 있습니다. 현재 포트만 진행 상황을 수신합니다. 미래의 문을 통과해도 생명이 줄어들지 않고, 개수가 늘어나지도 않습니다.</string>
+  <string name="stage_024_skill" formatted="false">잘못된 순서로 게이트를 통과하지 마세요.</string>
+  <string name="stage_025_name" formatted="false">돌진할 것인지 회피할 것인지 선택하세요</string>
+  <string name="stage_025_goal" formatted="false">라이브 55초</string>
+  <string name="stage_025_special" formatted="false">10초마다 핀이 다음 슬롯의 반대쪽 가장자리에 놓입니다. 배터리를 다시 순환하거나 제거할 시간이 충분한지 자체 평가합니다. 배터리 제거 경로는 항상 존재합니다.</string>
+  <string name="stage_025_skill" formatted="false">배터리 3개를 모아서 다음 슬롯으로 이동하세요.</string>
+  <string name="stage_026_name" formatted="false">공진 커패시터</string>
+  <string name="stage_026_goal" formatted="false">NL ≥80인 국 2개 활성화</string>
+  <string name="stage_026_special" formatted="false">80NL 배수역 지역을 통과합니다. 각 역 앞에는 100개의 리필 라인이 있습니다. 펄스는 스테이션 터치 작동을 대체하지 않습니다.</string>
+  <string name="stage_026_skill" formatted="false">NL ≥95를 입력하면 두 스테이션 모두 수신합니다.</string>
+  <string name="stage_027_name" formatted="false">이온비</string>
+  <string name="stage_027_goal" formatted="false">실시간 55초</string>
+  <string name="stage_027_special" formatted="false">이온구름은 한 레인에서 치유되지만, 경고 이후에는 바위가 거기까지 도달하게 됩니다. 배터리가 3개 이상 있으면 일반적으로 보조 목표가 실행 가능합니다.</string>
+  <string name="stage_027_skill" formatted="false">유효한 펄스 3개를 전송합니다.</string>
+  <string name="stage_028_name" formatted="false">도체 전구</string>
+  <string name="stage_028_goal" formatted="false">단서 4개 수집</string>
+  <string name="stage_028_special" formatted="false">미션 맵은 픽업 지점을 예측하는 선과 함께 주기적으로 극좌/우로 이동합니다. 7번의 기회가 있습니다.</string>
+  <string name="stage_028_skill" formatted="false">처음 4번의 기회에 조각 4개를 수집하세요.</string>
+  <string name="stage_029_name" formatted="false">길 끝에서 예약</string>
+  <string name="stage_029_goal" formatted="false">3개 포트를 통해 마지막 포트에 ≥70 입금</string>
+  <string name="stage_029_special" formatted="false">처음 두 포트는 무료입니다. 엔드 게이트 비용은 처음부터 나타납니다. 누락된 경우 배터리 보상은 8초마다 반복되며 대기 라인이 있습니다.</string>
+  <string name="stage_029_skill" formatted="false">배터리 보상을 사용하지 마세요.</string>
+  <string name="stage_030_name" formatted="false">전기 폭풍 코어</string>
+  <string name="stage_030_goal" formatted="false">코어 3개 파괴</string>
+  <string name="stage_030_special" formatted="false">세 개의 밝은 기둥이 번갈아 가며 나타납니다. 올바른 극성에 서서 갑옷을 연 다음 보스/펄스 배터리를 사용하세요. 마지막 단계에는 재사용 대기시간이 없지만 여전히 미션 핀을 사용할 수 있습니다.</string>
+  <string name="stage_030_skill" formatted="false">첫 번째 시도에서 폴 3개를 모두 올바르게 열었습니다.</string>
+  <string name="stage_031_name" formatted="false">동반자</string>
+  <string name="stage_031_goal" formatted="false">방어구 3개를 보유한 아군은 50초 동안 생존합니다.</string>
+  <string name="stage_031_special" formatted="false">먼저 비행하고 2초 동안 차선 변경 신호를 보냅니다. 플레이어는 펄스로 위협적인 바위를 깨뜨립니다. 처음 10초 동안 저압을 학습합니다.</string>
+  <string name="stage_031_skill" formatted="false">아군은 방어력을 잃지 않습니다.</string>
+  <string name="stage_032_name" formatted="false">두 번의 구조여행</string>
+  <string name="stage_032_goal" formatted="false">구명정 2개를 픽업하세요</string>
+  <string name="stage_032_special" formatted="false">올바른 픽업 영역을 1초 동안 유지하세요. 구획에는 반복 없이 빠른 낙하 및 접촉이 많이 있습니다.</string>
+  <string name="stage_032_skill" formatted="false">40초 전에 완료됩니다.</string>
+  <string name="stage_033_name" formatted="false">위험에 직면하다</string>
+  <string name="stage_033_goal" formatted="false">스테이션 4 방어구는 55초 동안 지속됩니다.</string>
+  <string name="stage_033_special" formatted="false">바위가 라인을 뚫고 떨어져 스테이션의 장갑이 손상되었습니다. 큰 돌은 역에 우선권을 주고, 작은 돌은 기차 노선에 우선권을 줍니다. 예방해야 할 위험을 식별합니다.</string>
+  <string name="stage_033_skill" formatted="false">큰 바위는 통과할 수 없습니다.</string>
+  <string name="stage_034_name" formatted="false">깨지기 쉬운 물건</string>
+  <string name="stage_034_goal" formatted="false">2장갑 화물선 55대</string>
+  <string name="stage_034_special" formatted="false">화물열차는 차선을 거의 변경하지 않습니다. 두 차례에 걸쳐 들어오는 드론에는 예정된 시간에 맞춰 펄스 배터리가 공급됩니다.</string>
+  <string name="stage_034_skill" formatted="false">3펄스 이하로 사용하세요.</string>
+  <string name="stage_035_name" formatted="false">안내</string>
+  <string name="stage_035_goal" formatted="false">4개의 문으로 안내합니다.</string>
+  <string name="stage_035_special" formatted="false">1.2초 늦게 플레이어의 라인을 따라갑니다. 곧 바뀌어야 합니다. 점선은 지연을 나타내며 두 ​​번째 컨트롤 핑거가 필요하지 않습니다.</string>
+  <string name="stage_035_skill" formatted="false">각 게이트를 통과하면 슬롯 편심률이 20단위 이하입니다.</string>
+  <string name="stage_036_name" formatted="false">구제원을 반으로 나누어</string>
+  <string name="stage_036_goal" formatted="false">방송국이 살아서 패키지 3개를 배달해줌</string>
+  <string name="stage_036_special" formatted="false">녹색 꾸러미는 역으로 돌아오고, 노란색 꾸러미는 옵션머니를 줍니다. 모든 주요 사실을 확보하십시오. 이익이 있는 밸런스 스테이션 구조.</string>
+  <string name="stage_036_skill" formatted="false">스테이션의 방어구가 3/4 이상 남아 있습니다.</string>
+  <string name="stage_037_name" formatted="false">호송대가 팔로우했습니다.</string>
+  <string name="stage_037_goal" formatted="false">두 배 모두 살아있습니다</string>
+  <string name="stage_037_special" formatted="false">이전/다음 친구는 같은 경로에 있었지만 시차가 있었습니다. 위협에는 식별 경고와 두 개의 별도 갑옷 막대가 있습니다.</string>
+  <string name="stage_037_skill" formatted="false">방어구는 1개 이상 잃지 않습니다.</string>
+  <string name="stage_038_name" formatted="false">비 속의 구조</string>
+  <string name="stage_038_goal" formatted="false">라이브 65초, 3개의 구획 저장</string>
+  <string name="stage_038_special" formatted="false">비가 내린 후 휴식 시간에 수용실, 5명의 구조 인원이 번호가 매겨져 있습니다. 픽업하려면 휴식 리듬을 사용해야 합니다.</string>
+  <string name="stage_038_skill" formatted="false">경고 표시가 있는 것으로 위장한 지뢰를 줍지 마세요.</string>
+  <string name="stage_039_name" formatted="false">의도적인 미끼</string>
+  <string name="stage_039_goal" formatted="false">당신의 수명은 65초입니다</string>
+  <string name="stage_039_special" formatted="false">드론은 경고를 받으면 플레이어의 이전 차선을 잠그고 돌진합니다. 위협을 멀리하고 적시에 이동하십시오.</string>
+  <string name="stage_039_skill" formatted="false">당신 없이 드론 4개를 차선으로 유도하세요.</string>
+  <string name="stage_040_name" formatted="false">우주강도</string>
+  <string name="stage_040_goal" formatted="false">코어 3개 깨뜨려도 화물선은 살아있다</string>
+  <string name="stage_040_special" formatted="false">보스는 플레이어/함선을 번갈아 대상으로 삼으며, 각 시리즈에는 대상 기호가 있습니다. 화물선 타겟을 막아 코어를 열어보세요.</string>
+  <string name="stage_040_skill" formatted="false">화물선의 장갑이 ≥2/3 남았습니다.</string>
+  <string name="stage_041_name" formatted="false">얇은얼음</string>
+  <string name="stage_041_goal" formatted="false">라이브 55초</string>
+  <string name="stage_041_special" formatted="false">15~25대와 35~45대만이 방향을 바꿀 때 미끄러짐이 발생합니다. 차선 변경 전 녹색 제동 구역.</string>
+  <string name="stage_041_skill" formatted="false">테이프의 양쪽 가장자리를 만지지 마십시오.</string>
+  <string name="stage_042_name" formatted="false">대문앞 브레이크</string>
+  <string name="stage_042_goal" formatted="false">4개 게이트를 통해</string>
+  <string name="stage_042_special" formatted="false">게이트 통과 시 수평 속도는 120unit/s 이하이어야 합니다. 브레이크를 조정하는 속도계가 있습니다. 포트 리피터가 누락되었습니다.</string>
+  <string name="stage_042_skill" formatted="false">개회 시도에서 4개를 모두 통과했습니다.</string>
+  <string name="stage_043_name" formatted="false">얼음이 깨졌다</string>
+  <string name="stage_043_goal" formatted="false">라이브 60년대</string>
+  <string name="stage_043_special" formatted="false">크랙선 이후 얼음이 두 조각으로 갈라졌습니다. 파열되기 전에 맥동할 수 있습니다. 조각은 한 세대만 낳습니다.</string>
+  <string name="stage_043_skill" formatted="false">얼음덩어리 3개를 부수고 쪼개세요.</string>
+  <string name="stage_044_name" formatted="false">따뜻한 물</string>
+  <string name="stage_044_goal" formatted="false">열핵 3개 수집</string>
+  <string name="stage_044_special" formatted="false">코어는 두 컨베이어 벨트 사이의 미끄럼 방지 부분에 있습니다. 추진력을 얻은 다음 브레이크를 밟으면 일정에 따라 6개의 코어가 있습니다.</string>
+  <string name="stage_044_skill" formatted="false">처음 3번의 기회에서 3억 달러를 모으세요.</string>
+  <string name="stage_045_name" formatted="false">진자가 차가워요</string>
+  <string name="stage_045_goal" formatted="false">5개 게이트 통과</string>
+  <string name="stage_045_special" formatted="false">위상 스윙 게이트, 픽업 지점 표시기; 현재 지점을 쫓는 대신 미래 위치를 예측합니다.</string>
+  <string name="stage_045_skill" formatted="false">펄스를 사용하지 마십시오.</string>
+  <string name="stage_046_name" formatted="false">돔 아래로 슬라이드</string>
+  <string name="stage_046_goal" formatted="false">라이브 65초</string>
+  <string name="stage_046_special" formatted="false">느린 돌 아치는 짧은 경로와 외부 링을 가지고 있습니다. 너무 많이 미끄러지면 짧은 도로의 가장자리에 부딪히기 쉽습니다. 아직 우회할 시간은 충분해요.</string>
+  <string name="stage_046_skill" formatted="false">3개의 짧은 줄이 표시됩니다.</string>
+  <string name="stage_047_name" formatted="false">컨베이어 벨트의 배터리</string>
+  <string name="stage_047_goal" formatted="false">2개 역을 타고 마지막 게이트를 통과하세요</string>
+  <string name="stage_047_special" formatted="false">열차가 아닌 컨베이어 벨트가 배터리를 밀어냅니다. 승차지점과 정차경로를 예측하여 관찰/통제를 분리합니다.</string>
+  <string name="stage_047_skill" formatted="false">50초 안에 2개 스테이션을 충전하세요.</string>
+  <string name="stage_048_name" formatted="false">안개 메아리</string>
+  <string name="stage_048_goal" formatted="false">라이브 70년대</string>
+  <string name="stage_048_special" formatted="false">슬롯 체인을 예시합니다. 안개는 배경/장식만 덮고 히트박스/경고 표시줄은 덮지 않습니다. 반복되는 기호로.</string>
+  <string name="stage_048_skill" formatted="false">반복없이 6칸을 통과하세요.</string>
+  <string name="stage_049_name" formatted="false">균열이 퍼졌다</string>
+  <string name="stage_049_goal" formatted="false">6개 게이트 통과</string>
+  <string name="stage_049_special" formatted="false">각 게이트를 통과하면 2초 후에 기존 차선이 닫힙니다. 영역이 곧 닫히고 다음 영역이 표시되어 전환되어야 합니다.</string>
+  <string name="stage_049_skill" formatted="false">폐쇄 신호 후 2초 이내에 기존 차선으로 복귀하지 마세요.</string>
+  <string name="stage_050_name" formatted="false">백룡</string>
+  <string name="stage_050_goal" formatted="false">4코어 파괴</string>
+  <string name="stage_050_special" formatted="false">처음 두 단계는 유빙이고, 마지막 두 단계는 조각난 얼음 호입니다. 코어는 모든 선박이 접근할 수 있도록 미끄럼 방지 구역에 열려 있습니다.</string>
+  <string name="stage_050_skill" formatted="false">2차 얼음조각이 맞지 않았습니다.</string>
+  <string name="stage_051_name" formatted="false">복도 스위치</string>
+  <string name="stage_051_goal" formatted="false">스위치 3개를 켜고 게이트를 통과하세요</string>
+  <string name="stage_051_special" formatted="false">열차열의 스위치를 통해 올바른 뒷문을 엽니다. 놓치면 반복할 수 있지만 즉시 잃지는 않습니다.</string>
+  <string name="stage_051_skill" formatted="false">첫 만남 3개를 모두 켜세요.</string>
+  <string name="stage_052_name" formatted="false">3개의 이미지 코드</string>
+  <string name="stage_052_goal" formatted="false">3개의 기호로 구성된 문자열을 입력하세요.</string>
+  <string name="stage_052_special" formatted="false">삼각형-원-사각형을 4초 동안 표시한 후 올바른 포트를 선택하세요. False를 사용하면 현재 항목을 검토하고 반복할 수 있습니다. 색상에만 의존하지 마십시오.</string>
+  <string name="stage_052_skill" formatted="false">틀리거나 반복해서 입력하지 마세요.</string>
+  <string name="stage_053_name" formatted="false">드론 순찰</string>
+  <string name="stage_053_goal" formatted="false">라이브 65초</string>
+  <string name="stage_053_special" formatted="false">수평 드론에는 고정된 경로가 있으며 조명이 켜져 있을 때만 촬영합니다. 줄기 방향을 읽고 슬롯을 추측하세요.</string>
+  <string name="stage_053_skill" formatted="false">펄스로 드론 4개를 파괴하세요.</string>
+  <string name="stage_054_name" formatted="false">미러의 위상이 맞지 않습니다.</string>
+  <string name="stage_054_goal" formatted="false">5개의 실제 게이트를 통해</string>
+  <string name="stage_054_special" formatted="false">그림자는 파선을 반영하고, 실제 대문은 단단한 프레임 + 경보음입니다. 그림자 움직임이 줄어들었지만 기호 구별은 유지되었습니다.</string>
+  <string name="stage_054_skill" formatted="false">가짜 포트 부분을 만지지 마세요.</string>
+  <string name="stage_055_name" formatted="false">리듬버튼</string>
+  <string name="stage_055_goal" formatted="false">송신기 3개 끄기</string>
+  <string name="stage_055_special" formatted="false">송신기가 열려 6초 동안 펄스를 수신한 다음 갑옷을 덮습니다. 듀티 핀 레벨 이전에 미스가 다음 사이클에 시도됩니다.</string>
+  <string name="stage_055_skill" formatted="false">창이 3초 이상 남으면 3개를 모두 끄세요.</string>
+  <string name="stage_056_name" formatted="false">분류컨베이어</string>
+  <string name="stage_056_goal" formatted="false">삼각형 구성요소 4개 수집</string>
+  <string name="stage_056_special" formatted="false">세 가지 유형이 혼합되어 있습니다: 개별 대상, 일반 항목, 경고 지뢰. 모든 것을 퍼내는 대신 분류해야합니다.</string>
+  <string name="stage_056_skill" formatted="false">잘못된 유형의 부품을 집어 올리지 마십시오.</string>
+  <string name="stage_057_name" formatted="false">잠긴 단축키</string>
+  <string name="stage_057_goal" formatted="false">4개의 문을 지나 마지막 문을 열어주세요</string>
+  <string name="stage_057_special" formatted="false">장거리 무료; 지름길 비용은 40 NL이지만 시간이 절약됩니다. 마지막 포트에는 60이 필요하며 하드 잠금을 방지하기 위한 보상 핀이 있습니다.</string>
+  <string name="stage_057_skill" formatted="false">55초 전에 완료됩니다.</string>
+  <string name="stage_058_name" formatted="false">4개의 기어</string>
+  <string name="stage_058_goal" formatted="false">라이브 75초</string>
+  <string name="stage_058_special" formatted="false">드론은 편향 주기에서 기둥, 호, 대각선 및 드리프트를 따라갑니다. 다음 모델은 4개를 동시에 던지지 마세요.</string>
+  <string name="stage_058_skill" formatted="false">1사이클 후 4개의 샘플이 펄스되지 않습니다.</string>
+  <string name="stage_059_name" formatted="false">유물 시작</string>
+  <string name="stage_059_goal" formatted="false">코어 3개 수집, 스테이션 1개 활성화</string>
+  <string name="stage_059_special" formatted="false">부품을 모아 역 차선으로 돌아가서 문을 열어주세요. 스테이션은 코어가 충분할 때만 수신합니다. 배터리를 기다리는 우회가 있습니다.</string>
+  <string name="stage_059_skill" formatted="false">1펄스만 사용합니다.</string>
+  <string name="stage_060_name" formatted="false">건축가</string>
+  <string name="stage_060_goal" formatted="false">4코어 파괴</string>
+  <string name="stage_060_special" formatted="false">1코어 개방형 기호 경로를 올바르게 해결합니다. 마지막 단계에서는 순서가 바뀌지만 실행하기 전에 새 샘플을 표시합니다.</string>
+  <string name="stage_060_skill" formatted="false">잘못된 위상 기호를 선택하지 마십시오.</string>
+  <string name="stage_061_name" formatted="false">수평풍</string>
+  <string name="stage_061_goal" formatted="false">라이브 65초</string>
+  <string name="stage_061_special" formatted="false">화살을 따라 두 번 추력을 가하면 표류 속도가 가장 느린 선박의 보상 능력보다 낮습니다.</string>
+  <string name="stage_061_skill" formatted="false">바람의 가장자리를 만지지 마십시오.</string>
+  <string name="stage_062_name" formatted="false">폭풍의 눈</string>
+  <string name="stage_062_goal" formatted="false">폭풍우 중심지 5개 지역 통과</string>
+  <string name="stage_062_special" formatted="false">중립지대는 중앙으로 밀리지 않고 3차로를 통과한다. 열차열의 중앙을 통과할 때만 계산됩니다.</string>
+  <string name="stage_062_skill" formatted="false">총 5번의 첫 등장을 통해.</string>
+  <string name="stage_063_name" formatted="false">삼중비</string>
+  <string name="stage_063_goal" formatted="false">라이브 70년대</string>
+  <string name="stage_063_special" formatted="false">큰 바위는 느리고 작은 바위는 빠르며 광산은 다양한 높이로 표류합니다. 단순한 거리 대신 훈련 순서를 읽어보세요.</string>
+  <string name="stage_063_skill" formatted="false">3층 전체의 물체를 파괴하는 펄스.</string>
+  <string name="stage_064_name" formatted="false">배터리가 고장났어요</string>
+  <string name="stage_064_goal" formatted="false">미션 배터리 4개 수집</string>
+  <string name="stage_064_special" formatted="false">바람은 다른 요인으로 배와 배터리를 밀어냅니다. 픽업 포인트 라인이 있으므로 갑자기 배터리를 가속하지 마십시오. 총 7개의 기회.</string>
+  <string name="stage_064_skill" formatted="false">처음 4번의 기회에 핀 4개를 모아보세요.</string>
+  <string name="stage_065_name" formatted="false">플래시 경고</string>
+  <string name="stage_065_goal" formatted="false">6개 게이트 통과</string>
+  <string name="stage_065_special" formatted="false">배경 플래시는 시퀀스를 나타내며 모션이 감소하면 정적 기호로 대체됩니다. 위험은 대기 기간 후에만 나타납니다.</string>
+  <string name="stage_065_skill" formatted="false">문자열을 반복하지 마세요.</string>
+  <string name="stage_066_name" formatted="false">압력 복도</string>
+  <string name="stage_066_goal" formatted="false">라이브 75초</string>
+  <string name="stage_066_special" formatted="false">압력 영역을 중앙으로 가져온 다음 가장자리를 엽니다. 닫기 전에 중간을 떠나야 하며 2초 경고를 제공합니다.</string>
+  <string name="stage_066_skill" formatted="false">6 dodge close, 충동을 사용하지 마세요.</string>
+  <string name="stage_067_name" formatted="false">바람을 바꿔 배를 구하라</string>
+  <string name="stage_067_goal" formatted="false">무장한 친구 3명이 75초 동안 라이브</string>
+  <string name="stage_067_special" formatted="false">바람은 당신에게 영향을 미치지 않습니다. 당신의 차선으로 밀려드는 바위를 예상하고 펄스로 먼저 파괴하세요.</string>
+  <string name="stage_067_skill" formatted="false">돌이 옆으로 떠도 방어력이 떨어지지 않습니다.</string>
+  <string name="stage_068_name" formatted="false">정전기폭풍</string>
+  <string name="stage_068_goal" formatted="false">80년대 생활</string>
+  <string name="stage_068_special" formatted="false">8초 일반 복구 / 4초 잠금 복구, 여전히 배터리를 수신 중입니다. HUD에는 잠겨 있음이 명확하게 표시되어 있습니다. 옵션 배터리를 사용하면 스타에게 충분한 기회를 제공합니다.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​펄스, 각 펄스는 ≥1 위협을 파괴합니다.</string>
+  <string name="stage_069_name" formatted="false">새벽이 오기 전 여섯 박자</string>
+  <string name="stage_069_goal" formatted="false">6개의 포트를 통해 2개의 신호를 수신합니다.</string>
+  <string name="stage_069_special" formatted="false">슬롯 샘플을 먼저 보고하세요. 정지 신호는 2와 5를 박자. 게이트를 쫓는 것뿐만 아니라 수신을 위해 휴식을 취하는 것을 잊지 마십시오.</string>
+  <string name="stage_069_skill" formatted="false">처음으로 두 개의 신호를 받았습니다.</string>
+  <string name="stage_070_name" formatted="false">폭풍의 신</string>
+  <string name="stage_070_goal" formatted="false">코어 4개 깨기</string>
+  <string name="stage_070_special" formatted="false">좌풍, 우풍, 폭풍 중심, 4단계에 걸쳐 쏟아지는 비. 코어가 열리면 도달할 수 있는 바람의 양이 25%로 줄어듭니다.</string>
+  <string name="stage_070_skill" formatted="false">바람에 가장자리로 밀려나지 않음.</string>
+  <string name="stage_071_name" formatted="false">V자형 편대</string>
+  <string name="stage_071_goal" formatted="false">라이브 70년대</string>
+  <string name="stage_071_special" formatted="false">V자 중앙에 있는 버튼을 펄스 해제하여 바로가기를 엽니다. 또는 펄스가 필요 없이 날개 너머로 더 멀리 이동합니다.</string>
+  <string name="stage_071_skill" formatted="false">스쿼드 중앙에 있는 버튼 3개를 파괴하세요.</string>
+  <string name="stage_072_name" formatted="false">낡은 차선 잠금장치</string>
+  <string name="stage_072_goal" formatted="false">라이브 75초</string>
+  <string name="stage_072_special" formatted="false">드론이 차선을 표시한 후 1.8초 후에 발사됩니다. 총알을 기존 차선으로 유도하고 리드미컬하게 변경합니다.</string>
+  <string name="stage_072_skill" formatted="false">6개의 시리즈를 같은 빈 차선으로 이끈다.</string>
+  <string name="stage_073_name" formatted="false">보급품이 포위되어 있다</string>
+  <string name="stage_073_goal" formatted="false">패키지 3개 수집</string>
+  <string name="stage_073_special" formatted="false">각 패키지에는 선박에 따라 펄스 또는 작은 슬롯을 보호하고 선택하는 2개의 드론이 있습니다. 5개의 패키지가 있으며 입구가 잠겨 있지 않습니다.</string>
+  <string name="stage_073_skill" formatted="false">감시 드론을 파괴하지 않고도 충분히 수집할 수 있습니다.</string>
+  <string name="stage_074_name" formatted="false">우회 공격</string>
+  <string name="stage_074_goal" formatted="false">5개의 실제 게이트를 통해</string>
+  <string name="stage_074_special" formatted="false">라인이 파인 가짜 코는 손상을 주지 않습니다. 슬로우 블로우 후의 실제 게이트. 가짜 시스템 알림이 아닌 전환의 법칙을 교육합니다.</string>
+  <string name="stage_074_skill" formatted="false">디코이 레인으로 전환하지 마세요.</string>
+  <string name="stage_075_name" formatted="false">가드 레이어를 파괴하세요</string>
+  <string name="stage_075_goal" formatted="false">보안버튼 3개를 파괴하세요</string>
+  <string name="stage_075_special" formatted="false">버튼은 다른 시간에 펄스 범위에 도달합니다. 한 번의 펄스로 2개의 노드를 끌 수 있을 만큼 충분한 교차점이 있습니다. 충분한 듀티 배터리.</string>
+  <string name="stage_075_skill" formatted="false">교차점에서 펄스가 2개의 노드를 끕니다.</string>
+  <string name="stage_076_name" formatted="false">호송대의 후퇴</string>
+  <string name="stage_076_goal" formatted="false">4개의 문을 통과합니다.</string>
+  <string name="stage_076_special" formatted="false">적이 당신의 미래 경로를 막고 있습니다. 친구들이 따라갈 수 있도록 일찍 바꾸세요. 각 포트에는 2개의 유효한 종료 경로가 있습니다.</string>
+  <string name="stage_076_skill" formatted="false">방어구를 잃지 않고 충분히 게이트를 통과할 수 있습니다.</string>
+  <string name="stage_077_name" formatted="false">양대 공성전</string>
+  <string name="stage_077_goal" formatted="false">80년대 생활</string>
+  <string name="stage_077_special" formatted="false">루프는 위쪽 절반에서만 닫힙니다. 출구 문은 열차 열이 아닌 가장자리/중앙에서 번갈아 갑니다.</string>
+  <string name="stage_077_skill" formatted="false">펄스 없이 4라운드를 종료합니다.</string>
+  <string name="stage_078_name" formatted="false">적 연료창고</string>
+  <string name="stage_078_goal" formatted="false">3억 모아 창고 2개 파괴</string>
+  <string name="stage_078_special" formatted="false">창고를 부수면 부담이 줄어들지만 다음 작업을 위해 에너지를 보존해야 합니다. 창고는 파괴되었을 때만 유효하며, 화면 밖으로 날아가지는 않습니다.</string>
+  <string name="stage_078_skill" formatted="false">2개의 창고에 대해 2개의 펄스를 수정하고 과도한 프레스는 없습니다.</string>
+  <string name="stage_079_name" formatted="false">로테이션 헌팅팀</string>
+  <string name="stage_079_goal" formatted="false">라이브 85초</string>
+  <string name="stage_079_special" formatted="false">15초마다 역할을 전환하여 레인/가드/스윕을 차단합니다. 동시에 최대 2개의 역할이 가능합니다.</string>
+  <string name="stage_079_skill" formatted="false">콤보 6을 달성하세요.</string>
+  <string name="stage_080_name" formatted="false">플래그십 블랙부</string>
+  <string name="stage_080_goal" formatted="false">5억 돌파</string>
+  <string name="stage_080_special" formatted="false">레인락을 통과시켜 가드를 분리시켜 코어를 노출시킵니다. 마지막 두 단계는 V자형/탈출 루프입니다. 배터리는 각 단계를 별도로 커버합니다.</string>
+  <string name="stage_080_skill" formatted="false">코어 아머가 닫혀 있으면 펄스가 발생하지 않습니다.</string>
+  <string name="stage_081_name" formatted="false">미래의 흔적</string>
+  <string name="stage_081_goal" formatted="false">라이브 75초</string>
+  <string name="stage_081_special" formatted="false">발로 차는 목적지를 2초 전에 미리 보고하고 예상대로 발로 차세요. 현재의 돌만 보지 말고 미래를 읽어보세요.</string>
+  <string name="stage_081_skill" formatted="false">6개의 슬롯을 통해 펄스가 예측되지 않습니다.</string>
+  <string name="stage_082_name" formatted="false">느린 흐름</string>
+  <string name="stage_082_goal" formatted="false">5개 게이트 통과</string>
+  <string name="stage_082_special" formatted="false">각 차선은 물체 속도가 다릅니다. 기차/시계가 느리지 않습니다. 거리 대신 열차 도착 시간을 비교해보세요.</string>
+  <string name="stage_082_skill" formatted="false">5개 구멍을 모두 통과했습니다.</string>
+  <string name="stage_083_name" formatted="false">다시한번</string>
+  <string name="stage_083_goal" formatted="false">라이브 80년대</string>
+  <string name="stage_083_special" formatted="false">기호 바위는 뒤로 이동한 다음 정확히 한 번 뒤로 물러납니다. ID/dodge 플래그를 가까이 유지하고 두 번 보상하지 마십시오.</string>
+  <string name="stage_083_skill" formatted="false">4 되감기 후 4 ID에서 밀접하게 회피합니다.</string>
+  <string name="stage_084_name" formatted="false">2회 게이트</string>
+  <string name="stage_084_goal" formatted="false">4상 포트를 통해</string>
+  <string name="stage_084_special" formatted="false">첫 번째 문은 좁고 뒷문은 넓습니다. 일찍 가서 이점을 누리거나 더 안전해지기를 기다리세요. 문 위치를 무작위로 변경하지 마십시오.</string>
+  <string name="stage_084_skill" formatted="false">첫 번째 게이트에서 3개 이상의 게이트를 통과합니다.</string>
+  <string name="stage_085_name" formatted="false">패키지가 고정되어 있습니다.</string>
+  <string name="stage_085_goal" formatted="false">패키지 4개 수집</string>
+  <string name="stage_085_special" formatted="false">Sue는 y=560을 멈추고 계속해서 카운트다운을 합니다. 열차 노선에 도달하기 전에 픽업하지 마세요. 기회는 6번 있습니다.</string>
+  <string name="stage_085_skill" formatted="false">처음 4개 패키지도 놓치지 마세요.</string>
+  <string name="stage_086_name" formatted="false">역방향 신호</string>
+  <string name="stage_086_goal" formatted="false">역방향 체인의 5개 포트를 통해</string>
+  <string name="stage_086_special" formatted="false">시작하기 전에 \"역순\" 레이블이 있는 문자열을 표시합니다. 실행 순서를 다시 읽는 기능이 지원됩니다.</string>
+  <string name="stage_086_skill" formatted="false">반복하지 마세요.</string>
+  <string name="stage_087_name" formatted="false">나만의 그림자</string>
+  <string name="stage_087_goal" formatted="false">라이브 85초</string>
+  <string name="stage_087_special" formatted="false">공은 다가오는 슈팅 위치를 표시하기 3초 전에 경로를 기록합니다. 공이 충돌하지 않습니다. 공을 따라가는 대신 예전의 길을 떠나세요.</string>
+  <string name="stage_087_skill" formatted="false">6발의 공이 배에 맞지 않았습니다.</string>
+  <string name="stage_088_name" formatted="false">제한적 동결</string>
+  <string name="stage_088_goal" formatted="false">시간 송신기 3개를 꺼주세요</string>
+  <string name="stage_088_special" formatted="false">닫힘 펄스는 총알을 멈출 뿐 목표물을 증가시키지 않습니다. 코어 문을 기다리세요. 정확한 횟수를 고정하고 오류를 반복하세요.</string>
+  <string name="stage_088_skill" formatted="false">3세트에서 3펄스를 수정합니다.</string>
+  <string name="stage_089_name" formatted="false">이제 집결지</string>
+  <string name="stage_089_goal" formatted="false">당신은 살아있는 별자리가 3개 있습니다</string>
+  <string name="stage_089_special" formatted="false">실시간으로 따라가며 빠른/느린 지대를 넘나들겠다고 위협합니다. 예측선은 어떤 물체가 먼저 도달할지 확인하는 데 도움이 됩니다.</string>
+  <string name="stage_089_skill" formatted="false">빠른 구역의 위협은 당신에게 도달하지 않습니다.</string>
+  <string name="stage_090_name" formatted="false">감시원</string>
+  <string name="stage_090_goal" formatted="false">5억 돌파</string>
+  <string name="stage_090_special" formatted="false">5단계: 예측, 중지, 단일 되감기, 2개 창, 역순. 위치만 회복하고, 잃어버린 보스의 체력은 회복하지 않습니다.</string>
+  <string name="stage_090_skill" formatted="false">코어를 열지 않은 상태에서 펄스를 발생시키지 마십시오.</string>
+  <string name="stage_091_name" formatted="false">마지막 세 갈래 길</string>
+  <string name="stage_091_goal" formatted="false">6개 게이트를 한 줄로 통과</string>
+  <string name="stage_091_special" formatted="false">화면 앞에는 공급이 적고 배터리가 많으며 근접 회피가 가능한 넓은 경로를 선택하십시오. 동일한 목적지로 이어지는 각 경로에는 필요한 경우 변경할 수 있는 지원 게이트가 있습니다.</string>
+  <string name="stage_091_skill" formatted="false">릴리프게이트를 이용해 경로를 변경하지 마세요.</string>
+  <string name="stage_092_name" formatted="false">펄스 또는 쉴드</string>
+  <string name="stage_092_goal" formatted="false">라이브 85초</string>
+  <string name="stage_092_special" formatted="false">3개 스테이션을 사용하면 차선별로 배터리 또는 쉴드를 선택할 수 있습니다. 둘 다 선택할 수는 없습니다. 다음 패턴에는 두 가지 해당 솔루션이 있습니다.</string>
+  <string name="stage_092_skill" formatted="false">3개 스테이션 모두에서 동일한 유형을 선택하지 마십시오.</string>
+  <string name="stage_093_name" formatted="false">마지막 사람을 데려오세요</string>
+  <string name="stage_093_goal" formatted="false">당신은 살아요, 2칸을 남겨두세요</string>
+  <string name="stage_093_special" formatted="false">구조로 가는 길은 당신을 보호하는 길을 가로막는다. 일반적인 위험 펄스의 경우 배송 전에 배터리를 준비하십시오.</string>
+  <string name="stage_093_skill" formatted="false">두 번 저장해도 방어력이 떨어지지 않습니다.</string>
+  <string name="stage_094_name" formatted="false">사계절 복도</string>
+  <string name="stage_094_goal" formatted="false">8개 게이트 통과</string>
+  <string name="stage_094_special" formatted="false">4개의 일반 섹션 → 바람 → 얼음 → 금지 로딩, 각 섹션에는 2개의 포트가 있습니다. 3초 동안 중화하는 도중에는 한도를 초과하여 드리프트를 추가하지 마십시오.</string>
+  <string name="stage_094_skill" formatted="false">8번의 오프닝 시도를 모두 통과했습니다.</string>
+  <string name="stage_095_name" formatted="false">반격벨트</string>
+  <string name="stage_095_goal" formatted="false">90초 동안 지속되며 대상 클러스터 4개를 파괴합니다.</string>
+  <string name="stage_095_special" formatted="false">발로 차는 것은 종종 압박감을 유발합니다. 클러스터에는 리듬에 따라 열리는 보호막이 있으므로 펄스는 적절한 시간에 예약되어야 합니다. 6개의 타겟 창이 있습니다.</string>
+  <string name="stage_095_skill" formatted="false">파선 의사 프레임 클러스터를 파괴하지 마십시오.</string>
+  <string name="stage_096_name" formatted="false">파일럿 선발</string>
+  <string name="stage_096_goal" formatted="false">자물쇠 3개 수집, 마지막 관문 통과</string>
+  <string name="stage_096_special" formatted="false">각 자물쇠에는 콤보를 담을 수 있는 좁은 가지나 로드할 수 있는 넓은 가지가 있습니다. 선택은 다음 단계에 영향을 주지만 승리 가능성을 막지는 않습니다.</string>
+  <string name="stage_096_skill" formatted="false">구호품 충전소를 이용하지 마세요.</string>
+  <string name="stage_097_name" formatted="false">노바라인</string>
+  <string name="stage_097_goal" formatted="false">스테이션 5 라이브 아머</string>
+  <string name="stage_097_special" formatted="false">신호에 따라 3차선 공격 우선순위가 변경됩니다. 포지션 교체에 대한 큰 파도 이후에 휴식 시간이 있습니다. 이미 값비싼 선박이 있다고 가정하지 마십시오.</string>
+  <string name="stage_097_skill" formatted="false">스테이션의 방어구가 ≥4/5 남았습니다.</string>
+  <string name="stage_098_name" formatted="false">여행을 통해 배운</string>
+  <string name="stage_098_goal" formatted="false">5문단으로 라이브</string>
+  <string name="stage_098_special" formatted="false">샘플 장 2, 3, 5, 7, 9; 사전에 공지된 바와 같이, 각 교차점에는 명확한 환승 규칙이 있습니다.</string>
+  <string name="stage_098_skill" formatted="false">반복/릴리프 포트가 없습니다.</string>
+  <string name="stage_099_name" formatted="false">새벽의 문</string>
+  <string name="stage_099_goal" formatted="false">6개의 포트를 통해 2개의 코어 잠금을 해제합니다.</string>
+  <string name="stage_099_special" formatted="false">펄스 연동 위치 게이트; 잠금 전 배터리 잔량. 실수로 사용한 경우에는 잠기지 않은 릴리프 리필 링이 있습니다.</string>
+  <string name="stage_099_skill" formatted="false">85초 이전에 완료되면 구조 링을 사용하지 마십시오.</string>
+  <string name="stage_100_name" formatted="false">유성하트</string>
+  <string name="stage_100_goal" formatted="false">6코어 파괴</string>
+  <string name="stage_100_special" formatted="false">3라운드, 각 라운드마다 코어 2개: 스톤/게이트; 보호/바람; 시간/방어구 개방. 그 사이에 5초간 휴식을 취하고 방어력/에너지 레벨을 1 회복합니다. 터미널 단계 최대 2개의 알려진 메커니즘.</string>
+  <string name="stage_100_skill" formatted="false">Thang은 인명구조 방아쇠나 구호항을 활성화하지 않았습니다. Sentinel을 소유할 필요가 없습니다.</string>
+  <string name="chapter_01" formatted="false">벤스타: 배를 소유하세요</string>
+  <string name="chapter_02" formatted="false">돌대 : 길을 읽어라</string>
+  <string name="chapter_03" formatted="false">전자기적 영역: 에너지를 사용하고 유지함</string>
+  <string name="chapter_04" formatted="false">잃어버린 기차: 보호와 우선순위</string>
+  <string name="chapter_05" formatted="false">얼음 성운: 마스터 관성</string>
+  <string name="chapter_06" formatted="false">기계적 폐허: 기계 판독 및 디코딩</string>
+  <string name="chapter_07" formatted="false">우주 폭풍: 환경 적응</string>
+  <string name="chapter_08" formatted="false">다크 함대: 전술적 반사신경</string>
+  <string name="chapter_09" formatted="false">시간의 균열: 변화의 규칙을 읽어보세요</string>
+  <string name="chapter_10" formatted="false">유성 센터: 합성 및 선택</string>
+  <string name="ship_s01_body" formatted="false">균형, 보조 규칙 없음; 모든 화면의 표준 검증. 절충안: 전문화 없음.</string>
+  <string name="ship_s02_body" formatted="false">빠른 차선변경, 작은 차체. 트레이드오프: 방어구가 적습니다.</string>
+  <string name="ship_s03_body" formatted="false">이상한 충돌이 많이 발생합니다. 단점: 크고 느리고 느린 로딩.</string>
+  <string name="ship_s04_body" formatted="false">선박열 주변 45개 이내의 옵션 아이템을 흡수하세요. 장단점: 강제 자체 흡입/포트 없음; 큰 몸.</string>
+  <string name="ship_s05_body" formatted="false">고속 패시브 충전. 트레이드오프: 낮은 방어력; 배터리는 일반적으로 20개가 아닌 15개만 충전합니다.</string>
+  <string name="ship_s06_body" formatted="false">아이템에 2초간 추가 보호막을 가합니다. 절충안: 기본 펄스는 반경 160에 불과합니다.</string>
+  <string name="ship_s07_body" formatted="false">회피 후 1초 동안 환경 드리프트가 50% 감소합니다. 트레이드오프: 4s 기본 콤보 창.</string>
+  <string name="ship_s08_body" formatted="false">25초마다 방어구가 없으면 1씩 회복됩니다. 최대 2회/레벨, 3회/무한. 단점: 방어구 복원 아이템은 재충전되지 않습니다.</string>
+  <string name="ship_s09_body" formatted="false">탈출 경로가 아직 남아 있으면 충격은 정상적으로 부서지지 않은 암석을 30단위 더 밀어냅니다. 절충: 충격 후 보호는 0.45초에 불과합니다.</string>
+  <string name="ship_s10_body" formatted="false">레벨당 1회 치명타 방지, 방어력 1 남음, 1초 동안 무적 상태가 됩니다. 절충: 호위/만료로 인한 손실을 방지하지 못합니다. 부활을 중첩하지 않습니다.</string>
+  <string name="ship_s11_body" formatted="false">15초마다 처음 아이템을 집을 때 에너지가 8씩 추가됩니다. 트레이드오프: 기본 둔화 시간은 1초 더 짧습니다.</string>
+  <string name="ship_s12_body" formatted="false">무대 전에 갑옷 +1 **또는** 펄스 반경 +30을 선택하세요. 트레이드오프: 방어구 구성: 속도가 680으로 감소; 펄스 구성: NL을 2.6으로 복원합니다.</string>
+  <string name="campaign" formatted="false">100단계의 여정</string>
+  <string name="campaign_continue" formatted="false">여행을 계속하세요</string>
+  <string name="fleet" formatted="false">조선소</string>
+  <string name="stage" formatted="false">화면</string>
+  <string name="chapter" formatted="false">장</string>
+  <string name="stars" formatted="false">왜?</string>
+  <string name="stage_ready" formatted="false">비행 준비</string>
+  <string name="stage_goal" formatted="false">주요 목표</string>
+  <string name="stage_special" formatted="false">특별한 포인트</string>
+  <string name="stage_skill" formatted="false">스타스킬</string>
+  <string name="stage_damage" formatted="false">배를 유지해야 하는 이유 : 갑옷을 잃는 횟수는 그리 많지 않습니다.</string>
+  <string name="stage_play" formatted="false">무대 시작</string>
+  <string name="stage_map" formatted="false">지도</string>
+  <string name="stage_next" formatted="false">다음 무대</string>
+  <string name="stage_retry" formatted="false">이 레벨을 다시 시도해 보세요</string>
+  <string name="stage_victory" formatted="false">완전한 행위</string>
+  <string name="stage_defeat" formatted="false">아직 한계를 넘지 못했습니다</string>
+  <string name="stage_locked" formatted="false">레벨을 먼저 통과해야 합니다</string>
+  <string name="stage_complete" formatted="false">완료</string>
+  <string name="stage_first" formatted="false">첫 승리 보너스</string>
+  <string name="stage_star_reward" formatted="false">뉴스타 보너스</string>
+  <string name="stage_boss_reward" formatted="false">게이트 보상</string>
+  <string name="stage_chapter_reward" formatted="false">보너스 챕터</string>
+  <string name="ship_owned" formatted="false">소유</string>
+  <string name="ship_equipped" formatted="false">사용중</string>
+  <string name="ship_equip" formatted="false">장비</string>
+  <string name="ship_buy" formatted="false">배를 사다</string>
+  <string name="ship_speed" formatted="false">수평속도</string>
+  <string name="ship_radius" formatted="false">충돌 반경</string>
+  <string name="ship_energy" formatted="false">매초 에너지 재생</string>
+  <string name="ship_choose" formatted="false">열차 선택</string>
+  <string name="account_upgrades" formatted="false">계정을 업그레이드하세요</string>
+  <string name="practice" formatted="false">연습</string>
+  <string name="practice_note" formatted="false">개봉도 하지 않고, 돈도 받지 않고, 아무것도 받지 않고 연습한다.</string>
+  <string name="practice_active" formatted="false">실제로 — 보상 없음</string>
+  <string name="route" formatted="false">경로</string>
+  <string name="route_safe" formatted="false">넓은 길</string>
+  <string name="route_energy" formatted="false">에너지라인</string>
+  <string name="route_risk" formatted="false">회피 닫기</string>
+  <string name="astra_armor" formatted="false">방어구 구성</string>
+  <string name="astra_pulse" formatted="false">펄스 구성</string>
+  <string name="goal_gate" formatted="false">게이트</string>
+  <string name="cargo" formatted="false">미션을 고소하세요</string>
+  <string name="nodes" formatted="false">활성화 버튼</string>
+  <string name="cores" formatted="false">보스코어</string>
+  <string name="ally" formatted="false">동맹국</string>
+  <string name="station" formatted="false">국방국</string>
+  <string name="time_left" formatted="false">왼쪽</string>
+  <string name="boss_open" formatted="false">코어 개방 — 범위 내 펄스</string>
+  <string name="boss_closed" formatted="false">오픈 코어를 기다리세요</string>
+  <string name="memory" formatted="false">포트 문자열</string>
+  <string name="memory_hint" formatted="false">문자열을 반복하세요</string>
+  <string name="defeat_armor" formatted="false">갑옷이 벗어났어</string>
+  <string name="defeat_ally" formatted="false">아군이 파괴되었습니다</string>
+  <string name="defeat_station" formatted="false">정거장 파괴됨</string>
+  <string name="defeat_timeout" formatted="false">목표 기한이 만료되었습니다.</string>
+  <string name="sensitivity" formatted="false">당김 감도</string>
+  <string name="campaign_finished" formatted="false">100레벨을 완료했습니다!</string>
+  <string name="ship_stats" formatted="false">선박 매개변수</string>
+  <string name="reward_base" formatted="false">사전 생존</string>
+  <string name="reward_total" formatted="false">총 취득학점</string>
+  <string name="save_before_next" formatted="false">계속하기 전에 결과를 저장하세요.</string>
+  <string name="star_damage_info" formatted="false">함선 유지보수는 왜 장갑 손실 횟수만 계산하나요? 수리는 잃어버린 시간을 지우지 않습니다.</string>
+  <string name="practice_hint" formatted="false">당겨서 아이템을 집어들고, 올바른 게이트를 통과하여 코어가 열리면 펄스를 사용하세요.</string>
 </resources>

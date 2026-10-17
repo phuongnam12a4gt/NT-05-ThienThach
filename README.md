@@ -34,7 +34,7 @@ Công cụ: Gradle wrapper 9.4.1, AGP 9.2.1, Kotlin/Compose compiler 2.2.10, Com
 - `ui/`: menu Compose, Canvas và chuyển đổi tọa độ theo vùng logic 360 x 800.
 - `audio/AudioController.kt`: nhạc PCM tổng hợp và audio focus, hiệu ứng một lần theo sự kiện.
 
-Lưu thưởng được tuần tự hóa, khóa lượt tiếp theo đến khi lưu thành công. `lastRewardedRunId` chống lặp cho lượt mới nhất; không hỗ trợ nhiều kết quả chờ lưu. Lỗi ghi giữ kết quả trong bộ nhớ, có nút thử lại. Dữ liệu schema mới hơn bị từ chối thay vì xóa. Schema 1 dùng giá trị mặc định khi thiếu key. Không lưu lượt đang chơi; process death trở về trang chủ, không thưởng lượt dở. Android backup đã tắt (`allowBackup=false`); không có cloud save.
+Lưu thưởng được tuần tự hóa, khóa lượt tiếp theo đến khi lưu thành công. Schema 2 lưu tập ID lượt đã thưởng để chống lặp qua nhiều lượt; giao diện khóa lượt kế tiếp cho đến khi ghi xong. Lỗi ghi giữ kết quả trong bộ nhớ, có nút thử lại. Dữ liệu schema mới hơn bị từ chối thay vì xóa. Schema 1 được đọc với giá trị mặc định cho tàu Nova và chiến dịch chưa chơi; giao dịch tiếp theo ghi schema 2. Không lưu lượt đang chơi; process death trở về trang chủ, không thưởng lượt dở. Android backup đã tắt (`allowBackup=false`); không có cloud save.
 
 ## Asset / quyền sử dụng
 
@@ -58,3 +58,8 @@ Thêm ba lựa chọn chiến thuật trong lượt tại mốc 45/90/135 giây,
 ## Bản 1.3 — 20 ngôn ngữ
 
 Chọn ngôn ngữ từ nút 🌐 trên trang chủ hoặc Cài đặt. Tự theo thiết bị hoặc chọn thủ công; lưu qua lần mở app, hỗ trợ RTL, dùng offline và giữ tiến trình. Xem [METEOR_DASH_UPGRADE_v1.3.md](METEOR_DASH_UPGRADE_v1.3.md) để biết danh sách 20 thị trường, cách cập nhật bản dịch và xác minh mới nhất (63 unit test đạt, kiểm tra giao diện 20 locale trên điện thoại).
+
+
+## Bản 2.0
+
+Đã tích hợp chiến dịch 100 màn/10 chương, 12 tàu có đặc tính riêng, bản đồ, xưởng, sao và thưởng lần đầu, luyện tập và nội dung mới cho 20 ngôn ngữ. Giữ dữ liệu 1.3 qua schema 2. Chi tiết triển khai, kết quả 79 kiểm thử và giới hạn nghiệm thu tại [METEOR_DASH_UPGRADE_v2.0.md](METEOR_DASH_UPGRADE_v2.0.md). APK review nằm trong `artifacts/v2/`.

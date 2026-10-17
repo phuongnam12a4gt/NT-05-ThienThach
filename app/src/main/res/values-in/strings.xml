@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Bertahan: 10 poin/detik. Item: masing-masing 25 poin. Setiap 20 poin akhir memberi 1 kredit peningkatan. Meninggalkan penerbangan tidak mendapat hadiah.</string>
   <string name="help_accessibility" formatted="false">Perlu pengamatan dan geseran waktu nyata.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">VERSI 1.3 / 20 BAHASA</string>
+  <string name="update_badge" formatted="false">2.0 / Perjalanan 100 tahap</string>
   <string name="new_tagline" formatted="false">Lewati dekat meteor untuk kombo. Lolos dengan pulsa dan pecahkan rekor.</string>
   <string name="pulse_ready" formatted="false">PULSA</string>
   <string name="pulse_charging">ENERGI %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Penguat</string>
   <string name="daredevil_name" formatted="false">Pemberani</string>
   <string name="focus_name" formatted="false">Fokus</string>
+  <string name="stage_001_name" formatted="false">Lepas landas</string>
+  <string name="stage_001_goal" formatted="false">Langsung 30 detik</string>
+  <string name="stage_001_special" formatted="false">0–10 detik hanya batu kecil yang jatuh lurus; kesenjangan tengah 10–20 detik; 20–30 detik ganti slot di kedua sisi. Petunjuk untuk menarik dengan tindakan.</string>
+  <string name="stage_001_skill" formatted="false">Ikuti ketiga petunjuk keselamatan.</string>
+  <string name="stage_002_name" formatted="false">Tiga jalan kembali</string>
+  <string name="stage_002_goal" formatted="false">Melalui 3 gerbang</string>
+  <string name="stage_002_special" formatted="false">Gerbang terbuka kiri–tengah–kanan, setiap 8 detik; Gerbang meleset terulang setelah 4 detik. Fokusnya adalah menentukan lokasi, bukan meningkatkan hujan es.</string>
+  <string name="stage_002_skill" formatted="false">Jangan lewatkan setiap pembukaan gerbang.</string>
+  <string name="stage_003_name" formatted="false">Persediaan pertama</string>
+  <string name="stage_003_goal" formatted="false">Kumpulkan 2 paket</string>
+  <string name="stage_003_special" formatted="false">4 paket pada dua rute bergantian; Batuan tersebut tidak menempati jalur pengambilan di jendela panduan.</string>
+  <string name="stage_003_skill" formatted="false">Selesai dengan armor maksimal penuh.</string>
+  <string name="stage_004_name" formatted="false">Irama kiri-kanan</string>
+  <string name="stage_004_goal" formatted="false">Hidup 35 detik</string>
+  <string name="stage_004_special" formatted="false">Barisan batu ada celahnya, dapat diubah ke kiri/kanan sesuai irama; Ada ruang untuk berbalik, berdiri di tengah tidak selalu aman.</string>
+  <string name="stage_004_skill" formatted="false">Melalui 4 bagian tengah slot, tandai ritme yang benar.</string>
+  <string name="stage_005_name" formatted="false">Pulsa membuka jalan</string>
+  <string name="stage_005_goal" formatted="false">Matikan 2 cluster tambang</string>
+  <string name="stage_005_special" formatted="false">Cluster down y=560, tetapkan pin tugas sebelum setiap cluster. Klik lebih awal untuk diminta dan ulangi dengan aman.</string>
+  <string name="stage_005_skill" formatted="false">Setiap cluster dimatikan sepenuhnya dengan satu pulsa.</string>
+  <string name="stage_006_name" formatted="false">Jarak satu sayap</string>
+  <string name="stage_006_goal" formatted="false">2 penghindaran yang sah</string>
+  <string name="stage_006_special" formatted="false">Dua contoh rute batu kecil, menunjukkan area latihan, minimal 8 peluang. Tabrakan tidak menambah target.</string>
+  <string name="stage_006_skill" formatted="false">Hubungkan 2, hindari jarak dekat selama 5 detik, raih kombo 2.</string>
+  <string name="stage_007_name" formatted="false">Pelindung energi</string>
+  <string name="stage_007_goal" formatted="false">Hidup 40an</string>
+  <string name="stage_007_special" formatted="false">Pelindung depan dengan dua bagian sempit; masih mempunyai garis luar yang lebar sehingga tidak perlu menerima pukulan.</string>
+  <string name="stage_007_skill" formatted="false">Perisai diblok sekali, tidak kehilangan armor.</string>
+  <string name="stage_008_name" formatted="false">Pelambatan satu detik</string>
+  <string name="stage_008_goal" formatted="false">Melalui 4 gerbang</string>
+  <string name="stage_008_special" formatted="false">Gerbang cangkok lambat; menunjukkan bahwa item tersebut tidak memperlambat jam target. Ada rute yang tidak perlu diambil untuk memperlambat.</string>
+  <string name="stage_008_skill" formatted="false">Ambil 2 item lambat dengan ID berbeda.</string>
+  <string name="stage_009_name" formatted="false">Uji coba</string>
+  <string name="stage_009_goal" formatted="false">Kumpulkan 2 bal, lewati 3 gerbang</string>
+  <string name="stage_009_special" formatted="false">Tiga tahap: mengumpulkan, berpindah jalur, tahan pulsa untuk membuka jalur terakhir. Akui kedua tujuan secara bersamaan.</string>
+  <string name="stage_009_skill" formatted="false">Setidaknya 3 kali menghindar di dekat gerbang terakhir.</string>
+  <string name="stage_010_name" formatted="false">Penjaga dermaga</string>
+  <string name="stage_010_goal" formatted="false">Hancurkan 2 inti</string>
+  <string name="stage_010_special" formatted="false">Fase 1 dua kolom tersisa di tengah; Campurkan 2 slot ke samping lalu turunkan inti. Pisahkan pin/jendela untuk setiap inti.</string>
+  <string name="stage_010_skill" formatted="false">Hancurkan setiap inti di awal fase.</string>
+  <string name="stage_011_name" formatted="false">Tulang Ikan</string>
+  <string name="stage_011_goal" formatted="false">Hidup 40an</string>
+  <string name="stage_011_special" formatted="false">Dua cabang diagonal membuat celah tulang herring; ubah arah setelah setiap pasangan, dengan garis lurus menunjukkan belokan.</string>
+  <string name="stage_011_skill" formatted="false">Melalui 5 slot tengah yang ditandai.</string>
+  <string name="stage_012_name" formatted="false">Tangga terapung</string>
+  <string name="stage_012_goal" formatted="false">Melalui 4 gerbang</string>
+  <string name="stage_012_special" formatted="false">Kiri → agak kiri → agak kanan → kanan; Mengajar terjemahan kecil terus menerus. Loopback port saat ini terlewatkan.</string>
+  <string name="stage_012_skill" formatted="false">Tidak pakai pulsa.</string>
+  <string name="stage_013_name" formatted="false">Gunting</string>
+  <string name="stage_013_goal" formatted="false">Hidup 45 detik</string>
+  <string name="stage_013_special" formatted="false">Kedua garis diagonal tersebut berpotongan namun tidak mencapai jalur kereta api secara bersamaan; Peringatan penomoran baris didahulukan.</string>
+  <string name="stage_013_skill" formatted="false">4 menghindar dari minimal 2 baris.</string>
+  <string name="stage_014_name" formatted="false">Gang berubah arah</string>
+  <string name="stage_014_goal" formatted="false">Melalui 5 gerbang</string>
+  <string name="stage_014_special" formatted="false">Koridor berubah arah dengan panah; menjaga momentum kapal. Gerbang 3 istirahat untuk belajar berbelok.</string>
+  <string name="stage_014_skill" formatted="false">Lulus semua 5 dalam percobaan pembukaan.</string>
+  <string name="stage_015_name" formatted="false">Batu kembar</string>
+  <string name="stage_015_goal" formatted="false">Hidup 45 detik</string>
+  <string name="stage_015_special" formatted="false">Setiap pasangan melakukan tendangan lambat diikuti dengan tendangan cepat, menghindari celah palsu setelah tendangan pertama.</string>
+  <string name="stage_015_skill" formatted="false">Hindari setiap jenis kecepatan setidaknya dua kali.</string>
+  <string name="stage_016_name" formatted="false">Bulan Sabit</string>
+  <string name="stage_016_goal" formatted="false">Kumpulkan 3 buah peta</string>
+  <string name="stage_016_special" formatted="false">Tendangan melengkung; Item berada di area cekung aman lalu diubah ke arc sebaliknya, ada 6 kemungkinan.</string>
+  <string name="stage_016_skill" formatted="false">Kumpulkan 3 buah pada 3 kesempatan pertama.</string>
+  <string name="stage_017_name" formatted="false">Irama ganda</string>
+  <string name="stage_017_goal" formatted="false">Hidup 50an</string>
+  <string name="stage_017_special" formatted="false">Dua baris cepat dan kemudian istirahat panjang; Di akhir stage, ganti tiga baris untuk menghindari batu tiba-tiba masuk ke kapal.</string>
+  <string name="stage_017_skill" formatted="false">Satu pulsa menghancurkan setidaknya 4 batu.</string>
+  <string name="stage_018_name" formatted="false">Orbit satelit</string>
+  <string name="stage_018_goal" formatted="false">Melalui 4 gerbang</string>
+  <string name="stage_018_special" formatted="false">Batuan kecil berputar mengelilingi balok besar; Slot orbital memprediksi lokasi penjemputan di barisan kapal.</string>
+  <string name="stage_018_skill" formatted="false">Jangan hancurkan blok tengah.</string>
+  <string name="stage_019_name" formatted="false">Persimpangan ambisi</string>
+  <string name="stage_019_goal" formatted="false">Hidup 55 detik dan kumpulkan 2 kursus</string>
+  <string name="stage_019_special" formatted="false">Jalan lebar hanya punya sedikit hal, jalan sempit punya kunci. Terdapat 4 kunci, jadi Anda tidak perlu mengambil rute berisiko setiap saat.</string>
+  <string name="stage_019_skill" formatted="false">Kumpulkan semua 4 kursus sebelum 55 detik.</string>
+  <string name="stage_020_name" formatted="false">Penghancur sabuk</string>
+  <string name="stage_020_goal" formatted="false">Hancurkan 3 inti</string>
+  <string name="stage_020_special" formatted="false">Kedua sayap ditekan untuk membuat celah horizontal; Setelah menekan satu sayap, ia berhenti memperlihatkan intinya. Fase terakhir membalikkan pemindaian dengan alarm.</string>
+  <string name="stage_020_skill" formatted="false">Kapal tidak terkena ranjau sayap.</string>
+  <string name="stage_021_name" formatted="false">Baterai di tengah badai</string>
+  <string name="stage_021_goal" formatted="false">Kumpulkan 3 pin misi</string>
+  <string name="stage_021_special" formatted="false">Terdapat 5 buah baterai dibelakang tiang yang ada slotnya; harus mengambil posisi yang benar daripada mengirimkan pulsa terus menerus.</string>
+  <string name="stage_021_skill" formatted="false">Energi tidak turun di bawah 30.</string>
+  <string name="stage_022_name" formatted="false">Tidak ada area pemuatan</string>
+  <string name="stage_022_goal" formatted="false">Melalui 4 gerbang</string>
+  <string name="stage_022_special" formatted="false">Area bergaris berhenti merespons, area terang terisi ulang secara normal. Port bergantian memaksa pilihan untuk tetap memuat atau beralih lebih awal.</string>
+  <string name="stage_022_skill" formatted="false">Lewati gerbang terakhir dengan NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Sekring</string>
+  <string name="stage_023_goal" formatted="false">Matikan 3 tombol power</string>
+  <string name="stage_023_special" formatted="false">Tombol mati hanya dalam radius pulsa; Ada 3 baterai tugas. Tombol yang belum dimatikan masih ada jalan pintas dan belokan berikutnya.</string>
+  <string name="stage_023_skill" formatted="false">Matikan ketiganya saat cincin pengaman terbuka.</string>
+  <string name="stage_024_name" formatted="false">Kalung</string>
+  <string name="stage_024_goal" formatted="false">Melalui 5 gerbang secara berurutan</string>
+  <string name="stage_024_special" formatted="false">Port memiliki nomor/simbol; hanya port saat ini yang menerima kemajuan. Melewati gerbang masa depan tidak mengurangi nyawa, tidak menambah jumlah nyawa.</string>
+  <string name="stage_024_skill" formatted="false">Jangan melewati gerbang dengan urutan yang salah.</string>
+  <string name="stage_025_name" formatted="false">Pilih untuk menyerang atau menghindar</string>
+  <string name="stage_025_goal" formatted="false">Hidup 55 detik</string>
+  <string name="stage_025_special" formatted="false">Setiap 10 detik pin berada di sisi berlawanan dari slot berikutnya. Evaluasi sendiri apakah ada cukup waktu untuk memutar kembali atau melepas baterai; Rute pelepasan baterai selalu ada.</string>
+  <string name="stage_025_skill" formatted="false">Kumpulkan 3 baterai dan masih masuk ke slot berikutnya.</string>
+  <string name="stage_026_name" formatted="false">Kapasitor resonansi</string>
+  <string name="stage_026_goal" formatted="false">Aktifkan 2 stasiun dengan NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Melewati area stasiun drainase 80 NL; Ada 100 antrean isi ulang di depan setiap stasiun. Denyut nadi tidak menggantikan operasi sentuh stasiun.</string>
+  <string name="stage_026_skill" formatted="false">Kedua stasiun menerima ketika input NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">Hujan ion</string>
+  <string name="stage_027_goal" formatted="false">Hidup 55 detik</string>
+  <string name="stage_027_special" formatted="false">Awan ion pulih di satu jalur, namun batu akan sampai di sana setelah peringatan. Memiliki setidaknya 3 baterai biasanya membuat target sekunder dapat digunakan.</string>
+  <string name="stage_027_skill" formatted="false">Kirimkan 3 pulsa valid.</string>
+  <string name="stage_028_name" formatted="false">Bohlam konduktor</string>
+  <string name="stage_028_goal" formatted="false">Kumpulkan 4 buah lead</string>
+  <string name="stage_028_special" formatted="false">Peta misi bergeser ke paling kiri/kanan secara siklis, dengan garis yang memprediksi titik penjemputan. Ada 7 peluang.</string>
+  <string name="stage_028_skill" formatted="false">Kumpulkan 4 buah dalam 4 kesempatan pertama.</string>
+  <string name="stage_029_name" formatted="false">Pesan di ujung jalan</string>
+  <string name="stage_029_goal" formatted="false">Melalui 3 port, depositkan ≥70 ke port terakhir</string>
+  <string name="stage_029_special" formatted="false">Dua port pertama gratis; Biaya gerbang akhir muncul dari awal. Kompensasi baterai berputar setiap 8 detik jika hilang, memiliki garis siaga.</string>
+  <string name="stage_029_skill" formatted="false">Jangan gunakan kompensasi baterai.</string>
+  <string name="stage_030_name" formatted="false">Inti badai listrik</string>
+  <string name="stage_030_goal" formatted="false">Hancurkan 3 inti</string>
+  <string name="stage_030_special" formatted="false">Tiga kutub terang bergantian; Berdirilah pada polaritas yang benar untuk membuka armor dan kemudian gunakan baterai bos/pulsa. Fase terakhir tidak memiliki cooldown tetapi masih menerima pin misi.</string>
+  <string name="stage_030_skill" formatted="false">Membuka ketiga tiang dengan benar pada percobaan pertama.</string>
+  <string name="stage_031_name" formatted="false">Rekan</string>
+  <string name="stage_031_goal" formatted="false">Sekutu dengan 3 armor hidup selama 50 detik</string>
+  <string name="stage_031_special" formatted="false">Anda terbang dulu, memberi isyarat untuk berpindah jalur selama 2 detik; pemain memecahkan batu yang mengancam dengan pulsa. 10 detik pertama tekanan rendah untuk dipelajari.</string>
+  <string name="stage_031_skill" formatted="false">Sekutu tidak kehilangan armor.</string>
+  <string name="stage_032_name" formatted="false">Dua perjalanan penyelamatan</string>
+  <string name="stage_032_goal" formatted="false">Ambil 2 sekoci</string>
+  <string name="stage_032_special" formatted="false">Tahan area pengambilan yang benar selama 1 detik; Kompartemennya memiliki banyak tetesan dan sentuhan cepat tanpa berulang.</string>
+  <string name="stage_032_skill" formatted="false">Selesai sebelum 40 detik.</string>
+  <string name="stage_033_name" formatted="false">Menghadapi bahaya</string>
+  <string name="stage_033_goal" formatted="false">Armor stasiun 4 bertahan 55 detik</string>
+  <string name="stage_033_special" formatted="false">Batu tersebut jatuh menembus garis menyebabkan stasiun kehilangan lapis baja. Batu-batu besar mengutamakan stasiun, batu-batu kecil mengutamakan jalur kereta api; Identifikasi bahaya yang perlu dicegah.</string>
+  <string name="stage_033_skill" formatted="false">Tidak ada batu besar yang bisa melewatinya.</string>
+  <string name="stage_034_name" formatted="false">Barang rapuh</string>
+  <string name="stage_034_goal" formatted="false">Kapal kargo 2 lapis baja 55 detik</string>
+  <string name="stage_034_special" formatted="false">Kereta barang jarang berpindah jalur; dua gelombang drone yang masuk memiliki baterai berdenyut yang dipasok secara terjadwal.</string>
+  <string name="stage_034_skill" formatted="false">Gunakan maksimal 3 pulsa.</string>
+  <string name="stage_035_name" formatted="false">Panduan</string>
+  <string name="stage_035_goal" formatted="false">Memimpin Anda melewati 4 gerbang</string>
+  <string name="stage_035_special" formatted="false">Anda mengikuti jalur pemain terlambat 1,2 detik; perlu segera berubah. Garis putus-putus melambangkan penundaan, tidak perlu jari kendali kedua.</string>
+  <string name="stage_035_skill" formatted="false">Anda melewati setiap gerbang dengan eksentrisitas slot ≤20 unit.</string>
+  <string name="stage_036_name" formatted="false">Bagilah sumber bantuan menjadi dua</string>
+  <string name="stage_036_goal" formatted="false">Stasiun ini hidup dan mengirimkan 3 paket</string>
+  <string name="stage_036_special" formatted="false">Paket hijau kembali ke stasiun, paket kuning memberikan uang opsional. Miliki semua fakta utama; Menyeimbangkan penyelamatan stasiun dengan keuntungan.</string>
+  <string name="stage_036_skill" formatted="false">Stasiun ini memiliki setidaknya 3/4 armor yang tersisa.</string>
+  <string name="stage_037_name" formatted="false">Konvoi menyusul</string>
+  <string name="stage_037_goal" formatted="false">Kedua kapal masih hidup</string>
+  <string name="stage_037_special" formatted="false">Teman sebelumnya/berikutnya berada pada rute yang sama namun dengan perbedaan waktu; ancaman memiliki peringatan identifikasi, dua batang pelindung terpisah.</string>
+  <string name="stage_037_skill" formatted="false">Tidak ada yang akan kehilangan lebih dari 1 armor.</string>
+  <string name="stage_038_name" formatted="false">Penyelamatan di tengah hujan</string>
+  <string name="stage_038_goal" formatted="false">Hidup 65 detik, hemat 3 kompartemen</string>
+  <string name="stage_038_special" formatted="false">Menerima kompartemen saat istirahat setelah hujan, 5 penyelamatan diberi nomor. Harus menggunakan ritme istirahat untuk mengambilnya.</string>
+  <string name="stage_038_skill" formatted="false">Jangan mengambil ranjau yang disamarkan sebagai tanda peringatan.</string>
+  <string name="stage_039_name" formatted="false">Umpan yang disengaja</string>
+  <string name="stage_039_goal" formatted="false">Anda hidup 65 detik</string>
+  <string name="stage_039_special" formatted="false">Drone mengunci jalur lama pemain saat diperingatkan dan kemudian bergegas; Jauhkan ancaman dari Anda dan lanjutkan pada waktu yang tepat.</string>
+  <string name="stage_039_skill" formatted="false">Pimpin 4 drone ke jalur tanpa Anda.</string>
+  <string name="stage_040_name" formatted="false">Perampokan luar angkasa</string>
+  <string name="stage_040_goal" formatted="false">Memecah 3 inti, kapal kargo masih hidup</string>
+  <string name="stage_040_special" formatted="false">Bos menargetkan pemain/kapal secara bergantian, setiap seri memiliki simbol target. Blokir target kapal kargo untuk membuka inti.</string>
+  <string name="stage_040_skill" formatted="false">Kapal kargo mempunyai ≥2/3 armor tersisa.</string>
+  <string name="stage_041_name" formatted="false">Es tipis</string>
+  <string name="stage_041_goal" formatted="false">Hidup 55 detik</string>
+  <string name="stage_041_special" formatted="false">Hanya 15–25 dan 35–45 yang mengalami selip saat mengubah arah; zona pengereman hijau sebelum berpindah jalur.</string>
+  <string name="stage_041_skill" formatted="false">Jangan menyentuh kedua tepi pita perekat.</string>
+  <string name="stage_042_name" formatted="false">Rem di depan gerbang</string>
+  <string name="stage_042_goal" formatted="false">Melalui 4 gerbang</string>
+  <string name="stage_042_special" formatted="false">Saat melewati gerbang, kecepatan horizontal harus ≤120 unit/s. Ada speedometer untuk mengatur rem; Pengulang port tidak terjawab.</string>
+  <string name="stage_042_skill" formatted="false">Lulus keempat dalam percobaan pembukaan.</string>
+  <string name="stage_043_name" formatted="false">Esnya retak</string>
+  <string name="stage_043_goal" formatted="false">Hidup tahun 60an</string>
+  <string name="stage_043_special" formatted="false">Es terbelah menjadi 2 bagian setelah garis retakan; mungkin berdenyut sebelum pecah. Fragmen hanya melahirkan satu generasi.</string>
+  <string name="stage_043_skill" formatted="false">Pecahkan 3 balok es sebelum dibelah.</string>
+  <string name="stage_044_name" formatted="false">Air hangat</string>
+  <string name="stage_044_goal" formatted="false">Kumpulkan 3 inti termal</string>
+  <string name="stage_044_special" formatted="false">Inti berada di bagian anti selip di antara dua ban berjalan; dapatkan momentum lalu rem, ada 6 core sesuai jadwal.</string>
+  <string name="stage_044_skill" formatted="false">Kumpulkan 3 crores dalam 3 kesempatan pertama.</string>
+  <string name="stage_045_name" formatted="false">Pendulumnya dingin</string>
+  <string name="stage_045_goal" formatted="false">Melalui 5 gerbang</string>
+  <string name="stage_045_special" formatted="false">Gerbang ayun fase, indikator titik penjemputan; memprediksi posisi masa depan daripada mengejar poin saat ini.</string>
+  <string name="stage_045_skill" formatted="false">Tidak pakai pulsa.</string>
+  <string name="stage_046_name" formatted="false">Geser ke bawah kubah</string>
+  <string name="stage_046_goal" formatted="false">Hidup 65 detik</string>
+  <string name="stage_046_special" formatted="false">Lengkungan batu lambat memiliki jalur pendek dan lingkar luar. Jika Anda terlalu banyak terpeleset, Anda akan mudah terbentur tepi jalan pendek. Masih ada cukup waktu untuk jalan memutar.</string>
+  <string name="stage_046_skill" formatted="false">Melalui 3 garis pendek yang ditandai.</string>
+  <string name="stage_047_name" formatted="false">Baterai pada ban berjalan</string>
+  <string name="stage_047_goal" formatted="false">Muat 2 stasiun, lewati gerbang terakhir</string>
+  <string name="stage_047_special" formatted="false">Ban berjalan yang mendorong baterai, bukan kereta; Prediksi titik penjemputan dan rute pemberhentian memisahkan observasi/pengendalian.</string>
+  <string name="stage_047_skill" formatted="false">Isi ulang 2 stasiun dalam 50 detik.</string>
+  <string name="stage_048_name" formatted="false">Gema kabut</string>
+  <string name="stage_048_goal" formatted="false">Hidup tahun 70an</string>
+  <string name="stage_048_special" formatted="false">Memberi pertanda rantai slot. Kabut hanya menutupi latar belakang/dekorasi, tidak menutupi hitbox/bilah peringatan; dengan simbol berulang.</string>
+  <string name="stage_048_skill" formatted="false">Lewati 6 slot tanpa mengulanginya.</string>
+  <string name="stage_049_name" formatted="false">Retakan menyebar</string>
+  <string name="stage_049_goal" formatted="false">Melalui 6 gerbang</string>
+  <string name="stage_049_special" formatted="false">Melalui setiap gerbang, jalur lama ditutup setelah 2 detik; harus ditransisikan, dengan area yang akan ditutup dan area berikutnya ditandai.</string>
+  <string name="stage_049_skill" formatted="false">Jangan kembali ke jalur lama dalam waktu 2 detik setelah sinyal penutupan.</string>
+  <string name="stage_050_name" formatted="false">Naga Putih</string>
+  <string name="stage_050_goal" formatted="false">Hancurkan 4 inti</string>
+  <string name="stage_050_special" formatted="false">Dua fase pertama adalah es yang melayang, dua fase terakhir adalah busur es yang terfragmentasi. Inti terbuka di zona larangan selip untuk dijangkau semua kapal.</string>
+  <string name="stage_050_skill" formatted="false">Tidak mengenai pecahan es sekunder.</string>
+  <string name="stage_051_name" formatted="false">Saklar lorong</string>
+  <string name="stage_051_goal" formatted="false">Nyalakan 3 saklar, lewati gerbangnya</string>
+  <string name="stage_051_special" formatted="false">Tekan saklar di baris kereta untuk membuka pintu belakang yang benar. Jika meleset, Anda bisa mengulanginya, tetapi Anda tidak akan langsung kalah.</string>
+  <string name="stage_051_skill" formatted="false">Aktifkan ketiga pertemuan pertama.</string>
+  <string name="stage_052_name" formatted="false">Kode tiga gambar</string>
+  <string name="stage_052_goal" formatted="false">Masukkan rangkaian 3 simbol</string>
+  <string name="stage_052_special" formatted="false">Tampilkan segitiga–lingkaran–persegi selama 4 detik lalu pilih port yang benar. False memungkinkan Anda meninjau dan mengulangi item saat ini; Hindari mengandalkan warna saja.</string>
+  <string name="stage_052_skill" formatted="false">Jangan salah masukan/ulangi.</string>
+  <string name="stage_053_name" formatted="false">Patroli drone</string>
+  <string name="stage_053_goal" formatted="false">Hidup 65 detik</string>
+  <string name="stage_053_special" formatted="false">Drone horizontal mempunyai rute tetap, hanya memotret saat lampu menyala; Baca arah batang untuk menebak slotnya.</string>
+  <string name="stage_053_skill" formatted="false">Hancurkan 4 drone dengan pulsa.</string>
+  <string name="stage_054_name" formatted="false">Cermin keluar dari fase</string>
+  <string name="stage_054_goal" formatted="false">Melalui 5 gerbang nyata</string>
+  <string name="stage_054_special" formatted="false">Bayangan mencerminkan garis putus-putus, gerbang sebenarnya adalah bingkai padat + suara alarm. Mengurangi pergerakan drop shadow tetapi tetap membedakan simbol.</string>
+  <string name="stage_054_skill" formatted="false">Jangan sentuh area port palsu.</string>
+  <string name="stage_055_name" formatted="false">Tombol ritme</string>
+  <string name="stage_055_goal" formatted="false">Matikan 3 pemancar</string>
+  <string name="stage_055_special" formatted="false">Pemancar terbuka untuk menerima pulsa selama 6 detik dan kemudian menutupi armor; tugas pin level sebelumnya, miss dicoba pada siklus berikutnya.</string>
+  <string name="stage_055_skill" formatted="false">Matikan ketiganya ketika jendela tersisa ≥3 detik.</string>
+  <string name="stage_056_name" formatted="false">Menyortir konveyor</string>
+  <string name="stage_056_goal" formatted="false">Kumpulkan 4 komponen segitiga</string>
+  <string name="stage_056_special" formatted="false">Tiga tipe digabungkan menjadi satu: target terpisah, item normal, ranjau peringatan. Harus mengklasifikasikan daripada meraup semuanya.</string>
+  <string name="stage_056_skill" formatted="false">Jangan mengambil komponen yang tipenya salah.</string>
+  <string name="stage_057_name" formatted="false">Pintasan terkunci</string>
+  <string name="stage_057_goal" formatted="false">Melalui 4 gerbang, buka gerbang terakhir</string>
+  <string name="stage_057_special" formatted="false">Gratis jarak jauh; Pintasan berharga 40 NL tetapi menghemat waktu. Port terakhir membutuhkan 60, memiliki pin kompensasi untuk menghindari penguncian yang keras.</string>
+  <string name="stage_057_skill" formatted="false">Selesai sebelum 55 detik.</string>
+  <string name="stage_058_name" formatted="false">Empat gigi</string>
+  <string name="stage_058_goal" formatted="false">Hidup 75 detik</string>
+  <string name="stage_058_special" formatted="false">Drone mengikuti kolom, busur, diagonal, dan penyimpangan pada siklus defleksi. Model selanjutnya, jangan membuang keempatnya secara bersamaan.</string>
+  <string name="stage_058_skill" formatted="false">Setelah 1 siklus, empat sampel tidak berdenyut.</string>
+  <string name="stage_059_name" formatted="false">Mulai reliknya</string>
+  <string name="stage_059_goal" formatted="false">Kumpulkan 3 core, aktifkan 1 stasiun</string>
+  <string name="stage_059_special" formatted="false">Kumpulkan komponen lalu kembali ke jalur stasiun untuk membuka gerbang. Stasiun hanya menerima jika terdapat cukup inti; Ada bypass untuk menunggu baterai.</string>
+  <string name="stage_059_skill" formatted="false">Hanya menggunakan 1 pulsa.</string>
+  <string name="stage_060_name" formatted="false">Arsitek</string>
+  <string name="stage_060_goal" formatted="false">Hancurkan 4 inti</string>
+  <string name="stage_060_special" formatted="false">Selesaikan rute simbol terbuka satu inti dengan benar. Fase terakhir membalik urutan tetapi menampilkan sampel baru sebelum dijalankan.</string>
+  <string name="stage_060_skill" formatted="false">Jangan salah memilih simbol fasa.</string>
+  <string name="stage_061_name" formatted="false">Angin mendatar</string>
+  <string name="stage_061_goal" formatted="false">Hidup 65 detik</string>
+  <string name="stage_061_special" formatted="false">Dua dorongan mengikuti panah, kecepatan melayang kurang dari kemampuan kompensasi kapal paling lambat.</string>
+  <string name="stage_061_skill" formatted="false">Jangan menyentuh tepian angin.</string>
+  <string name="stage_062_name" formatted="false">Mata badai</string>
+  <string name="stage_062_goal" formatted="false">Melalui 5 area pusat badai</string>
+  <string name="stage_062_special" formatted="false">Zona netral melewati 3 jalur, tanpa didorong di tengahnya. Hanya dihitung ketika melewati bagian tengah barisan kereta.</string>
+  <string name="stage_062_skill" formatted="false">Melalui semua 5 penampilan pertama.</string>
+  <string name="stage_063_name" formatted="false">Hujan tiga lapis</string>
+  <string name="stage_063_goal" formatted="false">Hidup tahun 70an</string>
+  <string name="stage_063_special" formatted="false">Batuan besar bergerak lambat, batu kecil bergerak cepat, ranjau melayang pada tingkat yang berbeda; baca perintah untuk berlatih, bukan jarak sederhana.</string>
+  <string name="stage_063_skill" formatted="false">Denyut nadi yang menghancurkan objek di 3 lantai.</string>
+  <string name="stage_064_name" formatted="false">Baterainya habis</string>
+  <string name="stage_064_goal" formatted="false">Kumpulkan 4 baterai misi</string>
+  <string name="stage_064_special" formatted="false">Angin mendorong kapal dan baterainya dengan faktor yang berbeda; Ada garis titik penjemputan, jangan mempercepat baterai secara tiba-tiba. Total 7 peluang.</string>
+  <string name="stage_064_skill" formatted="false">Kumpulkan 4 pin dalam 4 kesempatan pertama.</string>
+  <string name="stage_065_name" formatted="false">Peringatan kilat</string>
+  <string name="stage_065_goal" formatted="false">Melalui 6 gerbang</string>
+  <string name="stage_065_special" formatted="false">Lampu kilat latar belakang menunjukkan urutan, digantikan dengan simbol statis ketika gerakan dikurangi. Bahaya hanya muncul setelah masa tunggu.</string>
+  <string name="stage_065_skill" formatted="false">Jangan mengulang string.</string>
+  <string name="stage_066_name" formatted="false">Koridor tekanan</string>
+  <string name="stage_066_goal" formatted="false">Hidup 75 detik</string>
+  <string name="stage_066_special" formatted="false">Area tekanan dibawa ke tengah dan kemudian tepinya dibuka; Perlu meninggalkan bagian tengah sebelum menutup, beri peringatan 2 detik.</string>
+  <string name="stage_066_skill" formatted="false">6 menghindar, jangan menggunakan dorongan hati.</string>
+  <string name="stage_067_name" formatted="false">Ubah angin untuk menyelamatkan kapal</string>
+  <string name="stage_067_goal" formatted="false">3 teman berarmor hidup selama 75 detik</string>
+  <string name="stage_067_special" formatted="false">Angin tidak mempengaruhi Anda; Antisipasi bebatuan yang melayang ke jalur Anda dan hancurkan terlebih dahulu dengan pulsa.</string>
+  <string name="stage_067_skill" formatted="false">Kamu tidak kehilangan armor karena batu yang hanyut ke samping.</string>
+  <string name="stage_068_name" formatted="false">Badai elektrostatis</string>
+  <string name="stage_068_goal" formatted="false">Hidup tahun 80an</string>
+  <string name="stage_068_special" formatted="false">Pemulihan normal 8 detik / pemulihan kunci 4 detik, masih menerima baterai. HUD dengan jelas menyatakan terkunci. Memiliki baterai opsional memberikan peluang yang cukup bagi bintang.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​​​pulsa, setiap pulsa menghancurkan ≥1 ancaman.</string>
+  <string name="stage_069_name" formatted="false">Enam detak sebelum fajar</string>
+  <string name="stage_069_goal" formatted="false">Melalui 6 port, terima 2 sinyal</string>
+  <string name="stage_069_special" formatted="false">Laporkan contoh slot terlebih dahulu; sinyal istirahat berdetak 2 dan 5. Ingatlah istirahat untuk menerima, bukan sekedar mengejar gerbang.</string>
+  <string name="stage_069_skill" formatted="false">Menerima dua sinyal untuk pertama kalinya.</string>
+  <string name="stage_070_name" formatted="false">Dewa badai</string>
+  <string name="stage_070_goal" formatted="false">Hancurkan 4 inti</string>
+  <string name="stage_070_special" formatted="false">Angin kiri, angin kanan, pusat badai, hujan deras dalam empat fase. Dengan inti terbuka, kecepatan angin dikurangi hingga 25%.</string>
+  <string name="stage_070_skill" formatted="false">Tidak terdorong ke tepi oleh angin.</string>
+  <string name="stage_071_name" formatted="false">skuadron berbentuk V</string>
+  <string name="stage_071_goal" formatted="false">Hidup tahun 70an</string>
+  <string name="stage_071_special" formatted="false">Pulsa memutus tombol di tengah huruf V untuk membuka pintasan; atau melampaui sayap lebih jauh tetapi tanpa memerlukan denyut nadi.</string>
+  <string name="stage_071_skill" formatted="false">Hancurkan 3 tombol di tengah skuad.</string>
+  <string name="stage_072_name" formatted="false">Kunci jalur lama</string>
+  <string name="stage_072_goal" formatted="false">Hidup 75 detik</string>
+  <string name="stage_072_special" formatted="false">Drone menandai jalur dan kemudian menembak setelah 1,8 detik; Arahkan peluru ke jalur lama dan ubah secara ritmis.</string>
+  <string name="stage_072_skill" formatted="false">Memimpin 6 seri ke jalur kosong yang sama.</string>
+  <string name="stage_073_name" formatted="false">Persediaan dikelilingi</string>
+  <string name="stage_073_goal" formatted="false">Kumpulkan 3 paket</string>
+  <string name="stage_073_special" formatted="false">Setiap paket terdapat 2 drone untuk menjaga dan memilih pulsa atau slot kecil sesuai dengan kapalnya. Ada 5 paket, pintu masuk tidak dikunci.</string>
+  <string name="stage_073_skill" formatted="false">Kumpulkan secukupnya tanpa merusak drone pengintai.</string>
+  <string name="stage_074_name" formatted="false">Serangan pengalih perhatian</string>
+  <string name="stage_074_goal" formatted="false">Melalui 5 gerbang nyata</string>
+  <string name="stage_074_special" formatted="false">Hidung palsu dengan garis patah tidak menyebabkan kerusakan; Gerbang nyata setelah pukulan lambat. Hukum diversi diajarkan, bukan notifikasi sistem palsu.</string>
+  <string name="stage_074_skill" formatted="false">Jangan beralih ke jalur umpan.</string>
+  <string name="stage_075_name" formatted="false">Hancurkan lapisan penjaga</string>
+  <string name="stage_075_goal" formatted="false">Hancurkan 3 tombol keamanan</string>
+  <string name="stage_075_special" formatted="false">Tombol mencapai rentang pulsa pada waktu yang berbeda; Terdapat titik potong yang cukup untuk mematikan 2 node dengan satu pulsa. Baterai tugas yang cukup.</string>
+  <string name="stage_075_skill" formatted="false">Sebuah pulsa mematikan 2 node di persimpangan.</string>
+  <string name="stage_076_name" formatted="false">Mundurnya konvoi</string>
+  <string name="stage_076_goal" formatted="false">Anda melewati 4 gerbang</string>
+  <string name="stage_076_special" formatted="false">Musuh menghalangi rute masa depanmu. Berubahlah lebih awal agar teman Anda dapat mengikuti; Setiap port memiliki 2 jalur keluar yang valid.</string>
+  <string name="stage_076_skill" formatted="false">Kamu cukup melewati gerbang tanpa kehilangan armor.</string>
+  <string name="stage_077_name" formatted="false">Pengepungan dua rentang</string>
+  <string name="stage_077_goal" formatted="false">Hidup tahun 80an</string>
+  <string name="stage_077_special" formatted="false">Loop hanya ditutup pada bagian atas; Pintu keluar bergiliran di pinggir/tengah, bukan di barisan kereta.</string>
+  <string name="stage_077_skill" formatted="false">Keluar 4 putaran tanpa pulsa.</string>
+  <string name="stage_078_name" formatted="false">Depot bahan bakar musuh</string>
+  <string name="stage_078_goal" formatted="false">Kumpulkan 3 crores, hancurkan 2 gudang</string>
+  <string name="stage_078_special" formatted="false">Menghancurkan gudang mengurangi tekanan tetapi perlu menghemat energi untuk ketukan berikutnya. Gudang hanya dihitung ketika dihancurkan, tidak hilang dari layar.</string>
+  <string name="stage_078_skill" formatted="false">Benar 2 pulsa untuk 2 gudang, tidak ada kelebihan press.</string>
+  <string name="stage_079_name" formatted="false">Tim berburu bergilir</string>
+  <string name="stage_079_goal" formatted="false">Hidup 85an</string>
+  <string name="stage_079_special" formatted="false">Ganti peran setiap 15 detik untuk memblokir jalur/penjaga/sapuan; Maksimal 2 peran sekaligus.</string>
+  <string name="stage_079_skill" formatted="false">Raih kombo 6.</string>
+  <string name="stage_080_name" formatted="false">Unggulan Hitam Vu</string>
+  <string name="stage_080_goal" formatted="false">Hancurkan 5 crores</string>
+  <string name="stage_080_special" formatted="false">Lewati kunci jalur agar penjaganya terpisah dan mengekspos intinya. Dua fase terakhir berbentuk V/escape loop; Baterai mencakup setiap fase secara terpisah.</string>
+  <string name="stage_080_skill" formatted="false">Tidak ada denyut saat pelindung inti ditutup.</string>
+  <string name="stage_081_name" formatted="false">Jejak masa depan</string>
+  <string name="stage_081_goal" formatted="false">Hidup 75 detik</string>
+  <string name="stage_081_special" formatted="false">Laporkan tujuan tendangan 2 detik sebelumnya dan kemudian tendang sesuai prediksi. Baca masa depan daripada hanya melihat masa kini.</string>
+  <string name="stage_081_skill" formatted="false">Melalui 6 slot, diperkirakan tidak ada pulsa.</string>
+  <string name="stage_082_name" formatted="false">Aliran lambat</string>
+  <string name="stage_082_goal" formatted="false">Melalui 5 gerbang</string>
+  <string name="stage_082_special" formatted="false">Setiap jalur mempunyai kecepatan objek yang berbeda; Kereta/jam tidak lambat. Bandingkan waktu kedatangan kereta, bukan jarak.</string>
+  <string name="stage_082_skill" formatted="false">Melalui semua 5 pembukaan.</string>
+  <string name="stage_083_name" formatted="false">Sekali lagi</string>
+  <string name="stage_083_goal" formatted="false">Hidup tahun 80an</string>
+  <string name="stage_083_special" formatted="false">Simbol batu bergerak mundur dan kemudian jatuh kembali tepat satu kali; Jaga agar ID/dodge flag tetap dekat, jangan memberi hadiah dua kali.</string>
+  <string name="stage_083_skill" formatted="false">4 menghindari 4 ID setelah mundur.</string>
+  <string name="stage_084_name" formatted="false">Gerbang dua kali</string>
+  <string name="stage_084_goal" formatted="false">Melalui port 4 fasa</string>
+  <string name="stage_084_special" formatted="false">Pintu pertama sempit, pintu belakang lebar. Pilih untuk pergi lebih awal untuk mengambil keuntungan atau menunggu agar lebih aman; jangan mengubah posisi pintu secara acak.</string>
+  <string name="stage_084_skill" formatted="false">Melalui ≥3 gerbang pada gerbang pertama.</string>
+  <string name="stage_085_name" formatted="false">Paketnya stasioner</string>
+  <string name="stage_085_goal" formatted="false">Kumpulkan 4 paket</string>
+  <string name="stage_085_special" formatted="false">Sue berhenti y=560 lalu melanjutkan menghitung mundur; Jangan mengambil sebelum mencapai jalur kereta. Ada 6 peluang.</string>
+  <string name="stage_085_skill" formatted="false">Jangan lewatkan 4 paket pertama.</string>
+  <string name="stage_086_name" formatted="false">Sinyal mundur</string>
+  <string name="stage_086_goal" formatted="false">Melalui 5 port dalam rantai terbalik</string>
+  <string name="stage_086_special" formatted="false">Tampilkan string dengan label “urutan terbalik” sebelum memulai; memiliki dukungan untuk membaca ulang perintah eksekusi.</string>
+  <string name="stage_086_skill" formatted="false">Jangan ulangi.</string>
+  <string name="stage_087_name" formatted="false">Bayanganku sendiri</string>
+  <string name="stage_087_goal" formatted="false">Hidup 85an</string>
+  <string name="stage_087_special" formatted="false">Bola mencatat jalur 3 detik sebelum menunjukkan posisi menembak yang akan datang; Bola tidak bertabrakan. Tinggalkan jalur lama daripada mengikuti bola.</string>
+  <string name="stage_087_skill" formatted="false">6 tembakan bola tidak mengenai kapal.</string>
+  <string name="stage_088_name" formatted="false">Pembekuan terbatas</string>
+  <string name="stage_088_goal" formatted="false">Matikan pemancar 3 kali</string>
+  <string name="stage_088_special" formatted="false">Pulsa penutup hanya menghentikan peluru, tidak menambah target; tunggu pintu inti. Sematkan jumlah yang benar dan ulangi kesalahannya.</string>
+  <string name="stage_088_skill" formatted="false">Koreksi 3 pulsa dari 3 set.</string>
+  <string name="stage_089_name" formatted="false">Sekarang titik pertemuannya</string>
+  <string name="stage_089_goal" formatted="false">Anda memiliki 3 tanda zodiak yang hidup</string>
+  <string name="stage_089_special" formatted="false">Anda mengikuti secara real time, mengancam akan melintasi zona cepat/lambat. Garis prediksi membantu Anda melihat objek mana yang akan mencapai Anda terlebih dahulu.</string>
+  <string name="stage_089_skill" formatted="false">Tidak ada ancaman dari zona cepat yang menghubungi Anda.</string>
+  <string name="stage_090_name" formatted="false">Penjaga jaga</string>
+  <string name="stage_090_goal" formatted="false">Hancurkan 5 crores</string>
+  <string name="stage_090_special" formatted="false">Lima fase: prakiraan, berhenti, mundur tunggal, dua jendela, urutan mundur. Hanya memulihkan posisi, tidak memulihkan kesehatan bos yang hilang.</string>
+  <string name="stage_090_skill" formatted="false">Jangan berdenyut tanpa membuka inti.</string>
+  <string name="stage_091_name" formatted="false">Tiga jalan terakhir</string>
+  <string name="stage_091_goal" formatted="false">Melalui 6 gerbang dalam satu jalur</string>
+  <string name="stage_091_special" formatted="false">Sebelum layar, pilih rute lebar dengan persediaan sedikit / banyak baterai / hindari jarak dekat. Menuju tujuan yang sama, setiap rute memiliki gerbang bantuan yang dapat diubah jika diperlukan.</string>
+  <string name="stage_091_skill" formatted="false">Jangan mengubah rute menggunakan gerbang bantuan.</string>
+  <string name="stage_092_name" formatted="false">Pulsa atau perisai</string>
+  <string name="stage_092_goal" formatted="false">Hidup tahun 85an</string>
+  <string name="stage_092_special" formatted="false">3 stasiun memungkinkan Anda memilih baterai atau pelindung berdasarkan jalur, bukan keduanya. Pola berikut memiliki dua solusi yang sesuai.</string>
+  <string name="stage_092_skill" formatted="false">Jangan memilih tipe yang sama di ketiga stasiun.</string>
+  <string name="stage_093_name" formatted="false">Bawa orang terakhir kembali</string>
+  <string name="stage_093_goal" formatted="false">Anda tinggal, simpan 2 kompartemen</string>
+  <string name="stage_093_special" formatted="false">Jalan menuju penyelamatan memotong jalan untuk melindungi Anda; Miliki baterai sebelum pengiriman untuk denyut nadi umum yang berbahaya.</string>
+  <string name="stage_093_skill" formatted="false">Kamu tidak kehilangan armor dalam dua penyelamatan.</string>
+  <string name="stage_094_name" formatted="false">Koridor empat musim</string>
+  <string name="stage_094_goal" formatted="false">Melalui 8 gerbang</string>
+  <string name="stage_094_special" formatted="false">Empat bagian normal → angin → es → pemuatan terlarang, setiap bagian memiliki 2 port. Di tengah netralisasi selama 3 detik, jangan menambah drift melebihi batas.</string>
+  <string name="stage_094_skill" formatted="false">Lulus semua 8 percobaan pembukaan.</string>
+  <string name="stage_095_name" formatted="false">Sabuk serangan balik</string>
+  <string name="stage_095_goal" formatted="false">Hidup selama 90 detik, hancurkan 4 cluster target</string>
+  <string name="stage_095_special" formatted="false">Menendang seringkali menimbulkan tekanan; Cluster memiliki perisai yang terbuka seirama, denyut nadi harus dicadangkan pada waktu yang tepat. Ada 6 jendela target.</string>
+  <string name="stage_095_skill" formatted="false">Jangan hancurkan cluster pseudo-frame yang putus-putus.</string>
+  <string name="stage_096_name" formatted="false">Seleksi percontohan</string>
+  <string name="stage_096_goal" formatted="false">Kumpulkan 3 kunci, lewati gerbang terakhir</string>
+  <string name="stage_096_special" formatted="false">Setiap kunci memiliki cabang sempit untuk menampung kombo atau cabang lebar untuk memuat. Pilihan tersebut mempengaruhi fase selanjutnya tetapi tidak menghalangi kemungkinan untuk menang.</string>
+  <string name="stage_096_skill" formatted="false">Jangan gunakan stasiun pengisian bantuan.</string>
+  <string name="stage_097_name" formatted="false">Jalur Nova</string>
+  <string name="stage_097_goal" formatted="false">Stasiun 5 baju besi aktif</string>
+  <string name="stage_097_special" formatted="false">Prioritas serangan 3 jalur berubah sesuai sinyal; Ada jeda setelah gelombang besar untuk memutar posisi. Jangan berasumsi sudah ada kapal mahal.</string>
+  <string name="stage_097_skill" formatted="false">Stasiun mempunyai sisa armor ≥4/5.</string>
+  <string name="stage_098_name" formatted="false">Perjalanan dipelajari</string>
+  <string name="stage_098_goal" formatted="false">Jalani 5 paragraf</string>
+  <string name="stage_098_special" formatted="false">Contoh bab 2, 3, 5, 7, 9; diumumkan sebelumnya, setiap persimpangan memiliki aturan transfer yang jelas.</string>
+  <string name="stage_098_skill" formatted="false">Tidak ada port pengulangan/bantuan.</string>
+  <string name="stage_099_name" formatted="false">Pintu fajar</string>
+  <string name="stage_099_goal" formatted="false">Melalui 6 port, matikan 2 kunci inti</string>
+  <string name="stage_099_special" formatted="false">Gerbang posisi interlocking pulsa; tingkat baterai sebelum mengunci. Jika digunakan secara tidak sengaja, ada cincin isi ulang yang lega, tidak terkunci.</string>
+  <string name="stage_099_skill" formatted="false">Selesai sebelum 85 detik, jangan gunakan cincin penyelamat.</string>
+  <string name="stage_100_name" formatted="false">Hati meteor</string>
+  <string name="stage_100_goal" formatted="false">Hancurkan 6 inti</string>
+  <string name="stage_100_special" formatted="false">Tiga putaran, masing-masing putaran 2 inti: batu/gerbang; perlindungan/angin; pembukaan waktu/armor. Istirahat 5 detik di antaranya, pulihkan 1 level armor/energi. Fase terminal maksimum 2 mekanisme yang diketahui.</string>
+  <string name="stage_100_skill" formatted="false">Thang belum mengaktifkan pemicu penyelamat jiwa atau port bantuan; Tidak perlu memiliki Sentinel.</string>
+  <string name="chapter_01" formatted="false">Bintang Ben: pemilik kapalnya</string>
+  <string name="chapter_02" formatted="false">Sabuk batu: baca rutenya</string>
+  <string name="chapter_03" formatted="false">Wilayah elektromagnetik: menggunakan dan menahan energi</string>
+  <string name="chapter_04" formatted="false">Kereta yang hilang: perlindungan dan prioritas</string>
+  <string name="chapter_05" formatted="false">Nebula es: inersia utama</string>
+  <string name="chapter_06" formatted="false">Reruntuhan mekanis: pembacaan dan penguraian kode mesin</string>
+  <string name="chapter_07" formatted="false">Badai luar angkasa: adaptasi lingkungan</string>
+  <string name="chapter_08" formatted="false">Armada Gelap: refleks taktis</string>
+  <string name="chapter_09" formatted="false">Time Rift: baca aturan perubahan</string>
+  <string name="chapter_10" formatted="false">Pusat meteor: sintesis dan seleksi</string>
+  <string name="ship_s01_body" formatted="false">Saldo, tidak ada aturan sekunder; Verifikasi standar setiap layar. Trade-off: Tidak ada spesialisasi.</string>
+  <string name="ship_s02_body" formatted="false">Pindah jalur cepat, bodi kecil. Imbalannya: Lebih sedikit baju besi.</string>
+  <string name="ship_s03_body" formatted="false">Mengalami banyak tabrakan aneh. Pengorbanannya: Pemuatan besar, lambat, lambat.</string>
+  <string name="ship_s04_body" formatted="false">Serap item opsional dalam 45 unit di sekitar barisan kapal. Pengorbanannya: Tidak ada penyedotan/pelabuhan paksa; badan besar.</string>
+  <string name="ship_s05_body" formatted="false">Pengisian pasif cepat. Pengorbanannya: Armor rendah; Baterai biasanya hanya diisi 15, bukan 20.</string>
+  <string name="ship_s06_body" formatted="false">Melindungi item selama 2 detik tambahan. Trade-off: Pulsa dasar hanya radius 160.</string>
+  <string name="ship_s07_body" formatted="false">Setelah menghindar, mengurangi penyimpangan lingkungan sebesar 50% selama 1 detik. Trade-off: jendela kombo dasar 4 detik.</string>
+  <string name="ship_s08_body" formatted="false">Setiap 25 detik, memulihkan 1 armor jika hilang; Maksimum 2 kali/level, 3 kali/tak terbatas. Trade-off: Item pemulihan armor tidak dapat diisi ulang.</string>
+  <string name="ship_s09_body" formatted="false">Dorongan tersebut mendorong batuan yang biasanya tidak pecah sejauh 30 unit jika masih ada jalan keluar. Trade-off: Perlindungan pasca-impuls hanya 0,45 detik.</string>
+  <string name="ship_s10_body" formatted="false">Sekali/level mencegah serangan kritis, 1 armor tersisa, kekebalan selama 1 detik. Trade-off: Tidak mencegah kerugian akibat pengawalan/kedaluwarsa; Tidak menumpuk kebangkitan.</string>
+  <string name="ship_s11_body" formatted="false">Pertama kali mengambil item setiap 15 detik menambah 8 energi. Trade-off: Base slow lebih pendek 1 detik.</string>
+  <string name="ship_s12_body" formatted="false">Sebelum stage pilih +1 armor **atau** +30 pulse radius. Trade-off: Konfigurasi armor: kecepatan dikurangi menjadi 680; Konfigurasi pulsa: pulihkan NL ke 2.6.</string>
+  <string name="campaign" formatted="false">Perjalanan 100 tahap</string>
+  <string name="campaign_continue" formatted="false">Lanjutkan perjalananmu</string>
+  <string name="fleet" formatted="false">Galangan Kapal</string>
+  <string name="stage" formatted="false">Layar</string>
+  <string name="chapter" formatted="false">Bab</string>
+  <string name="stars" formatted="false">Mengapa</string>
+  <string name="stage_ready" formatted="false">Persiapan penerbangan</string>
+  <string name="stage_goal" formatted="false">Tujuan utama</string>
+  <string name="stage_special" formatted="false">Poin spesial</string>
+  <string name="stage_skill" formatted="false">Keterampilan bintang</string>
+  <string name="stage_damage" formatted="false">Mengapa mempertahankan kapal: berapa kali kapal kehilangan armor tidak terlalu banyak</string>
+  <string name="stage_play" formatted="false">Mulai panggung</string>
+  <string name="stage_map" formatted="false">Peta</string>
+  <string name="stage_next" formatted="false">Tahap selanjutnya</string>
+  <string name="stage_retry" formatted="false">Coba level ini lagi</string>
+  <string name="stage_victory" formatted="false">TINDAKAN SELESAI</string>
+  <string name="stage_defeat" formatted="false">BELUM LULUS KURVA</string>
+  <string name="stage_locked" formatted="false">Harus melewati levelnya terlebih dahulu</string>
+  <string name="stage_complete" formatted="false">Selesai</string>
+  <string name="stage_first" formatted="false">Bonus kemenangan pertama</string>
+  <string name="stage_star_reward" formatted="false">Bonus bintang baru</string>
+  <string name="stage_boss_reward" formatted="false">Hadiahi gerbangnya</string>
+  <string name="stage_chapter_reward" formatted="false">Bab bonus</string>
+  <string name="ship_owned" formatted="false">Dimiliki</string>
+  <string name="ship_equipped" formatted="false">Sedang digunakan</string>
+  <string name="ship_equip" formatted="false">Peralatan</string>
+  <string name="ship_buy" formatted="false">Beli kapal</string>
+  <string name="ship_speed" formatted="false">Kecepatan horisontal</string>
+  <string name="ship_radius" formatted="false">Radius tabrakan</string>
+  <string name="ship_energy" formatted="false">Pemulihan energi setiap detik</string>
+  <string name="ship_choose" formatted="false">Pilih kereta</string>
+  <string name="account_upgrades" formatted="false">Tingkatkan akun Anda</string>
+  <string name="practice" formatted="false">Latihan</string>
+  <string name="practice_note" formatted="false">Berlatih tanpa membuka, tanpa menerima uang atau apapun.</string>
+  <string name="practice_active" formatted="false">DALAM PRAKTIK — TANPA HADIAH</string>
+  <string name="route" formatted="false">Rute</string>
+  <string name="route_safe" formatted="false">Jalan lebar</string>
+  <string name="route_energy" formatted="false">Jalur energi</string>
+  <string name="route_risk" formatted="false">Tutup menghindar</string>
+  <string name="astra_armor" formatted="false">Konfigurasi armor</string>
+  <string name="astra_pulse" formatted="false">Konfigurasi pulsa</string>
+  <string name="goal_gate" formatted="false">Gerbang</string>
+  <string name="cargo" formatted="false">Tuntut misinya</string>
+  <string name="nodes" formatted="false">Tombol aktivasi</string>
+  <string name="cores" formatted="false">Bos inti</string>
+  <string name="ally" formatted="false">Sekutu</string>
+  <string name="station" formatted="false">Stasiun pertahanan</string>
+  <string name="time_left" formatted="false">Kiri</string>
+  <string name="boss_open" formatted="false">INTI TERBUKA — PULSA DALAM JANGKAUAN</string>
+  <string name="boss_closed" formatted="false">TUNGGU INTI TERBUKA</string>
+  <string name="memory" formatted="false">Rangkaian port</string>
+  <string name="memory_hint" formatted="false">Ulangi stringnya</string>
+  <string name="defeat_armor" formatted="false">Kehabisan baju besi</string>
+  <string name="defeat_ally" formatted="false">Sekutu hancur</string>
+  <string name="defeat_station" formatted="false">Stasiun hancur</string>
+  <string name="defeat_timeout" formatted="false">Batas waktu target telah habis</string>
+  <string name="sensitivity" formatted="false">Sensitivitas tarikan</string>
+  <string name="campaign_finished" formatted="false">Menyelesaikan 100 level!</string>
+  <string name="ship_stats" formatted="false">Parameter pengiriman</string>
+  <string name="reward_base" formatted="false">Pra-kelangsungan hidup</string>
+  <string name="reward_total" formatted="false">Total kredit diterima</string>
+  <string name="save_before_next" formatted="false">Simpan hasilnya sebelum melanjutkan.</string>
+  <string name="star_damage_info" formatted="false">Mengapa pemeliharaan kapal hanya menghitung berapa kali kapal tersebut kehilangan lapis baja; Perbaikan tidak menghapus waktu yang hilang.</string>
+  <string name="practice_hint" formatted="false">Tarik untuk mengambil item, lewati gerbang yang benar dan gunakan pulsa saat inti terbuka.</string>
 </resources>

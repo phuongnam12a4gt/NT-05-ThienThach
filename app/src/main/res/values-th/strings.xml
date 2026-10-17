@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">รอดชีวิตได้ 10 คะแนน/วินาที ไอเทมชิ้นละ 25 คะแนน ทุก 20 คะแนนสุดท้ายได้ 1 เครดิตอัปเกรด ยกเลิกเที่ยวบินไม่ได้รางวัล</string>
   <string name="help_accessibility" formatted="false">ต้องสังเกตและลากควบคุมแบบเรียลไทม์</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">รุ่น 1.3 / 20 ภาษา</string>
+  <string name="update_badge" formatted="false">2.0 / การเดินทาง 100 ด่าน</string>
   <string name="new_tagline" formatted="false">เฉียดอุกกาบาตเพื่อสะสมคอมโบ ใช้พัลส์หนีและทำลายสถิติ</string>
   <string name="pulse_ready" formatted="false">พัลส์</string>
   <string name="pulse_charging">พลังงาน %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">ตัวขยาย</string>
   <string name="daredevil_name" formatted="false">ใจกล้า</string>
   <string name="focus_name" formatted="false">สมาธิ</string>
+  <string name="stage_001_name" formatted="false">ถอดแล้ว</string>
+  <string name="stage_001_goal" formatted="false">ไลฟ์ 30 วิ</string>
+  <string name="stage_001_special" formatted="false">0–10 วินาที มีเพียงหินเล็กๆ เท่านั้นที่ตกลงมาตรงๆ ช่องว่างตรงกลาง 10–20 วินาที; 20–30 วินาที เปลี่ยนช่องเป็นทั้งสองด้าน คำแนะนำในการดึงตามการกระทำ</string>
+  <string name="stage_001_skill" formatted="false">ปฏิบัติตามคำแนะนำด้านความปลอดภัยทั้ง 3 ข้อ</string>
+  <string name="stage_002_name" formatted="false">สามทางกลับครับ</string>
+  <string name="stage_002_goal" formatted="false">ผ่าน 3 ประตู</string>
+  <string name="stage_002_special" formatted="false">ประตูเปิดซ้าย-กลาง-ขวา ทุก 8 วินาที; ประตูพลาดซ้ำหลังจาก 4 วินาที เน้นเก็บสถานที่ไม่เพิ่มลูกเห็บ</string>
+  <string name="stage_002_skill" formatted="false">อย่าพลาดการเปิดประตู</string>
+  <string name="stage_003_name" formatted="false">เติมเสบียงครั้งแรก</string>
+  <string name="stage_003_goal" formatted="false">สะสมครบ 2 แพ็คเกจ</string>
+  <string name="stage_003_special" formatted="false">4 แพ็กเกจ สองเส้นทางสลับกัน หินไม่ครอบครองเส้นกระบะในหน้าต่างแนะนำ</string>
+  <string name="stage_003_skill" formatted="false">จบด้วยเกราะสูงสุดเต็มๆ</string>
+  <string name="stage_004_name" formatted="false">จังหวะซ้าย-ขวา</string>
+  <string name="stage_004_goal" formatted="false">สด 35ส</string>
+  <string name="stage_004_special" formatted="false">แถวหินมีช่องเปลี่ยนซ้าย/ขวาตามจังหวะ มีที่ว่างให้หันหลังกลับ ยืนตรงกลาง ก็ไม่ปลอดภัยเสมอไป</string>
+  <string name="stage_004_skill" formatted="false">ผ่านช่องกลางทั้ง 4 ช่อง ทำเครื่องหมายจังหวะให้ถูกต้อง</string>
+  <string name="stage_005_name" formatted="false">Pulse เปิดทาง</string>
+  <string name="stage_005_goal" formatted="false">ปิด 2 กลุ่มเหมือง</string>
+  <string name="stage_005_special" formatted="false">คลัสเตอร์ลง y=560 กำหนด PIN ของงานก่อนแต่ละคลัสเตอร์ คลิกก่อนเพื่อรับการแจ้งเตือนและทำซ้ำอย่างปลอดภัย</string>
+  <string name="stage_005_skill" formatted="false">แต่ละคลัสเตอร์ถูกปิดโดยสมบูรณ์ด้วยหนึ่งพัลส์</string>
+  <string name="stage_006_name" formatted="false">ระยะห่างปีกเดียว</string>
+  <string name="stage_006_goal" formatted="false">2 การหลบที่ถูกต้อง</string>
+  <string name="stage_006_special" formatted="false">ตัวอย่างเส้นทางหินเล็กๆ สองเส้นทาง แสดงพื้นที่ฝึกซ้อม อย่างน้อย 8 โอกาส การชนกันไม่เพิ่มไปยังเป้าหมาย</string>
+  <string name="stage_006_skill" formatted="false">เชื่อมต่อ 2 หลบปิด 5 วินาที บรรลุคอมโบ 2</string>
+  <string name="stage_007_name" formatted="false">เกราะพลังงาน</string>
+  <string name="stage_007_goal" formatted="false">สด 40s</string>
+  <string name="stage_007_special" formatted="false">กระบังหน้ามีสองส่วนแคบ; ยังคงมีเส้นด้านนอกที่กว้างดังนั้นคุณไม่จำเป็นต้องตี</string>
+  <string name="stage_007_skill" formatted="false">โล่บล็อกครั้งเดียวไม่เสียเกราะ</string>
+  <string name="stage_008_name" formatted="false">ช้าลงหนึ่งวินาที</string>
+  <string name="stage_008_goal" formatted="false">ผ่าน 4 ประตู</string>
+  <string name="stage_008_special" formatted="false">ประตูกราฟต์ช้า; แสดงว่ารายการไม่ทำให้นาฬิกาเป้าหมายช้าลง มีเส้นทางที่ไม่ต้องหยิบขึ้นมาเพื่อชะลอความเร็ว</string>
+  <string name="stage_008_skill" formatted="false">รับของช้า 2 รายการที่มี ID ต่างกัน</string>
+  <string name="stage_009_name" formatted="false">ทดสอบนักบิน</string>
+  <string name="stage_009_goal" formatted="false">เก็บ 2 ก้อน ผ่าน 3 ประตู</string>
+  <string name="stage_009_special" formatted="false">สามขั้นตอน: รวบรวม เปลี่ยนเลน กดชีพจรเพื่อเปิดเส้นทางสุดท้าย รับทราบเป้าหมายทั้งสองพร้อมกัน</string>
+  <string name="stage_009_skill" formatted="false">หลบอย่างน้อย 3 ตัวใกล้กับประตูสุดท้าย</string>
+  <string name="stage_010_name" formatted="false">คนเฝ้าท่าเรือ</string>
+  <string name="stage_010_goal" formatted="false">แตก 2 คอร์ครับ</string>
+  <string name="stage_010_special" formatted="false">เฟส 1 เหลือสองคอลัมน์ตรงกลาง ผสมช่อง 2 ช่องไว้ด้านข้างแล้วลดแกนลง แยกพิน/หน้าต่างสำหรับแต่ละคอร์</string>
+  <string name="stage_010_skill" formatted="false">ทำลายแต่ละคอร์ที่จุดเริ่มต้นของเฟส</string>
+  <string name="stage_011_name" formatted="false">ก้างปลา</string>
+  <string name="stage_011_goal" formatted="false">สด 40s</string>
+  <string name="stage_011_special" formatted="false">สองกิ่งในแนวทแยงสร้างกรีดก้างปลา เปลี่ยนทิศทางหลังจากแต่ละคู่โดยมีเส้นตรงแสดงการเลี้ยว</string>
+  <string name="stage_011_skill" formatted="false">ผ่านช่องกลาง 5 ช่องที่ทำเครื่องหมายไว้</string>
+  <string name="stage_012_name" formatted="false">บันไดลอย</string>
+  <string name="stage_012_goal" formatted="false">ผ่าน 4 ประตู</string>
+  <string name="stage_012_special" formatted="false">ซ้าย → ซ้ายเล็กน้อย → ขวาเล็กน้อย → ขวา; สอนแปลเล็กๆอย่างต่อเนื่อง พลาดการวนกลับพอร์ตปัจจุบัน</string>
+  <string name="stage_012_skill" formatted="false">ห้ามใช้พัลส์</string>
+  <string name="stage_013_name" formatted="false">กรรไกร</string>
+  <string name="stage_013_goal" formatted="false">สด 45ส</string>
+  <string name="stage_013_special" formatted="false">เส้นทแยงมุม 2 เส้นตัดกันแต่ไปไม่ถึงแนวรถไฟฟ้าพร้อมกัน คำเตือนการเรียงลำดับบรรทัดมาก่อน</string>
+  <string name="stage_013_skill" formatted="false">4 หลบจากอย่างน้อย 2 บรรทัด</string>
+  <string name="stage_014_name" formatted="false">ซอยเปลี่ยนทิศ</string>
+  <string name="stage_014_goal" formatted="false">ผ่าน 5 ประตู</string>
+  <string name="stage_014_special" formatted="false">ทางเดินเปลี่ยนทิศทางด้วยลูกศร รักษาโมเมนตัมของเรือ ประตู 3 มีช่วงพักเพื่อเรียนรู้ที่จะเลี้ยว</string>
+  <string name="stage_014_skill" formatted="false">ผ่านทั้ง 5 ในความพยายามเปิด</string>
+  <string name="stage_015_name" formatted="false">หินแฝด</string>
+  <string name="stage_015_goal" formatted="false">สด 45ส</string>
+  <string name="stage_015_special" formatted="false">แต่ละคู่เตะช้าตามด้วยการเตะเร็ว หลีกเลี่ยงช่องว่างปลอมหลังจากเตะครั้งแรก</string>
+  <string name="stage_015_skill" formatted="false">หลีกเลี่ยงความเร็วแต่ละประเภทอย่างน้อยสองครั้ง</string>
+  <string name="stage_016_name" formatted="false">เสี้ยว</string>
+  <string name="stage_016_goal" formatted="false">รวบรวมชิ้นส่วนแผนที่ให้ครบ 3 ชิ้น</string>
+  <string name="stage_016_special" formatted="false">เตะโค้ง; รายการอยู่ในบริเวณเว้าที่ปลอดภัยแล้วเปลี่ยนเป็นส่วนโค้งตรงข้าม มีโอกาส 6 ครั้ง</string>
+  <string name="stage_016_skill" formatted="false">สะสม 3 ชิ้นใน 3 โอกาสแรก</string>
+  <string name="stage_017_name" formatted="false">จังหวะคู่</string>
+  <string name="stage_017_goal" formatted="false">สด 50s</string>
+  <string name="stage_017_special" formatted="false">สองแถวสั้นๆ แล้วก็พักยาว; ในตอนท้ายของเวที เปลี่ยนสามแถวเพื่อหลีกเลี่ยงหินเข้าไปในเรือกะทันหัน</string>
+  <string name="stage_017_skill" formatted="false">หนึ่งชีพจรทำลายหินอย่างน้อย 4 ก้อน</string>
+  <string name="stage_018_name" formatted="false">วงโคจรดาวเทียม</string>
+  <string name="stage_018_goal" formatted="false">ผ่าน 4 ประตู</string>
+  <string name="stage_018_special" formatted="false">หินขนาดเล็กหมุนรอบบล็อกขนาดใหญ่ ช่องวงโคจรทำนายตำแหน่งรับที่แถวเรือ</string>
+  <string name="stage_018_skill" formatted="false">ห้ามทำลายบล็อคกลาง</string>
+  <string name="stage_019_name" formatted="false">จุดตัดของความทะเยอทะยาน</string>
+  <string name="stage_019_goal" formatted="false">สด 55 วินาที สะสม 2 คอร์ส</string>
+  <string name="stage_019_special" formatted="false">ถนนกว้างมีน้อย ถนนแคบมีล็อค มีล็อคอยู่ 4 อัน จึงไม่ต้องใช้เส้นทางเสี่ยงทุกครั้ง</string>
+  <string name="stage_019_skill" formatted="false">สะสมให้ครบ 4 คอร์ส ก่อน 55 วินาที</string>
+  <string name="stage_020_name" formatted="false">เครื่องบดสายพาน</string>
+  <string name="stage_020_goal" formatted="false">แตก 3 คอร์</string>
+  <string name="stage_020_special" formatted="false">ปีกทั้งสองข้างกดเพื่อสร้างช่องแนวนอน หลังจากกดปีกข้างหนึ่งแล้ว มันก็หยุดเผยให้เห็นแกนกลาง ขั้นตอนสุดท้ายจะย้อนการสแกนพร้อมสัญญาณเตือน</string>
+  <string name="stage_020_skill" formatted="false">เรือไม่ถูกโจมตีด้วยทุ่นระเบิด</string>
+  <string name="stage_021_name" formatted="false">แบตอยู่กลางพายุ</string>
+  <string name="stage_021_goal" formatted="false">สะสมพินภารกิจ 3 อัน</string>
+  <string name="stage_021_special" formatted="false">หลังเสามีแบตเตอรี่ 5 ก้อน พร้อมช่อง; จะต้องรับตำแหน่งที่ถูกต้องแทนการส่งพัลส์อย่างต่อเนื่อง</string>
+  <string name="stage_021_skill" formatted="false">พลังงานไม่ลดลงต่ำกว่า 30</string>
+  <string name="stage_022_name" formatted="false">ไม่มีพื้นที่โหลด</string>
+  <string name="stage_022_goal" formatted="false">ผ่าน 4 ประตู</string>
+  <string name="stage_022_special" formatted="false">บริเวณแถบหยุดตอบสนอง พื้นที่สว่างชาร์จได้ตามปกติ พอร์ตสำรองบังคับให้ต้องเลือกว่าจะโหลดต่อหรือเปลี่ยนก่อน</string>
+  <string name="stage_022_skill" formatted="false">ผ่านประตูสุดท้ายด้วย NL ≥70</string>
+  <string name="stage_023_name" formatted="false">ฟิวส์</string>
+  <string name="stage_023_goal" formatted="false">ปิดปุ่มเพาเวอร์ 3 ปุ่ม</string>
+  <string name="stage_023_special" formatted="false">ปุ่มจะปิดภายในรัศมีชีพจรเท่านั้น มีแบตเตอรี่ 3 ก้อน ปุ่มที่ยังไม่ได้ปิดยังมีบายพาสและเทิร์นถัดไป</string>
+  <string name="stage_023_skill" formatted="false">ปิดทั้งหมด 3 เมื่อแหวนความปลอดภัยเปิดอยู่</string>
+  <string name="stage_024_name" formatted="false">สร้อย</string>
+  <string name="stage_024_goal" formatted="false">ผ่าน 5 ประตูตามลำดับ</string>
+  <string name="stage_024_special" formatted="false">พอร์ตมีตัวเลข/สัญลักษณ์ เฉพาะพอร์ตปัจจุบันเท่านั้นที่ได้รับความคืบหน้า การผ่านประตูอนาคตไม่ลบชีวิตไม่เพิ่มจำนวน</string>
+  <string name="stage_024_skill" formatted="false">อย่าผ่านประตูผิดลำดับ</string>
+  <string name="stage_025_name" formatted="false">เลือกที่จะชาร์จหรือหลบ</string>
+  <string name="stage_025_goal" formatted="false">สด 55ส</string>
+  <string name="stage_025_special" formatted="false">ทุก ๆ 10 วินาที หมุดจะอยู่ที่ขอบตรงข้ามของช่องถัดไป ประเมินตนเองว่ามีเวลาเพียงพอที่จะหมุนเวียนกลับหรือถอดแบตเตอรี่ออกหรือไม่ เส้นทางการถอดแบตเตอรี่มีอยู่เสมอ</string>
+  <string name="stage_025_skill" formatted="false">สะสมแบตเตอรี่ 3 ก้อนแล้วยังไปช่องถัดไป</string>
+  <string name="stage_026_name" formatted="false">ตัวเก็บประจุแบบเรโซแนนซ์</string>
+  <string name="stage_026_goal" formatted="false">เปิดใช้งาน 2 สถานีด้วย NL ≥80</string>
+  <string name="stage_026_special" formatted="false">ผ่านบริเวณสถานีระบายน้ำ 80NL; มีจุดเติม 100 แถวหน้าแต่ละสถานี พัลส์ไม่ได้แทนที่การทำงานของระบบสัมผัสของสถานี</string>
+  <string name="stage_026_skill" formatted="false">ทั้งสองสถานีรับเมื่ออินพุต NL ≥95</string>
+  <string name="stage_027_name" formatted="false">ฝนไอออน</string>
+  <string name="stage_027_goal" formatted="false">สด 55ส</string>
+  <string name="stage_027_special" formatted="false">เมฆไอออนจะหายเป็นปกติในเลนเดียว แต่หินจะไปถึงที่นั่นหลังจากได้รับคำเตือน การมีแบตเตอรี่อย่างน้อย 3 ก้อนมักจะทำให้เป้าหมายรองทำงานได้</string>
+  <string name="stage_027_skill" formatted="false">ส่งพัลส์ที่ถูกต้อง 3 อัน</string>
+  <string name="stage_028_name" formatted="false">หลอดตัวนำ</string>
+  <string name="stage_028_goal" formatted="false">สะสมลีดให้ครบ 4 ชิ้น</string>
+  <string name="stage_028_special" formatted="false">แผนที่ภารกิจจะเลื่อนไปทางซ้ายสุด/ขวาสุดเป็นวงกลม โดยมีเส้นทำนายจุดรับ มี 7 โอกาส</string>
+  <string name="stage_028_skill" formatted="false">สะสม 4 ชิ้นใน 4 โอกาสแรก</string>
+  <string name="stage_029_name" formatted="false">จองสุดถนน</string>
+  <string name="stage_029_goal" formatted="false">ผ่าน 3 พอร์ต ฝาก ≥70 เข้าพอร์ตสุดท้าย</string>
+  <string name="stage_029_special" formatted="false">สองพอร์ตแรกนั้นว่าง ต้นทุนประตูท้ายปรากฏตั้งแต่ต้น การชดเชยแบตเตอรี่จะวนซ้ำทุกๆ 8 วินาที หากไม่มี มีสายสแตนด์บาย</string>
+  <string name="stage_029_skill" formatted="false">ห้ามใช้การชดเชยแบตเตอรี่</string>
+  <string name="stage_030_name" formatted="false">แกนพายุไฟฟ้า</string>
+  <string name="stage_030_goal" formatted="false">แตก 3 คอร์ครับ</string>
+  <string name="stage_030_special" formatted="false">เสาสว่างทั้งสามผลัดกัน; ยืนที่ขั้วที่ถูกต้องเพื่อเปิดเกราะ จากนั้นใช้แบตเตอรี่บอส/พัลส์ ช่วงสุดท้ายไม่มีคูลดาวน์แต่ยังคงรับหมุดภารกิจได้</string>
+  <string name="stage_030_skill" formatted="false">เปิดทั้ง 3 เสาถูกต้องในครั้งแรก</string>
+  <string name="stage_031_name" formatted="false">สหาย</string>
+  <string name="stage_031_goal" formatted="false">พันธมิตรที่มีเกราะ 3 ชิ้นจะมีชีวิตอยู่เป็นเวลา 50 วินาที</string>
+  <string name="stage_031_special" formatted="false">คุณบินก่อน ให้สัญญาณเปลี่ยนเลน 2 วินาที; ผู้เล่นทำลายหินที่กำลังคุกคามด้วยพัลส์ 10 วินาทีแรกของความกดดันต่ำในการเรียนรู้</string>
+  <string name="stage_031_skill" formatted="false">พันธมิตรไม่เสียเกราะ</string>
+  <string name="stage_032_name" formatted="false">ทริปกู้ภัย สองทริป</string>
+  <string name="stage_032_goal" formatted="false">รับเรือชูชีพ 2 ลำ</string>
+  <string name="stage_032_special" formatted="false">กดจุดรับที่ถูกต้องเป็นเวลา 1 วินาที; ช่องมีการหยดและสัมผัสอย่างรวดเร็วหลายครั้งโดยไม่ต้องทำซ้ำ</string>
+  <string name="stage_032_skill" formatted="false">เสร็จก่อน 40 วินาที</string>
+  <string name="stage_033_name" formatted="false">เผชิญอันตราย</string>
+  <string name="stage_033_goal" formatted="false">เกราะสถานี 4 อยู่ได้ 55 วินาที</string>
+  <string name="stage_033_special" formatted="false">หินหล่นทับเส้นทำให้สถานีขาดเกราะ หินก้อนใหญ่ให้ความสำคัญกับสถานี หินก้อนเล็กให้ความสำคัญกับเส้นทางรถไฟ ระบุอันตรายที่ต้องป้องกัน</string>
+  <string name="stage_033_skill" formatted="false">ไม่มีหินใหญ่ผ่านไปได้</string>
+  <string name="stage_034_name" formatted="false">สินค้าแตกหักง่าย</string>
+  <string name="stage_034_goal" formatted="false">เรือบรรทุกสินค้าหุ้มเกราะ 2 ลำ 55s</string>
+  <string name="stage_034_special" formatted="false">รถไฟบรรทุกสินค้าไม่ค่อยเปลี่ยนช่องทาง โดรนที่เข้ามาสองระลอกจะมีแบตเตอรี่แบบพัลส์มาตามกำหนดเวลา</string>
+  <string name="stage_034_skill" formatted="false">ใช้ไม่เกิน 3 พัลส์</string>
+  <string name="stage_035_name" formatted="false">ไกด์</string>
+  <string name="stage_035_goal" formatted="false">นำคุณผ่าน 4 ประตู</string>
+  <string name="stage_035_special" formatted="false">คุณตามเลนผู้เล่นช้าไป 1.2 วินาที; จำเป็นต้องเปลี่ยนเร็ว ๆ นี้ เส้นประแสดงถึงความล่าช้า ไม่จำเป็นต้องใช้นิ้วควบคุมที่สอง</string>
+  <string name="stage_035_skill" formatted="false">คุณผ่านแต่ละประตู ความเยื้องศูนย์กลางของสล็อตคือ ≤20 หน่วย</string>
+  <string name="stage_036_name" formatted="false">แบ่งแหล่งบรรเทาทุกข์ออกครึ่งหนึ่ง</string>
+  <string name="stage_036_goal" formatted="false">สถานีมีชีวิตและจัดส่งพัสดุ 3 ชิ้น</string>
+  <string name="stage_036_special" formatted="false">แพ็คเกจสีเขียวกลับสถานี แพ็คเกจสีเหลืองให้เงินเสริม มีข้อเท็จจริงหลักทั้งหมด ช่วยเหลือสถานีสมดุลด้วยผลกำไร</string>
+  <string name="stage_036_skill" formatted="false">สถานีมีเกราะเหลืออย่างน้อย 3/4</string>
+  <string name="stage_037_name" formatted="false">ขบวนตามมา</string>
+  <string name="stage_037_goal" formatted="false">เรือทั้งสองลำยังมีชีวิตอยู่</string>
+  <string name="stage_037_special" formatted="false">เพื่อนคนก่อน/คนถัดไปอยู่บนเส้นทางเดียวกันแต่มีเวลาต่างกัน ภัยคุกคามมีคำเตือนระบุตัวตน แถบเกราะสองอันแยกกัน</string>
+  <string name="stage_037_skill" formatted="false">จะไม่มีใครเสียเกราะเกิน 1 อันหรอก</string>
+  <string name="stage_038_name" formatted="false">กู้ภัยกลางสายฝน</string>
+  <string name="stage_038_goal" formatted="false">สด 65 วินาที ประหยัด 3 ช่อง</string>
+  <string name="stage_038_special" formatted="false">รับช่องพักหลังฝนตก 5 กู้ภัย มีเลขกู้ภัยแล้ว ต้องใช้จังหวะพักในการรับ</string>
+  <string name="stage_038_skill" formatted="false">ห้ามเก็บทุ่นระเบิดที่ปลอมตัวเป็นสัญญาณเตือน</string>
+  <string name="stage_039_name" formatted="false">เหยื่อเจตนา</string>
+  <string name="stage_039_goal" formatted="false">คุณมีชีวิตอยู่ 65 วินาที</string>
+  <string name="stage_039_special" formatted="false">โดรนล็อคเลนเก่าของผู้เล่นเมื่อได้รับการแจ้งเตือนแล้วรีบวิ่ง; นำภัยคุกคามออกไปจากคุณและเดินหน้าต่อไปในเวลาที่เหมาะสม</string>
+  <string name="stage_039_skill" formatted="false">นำโดรน 4 ลำเข้าไปในเลนโดยไม่มีคุณ</string>
+  <string name="stage_040_name" formatted="false">ปล้นอวกาศ</string>
+  <string name="stage_040_goal" formatted="false">ทำลาย 3 แกน เรือสินค้ายังมีชีวิตอยู่</string>
+  <string name="stage_040_special" formatted="false">บอสเล็งผู้เล่น/เรือสลับกัน แต่ละซีรีย์จะมีสัญลักษณ์เป้าหมาย ปิดกั้นเป้าหมายเรือบรรทุกสินค้าเพื่อเปิดแกน</string>
+  <string name="stage_040_skill" formatted="false">เรือบรรทุกสินค้าเหลือเกราะ ≥2/3</string>
+  <string name="stage_041_name" formatted="false">น้ำแข็งบาง</string>
+  <string name="stage_041_goal" formatted="false">สด 55ส</string>
+  <string name="stage_041_special" formatted="false">มีเพียง 15–25 และ 35–45 เท่านั้นที่มีการเลื่อนหลุดเมื่อเปลี่ยนทิศทาง โซนเบรกสีเขียวก่อนเปลี่ยนเลน</string>
+  <string name="stage_041_skill" formatted="false">อย่าสัมผัสขอบทั้งสองด้านของเทป</string>
+  <string name="stage_042_name" formatted="false">เบรกหน้าประตู</string>
+  <string name="stage_042_goal" formatted="false">ผ่าน 4 ประตู</string>
+  <string name="stage_042_special" formatted="false">เมื่อผ่านประตู ความเร็วแนวนอนจะต้อง ≤120 หน่วย/วินาที มีมาตรวัดความเร็วสำหรับปรับเบรก พลาดตัวทวนพอร์ต</string>
+  <string name="stage_042_skill" formatted="false">ผ่านทั้ง 4 ในความพยายามเปิด</string>
+  <string name="stage_043_name" formatted="false">น้ำแข็งแตก</string>
+  <string name="stage_043_goal" formatted="false">สด 60s</string>
+  <string name="stage_043_special" formatted="false">น้ำแข็งแตกออกเป็น 2 ชิ้นหลังแนวรอยแตก อาจเต้นเป็นจังหวะก่อนจะแตก ชิ้นส่วนให้กำเนิดเพียงรุ่นเดียวเท่านั้น</string>
+  <string name="stage_043_skill" formatted="false">ทำลายบล็อกน้ำแข็ง 3 ก้อนก่อนที่จะแยกออก</string>
+  <string name="stage_044_name" formatted="false">น้ำอุ่น</string>
+  <string name="stage_044_goal" formatted="false">รวบรวมแกนระบายความร้อน 3 ตัว</string>
+  <string name="stage_044_special" formatted="false">แกนอยู่ในส่วนกันลื่นระหว่างสายพานลำเลียงทั้งสอง ได้โมเมนตัมแล้วเบรก มี 6 คอร์ตามตาราง</string>
+  <string name="stage_044_skill" formatted="false">สะสม 3 สิบล้านใน 3 โอกาสแรก</string>
+  <string name="stage_045_name" formatted="false">ลูกตุ้มเย็นจังเลย</string>
+  <string name="stage_045_goal" formatted="false">ผ่าน 5 ประตู</string>
+  <string name="stage_045_special" formatted="false">ประตูสวิงเฟส ตัวบ่งชี้จุดรับ; ทำนายตำแหน่งในอนาคตแทนที่จะไล่ตามจุดปัจจุบัน</string>
+  <string name="stage_045_skill" formatted="false">ห้ามใช้พัลส์</string>
+  <string name="stage_046_name" formatted="false">สไลด์ใต้โดม</string>
+  <string name="stage_046_goal" formatted="false">สด 65ส</string>
+  <string name="stage_046_special" formatted="false">ซุ้มหินช้าๆ มีทางเดินสั้นและมีวงแหวนรอบนอก หากลื่นมากเกินไปก็ชนขอบถนนสั้นได้ง่าย ยังมีเวลาเพียงพอสำหรับทางอ้อม</string>
+  <string name="stage_046_skill" formatted="false">ทำเครื่องหมายไว้สั้นๆ 3 บรรทัด</string>
+  <string name="stage_047_name" formatted="false">แบตเตอรี่บนสายพานลำเลียง</string>
+  <string name="stage_047_goal" formatted="false">โหลด 2 สถานี ผ่านประตูสุดท้าย</string>
+  <string name="stage_047_special" formatted="false">สายพานลำเลียงดันแบตเตอรี่ ไม่ใช่รถไฟ การคาดการณ์จุดรับและเส้นทางหยุดแยกการสังเกต/การควบคุม</string>
+  <string name="stage_047_skill" formatted="false">เติมเงิน 2 สถานีภายใน 50 วินาที</string>
+  <string name="stage_048_name" formatted="false">หมอกสะท้อน.</string>
+  <string name="stage_048_goal" formatted="false">สด 70s</string>
+  <string name="stage_048_special" formatted="false">บ่งบอกถึงห่วงโซ่สล็อต หมอกปกคลุมเฉพาะพื้นหลัง/การตกแต่ง ไม่ครอบคลุมฮิตบ็อกซ์/แถบคำเตือน ด้วยสัญลักษณ์ซ้ำๆ</string>
+  <string name="stage_048_skill" formatted="false">ผ่าน 6 ช่องโดยไม่ซ้ำ</string>
+  <string name="stage_049_name" formatted="false">รอยแตกร้าวกระจาย</string>
+  <string name="stage_049_goal" formatted="false">ผ่าน 6 ประตู</string>
+  <string name="stage_049_special" formatted="false">ผ่านแต่ละประตู เลนเก่าจะปิดหลังจากผ่านไป 2 วินาที จะต้องเปลี่ยนผ่าน โดยพื้นที่ใกล้จะปิด และทำเครื่องหมายพื้นที่ถัดไปแล้ว</string>
+  <string name="stage_049_skill" formatted="false">ห้ามกลับเลนเดิมภายใน 2 วินาทีหลังสัญญาณปิด</string>
+  <string name="stage_050_name" formatted="false">มังกรขาว</string>
+  <string name="stage_050_goal" formatted="false">แตก4คอร์ครับ</string>
+  <string name="stage_050_special" formatted="false">สองระยะแรกเป็นน้ำแข็งลอย สองขั้นตอนสุดท้ายเป็นส่วนโค้งน้ำแข็งที่กระจัดกระจาย แกนกลางเปิดอยู่ในโซนกันลื่นเพื่อให้เรือทุกลำเข้าถึงได้</string>
+  <string name="stage_050_skill" formatted="false">ไม่โดนเศษน้ำแข็งรอง</string>
+  <string name="stage_051_name" formatted="false">สวิทซ์โถงทางเดิน</string>
+  <string name="stage_051_goal" formatted="false">เปิดสวิตช์ 3 ตัวผ่านประตู</string>
+  <string name="stage_051_special" formatted="false">ลอดสวิตซ์แถวรถไฟเพื่อเปิดประตูหลังที่ถูกต้อง พลาดซ้ำได้แต่ไม่แพ้ทันที</string>
+  <string name="stage_051_skill" formatted="false">เปิดการเผชิญหน้าครั้งแรกทั้งหมด 3 ครั้ง</string>
+  <string name="stage_052_name" formatted="false">รหัสสามภาพ</string>
+  <string name="stage_052_goal" formatted="false">ใส่ชุดสัญลักษณ์ 3 ตัว</string>
+  <string name="stage_052_special" formatted="false">แสดงรูปสามเหลี่ยม–วงกลม–สี่เหลี่ยม เป็นเวลา 4 วินาที จากนั้นเลือกพอร์ตที่ถูกต้อง เท็จช่วยให้คุณตรวจสอบและทำซ้ำรายการปัจจุบัน หลีกเลี่ยงการพึ่งสีเพียงอย่างเดียว</string>
+  <string name="stage_052_skill" formatted="false">ห้ามกรอกผิด/ซ้ำ</string>
+  <string name="stage_053_name" formatted="false">โดรนตระเวน</string>
+  <string name="stage_053_goal" formatted="false">สด 65ส</string>
+  <string name="stage_053_special" formatted="false">โดรนแนวนอนมีเส้นทางที่แน่นอน ยิงเฉพาะเมื่อมีไฟเปิดเท่านั้น อ่านทิศทางของก้านเพื่อเดาช่อง</string>
+  <string name="stage_053_skill" formatted="false">ทำลายโดรน 4 ลำด้วยชีพจร</string>
+  <string name="stage_054_name" formatted="false">Mirror หลุดเฟสครับ</string>
+  <string name="stage_054_goal" formatted="false">ผ่าน 5 ประตูจริง</string>
+  <string name="stage_054_special" formatted="false">เงาสะท้อนเส้นขาด ประตูจริงเป็นกรอบทึบ+เสียงเตือน ลดการเคลื่อนไหวของเงาตกกระทบแต่ยังคงรักษาสัญลักษณ์ที่แตกต่างไว้</string>
+  <string name="stage_054_skill" formatted="false">ห้ามสัมผัสบริเวณท่าเรือปลอม</string>
+  <string name="stage_055_name" formatted="false">ปุ่มจังหวะ</string>
+  <string name="stage_055_goal" formatted="false">ปิดเครื่องส่งสัญญาณ 3 เครื่อง</string>
+  <string name="stage_055_special" formatted="false">ตัวส่งสัญญาณเปิดเพื่อรับชีพจรเป็นเวลา 6 วินาทีแล้วหุ้มเกราะ ระดับหน้าที่พินก่อน ลองพลาดรอบถัดไป</string>
+  <string name="stage_055_skill" formatted="false">ปิดทั้ง 3 เมื่อหน้าต่างเหลือ ≥3 วินาที</string>
+  <string name="stage_056_name" formatted="false">คัดแยกสายพานลำเลียง</string>
+  <string name="stage_056_goal" formatted="false">เก็บชิ้นส่วนสามเหลี่ยมให้ครบ 4 ชิ้น</string>
+  <string name="stage_056_special" formatted="false">สามประเภทผสมกัน: แยกเป้าหมาย, ไอเท็มธรรมดา, ทุ่นระเบิด ต้องจำแนกแทนที่จะตักทุกอย่าง</string>
+  <string name="stage_056_skill" formatted="false">อย่ารับอะไหล่ผิดประเภท</string>
+  <string name="stage_057_name" formatted="false">ล็อคทางลัด</string>
+  <string name="stage_057_goal" formatted="false">ผ่าน 4 ประตู เปิดประตูสุดท้าย</string>
+  <string name="stage_057_special" formatted="false">ฟรีทางไกล; ทางลัดมีค่าใช้จ่าย 40 NL แต่ประหยัดเวลา พอร์ตสุดท้ายต้องใช้ 60 และมีพินชดเชยเพื่อหลีกเลี่ยงการล็อคอย่างหนัก</string>
+  <string name="stage_057_skill" formatted="false">เสร็จก่อน 55 วินาที</string>
+  <string name="stage_058_name" formatted="false">สี่เกียร์</string>
+  <string name="stage_058_goal" formatted="false">สด 75s</string>
+  <string name="stage_058_special" formatted="false">โดรนติดตามคอลัมน์ ส่วนโค้ง เส้นทแยงมุม และการเคลื่อนตัวในวงจรโก่งตัว รุ่นต่อไปอย่าโยนทั้งสี่พร้อมกัน</string>
+  <string name="stage_058_skill" formatted="false">หลังจาก 1 รอบ ตัวอย่าง 4 ตัวไม่เต้นเป็นจังหวะ</string>
+  <string name="stage_059_name" formatted="false">เริ่มพระธาตุ</string>
+  <string name="stage_059_goal" formatted="false">สะสม 3 คอร์ เปิดใช้งาน 1 สถานี</string>
+  <string name="stage_059_special" formatted="false">รวบรวมส่วนประกอบแล้วกลับไปที่เลนสถานีเพื่อเปิดประตู สถานีจะได้รับเมื่อมีคอร์เพียงพอเท่านั้น มีบายพาสรอแบตเตอรี่</string>
+  <string name="stage_059_skill" formatted="false">ใช้เพียง 1 พัลส์เท่านั้น</string>
+  <string name="stage_060_name" formatted="false">สถาปนิก</string>
+  <string name="stage_060_goal" formatted="false">แตก4คอร์ครับ</string>
+  <string name="stage_060_special" formatted="false">แก้ปัญหาเส้นทางสัญลักษณ์เปิดแบบคอร์เดียวอย่างถูกต้อง ขั้นตอนสุดท้ายจะกลับลำดับแต่แสดงตัวอย่างใหม่ก่อนดำเนินการ</string>
+  <string name="stage_060_skill" formatted="false">อย่าเลือกสัญลักษณ์เฟสผิด</string>
+  <string name="stage_061_name" formatted="false">ลมแนวนอน</string>
+  <string name="stage_061_goal" formatted="false">สด 65ส</string>
+  <string name="stage_061_special" formatted="false">แทงสองครั้งตามลูกศร ความเร็วดริฟท์น้อยกว่าความสามารถในการชดเชยของเรือที่ช้าที่สุด</string>
+  <string name="stage_061_skill" formatted="false">ห้ามสัมผัสขอบลม</string>
+  <string name="stage_062_name" formatted="false">ดวงตาแห่งพายุ</string>
+  <string name="stage_062_goal" formatted="false">ผ่าน 5 พื้นที่ศูนย์พายุ</string>
+  <string name="stage_062_special" formatted="false">โซนกลางผ่าน 3 เลน โดยไม่ถูกดันตรงกลาง นับเฉพาะเมื่อผ่านตรงกลางบริเวณแถวรถไฟเท่านั้น</string>
+  <string name="stage_062_skill" formatted="false">ผ่านการปรากฏตัวครั้งแรกทั้งหมด 5 ครั้ง</string>
+  <string name="stage_063_name" formatted="false">ฝนสามชั้น</string>
+  <string name="stage_063_goal" formatted="false">สด 70s</string>
+  <string name="stage_063_special" formatted="false">หินใหญ่ช้า หินเล็กเร็ว ทุ่นระเบิดลอยไปในระดับต่างๆ อ่านคำสั่งเพื่อฝึกแทนระยะทางธรรมดา</string>
+  <string name="stage_063_skill" formatted="false">ชีพจรที่ทำลายวัตถุทั้ง 3 ชั้น</string>
+  <string name="stage_064_name" formatted="false">แบตเสื่อมครับ</string>
+  <string name="stage_064_goal" formatted="false">สะสมแบตเตอรี่ภารกิจ 4 ก้อน</string>
+  <string name="stage_064_special" formatted="false">ลมผลักเรือและแบตเตอรี่ด้วยปัจจัยที่แตกต่างกัน มีจุดรับสายห้ามเร่งแบตเตอรี่กะทันหัน รวม 7 โอกาส</string>
+  <string name="stage_064_skill" formatted="false">สะสม 4 พินใน 4 โอกาสแรก</string>
+  <string name="stage_065_name" formatted="false">คำเตือนแฟลช</string>
+  <string name="stage_065_goal" formatted="false">ผ่าน 6 ประตู</string>
+  <string name="stage_065_special" formatted="false">แฟลชพื้นหลังบ่งชี้ลำดับ แทนที่ด้วยสัญลักษณ์คงที่เมื่อการเคลื่อนไหวลดลง อันตรายจะเกิดขึ้นหลังจากผ่านช่วงระยะเวลารอคอยเท่านั้น</string>
+  <string name="stage_065_skill" formatted="false">อย่าซ้ำสตริง</string>
+  <string name="stage_066_name" formatted="false">ทางเดินกดดัน</string>
+  <string name="stage_066_goal" formatted="false">สด 75s</string>
+  <string name="stage_066_special" formatted="false">พื้นที่กดถูกพาไปตรงกลางแล้วเปิดขอบ ต้องออกจากกลางก่อนปิดเตือน2วิ</string>
+  <string name="stage_066_skill" formatted="false">6 หลบปิด อย่าใช้แรงกระตุ้น</string>
+  <string name="stage_067_name" formatted="false">เปลี่ยนลมกอบกู้เรือ</string>
+  <string name="stage_067_goal" formatted="false">เพื่อนหุ้มเกราะ 3 คนมีชีวิตอยู่ได้ 75 วินาที</string>
+  <string name="stage_067_special" formatted="false">ลมไม่ส่งผลต่อคุณ คาดเดาหินที่ลอยเข้ามาในเลนของคุณและทำลายพวกมันก่อนด้วยชีพจร</string>
+  <string name="stage_067_skill" formatted="false">คุณจะไม่สูญเสียเกราะเนื่องจากมีหินลอยไปด้านข้าง</string>
+  <string name="stage_068_name" formatted="false">พายุไฟฟ้าสถิต</string>
+  <string name="stage_068_goal" formatted="false">ใช้ชีวิตยุค 80</string>
+  <string name="stage_068_special" formatted="false">8s การกู้คืนปกติ / การกู้คืนการล็อค 4s ยังคงได้รับแบตเตอรี่ HUD ระบุอย่างชัดเจนว่าถูกล็อค การมีแบตเตอรี่เสริมทำให้ดวงดาวมีโอกาสเพียงพอ</string>
+  <string name="stage_068_skill" formatted="false">4 ​​พัลส์ แต่ละพัลส์ทำลายภัยคุกคาม ≥1 ครั้ง</string>
+  <string name="stage_069_name" formatted="false">หกจังหวะก่อนรุ่งสาง</string>
+  <string name="stage_069_goal" formatted="false">ผ่าน 6 พอร์ต รับสัญญาณได้ 2 ช่อง</string>
+  <string name="stage_069_special" formatted="false">รายงานตัวอย่างสล็อตก่อน; สัญญาณที่เหลือเต้น 2 และ 5 อย่าลืมพักเพื่อรับไม่ใช่แค่ไล่ประตู</string>
+  <string name="stage_069_skill" formatted="false">รับสัญญาณได้สองสัญญาณในครั้งแรก</string>
+  <string name="stage_070_name" formatted="false">เทพพายุ</string>
+  <string name="stage_070_goal" formatted="false">แตก4คอร์ครับ</string>
+  <string name="stage_070_special" formatted="false">ลมซ้าย ลมขวา ศูนย์พายุ ฝนลดหลั่นเป็น 4 ระยะ เมื่อแกนกลางเปิด ลมจะลดลงเหลือ 25% เพื่อเข้าถึง</string>
+  <string name="stage_070_skill" formatted="false">ไม่โดนลมผลักขอบครับ</string>
+  <string name="stage_071_name" formatted="false">ฝูงบินรูปตัว V</string>
+  <string name="stage_071_goal" formatted="false">สด 70s</string>
+  <string name="stage_071_special" formatted="false">ชีพจรหักปุ่มตรงกลางตัว V เพื่อเปิดทางลัด หรือไปไกลกว่าปีกไกลแต่ไม่จำเป็นต้องใช้ชีพจร</string>
+  <string name="stage_071_skill" formatted="false">ทำลาย 3 ปุ่มตรงกลางหมู่</string>
+  <string name="stage_072_name" formatted="false">ล็อคเลนเก่า</string>
+  <string name="stage_072_goal" formatted="false">สด 75s</string>
+  <string name="stage_072_special" formatted="false">โดรนทำเครื่องหมายเลนแล้วยิงหลังจากผ่านไป 1.8 วินาที; นำกระสุนเข้าไปในเลนเก่าและเปลี่ยนจังหวะ</string>
+  <string name="stage_072_skill" formatted="false">นำ 6 ซีรีย์ เข้าสู่เลนว่างเดิม</string>
+  <string name="stage_073_name" formatted="false">พัสดุล้อมครับ</string>
+  <string name="stage_073_goal" formatted="false">สะสมครบ 3 แพ็คเกจ</string>
+  <string name="stage_073_special" formatted="false">แต่ละแพ็คเกจมีโดรน 2 ลำคอยป้องกันและเลือกพัลส์หรือช่องเล็ก ๆ ตามเรือ มี 5 แพ็คเกจ ทางเข้าไม่ได้ล็อค</string>
+  <string name="stage_073_skill" formatted="false">รวบรวมให้เพียงพอโดยไม่ทำลายโดรนสอดแนม</string>
+  <string name="stage_074_name" formatted="false">การโจมตีแบบเบี่ยงเบนความสนใจ</string>
+  <string name="stage_074_goal" formatted="false">ผ่าน 5 ประตูจริง</string>
+  <string name="stage_074_special" formatted="false">จมูกปลอมมีเส้นหักไม่เสียหาย ประตูจริงหลังจากระเบิดช้า กฎแห่งการเบี่ยงเบนได้รับการสอน ไม่ใช่การแจ้งเตือนของระบบปลอม</string>
+  <string name="stage_074_skill" formatted="false">ห้ามสลับเลนเด็ดขาด</string>
+  <string name="stage_075_name" formatted="false">ทำลายชั้นป้องกัน</string>
+  <string name="stage_075_goal" formatted="false">ทำลายปุ่มรักษาความปลอดภัย 3 ปุ่ม</string>
+  <string name="stage_075_special" formatted="false">ปุ่มถึงช่วงชีพจรในเวลาอื่น มีจุดตัดกันมากพอที่จะปิด 2 โหนดด้วยพัลส์เดียว แบตเตอรี่หน้าที่เพียงพอ</string>
+  <string name="stage_075_skill" formatted="false">พัลส์จะปิด 2 โหนดที่ทางแยก</string>
+  <string name="stage_076_name" formatted="false">ถอยขบวน</string>
+  <string name="stage_076_goal" formatted="false">คุณผ่าน 4 ประตู</string>
+  <string name="stage_076_special" formatted="false">ศัตรูขัดขวางเส้นทางในอนาคตของคุณ เปลี่ยนแต่เนิ่นๆ เพื่อให้เพื่อนของคุณสามารถติดตามได้ แต่ละพอร์ตมีทางออกที่ถูกต้อง 2 เส้นทาง</string>
+  <string name="stage_076_skill" formatted="false">คุณผ่านประตูได้เพียงพอโดยไม่สูญเสียเกราะ</string>
+  <string name="stage_077_name" formatted="false">การปิดล้อมสองช่วง</string>
+  <string name="stage_077_goal" formatted="false">ใช้ชีวิตยุค 80</string>
+  <string name="stage_077_special" formatted="false">วงปิดเฉพาะครึ่งบนเท่านั้น ประตูทางออกจะผลัดกันที่ขอบ/กลาง ไม่ใช่ที่แถวรถไฟ</string>
+  <string name="stage_077_skill" formatted="false">ออก4รอบไม่มีชีพจร</string>
+  <string name="stage_078_name" formatted="false">คลังน้ำมันศัตรู</string>
+  <string name="stage_078_goal" formatted="false">สะสม 3 สิบล้าน ทำลายโกดัง 2 หลัง</string>
+  <string name="stage_078_special" formatted="false">ทุบโกดังลดแรงกดดัน แต่ต้องเก็บแรงไว้ตีต่อไป โกดังจะนับเฉพาะเมื่อถูกทำลายเท่านั้น โดยจะไม่ลอยออกจากหน้าจอ</string>
+  <string name="stage_078_skill" formatted="false">แก้ไข 2 พัลส์สำหรับ 2 โกดัง ไม่มีการกดเกิน</string>
+  <string name="stage_079_name" formatted="false">ทีมล่าหมุนเวียน</string>
+  <string name="stage_079_goal" formatted="false">สด85s</string>
+  <string name="stage_079_special" formatted="false">สลับบทบาททุกๆ 15 วินาทีเพื่อบล็อกเลน/การ์ด/กวาด; สูงสุด 2 บทบาทในเวลาเดียวกัน</string>
+  <string name="stage_079_skill" formatted="false">บรรลุคอมโบ 6</string>
+  <string name="stage_080_name" formatted="false">เรือธงดำวู</string>
+  <string name="stage_080_goal" formatted="false">ทะลุ 5 สิบล้าน</string>
+  <string name="stage_080_special" formatted="false">ผ่านการล็อคเลนเพื่อให้ยามแยกตัวออกมาเผยแกนกลาง สองขั้นตอนสุดท้ายคือรูปตัววี/วงหนี แบตเตอรี่ครอบคลุมแต่ละเฟสแยกกัน</string>
+  <string name="stage_080_skill" formatted="false">ไม่มีชีพจรเมื่อปิดเกราะหลัก</string>
+  <string name="stage_081_name" formatted="false">ร่องรอยแห่งอนาคต</string>
+  <string name="stage_081_goal" formatted="false">สด 75s</string>
+  <string name="stage_081_special" formatted="false">รายงานปลายทางการเตะล่วงหน้า 2 วินาที แล้วจึงเตะตามที่คาดไว้ อ่านอนาคตแทนที่จะมองแค่หินในปัจจุบัน</string>
+  <string name="stage_081_skill" formatted="false">ผ่าน 6 slot ไม่มีการทายชีพจร</string>
+  <string name="stage_082_name" formatted="false">ไหลช้าครับ</string>
+  <string name="stage_082_goal" formatted="false">ผ่าน 5 ประตู</string>
+  <string name="stage_082_special" formatted="false">แต่ละเลนมีความเร็ววัตถุที่แตกต่างกัน รถไฟ/นาฬิกาไม่ช้า เปรียบเทียบเวลาที่รถไฟมาถึงแทนระยะทาง</string>
+  <string name="stage_082_skill" formatted="false">ผ่านทั้ง 5 ช่องครับ</string>
+  <string name="stage_083_name" formatted="false">อีกครั้งครับ</string>
+  <string name="stage_083_goal" formatted="false">สด 80s</string>
+  <string name="stage_083_special" formatted="false">หินสัญลักษณ์เคลื่อนไปข้างหลังแล้วถอยกลับหนึ่งครั้ง ปิดธงประจำตัว/หลบไม่ให้รางวัลสองครั้ง</string>
+  <string name="stage_083_skill" formatted="false">4 หลบอย่างใกล้ชิดจาก 4 ID หลังจากกรอกลับ</string>
+  <string name="stage_084_name" formatted="false">ประตูสองเวลา</string>
+  <string name="stage_084_goal" formatted="false">ผ่านพอร์ต 4 เฟส</string>
+  <string name="stage_084_special" formatted="false">ประตูแรกแคบ ประตูหลังกว้าง เลือกที่จะไปก่อนเพื่อใช้ประโยชน์หรือรอเพื่อความปลอดภัยมากขึ้น อย่าสุ่มเปลี่ยนตำแหน่งประตู</string>
+  <string name="stage_084_skill" formatted="false">ผ่าน ≥3 ประตูที่ประตูแรก</string>
+  <string name="stage_085_name" formatted="false">แพ็คเกจอยู่กับที่</string>
+  <string name="stage_085_goal" formatted="false">สะสมครบ 4 แพ็คเกจ</string>
+  <string name="stage_085_special" formatted="false">ซูหยุด y=560 แล้วนับถอยหลังต่อไป ห้ามรับก่อนถึงเส้นทางรถไฟ มีโอกาส 6 ครั้ง</string>
+  <string name="stage_085_skill" formatted="false">4 แพ็คเกจแรกห้ามพลาด</string>
+  <string name="stage_086_name" formatted="false">สัญญาณถอยหลัง</string>
+  <string name="stage_086_goal" formatted="false">ผ่าน 5 พอร์ตในห่วงโซ่ย้อนกลับ</string>
+  <string name="stage_086_special" formatted="false">แสดงสตริงที่มีป้ายกำกับ “reverse order” ก่อนเริ่ม; มีการสนับสนุนสำหรับการอ่านคำสั่งการดำเนินการซ้ำ</string>
+  <string name="stage_086_skill" formatted="false">อย่าซ้ำนะ</string>
+  <string name="stage_087_name" formatted="false">เงาของตัวเอง</string>
+  <string name="stage_087_goal" formatted="false">สด85s</string>
+  <string name="stage_087_special" formatted="false">ลูกบอลบันทึกเส้นทาง 3 วินาทีก่อนระบุตำแหน่งการยิงที่กำลังจะมาถึง ลูกบอลไม่ชนกัน ทิ้งเส้นทางเดิมแทนที่จะตามบอล</string>
+  <string name="stage_087_skill" formatted="false">6 นัด บอลไม่โดนเรือ</string>
+  <string name="stage_088_name" formatted="false">มีการแช่แข็งแบบจำกัด</string>
+  <string name="stage_088_goal" formatted="false">ปิดเครื่องส่งสัญญาณ 3 ครั้ง</string>
+  <string name="stage_088_special" formatted="false">พัลส์ปิดจะหยุดเฉพาะสัญลักษณ์แสดงหัวข้อย่อย ไม่เพิ่มเป้าหมาย รอประตูหลัก ปักหมุดจำนวนครั้งที่ถูกต้องและทำซ้ำข้อผิดพลาด</string>
+  <string name="stage_088_skill" formatted="false">แก้ไข 3 พัลส์จาก 3 ชุด</string>
+  <string name="stage_089_name" formatted="false">ถึงจุดนัดพบแล้ว</string>
+  <string name="stage_089_goal" formatted="false">คุณมี 3 ราศีที่มีชีวิต</string>
+  <string name="stage_089_special" formatted="false">คุณติดตามเรียลไทม์ขู่จะข้ามโซนเร็ว/ช้า เส้นทำนายช่วยให้คุณเห็นว่าวัตถุใดจะถึงคุณก่อน</string>
+  <string name="stage_089_skill" formatted="false">ไม่มีภัยคุกคามจากโซนรวดเร็วเข้าถึงคุณ</string>
+  <string name="stage_090_name" formatted="false">ผู้ดูแลนาฬิกา</string>
+  <string name="stage_090_goal" formatted="false">ทะลุ 5 สิบล้าน</string>
+  <string name="stage_090_special" formatted="false">ห้าเฟส: คาดการณ์, หยุด, กรอกลับครั้งเดียว, สองหน้าต่าง, ลำดับย้อนกลับ ฟื้นฟูตำแหน่งเท่านั้น ไม่ฟื้นฟูสุขภาพของบอสที่เสียไป</string>
+  <string name="stage_090_skill" formatted="false">ห้ามชีพจรโดยไม่เปิดแกน</string>
+  <string name="stage_091_name" formatted="false">สามถนนสุดท้าย</string>
+  <string name="stage_091_goal" formatted="false">ผ่าน 6 ประตูในบรรทัดเดียว</string>
+  <string name="stage_091_special" formatted="false">ก่อนถึงหน้าจอ เลือกเส้นทางกว้างๆ จ่ายน้อย / แบตเยอะ / เลี่ยงชิด นำไปสู่จุดหมายปลายทางเดียวกัน แต่ละเส้นทางมีประตูช่วยเหลือให้เปลี่ยนหากจำเป็น</string>
+  <string name="stage_091_skill" formatted="false">ห้ามเปลี่ยนเส้นทางโดยใช้ประตูบรรเทาทุกข์</string>
+  <string name="stage_092_name" formatted="false">ชีพจรหรือโล่</string>
+  <string name="stage_092_goal" formatted="false">สด85s</string>
+  <string name="stage_092_special" formatted="false">3 สถานีให้คุณเลือกแบตเตอรี่หรือโล่ตามช่องทาง ไม่ใช่ทั้งสองสถานี รูปแบบต่อไปนี้มีวิธีแก้ปัญหาที่สอดคล้องกันสองวิธี</string>
+  <string name="stage_092_skill" formatted="false">อย่าเลือกประเภทเดียวกันทั้ง 3 สถานี</string>
+  <string name="stage_093_name" formatted="false">เอาคนสุดท้ายกลับมา</string>
+  <string name="stage_093_goal" formatted="false">คุณอยู่ประหยัด 2 ช่อง</string>
+  <string name="stage_093_special" formatted="false">ถนนแห่งการช่วยเหลือตัดวิธีการปกป้องคุณ มีแบตเตอรี่ก่อนส่งมอบสำหรับชีพจรที่เป็นอันตรายทั่วไป</string>
+  <string name="stage_093_skill" formatted="false">คุณจะไม่สูญเสียเกราะในการบันทึกสองครั้ง</string>
+  <string name="stage_094_name" formatted="false">ทางเดินโฟร์ซีซั่น</string>
+  <string name="stage_094_goal" formatted="false">ผ่าน 8 ประตู</string>
+  <string name="stage_094_special" formatted="false">สี่ส่วนปกติ → ลม → น้ำแข็ง → โหลดต้องห้าม แต่ละส่วนมี 2 พอร์ต ในระหว่างการวางตัวเป็นกลางเป็นเวลา 3 วินาที อย่าเพิ่มการดริฟท์เกินขีดจำกัด</string>
+  <string name="stage_094_skill" formatted="false">ผ่านการพยายามเปิดทั้งหมด 8 ครั้ง</string>
+  <string name="stage_095_name" formatted="false">เข็มขัดโต้กลับ</string>
+  <string name="stage_095_goal" formatted="false">อยู่ได้ 90 วินาที ทำลาย 4 กลุ่มเป้าหมาย</string>
+  <string name="stage_095_special" formatted="false">การเตะมักสร้างความกดดัน คลัสเตอร์มีโล่ที่เปิดตามจังหวะต้องจองชีพจรให้ถูกเวลา มีหน้าต่างเป้าหมาย 6 หน้าต่าง</string>
+  <string name="stage_095_skill" formatted="false">อย่าทำลายคลัสเตอร์หลอกเฟรมประ</string>
+  <string name="stage_096_name" formatted="false">การคัดเลือกนักบิน</string>
+  <string name="stage_096_goal" formatted="false">รวบรวมล็อค 3 อันผ่านประตูสุดท้าย</string>
+  <string name="stage_096_special" formatted="false">แต่ละล็อคมีสาขาแคบสำหรับเก็บคอมโบหรือสาขากว้างให้โหลด ตัวเลือกจะส่งผลต่อระยะต่อไปแต่ไม่ได้ปิดกั้นความเป็นไปได้ในการชนะ</string>
+  <string name="stage_096_skill" formatted="false">ห้ามใช้เครื่องเติมน้ำมันช่วยเหลือ</string>
+  <string name="stage_097_name" formatted="false">โนวาไลน์</string>
+  <string name="stage_097_goal" formatted="false">สถานี5เกราะสด</string>
+  <string name="stage_097_special" formatted="false">ลำดับความสำคัญการโจมตี 3 เลนจะเปลี่ยนไปตามสัญญาณ มีการพักตัวหลังจากคลื่นลูกใหญ่เพื่อหมุนตำแหน่ง อย่าคิดว่ามีเรือราคาแพงอยู่แล้ว</string>
+  <string name="stage_097_skill" formatted="false">สถานีมีเกราะเหลือ ≥4/5</string>
+  <string name="stage_098_name" formatted="false">ได้เรียนรู้การเดินทาง</string>
+  <string name="stage_098_goal" formatted="false">สดถึง 5 ย่อหน้า</string>
+  <string name="stage_098_special" formatted="false">ตัวอย่างบทที่ 2, 3, 5, 7, 9; ประกาศล่วงหน้าแต่ละทางแยกมีกฎการโอนที่ชัดเจน</string>
+  <string name="stage_098_skill" formatted="false">ไม่มีพอร์ตซ้ำ/บรรเทา</string>
+  <string name="stage_099_name" formatted="false">ประตูรุ่งอรุณ</string>
+  <string name="stage_099_goal" formatted="false">ผ่าน 6 พอร์ต ปิดล็อคหลัก 2 ตัว</string>
+  <string name="stage_099_special" formatted="false">ประตูตำแหน่งประสานพัลส์; ระดับแบตเตอรี่ก่อนล็อค หากใช้ผิดมีแหวนรีฟิลไม่ล็อค</string>
+  <string name="stage_099_skill" formatted="false">เสร็จก่อน 85 วินาที ห้ามใช้วงแหวนกู้ภัย</string>
+  <string name="stage_100_name" formatted="false">หัวใจดาวตก</string>
+  <string name="stage_100_goal" formatted="false">แตก 6 คอร์ครับ</string>
+  <string name="stage_100_special" formatted="false">สามรอบ รอบละ 2 แกน: หิน/ประตู; ป้องกัน/ลม; เวลา/การเปิดเกราะ พักระหว่างนั้น 5 วินาที ฟื้นฟูเกราะ/พลังงาน 1 ระดับ กลไกที่รู้จักของเฟสเทอร์มินัลสูงสุด 2 อัน</string>
+  <string name="stage_100_skill" formatted="false">Thang ยังไม่ได้เปิดใช้งานทริกเกอร์ช่วยชีวิตหรือพอร์ตบรรเทาทุกข์ ไม่จำเป็นต้องเป็นเจ้าของ Sentinel</string>
+  <string name="chapter_01" formatted="false">เบ็นสตาร์: เป็นเจ้าของเรือ</string>
+  <string name="chapter_02" formatted="false">เข็มขัดหิน : อ่านเส้นทาง</string>
+  <string name="chapter_03" formatted="false">ภูมิภาคแม่เหล็กไฟฟ้า: การใช้และกักเก็บพลังงาน</string>
+  <string name="chapter_04" formatted="false">รถไฟหาย: การป้องกันและลำดับความสำคัญ</string>
+  <string name="chapter_05" formatted="false">เนบิวลาน้ำแข็ง: ต้นแบบความเฉื่อย</string>
+  <string name="chapter_06" formatted="false">ซากปรักหักพังทางกล: การอ่านและการถอดรหัสของเครื่อง</string>
+  <string name="chapter_07" formatted="false">พายุอวกาศ: การปรับตัวด้านสิ่งแวดล้อม</string>
+  <string name="chapter_08" formatted="false">Dark Fleet: การตอบสนองทางยุทธวิธี</string>
+  <string name="chapter_09" formatted="false">Time Rift: อ่านกฎแห่งการเปลี่ยนแปลง</string>
+  <string name="chapter_10" formatted="false">ศูนย์ดาวตก: การสังเคราะห์และการคัดเลือก</string>
+  <string name="ship_s01_body" formatted="false">ยอดคงเหลือ ไม่มีกฎรอง การตรวจสอบมาตรฐานของทุกหน้าจอ การแลกเปลี่ยน: ไม่มีความเชี่ยวชาญ</string>
+  <string name="ship_s02_body" formatted="false">เปลี่ยนเลนด่วนตัวเล็ก การแลกเปลี่ยน: เกราะน้อยลง</string>
+  <string name="ship_s03_body" formatted="false">ประสบอุบัติเหตุชนกันมากมาย ข้อเสีย: โหลดใหญ่ ช้า และช้า</string>
+  <string name="ship_s04_body" formatted="false">ดูดซับสิ่งของเสริมภายใน 45 หน่วยรอบแถวเรือ ข้อเสีย: ไม่มีการบังคับดูด/พอร์ต; ตัวใหญ่.</string>
+  <string name="ship_s05_body" formatted="false">การชาร์จแบบพาสซีฟที่รวดเร็ว ข้อเสีย: เกราะต่ำ; โดยทั่วไปแบตเตอรี่จะชาร์จเพียง 15 แทนที่จะเป็น 20</string>
+  <string name="ship_s06_body" formatted="false">สร้างเกราะป้องกันไอเท็มเพิ่มอีก 2 วินาที การแลกเปลี่ยน: พัลส์พื้นฐานมีรัศมีเพียง 160 เท่านั้น</string>
+  <string name="ship_s07_body" formatted="false">หลังจากหลบ ลดการเบี่ยงเบนของสิ่งแวดล้อมลง 50% เป็นเวลา 1 วินาที การแลกเปลี่ยน: หน้าต่างคอมโบพื้นฐาน 4 วินาที</string>
+  <string name="ship_s08_body" formatted="false">ทุก ๆ 25 วินาที จะฟื้นฟูเกราะ 1 อันหากหายไป สูงสุด 2 ครั้ง/ระดับ 3 ครั้ง/ไม่จำกัด การแลกเปลี่ยน: ไอเท็มฟื้นฟูเกราะจะไม่ชาร์จ</string>
+  <string name="ship_s09_body" formatted="false">แรงกระตุ้นจะดันหินที่ปกติไม่ขาดออกออกไปอีก 30 หน่วย หากยังมีเส้นทางหลบหนี การแลกเปลี่ยน: การป้องกันโพสต์อิมพัลส์เพียง 0.45 วินาที</string>
+  <string name="ship_s10_body" formatted="false">หนึ่งครั้ง/ระดับป้องกันการโจมตีคริติคอล เกราะเหลือ 1 อัน คงกระพันเป็นเวลา 1 วินาที การแลกเปลี่ยน: ไม่ป้องกันการสูญหายเนื่องจากการคุ้มกัน/การหมดอายุ ไม่ซ้อนทับการฟื้นคืนชีพ</string>
+  <string name="ship_s11_body" formatted="false">ครั้งแรกที่หยิบไอเทมทุกๆ 15 วินาทีจะเพิ่ม 8 พลังงาน การแลกเปลี่ยน: การช้าพื้นฐานสั้นลง 1 วินาที</string>
+  <string name="ship_s12_body" formatted="false">ก่อนขึ้นเวที เลือกเกราะ +1 **หรือ** รัศมีชีพจร +30 การแลกเปลี่ยน: การกำหนดค่าเกราะ: ความเร็วลดลงเหลือ 680; การกำหนดค่าพัลส์: กู้คืน NL เป็น 2.6</string>
+  <string name="campaign" formatted="false">การเดินทาง 100 ด่าน</string>
+  <string name="campaign_continue" formatted="false">เดินทางต่อครับ</string>
+  <string name="fleet" formatted="false">อู่ต่อเรือ</string>
+  <string name="stage" formatted="false">จอ</string>
+  <string name="chapter" formatted="false">บท</string>
+  <string name="stars" formatted="false">ทำไม</string>
+  <string name="stage_ready" formatted="false">เตรียมตัวบินครับ</string>
+  <string name="stage_goal" formatted="false">เป้าหมายหลัก</string>
+  <string name="stage_special" formatted="false">ประเด็นพิเศษ</string>
+  <string name="stage_skill" formatted="false">ทักษะดารา</string>
+  <string name="stage_damage" formatted="false">ทำไมต้องเก็บเรือไว้ : จำนวนครั้งที่มันสูญเสียเกราะก็ไม่มากเกินไป</string>
+  <string name="stage_play" formatted="false">เริ่มเวที</string>
+  <string name="stage_map" formatted="false">แผนที่</string>
+  <string name="stage_next" formatted="false">สเต็ปต่อไป.</string>
+  <string name="stage_retry" formatted="false">ลองระดับนี้อีกครั้ง</string>
+  <string name="stage_victory" formatted="false">ดำเนินการให้เสร็จสิ้น</string>
+  <string name="stage_defeat" formatted="false">ยังไม่ผ่านโค้ง</string>
+  <string name="stage_locked" formatted="false">ต้องผ่านด่านก่อนนะครับ</string>
+  <string name="stage_complete" formatted="false">เรียบร้อยแล้ว</string>
+  <string name="stage_first" formatted="false">โบนัสชนะครั้งแรก</string>
+  <string name="stage_star_reward" formatted="false">โบนัสดาวใหม่</string>
+  <string name="stage_boss_reward" formatted="false">ให้รางวัลประตู</string>
+  <string name="stage_chapter_reward" formatted="false">บทโบนัส</string>
+  <string name="ship_owned" formatted="false">เป็นเจ้าของแล้ว</string>
+  <string name="ship_equipped" formatted="false">ใช้งานอยู่</string>
+  <string name="ship_equip" formatted="false">อุปกรณ์</string>
+  <string name="ship_buy" formatted="false">ซื้อเรือ</string>
+  <string name="ship_speed" formatted="false">ความเร็วแนวนอน</string>
+  <string name="ship_radius" formatted="false">รัศมีการชน</string>
+  <string name="ship_energy" formatted="false">การฟื้นฟูพลังงานทุกวินาที</string>
+  <string name="ship_choose" formatted="false">เลือกรถไฟ</string>
+  <string name="account_upgrades" formatted="false">อัปเกรดบัญชีของคุณ</string>
+  <string name="practice" formatted="false">ฝึกซ้อมครับ</string>
+  <string name="practice_note" formatted="false">ฝึกไม่เปิด ไม่รับเงินหรืออะไรเลย</string>
+  <string name="practice_active" formatted="false">ในทางปฏิบัติ — ไม่มีรางวัล</string>
+  <string name="route" formatted="false">เส้นทาง</string>
+  <string name="route_safe" formatted="false">ถนนกว้าง</string>
+  <string name="route_energy" formatted="false">สายพลังงาน</string>
+  <string name="route_risk" formatted="false">ปิดหลบ</string>
+  <string name="astra_armor" formatted="false">การกำหนดค่าเกราะ</string>
+  <string name="astra_pulse" formatted="false">การกำหนดค่าพัลส์</string>
+  <string name="goal_gate" formatted="false">ประตู</string>
+  <string name="cargo" formatted="false">ฟ้องภารกิจ</string>
+  <string name="nodes" formatted="false">ปุ่มเปิดใช้งาน</string>
+  <string name="cores" formatted="false">บอสคอร์</string>
+  <string name="ally" formatted="false">พันธมิตร</string>
+  <string name="station" formatted="false">สถานีกลาโหม</string>
+  <string name="time_left" formatted="false">ซ้าย</string>
+  <string name="boss_open" formatted="false">CORE OPEN — ชีพจรอยู่ในช่วง</string>
+  <string name="boss_closed" formatted="false">รอ OPEN CORE ครับ</string>
+  <string name="memory" formatted="false">สตริงพอร์ต</string>
+  <string name="memory_hint" formatted="false">ทำซ้ำสตริง</string>
+  <string name="defeat_armor" formatted="false">เกราะหมด</string>
+  <string name="defeat_ally" formatted="false">พันธมิตรถูกทำลาย</string>
+  <string name="defeat_station" formatted="false">สถานีถูกทำลาย</string>
+  <string name="defeat_timeout" formatted="false">หมดเขตเป้าหมายแล้ว</string>
+  <string name="sensitivity" formatted="false">ความไวในการดึง</string>
+  <string name="campaign_finished" formatted="false">สำเร็จ 100 ด่าน!</string>
+  <string name="ship_stats" formatted="false">จัดส่งพารามิเตอร์</string>
+  <string name="reward_base" formatted="false">ก่อนรอด</string>
+  <string name="reward_total" formatted="false">รวมเครดิตที่ได้รับ</string>
+  <string name="save_before_next" formatted="false">บันทึกผลลัพธ์ก่อนดำเนินการต่อ</string>
+  <string name="star_damage_info" formatted="false">เหตุใดการบำรุงรักษาเรือจึงนับเฉพาะจำนวนครั้งที่สูญเสียเกราะเท่านั้น การซ่อมแซมไม่ได้ลบเวลาที่เสียไป</string>
+  <string name="practice_hint" formatted="false">ดึงเพื่อรับของ ผ่านประตูที่ถูกต้อง และใช้ชีพจรเมื่อแกนเปิด</string>
 </resources>

@@ -9,8 +9,8 @@ android {
         applicationId = "com.example.nt_05_thienthach"
         minSdk = 24
         targetSdk = 37
-        versionCode = 4
-        versionName = "1.3"
+        versionCode = 5
+        versionName = "2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes { release { optimization { enable = false } } }

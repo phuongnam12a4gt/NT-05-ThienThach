@@ -48,7 +48,7 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
         drawLine(Orange, Offset(8f, 7f), Offset(12f, 9f), 2f)
     } }
 }
-@Composable fun ShipPortrait(modifier: Modifier = Modifier) {
+@Composable fun ShipPortrait(modifier: Modifier = Modifier, shipSpec: ShipDefinition = ShipCatalog.nova) {
     Canvas(modifier) {
         val s = min(size.width / 320f, size.height / 210f)
         translate(size.width / 2, size.height / 2) { scale(s, Offset.Zero) {
@@ -59,7 +59,7 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
             drawLine(Cyan.copy(alpha = .12f), Offset(0f, -100f), Offset(0f, 100f), 1f)
             drawCircle(Cyan, 3f, Offset(82f, 0f))
             drawCircle(Orange, 2f, Offset(-64f, -52f))
-            rotate(-14f, Offset.Zero) { ship(0f, -4f, 2.6f, 1f) }
+            rotate(-14f, Offset.Zero) { vessel(shipSpec,0f,-4f,2.6f,1f) }
         } }
     }
 }
@@ -95,6 +95,7 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
                 val y = ((game.time * 160 + i * 91) % 800).toFloat()
                 drawLine(Cyan.copy(alpha = .12f), Offset(x, y), Offset(x, y + 22), 1f)
             }
+            campaignBackdrop(game)
             game.wave?.takeIf { it.warning > 0 }?.let { wave ->
                 for (lane in 0..2) {
                     val safe = lane == wave.safeLane
@@ -117,6 +118,10 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
             }
             for (meteor in game.meteors) {
                 val r = meteor.kind.radius
+                if (meteor.tag != 0) {
+                    campaignHazard(meteor)
+                    continue
+                }
                 translate(meteor.x, meteor.y) {
                     drawLine(Orange.copy(alpha = .08f), Offset.Zero, Offset(-meteor.drift * .4f, -r * 3), r * 1.2f)
                     rotate(meteor.rotation, Offset.Zero) {
@@ -157,8 +162,9 @@ fun DrawScope.ship(x: Float, y: Float, size: Float = 1f, flame: Float = 1f) {
                 }
             }
             game.particles.forEach { p -> drawCircle((when (p.kind) { 0 -> Orange; 2 -> Color(0xFFBDA4FF); else -> Cyan }).copy(alpha = (p.life / .55f).coerceIn(0f, 1f)), 2f, Offset(p.x, p.y)) }
+            campaignObjects(game)
             if (game.invulnerability <= 0 || (game.time * 12).toInt() % 2 == 0) {
-                ship(game.shipX, GameConfig.SHIP_Y, flame = if (game.reducedMotion) .7f else (.7 + sin(game.time * 22) * .3).toFloat())
+                vessel(game.ship, game.shipX, GameConfig.SHIP_Y, flame = if (game.reducedMotion) .7f else (.7 + sin(game.time * 22) * .3).toFloat())
             }
             if (game.pulseRemaining > 0) {
                 val progress = (1 - game.pulseRemaining / GameConfig.PULSE_SECONDS).toFloat().coerceIn(0f, 1f)

@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Cất cánh",
+    "goal": "Sống 30s",
+    "special": "0–10s chỉ đá nhỏ rơi thẳng; 10–20s khe giữa; 20–30s đổi khe sang hai bên. Hướng dẫn kéo bằng hành động.",
+    "skill": "Qua cả 3 vệt hướng dẫn an toàn."
+  },
+  {
+    "id": 2,
+    "name": "Ba lối về",
+    "goal": "Qua 3 cổng",
+    "special": "Cổng mở trái–giữa–phải, mỗi 8s; cổng bỏ lỡ lặp sau 4s. Trọng tâm là đón vị trí, không tăng mưa đá.",
+    "skill": "Không bỏ lỡ lần mở đầu của cổng nào."
+  },
+  {
+    "id": 3,
+    "name": "Tiếp tế đầu tiên",
+    "goal": "Thu 2 kiện",
+    "special": "4 kiện trên hai tuyến thay phiên; đá không chiếm đường đón trong cửa sổ hướng dẫn.",
+    "skill": "Kết thúc đủ giáp tối đa."
+  },
+  {
+    "id": 4,
+    "name": "Nhịp trái–phải",
+    "goal": "Sống 35s",
+    "special": "Hàng đá có một khe, đổi trái/phải theo nhịp; có khoảng quay đầu, đứng giữa không luôn an toàn.",
+    "skill": "Qua 4 tâm khe đánh dấu đúng nhịp."
+  },
+  {
+    "id": 5,
+    "name": "Xung mở đường",
+    "goal": "Tắt 2 cụm mìn",
+    "special": "Cụm xuống y=560, cấp pin nhiệm vụ trước mỗi cụm. Bấm sớm được nhắc và cụm lặp an toàn.",
+    "skill": "Mỗi cụm bị tắt trọn bằng một xung."
+  },
+  {
+    "id": 6,
+    "name": "Khoảng cách một cánh",
+    "goal": "2 né sát hợp lệ",
+    "special": "Hai tuyến đá nhỏ mẫu, hiển thị vùng tập, ít nhất 8 cơ hội. Va chạm không cộng mục tiêu.",
+    "skill": "Nối 2 né sát trong 5s, đạt combo 2."
+  },
+  {
+    "id": 7,
+    "name": "Áo giáp năng lượng",
+    "goal": "Sống 40s",
+    "special": "Khiên trước hai đoạn hẹp; vẫn có tuyến vòng ngoài rộng để không cần chịu đòn.",
+    "skill": "Khiên chặn 1 lần, không mất giáp."
+  },
+  {
+    "id": 8,
+    "name": "Một giây chậm lại",
+    "goal": "Qua 4 cổng",
+    "special": "Cổng ghép đồ làm chậm; cho thấy đồ không làm chậm đồng hồ mục tiêu. Có tuyến không cần nhặt làm chậm.",
+    "skill": "Nhặt 2 đồ làm chậm khác ID."
+  },
+  {
+    "id": 9,
+    "name": "Bài kiểm tra phi công",
+    "goal": "Thu 2 kiện, qua 3 cổng",
+    "special": "Ba đoạn: thu thập, chuyển làn, giữ xung mở lối cuối. Ghi nhận đồng thời cả hai mục tiêu.",
+    "skill": "Ít nhất 3 né sát trước cổng cuối."
+  },
+  {
+    "id": 10,
+    "name": "Người gác bến",
+    "goal": "Phá 2 lõi",
+    "special": "Pha 1 hai cột chừa giữa; pha 2 khe sang bên rồi lõi hạ. Pin/cửa sổ riêng cho từng lõi.",
+    "skill": "Phá mỗi lõi ở lần mở đầu pha."
+  },
+  {
+    "id": 11,
+    "name": "Xương cá",
+    "goal": "Sống 40s",
+    "special": "Hai nhánh chéo tạo khe xương cá; đổi hướng sau mỗi cặp, có đoạn thẳng báo quay đầu.",
+    "skill": "Qua 5 tâm khe đánh dấu."
+  },
+  {
+    "id": 12,
+    "name": "Cầu thang trôi",
+    "goal": "Qua 4 cổng",
+    "special": "Trái → hơi trái → hơi phải → phải; dạy dịch nhỏ liên tục. Bỏ lỡ lặp cổng hiện tại.",
+    "skill": "Không dùng xung."
+  },
+  {
+    "id": 13,
+    "name": "Kéo cắt",
+    "goal": "Sống 45s",
+    "special": "Hai dòng chéo giao nhau nhưng không tới hàng tàu đồng thời; cảnh báo đánh số dòng tới trước.",
+    "skill": "4 né sát từ ít nhất 2 dòng."
+  },
+  {
+    "id": 14,
+    "name": "Hẻm đổi chiều",
+    "goal": "Qua 5 cổng",
+    "special": "Hành lang đổi chiều báo mũi tên; giữ đà tàu. Cổng 3 có nhịp nghỉ để học quay đầu.",
+    "skill": "Qua cả 5 ở lần mở đầu."
+  },
+  {
+    "id": 15,
+    "name": "Đá sinh đôi",
+    "goal": "Sống 45s",
+    "special": "Mỗi cặp có đá chậm và đá nhanh theo sau, tránh khoảng trống giả sau viên đầu.",
+    "skill": "Né sát mỗi loại tốc độ ít nhất 2 lần."
+  },
+  {
+    "id": 16,
+    "name": "Lưỡi liềm",
+    "goal": "Thu 3 mảnh bản đồ",
+    "special": "Đá theo cung cong; đồ nằm ở phần lõm an toàn rồi đổi sang cung đối diện, có 6 cơ hội.",
+    "skill": "Thu 3 mảnh trong 3 cơ hội đầu."
+  },
+  {
+    "id": 17,
+    "name": "Nhịp kép",
+    "goal": "Sống 50s",
+    "special": "Hai hàng nhanh rồi nghỉ dài; cuối màn đổi ba hàng, không sinh đá đột ngột vào tàu.",
+    "skill": "Một xung phá ít nhất 4 đá."
+  },
+  {
+    "id": 18,
+    "name": "Quỹ đạo vệ tinh",
+    "goal": "Qua 4 cổng",
+    "special": "Đá nhỏ quay quanh khối lớn; khe quỹ đạo có dự báo vị trí đón tại hàng tàu.",
+    "skill": "Không phá khối trung tâm."
+  },
+  {
+    "id": 19,
+    "name": "Ngã ba tham vọng",
+    "goal": "Sống 55s và thu 2 khóa",
+    "special": "Đường rộng ít đồ, đường hẹp có khóa. Có 4 khóa, không bắt đi đường rủi ro mọi lần.",
+    "skill": "Thu đủ 4 khóa trước 55s."
+  },
+  {
+    "id": 20,
+    "name": "Máy nghiền vành đai",
+    "goal": "Phá 3 lõi",
+    "special": "Hai cánh ép tạo khe ngang; sau lượt ép một cánh dừng lộ lõi. Pha cuối đảo chiều quét có báo.",
+    "skill": "Không bị mìn kẹp của cánh trúng tàu."
+  },
+  {
+    "id": 21,
+    "name": "Pin giữa giông",
+    "goal": "Thu 3 pin nhiệm vụ",
+    "special": "Có 5 pin sau các cột điện có khe; phải đón đúng vị trí thay vì phát xung liên tục.",
+    "skill": "Năng lượng không xuống dưới 30."
+  },
+  {
+    "id": 22,
+    "name": "Khu vực cấm nạp",
+    "goal": "Qua 4 cổng",
+    "special": "Vùng sọc dừng hồi, vùng sáng nạp thường. Cổng xen kẽ buộc chọn ở lại nạp hay chuyển sớm.",
+    "skill": "Qua cổng cuối với NL ≥70."
+  },
+  {
+    "id": 23,
+    "name": "Cầu chì",
+    "goal": "Tắt 3 nút điện",
+    "special": "Nút chỉ tắt trong bán kính xung; có 3 pin nhiệm vụ. Nút chưa tắt vẫn có đường tránh và lượt tiếp theo.",
+    "skill": "Tắt cả 3 khi vòng an toàn mở."
+  },
+  {
+    "id": 24,
+    "name": "Dây chuyền",
+    "goal": "Qua 5 cổng theo thứ tự",
+    "special": "Cổng có số/ký hiệu; chỉ cổng hiện tại nhận tiến độ. Qua cổng tương lai không trừ mạng, không tăng đếm.",
+    "skill": "Không qua cổng sai thứ tự."
+  },
+  {
+    "id": 25,
+    "name": "Chọn nạp hay né",
+    "goal": "Sống 55s",
+    "special": "Mỗi 10s pin ở mép đối diện khe kế tiếp. Tự đánh giá đủ thời gian vòng lại hay bỏ pin; tuyến bỏ pin luôn tồn tại.",
+    "skill": "Thu 3 pin rồi vẫn qua khe kế tiếp."
+  },
+  {
+    "id": 26,
+    "name": "Tụ điện cộng hưởng",
+    "goal": "Kích 2 trạm với NL ≥80",
+    "special": "Đi qua vùng trạm tiêu 80 NL; có tuyến nạp 100 trước mỗi trạm. Xung không thay thao tác chạm trạm.",
+    "skill": "Cả hai trạm nhận khi NL đầu vào ≥95."
+  },
+  {
+    "id": 27,
+    "name": "Mưa ion",
+    "goal": "Sống 55s",
+    "special": "Đám ion tăng hồi ở một làn, nhưng đá sẽ tới đó sau cảnh báo. Có ít nhất 3 pin thường để mục tiêu phụ khả thi.",
+    "skill": "Phát 3 xung hợp lệ."
+  },
+  {
+    "id": 28,
+    "name": "Bóng dẫn điện",
+    "goal": "Thu 4 mảnh dẫn",
+    "special": "Đồ nhiệm vụ trôi về cực trái/phải theo chu kỳ, có vạch dự báo điểm đón. Có 7 cơ hội.",
+    "skill": "Thu 4 mảnh trong 4 cơ hội đầu."
+  },
+  {
+    "id": 29,
+    "name": "Dự trữ cuối đường",
+    "goal": "Qua 3 cổng, nạp ≥70 vào cổng cuối",
+    "special": "Hai cổng đầu miễn phí; chi phí cổng cuối hiện từ đầu. Pin bù lặp mỗi 8s nếu thiếu, có đường chờ.",
+    "skill": "Không dùng pin bù."
+  },
+  {
+    "id": 30,
+    "name": "Lõi bão điện",
+    "goal": "Phá 3 lõi",
+    "special": "Ba cực sáng lần lượt; đứng đúng cực mở giáp rồi dùng pin trùm/xung. Pha cuối cấm hồi nhưng vẫn nhận pin nhiệm vụ.",
+    "skill": "Mở đúng cả 3 cực lần thử đầu."
+  },
+  {
+    "id": 31,
+    "name": "Người bạn đồng hành",
+    "goal": "Đồng minh 3 giáp sống 50s",
+    "special": "Bạn bay trước, báo đổi làn 2s; người chơi phá đá đe dọa bằng xung. 10s đầu áp lực thấp để học.",
+    "skill": "Đồng minh không mất giáp."
+  },
+  {
+    "id": 32,
+    "name": "Hai chuyến cứu hộ",
+    "goal": "Đón 2 khoang cứu sinh",
+    "special": "Giữ đúng vùng đón 1s; khoang có nhiều lần hạ, chạm nhanh không đếm lặp.",
+    "skill": "Xong trước 40s."
+  },
+  {
+    "id": 33,
+    "name": "Đứng trước hiểm nguy",
+    "goal": "Trạm 4 giáp sống 55s",
+    "special": "Đá lọt tuyến làm trạm mất giáp. Đá lớn ưu tiên trạm, đá nhỏ ưu tiên đường tàu; phân biệt nguy hiểm cần chặn.",
+    "skill": "Không đá lớn nào lọt qua."
+  },
+  {
+    "id": 34,
+    "name": "Hàng dễ vỡ",
+    "goal": "Tàu hàng 2 giáp sống 55s",
+    "special": "Tàu hàng ít đổi làn; hai đợt drone lao tới có pin xung được cấp theo lịch.",
+    "skill": "Dùng không quá 3 xung."
+  },
+  {
+    "id": 35,
+    "name": "Người dẫn đường",
+    "goal": "Dẫn bạn qua 4 cổng",
+    "special": "Bạn theo làn người chơi trễ 1,2s; cần đổi sớm. Vạch nối thể hiện độ trễ, không cần ngón điều khiển thứ hai.",
+    "skill": "Bạn qua mỗi cổng lệch tâm khe ≤20 đơn vị."
+  },
+  {
+    "id": 36,
+    "name": "Chia đôi nguồn cứu trợ",
+    "goal": "Trạm sống và giao 3 kiện",
+    "special": "Gói xanh hồi trạm, gói vàng cho tiền tùy chọn. Có đủ kiện chính; cân bằng cứu trạm với lợi nhuận.",
+    "skill": "Trạm còn ít nhất 3/4 giáp."
+  },
+  {
+    "id": 37,
+    "name": "Đoàn xe nối đuôi",
+    "goal": "Cả 2 tàu bạn còn sống",
+    "special": "Bạn trước/sau cùng tuyến nhưng lệch thời gian; đe dọa có cảnh báo định danh, hai thanh giáp riêng.",
+    "skill": "Không bạn nào mất quá 1 giáp."
+  },
+  {
+    "id": 38,
+    "name": "Cứu hộ trong mưa",
+    "goal": "Sống 65s, cứu 3 khoang",
+    "special": "Khoang nhận ở quãng nghỉ sau mưa, 5 lượt cứu có số. Phải dùng nhịp nghỉ để đón.",
+    "skill": "Không nhặt mìn giả dạng có dấu cảnh báo."
+  },
+  {
+    "id": 39,
+    "name": "Mồi nhử có chủ đích",
+    "goal": "Bạn sống 65s",
+    "special": "Drone khóa làn cũ của người chơi khi báo rồi mới lao; dẫn đe dọa ra khỏi bạn và chuyển đúng lúc.",
+    "skill": "Dẫn 4 drone vào làn không có bạn."
+  },
+  {
+    "id": 40,
+    "name": "Cướp không gian",
+    "goal": "Phá 3 lõi, tàu hàng sống",
+    "special": "Trùm luân phiên nhắm người chơi/tàu hàng, mỗi loạt có ký hiệu mục tiêu. Chặn đợt nhắm tàu hàng để mở lõi.",
+    "skill": "Tàu hàng còn ≥2/3 giáp."
+  },
+  {
+    "id": 41,
+    "name": "Băng mỏng",
+    "goal": "Sống 55s",
+    "special": "Chỉ 15–25s và 35–45s có trượt khi đổi hướng; vùng phanh xanh trước nơi chuyển làn.",
+    "skill": "Không chạm viền băng hai mép."
+  },
+  {
+    "id": 42,
+    "name": "Phanh trước cổng",
+    "goal": "Qua 4 cổng",
+    "special": "Khi qua cổng, tốc độ ngang phải ≤120 đơn vị/s. Có đồng hồ vận tốc để căn phanh; bỏ lỡ lặp cổng.",
+    "skill": "Qua cả 4 ở lần mở đầu."
+  },
+  {
+    "id": 43,
+    "name": "Tảng băng nứt",
+    "goal": "Sống 60s",
+    "special": "Đá băng tách 2 mảnh sau vạch nứt; có thể xung trước khi vỡ. Mảnh chỉ sinh một thế hệ.",
+    "skill": "Phá 3 đá băng trước lúc tách."
+  },
+  {
+    "id": 44,
+    "name": "Làn nước ấm",
+    "goal": "Thu 3 lõi nhiệt",
+    "special": "Lõi ở đoạn không trượt giữa hai băng chuyền; lấy đà rồi phanh, có 6 lõi theo lịch.",
+    "skill": "Thu 3 lõi trong 3 cơ hội đầu."
+  },
+  {
+    "id": 45,
+    "name": "Con lắc lạnh",
+    "goal": "Qua 5 cổng",
+    "special": "Cổng lắc theo pha, chỉ báo điểm đón; dự đoán vị trí tương lai thay vì đuổi điểm hiện tại.",
+    "skill": "Không dùng xung."
+  },
+  {
+    "id": 46,
+    "name": "Trượt dưới mái vòm",
+    "goal": "Sống 65s",
+    "special": "Vòm đá chậm có đường ngắn và vòng ngoài. Trượt quá tay dễ va mép đường ngắn, tuyến vòng vẫn đủ thời gian.",
+    "skill": "Qua 3 đường ngắn đánh dấu."
+  },
+  {
+    "id": 47,
+    "name": "Pin trên băng chuyền",
+    "goal": "Nạp 2 trạm, qua cổng cuối",
+    "special": "Băng chuyền đẩy pin chứ không đẩy tàu; dự báo điểm đón và tuyến phanh tách việc quan sát đồ/điều khiển.",
+    "skill": "Nạp đủ 2 trạm trước 50s."
+  },
+  {
+    "id": 48,
+    "name": "Tiếng vọng sương",
+    "goal": "Sống 70s",
+    "special": "Báo trước chuỗi khe. Sương chỉ che nền/trang trí, không che hitbox/vạch cảnh báo; có nhắc lại ký hiệu.",
+    "skill": "Qua 6 khe không nhắc lại."
+  },
+  {
+    "id": 49,
+    "name": "Đường nứt lan",
+    "goal": "Qua 6 cổng",
+    "special": "Qua mỗi cổng, làn cũ đóng sau 2s; phải chuyển tiếp, có đánh dấu vùng sắp đóng và vùng kế.",
+    "skill": "Không quay vào làn cũ trong 2s báo đóng."
+  },
+  {
+    "id": 50,
+    "name": "Bạch long",
+    "goal": "Phá 4 lõi",
+    "special": "Hai pha đầu băng trôi, hai pha cuối cung băng phân mảnh. Lõi mở tại vùng không trượt để mọi tàu tới được.",
+    "skill": "Không trúng mảnh băng thứ cấp."
+  },
+  {
+    "id": 51,
+    "name": "Công tắc hành lang",
+    "goal": "Bật 3 công tắc, qua cổng",
+    "special": "Qua công tắc ở hàng tàu mở đúng cửa phía sau. Bỏ lỡ được lặp, không thua tức thì.",
+    "skill": "Bật cả 3 lần gặp đầu."
+  },
+  {
+    "id": 52,
+    "name": "Mã ba hình",
+    "goal": "Nhập chuỗi 3 ký hiệu",
+    "special": "Hiện tam giác–tròn–vuông 4s rồi chọn cổng đúng. Sai cho xem lại, lặp mục hiện tại; tránh dựa riêng màu.",
+    "skill": "Không nhập sai/nhắc lại."
+  },
+  {
+    "id": 53,
+    "name": "Drone tuần tra",
+    "goal": "Sống 65s",
+    "special": "Drone ngang có tuyến cố định, chỉ bắn lúc đèn sáng; đọc hướng thân để đoán khe.",
+    "skill": "Phá 4 drone bằng xung."
+  },
+  {
+    "id": 54,
+    "name": "Gương lệch pha",
+    "goal": "Qua 5 cổng thật",
+    "special": "Bóng phản chiếu nét đứt, cổng thật khung liền + âm báo. Giảm chuyển động bỏ bóng nhưng giữ ký hiệu phân biệt.",
+    "skill": "Không chạm vùng cổng giả."
+  },
+  {
+    "id": 55,
+    "name": "Nút nhịp máy",
+    "goal": "Tắt 3 bộ phát",
+    "special": "Bộ phát mở nhận xung 6s rồi che giáp; pin nhiệm vụ cấp trước, bỏ lỡ được thử chu kỳ sau.",
+    "skill": "Tắt cả 3 khi cửa sổ còn ≥3s."
+  },
+  {
+    "id": 56,
+    "name": "Băng tải phân loại",
+    "goal": "Thu 4 linh kiện tam giác",
+    "special": "Ba loại trộn nhau: mục tiêu viền riêng, đồ thường, mìn cảnh báo. Phải phân loại thay vì hốt mọi vật.",
+    "skill": "Không nhặt linh kiện sai loại."
+  },
+  {
+    "id": 57,
+    "name": "Đường tắt có khóa",
+    "goal": "Qua 4 cổng, mở cổng cuối",
+    "special": "Đường dài miễn phí; đường tắt tiêu 40 NL nhưng tiết kiệm thời gian. Cổng cuối cần 60, có pin bù tránh khóa cứng.",
+    "skill": "Xong trước 55s."
+  },
+  {
+    "id": 58,
+    "name": "Bốn bánh răng",
+    "goal": "Sống 75s",
+    "special": "Drone theo cột, cung, chéo, khe trôi ở chu kỳ lệch. Báo mẫu kế, không ném cả bốn cùng lúc.",
+    "skill": "Qua 1 chu kỳ đủ bốn mẫu không xung."
+  },
+  {
+    "id": 59,
+    "name": "Khởi động di tích",
+    "goal": "Thu 3 lõi, kích 1 trạm",
+    "special": "Gom linh kiện rồi về làn trạm để xung mở cổng. Trạm chỉ nhận khi đủ lõi; có đường vòng chờ pin.",
+    "skill": "Chỉ dùng đúng 1 xung."
+  },
+  {
+    "id": 60,
+    "name": "Kiến trúc sư",
+    "goal": "Phá 4 lõi",
+    "special": "Giải đúng tuyến ký hiệu mở một lõi. Pha cuối đảo thứ tự nhưng hiện mẫu mới trước khi chạy.",
+    "skill": "Không chọn sai ký hiệu các pha."
+  },
+  {
+    "id": 61,
+    "name": "Gió ngang",
+    "goal": "Sống 65s",
+    "special": "Hai đợt đẩy theo mũi tên, vận tốc trôi nhỏ hơn khả năng bù của tàu chậm nhất.",
+    "skill": "Không chạm vùng mép gió."
+  },
+  {
+    "id": 62,
+    "name": "Mắt bão",
+    "goal": "Qua 5 vùng tâm bão",
+    "special": "Vùng trung hòa trôi qua 3 làn, không bị đẩy trong tâm. Chỉ tính khi qua đúng tâm tại hàng tàu.",
+    "skill": "Qua cả 5 lần đầu xuất hiện."
+  },
+  {
+    "id": 63,
+    "name": "Mưa ba tầng",
+    "goal": "Sống 70s",
+    "special": "Đá lớn chậm, đá nhỏ nhanh, mìn trôi khác tầng; đọc thứ tự tới tàu thay vì khoảng cách đơn thuần.",
+    "skill": "Một xung phá vật thuộc cả 3 tầng."
+  },
+  {
+    "id": 64,
+    "name": "Pin lạc hướng",
+    "goal": "Thu 4 pin nhiệm vụ",
+    "special": "Gió đẩy tàu và pin theo hệ số khác; có vạch điểm đón, không tăng tốc pin đột ngột. Tổng 7 cơ hội.",
+    "skill": "Thu 4 pin trong 4 cơ hội đầu."
+  },
+  {
+    "id": 65,
+    "name": "Chớp báo trước",
+    "goal": "Qua 6 cổng",
+    "special": "Chớp nền báo thứ tự, thay bằng ký hiệu tĩnh khi giảm chuyển động. Nguy hiểm chỉ xuất hiện sau khoảng chờ.",
+    "skill": "Không dùng nhắc lại chuỗi."
+  },
+  {
+    "id": 66,
+    "name": "Hành lang áp suất",
+    "goal": "Sống 75s",
+    "special": "Vùng áp lực đưa vào giữa rồi mở khe mép; cần rời giữa trước khi đóng, báo trước 2s.",
+    "skill": "6 né sát, không dùng xung."
+  },
+  {
+    "id": 67,
+    "name": "Đổi gió cứu tàu",
+    "goal": "Bạn 3 giáp sống 75s",
+    "special": "Gió không tác động bạn; dự đoán đá trôi vào tuyến bạn và phá trước bằng xung.",
+    "skill": "Bạn không mất giáp do đá có trôi ngang."
+  },
+  {
+    "id": 68,
+    "name": "Bão tĩnh điện",
+    "goal": "Sống 80s",
+    "special": "8s hồi thường / 4s khóa hồi, vẫn nhận pin. HUD ghi rõ đang khóa. Có pin tùy chọn đủ cơ hội cho sao.",
+    "skill": "4 xung, mỗi xung phá ≥1 đe dọa."
+  },
+  {
+    "id": 69,
+    "name": "Sáu nhịp trước bình minh",
+    "goal": "Qua 6 cổng, thu 2 tín hiệu",
+    "special": "Báo mẫu khe trước; tín hiệu ở nhịp nghỉ 2 và 5. Cần nhớ nghỉ để thu, không chỉ đuổi cổng.",
+    "skill": "Thu hai tín hiệu ngay lần đầu."
+  },
+  {
+    "id": 70,
+    "name": "Thần bão",
+    "goal": "Phá 4 lõi",
+    "special": "Gió trái, gió phải, tâm bão, mưa tầng ở bốn pha. Lõi mở thì gió giảm còn 25% để tới được.",
+    "skill": "Không bị gió đẩy chạm biên."
+  },
+  {
+    "id": 71,
+    "name": "Phi đội chữ V",
+    "goal": "Sống 70s",
+    "special": "Xung phá nút giữa chữ V mở đường tắt; hoặc đi ngoài cánh xa hơn nhưng không cần xung.",
+    "skill": "Phá 3 nút giữa đội hình."
+  },
+  {
+    "id": 72,
+    "name": "Khóa làn cũ",
+    "goal": "Sống 75s",
+    "special": "Drone đánh dấu làn rồi bắn sau 1,8s; dẫn đạn vào làn cũ và đổi có nhịp.",
+    "skill": "Dẫn 6 loạt vào cùng một làn trống."
+  },
+  {
+    "id": 73,
+    "name": "Tiếp tế bị bao vây",
+    "goal": "Thu 3 kiện",
+    "special": "Mỗi kiện có 2 drone canh, chọn xung hoặc khe nhỏ theo tàu. Có 5 kiện, không khóa lối.",
+    "skill": "Thu đủ mà không xung phá drone canh."
+  },
+  {
+    "id": 74,
+    "name": "Đòn nghi binh",
+    "goal": "Qua 5 cổng thật",
+    "special": "Mũi giả nét đứt không sát thương; cổng thật sau đòn chậm. Luật nghi binh được dạy, không giả thông báo hệ thống.",
+    "skill": "Không chuyển sang làn mồi nhử."
+  },
+  {
+    "id": 75,
+    "name": "Phá lớp hộ vệ",
+    "goal": "Phá 3 nút bảo vệ",
+    "special": "Nút hạ tới tầm xung khác thời điểm; có một điểm giao đủ tắt 2 nút bằng một xung. Pin nhiệm vụ đủ.",
+    "skill": "Một xung tắt 2 nút lúc giao nhau."
+  },
+  {
+    "id": 76,
+    "name": "Đường rút của đoàn hàng",
+    "goal": "Bạn qua 4 cổng",
+    "special": "Địch chặn tuyến tương lai của bạn. Đổi sớm để bạn theo; mỗi cổng có 2 đường thoát hợp lệ.",
+    "skill": "Bạn qua đủ cổng không mất giáp."
+  },
+  {
+    "id": 77,
+    "name": "Vòng vây hai nhịp",
+    "goal": "Sống 80s",
+    "special": "Vòng chỉ khép ở nửa trên; cửa thoát lần lượt mép/giữa, không chụp ở hàng tàu.",
+    "skill": "Thoát 4 vòng không xung."
+  },
+  {
+    "id": 78,
+    "name": "Kho nhiên liệu địch",
+    "goal": "Thu 3 lõi, phá 2 kho",
+    "special": "Phá kho giảm áp lực nhưng cần giữ năng lượng cho nhịp sau. Kho chỉ tính khi phá, không tự bay khỏi màn hình.",
+    "skill": "Đúng 2 xung cho 2 kho, không bấm thừa."
+  },
+  {
+    "id": 79,
+    "name": "Đội săn luân phiên",
+    "goal": "Sống 85s",
+    "special": "Mỗi 15s đổi vai trò khóa làn/hộ vệ/quét ngang; chỉ tối đa 2 vai trò đồng thời.",
+    "skill": "Đạt combo 6."
+  },
+  {
+    "id": 80,
+    "name": "Soái hạm Hắc Vũ",
+    "goal": "Phá 5 lõi",
+    "special": "Vượt khóa làn để hộ vệ tách và lộ lõi. Hai pha cuối phối chữ V/vòng thoát; pin trùm riêng từng pha.",
+    "skill": "Không xung khi giáp lõi đóng."
+  },
+  {
+    "id": 81,
+    "name": "Dấu vết tương lai",
+    "goal": "Sống 75s",
+    "special": "Báo điểm đến đá trước 2s rồi đá chạy đúng dự báo. Đọc dấu tương lai thay vì chỉ nhìn đá hiện tại.",
+    "skill": "Qua 6 khe dự báo không xung."
+  },
+  {
+    "id": 82,
+    "name": "Dòng chảy chậm",
+    "goal": "Qua 5 cổng",
+    "special": "Mỗi làn có tốc độ vật thể khác nhau; tàu/đồng hồ không chậm. So thời gian tới hàng tàu thay vì khoảng cách.",
+    "skill": "Qua cả 5 lần mở đầu."
+  },
+  {
+    "id": 83,
+    "name": "Một lần quay lại",
+    "goal": "Sống 80s",
+    "special": "Đá ký hiệu tua đi lùi rồi rơi lại đúng một lần; giữ ID/cờ né sát, không thưởng hai lần.",
+    "skill": "4 né sát từ 4 ID sau khi tua."
+  },
+  {
+    "id": 84,
+    "name": "Cổng hai thời điểm",
+    "goal": "Qua 4 cổng pha",
+    "special": "Cửa đầu hẹp, cửa sau rộng. Chọn đi sớm lấy lợi thế hoặc đợi an toàn hơn; không đổi ngẫu nhiên vị trí cửa.",
+    "skill": "Qua ≥3 cổng ở cửa đầu."
+  },
+  {
+    "id": 85,
+    "name": "Kiện hàng đứng yên",
+    "goal": "Thu 4 kiện",
+    "special": "Kiện dừng y=560 rồi tiếp tục theo đếm ngược; không nhặt trước khi tới hàng tàu. Có 6 cơ hội.",
+    "skill": "Không bỏ lỡ 4 kiện đầu."
+  },
+  {
+    "id": 86,
+    "name": "Tín hiệu lùi",
+    "goal": "Qua 5 cổng theo chuỗi ngược",
+    "special": "Hiện chuỗi kèm nhãn “đi ngược thứ tự” trước khi bắt đầu; có hỗ trợ đọc lại thứ tự thực thi.",
+    "skill": "Không nhắc lại."
+  },
+  {
+    "id": 87,
+    "name": "Bóng của chính mình",
+    "goal": "Sống 85s",
+    "special": "Bóng ghi đường đi 3s trước báo vị trí bắn sắp tới; bóng không va chạm. Rời đường cũ thay vì theo bóng.",
+    "skill": "6 loạt vào đường bóng không trúng tàu."
+  },
+  {
+    "id": 88,
+    "name": "Đóng băng có giới hạn",
+    "goal": "Tắt 3 bộ phát thời gian",
+    "special": "Xung lúc đóng chỉ dừng đạn, không tăng mục tiêu; chờ cửa lõi. Pin đủ các lần đúng, lỡ được lặp.",
+    "skill": "Đúng 3 xung tắt 3 bộ."
+  },
+  {
+    "id": 89,
+    "name": "Hiện tại là điểm hẹn",
+    "goal": "Bạn 3 giáp sống",
+    "special": "Bạn theo thời gian thật, đe dọa qua vùng nhanh/chậm. Vạch dự báo giúp đọc vật nào tới bạn trước.",
+    "skill": "Không đe dọa từ vùng nhanh chạm bạn."
+  },
+  {
+    "id": 90,
+    "name": "Người giữ đồng hồ",
+    "goal": "Phá 5 lõi",
+    "special": "Năm pha: dự báo, dừng, tua một lần, hai cửa sổ, chuỗi ngược. Chỉ hồi vị trí, không hồi máu trùm đã mất.",
+    "skill": "Không xung lúc chưa mở lõi."
+  },
+  {
+    "id": 91,
+    "name": "Ba con đường cuối",
+    "goal": "Qua 6 cổng một tuyến",
+    "special": "Trước màn chọn tuyến rộng ít tiếp tế / nhiều pin / né sát. Cùng dẫn tới đích, mỗi tuyến có cổng cứu trợ để đổi nếu cần.",
+    "skill": "Không đổi tuyến bằng cổng cứu trợ."
+  },
+  {
+    "id": 92,
+    "name": "Xung hay khiên",
+    "goal": "Sống 85s",
+    "special": "3 trạm cho chọn pin hoặc khiên bằng làn, không nhận cả hai. Mẫu tiếp sau có hai lời giải tương ứng.",
+    "skill": "Không chọn cùng loại ở cả 3 trạm."
+  },
+  {
+    "id": 93,
+    "name": "Đưa người cuối cùng về",
+    "goal": "Bạn sống, cứu 2 khoang",
+    "special": "Đường cứu cắt đường bảo vệ bạn; có pin trước lúc giao để một xung xử lý nguy hiểm chung.",
+    "skill": "Bạn không mất giáp ở hai đợt cứu."
+  },
+  {
+    "id": 94,
+    "name": "Hành lang bốn mùa",
+    "goal": "Qua 8 cổng",
+    "special": "Bốn đoạn thường → gió → băng → cấm nạp, mỗi đoạn 2 cổng. Giữa đoạn trung hòa 3s, không cộng trôi quá giới hạn.",
+    "skill": "Qua đủ 8 lần mở đầu."
+  },
+  {
+    "id": 95,
+    "name": "Vành đai phản công",
+    "goal": "Sống 90s, phá 4 cụm mục tiêu",
+    "special": "Đá thường gây áp lực; cụm có khiên mở theo nhịp, phải dành xung đúng lúc. Có 6 cửa sổ mục tiêu.",
+    "skill": "Không phá cụm giả khung nét đứt."
+  },
+  {
+    "id": 96,
+    "name": "Lựa chọn phi công",
+    "goal": "Thu 3 khóa, qua cổng cuối",
+    "special": "Mỗi khóa có nhánh hẹp giữ combo hoặc rộng để nạp. Lựa chọn ảnh hưởng đoạn sau nhưng không khóa khả năng thắng.",
+    "skill": "Không dùng trạm nạp cứu trợ."
+  },
+  {
+    "id": 97,
+    "name": "Phòng tuyến Nova",
+    "goal": "Trạm 5 giáp sống",
+    "special": "Ưu tiên tấn công 3 làn đổi theo tín hiệu; có nghỉ sau đợt lớn để quay vị trí. Không giả định đã có tàu đắt.",
+    "skill": "Trạm còn ≥4/5 giáp."
+  },
+  {
+    "id": 98,
+    "name": "Hành trình đã học",
+    "goal": "Sống qua 5 đoạn",
+    "special": "Lấy mẫu chương 2, 3, 5, 7, 9; công bố thứ tự trước, mỗi chỗ nối có quy tắc chuyển rõ.",
+    "skill": "Không nhắc lại/cổng cứu trợ."
+  },
+  {
+    "id": 99,
+    "name": "Cánh cửa bình minh",
+    "goal": "Qua 6 cổng, tắt 2 khóa lõi",
+    "special": "Cổng vị trí xen khóa xung; pin cấp trước khóa. Nếu dùng nhầm có vòng nạp cứu trợ, không khóa cứng.",
+    "skill": "Xong trước 85s, không dùng vòng cứu trợ."
+  },
+  {
+    "id": 100,
+    "name": "Trái tim thiên thạch",
+    "goal": "Phá 6 lõi",
+    "special": "Ba hồi, mỗi hồi 2 lõi: đá/cổng; bảo vệ/gió; thời gian/mở giáp. Giữa hồi nghỉ 5s, hồi 1 giáp/cấp NL. Pha cuối tối đa 2 cơ chế đã biết.",
+    "skill": "Thắng chưa kích cứu mạng hoặc cổng cứu trợ; không cần sở hữu Sentinel."
+  }
+]

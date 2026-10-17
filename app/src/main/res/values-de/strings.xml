@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Überleben: 10 Punkte/Sekunde. Gegenstände: je 25 Punkte. Je 20 Endpunkte geben 1 Credit für Verbesserungen. Abgebrochene Flüge bringen nichts.</string>
   <string name="help_accessibility" formatted="false">Erfordert Beobachtung und Ziehen in Echtzeit.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">VERSION 1.3 / 20 SPRACHEN</string>
+  <string name="update_badge" formatted="false">2.0 / Reise mit 100 Etappen</string>
   <string name="new_tagline" formatted="false">Knapp ausweichen für Kombos. Mit Impulsen entkommen und den Rekord brechen.</string>
   <string name="pulse_ready" formatted="false">IMPULS</string>
   <string name="pulse_charging">ENERGIE %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Verstärker</string>
   <string name="daredevil_name" formatted="false">Draufgänger</string>
   <string name="focus_name" formatted="false">Fokus</string>
+  <string name="stage_001_name" formatted="false">Abheben</string>
+  <string name="stage_001_goal" formatted="false">Live 30 Sekunden</string>
+  <string name="stage_001_special" formatted="false">0–10s nur kleine Steine fallen gerade; 10–20 Sekunden mittlere Lücke; 20–30 Sekunden wechseln die Slots auf beide Seiten. Anleitung zum Ziehen durch Aktion.</string>
+  <string name="stage_001_skill" formatted="false">Gehen Sie alle drei Sicherheitshinweise durch.</string>
+  <string name="stage_002_name" formatted="false">Drei Wege zurück</string>
+  <string name="stage_002_goal" formatted="false">Durch 3 Tore</string>
+  <string name="stage_002_special" formatted="false">Das Tor öffnet alle 8 Sekunden von links nach rechts. Das Tor verfehlt die Wiederholung nach 4 Sekunden. Der Schwerpunkt liegt auf der Standortbestimmung und nicht auf der Erhöhung des Hagels.</string>
+  <string name="stage_002_skill" formatted="false">Verpassen Sie keine Toröffnung.</string>
+  <string name="stage_003_name" formatted="false">Erster Nachschub</string>
+  <string name="stage_003_goal" formatted="false">Sammle 2 Pakete</string>
+  <string name="stage_003_special" formatted="false">4 Pakete auf zwei abwechselnden Routen; Der Stein belegt nicht die Aufnahmelinie im Führungsfenster.</string>
+  <string name="stage_003_skill" formatted="false">Fertig mit voller Maximalpanzerung.</string>
+  <string name="stage_004_name" formatted="false">Links-Rechts-Rhythmus</string>
+  <string name="stage_004_goal" formatted="false">Live 35s</string>
+  <string name="stage_004_special" formatted="false">Die Steinreihe hat einen Schlitz, der je nach Rhythmus links/rechts wechselt; Es gibt Platz zum Umdrehen, in der Mitte zu stehen ist nicht immer sicher.</string>
+  <string name="stage_004_skill" formatted="false">Markieren Sie durch die 4 Mitten der Schlitze den richtigen Rhythmus.</string>
+  <string name="stage_005_name" formatted="false">Pulse öffnet den Weg</string>
+  <string name="stage_005_goal" formatted="false">Schalten Sie 2 Minencluster aus</string>
+  <string name="stage_005_special" formatted="false">Cluster unten y=560, Aufgaben-Pin vor jedem Cluster zuweisen. Klicken Sie früh, um dazu aufgefordert zu werden, und wiederholen Sie den Vorgang sicher.</string>
+  <string name="stage_005_skill" formatted="false">Jeder Cluster wird durch einen Impuls vollständig ausgeschaltet.</string>
+  <string name="stage_006_name" formatted="false">Ein Flügelabstand</string>
+  <string name="stage_006_goal" formatted="false">2 gültige Ausweichmanöver</string>
+  <string name="stage_006_special" formatted="false">Zwei Beispielrouten für kleine Felsen, Übungsgelände, mindestens 8 Möglichkeiten. Eine Kollision trägt nicht zum Ziel bei.</string>
+  <string name="stage_006_skill" formatted="false">Verbinden 2, Ausweichen für 5 Sekunden, Erreichen von Combo 2.</string>
+  <string name="stage_007_name" formatted="false">Energierüstung</string>
+  <string name="stage_007_goal" formatted="false">Live 40er</string>
+  <string name="stage_007_special" formatted="false">Frontschild mit zwei schmalen Abschnitten; hat immer noch eine breite Außenlinie, so dass Sie den Schlag nicht einstecken müssen.</string>
+  <string name="stage_007_skill" formatted="false">Schild blockt einmal, verliert keine Rüstung.</string>
+  <string name="stage_008_name" formatted="false">Eine Sekunde langsamer</string>
+  <string name="stage_008_goal" formatted="false">Durch 4 Tore</string>
+  <string name="stage_008_special" formatted="false">Langsames Transplantattor; zeigt an, dass das Element die Zieluhr nicht verlangsamt. Es gibt Strecken, die man nicht nehmen muss, um langsamer zu werden.</string>
+  <string name="stage_008_skill" formatted="false">Sammle 2 langsame Gegenstände mit unterschiedlichen IDs ein.</string>
+  <string name="stage_009_name" formatted="false">Pilottest</string>
+  <string name="stage_009_goal" formatted="false">Sammle 2 Ballen und gehe durch 3 Tore</string>
+  <string name="stage_009_special" formatted="false">Drei Phasen: Sammeln, Spurwechsel, Halten des Pulses, um den endgültigen Pfad zu öffnen. Bestätigen Sie beide Ziele gleichzeitig.</string>
+  <string name="stage_009_skill" formatted="false">Mindestens 3 weichen in der Nähe des letzten Tors aus.</string>
+  <string name="stage_010_name" formatted="false">Hafenwärter</string>
+  <string name="stage_010_goal" formatted="false">Brechen Sie 2 Kerne</string>
+  <string name="stage_010_special" formatted="false">Phase 1 zwei Spalten links in der Mitte; Mischen Sie 2 Schlitze zur Seite und senken Sie dann den Kern ab. Separater Stift/Fenster für jeden Kern.</string>
+  <string name="stage_010_skill" formatted="false">Zerstöre jeden Kern zu Beginn der Phase.</string>
+  <string name="stage_011_name" formatted="false">Fischgräte</string>
+  <string name="stage_011_goal" formatted="false">Live 40er</string>
+  <string name="stage_011_special" formatted="false">Zwei diagonale Zweige bilden einen Fischgrätenschlitz; Ändern Sie nach jedem Paar die Richtung, wobei eine gerade Linie eine Wendung anzeigt.</string>
+  <string name="stage_011_skill" formatted="false">Durch die 5 markierten mittleren Schlitze.</string>
+  <string name="stage_012_name" formatted="false">Schwebende Treppe</string>
+  <string name="stage_012_goal" formatted="false">Durch 4 Tore</string>
+  <string name="stage_012_special" formatted="false">Links → leicht links → leicht rechts → rechts; Kontinuierliches Unterrichten kleiner Übersetzungen. Aktueller Port-Loopback verpasst.</string>
+  <string name="stage_012_skill" formatted="false">Keine Hülsenfrüchte verwenden.</string>
+  <string name="stage_013_name" formatted="false">Schere</string>
+  <string name="stage_013_goal" formatted="false">Live 45s</string>
+  <string name="stage_013_special" formatted="false">Die beiden diagonalen Linien schneiden sich, erreichen aber nicht gleichzeitig die Bahnlinie; Die Warnung zur Zeilennummerierung steht an erster Stelle.</string>
+  <string name="stage_013_skill" formatted="false">4 Ausweichmanöver aus mindestens 2 Linien.</string>
+  <string name="stage_014_name" formatted="false">Die Gasse ändert die Richtung</string>
+  <string name="stage_014_goal" formatted="false">Durch 5 Tore</string>
+  <string name="stage_014_special" formatted="false">Der Korridor ändert die Richtung mit einem Pfeil; Halten Sie den Schwung des Schiffes aufrecht. Tor 3 hat eine Pause, um das Wenden zu lernen.</string>
+  <string name="stage_014_skill" formatted="false">Hat im Eröffnungsversuch alle 5 Punkte bestanden.</string>
+  <string name="stage_015_name" formatted="false">Zwillingsstein</string>
+  <string name="stage_015_goal" formatted="false">Live 45s</string>
+  <string name="stage_015_special" formatted="false">Jedes Paar hat einen langsamen Tritt, gefolgt von einem schnellen Tritt, um falsche Lücken nach dem ersten Tritt zu vermeiden.</string>
+  <string name="stage_015_skill" formatted="false">Vermeiden Sie jede Geschwindigkeitsart mindestens zweimal.</string>
+  <string name="stage_016_name" formatted="false">Halbmond</string>
+  <string name="stage_016_goal" formatted="false">Sammle 3 Kartenteile</string>
+  <string name="stage_016_special" formatted="false">Kick in einem gekrümmten Bogen; Befindet sich der Gegenstand im sicheren konkaven Bereich und wird dann in den entgegengesetzten Bogen gewechselt, gibt es 6 Chancen.</string>
+  <string name="stage_016_skill" formatted="false">Sammle bei den ersten 3 Gelegenheiten 3 Teile.</string>
+  <string name="stage_017_name" formatted="false">Doppelter Rhythmus</string>
+  <string name="stage_017_goal" formatted="false">Lebe die 50er Jahre</string>
+  <string name="stage_017_special" formatted="false">Zwei schnelle Reihen und dann eine lange Pause; Wechseln Sie am Ende der Etappe drei Reihen, um zu vermeiden, dass plötzlich Steine ​​in das Schiff eindringen.</string>
+  <string name="stage_017_skill" formatted="false">Ein Impuls zerstört mindestens 4 Steine.</string>
+  <string name="stage_018_name" formatted="false">Satellitenorbit</string>
+  <string name="stage_018_goal" formatted="false">Durch 4 Tore</string>
+  <string name="stage_018_special" formatted="false">Kleine Steine rotieren um große Blöcke; Der Orbitalschlitz sagt den Abholort an der Schiffsreihe voraus.</string>
+  <string name="stage_018_skill" formatted="false">Zerstören Sie den Mittelblock nicht.</string>
+  <string name="stage_019_name" formatted="false">Der Schnittpunkt von Ehrgeiz</string>
+  <string name="stage_019_goal" formatted="false">Lebe 55 Sekunden und sammle 2 Kurse</string>
+  <string name="stage_019_special" formatted="false">Auf breiten Straßen gibt es nur wenige Dinge, auf schmalen Straßen gibt es Sperren. Es gibt 4 Schleusen, sodass Sie nicht jedes Mal riskante Routen nehmen müssen.</string>
+  <string name="stage_019_skill" formatted="false">Sammeln Sie alle 4 Kurse vor 55 Sekunden.</string>
+  <string name="stage_020_name" formatted="false">Bandbrecher</string>
+  <string name="stage_020_goal" formatted="false">Brechen Sie 3 Kerne</string>
+  <string name="stage_020_special" formatted="false">Die beiden Flügel drücken, um einen horizontalen Schlitz zu erzeugen; Nach dem Drücken eines Flügels wird der Kern nicht mehr sichtbar. Die letzte Phase kehrt den Scan mit einem Alarm um.</string>
+  <string name="stage_020_skill" formatted="false">Das Schiff wurde nicht von einer Flügelmine getroffen.</string>
+  <string name="stage_021_name" formatted="false">Batterie mitten im Sturm</string>
+  <string name="stage_021_goal" formatted="false">Sammle 3 Missions-Pins</string>
+  <string name="stage_021_special" formatted="false">Hinter den Stangen mit Schlitzen befinden sich 5 Batterien; muss die richtige Position erfassen, anstatt kontinuierlich Impulse zu senden.</string>
+  <string name="stage_021_skill" formatted="false">Energie fällt nicht unter 30.</string>
+  <string name="stage_022_name" formatted="false">Keine Ladefläche</string>
+  <string name="stage_022_goal" formatted="false">Durch 4 Tore</string>
+  <string name="stage_022_special" formatted="false">Der gestreifte Bereich reagiert nicht mehr, der helle Bereich lädt sich normal auf. Wechselnde Ports erzwingen die Wahl, ausgelastet zu bleiben oder frühzeitig zu wechseln.</string>
+  <string name="stage_022_skill" formatted="false">Passieren Sie das letzte Tor mit NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Sicherung</string>
+  <string name="stage_023_goal" formatted="false">Drei Ein-/Aus-Tasten ausschalten</string>
+  <string name="stage_023_special" formatted="false">Die Taste schaltet nur innerhalb des Pulsradius aus; Es sind 3 Betriebsbatterien vorhanden. Der nicht ausgeschaltete Knopf hat noch einen Bypass und die nächste Wende.</string>
+  <string name="stage_023_skill" formatted="false">Schalten Sie alle 3 aus, wenn der Sicherheitsring geöffnet ist.</string>
+  <string name="stage_024_name" formatted="false">Halskette</string>
+  <string name="stage_024_goal" formatted="false">Durch 5 Tore der Reihe nach</string>
+  <string name="stage_024_special" formatted="false">Der Port hat eine Zahl/ein Symbol; Nur der aktuelle Port erhält Fortschritt. Das Durchschreiten des Zukunftstors zieht weder Leben ab, noch erhöht sich die Anzahl.</string>
+  <string name="stage_024_skill" formatted="false">Gehen Sie nicht in der falschen Reihenfolge durch das Tor.</string>
+  <string name="stage_025_name" formatted="false">Wählen Sie Angriff oder Ausweichen</string>
+  <string name="stage_025_goal" formatted="false">Live 55s</string>
+  <string name="stage_025_special" formatted="false">Alle 10 Sekunden befindet sich der Pin auf der gegenüberliegenden Kante des nächsten Steckplatzes. Bewerten Sie selbst, ob noch genügend Zeit zum Zurückfahren oder Entfernen des Akkus bleibt; Der Weg zum Entfernen des Akkus ist immer vorhanden.</string>
+  <string name="stage_025_skill" formatted="false">Sammle 3 Batterien und gehe trotzdem zum nächsten Steckplatz.</string>
+  <string name="stage_026_name" formatted="false">Resonanzkondensator</string>
+  <string name="stage_026_goal" formatted="false">Aktivieren Sie 2 Stationen mit NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Fahrt durch den Bereich der Entwässerungsstation 80 NL; Vor jeder Station gibt es eine 100er-Nachfülllinie. Der Impuls ersetzt nicht die Station-Touch-Bedienung.</string>
+  <string name="stage_026_skill" formatted="false">Beide Stationen empfangen, wenn NL ≥95 eingegeben wird.</string>
+  <string name="stage_027_name" formatted="false">Ionenregen</string>
+  <string name="stage_027_goal" formatted="false">Live 55s</string>
+  <string name="stage_027_special" formatted="false">Die Ionenwolke heilt in einer Spur, aber das Gestein wird nach der Warnung dorthin gelangen. Mit mindestens 3 Batterien ist das sekundäre Ziel normalerweise brauchbar.</string>
+  <string name="stage_027_skill" formatted="false">3 gültige Impulse senden.</string>
+  <string name="stage_028_name" formatted="false">Leiterbirne</string>
+  <string name="stage_028_goal" formatted="false">Sammeln Sie 4 Leads</string>
+  <string name="stage_028_special" formatted="false">Die Missionskarte driftet zyklisch ganz nach links/rechts, wobei eine Linie den Abholpunkt vorhersagt. Es gibt 7 Möglichkeiten.</string>
+  <string name="stage_028_skill" formatted="false">Sammle bei den ersten 4 Gelegenheiten 4 Teile.</string>
+  <string name="stage_029_name" formatted="false">Reservieren Sie am Ende der Straße</string>
+  <string name="stage_029_goal" formatted="false">Über 3 Ports, zahlen Sie ≥70 in den letzten Port ein</string>
+  <string name="stage_029_special" formatted="false">Die ersten beiden Ports sind frei; Die End-Gate-Kosten erscheinen von Anfang an. Batteriekompensationsschleifen alle 8 Sekunden, wenn sie fehlen, verfügt über eine Standby-Leitung.</string>
+  <string name="stage_029_skill" formatted="false">Verwenden Sie keine Batteriekompensation.</string>
+  <string name="stage_030_name" formatted="false">Elektrischer Sturmkern</string>
+  <string name="stage_030_goal" formatted="false">Brechen Sie 3 Kerne</string>
+  <string name="stage_030_special" formatted="false">Die drei hellen Pole wechseln sich ab; Stellen Sie sich mit der richtigen Polarität auf, um die Panzerung zu öffnen, und verwenden Sie dann die Boss-/Impulsbatterie. Die letzte Phase hat keine Abklingzeit, akzeptiert aber dennoch Missionspins.</string>
+  <string name="stage_030_skill" formatted="false">Beim ersten Versuch wurden alle drei Stangen korrekt geöffnet.</string>
+  <string name="stage_031_name" formatted="false">Begleiter</string>
+  <string name="stage_031_goal" formatted="false">Verbündete mit 3 Rüstungen leben 50 Sekunden lang</string>
+  <string name="stage_031_special" formatted="false">Du fliegst als Erster, Signal zum Spurwechsel für 2 Sekunden; Der Spieler zerschmettert bedrohliche Steine ​​mit Impulsen. Die ersten 10 Sekunden mit niedrigem Druck zum Lernen.</string>
+  <string name="stage_031_skill" formatted="false">Verbündete verlieren keine Rüstung.</string>
+  <string name="stage_032_name" formatted="false">Zwei Rettungsfahrten</string>
+  <string name="stage_032_goal" formatted="false">Sammle 2 Rettungsboote ein</string>
+  <string name="stage_032_special" formatted="false">Halten Sie den richtigen Aufnahmebereich 1 Sekunde lang gedrückt; Das Fach hat viele schnelle Stürze und Berührungen ohne Wiederholung.</string>
+  <string name="stage_032_skill" formatted="false">Fertig vor 40 Sekunden.</string>
+  <string name="stage_033_name" formatted="false">Angesichts der Gefahr</string>
+  <string name="stage_033_goal" formatted="false">Die Panzerung von Station 4 hält 55 Sekunden an</string>
+  <string name="stage_033_special" formatted="false">Der Stein fiel durch die Linie, wodurch die Station ihre Panzerung verlor. Große Steine ​​geben Bahnhöfen Vorrang, kleine Steine ​​geben Bahnlinien Vorrang; Identifizieren Sie Gefahren, die verhindert werden müssen.</string>
+  <string name="stage_033_skill" formatted="false">Keine großen Steine ​​können durchkommen.</string>
+  <string name="stage_034_name" formatted="false">Zerbrechliche Güter</string>
+  <string name="stage_034_goal" formatted="false">2-gepanzertes Frachtschiff 55s</string>
+  <string name="stage_034_special" formatted="false">Güterzüge wechseln selten die Spur; Zwei Wellen ankommender Drohnen werden planmäßig mit gepulsten Batterien versorgt.</string>
+  <string name="stage_034_skill" formatted="false">Verwenden Sie nicht mehr als 3 Impulse.</string>
+  <string name="stage_035_name" formatted="false">Leitfaden</string>
+  <string name="stage_035_goal" formatted="false">Führt Sie durch 4 Tore</string>
+  <string name="stage_035_special" formatted="false">Du folgst der Spur des Spielers mit 1,2 Sekunden Verspätung; muss sich bald ändern. Die gestrichelte Linie stellt die Verzögerung dar, es ist kein zweiter Steuerfinger erforderlich.</string>
+  <string name="stage_035_skill" formatted="false">Wenn Sie durch jedes Tor gehen, beträgt die Exzentrizität des Schlitzes ≤20 Einheiten.</string>
+  <string name="stage_036_name" formatted="false">Teilen Sie die Entlastungsquelle in zwei Hälften</string>
+  <string name="stage_036_goal" formatted="false">Die Station lebt und liefert 3 Pakete</string>
+  <string name="stage_036_special" formatted="false">Grünes Paket kehrt zur Station zurück, gelbes Paket gibt optionales Geld. Haben Sie alle wichtigen Fakten; Stationsrettung mit Gewinn ausgleichen.</string>
+  <string name="stage_036_skill" formatted="false">Die Station verfügt noch über mindestens 3/4 Panzerung.</string>
+  <string name="stage_037_name" formatted="false">Der Konvoi folgte</string>
+  <string name="stage_037_goal" formatted="false">Beide Schiffe leben</string>
+  <string name="stage_037_special" formatted="false">Der vorherige/nächste Freund war auf der gleichen Route, aber mit einem Zeitunterschied; Bedrohungen verfügen über Identifikationswarnungen und zwei separate Panzerstangen.</string>
+  <string name="stage_037_skill" formatted="false">Niemand wird mehr als eine Rüstung verlieren.</string>
+  <string name="stage_038_name" formatted="false">Rettung im Regen</string>
+  <string name="stage_038_goal" formatted="false">65 Sekunden leben, 3 Fächer speichern</string>
+  <string name="stage_038_special" formatted="false">Empfangsabteil bei der Pause nach dem Regen, 5 Rettungen sind nummeriert. Zum Erlernen muss der Ruherhythmus verwendet werden.</string>
+  <string name="stage_038_skill" formatted="false">Heben Sie keine Minen auf, die mit Warnschildern getarnt sind.</string>
+  <string name="stage_039_name" formatted="false">Absichtlicher Köder</string>
+  <string name="stage_039_goal" formatted="false">Du lebst 65 Sekunden</string>
+  <string name="stage_039_special" formatted="false">Drohne sperrt bei Alarm die alte Spur des Spielers und rast dann los; Lenken Sie Bedrohungen von sich ab und gehen Sie zum richtigen Zeitpunkt weiter.</string>
+  <string name="stage_039_skill" formatted="false">Führe 4 Drohnen ohne dich auf die Spur.</string>
+  <string name="stage_040_name" formatted="false">Weltraumraub</string>
+  <string name="stage_040_goal" formatted="false">Durch den Bruch von 3 Kernen ist das Frachtschiff am Leben</string>
+  <string name="stage_040_special" formatted="false">Der Boss zielt abwechselnd auf Spieler/Schiffe, jede Serie hat ein Zielsymbol. Blockieren Sie das Ziel des Frachtschiffs, um den Kern zu öffnen.</string>
+  <string name="stage_040_skill" formatted="false">Frachtschiff hat noch ≥2/3 Panzerung.</string>
+  <string name="stage_041_name" formatted="false">Dünnes Eis</string>
+  <string name="stage_041_goal" formatted="false">Live 55s</string>
+  <string name="stage_041_special" formatted="false">Nur 15–25er und 35–45er haben Schlupf beim Richtungswechsel; Grüne Bremszone vor dem Spurwechsel.</string>
+  <string name="stage_041_skill" formatted="false">Berühren Sie nicht die beiden Kanten des Bandes.</string>
+  <string name="stage_042_name" formatted="false">Bremse vor dem Tor</string>
+  <string name="stage_042_goal" formatted="false">Durch 4 Tore</string>
+  <string name="stage_042_special" formatted="false">Bei der Durchfahrt durch das Tor muss die horizontale Geschwindigkeit ≤120 Einheiten/s betragen. Es gibt einen Tacho zum Einstellen der Bremsen; Port-Repeater verpasst.</string>
+  <string name="stage_042_skill" formatted="false">Hat im Eröffnungsversuch alle 4 bestanden.</string>
+  <string name="stage_043_name" formatted="false">Das Eis brach</string>
+  <string name="stage_043_goal" formatted="false">Live 60er</string>
+  <string name="stage_043_special" formatted="false">Das Eis spaltete sich nach der Risslinie in zwei Teile; kann vor dem Bruch pulsieren. Fragment bringt nur eine Generation zur Welt.</string>
+  <string name="stage_043_skill" formatted="false">Brechen Sie 3 Eisblöcke, bevor Sie sie teilen.</string>
+  <string name="stage_044_name" formatted="false">Warmes Wasser</string>
+  <string name="stage_044_goal" formatted="false">Sammle 3 Thermokerne</string>
+  <string name="stage_044_special" formatted="false">Der Kern befindet sich im rutschfesten Bereich zwischen den beiden Förderbändern; Nehmen Sie Fahrt auf und bremsen Sie dann ab. Laut Zeitplan sind es 6 Kerne.</string>
+  <string name="stage_044_skill" formatted="false">Sammeln Sie 3 Crores bei den ersten 3 Gelegenheiten.</string>
+  <string name="stage_045_name" formatted="false">Das Pendel ist kalt</string>
+  <string name="stage_045_goal" formatted="false">Durch 5 Tore</string>
+  <string name="stage_045_special" formatted="false">Phasenschwenktor, Aufnahmepunktanzeige; Sagen Sie zukünftige Positionen voraus, anstatt aktuelle Punkte zu verfolgen.</string>
+  <string name="stage_045_skill" formatted="false">Keine Hülsenfrüchte verwenden.</string>
+  <string name="stage_046_name" formatted="false">Unter die Kuppel gleiten</string>
+  <string name="stage_046_goal" formatted="false">Live 65er</string>
+  <string name="stage_046_special" formatted="false">Langsamer Steinbogen hat einen kurzen Weg und einen äußeren Ring. Wenn man zu stark rutscht, kann man leicht an den Rand der kurzen Straße geraten. Es bleibt noch genügend Zeit für den Umweg.</string>
+  <string name="stage_046_skill" formatted="false">Durch 3 kurze Linien markiert.</string>
+  <string name="stage_047_name" formatted="false">Batterien auf dem Förderband</string>
+  <string name="stage_047_goal" formatted="false">Laden Sie 2 Stationen, gehen Sie durch das letzte Tor</string>
+  <string name="stage_047_special" formatted="false">Das Förderband schiebt die Batterie, nicht den Zug; Die Vorhersage des Abholpunkts und der Halteroute trennt Beobachtung und Kontrolle.</string>
+  <string name="stage_047_skill" formatted="false">Laden Sie 2 Stationen innerhalb von 50 Sekunden auf.</string>
+  <string name="stage_048_name" formatted="false">Nebelecho</string>
+  <string name="stage_048_goal" formatted="false">Lebe die 70er</string>
+  <string name="stage_048_special" formatted="false">Lässt die Slot-Kette ahnen. Der Nebel bedeckt nur den Hintergrund/die Dekoration, nicht die Hitbox/Warnleiste; mit sich wiederholenden Symbolen.</string>
+  <string name="stage_048_skill" formatted="false">Bestehen Sie 6 Slots ohne Wiederholung.</string>
+  <string name="stage_049_name" formatted="false">Risse breiten sich aus</string>
+  <string name="stage_049_goal" formatted="false">Durch 6 Tore</string>
+  <string name="stage_049_special" formatted="false">Durch jedes Tor schließt die alte Spur nach 2 Sekunden; muss übergegangen werden, wobei der zu schließende Bereich und der nächste Bereich markiert werden müssen.</string>
+  <string name="stage_049_skill" formatted="false">Kehren Sie nicht innerhalb von 2 Sekunden nach dem Schlusssignal auf die alte Fahrspur zurück.</string>
+  <string name="stage_050_name" formatted="false">Weißer Drache</string>
+  <string name="stage_050_goal" formatted="false">4 Kerne kaputt machen</string>
+  <string name="stage_050_special" formatted="false">Die ersten beiden Phasen sind Treibeis, die letzten beiden Phasen sind fragmentierte Eisbögen. Der Kern ist in der rutschfesten Zone für alle Schiffe zugänglich.</string>
+  <string name="stage_050_skill" formatted="false">Hat das sekundäre Eisfragment nicht getroffen.</string>
+  <string name="stage_051_name" formatted="false">Flurschalter</string>
+  <string name="stage_051_goal" formatted="false">Schalten Sie 3 Schalter ein und gehen Sie durch das Tor</string>
+  <string name="stage_051_special" formatted="false">Gehen Sie durch den Schalter in der Zugreihe, um die richtige hintere Tür zu öffnen. Wenn Sie verfehlen, können Sie es wiederholen, aber Sie werden nicht sofort verlieren.</string>
+  <string name="stage_051_skill" formatted="false">Schalten Sie alle 3 ersten Begegnungen ein.</string>
+  <string name="stage_052_name" formatted="false">Drei-Bild-Code</string>
+  <string name="stage_052_goal" formatted="false">Geben Sie eine Zeichenfolge mit 3 Symbolen ein</string>
+  <string name="stage_052_special" formatted="false">Zeigen Sie 4 Sekunden lang Dreieck–Kreis–Quadrat an und wählen Sie dann den richtigen Port aus. Mit „False“ können Sie das aktuelle Element überprüfen und wiederholen. Vermeiden Sie es, sich allein auf die Farbe zu verlassen.</string>
+  <string name="stage_052_skill" formatted="false">Nicht falsch eingeben/wiederholen.</string>
+  <string name="stage_053_name" formatted="false">Drohnenpatrouille</string>
+  <string name="stage_053_goal" formatted="false">Live 65er</string>
+  <string name="stage_053_special" formatted="false">Horizontale Drohnen haben eine feste Route, schießen nur, wenn das Licht an ist; Lesen Sie die Richtung des Stiels ab, um den Schlitz zu erraten.</string>
+  <string name="stage_053_skill" formatted="false">Zerstöre 4 Drohnen mit Puls.</string>
+  <string name="stage_054_name" formatted="false">Spiegel ist phasenverschoben</string>
+  <string name="stage_054_goal" formatted="false">Durch 5 echte Tore</string>
+  <string name="stage_054_special" formatted="false">Der Schatten spiegelt die gestrichelte Linie wider, das echte Tor ist ein durchgehender Rahmen + Alarmton. Die Bewegung der Schlagschatten wurde reduziert, die Unterscheidung der Symbole blieb jedoch erhalten.</string>
+  <string name="stage_054_skill" formatted="false">Berühren Sie nicht den gefälschten Anschlussbereich.</string>
+  <string name="stage_055_name" formatted="false">Rhythmus-Taste</string>
+  <string name="stage_055_goal" formatted="false">Schalten Sie 3 Sender aus</string>
+  <string name="stage_055_special" formatted="false">Der Sender öffnet sich, um den Impuls 6 Sekunden lang zu empfangen, und deckt dann die Panzerung ab; Duty-Pin-Pegel vorher, Fehlschlag wird im nächsten Zyklus versucht.</string>
+  <string name="stage_055_skill" formatted="false">Schalten Sie alle 3 aus, wenn das Fenster noch ≥3 Sekunden übrig hat.</string>
+  <string name="stage_056_name" formatted="false">Sortierförderer</string>
+  <string name="stage_056_goal" formatted="false">Sammle 4 Dreieckskomponenten</string>
+  <string name="stage_056_special" formatted="false">Drei Typen gemischt: separate Ziele, normale Gegenstände, Warnminen. Muss klassifizieren, anstatt alles aufzusammeln.</string>
+  <string name="stage_056_skill" formatted="false">Nehmen Sie keine Teile des falschen Typs auf.</string>
+  <string name="stage_057_name" formatted="false">Gesperrte Verknüpfung</string>
+  <string name="stage_057_goal" formatted="false">Durch 4 Tore, öffne das letzte Tor</string>
+  <string name="stage_057_special" formatted="false">Kostenlose Ferngespräche; Die Abkürzung kostet 40 NL, spart aber Zeit. Der letzte Anschluss benötigt 60 und verfügt über einen Ausgleichsstift, um ein hartes Verriegeln zu vermeiden.</string>
+  <string name="stage_057_skill" formatted="false">Fertig vor 55 Sekunden.</string>
+  <string name="stage_058_name" formatted="false">Vier Gänge</string>
+  <string name="stage_058_goal" formatted="false">Live 75er</string>
+  <string name="stage_058_special" formatted="false">Drohne folgt Säulen, Bögen, Diagonalen und Drifts im Ablenkungszyklus. Beim nächsten Modell werfen Sie nicht alle vier gleichzeitig.</string>
+  <string name="stage_058_skill" formatted="false">Nach einem Zyklus pulsieren vier Proben nicht.</string>
+  <string name="stage_059_name" formatted="false">Starten Sie das Relikt</string>
+  <string name="stage_059_goal" formatted="false">Sammle 3 Kerne, aktiviere 1 Station</string>
+  <string name="stage_059_special" formatted="false">Sammeln Sie die Komponenten und kehren Sie dann zur Bahnhofsspur zurück, um das Tor zu öffnen. Die Station empfängt nur, wenn genügend Kerne vorhanden sind; Es gibt einen Bypass zum Warten auf die Batterie.</string>
+  <string name="stage_059_skill" formatted="false">Verwendet nur 1 Impuls.</string>
+  <string name="stage_060_name" formatted="false">Architekt</string>
+  <string name="stage_060_goal" formatted="false">4 Kerne kaputt machen</string>
+  <string name="stage_060_special" formatted="false">Lösen Sie die One-Core-Open-Symbol-Route korrekt. In der letzten Phase wird die Reihenfolge umgekehrt, es wird jedoch vor der Ausführung ein neues Beispiel angezeigt.</string>
+  <string name="stage_060_skill" formatted="false">Wählen Sie nicht die falschen Phasensymbole.</string>
+  <string name="stage_061_name" formatted="false">Horizontaler Wind</string>
+  <string name="stage_061_goal" formatted="false">Live 65er</string>
+  <string name="stage_061_special" formatted="false">Zwei Stöße nach dem Pfeil, die Driftgeschwindigkeit ist geringer als die Kompensationsfähigkeit des langsamsten Schiffes.</string>
+  <string name="stage_061_skill" formatted="false">Berühren Sie nicht die Windkante.</string>
+  <string name="stage_062_name" formatted="false">Auge des Sturms</string>
+  <string name="stage_062_goal" formatted="false">Durch 5 Sturmzentrumsgebiete</string>
+  <string name="stage_062_special" formatted="false">Die neutrale Zone verläuft über 3 Fahrspuren, ohne in die Mitte gedrängt zu werden. Zählt nur beim Durchfahren der Mitte an der Zugreihe.</string>
+  <string name="stage_062_skill" formatted="false">Bei allen 5 ersten Auftritten.</string>
+  <string name="stage_063_name" formatted="false">Dreischichtiger Regen</string>
+  <string name="stage_063_goal" formatted="false">Lebe die 70er</string>
+  <string name="stage_063_special" formatted="false">Große Steine sind langsam, kleine Steine sind schnell, Minen treiben auf verschiedenen Ebenen; Lesen Sie die Reihenfolge des Trainings anstelle der einfachen Distanz.</string>
+  <string name="stage_063_skill" formatted="false">Ein Impuls, der Objekte auf allen 3 Etagen zerstört.</string>
+  <string name="stage_064_name" formatted="false">Die Batterie ist kaputt gegangen</string>
+  <string name="stage_064_goal" formatted="false">Sammle 4 Missionsbatterien</string>
+  <string name="stage_064_special" formatted="false">Wind treibt das Schiff und die Batterien um einen anderen Faktor; Es gibt eine Abholpunktlinie. Beschleunigen Sie die Batterie nicht plötzlich. Insgesamt 7 Möglichkeiten.</string>
+  <string name="stage_064_skill" formatted="false">Sammle 4 Pins bei den ersten 4 Chancen.</string>
+  <string name="stage_065_name" formatted="false">Flash-Warnung</string>
+  <string name="stage_065_goal" formatted="false">Durch 6 Tore</string>
+  <string name="stage_065_special" formatted="false">Der Hintergrundblitz zeigt die Sequenz an und wird durch ein statisches Symbol ersetzt, wenn die Bewegung reduziert wird. Gefahr entsteht erst nach einer Wartezeit.</string>
+  <string name="stage_065_skill" formatted="false">Zeichenfolgen nicht wiederholen.</string>
+  <string name="stage_066_name" formatted="false">Druckkorridor</string>
+  <string name="stage_066_goal" formatted="false">Live 75er</string>
+  <string name="stage_066_special" formatted="false">Der Druckbereich wird in die Mitte gebracht und dann der Rand geöffnet; Vor dem Schließen muss die Mitte verlassen werden, 2 Sekunden Vorwarnung geben.</string>
+  <string name="stage_066_skill" formatted="false">6 Ausweichen, nah dran, keinen Impuls verwenden.</string>
+  <string name="stage_067_name" formatted="false">Ändern Sie den Wind, um das Schiff zu retten</string>
+  <string name="stage_067_goal" formatted="false">3 gepanzerte Freunde leben 75 Sekunden lang</string>
+  <string name="stage_067_special" formatted="false">Der Wind beeinträchtigt dich nicht; Erwarten Sie Steine, die auf Ihre Fahrspur treiben, und zerstören Sie sie zunächst mit einem Impuls.</string>
+  <string name="stage_067_skill" formatted="false">Du verlierst keine Panzerung durch seitwärts treibende Steine.</string>
+  <string name="stage_068_name" formatted="false">Elektrostatischer Sturm</string>
+  <string name="stage_068_goal" formatted="false">Leben in den 80ern</string>
+  <string name="stage_068_special" formatted="false">8 Sekunden normale Wiederherstellung / 4 Sekunden Sperrwiederherstellung, weiterhin Batterieempfang. Das HUD zeigt eindeutig an, dass es gesperrt ist. Mit einer optionalen Batterie gibt es genügend Möglichkeiten für Sterne.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​Impulse, jeder Impuls zerstört ≥1 Bedrohung.</string>
+  <string name="stage_069_name" formatted="false">Sechs Schläge vor Tagesanbruch</string>
+  <string name="stage_069_goal" formatted="false">Empfangen Sie über 6 Ports 2 Signale</string>
+  <string name="stage_069_special" formatted="false">Zuerst Slot-Beispiel melden; Signal in Ruhe, Takt 2 und 5. Denken Sie daran, sich auszuruhen, um zu empfangen, und nicht nur dem Tor hinterherzujagen.</string>
+  <string name="stage_069_skill" formatted="false">Habe beim ersten Mal zwei Signale empfangen.</string>
+  <string name="stage_070_name" formatted="false">Sturmgott</string>
+  <string name="stage_070_goal" formatted="false">4 Kerne kaputt machen</string>
+  <string name="stage_070_special" formatted="false">Linkswind, Rechtswind, Sturmzentrum, strömender Regen in vier Phasen. Bei geöffnetem Kern wird der Wind auf 25 % reduziert.</string>
+  <string name="stage_070_skill" formatted="false">Nicht vom Wind an den Rand gedrückt.</string>
+  <string name="stage_071_name" formatted="false">V-förmiges Geschwader</string>
+  <string name="stage_071_goal" formatted="false">Lebe die 70er</string>
+  <string name="stage_071_special" formatted="false">Puls unterbricht die Schaltfläche in der Mitte des V, um eine Verknüpfung zu öffnen; oder weiter über den Flügel hinausgehen, ohne dass ein Puls erforderlich ist.</string>
+  <string name="stage_071_skill" formatted="false">Zerstöre 3 Knöpfe in der Mitte des Trupps.</string>
+  <string name="stage_072_name" formatted="false">Alte Spursperre</string>
+  <string name="stage_072_goal" formatted="false">Live 75er</string>
+  <string name="stage_072_special" formatted="false">Drohne markiert die Fahrspur und feuert dann nach 1,8 Sekunden; Leiten Sie die Kugeln in die alte Spur und wechseln Sie rhythmisch.</string>
+  <string name="stage_072_skill" formatted="false">Führt 6 Serien in die gleiche leere Spur.</string>
+  <string name="stage_073_name" formatted="false">Vorräte sind umzingelt</string>
+  <string name="stage_073_goal" formatted="false">Sammle 3 Pakete</string>
+  <string name="stage_073_special" formatted="false">Jedes Paket verfügt über 2 Drohnen zur Überwachung und Auswahl von Impulsen oder kleinen Slots je nach Schiff. Es gibt 5 Pakete, der Eingang ist nicht verschlossen.</string>
+  <string name="stage_073_skill" formatted="false">Sammle genug, ohne die Überwachungsdrohne zu zerstören.</string>
+  <string name="stage_074_name" formatted="false">Ablenkungsangriff</string>
+  <string name="stage_074_goal" formatted="false">Durch 5 echte Tore</string>
+  <string name="stage_074_special" formatted="false">Falsche Nase mit unterbrochenen Linien verursacht keinen Schaden; Echtes Tor nach langsamem Schlag. Es wird das Gesetz der Umleitung gelehrt, nicht gefälschte Systembenachrichtigungen.</string>
+  <string name="stage_074_skill" formatted="false">Wechseln Sie nicht auf die Täuschspur.</string>
+  <string name="stage_075_name" formatted="false">Zerstöre die Schutzschicht</string>
+  <string name="stage_075_goal" formatted="false">Zerstöre 3 Sicherheitsknöpfe</string>
+  <string name="stage_075_special" formatted="false">Der Taster erreicht den Pulsbereich zu einem anderen Zeitpunkt; Es gibt einen Schnittpunkt, der ausreicht, um zwei Knoten mit einem Impuls auszuschalten. Ausreichend belastbarer Akku.</string>
+  <string name="stage_075_skill" formatted="false">Ein Impuls schaltet zwei Knoten am Schnittpunkt aus.</string>
+  <string name="stage_076_name" formatted="false">Der Rückzug des Konvois</string>
+  <string name="stage_076_goal" formatted="false">Du gehst durch 4 Tore</string>
+  <string name="stage_076_special" formatted="false">Der Feind blockiert Ihre zukünftige Route. Wechseln Sie frühzeitig, damit Ihre Freunde folgen können. Jeder Port verfügt über zwei gültige Ausgangspfade.</string>
+  <string name="stage_076_skill" formatted="false">Du gehst durch genügend Tore, ohne Rüstung zu verlieren.</string>
+  <string name="stage_077_name" formatted="false">Belagerung mit zwei Feldern</string>
+  <string name="stage_077_goal" formatted="false">Leben in den 80ern</string>
+  <string name="stage_077_special" formatted="false">Die Schleife ist nur in der oberen Hälfte geschlossen; Die Ausgangstüren wechseln sich am Rand/in der Mitte ab, nicht an der Zugreihe.</string>
+  <string name="stage_077_skill" formatted="false">4 ​​Runden ohne Puls beenden.</string>
+  <string name="stage_078_name" formatted="false">Feindliches Treibstoffdepot</string>
+  <string name="stage_078_goal" formatted="false">Sammle 3 crores, zerstöre 2 Lagerhäuser</string>
+  <string name="stage_078_special" formatted="false">Durch das Aufbrechen des Lagers wird der Druck verringert, es muss jedoch Energie für den nächsten Schlag gespart werden. Lagerhäuser zählen nur, wenn sie zerstört werden, sie verschwinden nicht vom Bildschirm.</string>
+  <string name="stage_078_skill" formatted="false">Korrigieren Sie 2 Impulse für 2 Lager, keine übermäßigen Pressen.</string>
+  <string name="stage_079_name" formatted="false">Rotierendes Jagdteam</string>
+  <string name="stage_079_goal" formatted="false">Live 85er</string>
+  <string name="stage_079_special" formatted="false">Wechseln Sie alle 15 Sekunden die Rolle, um die Spur zu blockieren/zu bewachen/zu fegen; Maximal 2 Rollen gleichzeitig.</string>
+  <string name="stage_079_skill" formatted="false">Erreiche Combo 6.</string>
+  <string name="stage_080_name" formatted="false">Flaggschiff Black Vu</string>
+  <string name="stage_080_goal" formatted="false">Brechen Sie 5 crores</string>
+  <string name="stage_080_special" formatted="false">Passieren Sie die Spursperre, damit sich die Wache trennen und den Kern freilegen kann. Die letzten beiden Phasen sind V-förmig/Fluchtschleife; Die Batterie deckt jede Phase separat ab.</string>
+  <string name="stage_080_skill" formatted="false">Kein Puls bei geschlossener Kernpanzerung.</string>
+  <string name="stage_081_name" formatted="false">Spuren der Zukunft</string>
+  <string name="stage_081_goal" formatted="false">Live 75er</string>
+  <string name="stage_081_special" formatted="false">Melden Sie das Kickziel 2 Sekunden im Voraus und kicken Sie dann wie vorhergesagt. Lesen Sie die Zukunft, anstatt nur auf den gegenwärtigen Stein zu schauen.</string>
+  <string name="stage_081_skill" formatted="false">Durch 6 Slots wird kein Puls vorhergesagt.</string>
+  <string name="stage_082_name" formatted="false">Langsamer Fluss</string>
+  <string name="stage_082_goal" formatted="false">Durch 5 Tore</string>
+  <string name="stage_082_special" formatted="false">Jede Spur hat eine andere Objektgeschwindigkeit; Der Zug/die Uhr ist nicht langsam. Vergleichen Sie die Ankunftszeit des Zuges statt die Entfernung.</string>
+  <string name="stage_082_skill" formatted="false">Durch alle 5 Öffnungen.</string>
+  <string name="stage_083_name" formatted="false">Noch einmal</string>
+  <string name="stage_083_goal" formatted="false">Live 80er</string>
+  <string name="stage_083_special" formatted="false">Der Symbolfelsen bewegt sich rückwärts und fällt dann genau einmal zurück; Behalten Sie die Ausweis-/Ausweichflagge bei, belohnen Sie nicht doppelt.</string>
+  <string name="stage_083_skill" formatted="false">4 weicht nach dem Zurückspulen dicht aus 4 ID aus.</string>
+  <string name="stage_084_name" formatted="false">Zweimaliges Tor</string>
+  <string name="stage_084_goal" formatted="false">Durch 4 Phasenanschlüsse</string>
+  <string name="stage_084_special" formatted="false">Die erste Tür ist schmal, die Hintertür ist breit. Entscheiden Sie sich dafür, früh zu gehen, um die Vorteile zu nutzen, oder zu warten, um sicherer zu sein; Ändern Sie die Türposition nicht zufällig.</string>
+  <string name="stage_084_skill" formatted="false">Durch ≥3 Tore am ersten Tor.</string>
+  <string name="stage_085_name" formatted="false">Das Paket ist stationär</string>
+  <string name="stage_085_goal" formatted="false">Sammle 4 Pakete</string>
+  <string name="stage_085_special" formatted="false">Sue stoppt y=560 und zählt dann weiter herunter; Nicht abholen, bevor Sie die Bahnlinie erreicht haben. Es gibt 6 Chancen.</string>
+  <string name="stage_085_skill" formatted="false">Verpassen Sie nicht die ersten 4 Pakete.</string>
+  <string name="stage_086_name" formatted="false">Rückwärtssignal</string>
+  <string name="stage_086_goal" formatted="false">Durch 5 Ports in umgekehrter Kette</string>
+  <string name="stage_086_special" formatted="false">Zeichenfolge mit der Bezeichnung „umgekehrte Reihenfolge“ vor dem Start anzeigen; unterstützt das erneute Lesen der Ausführungsreihenfolge.</string>
+  <string name="stage_086_skill" formatted="false">Nicht wiederholen.</string>
+  <string name="stage_087_name" formatted="false">Mein eigener Schatten</string>
+  <string name="stage_087_goal" formatted="false">Live 85er</string>
+  <string name="stage_087_special" formatted="false">Der Ball zeichnet den Weg 3 Sekunden auf, bevor er die bevorstehende Schussposition anzeigt; Der Ball kollidiert nicht. Verlassen Sie den alten Weg, anstatt dem Ball zu folgen.</string>
+  <string name="stage_087_skill" formatted="false">6 Schüsse des Balls haben das Schiff nicht getroffen.</string>
+  <string name="stage_088_name" formatted="false">Begrenztes Einfrieren</string>
+  <string name="stage_088_goal" formatted="false">Schalten Sie 3 Zeitsender aus</string>
+  <string name="stage_088_special" formatted="false">Der Schließimpuls stoppt nur das Geschoss, erhöht nicht das Ziel; Warte auf die Kerntür. Stecken Sie die richtige Anzahl von Malen fest und wiederholen Sie den Fehler.</string>
+  <string name="stage_088_skill" formatted="false">Korrigieren Sie 3 Impulse aus 3 Sätzen.</string>
+  <string name="stage_089_name" formatted="false">Jetzt ist der Treffpunkt</string>
+  <string name="stage_089_goal" formatted="false">Sie haben 3 lebende Sternzeichen</string>
+  <string name="stage_089_special" formatted="false">Sie folgen in Echtzeit und drohen, die Schnell-/Langsamzone zu überschreiten. Vorhersagelinien helfen Ihnen zu erkennen, welches Objekt Sie zuerst erreicht.</string>
+  <string name="stage_089_skill" formatted="false">Keine Bedrohungen aus der Fast-Zone erreichen dich.</string>
+  <string name="stage_090_name" formatted="false">Wache</string>
+  <string name="stage_090_goal" formatted="false">Brechen Sie 5 crores</string>
+  <string name="stage_090_special" formatted="false">Fünf Phasen: Vorhersage, Stopp, einzelner Rücklauf, zwei Fenster, umgekehrte Reihenfolge. Stellt nur die Position wieder her, nicht die verlorene Gesundheit des Bosses.</string>
+  <string name="stage_090_skill" formatted="false">Pulsieren Sie nicht, ohne den Kern zu öffnen.</string>
+  <string name="stage_091_name" formatted="false">Die letzten drei Straßen</string>
+  <string name="stage_091_goal" formatted="false">Durch 6 Tore in einer Reihe</string>
+  <string name="stage_091_special" formatted="false">Wählen Sie vor dem Bildschirm eine breite Route mit wenig Versorgung / viel Batterie / enger Umfahrung. Jede Route führt zum gleichen Ziel und verfügt über ein Hilfstor, das bei Bedarf geändert werden kann.</string>
+  <string name="stage_091_skill" formatted="false">Führen Sie keine Umleitung über das Entlastungstor durch.</string>
+  <string name="stage_092_name" formatted="false">Puls oder Schild</string>
+  <string name="stage_092_goal" formatted="false">Live 85er</string>
+  <string name="stage_092_special" formatted="false">Bei 3 Stationen können Sie Batterie oder Schild pro Spur auswählen, nicht beides. Das folgende Muster hat zwei entsprechende Lösungen.</string>
+  <string name="stage_092_skill" formatted="false">Wählen Sie nicht an allen 3 Stationen den gleichen Typ.</string>
+  <string name="stage_093_name" formatted="false">Bring die letzte Person zurück</string>
+  <string name="stage_093_goal" formatted="false">Du lebst, speichere 2 Fächer</string>
+  <string name="stage_093_special" formatted="false">Der Weg zur Rettung ebnet Ihnen den Weg zu Ihrem Schutz; Achten Sie darauf, dass die Batterie vor der Auslieferung einen allgemein gefährlichen Puls aufweist.</string>
+  <string name="stage_093_skill" formatted="false">Du verlierst bei zwei Rettungswürfen keine Rüstung.</string>
+  <string name="stage_094_name" formatted="false">Vier-Jahreszeiten-Korridor</string>
+  <string name="stage_094_goal" formatted="false">Durch 8 Tore</string>
+  <string name="stage_094_special" formatted="false">Vier normale Abschnitte → Wind → Eis → verbotene Beladung, jeder Abschnitt hat 2 Anschlüsse. Fügen Sie während der Neutralisation für 3 Sekunden keine Drift über den Grenzwert hinaus hinzu.</string>
+  <string name="stage_094_skill" formatted="false">Alle 8 Öffnungsversuche bestanden.</string>
+  <string name="stage_095_name" formatted="false">Gegenangriffsgürtel</string>
+  <string name="stage_095_goal" formatted="false">Lebe 90 Sekunden lang und zerstöre 4 Zielcluster</string>
+  <string name="stage_095_special" formatted="false">Treten verursachen oft Druck; Der Cluster verfügt über ein Schild, das sich im Rhythmus öffnet, der Puls muss zum richtigen Zeitpunkt reserviert werden. Es gibt 6 Zielfenster.</string>
+  <string name="stage_095_skill" formatted="false">Zerstören Sie nicht den gestrichelten Pseudo-Frame-Cluster.</string>
+  <string name="stage_096_name" formatted="false">Pilotenauswahl</string>
+  <string name="stage_096_goal" formatted="false">Sammle 3 Schleusen ein und passiere das letzte Tor</string>
+  <string name="stage_096_special" formatted="false">Jedes Schloss hat einen schmalen Zweig zum Halten von Combos oder einen breiten Zweig zum Laden. Die Wahl wirkt sich auf die nächste Phase aus, blockiert jedoch nicht die Gewinnmöglichkeit.</string>
+  <string name="stage_096_skill" formatted="false">Benutzen Sie nicht die Hilfstankstelle.</string>
+  <string name="stage_097_name" formatted="false">Nova-Linie</string>
+  <string name="stage_097_goal" formatted="false">Station 5 Live-Rüstung</string>
+  <string name="stage_097_special" formatted="false">3-Lane-Angriffspriorität ändert sich je nach Signal; Nach der großen Welle der Positionsrotation gibt es eine Pause. Gehen Sie nicht davon aus, dass es bereits teure Schiffe gibt.</string>
+  <string name="stage_097_skill" formatted="false">Station hat noch ≥4/5 Panzerung.</string>
+  <string name="stage_098_name" formatted="false">Reise gelernt</string>
+  <string name="stage_098_goal" formatted="false">Lebe 5 Absätze durch</string>
+  <string name="stage_098_special" formatted="false">Beispielkapitel 2, 3, 5, 7, 9; Nach vorheriger Ankündigung gelten für jeden Knotenpunkt klare Transferregeln.</string>
+  <string name="stage_098_skill" formatted="false">Kein Wiederholungs-/Entlastungsanschluss.</string>
+  <string name="stage_099_name" formatted="false">Tür der Morgendämmerung</string>
+  <string name="stage_099_goal" formatted="false">Deaktivieren Sie über 6 Ports 2 Kernsperren</string>
+  <string name="stage_099_special" formatted="false">Impulsverriegelung Positionstor; Batteriestand vor der Sperre. Bei versehentlicher Verwendung gibt es einen entlasteten Nachfüllring, der nicht verriegelt ist.</string>
+  <string name="stage_099_skill" formatted="false">Fertig vor 85 Sekunden, Rettungsring nicht verwenden.</string>
+  <string name="stage_100_name" formatted="false">Meteorherz</string>
+  <string name="stage_100_goal" formatted="false">Brechen Sie 6 Kerne</string>
+  <string name="stage_100_special" formatted="false">Drei Runden, jede Runde 2 Kerne: Stein/Tor; Schutz/Wind; Zeit-/Rüstungseröffnung. Ruhen Sie sich dazwischen 5 Sekunden lang aus und stellen Sie 1 Rüstungs-/Energiestufe wieder her. Endphase maximal 2 bekannte Mechanismen.</string>
+  <string name="stage_100_skill" formatted="false">Thang hat weder den lebensrettenden Auslöser noch die Entlastungsöffnung aktiviert; Es ist nicht erforderlich, Sentinel zu besitzen.</string>
+  <string name="chapter_01" formatted="false">Ben Star: Besitze das Schiff</string>
+  <string name="chapter_02" formatted="false">Steingürtel: Lesen Sie die Route</string>
+  <string name="chapter_03" formatted="false">Elektromagnetischer Bereich: Energie nutzen und speichern</string>
+  <string name="chapter_04" formatted="false">Verlorener Zug: Schutz und Priorität</string>
+  <string name="chapter_05" formatted="false">Eisnebel: Hauptträgheit</string>
+  <string name="chapter_06" formatted="false">Mechanische Ruinen: maschinelles Lesen und Dekodieren</string>
+  <string name="chapter_07" formatted="false">Weltraumsturm: Anpassung an die Umwelt</string>
+  <string name="chapter_08" formatted="false">Dunkle Flotte: taktische Reflexe</string>
+  <string name="chapter_09" formatted="false">Time Rift: Lesen Sie die Regeln des Wandels</string>
+  <string name="chapter_10" formatted="false">Meteorzentrum: Synthese und Auswahl</string>
+  <string name="ship_s01_body" formatted="false">Balance, keine Nebenregeln; Standardüberprüfung jedes Bildschirms. Kompromiss: Keine Spezialisierung.</string>
+  <string name="ship_s02_body" formatted="false">Schneller Spurwechsel, kleiner Körper. Kompromiss: Weniger Rüstung.</string>
+  <string name="ship_s03_body" formatted="false">Erleidet viele seltsame Kollisionen. Kompromisse: Großes, langsames, langsames Laden.</string>
+  <string name="ship_s04_body" formatted="false">Absorbieren Sie optionale Gegenstände innerhalb von 45 Einheiten um die Schiffsreihe. Kompromisse: Keine erzwungene Selbstabsaugung/Anschluss; großer Körper.</string>
+  <string name="ship_s05_body" formatted="false">Schnelles passives Laden. Kompromisse: Geringe Panzerung; Akkus laden meist nur 15 statt 20.</string>
+  <string name="ship_s06_body" formatted="false">Schützt Gegenstände für weitere 2 Sekunden. Kompromiss: Der Basisimpuls beträgt nur 160 Radius.</string>
+  <string name="ship_s07_body" formatted="false">Reduziert nach dem Ausweichen 1 Sekunde lang die Umgebungsdrift um 50 %. Kompromiss: 4 Sekunden einfaches Combo-Fenster.</string>
+  <string name="ship_s08_body" formatted="false">Stellt alle 25 Sekunden 1 Rüstung wieder her, falls diese fehlt; Maximal 2 Mal/Stufe, 3 Mal/unendlich. Nachteil: Gegenstände zur Rüstungswiederherstellung werden nicht wieder aufgeladen.</string>
+  <string name="ship_s09_body" formatted="false">Der Impuls schiebt normalerweise intakte Steine ​​30 Einheiten weiter, wenn es noch einen Fluchtweg gibt. Kompromiss: Der Schutz nach dem Impuls beträgt nur 0,45 Sekunden.</string>
+  <string name="ship_s10_body" formatted="false">Einmal/Level verhindert kritischen Schlag, 1 verbleibende Rüstung, Unverwundbarkeit für 1 Sekunde. Kompromiss: Verhindert keinen Verlust aufgrund von Begleitung/Ablauf; Wiederbelebungen werden nicht gestapelt.</string>
+  <string name="ship_s11_body" formatted="false">Das erste Aufheben von Gegenständen alle 15 Sekunden fügt 8 Energie hinzu. Kompromiss: Die Basisverlangsamung ist 1 Sekunde kürzer.</string>
+  <string name="ship_s12_body" formatted="false">Wählen Sie vor der Stufe +1 Rüstung **oder** +30 Pulsradius. Kompromiss: Rüstungskonfiguration: Geschwindigkeit auf 680 reduziert; Impulskonfiguration: NL auf 2.6 wiederherstellen.</string>
+  <string name="campaign" formatted="false">Reise mit 100 Etappen</string>
+  <string name="campaign_continue" formatted="false">Setzen Sie Ihre Reise fort</string>
+  <string name="fleet" formatted="false">Werft</string>
+  <string name="stage" formatted="false">Bildschirm</string>
+  <string name="chapter" formatted="false">Kapitel</string>
+  <string name="stars" formatted="false">Warum</string>
+  <string name="stage_ready" formatted="false">Bereiten Sie sich auf den Flug vor</string>
+  <string name="stage_goal" formatted="false">Hauptziel</string>
+  <string name="stage_special" formatted="false">Besonderer Punkt</string>
+  <string name="stage_skill" formatted="false">Star-Fähigkeiten</string>
+  <string name="stage_damage" formatted="false">Warum das Schiff behalten: Die Häufigkeit, mit der es Panzerung verliert, ist nicht allzu hoch</string>
+  <string name="stage_play" formatted="false">Beginne die Bühne</string>
+  <string name="stage_map" formatted="false">Karte</string>
+  <string name="stage_next" formatted="false">Nächste Stufe</string>
+  <string name="stage_retry" formatted="false">Versuchen Sie dieses Level noch einmal</string>
+  <string name="stage_victory" formatted="false">VOLLSTÄNDIGER AKT</string>
+  <string name="stage_defeat" formatted="false">HABE DIE KURVE NICHT ÜBERGANGEN</string>
+  <string name="stage_locked" formatted="false">Muss zuerst das Level bestehen</string>
+  <string name="stage_complete" formatted="false">Abgeschlossen</string>
+  <string name="stage_first" formatted="false">Bonus für den ersten Sieg</string>
+  <string name="stage_star_reward" formatted="false">Neuer Sternbonus</string>
+  <string name="stage_boss_reward" formatted="false">Belohnen Sie das Tor</string>
+  <string name="stage_chapter_reward" formatted="false">Bonuskapitel</string>
+  <string name="ship_owned" formatted="false">Im Besitz</string>
+  <string name="ship_equipped" formatted="false">In Verwendung</string>
+  <string name="ship_equip" formatted="false">Ausrüstung</string>
+  <string name="ship_buy" formatted="false">Kaufe ein Schiff</string>
+  <string name="ship_speed" formatted="false">Horizontale Geschwindigkeit</string>
+  <string name="ship_radius" formatted="false">Kollisionsradius</string>
+  <string name="ship_energy" formatted="false">Energieregeneration jede Sekunde</string>
+  <string name="ship_choose" formatted="false">Zug auswählen</string>
+  <string name="account_upgrades" formatted="false">Aktualisieren Sie Ihr Konto</string>
+  <string name="practice" formatted="false">Üben</string>
+  <string name="practice_note" formatted="false">Üben Sie, ohne zu öffnen, ohne Geld oder ähnliches zu erhalten.</string>
+  <string name="practice_active" formatted="false">IN DER PRAXIS – KEINE BELOHNUNGEN</string>
+  <string name="route" formatted="false">Route</string>
+  <string name="route_safe" formatted="false">Breite Straße</string>
+  <string name="route_energy" formatted="false">Energielinie</string>
+  <string name="route_risk" formatted="false">Nahes Ausweichen</string>
+  <string name="astra_armor" formatted="false">Rüstungskonfiguration</string>
+  <string name="astra_pulse" formatted="false">Impulskonfiguration</string>
+  <string name="goal_gate" formatted="false">Tor</string>
+  <string name="cargo" formatted="false">Verklage die Mission</string>
+  <string name="nodes" formatted="false">Aktivierungsschaltfläche</string>
+  <string name="cores" formatted="false">Boss-Kern</string>
+  <string name="ally" formatted="false">Verbündete</string>
+  <string name="station" formatted="false">Verteidigungsstation</string>
+  <string name="time_left" formatted="false">Links</string>
+  <string name="boss_open" formatted="false">KERN OFFEN – IMPULS IN REICHWEITE</string>
+  <string name="boss_closed" formatted="false">WARTEN SIE AUF OFFENEN KERN</string>
+  <string name="memory" formatted="false">Portzeichenfolge</string>
+  <string name="memory_hint" formatted="false">Wiederholen Sie die Zeichenfolge</string>
+  <string name="defeat_armor" formatted="false">Ohne Rüstung</string>
+  <string name="defeat_ally" formatted="false">Verbündete zerstört</string>
+  <string name="defeat_station" formatted="false">Station zerstört</string>
+  <string name="defeat_timeout" formatted="false">Zielfrist abgelaufen</string>
+  <string name="sensitivity" formatted="false">Zugempfindlichkeit</string>
+  <string name="campaign_finished" formatted="false">100 Level abgeschlossen!</string>
+  <string name="ship_stats" formatted="false">Schiffsparameter</string>
+  <string name="reward_base" formatted="false">Vor dem Überleben</string>
+  <string name="reward_total" formatted="false">Gesamtzahl der erhaltenen Credits</string>
+  <string name="save_before_next" formatted="false">Speichern Sie die Ergebnisse, bevor Sie fortfahren.</string>
+  <string name="star_damage_info" formatted="false">Warum zählt die Schiffswartung nur die Anzahl der Panzerungsverluste? Durch eine Reparatur werden verlorene Zeiten nicht gelöscht.</string>
+  <string name="practice_hint" formatted="false">Ziehen Sie, um den Gegenstand aufzunehmen, gehen Sie durch das richtige Tor und verwenden Sie den Impuls, wenn sich der Kern öffnet.</string>
 </resources>

@@ -1,0 +1,125 @@
+package com.example.nt_05_thienthach.game
+
+data class StageDefinition(val id: Int, val seconds: Int, val survive: Boolean,
+    val gates: Int, val cargo: Int, val nodes: Int, val near: Int,
+    val cores: Int, val allyArmor: Int, val stationArmor: Int) {
+    val chapter get() = (id - 1) / 10 + 1
+    val damageLimit get() = if (id <= 30) 2 else if (id <= 70) 1 else 0
+    val firstClearCredits get() = 40L + 12 * chapter + 4 * ((id - 1) % 10 + 1)
+    val bossCredits get() = if (cores > 0) 80L * chapter else 0L
+    val seed get() = 20261017L + id * 7919L
+}
+data class StageRecord(val bits: Int = 0, val bestScore: Long = 0, val bestTimeMs: Long = 0, val attempts: Long = 0) {
+    val cleared get() = bits and 1 != 0
+    val stars get() = Integer.bitCount(bits and 7)
+}
+object CampaignCatalog {
+    val all = listOf(
+        StageDefinition(1, 30, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(2, 35, false, 3, 0, 0, 0, 0, 0, 0),
+        StageDefinition(3, 40, false, 0, 2, 0, 0, 0, 0, 0),
+        StageDefinition(4, 35, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(5, 40, false, 0, 0, 2, 0, 0, 0, 0),
+        StageDefinition(6, 45, false, 0, 0, 0, 2, 0, 0, 0),
+        StageDefinition(7, 40, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(8, 45, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(9, 50, false, 3, 2, 0, 0, 0, 0, 0),
+        StageDefinition(10, 90, false, 0, 0, 0, 0, 2, 0, 0),
+        StageDefinition(11, 40, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(12, 45, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(13, 45, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(14, 45, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(15, 45, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(16, 50, false, 0, 3, 0, 0, 0, 0, 0),
+        StageDefinition(17, 50, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(18, 50, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(19, 55, true, 0, 2, 0, 0, 0, 0, 0),
+        StageDefinition(20, 100, false, 0, 0, 0, 0, 3, 0, 0),
+        StageDefinition(21, 45, false, 0, 3, 0, 0, 0, 0, 0),
+        StageDefinition(22, 50, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(23, 50, false, 0, 0, 3, 0, 0, 0, 0),
+        StageDefinition(24, 50, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(25, 55, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(26, 55, false, 0, 0, 2, 0, 0, 0, 0),
+        StageDefinition(27, 55, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(28, 60, false, 0, 4, 0, 0, 0, 0, 0),
+        StageDefinition(29, 60, false, 3, 0, 0, 0, 0, 0, 0),
+        StageDefinition(30, 110, false, 0, 0, 0, 0, 3, 0, 0),
+        StageDefinition(31, 50, true, 0, 0, 0, 0, 0, 3, 0),
+        StageDefinition(32, 55, false, 0, 2, 0, 0, 0, 0, 0),
+        StageDefinition(33, 55, true, 0, 0, 0, 0, 0, 0, 4),
+        StageDefinition(34, 55, true, 0, 0, 0, 0, 0, 2, 0),
+        StageDefinition(35, 60, false, 4, 0, 0, 0, 0, 3, 0),
+        StageDefinition(36, 60, true, 0, 3, 0, 0, 0, 0, 4),
+        StageDefinition(37, 60, true, 0, 0, 0, 0, 0, 3, 0),
+        StageDefinition(38, 65, true, 0, 3, 0, 0, 0, 0, 0),
+        StageDefinition(39, 65, true, 0, 0, 0, 0, 0, 3, 0),
+        StageDefinition(40, 120, false, 0, 0, 0, 0, 3, 3, 0),
+        StageDefinition(41, 55, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(42, 60, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(43, 60, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(44, 60, false, 0, 3, 0, 0, 0, 0, 0),
+        StageDefinition(45, 65, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(46, 65, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(47, 65, false, 1, 0, 2, 0, 0, 0, 0),
+        StageDefinition(48, 70, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(49, 70, false, 6, 0, 0, 0, 0, 0, 0),
+        StageDefinition(50, 120, false, 0, 0, 0, 0, 4, 0, 0),
+        StageDefinition(51, 60, false, 1, 0, 3, 0, 0, 0, 0),
+        StageDefinition(52, 65, false, 3, 0, 0, 0, 0, 0, 0),
+        StageDefinition(53, 65, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(54, 65, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(55, 70, false, 0, 0, 3, 0, 0, 0, 0),
+        StageDefinition(56, 70, false, 0, 4, 0, 0, 0, 0, 0),
+        StageDefinition(57, 70, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(58, 75, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(59, 75, false, 0, 3, 1, 0, 0, 0, 0),
+        StageDefinition(60, 130, false, 0, 0, 0, 0, 4, 0, 0),
+        StageDefinition(61, 65, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(62, 70, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(63, 70, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(64, 70, false, 0, 4, 0, 0, 0, 0, 0),
+        StageDefinition(65, 75, false, 6, 0, 0, 0, 0, 0, 0),
+        StageDefinition(66, 75, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(67, 75, true, 0, 0, 0, 0, 0, 3, 0),
+        StageDefinition(68, 80, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(69, 80, false, 6, 2, 0, 0, 0, 0, 0),
+        StageDefinition(70, 140, false, 0, 0, 0, 0, 4, 0, 0),
+        StageDefinition(71, 70, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(72, 75, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(73, 75, false, 0, 3, 0, 0, 0, 0, 0),
+        StageDefinition(74, 75, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(75, 80, false, 0, 0, 3, 0, 0, 0, 0),
+        StageDefinition(76, 80, false, 4, 0, 0, 0, 0, 3, 0),
+        StageDefinition(77, 80, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(78, 85, false, 0, 3, 2, 0, 0, 0, 0),
+        StageDefinition(79, 85, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(80, 150, false, 0, 0, 0, 0, 5, 0, 0),
+        StageDefinition(81, 75, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(82, 80, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(83, 80, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(84, 80, false, 4, 0, 0, 0, 0, 0, 0),
+        StageDefinition(85, 85, false, 0, 4, 0, 0, 0, 0, 0),
+        StageDefinition(86, 85, false, 5, 0, 0, 0, 0, 0, 0),
+        StageDefinition(87, 85, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(88, 90, false, 0, 0, 3, 0, 0, 0, 0),
+        StageDefinition(89, 90, true, 0, 0, 0, 0, 0, 3, 0),
+        StageDefinition(90, 160, false, 0, 0, 0, 0, 5, 0, 0),
+        StageDefinition(91, 80, false, 6, 0, 0, 0, 0, 0, 0),
+        StageDefinition(92, 85, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(93, 90, true, 0, 2, 0, 0, 0, 3, 0),
+        StageDefinition(94, 90, false, 8, 0, 0, 0, 0, 0, 0),
+        StageDefinition(95, 90, true, 0, 0, 4, 0, 0, 0, 0),
+        StageDefinition(96, 90, false, 1, 3, 0, 0, 0, 0, 0),
+        StageDefinition(97, 90, true, 0, 0, 0, 0, 0, 0, 5),
+        StageDefinition(98, 90, true, 0, 0, 0, 0, 0, 0, 0),
+        StageDefinition(99, 100, false, 6, 0, 2, 0, 0, 0, 0),
+        StageDefinition(100, 180, false, 0, 0, 0, 0, 6, 0, 0))
+    fun find(id: Int) = all.getOrNull(id - 1)?.takeIf { it.id == id }
+    fun unlocked(records: Map<Int, StageRecord>): Int = all.firstOrNull { records[it.id]?.cleared != true }?.id ?: 100
+    fun totalStars(records: Map<Int, StageRecord>) = records.values.sumOf { it.stars }
+}
+enum class DefeatReason { NONE, ARMOR, ALLY, STATION, TIMEOUT }
+data class RewardBreakdown(val base: Long = 0, val first: Long = 0, val stars: Long = 0, val boss: Long = 0, val chapter: Long = 0) {
+    val total get() = Math.addExact(Math.addExact(Math.addExact(base, first), Math.addExact(stars, boss)), chapter)
+}

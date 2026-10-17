@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">生存は毎秒 10 点、アイテムは 25 点。最終 20 点ごとに強化用クレジット 1 を獲得。中止したフライトに報酬はありません。</string>
   <string name="help_accessibility" formatted="false">リアルタイムの観察とドラッグ操作が必要です。</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">バージョン 1.3 / 20 言語</string>
+  <string name="update_badge" formatted="false">2.0 / 百段階の旅</string>
   <string name="new_tagline" formatted="false">隕石をかすめてコンボ。パルスで脱出。操縦を極め、ベストを更新。</string>
   <string name="pulse_ready" formatted="false">パルス</string>
   <string name="pulse_charging">エネルギー %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">増幅器</string>
   <string name="daredevil_name" formatted="false">冒険家</string>
   <string name="focus_name" formatted="false">集中</string>
+  <string name="stage_001_name" formatted="false">離陸</string>
+  <string name="stage_001_goal" formatted="false">ライブ 30 秒</string>
+  <string name="stage_001_special" formatted="false">0 ～ 10 秒では小さな石だけがまっすぐに落ちます。 10～20代のミドルギャップ。 20 ～ 30 秒でスロットを両側に変更します。アクションで引くための指示。</string>
+  <string name="stage_001_skill" formatted="false">3 つの安全上の注意事項をすべて読んでください。</string>
+  <string name="stage_002_name" formatted="false">3 つ前に戻る</string>
+  <string name="stage_002_goal" formatted="false">3つのゲートを通過</string>
+  <string name="stage_002_special" formatted="false">ゲートは 8 秒ごとに左から中央、右へと開きます。ゲートミスは4秒後に繰り返されます。雹を増やすことではなく、場所を拾うことに焦点を当てています。</string>
+  <string name="stage_002_skill" formatted="false">ゲートが開くのを見逃さないでください。</string>
+  <string name="stage_003_name" formatted="false">初回補給</string>
+  <string name="stage_003_goal" formatted="false">パッケージを 2 つ集める</string>
+  <string name="stage_003_special" formatted="false">2 つの交互ルートで 4 つのパッケージ。石はガイドウィンドウのピックアップラインを占有しません。</string>
+  <string name="stage_003_skill" formatted="false">フルマキシマムアーマーで完成。</string>
+  <string name="stage_004_name" formatted="false">左右のリズム</string>
+  <string name="stage_004_goal" formatted="false">ライブ 35 秒</string>
+  <string name="stage_004_special" formatted="false">石列には溝があり、リズムに合わせて左右に変化します。向きを変える余地はありますが、真ん中に立つことが常に安全であるとは限りません。</string>
+  <string name="stage_004_skill" formatted="false">スロットの中心 4 つを通して、正しいリズムをマークします。</string>
+  <string name="stage_005_name" formatted="false">パルスが道を切り開く</string>
+  <string name="stage_005_goal" formatted="false">2 つの地雷クラスターを停止します</string>
+  <string name="stage_005_special" formatted="false">クラスターダウン y=560、各クラスターの前にタスクピンを割り当てます。早めにクリックしてプロンプトを表示し、安全に繰り返してください。</string>
+  <string name="stage_005_skill" formatted="false">各クラスターは 1 パルスで完全にオフになります。</string>
+  <string name="stage_006_name" formatted="false">片翼距離</string>
+  <string name="stage_006_goal" formatted="false">2 つの有効な回避</string>
+  <string name="stage_006_special" formatted="false">2 つのサンプルの小さな岩のルート、練習エリア、少なくとも 8 つの機会を示します。衝突はターゲットに追加されません。</string>
+  <string name="stage_006_skill" formatted="false">2 つ接続し、5 秒間回避してコンボ 2 を達成します。</string>
+  <string name="stage_007_name" formatted="false">エネルギーアーマー</string>
+  <string name="stage_007_goal" formatted="false">40代のライブ</string>
+  <string name="stage_007_special" formatted="false">2 つの狭いセクションを持つフロント シールド。まだ外側のラインが広いので、ヒットを取る必要はありません。</string>
+  <string name="stage_007_skill" formatted="false">シールドは 1 回ブロックしますが、装甲は失われません。</string>
+  <string name="stage_008_name" formatted="false">1 秒遅くなります</string>
+  <string name="stage_008_goal" formatted="false">4つのゲートを通過</string>
+  <string name="stage_008_special" formatted="false">移植ゲートが遅い。アイテムがターゲットクロックを遅くしないことを示します。徐行する必要がないルートもあります。</string>
+  <string name="stage_008_skill" formatted="false">異なるIDの遅いアイテムを2つ拾う。</string>
+  <string name="stage_009_name" formatted="false">パイロットテスト</string>
+  <string name="stage_009_goal" formatted="false">俵を2つ集め、3つの門を通過</string>
+  <string name="stage_009_special" formatted="false">3 つのステージ: 収集、車線変更、パルスを保持して最終パスを開きます。両方の目標を同時に認識します。</string>
+  <string name="stage_009_skill" formatted="false">最後のゲートの近くで少なくとも 3 人が回避します。</string>
+  <string name="stage_010_name" formatted="false">波止場番</string>
+  <string name="stage_010_goal" formatted="false">2コアをブレーク</string>
+  <string name="stage_010_special" formatted="false">フェーズ 1 中央の 2 列が残ります。 2つのスロットを横に混ぜてコアを下げます。コアごとに個別のピン/ウィンドウ。</string>
+  <string name="stage_010_skill" formatted="false">フェーズ開始時に各コアを破壊します。</string>
+  <string name="stage_011_name" formatted="false">フィッシュボーン</string>
+  <string name="stage_011_goal" formatted="false">40代のライブ</string>
+  <string name="stage_011_special" formatted="false">斜めの2本の枝がヘリンボーンのスリットを作ります。ペアごとに方向を変え、方向転換を示す直線を使用します。</string>
+  <string name="stage_011_skill" formatted="false">マークのある中央の 5 つのスロットに通します。</string>
+  <string name="stage_012_name" formatted="false">浮き階段</string>
+  <string name="stage_012_goal" formatted="false">4つのゲートを通過</string>
+  <string name="stage_012_special" formatted="false">左→やや左→やや右→右。小さな翻訳を継続的に教えます。現在のポートのループバックが失敗しました。</string>
+  <string name="stage_012_skill" formatted="false">パルスは使用しないでください。</string>
+  <string name="stage_013_name" formatted="false">ハサミ</string>
+  <string name="stage_013_goal" formatted="false">ライブ 45 秒</string>
+  <string name="stage_013_special" formatted="false">2 本の対角線は交差していますが、同時に列車の線路には達していません。行番号付けの警告が最初に表示されます。</string>
+  <string name="stage_013_skill" formatted="false">少なくとも 2 つのラインから 4 回回避します。</string>
+  <string name="stage_014_name" formatted="false">路地の方向が変わります</string>
+  <string name="stage_014_goal" formatted="false">5つのゲートを通過</string>
+  <string name="stage_014_special" formatted="false">廊下は矢印で方向が変わります。船の勢いを維持します。ゲート 3 ではターンを学ぶための休憩があります。</string>
+  <string name="stage_014_skill" formatted="false">オープニング試行で 5 つすべてに合格しました。</string>
+  <string name="stage_015_name" formatted="false">ツインストーン</string>
+  <string name="stage_015_goal" formatted="false">ライブ 45 秒</string>
+  <string name="stage_015_special" formatted="false">各ペアはゆっくりとしたキックの後に速いキックを行い、最初のキック後の誤ったギャップを避けます。</string>
+  <string name="stage_015_skill" formatted="false">各タイプの速度を少なくとも 2 回は避けてください。</string>
+  <string name="stage_016_name" formatted="false">クレセント</string>
+  <string name="stage_016_goal" formatted="false">地図のピースを 3 つ集める</string>
+  <string name="stage_016_special" formatted="false">カーブした弧を描きます。アイテムは安全な凹面領域にあり、その後反対の円弧に変更されます。チャンスは 6 つあります。</string>
+  <string name="stage_016_skill" formatted="false">最初の 3 回のチャンスで 3 個集めます。</string>
+  <string name="stage_017_name" formatted="false">ダブルリズム</string>
+  <string name="stage_017_goal" formatted="false">50 年代のライブ</string>
+  <string name="stage_017_special" formatted="false">軽く 2 行行って、その後長い休憩。ステージの最後では、突然の岩が船内に侵入するのを避けるために、3列を変更します。</string>
+  <string name="stage_017_skill" formatted="false">1 つのパルスで少なくとも 4 つの石を破壊します。</string>
+  <string name="stage_018_name" formatted="false">衛星軌道</string>
+  <string name="stage_018_goal" formatted="false">4つのゲートを通過</string>
+  <string name="stage_018_special" formatted="false">大きなブロックの周りを小さな岩が回転します。軌道スロットは、船の列でのピックアップ場所を予測します。</string>
+  <string name="stage_018_skill" formatted="false">センターブロックを破壊しないでください。</string>
+  <string name="stage_019_name" formatted="false">野望の交差点</string>
+  <string name="stage_019_goal" formatted="false">55秒ライブで2コース収集</string>
+  <string name="stage_019_special" formatted="false">広い道には物が少なく、狭い道には鍵がある。ロックは4か所あるので、毎回危険なルートを選択する必要はありません。</string>
+  <string name="stage_019_skill" formatted="false">55秒までに4つのコースをすべて集めてください。</string>
+  <string name="stage_020_name" formatted="false">ベルトクラッシャー</string>
+  <string name="stage_020_goal" formatted="false">3コアをブレーク</string>
+  <string name="stage_020_special" formatted="false">2 つの翼を押して水平のスロットを作成します。片方の翼を押すと、コアが表示されなくなります。最終フェーズでは、アラームとともにスキャンが反転されます。</string>
+  <string name="stage_020_skill" formatted="false">船は翼機雷には撃たれませんでした。</string>
+  <string name="stage_021_name" formatted="false">嵐の真っ只中のバッテリー</string>
+  <string name="stage_021_goal" formatted="false">ミッションピンを3つ集める</string>
+  <string name="stage_021_special" formatted="false">スロットのあるポールの後ろに 5 つのバッテリーがあります。パルスを連続的に送信するのではなく、正しい位置を取得する必要があります。</string>
+  <string name="stage_021_skill" formatted="false">エネルギーが 30 を下回ることはありません。</string>
+  <string name="stage_022_name" formatted="false">積載エリアなし</string>
+  <string name="stage_022_goal" formatted="false">4つのゲートを通過</string>
+  <string name="stage_022_special" formatted="false">縞模様の領域は応答を停止し、明るい領域は正常に充電されます。ポートを交互に使用すると、負荷を維持するか、早めに切り替えるかの選択が迫られます。</string>
+  <string name="stage_022_skill" formatted="false">NL ≥70 で最終ゲートを通過してください。</string>
+  <string name="stage_023_name" formatted="false">布施</string>
+  <string name="stage_023_goal" formatted="false">3 つの電源ボタンをオフにします</string>
+  <string name="stage_023_special" formatted="false">ボタンはパルス半径内でのみオフになります。バッテリーは3個あります。オフになっていないボタンにはバイパスと次のターンが残っています。</string>
+  <string name="stage_023_skill" formatted="false">安全リングが開いているときは 3 つすべてをオフにしてください。</string>
+  <string name="stage_024_name" formatted="false">ネックレス</string>
+  <string name="stage_024_goal" formatted="false">5つのゲートを順番に通過</string>
+  <string name="stage_024_special" formatted="false">ポートには番号/記号があります。現在のポートのみが進行状況を受け取ります。未来のゲートを通過してもライフは減らず、カウントも増えません。</string>
+  <string name="stage_024_skill" formatted="false">ゲートを通る順番を間違えないでください。</string>
+  <string name="stage_025_name" formatted="false">突進するか回避するかを選択してください</string>
+  <string name="stage_025_goal" formatted="false">ライブ 55 秒</string>
+  <string name="stage_025_special" formatted="false">10 秒ごとに、ピンは次のスロットの反対側の端にあります。バッテリーを元に戻すか、バッテリーを取り外すのに十分な時間があるかどうかを自己評価します。バッテリーの取り外しルートは常に存在します。</string>
+  <string name="stage_025_skill" formatted="false">バッテリーを 3 つ集めても次のスロットに進みます。</string>
+  <string name="stage_026_name" formatted="false">共振コンデンサ</string>
+  <string name="stage_026_goal" formatted="false">NL ≥80 で 2 ステーションを起動します</string>
+  <string name="stage_026_special" formatted="false">80 NL 排水基地エリアを通過します。各駅の前には100人分の補充の列があります。パルスはステーションのタッチ操作に代わるものではありません。</string>
+  <string name="stage_026_skill" formatted="false">入力NL≧95で両局とも受信します。</string>
+  <string name="stage_027_name" formatted="false">イオンレイン</string>
+  <string name="stage_027_goal" formatted="false">ライブ 55 秒</string>
+  <string name="stage_027_special" formatted="false">イオン雲は 1 つのレーンで回復しますが、警告の後、岩はそこに到達します。通常、少なくとも 3 つのバッテリーがあれば、2 番目のターゲットが実行可能になります。</string>
+  <string name="stage_027_skill" formatted="false">有効なパルスを 3 つ送信します。</string>
+  <string name="stage_028_name" formatted="false">導体電球</string>
+  <string name="stage_028_goal" formatted="false">リードを 4 つ集める</string>
+  <string name="stage_028_special" formatted="false">ミッション マップは周期的に左端または右端に移動し、乗車地点を予測する線が表示されます。チャンスは7回あります。</string>
+  <string name="stage_028_skill" formatted="false">最初の 4 回のチャンスで 4 個集めます。</string>
+  <string name="stage_029_name" formatted="false">道の端で予約してください</string>
+  <string name="stage_029_goal" formatted="false">3 つのポートを通じて、最後のポートに ≥70 を入金</string>
+  <string name="stage_029_special" formatted="false">最初の 2 つのポートは無料です。エンドゲートコストは最初から発生します。バッテリー補償が不足している場合は 8 秒ごとにループし、スタンバイ ラインを備えています。</string>
+  <string name="stage_029_skill" formatted="false">バッテリー補正は使用しないでください。</string>
+  <string name="stage_030_name" formatted="false">エレクトリカルストームコア</string>
+  <string name="stage_030_goal" formatted="false">3コアをブレーク</string>
+  <string name="stage_030_special" formatted="false">3 本の明るい極が交代で現れます。正しい極性に立ってアーマーを開き、ボス/パルスバッテリーを使用します。最後のフェーズにはクールダウンはありませんが、ミッションピンは引き続き受け入れられます。</string>
+  <string name="stage_030_skill" formatted="false">最初の試行で 3 つのポールすべてを正しく開きました。</string>
+  <string name="stage_031_name" formatted="false">コンパニオン</string>
+  <string name="stage_031_goal" formatted="false">3 アーマーを装備した味方は 50 秒間生存します</string>
+  <string name="stage_031_special" formatted="false">あなたが最初に飛行し、2 秒間車線変更の合図をします。プレイヤーは脅威の岩をパルスで破壊します。最初の 10 秒間の低圧を学習します。</string>
+  <string name="stage_031_skill" formatted="false">味方は装甲を失いません。</string>
+  <string name="stage_032_name" formatted="false">2 回の救助旅行</string>
+  <string name="stage_032_goal" formatted="false">救命ボートを 2 隻拾う</string>
+  <string name="stage_032_special" formatted="false">正しいピックアップ領域を 1 秒間押し続けてください。コンパートメントには、繰り返しなく急速なドロップとタッチが多数あります。</string>
+  <string name="stage_032_skill" formatted="false">40 秒前に完了します。</string>
+  <string name="stage_033_name" formatted="false">危険に直面しています</string>
+  <string name="stage_033_goal" formatted="false">ステーション 4 の装甲は 55 秒間持続します</string>
+  <string name="stage_033_special" formatted="false">岩が線路を突き抜けて落下し、ステーションの装甲が失われました。大きな石は駅を優先し、小さな石は路線を優先します。防止する必要がある危険を特定します。</string>
+  <string name="stage_033_skill" formatted="false">大きな岩は通り抜けられません。</string>
+  <string name="stage_034_name" formatted="false">壊れやすい商品</string>
+  <string name="stage_034_goal" formatted="false">2装甲貨物船 55s</string>
+  <string name="stage_034_special" formatted="false">貨物列車は車線を変更することはほとんどありません。 2 つの波が到来するドローンには、定期的にパルス化されたバッテリーが供給されます。</string>
+  <string name="stage_034_skill" formatted="false">パルスは 3 つまでにしてください。</string>
+  <string name="stage_035_name" formatted="false">ガイド</string>
+  <string name="stage_035_goal" formatted="false">4つの門をくぐります</string>
+  <string name="stage_035_special" formatted="false">プレイヤーのレーンを 1.2 秒遅れで追従します。すぐに変える必要があります。点線は遅延を表しており、2 番目のコントロール フィンガーは必要ありません。</string>
+  <string name="stage_035_skill" formatted="false">スロットの偏心率が 20 単位以下の各ゲートを通過します。</string>
+  <string name="stage_036_name" formatted="false">救済源を半分に分ける</string>
+  <string name="stage_036_goal" formatted="false">ステーションは常駐しており、3 つの荷物を配達しています</string>
+  <string name="stage_036_special" formatted="false">緑色のパッケージはステーションに戻り、黄色のパッケージはオプションのお金を与えます。主要な事実をすべて把握してください。ステーション救助と利益のバランスをとる。</string>
+  <string name="stage_036_skill" formatted="false">ステーションには少なくとも 3/4 の装甲が残っています。</string>
+  <string name="stage_037_name" formatted="false">護送隊が続いた</string>
+  <string name="stage_037_goal" formatted="false">両方の船は生きています</string>
+  <string name="stage_037_special" formatted="false">前後の友人は同じルートを通っていましたが、時間差がありました。脅威には識別警告、2 つの別々の装甲バーがあります。</string>
+  <string name="stage_037_skill" formatted="false">複数の防具を失うことはありません。</string>
+  <string name="stage_038_name" formatted="false">雨の中の救助</string>
+  <string name="stage_038_goal" formatted="false">65 秒間ライブ、3 つのコンパートメントを保存</string>
+  <string name="stage_038_special" formatted="false">雨上がりの休憩所にある受け取り区画では、5 人の救助者に番号が付けられています。回復するには休息リズムを使用する必要があります。</string>
+  <string name="stage_038_skill" formatted="false">警告標識を装った地雷を拾わないでください。</string>
+  <string name="stage_039_name" formatted="false">意図的な餌</string>
+  <string name="stage_039_goal" formatted="false">あなたの余命は65秒です</string>
+  <string name="stage_039_special" formatted="false">ドローンは警告を受けるとプレイヤーの古いレーンをロックし、突進します。脅威をあなたから遠ざけ、適切なタイミングで先に進みましょう。</string>
+  <string name="stage_039_skill" formatted="false">あなたなしで 4 台のドローンをレーンに誘導します。</string>
+  <string name="stage_040_name" formatted="false">宇宙強盗</string>
+  <string name="stage_040_goal" formatted="false">3つのコアを破壊すると貨物船は生きます</string>
+  <string name="stage_040_special" formatted="false">ボスはプレイヤー/船を交互にターゲットにし、各シリーズにはターゲット シンボルがあります。貨物船のターゲットをブロックしてコアを開きます。</string>
+  <string name="stage_040_skill" formatted="false">貨物船の装甲は 2/3 以上残っています。</string>
+  <string name="stage_041_name" formatted="false">薄氷</string>
+  <string name="stage_041_goal" formatted="false">ライブ 55 秒</string>
+  <string name="stage_041_special" formatted="false">方向転換時に滑りが発生するのは 15 ～ 25 秒と 35 ～ 45 秒のみです。車線変更前のグリーンブレーキゾーン。</string>
+  <string name="stage_041_skill" formatted="false">テープの両端に触れないでください。</string>
+  <string name="stage_042_name" formatted="false">ゲートの前でブレーキをかける</string>
+  <string name="stage_042_goal" formatted="false">4つのゲートを通過</string>
+  <string name="stage_042_special" formatted="false">ゲート通過時の水平速度は 120 ユニット/秒以下でなければなりません。ブレーキを調整するためのスピードメーターがあります。ポートリピーターが見つかりませんでした。</string>
+  <string name="stage_042_skill" formatted="false">冒頭試行で 4 つすべてに合格しました。</string>
+  <string name="stage_043_name" formatted="false">氷が割れた</string>
+  <string name="stage_043_goal" formatted="false">60年代のライブ</string>
+  <string name="stage_043_special" formatted="false">氷は亀裂線の後で 2 つの部分に分かれました。破裂する前に脈動する可能性があります。断片は一世代しか産みません。</string>
+  <string name="stage_043_skill" formatted="false">割る前に氷ブロックを 3 つ壊します。</string>
+  <string name="stage_044_name" formatted="false">ぬるま湯</string>
+  <string name="stage_044_goal" formatted="false">サーマルコアを3つ集める</string>
+  <string name="stage_044_special" formatted="false">コアは 2 つのコンベア ベルトの間の滑り止めセクションにあります。勢いを増してからブレーキをかけると、スケジュールに従って 6 つのコアがあります。</string>
+  <string name="stage_044_skill" formatted="false">最初の 3 回のチャンスで 30 億円を集めましょう。</string>
+  <string name="stage_045_name" formatted="false">振り子は冷たい</string>
+  <string name="stage_045_goal" formatted="false">5つのゲートを通過</string>
+  <string name="stage_045_special" formatted="false">フェーズスイングゲート、ピックアップポイントインジケーター。現在のポイントを追うのではなく、将来のポジションを予測します。</string>
+  <string name="stage_045_skill" formatted="false">パルスは使用しないでください。</string>
+  <string name="stage_046_name" formatted="false">ドームの下を滑る</string>
+  <string name="stage_046_goal" formatted="false">ライブ 65 秒</string>
+  <string name="stage_046_special" formatted="false">遅い石造りのアーチは短い通路と外輪を備えています。滑りすぎると短い道路の端にぶつかりやすくなります。迂回する時間はまだ十分にあります。</string>
+  <string name="stage_046_skill" formatted="false">マークされた 3 つの短い行を通して。</string>
+  <string name="stage_047_name" formatted="false">ベルトコンベア上のバッテリー</string>
+  <string name="stage_047_goal" formatted="false">2 ステーションをロードし、最後のゲートを通過します</string>
+  <string name="stage_047_special" formatted="false">ベルトコンベアは列車ではなくバッテリーを押します。乗車地点と停止ルートを予測し、監視と制御を分離します。</string>
+  <string name="stage_047_skill" formatted="false">50 秒以内に 2 ステーションを充電します。</string>
+  <string name="stage_048_name" formatted="false">ミストエコー</string>
+  <string name="stage_048_goal" formatted="false">70 年代のライブ</string>
+  <string name="stage_048_special" formatted="false">スロットチェーンの予兆。ミストは背景/装飾のみをカバーし、ヒットボックス/警告バーはカバーしません。繰り返しのシンボルを使用します。</string>
+  <string name="stage_048_skill" formatted="false">6 スロットを繰り返しなしで通過します。</string>
+  <string name="stage_049_name" formatted="false">亀裂が広がる</string>
+  <string name="stage_049_goal" formatted="false">6つのゲートを通過</string>
+  <string name="stage_049_special" formatted="false">各ゲートを通過すると、古いレーンは 2 秒後に閉鎖されます。エリアが閉じようとしていて、次のエリアがマークされた状態で移行する必要があります。</string>
+  <string name="stage_049_skill" formatted="false">終了信号後 2 秒以内は元の車線に戻らないでください。</string>
+  <string name="stage_050_name" formatted="false">ホワイトドラゴン</string>
+  <string name="stage_050_goal" formatted="false">4コアをブレーク</string>
+  <string name="stage_050_special" formatted="false">最初の 2 つのフェーズは流氷、最後の 2 つのフェーズは断片化された氷のアークです。コアはすべり止めゾーンに開いており、すべての船舶が到達できます。</string>
+  <string name="stage_050_skill" formatted="false">二次氷片には当たりませんでした。</string>
+  <string name="stage_051_name" formatted="false">廊下のスイッチ</string>
+  <string name="stage_051_goal" formatted="false">スイッチを3つ入れてゲートを通過</string>
+  <string name="stage_051_special" formatted="false">列のスイッチを通過して、正しい後部ドアを開けます。失敗した場合はやり直すことができますが、すぐに負けるわけではありません。</string>
+  <string name="stage_051_skill" formatted="false">3 つの最初の遭遇をすべてオンにします。</string>
+  <string name="stage_052_name" formatted="false">3 つのイメージ コード</string>
+  <string name="stage_052_goal" formatted="false">3つの記号の文字列を入力してください</string>
+  <string name="stage_052_special" formatted="false">三角、丸、四角を 4 秒間表示してから、正しいポートを選択します。 False を指定すると、現在の項目を確認して繰り返すことができます。色だけに依存しないようにしてください。</string>
+  <string name="stage_052_skill" formatted="false">間違って入力したり、繰り返し入力しないでください。</string>
+  <string name="stage_053_name" formatted="false">ドローンパトロール</string>
+  <string name="stage_053_goal" formatted="false">ライブ 65 秒</string>
+  <string name="stage_053_special" formatted="false">水平ドローンにはルートが固定されており、ライトが点灯しているときにのみ撮影します。ステムの方向を読んでスロットを推測します。</string>
+  <string name="stage_053_skill" formatted="false">パルスでドローンを 4 機破壊する。</string>
+  <string name="stage_054_name" formatted="false">ミラーの位相がずれています</string>
+  <string name="stage_054_goal" formatted="false">5つのリアルゲートを通過</string>
+  <string name="stage_054_special" formatted="false">影は破線を反映しており、実際のゲートは実線＋警報音です。ドロップシャドウの動きは減少しましたが、シンボルの区別は維持されました。</string>
+  <string name="stage_054_skill" formatted="false">偽のポート領域には触れないでください。</string>
+  <string name="stage_055_name" formatted="false">リズムボタン</string>
+  <string name="stage_055_goal" formatted="false">3 つの送信機をオフにします</string>
+  <string name="stage_055_special" formatted="false">送信機が開いて 6 秒間パルスを受信し、その後装甲を覆います。前のデューティピンレベル、ミスは次のサイクルで試行されます。</string>
+  <string name="stage_055_skill" formatted="false">ウィンドウが 3 秒以上残っている場合は、3 つすべてをオフにします。</string>
+  <string name="stage_056_name" formatted="false">仕分けコンベア</string>
+  <string name="stage_056_goal" formatted="false">三角形のコンポーネントを 4 つ集める</string>
+  <string name="stage_056_special" formatted="false">別々のターゲット、通常のアイテム、警告地雷の 3 種類が混在しています。すべてをすくい上げるのではなく分類する必要があります。</string>
+  <string name="stage_056_skill" formatted="false">間違った種類の部品を手に取らないでください。</string>
+  <string name="stage_057_name" formatted="false">ロックされたショートカット</string>
+  <string name="stage_057_goal" formatted="false">4つのゲートを経て、最後のゲートを開く</string>
+  <string name="stage_057_special" formatted="false">無料長距離。ショートカットは40 NLかかりますが、時間を節約できます。最後のポートには 60 が必要で、ハードロックを回避するための補償ピンがあります。</string>
+  <string name="stage_057_skill" formatted="false">55 秒前に完了しました。</string>
+  <string name="stage_058_name" formatted="false">4 つのギア</string>
+  <string name="stage_058_goal" formatted="false">ライブ 75 秒</string>
+  <string name="stage_058_special" formatted="false">ドローンは偏向サイクルで柱、円弧、対角線、およびドリフトに従います。次のモデルでは、4つすべてを同時に投げないでください。</string>
+  <string name="stage_058_skill" formatted="false">1 サイクル後、4 つのサンプルがパルスしません。</string>
+  <string name="stage_059_name" formatted="false">レリックを開始</string>
+  <string name="stage_059_goal" formatted="false">コアを3つ集めてステーションを1つ起動</string>
+  <string name="stage_059_special" formatted="false">コンポーネントを集めてステーション レーンに戻り、ゲートを開けます。ステーションは十分なコアがある場合にのみ受信します。バッテリーを待つためのバイパスがあります。</string>
+  <string name="stage_059_skill" formatted="false">パルスは 1 つだけ使用します。</string>
+  <string name="stage_060_name" formatted="false">建築家</string>
+  <string name="stage_060_goal" formatted="false">4コアをブレーク</string>
+  <string name="stage_060_special" formatted="false">1 コアのオープン シンボル ルートを正しく解決します。最後のフェーズでは順序が逆になりますが、実行前に新しいサンプルが表示されます。</string>
+  <string name="stage_060_skill" formatted="false">間違った位相記号を選択しないでください。</string>
+  <string name="stage_061_name" formatted="false">横風</string>
+  <string name="stage_061_goal" formatted="false">ライブ 65 秒</string>
+  <string name="stage_061_special" formatted="false">矢印に沿って 2 回推力すると、漂流速度は最も遅い船の補償能力を下回ります。</string>
+  <string name="stage_061_skill" formatted="false">ウィンドエッジには触れないでください。</string>
+  <string name="stage_062_name" formatted="false">嵐の目</string>
+  <string name="stage_062_goal" formatted="false">5 つの暴風雨センターエリアを通過</string>
+  <string name="stage_062_special" formatted="false">ニュートラルゾーンは中央を押されることなく3レーンを通過。列車列の中央を通過する場合のみカウントされます。</string>
+  <string name="stage_062_skill" formatted="false">初登場5作すべてを通して。</string>
+  <string name="stage_063_name" formatted="false">三層の雨</string>
+  <string name="stage_063_goal" formatted="false">70 年代のライブ</string>
+  <string name="stage_063_special" formatted="false">大きな岩は遅く、小さな岩は速く、鉱山はさまざまなレベルで漂います。単純な距離ではなく、トレーニングする順序を読み取ります。</string>
+  <string name="stage_063_skill" formatted="false">3 つのフロアすべてにあるオブジェクトを破壊するパルス。</string>
+  <string name="stage_064_name" formatted="false">電池が外れました</string>
+  <string name="stage_064_goal" formatted="false">ミッションバッテリーを4つ集める</string>
+  <string name="stage_064_special" formatted="false">風は別の要因で船とバッテリーを押します。ピックアップポイントラインがありますので、バッテリーの急加速はしないでください。合計7回のチャンス。</string>
+  <string name="stage_064_skill" formatted="false">最初の 4 回のチャンスで 4 つのピンを集めます。</string>
+  <string name="stage_065_name" formatted="false">フラッシュ警告</string>
+  <string name="stage_065_goal" formatted="false">6つのゲートを通過</string>
+  <string name="stage_065_special" formatted="false">背景のフラッシュはシーケンスを示し、動きが減少すると静的なシンボルに置き換えられます。危険は待機期間の後にのみ現れます。</string>
+  <string name="stage_065_skill" formatted="false">文字列を繰り返さないでください。</string>
+  <string name="stage_066_name" formatted="false">プレッシャーコリドー</string>
+  <string name="stage_066_goal" formatted="false">ライブ 75 秒</string>
+  <string name="stage_066_special" formatted="false">圧力エリアを中央に持ってきてからエッジを開きます。閉じる前に中央を離れる必要があり、2 秒の警告を与えます。</string>
+  <string name="stage_066_skill" formatted="false">6 回避、インパルスは使用しないでください。</string>
+  <string name="stage_067_name" formatted="false">風を変えて船を救う</string>
+  <string name="stage_067_goal" formatted="false">3 人のアーマード フレンドが 75 秒間生存します</string>
+  <string name="stage_067_special" formatted="false">風はあなたに影響を与えません。レーンに流れてくる岩を予測し、パルスで最初に破壊します。</string>
+  <string name="stage_067_skill" formatted="false">横に流れる岩によって装甲が失われることはありません。</string>
+  <string name="stage_068_name" formatted="false">静電気嵐</string>
+  <string name="stage_068_goal" formatted="false">80年代を生きる</string>
+  <string name="stage_068_special" formatted="false">8秒通常回復/4秒ロック回復、まだバッテリーを受信しています。 HUD にはロックされていることが明確に示されています。オプションのバッテリーを装備すれば、スター獲得のチャンスが十分に得られます。</string>
+  <string name="stage_068_skill" formatted="false">4 パルス、各パルスは 1 つ以上の脅威を破壊します。</string>
+  <string name="stage_069_name" formatted="false">夜明け前の6拍子</string>
+  <string name="stage_069_goal" formatted="false">6ポートを通じて2つの信号を受信</string>
+  <string name="stage_069_special" formatted="false">最初にスロットのサンプルを報告してください。休憩信号は 2 拍目と 5 拍目です。ゲートを追いかけるだけでなく、受信するために休憩することを忘れないでください。</string>
+  <string name="stage_069_skill" formatted="false">初めて 2 つの信号を受信しました。</string>
+  <string name="stage_070_name" formatted="false">嵐の神</string>
+  <string name="stage_070_goal" formatted="false">4コアをブレーク</string>
+  <string name="stage_070_special" formatted="false">左風、右風、暴風雨の中心、滝状の雨の 4 段階。コアが開いていると、到達する風は 25% に減少します。</string>
+  <string name="stage_070_skill" formatted="false">風で端まで押しやられません。</string>
+  <string name="stage_071_name" formatted="false">V字戦隊</string>
+  <string name="stage_071_goal" formatted="false">70 年代のライブ</string>
+  <string name="stage_071_special" formatted="false">ショートカットを開くために V の中央にあるボタンを破るパルス。または、パルスを必要とせずにさらに翼を越えて進みます。</string>
+  <string name="stage_071_skill" formatted="false">チームの中央にあるボタンを 3 つ破壊します。</string>
+  <string name="stage_072_name" formatted="false">古いレーンロック</string>
+  <string name="stage_072_goal" formatted="false">ライブ 75 秒</string>
+  <string name="stage_072_special" formatted="false">ドローンは車線をマークし、1.8 秒後に発射します。弾丸を古いレーンに誘導し、リズミカルに変化させます。</string>
+  <string name="stage_072_skill" formatted="false">6 シリーズを同じ空のレーンに導きます。</string>
+  <string name="stage_073_name" formatted="false">物資が囲まれている</string>
+  <string name="stage_073_goal" formatted="false">パッケージを 3 つ集める</string>
+  <string name="stage_073_special" formatted="false">各パッケージには、船に応じてパルスまたは小さなスロットをガードおよび選択するための 2 つのドローンが含まれています。パッケージは5つありますが、入り口は施錠されていません。</string>
+  <string name="stage_073_skill" formatted="false">監視ドローンを破壊せずに十分な量を集めてください。</string>
+  <string name="stage_074_name" formatted="false">陽動攻撃</string>
+  <string name="stage_074_goal" formatted="false">5つのリアルゲートを通過</string>
+  <string name="stage_074_special" formatted="false">破線の付け鼻は損傷を引き起こしません。スローブロー後のリアルゲート。偽のシステム通知ではなく、転用の法則が教えられます。</string>
+  <string name="stage_074_skill" formatted="false">おとりレーンに切り替えないでください。</string>
+  <string name="stage_075_name" formatted="false">ガード層を破壊する</string>
+  <string name="stage_075_goal" formatted="false">セキュリティ ボタンを 3 つ破壊する</string>
+  <string name="stage_075_special" formatted="false">ボタンは別のタイミングでパルス範囲に到達します。 1 つのパルスで 2 つのノードをオフにするのに十分な交点があります。十分なバッテリー容量。</string>
+  <string name="stage_075_skill" formatted="false">パルスにより交差点の 2 つのノードがオフになります。</string>
+  <string name="stage_076_name" formatted="false">船団の退却</string>
+  <string name="stage_076_goal" formatted="false">4つのゲートを通過します</string>
+  <string name="stage_076_special" formatted="false">敵があなたの行く手を阻みます。友人がフォローできるように、早めに変更してください。各ポートには 2 つの有効な出口パスがあります。</string>
+  <string name="stage_076_skill" formatted="false">鎧を失うことなく十分なゲートを通過できます。</string>
+  <string name="stage_077_name" formatted="false">2スパン包囲</string>
+  <string name="stage_077_goal" formatted="false">80年代を生きる</string>
+  <string name="stage_077_special" formatted="false">ループは上半分でのみ閉じられています。出口ドアは列車の列ではなく、端/中央で順番に配置されます。</string>
+  <string name="stage_077_skill" formatted="false">パルスなしで 4 ラウンド終了します。</string>
+  <string name="stage_078_name" formatted="false">敵燃料庫</string>
+  <string name="stage_078_goal" formatted="false">30億を集めて倉庫を2つ破壊する</string>
+  <string name="stage_078_special" formatted="false">倉庫を破壊するとプレッシャーは軽減されますが、次のビートに備えてエネルギーを温存する必要があります。倉庫は破壊された場合のみカウントされ、画面から飛び出すことはありません。</string>
+  <string name="stage_078_skill" formatted="false">2 つの倉庫に対して 2 つのパルスを修正し、余分なプレスはありません。</string>
+  <string name="stage_079_name" formatted="false">ローテーション狩猟チーム</string>
+  <string name="stage_079_goal" formatted="false">85 年代のライブ</string>
+  <string name="stage_079_special" formatted="false">15 秒ごとに役割を切り替えて、レーンをブロック/ガード/スイープします。同時に最大 2 つの役割。</string>
+  <string name="stage_079_skill" formatted="false">コンボ6達成。</string>
+  <string name="stage_080_name" formatted="false">フラッグシップブラックヴー</string>
+  <string name="stage_080_goal" formatted="false">50億を突破</string>
+  <string name="stage_080_special" formatted="false">レーンロックを通過してガードを分離させ、コアを露出させます。最後の 2 つのフェーズは V 字型/エスケープ ループです。バッテリーは各相を個別にカバーします。</string>
+  <string name="stage_080_skill" formatted="false">コアアーマーが閉じているときはパルスがありません。</string>
+  <string name="stage_081_name" formatted="false">未来の痕跡</string>
+  <string name="stage_081_goal" formatted="false">ライブ 75 秒</string>
+  <string name="stage_081_special" formatted="false">2秒前に蹴り先を報告し、予測通りに蹴る。現在の石だけを見るのではなく、未来を読みましょう。</string>
+  <string name="stage_081_skill" formatted="false">6 スロットを通して、脈拍は予測されません。</string>
+  <string name="stage_082_name" formatted="false">流れが遅い</string>
+  <string name="stage_082_goal" formatted="false">5つのゲートを通過</string>
+  <string name="stage_082_special" formatted="false">各レーンのオブジェクトの速度は異なります。電車や時計は遅くありません。距離ではなく電車の到着時間を比較します。</string>
+  <string name="stage_082_skill" formatted="false">5 つの開口部すべてを通して。</string>
+  <string name="stage_083_name" formatted="false">もう一度</string>
+  <string name="stage_083_goal" formatted="false">80 年代のライブ</string>
+  <string name="stage_083_special" formatted="false">シンボルの岩は後方に移動し、その後ちょうど 1 回戻ります。 ID/回避フラグを近くに保ち、二度報酬を与えないでください。</string>
+  <string name="stage_083_skill" formatted="false">巻き戻し後の4IDから4がギリギリ回避。</string>
+  <string name="stage_084_name" formatted="false">2タイムゲート</string>
+  <string name="stage_084_goal" formatted="false">4相ポート経由</string>
+  <string name="stage_084_special" formatted="false">最初のドアは狭く、後ろのドアは広いです。早めに行って利用するか、安全を確保して待つかを選択してください。ドアの位置をランダムに変更しないでください。</string>
+  <string name="stage_084_skill" formatted="false">最初のゲートで 3 つ以上のゲートを通過。</string>
+  <string name="stage_085_name" formatted="false">パッケージは固定されています</string>
+  <string name="stage_085_goal" formatted="false">パッケージを 4 つ集める</string>
+  <string name="stage_085_special" formatted="false">スーは y=560 を停止し、カウントダウンを続けます。電車の線路に到着する前にピックアップしないでください。チャンスは6回あります。</string>
+  <string name="stage_085_skill" formatted="false">最初の 4 つのパッケージをお見逃しなく。</string>
+  <string name="stage_086_name" formatted="false">逆信号</string>
+  <string name="stage_086_goal" formatted="false">リバースチェーンの 5 ポート経由</string>
+  <string name="stage_086_special" formatted="false">開始する前に「逆順」というラベルが付いた文字列を表示します。実行順序の再読み取りをサポートしています。</string>
+  <string name="stage_086_skill" formatted="false">繰り返さないでください。</string>
+  <string name="stage_087_name" formatted="false">自分の影</string>
+  <string name="stage_087_goal" formatted="false">85 年代のライブ</string>
+  <string name="stage_087_special" formatted="false">ボールは次のシュート位置を示す 3 秒前に軌道を記録します。ボールは衝突しない。ボールを追うのではなく、古い道を離れてください。</string>
+  <string name="stage_087_skill" formatted="false">6発のボールは船に当たりませんでした。</string>
+  <string name="stage_088_name" formatted="false">限定凍結</string>
+  <string name="stage_088_goal" formatted="false">3台のタイムトランスミッターをオフにします</string>
+  <string name="stage_088_special" formatted="false">終了パルスは弾丸を停止するだけであり、ターゲットを増加させるものではありません。コアドアを待ちます。正しい回数ピンを固定し、エラーを繰り返します。</string>
+  <string name="stage_088_skill" formatted="false">3 セットの 3 パルスを修正します。</string>
+  <string name="stage_089_name" formatted="false">さあ、待ち合わせ場所です</string>
+  <string name="stage_089_goal" formatted="false">あなたには 3 つの星座があります</string>
+  <string name="stage_089_special" formatted="false">あなたはリアルタイムで追跡しており、速い/遅いゾーンを越える恐れがあります。予測線は、どのオブジェクトが最初に到達するかを確認するのに役立ちます。</string>
+  <string name="stage_089_skill" formatted="false">高速ゾーンからの脅威は届きません。</string>
+  <string name="stage_090_name" formatted="false">時計番</string>
+  <string name="stage_090_goal" formatted="false">50億を突破</string>
+  <string name="stage_090_special" formatted="false">5 つのフェーズ: 予測、停止、単一巻き戻し、2 つのウィンドウ、逆シーケンス。位置を回復するだけで、失われたボスの体力は回復しません。</string>
+  <string name="stage_090_skill" formatted="false">コアを開けずにパルスを行わないでください。</string>
+  <string name="stage_091_name" formatted="false">最後の3本の道</string>
+  <string name="stage_091_goal" formatted="false">6つのゲートを1列で通過</string>
+  <string name="stage_091_special" formatted="false">画面の前では、補給が少ない/バッテリーが多い/近接回避の広いルートを選択してください。同じ目的地に向かう各ルートには、必要に応じて変更できる補助ゲートがあります。</string>
+  <string name="stage_091_skill" formatted="false">救済ゲートを使用してルートを変更しないでください。</string>
+  <string name="stage_092_name" formatted="false">パルスまたはシールド</string>
+  <string name="stage_092_goal" formatted="false">85 年代のライブ</string>
+  <string name="stage_092_special" formatted="false">3 ステーションでは、レーンごとにバッテリーまたはシールドを選択できます。両方を選択することはできません。次のパターンには、対応する 2 つの解決策があります。</string>
+  <string name="stage_092_skill" formatted="false">3 駅すべてで同じタイプを選択しないでください。</string>
+  <string name="stage_093_name" formatted="false">最後の一人を連れ戻して</string>
+  <string name="stage_093_goal" formatted="false">あなたは生きています、2つのコンパートメントを保存してください</string>
+  <string name="stage_093_special" formatted="false">救助への道はあなたを守る道を切り裂きます。一般的な危険なパルスに備えて、配達前にバッテリーを用意してください。</string>
+  <string name="stage_093_skill" formatted="false">2 回セーブしてもアーマーは失われません。</string>
+  <string name="stage_094_name" formatted="false">四季の回廊</string>
+  <string name="stage_094_goal" formatted="false">8つのゲートを通過</string>
+  <string name="stage_094_special" formatted="false">通常セクション→風→氷→禁止積載の 4 つのセクションがあり、各セクションには 2 つのポートがあります。 3 秒間の除電途中では、限界を超えるドリフトを加えないでください。</string>
+  <string name="stage_094_skill" formatted="false">8 回のオープニング試行すべてに合格しました。</string>
+  <string name="stage_095_name" formatted="false">逆襲ベルト</string>
+  <string name="stage_095_goal" formatted="false">90秒間生存し、ターゲットクラスターを4つ破壊する</string>
+  <string name="stage_095_special" formatted="false">キックはプレッシャーを引き起こすことがよくあります。クラスターにはリズムに合わせて開くシールドがあり、パルスは適切なタイミングで予約されなければなりません。ターゲットウィンドウは6つあります。</string>
+  <string name="stage_095_skill" formatted="false">破線の擬似フレーム クラスターを破壊しないでください。</string>
+  <string name="stage_096_name" formatted="false">パイロットの選択</string>
+  <string name="stage_096_goal" formatted="false">鍵を3つ集めて最後のゲートを通過</string>
+  <string name="stage_096_special" formatted="false">各ロックには、コンボを保持するための狭い枝、またはロードするための広い枝があります。選択は次のフェーズに影響しますが、勝利の可能性を妨げるものではありません。</string>
+  <string name="stage_096_skill" formatted="false">エイド給油所は使用しないでください。</string>
+  <string name="stage_097_name" formatted="false">ノヴァライン</string>
+  <string name="stage_097_goal" formatted="false">ステーション5 ライブアーマー</string>
+  <string name="stage_097_special" formatted="false">3 レーン攻撃の優先順位は信号に応じて変化します。大きな波の後にポジションをローテーションするための休憩があります。すでに高価な船があるとは考えないでください。</string>
+  <string name="stage_097_skill" formatted="false">ステーションには 4/5 以上の装甲が残っています。</string>
+  <string name="stage_098_name" formatted="false">旅は学んだ</string>
+  <string name="stage_098_goal" formatted="false">5 つの段落を説明します</string>
+  <string name="stage_098_special" formatted="false">サンプルの第 2、3、5、7、9 章。事前に発表されており、各ジャンクションには明確な乗り換えルールがあります。</string>
+  <string name="stage_098_skill" formatted="false">リピート/リリーフポートはありません。</string>
+  <string name="stage_099_name" formatted="false">夜明けの扉</string>
+  <string name="stage_099_goal" formatted="false">6ポート経由、2コアロックをオフにする</string>
+  <string name="stage_099_special" formatted="false">パルス連動位置ゲート;ロック前のバッテリー残量。誤って使用してもロックではなくリリーフリングが付いているので安心です。</string>
+  <string name="stage_099_skill" formatted="false">85 秒前に完了したら、レスキュー リングを使用しないでください。</string>
+  <string name="stage_100_name" formatted="false">メテオハート</string>
+  <string name="stage_100_goal" formatted="false">6コアをブレーク</string>
+  <string name="stage_100_special" formatted="false">3 ラウンド、各ラウンド 2 コア: 石/ゲート。保護/風;時間/鎧の開口部。間に 5 秒休憩し、アーマー/エネルギー レベルを 1 回復します。終末期最大 2 つの既知のメカニズム。</string>
+  <string name="stage_100_skill" formatted="false">サンは救命トリガーも救援ポートも作動させていません。 Sentinel を所有する必要はありません。</string>
+  <string name="chapter_01" formatted="false">ベン スター: 船を所有します</string>
+  <string name="chapter_02" formatted="false">石帯：ルートを読む</string>
+  <string name="chapter_03" formatted="false">電磁領域: エネルギーの使用と保持</string>
+  <string name="chapter_04" formatted="false">列車の紛失: 保護と優先順位</string>
+  <string name="chapter_05" formatted="false">氷星雲: マスター慣性</string>
+  <string name="chapter_06" formatted="false">機械遺跡: 機械による読み取りと解読</string>
+  <string name="chapter_07" formatted="false">宇宙嵐: 環境適応</string>
+  <string name="chapter_08" formatted="false">ダーク・フリート: 戦術的反射神経</string>
+  <string name="chapter_09" formatted="false">タイムリフト: 変化のルールを読む</string>
+  <string name="chapter_10" formatted="false">流星中心: 合成と選択</string>
+  <string name="ship_s01_body" formatted="false">バランス、二次ルールなし。各画面の標準検証。トレードオフ: 専門性がありません。</string>
+  <string name="ship_s02_body" formatted="false">素早いレーンチェンジ、小さなボディ。トレードオフ: 装甲が少なくなります。</string>
+  <string name="ship_s03_body" formatted="false">奇妙な衝突がたくさんあります。トレードオフ: サイズが大きい、遅い、読み込みが遅い。</string>
+  <string name="ship_s04_body" formatted="false">船列周囲45個以内でオプションアイテムを吸収する。トレードオフ: 強制的な自己吸引/ポートはありません。大きな体。</string>
+  <string name="ship_s05_body" formatted="false">高速パッシブ充電。トレードオフ: 装甲が低い。バッテリーは通常、20 ではなく 15 しか充電されません。</string>
+  <string name="ship_s06_body" formatted="false">アイテムをさらに 2 秒間シールドします。トレードオフ: ベースパルスは半径 160 のみです。</string>
+  <string name="ship_s07_body" formatted="false">回避後、環境ドリフトを 1 秒間 50% 減少させます。トレードオフ: 4 秒の基本コンボウィンドウ。</string>
+  <string name="ship_s08_body" formatted="false">25 秒ごとに、アーマーが 1 つ欠けている場合は回復します。最大2回/レベル、3回/無限。トレードオフ: アーマー復元アイテムはリチャージされません。</string>
+  <string name="ship_s09_body" formatted="false">衝撃は、まだ逃げ道がある場合、通常は壊れていない岩をさらに 30 ユニット押します。トレードオフ: インパルス後の保護はわずか 0.45 秒です。</string>
+  <string name="ship_s10_body" formatted="false">1 回/レベルでクリティカル ブローを防ぎ、残り 1 アーマー、1 秒間無敵になります。トレードオフ: エスコート/期限切れによる損失を防ぐことはできません。スタック復活はしません。</string>
+  <string name="ship_s11_body" formatted="false">15 秒ごとに初めてアイテムを拾うと、エネルギーが 8 追加されます。トレードオフ: ベーススローが 1 秒短くなります。</string>
+  <string name="ship_s12_body" formatted="false">ステージの前に、+1 装甲 ** または ** +30 パルス半径を選択します。トレードオフ: 装甲構成: 速度が 680 に低下。パルス構成: NL を 2.6 に復元します。</string>
+  <string name="campaign" formatted="false">百段階の旅</string>
+  <string name="campaign_continue" formatted="false">旅を続けましょう</string>
+  <string name="fleet" formatted="false">造船所</string>
+  <string name="stage" formatted="false">画面</string>
+  <string name="chapter" formatted="false">章</string>
+  <string name="stars" formatted="false">なぜ</string>
+  <string name="stage_ready" formatted="false">飛行の準備をする</string>
+  <string name="stage_goal" formatted="false">主な目的</string>
+  <string name="stage_special" formatted="false">こだわりポイント</string>
+  <string name="stage_skill" formatted="false">スタースキル</string>
+  <string name="stage_damage" formatted="false">船を維持する理由: 装甲を失う回数はそれほど多くありません</string>
+  <string name="stage_play" formatted="false">ステージスタート</string>
+  <string name="stage_map" formatted="false">地図</string>
+  <string name="stage_next" formatted="false">次のステージ</string>
+  <string name="stage_retry" formatted="false">このレベルをもう一度試してください</string>
+  <string name="stage_victory" formatted="false">完全な行為</string>
+  <string name="stage_defeat" formatted="false">カーブを通過していません</string>
+  <string name="stage_locked" formatted="false">まずレベルに合格する必要があります</string>
+  <string name="stage_complete" formatted="false">完了</string>
+  <string name="stage_first" formatted="false">初勝利ボーナス</string>
+  <string name="stage_star_reward" formatted="false">新スターボーナス</string>
+  <string name="stage_boss_reward" formatted="false">ゲートに報酬を与える</string>
+  <string name="stage_chapter_reward" formatted="false">おまけの章</string>
+  <string name="ship_owned" formatted="false">所有</string>
+  <string name="ship_equipped" formatted="false">使用中</string>
+  <string name="ship_equip" formatted="false">装備</string>
+  <string name="ship_buy" formatted="false">船を買う</string>
+  <string name="ship_speed" formatted="false">水平速度</string>
+  <string name="ship_radius" formatted="false">衝突半径</string>
+  <string name="ship_energy" formatted="false">エネルギーが毎秒回復</string>
+  <string name="ship_choose" formatted="false">列車を選択</string>
+  <string name="account_upgrades" formatted="false">アカウントをアップグレードしてください</string>
+  <string name="practice" formatted="false">練習</string>
+  <string name="practice_note" formatted="false">開かずに、お金も何も受け取らずに練習します。</string>
+  <string name="practice_active" formatted="false">実際には — 報酬はありません</string>
+  <string name="route" formatted="false">ルート</string>
+  <string name="route_safe" formatted="false">広い道</string>
+  <string name="route_energy" formatted="false">エネルギーライン</string>
+  <string name="route_risk" formatted="false">近接回避</string>
+  <string name="astra_armor" formatted="false">装甲構成</string>
+  <string name="astra_pulse" formatted="false">パルス設定</string>
+  <string name="goal_gate" formatted="false">ゲート</string>
+  <string name="cargo" formatted="false">任務を訴える</string>
+  <string name="nodes" formatted="false">アクティベーションボタン</string>
+  <string name="cores" formatted="false">ボスコア</string>
+  <string name="ally" formatted="false">同盟者</string>
+  <string name="station" formatted="false">防衛局</string>
+  <string name="time_left" formatted="false">左</string>
+  <string name="boss_open" formatted="false">コアオープン — パルスが範囲内にあります</string>
+  <string name="boss_closed" formatted="false">オープンコアを待ちます</string>
+  <string name="memory" formatted="false">ポート文字列</string>
+  <string name="memory_hint" formatted="false">文字列を繰り返します</string>
+  <string name="defeat_armor" formatted="false">鎧が切れています</string>
+  <string name="defeat_ally" formatted="false">味方が破壊されました</string>
+  <string name="defeat_station" formatted="false">ステーションが破壊されました</string>
+  <string name="defeat_timeout" formatted="false">目標期限が切れました</string>
+  <string name="sensitivity" formatted="false">プル感度</string>
+  <string name="campaign_finished" formatted="false">100 レベルをクリアしました!</string>
+  <string name="ship_stats" formatted="false">船のパラメータ</string>
+  <string name="reward_base" formatted="false">生存前</string>
+  <string name="reward_total" formatted="false">受け取った合計クレジット数</string>
+  <string name="save_before_next" formatted="false">続行する前に結果を保存してください。</string>
+  <string name="star_damage_info" formatted="false">なぜ船のメンテナンスは装甲を失った回数だけをカウントするのでしょうか。修理しても失われた時間は消えません。</string>
+  <string name="practice_hint" formatted="false">引いてアイテムを拾い、正しいゲートを通過し、コアが開いたらパルスを使用します。</string>
 </resources>

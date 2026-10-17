@@ -98,7 +98,7 @@
   <string name="help_rewards_body" formatted="false">Bertahan: 10 mata/saat. Item: 25 mata setiap satu. Setiap 20 mata akhir memberi 1 kredit naik taraf. Penerbangan ditinggalkan tidak memberi ganjaran.</string>
   <string name="help_accessibility" formatted="false">Memerlukan pemerhatian dan seretan masa nyata.</string>
   <string name="time_format">%1$02d:%2$02d</string>
-  <string name="update_badge" formatted="false">VERSI 1.3 / 20 BAHASA</string>
+  <string name="update_badge" formatted="false">2.0 / Perjalanan 100 peringkat</string>
   <string name="new_tagline" formatted="false">Lintasi meteor dengan rapat untuk kombo. Lepaskan denyut untuk meloloskan diri dan pecahkan rekod.</string>
   <string name="pulse_ready" formatted="false">DENYUT</string>
   <string name="pulse_charging">TENAGA %1$d/100</string>
@@ -157,4 +157,490 @@
   <string name="capacitor_name" formatted="false">Penguat</string>
   <string name="daredevil_name" formatted="false">Berani</string>
   <string name="focus_name" formatted="false">Fokus</string>
+  <string name="stage_001_name" formatted="false">Berlepas</string>
+  <string name="stage_001_goal" formatted="false">Langsung 30 saat</string>
+  <string name="stage_001_special" formatted="false">0–10s hanya batu kecil jatuh lurus; 10–20s jurang tengah; 20–30 saat tukar slot ke kedua-dua belah. Arahan untuk menarik dengan tindakan.</string>
+  <string name="stage_001_skill" formatted="false">Ikuti kesemua 3 arahan keselamatan.</string>
+  <string name="stage_002_name" formatted="false">Tiga arah ke belakang</string>
+  <string name="stage_002_goal" formatted="false">Melalui 3 pintu</string>
+  <string name="stage_002_special" formatted="false">Pintu pagar dibuka kiri–tengah–kanan, setiap 8 saat; Kesilapan gerbang berulang selepas 4s. Tumpuan adalah untuk mengambil lokasi, bukan meningkatkan hujan batu.</string>
+  <string name="stage_002_skill" formatted="false">Jangan terlepas sebarang pembukaan pintu pagar.</string>
+  <string name="stage_003_name" formatted="false">Bekalan semula pertama</string>
+  <string name="stage_003_goal" formatted="false">Kumpul 2 pakej</string>
+  <string name="stage_003_special" formatted="false">4 pakej di dua laluan berselang-seli; Batu itu tidak menduduki barisan pengambilan di tingkap panduan.</string>
+  <string name="stage_003_skill" formatted="false">Selesai dengan perisai maksimum penuh.</string>
+  <string name="stage_004_name" formatted="false">Irama kiri-kanan</string>
+  <string name="stage_004_goal" formatted="false">Langsung 35s</string>
+  <string name="stage_004_special" formatted="false">Barisan batu mempunyai slot, bertukar ke kiri/kanan mengikut rentak; Ada ruang untuk berpatah balik, berdiri di tengah tidak selalu selamat.</string>
+  <string name="stage_004_skill" formatted="false">Melalui 4 pusat slot, tandakan irama yang betul.</string>
+  <string name="stage_005_name" formatted="false">Denyutan membuka jalan</string>
+  <string name="stage_005_goal" formatted="false">Matikan 2 kelompok lombong</string>
+  <string name="stage_005_special" formatted="false">Kluster ke bawah y=560, tetapkan pin tugas sebelum setiap kluster. Klik awal untuk digesa dan ulangi dengan selamat.</string>
+  <string name="stage_005_skill" formatted="false">Setiap kluster dimatikan sepenuhnya oleh satu nadi.</string>
+  <string name="stage_006_name" formatted="false">Jarak satu sayap</string>
+  <string name="stage_006_goal" formatted="false">2 pengelak yang sah</string>
+  <string name="stage_006_special" formatted="false">Dua contoh laluan batu kecil, menunjukkan kawasan latihan, sekurang-kurangnya 8 peluang. Perlanggaran tidak menambah sasaran.</string>
+  <string name="stage_006_skill" formatted="false">Sambung 2, elak dekat selama 5 saat, capai kombo 2.</string>
+  <string name="stage_007_name" formatted="false">Perisai tenaga</string>
+  <string name="stage_007_goal" formatted="false">Hidup 40-an</string>
+  <string name="stage_007_special" formatted="false">Perisai hadapan dengan dua bahagian sempit; masih mempunyai garis luar yang luas jadi anda tidak perlu menerima pukulan.</string>
+  <string name="stage_007_skill" formatted="false">Perisai menghalang sekali, tidak kehilangan perisai.</string>
+  <string name="stage_008_name" formatted="false">Perlahan satu saat</string>
+  <string name="stage_008_goal" formatted="false">Melalui 4 pintu</string>
+  <string name="stage_008_special" formatted="false">Gerbang rasuah perlahan; menunjukkan bahawa item tidak memperlahankan jam sasaran. Terdapat laluan yang tidak perlu diambil untuk memperlahankan.</string>
+  <string name="stage_008_skill" formatted="false">Ambil 2 item perlahan dengan ID berbeza.</string>
+  <string name="stage_009_name" formatted="false">Ujian juruterbang</string>
+  <string name="stage_009_goal" formatted="false">Kumpul 2 bal, lalu 3 pintu</string>
+  <string name="stage_009_special" formatted="false">Tiga peringkat: kumpul, tukar lorong, tahan nadi untuk membuka laluan terakhir. Akui kedua-dua matlamat secara serentak.</string>
+  <string name="stage_009_skill" formatted="false">Sekurang-kurangnya 3 mengelak dekat dengan pintu terakhir.</string>
+  <string name="stage_010_name" formatted="false">Penjaga dok</string>
+  <string name="stage_010_goal" formatted="false">Pecah 2 teras</string>
+  <string name="stage_010_special" formatted="false">Fasa 1 dua lajur ditinggalkan di tengah; Campurkan 2 slot ke tepi dan kemudian turunkan inti. Pin/tingkap berasingan untuk setiap teras.</string>
+  <string name="stage_010_skill" formatted="false">Musnahkan setiap teras pada permulaan fasa.</string>
+  <string name="stage_011_name" formatted="false">Tulang ikan</string>
+  <string name="stage_011_goal" formatted="false">Hidup 40-an</string>
+  <string name="stage_011_special" formatted="false">Dua dahan pepenjuru mencipta celah herringbone; tukar arah selepas setiap pasangan, dengan garis lurus menunjukkan pusingan.</string>
+  <string name="stage_011_skill" formatted="false">Melalui 5 slot tengah yang ditanda.</string>
+  <string name="stage_012_name" formatted="false">Tangga terapung</string>
+  <string name="stage_012_goal" formatted="false">Melalui 4 pintu</string>
+  <string name="stage_012_special" formatted="false">Kiri → kiri sedikit → kanan sedikit → kanan; Mengajar terjemahan kecil secara berterusan. Gelung balik port semasa terlepas.</string>
+  <string name="stage_012_skill" formatted="false">Jangan gunakan denyutan.</string>
+  <string name="stage_013_name" formatted="false">Gunting</string>
+  <string name="stage_013_goal" formatted="false">Langsung 45s</string>
+  <string name="stage_013_special" formatted="false">Dua garisan pepenjuru bersilang tetapi tidak sampai ke laluan kereta api pada masa yang sama; Amaran penomboran baris didahulukan.</string>
+  <string name="stage_013_skill" formatted="false">4 mengelak daripada sekurang-kurangnya 2 baris.</string>
+  <string name="stage_014_name" formatted="false">Lorong bertukar arah</string>
+  <string name="stage_014_goal" formatted="false">Melalui 5 pintu</string>
+  <string name="stage_014_special" formatted="false">Koridor bertukar arah dengan anak panah; kekalkan momentum kapal. Pintu 3 mempunyai rehat untuk belajar membelok.</string>
+  <string name="stage_014_skill" formatted="false">Melepasi kesemua 5 dalam percubaan pembukaan.</string>
+  <string name="stage_015_name" formatted="false">Batu kembar</string>
+  <string name="stage_015_goal" formatted="false">Langsung 45s</string>
+  <string name="stage_015_special" formatted="false">Setiap pasangan mempunyai sepakan perlahan diikuti dengan sepakan laju, mengelakkan celah palsu selepas sepakan pertama.</string>
+  <string name="stage_015_skill" formatted="false">Elakkan setiap jenis kelajuan sekurang-kurangnya dua kali.</string>
+  <string name="stage_016_name" formatted="false">Bulan Sabit</string>
+  <string name="stage_016_goal" formatted="false">Kumpul 3 keping peta</string>
+  <string name="stage_016_special" formatted="false">Tendang dalam lengkok melengkung; Item berada di kawasan cekung selamat dan kemudian ditukar ke arka bertentangan, terdapat 6 peluang.</string>
+  <string name="stage_016_skill" formatted="false">Kumpul 3 keping dalam 3 peluang pertama.</string>
+  <string name="stage_017_name" formatted="false">Irama berganda</string>
+  <string name="stage_017_goal" formatted="false">Hidup 50-an</string>
+  <string name="stage_017_special" formatted="false">Dua baris cepat dan kemudian rehat panjang; Pada penghujung pentas, tukar tiga baris untuk mengelakkan batu tiba-tiba memasuki kapal.</string>
+  <string name="stage_017_skill" formatted="false">Satu nadi memusnahkan sekurang-kurangnya 4 batu.</string>
+  <string name="stage_018_name" formatted="false">Orbit satelit</string>
+  <string name="stage_018_goal" formatted="false">Melalui 4 pintu</string>
+  <string name="stage_018_special" formatted="false">Batu-batu kecil berputar mengelilingi bongkah besar; Slot orbit meramalkan lokasi pengambilan di barisan kapal.</string>
+  <string name="stage_018_skill" formatted="false">Jangan musnahkan blok tengah.</string>
+  <string name="stage_019_name" formatted="false">Persimpangan cita-cita</string>
+  <string name="stage_019_goal" formatted="false">Langsung 55 saat dan kumpulkan 2 kursus</string>
+  <string name="stage_019_special" formatted="false">Jalan lebar ada sedikit perkara, jalan sempit ada kunci. Terdapat 4 kunci, jadi anda tidak perlu mengambil laluan berisiko setiap kali.</string>
+  <string name="stage_019_skill" formatted="false">Kumpul kesemua 4 kursus sebelum 55 saat.</string>
+  <string name="stage_020_name" formatted="false">Penghancur tali pinggang</string>
+  <string name="stage_020_goal" formatted="false">Pecah 3 teras</string>
+  <string name="stage_020_special" formatted="false">Kedua-dua sayap menekan untuk mencipta slot mendatar; Selepas menekan satu sayap, ia berhenti mendedahkan inti. Fasa terakhir membalikkan imbasan dengan penggera.</string>
+  <string name="stage_020_skill" formatted="false">Kapal itu tidak terkena lombong sayap.</string>
+  <string name="stage_021_name" formatted="false">Bateri di tengah-tengah ribut</string>
+  <string name="stage_021_goal" formatted="false">Kumpul 3 pin misi</string>
+  <string name="stage_021_special" formatted="false">Terdapat 5 bateri di belakang tiang dengan slot; mesti mengambil kedudukan yang betul dan bukannya menghantar denyutan secara berterusan.</string>
+  <string name="stage_021_skill" formatted="false">Tenaga tidak turun di bawah 30.</string>
+  <string name="stage_022_name" formatted="false">Tiada kawasan memuatkan</string>
+  <string name="stage_022_goal" formatted="false">Melalui 4 pintu</string>
+  <string name="stage_022_special" formatted="false">Kawasan berjalur berhenti bertindak balas, kawasan terang mengecas semula secara normal. Port bergantian memaksa pilihan untuk kekal dimuatkan atau bertukar lebih awal.</string>
+  <string name="stage_022_skill" formatted="false">Lewati pintu terakhir dengan NL ≥70.</string>
+  <string name="stage_023_name" formatted="false">Fius</string>
+  <string name="stage_023_goal" formatted="false">Matikan 3 butang kuasa</string>
+  <string name="stage_023_special" formatted="false">Butang dimatikan hanya dalam radius nadi; Terdapat 3 bateri yang berfungsi. Butang yang belum dimatikan masih mempunyai pintasan dan pusingan seterusnya.</string>
+  <string name="stage_023_skill" formatted="false">Matikan kesemua 3 apabila gelang keselamatan dibuka.</string>
+  <string name="stage_024_name" formatted="false">Kalung</string>
+  <string name="stage_024_goal" formatted="false">Melalui 5 pintu tersusun</string>
+  <string name="stage_024_special" formatted="false">Port mempunyai nombor/simbol; hanya pelabuhan semasa menerima kemajuan. Melalui gerbang masa depan tidak mengurangkan nyawa, tidak menambah kiraan.</string>
+  <string name="stage_024_skill" formatted="false">Jangan melalui pintu pagar dalam susunan yang salah.</string>
+  <string name="stage_025_name" formatted="false">Pilih untuk mengecas atau mengelak</string>
+  <string name="stage_025_goal" formatted="false">Langsung 55s</string>
+  <string name="stage_025_special" formatted="false">Setiap 10 saat pin berada di tepi bertentangan slot seterusnya. Nilai sendiri sama ada terdapat masa yang mencukupi untuk mengitar semula atau mengeluarkan bateri; Laluan penyingkiran bateri sentiasa wujud.</string>
+  <string name="stage_025_skill" formatted="false">Kumpul 3 bateri dan masih pergi ke slot seterusnya.</string>
+  <string name="stage_026_name" formatted="false">Kapasitor resonan</string>
+  <string name="stage_026_goal" formatted="false">Aktifkan 2 stesen dengan NL ≥80</string>
+  <string name="stage_026_special" formatted="false">Melalui kawasan stesen saliran 80 NL; Terdapat 100 barisan isi semula di hadapan setiap stesen. Nadi tidak menggantikan operasi sentuh stesen.</string>
+  <string name="stage_026_skill" formatted="false">Kedua-dua stesen menerima apabila input NL ≥95.</string>
+  <string name="stage_027_name" formatted="false">Hujan ion</string>
+  <string name="stage_027_goal" formatted="false">Langsung 55s</string>
+  <string name="stage_027_special" formatted="false">Awan ion sembuh dalam satu lorong, tetapi batu itu akan sampai ke sana selepas amaran. Mempunyai sekurang-kurangnya 3 bateri biasanya menjadikan sasaran kedua berdaya maju.</string>
+  <string name="stage_027_skill" formatted="false">Hantar 3 nadi yang sah.</string>
+  <string name="stage_028_name" formatted="false">Mentol konduktor</string>
+  <string name="stage_028_goal" formatted="false">Kumpul 4 keping petunjuk</string>
+  <string name="stage_028_special" formatted="false">Peta misi hanyut ke kiri/kanan melampau secara kitaran, dengan garisan meramalkan titik pengambilan. Terdapat 7 peluang.</string>
+  <string name="stage_028_skill" formatted="false">Kumpul 4 keping dalam 4 peluang pertama.</string>
+  <string name="stage_029_name" formatted="false">Tempah di hujung jalan</string>
+  <string name="stage_029_goal" formatted="false">Melalui 3 port, deposit ≥70 ke port terakhir</string>
+  <string name="stage_029_special" formatted="false">Dua port pertama adalah percuma; Kos pintu akhir muncul dari awal. Pampasan bateri gelung setiap 8 saat jika tiada, mempunyai talian siap sedia.</string>
+  <string name="stage_029_skill" formatted="false">Jangan gunakan pampasan bateri.</string>
+  <string name="stage_030_name" formatted="false">Teras ribut elektrik</string>
+  <string name="stage_030_goal" formatted="false">Pecah 3 teras</string>
+  <string name="stage_030_special" formatted="false">Tiga tiang terang bergilir-gilir; Berdiri pada polariti yang betul untuk membuka perisai dan kemudian gunakan bateri bos/nadi. Fasa terakhir tidak mempunyai cooldown tetapi masih menerima pin misi.</string>
+  <string name="stage_030_skill" formatted="false">Membuka kesemua 3 tiang dengan betul pada percubaan pertama.</string>
+  <string name="stage_031_name" formatted="false">Sahabat</string>
+  <string name="stage_031_goal" formatted="false">Sekutu dengan 3 perisai hidup selama 50 saat</string>
+  <string name="stage_031_special" formatted="false">Anda terbang dahulu, beri isyarat untuk menukar lorong selama 2 saat; pemain memecahkan batu ancaman dengan denyutan. 10 saat pertama tekanan rendah untuk belajar.</string>
+  <string name="stage_031_skill" formatted="false">Sekutu tidak kehilangan perisai.</string>
+  <string name="stage_032_name" formatted="false">Dua perjalanan menyelamat</string>
+  <string name="stage_032_goal" formatted="false">Angkat 2 bot penyelamat</string>
+  <string name="stage_032_special" formatted="false">Pegang kawasan pengambilan yang betul selama 1s; Petak mempunyai banyak titisan dan sentuhan pantas tanpa berulang.</string>
+  <string name="stage_032_skill" formatted="false">Selesai sebelum 40 saat.</string>
+  <string name="stage_033_name" formatted="false">Menghadapi bahaya</string>
+  <string name="stage_033_goal" formatted="false">Perisai Stesen 4 bertahan selama 55 saat</string>
+  <string name="stage_033_special" formatted="false">Batu itu jatuh melalui garisan menyebabkan stesen itu kehilangan perisai. Batu besar memberi keutamaan kepada stesen, batu kecil memberi keutamaan kepada laluan kereta api; Kenal pasti bahaya yang perlu dicegah.</string>
+  <string name="stage_033_skill" formatted="false">Tiada batu besar boleh dilalui.</string>
+  <string name="stage_034_name" formatted="false">Barang rapuh</string>
+  <string name="stage_034_goal" formatted="false">2-kapal kargo perisai 55s</string>
+  <string name="stage_034_special" formatted="false">Kereta api barang jarang bertukar lorong; dua gelombang dron masuk mempunyai bateri berdenyut yang dibekalkan secara berjadual.</string>
+  <string name="stage_034_skill" formatted="false">Gunakan tidak lebih daripada 3 nadi.</string>
+  <string name="stage_035_name" formatted="false">Panduan</string>
+  <string name="stage_035_goal" formatted="false">Membawa anda melalui 4 pintu</string>
+  <string name="stage_035_special" formatted="false">Anda mengikut lorong pemain lewat 1.2 saat; perlu berubah segera. Garis putus-putus mewakili kelewatan, tidak perlu jari kawalan kedua.</string>
+  <string name="stage_035_skill" formatted="false">Anda melalui setiap pintu gerbang kesipian slot ialah ≤20 unit.</string>
+  <string name="stage_036_name" formatted="false">Bahagikan sumber bantuan kepada separuh</string>
+  <string name="stage_036_goal" formatted="false">Stesen hidup dan menghantar 3 pakej</string>
+  <string name="stage_036_special" formatted="false">Pakej hijau kembali ke stesen, pakej kuning memberi wang pilihan. Mempunyai semua fakta utama; Imbangan penyelamatan stesen dengan keuntungan.</string>
+  <string name="stage_036_skill" formatted="false">Stesen ini mempunyai baki sekurang-kurangnya 3/4 perisai.</string>
+  <string name="stage_037_name" formatted="false">Konvoi menyusul</string>
+  <string name="stage_037_goal" formatted="false">Kedua-dua kapal masih hidup</string>
+  <string name="stage_037_special" formatted="false">Rakan sebelumnya/seterusnya berada di laluan yang sama tetapi dengan perbezaan masa; ancaman mempunyai amaran pengenalan, dua bar perisai berasingan.</string>
+  <string name="stage_037_skill" formatted="false">Tiada siapa yang akan kehilangan lebih daripada 1 perisai.</string>
+  <string name="stage_038_name" formatted="false">Menyelamat dalam hujan</string>
+  <string name="stage_038_goal" formatted="false">Hidup 65 saat, jimat 3 petak</string>
+  <string name="stage_038_special" formatted="false">Petak penerimaan pada waktu rehat selepas hujan, 5 penyelamat dinomborkan. Mesti menggunakan irama rehat untuk mengambil.</string>
+  <string name="stage_038_skill" formatted="false">Jangan ambil lombong yang menyamar sebagai mempunyai tanda amaran.</string>
+  <string name="stage_039_name" formatted="false">Umpan yang disengajakan</string>
+  <string name="stage_039_goal" formatted="false">Anda hidup 65 saat</string>
+  <string name="stage_039_special" formatted="false">Drone mengunci lorong lama pemain apabila dimaklumkan dan kemudian bergegas; Pimpin ancaman daripada anda dan teruskan pada masa yang sesuai.</string>
+  <string name="stage_039_skill" formatted="false">Pimpin 4 dron ke lorong tanpa anda.</string>
+  <string name="stage_040_name" formatted="false">rompakan angkasa</string>
+  <string name="stage_040_goal" formatted="false">Pecah 3 teras, kapal kargo itu hidup</string>
+  <string name="stage_040_special" formatted="false">Bos menyasarkan pemain/kapal secara bergilir-gilir, setiap siri mempunyai simbol sasaran. Sekat sasaran kapal kargo untuk membuka teras.</string>
+  <string name="stage_040_skill" formatted="false">Kapal kargo mempunyai baki ≥2/3 perisai.</string>
+  <string name="stage_041_name" formatted="false">Ais nipis</string>
+  <string name="stage_041_goal" formatted="false">Langsung 55s</string>
+  <string name="stage_041_special" formatted="false">Hanya 15–25s dan 35–45s mengalami gelinciran apabila menukar arah; zon brek hijau sebelum pertukaran lorong.</string>
+  <string name="stage_041_skill" formatted="false">Jangan sentuh kedua-dua tepi pita.</string>
+  <string name="stage_042_name" formatted="false">Brek di hadapan pintu pagar</string>
+  <string name="stage_042_goal" formatted="false">Melalui 4 pintu</string>
+  <string name="stage_042_special" formatted="false">Apabila melalui pintu pagar, kelajuan mendatar mestilah ≤120 unit/s. Terdapat meter kelajuan untuk melaraskan brek; Pengulang port terlepas.</string>
+  <string name="stage_042_skill" formatted="false">Melepasi kesemua 4 dalam percubaan pembukaan.</string>
+  <string name="stage_043_name" formatted="false">Ais retak</string>
+  <string name="stage_043_goal" formatted="false">Hidup 60an</string>
+  <string name="stage_043_special" formatted="false">Ais terbelah kepada 2 bahagian selepas garisan retak; mungkin berdenyut sebelum pecah. Serpihan hanya melahirkan satu generasi.</string>
+  <string name="stage_043_skill" formatted="false">Pecahkan 3 bongkah ais sebelum membelah.</string>
+  <string name="stage_044_name" formatted="false">Air suam</string>
+  <string name="stage_044_goal" formatted="false">Kumpul 3 teras terma</string>
+  <string name="stage_044_special" formatted="false">Teras berada di bahagian tidak tergelincir antara dua tali pinggang penghantar; mendapat momentum kemudian brek, terdapat 6 teras mengikut jadual.</string>
+  <string name="stage_044_skill" formatted="false">Kumpul 3 crores dalam 3 peluang pertama.</string>
+  <string name="stage_045_name" formatted="false">Bandul sejuk</string>
+  <string name="stage_045_goal" formatted="false">Melalui 5 pintu</string>
+  <string name="stage_045_special" formatted="false">Pintu ayunan fasa, penunjuk titik pengambilan; meramalkan kedudukan masa hadapan dan bukannya mengejar mata semasa.</string>
+  <string name="stage_045_skill" formatted="false">Jangan gunakan denyutan.</string>
+  <string name="stage_046_name" formatted="false">Luncurkan di bawah kubah</string>
+  <string name="stage_046_goal" formatted="false">Langsung 65s</string>
+  <string name="stage_046_special" formatted="false">Gerbang batu perlahan mempunyai laluan pendek dan gelang luar. Kalau tergelincir, senang nak langgar tepi jalan pendek. Masih ada masa yang cukup untuk melencong.</string>
+  <string name="stage_046_skill" formatted="false">Melalui 3 baris pendek yang ditanda.</string>
+  <string name="stage_047_name" formatted="false">Bateri pada tali pinggang penghantar</string>
+  <string name="stage_047_goal" formatted="false">Muat 2 stesen, melalui pintu terakhir</string>
+  <string name="stage_047_special" formatted="false">Tali pinggang penghantar menolak bateri, bukan kereta api; Ramalan tempat pengambilan dan laluan berhenti memisahkan pemerhatian/kawalan.</string>
+  <string name="stage_047_skill" formatted="false">Isi semula 2 stesen dalam masa 50 saat.</string>
+  <string name="stage_048_name" formatted="false">Gema kabus</string>
+  <string name="stage_048_goal" formatted="false">Hidup 70an</string>
+  <string name="stage_048_special" formatted="false">Membayangkan rantaian slot. Kabus hanya meliputi latar belakang/hiasan, tidak menutupi kotak hit/bar amaran; dengan simbol berulang.</string>
+  <string name="stage_048_skill" formatted="false">Lulus 6 slot tanpa berulang.</string>
+  <string name="stage_049_name" formatted="false">Retak merebak</string>
+  <string name="stage_049_goal" formatted="false">Melalui 6 pintu</string>
+  <string name="stage_049_special" formatted="false">Melalui setiap pintu pagar, lorong lama ditutup selepas 2 saat; mesti dialihkan, dengan kawasan akan ditutup dan kawasan seterusnya ditandakan.</string>
+  <string name="stage_049_skill" formatted="false">Jangan kembali ke lorong lama dalam masa 2 saat selepas isyarat tutup.</string>
+  <string name="stage_050_name" formatted="false">Naga Putih</string>
+  <string name="stage_050_goal" formatted="false">Pecah 4 teras</string>
+  <string name="stage_050_special" formatted="false">Dua fasa pertama ialah ais hanyut, dua fasa terakhir ialah lengkok ais terserpihan. Teras terbuka di zon tidak tergelincir untuk dicapai oleh semua kapal.</string>
+  <string name="stage_050_skill" formatted="false">Tidak terkena serpihan ais sekunder.</string>
+  <string name="stage_051_name" formatted="false">Suis lorong</string>
+  <string name="stage_051_goal" formatted="false">Hidupkan 3 suis, melalui pintu pagar</string>
+  <string name="stage_051_special" formatted="false">Pergi melalui suis di barisan kereta api untuk membuka pintu belakang yang betul. Jika anda terlepas, anda boleh mengulanginya, tetapi anda tidak akan rugi serta-merta.</string>
+  <string name="stage_051_skill" formatted="false">Hidupkan kesemua 3 pertemuan pertama.</string>
+  <string name="stage_052_name" formatted="false">Kod tiga imej</string>
+  <string name="stage_052_goal" formatted="false">Masukkan rentetan 3 simbol</string>
+  <string name="stage_052_special" formatted="false">Tunjukkan segi tiga–bulatan–segi empat sama selama 4 saat kemudian pilih port yang betul. False membolehkan anda menyemak dan mengulangi item semasa; Elakkan bergantung pada warna sahaja.</string>
+  <string name="stage_052_skill" formatted="false">Jangan masukkan salah/ulang.</string>
+  <string name="stage_053_name" formatted="false">Rondaan dron</string>
+  <string name="stage_053_goal" formatted="false">Langsung 65s</string>
+  <string name="stage_053_special" formatted="false">Drone mendatar mempunyai laluan tetap, hanya merakam apabila lampu menyala; Baca arah batang untuk meneka slot.</string>
+  <string name="stage_053_skill" formatted="false">Musnahkan 4 dron dengan nadi.</string>
+  <string name="stage_054_name" formatted="false">Cermin di luar fasa</string>
+  <string name="stage_054_goal" formatted="false">Melalui 5 pintu pagar sebenar</string>
+  <string name="stage_054_special" formatted="false">Bayang-bayang itu memantulkan garis putus-putus, pintu pagar sebenar ialah bingkai pepejal + bunyi penggera. Mengurangkan pergerakan bayang-bayang jatuh tetapi terus membezakan simbol.</string>
+  <string name="stage_054_skill" formatted="false">Jangan sentuh kawasan pelabuhan palsu.</string>
+  <string name="stage_055_name" formatted="false">Butang irama</string>
+  <string name="stage_055_goal" formatted="false">Matikan 3 pemancar</string>
+  <string name="stage_055_special" formatted="false">Pemancar dibuka untuk menerima nadi selama 6 saat dan kemudian menutup perisai; tahap pin tugas sebelum ini, miss cuba kitaran seterusnya.</string>
+  <string name="stage_055_skill" formatted="false">Matikan kesemua 3 apabila tetingkap mempunyai baki ≥3s.</string>
+  <string name="stage_056_name" formatted="false">Pengisihan penghantar</string>
+  <string name="stage_056_goal" formatted="false">Kumpulkan 4 komponen segi tiga</string>
+  <string name="stage_056_special" formatted="false">Tiga jenis dicampur bersama: sasaran berasingan, item biasa, lombong amaran. Mesti mengklasifikasikan bukannya mencedok segala-galanya.</string>
+  <string name="stage_056_skill" formatted="false">Jangan ambil bahagian daripada jenis yang salah.</string>
+  <string name="stage_057_name" formatted="false">Pintasan berkunci</string>
+  <string name="stage_057_goal" formatted="false">Melalui 4 pintu, buka pintu terakhir</string>
+  <string name="stage_057_special" formatted="false">Jarak jauh percuma; Pintasan berharga 40 NL tetapi menjimatkan masa. Port terakhir memerlukan 60, mempunyai pin pampasan untuk mengelakkan penguncian keras.</string>
+  <string name="stage_057_skill" formatted="false">Selesai sebelum 55 saat.</string>
+  <string name="stage_058_name" formatted="false">Empat gear</string>
+  <string name="stage_058_goal" formatted="false">Live 75s</string>
+  <string name="stage_058_special" formatted="false">Drone mengikut lajur, lengkok, pepenjuru dan hanyut pada kitaran pesongan. Model seterusnya, jangan buang keempat-empat pada masa yang sama.</string>
+  <string name="stage_058_skill" formatted="false">Selepas 1 kitaran, empat sampel tidak berdenyut.</string>
+  <string name="stage_059_name" formatted="false">Mulakan peninggalan</string>
+  <string name="stage_059_goal" formatted="false">Kumpul 3 teras, aktifkan 1 stesen</string>
+  <string name="stage_059_special" formatted="false">Kumpul komponen kemudian kembali ke lorong stesen untuk membuka pintu pagar. Stesen hanya menerima apabila terdapat teras yang mencukupi; Terdapat pintasan untuk menunggu bateri.</string>
+  <string name="stage_059_skill" formatted="false">Hanya menggunakan 1 nadi.</string>
+  <string name="stage_060_name" formatted="false">Arkitek</string>
+  <string name="stage_060_goal" formatted="false">Pecah 4 teras</string>
+  <string name="stage_060_special" formatted="false">Selesaikan laluan simbol terbuka satu teras dengan betul. Fasa terakhir membalikkan susunan tetapi memaparkan sampel baharu sebelum dijalankan.</string>
+  <string name="stage_060_skill" formatted="false">Jangan salah pilih simbol fasa.</string>
+  <string name="stage_061_name" formatted="false">Angin mendatar</string>
+  <string name="stage_061_goal" formatted="false">Langsung 65s</string>
+  <string name="stage_061_special" formatted="false">Dua tujahan mengikut anak panah, kelajuan hanyut adalah kurang daripada keupayaan mengimbangi kapal yang paling perlahan.</string>
+  <string name="stage_061_skill" formatted="false">Jangan sentuh tepi angin.</string>
+  <string name="stage_062_name" formatted="false">Mata ribut</string>
+  <string name="stage_062_goal" formatted="false">Melalui 5 kawasan pusat ribut</string>
+  <string name="stage_062_special" formatted="false">Zon neutral melalui 3 lorong, tanpa ditolak di tengah. Hanya dikira apabila melalui pusat di barisan kereta api.</string>
+  <string name="stage_062_skill" formatted="false">Melalui kesemua 5 penampilan pertama.</string>
+  <string name="stage_063_name" formatted="false">Hujan tiga lapis</string>
+  <string name="stage_063_goal" formatted="false">Hidup 70an</string>
+  <string name="stage_063_special" formatted="false">Batu besar lambat, batu kecil laju, lombong hanyut pada tahap yang berbeza; membaca perintah untuk melatih dan bukannya jarak mudah.</string>
+  <string name="stage_063_skill" formatted="false">Nadi yang memusnahkan objek pada semua 3 tingkat.</string>
+  <string name="stage_064_name" formatted="false">Bateri tersasar</string>
+  <string name="stage_064_goal" formatted="false">Kumpul 4 bateri misi</string>
+  <string name="stage_064_special" formatted="false">Angin menolak kapal dan bateri dengan faktor yang berbeza; Ada pick-up point line, jangan cepatkan bateri secara tiba-tiba. Jumlah 7 peluang.</string>
+  <string name="stage_064_skill" formatted="false">Kumpul 4 pin dalam 4 peluang pertama.</string>
+  <string name="stage_065_name" formatted="false">Amaran kilat</string>
+  <string name="stage_065_goal" formatted="false">Melalui 6 pintu</string>
+  <string name="stage_065_special" formatted="false">Denyar latar belakang menunjukkan jujukan, digantikan dengan simbol statik apabila gerakan dikurangkan. Bahaya hanya muncul selepas tempoh menunggu.</string>
+  <string name="stage_065_skill" formatted="false">Jangan ulangi rentetan.</string>
+  <string name="stage_066_name" formatted="false">Koridor tekanan</string>
+  <string name="stage_066_goal" formatted="false">Live 75s</string>
+  <string name="stage_066_special" formatted="false">Kawasan tekanan dibawa ke tengah dan kemudian tepi dibuka; Perlu meninggalkan bahagian tengah sebelum menutup, beri amaran 2s.</string>
+  <string name="stage_066_skill" formatted="false">6 mengelak dekat, jangan gunakan impuls.</string>
+  <string name="stage_067_name" formatted="false">Tukar angin untuk menyelamatkan kapal</string>
+  <string name="stage_067_goal" formatted="false">3 rakan perisai hidup selama 75 saat</string>
+  <string name="stage_067_special" formatted="false">Angin tidak menjejaskan anda; Jangkakan batu hanyut ke lorong anda dan musnahkannya terlebih dahulu dengan nadi.</string>
+  <string name="stage_067_skill" formatted="false">Anda tidak kehilangan perisai kerana batu hanyut ke tepi.</string>
+  <string name="stage_068_name" formatted="false">Ribut elektrostatik</string>
+  <string name="stage_068_goal" formatted="false">Hidup 80an</string>
+  <string name="stage_068_special" formatted="false">Pemulihan normal 8s / pemulihan kunci 4s, masih menerima bateri. HUD dengan jelas menyatakan terkunci. Mempunyai bateri pilihan memberi peluang yang cukup untuk bintang.</string>
+  <string name="stage_068_skill" formatted="false">4 ​​​​nadi, setiap nadi memusnahkan ≥1 ancaman.</string>
+  <string name="stage_069_name" formatted="false">Enam degupan sebelum subuh</string>
+  <string name="stage_069_goal" formatted="false">Melalui 6 port, terima 2 isyarat</string>
+  <string name="stage_069_special" formatted="false">Laporkan sampel slot dahulu; isyarat pada rehat rentak 2 dan 5. Ingat untuk berehat untuk menerima, bukan hanya mengejar pintu pagar.</string>
+  <string name="stage_069_skill" formatted="false">Menerima dua isyarat buat kali pertama.</string>
+  <string name="stage_070_name" formatted="false">tuhan ribut</string>
+  <string name="stage_070_goal" formatted="false">Pecah 4 teras</string>
+  <string name="stage_070_special" formatted="false">Angin kiri, angin kanan, pusat ribut, hujan lebat dalam empat fasa. Dengan teras terbuka, angin dikurangkan kepada 25% untuk mencapai.</string>
+  <string name="stage_070_skill" formatted="false">Tidak ditolak ke tepi oleh angin.</string>
+  <string name="stage_071_name" formatted="false">Skuadron berbentuk V</string>
+  <string name="stage_071_goal" formatted="false">Hidup 70an</string>
+  <string name="stage_071_special" formatted="false">Nadi memecahkan butang di tengah V untuk membuka pintasan; atau melepasi sayap lebih jauh tetapi tanpa memerlukan nadi.</string>
+  <string name="stage_071_skill" formatted="false">Musnahkan 3 butang di tengah skuad.</string>
+  <string name="stage_072_name" formatted="false">Kunci lorong lama</string>
+  <string name="stage_072_goal" formatted="false">Live 75s</string>
+  <string name="stage_072_special" formatted="false">Drone menandakan lorong dan kemudian menyala selepas 1.8 saat; Bimbing peluru ke lorong lama dan tukar berirama.</string>
+  <string name="stage_072_skill" formatted="false">Memimpin 6 siri ke lorong kosong yang sama.</string>
+  <string name="stage_073_name" formatted="false">Bekalan dikelilingi</string>
+  <string name="stage_073_goal" formatted="false">Kumpul 3 pakej</string>
+  <string name="stage_073_special" formatted="false">Setiap pakej mempunyai 2 dron untuk menjaga dan memilih nadi atau slot kecil mengikut kapal. Ada 5 pakej, pintu masuk tak berkunci.</string>
+  <string name="stage_073_skill" formatted="false">Kumpul secukupnya tanpa memusnahkan dron pengawasan.</string>
+  <string name="stage_074_name" formatted="false">Serangan melencong</string>
+  <string name="stage_074_goal" formatted="false">Melalui 5 pintu pagar sebenar</string>
+  <string name="stage_074_special" formatted="false">Hidung palsu dengan garis putus tidak menyebabkan kerosakan; Pintu sebenar selepas pukulan perlahan. Hukum lencongan diajar, bukan pemberitahuan sistem palsu.</string>
+  <string name="stage_074_skill" formatted="false">Jangan beralih ke lorong umpan.</string>
+  <string name="stage_075_name" formatted="false">Musnahkan lapisan pengawal</string>
+  <string name="stage_075_goal" formatted="false">Musnahkan 3 butang keselamatan</string>
+  <string name="stage_075_special" formatted="false">Butang mencapai julat nadi pada masa yang berbeza; Terdapat titik persilangan yang cukup untuk mematikan 2 nod dengan satu nadi. Bateri tugas yang mencukupi.</string>
+  <string name="stage_075_skill" formatted="false">Nadi mematikan 2 nod di persimpangan.</string>
+  <string name="stage_076_name" formatted="false">Berundur konvoi</string>
+  <string name="stage_076_goal" formatted="false">Anda melalui 4 pintu</string>
+  <string name="stage_076_special" formatted="false">Musuh menghalang laluan masa depan anda. Tukar awal supaya rakan anda boleh mengikuti; Setiap port mempunyai 2 laluan keluar yang sah.</string>
+  <string name="stage_076_skill" formatted="false">Anda melalui pintu pagar yang mencukupi tanpa kehilangan perisai.</string>
+  <string name="stage_077_name" formatted="false">Pengepungan dua jengkal</string>
+  <string name="stage_077_goal" formatted="false">Hidup 80an</string>
+  <string name="stage_077_special" formatted="false">Gelung hanya ditutup pada bahagian atas; Pintu keluar bergilir-gilir di tepi/tengah, bukan di deretan kereta api.</string>
+  <string name="stage_077_skill" formatted="false">Keluar 4 pusingan tanpa nadi.</string>
+  <string name="stage_078_name" formatted="false">Depoh bahan api musuh</string>
+  <string name="stage_078_goal" formatted="false">Kumpul 3 crores, musnahkan 2 gudang</string>
+  <string name="stage_078_special" formatted="false">Memecahkan gudang mengurangkan tekanan tetapi perlu mengekalkan tenaga untuk rentak seterusnya. Gudang hanya dikira apabila dimusnahkan, mereka tidak terbang dari skrin.</string>
+  <string name="stage_078_skill" formatted="false">Betulkan 2 denyutan untuk 2 gudang, tiada tekanan berlebihan.</string>
+  <string name="stage_079_name" formatted="false">Pasukan pemburu berputar</string>
+  <string name="stage_079_goal" formatted="false">Langsung 85s</string>
+  <string name="stage_079_special" formatted="false">Tukar peranan setiap 15 saat untuk menyekat lorong/pengawal/sapu; Maksimum 2 peranan pada masa yang sama.</string>
+  <string name="stage_079_skill" formatted="false">Mencapai kombo 6.</string>
+  <string name="stage_080_name" formatted="false">Flagship Black Vu</string>
+  <string name="stage_080_goal" formatted="false">Pecah 5 crores</string>
+  <string name="stage_080_special" formatted="false">Melepasi kunci lorong untuk membiarkan pengawal memisahkan dan mendedahkan teras. Dua fasa terakhir ialah gelung berbentuk V/melarikan diri; Bateri meliputi setiap fasa secara berasingan.</string>
+  <string name="stage_080_skill" formatted="false">Tiada nadi apabila perisai teras ditutup.</string>
+  <string name="stage_081_name" formatted="false">Jejak masa depan</string>
+  <string name="stage_081_goal" formatted="false">Live 75s</string>
+  <string name="stage_081_special" formatted="false">Laporkan destinasi sepakan 2 saat lebih awal dan kemudian tendang seperti yang diramalkan. Baca masa depan bukan hanya melihat batu sekarang.</string>
+  <string name="stage_081_skill" formatted="false">Melalui 6 slot, tiada nadi diramalkan.</string>
+  <string name="stage_082_name" formatted="false">Aliran perlahan</string>
+  <string name="stage_082_goal" formatted="false">Melalui 5 pintu</string>
+  <string name="stage_082_special" formatted="false">Setiap lorong mempunyai kelajuan objek yang berbeza; Kereta api/jam tidak perlahan. Bandingkan masa ketibaan kereta api dan bukannya jarak.</string>
+  <string name="stage_082_skill" formatted="false">Melalui kesemua 5 pembukaan.</string>
+  <string name="stage_083_name" formatted="false">Sekali lagi</string>
+  <string name="stage_083_goal" formatted="false">Hidup 80an</string>
+  <string name="stage_083_special" formatted="false">Batu simbol bergerak ke belakang dan kemudian jatuh ke belakang tepat sekali; Pastikan bendera ID/dodge dekat, jangan beri ganjaran dua kali.</string>
+  <string name="stage_083_skill" formatted="false">4 mengelak rapat daripada 4 ID selepas undur.</string>
+  <string name="stage_084_name" formatted="false">Pintu dua kali</string>
+  <string name="stage_084_goal" formatted="false">Melalui port 4 fasa</string>
+  <string name="stage_084_special" formatted="false">Pintu pertama sempit, pintu belakang lebar. Pilih untuk pergi lebih awal untuk mengambil kesempatan atau menunggu untuk menjadi lebih selamat; jangan ubah posisi pintu secara rawak.</string>
+  <string name="stage_084_skill" formatted="false">Melalui ≥3 pintu pagar di pintu pertama.</string>
+  <string name="stage_085_name" formatted="false">Pakej adalah pegun</string>
+  <string name="stage_085_goal" formatted="false">Kumpul 4 pakej</string>
+  <string name="stage_085_special" formatted="false">Sue berhenti y=560 kemudian terus mengira detik; Jangan ambil sebelum sampai ke laluan kereta api. Terdapat 6 peluang.</string>
+  <string name="stage_085_skill" formatted="false">Jangan terlepas 4 pakej pertama.</string>
+  <string name="stage_086_name" formatted="false">Isyarat songsang</string>
+  <string name="stage_086_goal" formatted="false">Melalui 5 port dalam rantaian terbalik</string>
+  <string name="stage_086_special" formatted="false">Tunjukkan rentetan dengan label \"tertib terbalik\" sebelum memulakan; mempunyai sokongan untuk membaca semula perintah pelaksanaan.</string>
+  <string name="stage_086_skill" formatted="false">Jangan ulang.</string>
+  <string name="stage_087_name" formatted="false">Bayangan saya sendiri</string>
+  <string name="stage_087_goal" formatted="false">Langsung 85s</string>
+  <string name="stage_087_special" formatted="false">Bola merekodkan laluan 3 saat sebelum menunjukkan kedudukan menembak yang akan datang; Bola tidak berlanggar. Tinggalkan laluan lama dan bukannya ikut bola.</string>
+  <string name="stage_087_skill" formatted="false">6 pukulan bola tidak terkena kapal.</string>
+  <string name="stage_088_name" formatted="false">Pembekuan terhad</string>
+  <string name="stage_088_goal" formatted="false">Matikan 3 pemancar masa</string>
+  <string name="stage_088_special" formatted="false">Nadi penutup hanya menghentikan peluru, tidak meningkatkan sasaran; tunggu pintu teras. Sematkan bilangan kali yang betul dan ulangi ralat.</string>
+  <string name="stage_088_skill" formatted="false">Betulkan 3 denyutan daripada 3 set.</string>
+  <string name="stage_089_name" formatted="false">Sekarang adalah titik pertemuan</string>
+  <string name="stage_089_goal" formatted="false">Anda mempunyai 3 tanda zodiak yang hidup</string>
+  <string name="stage_089_special" formatted="false">Anda mengikut masa nyata, mengancam untuk menyeberangi zon pantas/perlahan. Garis ramalan membantu anda melihat objek yang akan sampai kepada anda dahulu.</string>
+  <string name="stage_089_skill" formatted="false">Tiada ancaman daripada zon pantas sampai kepada anda.</string>
+  <string name="stage_090_name" formatted="false">Penjaga jaga</string>
+  <string name="stage_090_goal" formatted="false">Pecah 5 crores</string>
+  <string name="stage_090_special" formatted="false">Lima fasa: ramalan, berhenti, putar balik tunggal, dua tingkap, urutan terbalik. Hanya memulihkan kedudukan, tidak memulihkan kesihatan bos yang hilang.</string>
+  <string name="stage_090_skill" formatted="false">Jangan berdenyut tanpa membuka inti.</string>
+  <string name="stage_091_name" formatted="false">Tiga jalan terakhir</string>
+  <string name="stage_091_goal" formatted="false">Melalui 6 pintu dalam satu baris</string>
+  <string name="stage_091_special" formatted="false">Sebelum skrin, pilih laluan yang luas dengan sedikit bekalan / banyak bateri / pengelakan rapat. Menuju ke destinasi yang sama, setiap laluan mempunyai pintu bantuan untuk diubah jika perlu.</string>
+  <string name="stage_091_skill" formatted="false">Jangan ubah hala menggunakan pintu bantuan.</string>
+  <string name="stage_092_name" formatted="false">Denyutan atau perisai</string>
+  <string name="stage_092_goal" formatted="false">Live 85s</string>
+  <string name="stage_092_special" formatted="false">3 stesen membenarkan anda memilih bateri atau perisai mengikut lorong, bukan kedua-duanya. Corak berikut mempunyai dua penyelesaian yang sepadan.</string>
+  <string name="stage_092_skill" formatted="false">Jangan pilih jenis yang sama di semua 3 stesen.</string>
+  <string name="stage_093_name" formatted="false">Bawa orang terakhir balik</string>
+  <string name="stage_093_goal" formatted="false">Anda hidup, simpan 2 petak</string>
+  <string name="stage_093_special" formatted="false">Jalan untuk menyelamat memotong jalan untuk melindungi anda; Sediakan bateri sebelum penghantaran untuk nadi berbahaya umum.</string>
+  <string name="stage_093_skill" formatted="false">Anda tidak kehilangan perisai pada dua penyelamatan.</string>
+  <string name="stage_094_name" formatted="false">Koridor empat musim</string>
+  <string name="stage_094_goal" formatted="false">Melalui 8 pintu</string>
+  <string name="stage_094_special" formatted="false">Empat bahagian biasa → angin → ais → pemuatan dilarang, setiap bahagian mempunyai 2 port. Di tengah peneutralan selama 3 saat, jangan tambah drift melebihi had.</string>
+  <string name="stage_094_skill" formatted="false">Melepasi kesemua 8 percubaan pembukaan.</string>
+  <string name="stage_095_name" formatted="false">Tali pinggang serangan balas</string>
+  <string name="stage_095_goal" formatted="false">Hidup selama 90 saat, musnahkan 4 kelompok sasaran</string>
+  <string name="stage_095_special" formatted="false">Menendang sering menyebabkan tekanan; Kelompok mempunyai perisai yang terbuka dalam irama, nadi mesti disimpan pada masa yang tepat. Terdapat 6 tingkap sasaran.</string>
+  <string name="stage_095_skill" formatted="false">Jangan musnahkan gugusan bingkai pseudo putus-putus.</string>
+  <string name="stage_096_name" formatted="false">Pemilihan juruterbang</string>
+  <string name="stage_096_goal" formatted="false">Kumpul 3 kunci, lalu pintu pagar terakhir</string>
+  <string name="stage_096_special" formatted="false">Setiap kunci mempunyai cawangan sempit untuk memegang kombo atau cawangan lebar untuk dimuatkan. Pilihan itu mempengaruhi fasa seterusnya tetapi tidak menghalang kemungkinan untuk menang.</string>
+  <string name="stage_096_skill" formatted="false">Jangan gunakan stesen pengisian bantuan.</string>
+  <string name="stage_097_name" formatted="false">Talian Nova</string>
+  <string name="stage_097_goal" formatted="false">Perisai hidup Stesen 5</string>
+  <string name="stage_097_special" formatted="false">Perubahan keutamaan serangan 3 lorong mengikut isyarat; Terdapat rehat selepas ombak besar untuk memutarkan kedudukan. Jangan anggap sudah ada kapal yang mahal.</string>
+  <string name="stage_097_skill" formatted="false">Stesen mempunyai baki ≥4/5 perisai.</string>
+  <string name="stage_098_name" formatted="false">Perjalanan dipelajari</string>
+  <string name="stage_098_goal" formatted="false">Langsung melalui 5 perenggan</string>
+  <string name="stage_098_special" formatted="false">Contoh bab 2, 3, 5, 7, 9; diumumkan lebih awal, setiap persimpangan mempunyai peraturan pemindahan yang jelas.</string>
+  <string name="stage_098_skill" formatted="false">Tiada port ulangan/pelepasan.</string>
+  <string name="stage_099_name" formatted="false">Pintu subuh</string>
+  <string name="stage_099_goal" formatted="false">Melalui 6 port, matikan 2 kunci teras</string>
+  <string name="stage_099_special" formatted="false">Pintu kedudukan saling kunci nadi; aras bateri sebelum dikunci. Jika tersalah gunakan, terdapat cincin isi semula pelepasan, tidak berkunci.</string>
+  <string name="stage_099_skill" formatted="false">Selesai sebelum 85 saat, jangan gunakan cincin penyelamat.</string>
+  <string name="stage_100_name" formatted="false">Meteor jantung</string>
+  <string name="stage_100_goal" formatted="false">Pecah 6 teras</string>
+  <string name="stage_100_special" formatted="false">Tiga pusingan, setiap pusingan 2 teras: batu/pintu; perlindungan/angin; pembukaan masa/perisai. Rehat 5 saat di antara, pulihkan 1 tahap perisai/tenaga. Fasa terminal maksimum 2 mekanisme yang diketahui.</string>
+  <string name="stage_100_skill" formatted="false">Thang belum mengaktifkan pencetus menyelamatkan nyawa atau port bantuan; Tidak perlu memiliki Sentinel.</string>
+  <string name="chapter_01" formatted="false">Ben star: memiliki kapal itu</string>
+  <string name="chapter_02" formatted="false">Tali pinggang batu: baca laluan</string>
+  <string name="chapter_03" formatted="false">Rantau elektromagnet: menggunakan dan menahan tenaga</string>
+  <string name="chapter_04" formatted="false">Kereta api hilang: perlindungan dan keutamaan</string>
+  <string name="chapter_05" formatted="false">Nebula ais: inersia induk</string>
+  <string name="chapter_06" formatted="false">Runtuhan mekanikal: mesin membaca dan menyahkod</string>
+  <string name="chapter_07" formatted="false">Ribut angkasa: penyesuaian alam sekitar</string>
+  <string name="chapter_08" formatted="false">Armada Gelap: refleks taktikal</string>
+  <string name="chapter_09" formatted="false">Time Rift: baca peraturan perubahan</string>
+  <string name="chapter_10" formatted="false">Pusat meteor: sintesis dan pemilihan</string>
+  <string name="ship_s01_body" formatted="false">Baki, tiada peraturan sekunder; Pengesahan standard setiap skrin. Tukar ganti: Tiada pengkhususan.</string>
+  <string name="ship_s02_body" formatted="false">Tukar lorong cepat, badan kecik. Tukar ganti: Kurang perisai.</string>
+  <string name="ship_s03_body" formatted="false">Mengalami banyak perlanggaran ganjil. Tukar ganti: Pemuatan besar, perlahan, perlahan.</string>
+  <string name="ship_s04_body" formatted="false">Serap item pilihan dalam 45 unit di sekitar barisan kapal. Tukar ganti: Tiada sedutan sendiri/pelabuhan paksa; badan besar.</string>
+  <string name="ship_s05_body" formatted="false">Pengecasan pasif pantas. Tukar ganti: Perisai rendah; Bateri biasanya hanya mengecas 15 berbanding 20.</string>
+  <string name="ship_s06_body" formatted="false">Melindungi item selama 2 saat tambahan. Tukar ganti: Nadi asas hanya 160 jejari.</string>
+  <string name="ship_s07_body" formatted="false">Selepas mengelak, mengurangkan hanyut alam sekitar sebanyak 50% selama 1 saat. Tukar ganti: tetingkap kombo asas 4s.</string>
+  <string name="ship_s08_body" formatted="false">Setiap 25 saat, memulihkan 1 perisai jika hilang; Maksimum 2 kali/tahap, 3 kali/tak terhingga. Tukar ganti: Item pemulihan perisai tidak dicas semula.</string>
+  <string name="ship_s09_body" formatted="false">Impuls menolak batuan yang biasanya tidak terputus 30 unit lebih jauh jika masih terdapat laluan melarikan diri. Tukar ganti: Perlindungan pasca-impuls hanya 0.45s.</string>
+  <string name="ship_s10_body" formatted="false">Sekali/peringkat menghalang pukulan kritikal, tinggal 1 perisai, kebal selama 1 saat. Tukar ganti: Tidak menghalang kerugian akibat pengiring/ tamat tempoh; Tidak timbunan menghidupkan semula.</string>
+  <string name="ship_s11_body" formatted="false">Kali pertama mengambil item setiap 15 saat menambah 8 tenaga. Tukar ganti: Perlahan asas adalah 1s lebih pendek.</string>
+  <string name="ship_s12_body" formatted="false">Sebelum pentas pilih +1 perisai **atau** +30 jejari nadi. Tukar ganti: Konfigurasi perisai: kelajuan dikurangkan kepada 680; Konfigurasi nadi: pulihkan NL kepada 2.6.</string>
+  <string name="campaign" formatted="false">Perjalanan 100 peringkat</string>
+  <string name="campaign_continue" formatted="false">Teruskan perjalanan anda</string>
+  <string name="fleet" formatted="false">Limbungan</string>
+  <string name="stage" formatted="false">Skrin</string>
+  <string name="chapter" formatted="false">Bab</string>
+  <string name="stars" formatted="false">Kenapa</string>
+  <string name="stage_ready" formatted="false">Bersedia untuk penerbangan</string>
+  <string name="stage_goal" formatted="false">Matlamat utama</string>
+  <string name="stage_special" formatted="false">Perkara istimewa</string>
+  <string name="stage_skill" formatted="false">Kemahiran Bintang</string>
+  <string name="stage_damage" formatted="false">Mengapa menyimpan kapal: bilangan kali ia kehilangan perisai tidak terlalu banyak</string>
+  <string name="stage_play" formatted="false">Mulakan pentas</string>
+  <string name="stage_map" formatted="false">Peta</string>
+  <string name="stage_next" formatted="false">Peringkat seterusnya</string>
+  <string name="stage_retry" formatted="false">Cuba tahap ini sekali lagi</string>
+  <string name="stage_victory" formatted="false">LENGKAPKAN AKTA</string>
+  <string name="stage_defeat" formatted="false">BELUM MELEPAS KELUK</string>
+  <string name="stage_locked" formatted="false">Perlu melepasi tahap dahulu</string>
+  <string name="stage_complete" formatted="false">Selesai</string>
+  <string name="stage_first" formatted="false">Bonus kemenangan pertama</string>
+  <string name="stage_star_reward" formatted="false">Bonus bintang baharu</string>
+  <string name="stage_boss_reward" formatted="false">Ganjaran pintu</string>
+  <string name="stage_chapter_reward" formatted="false">Bab bonus</string>
+  <string name="ship_owned" formatted="false">Milik</string>
+  <string name="ship_equipped" formatted="false">Sedang digunakan</string>
+  <string name="ship_equip" formatted="false">Peralatan</string>
+  <string name="ship_buy" formatted="false">Beli kapal</string>
+  <string name="ship_speed" formatted="false">Kelajuan mendatar</string>
+  <string name="ship_radius" formatted="false">Jejari perlanggaran</string>
+  <string name="ship_energy" formatted="false">Regen tenaga setiap saat</string>
+  <string name="ship_choose" formatted="false">Pilih kereta api</string>
+  <string name="account_upgrades" formatted="false">Tingkatkan akaun anda</string>
+  <string name="practice" formatted="false">Amalan</string>
+  <string name="practice_note" formatted="false">Berlatih tanpa membuka, tanpa menerima wang atau apa-apa.</string>
+  <string name="practice_active" formatted="false">DALAM AMALAN — TIADA GANJARAN</string>
+  <string name="route" formatted="false">Laluan</string>
+  <string name="route_safe" formatted="false">Jalan lebar</string>
+  <string name="route_energy" formatted="false">Talian tenaga</string>
+  <string name="route_risk" formatted="false">Tutup mengelak</string>
+  <string name="astra_armor" formatted="false">Konfigurasi perisai</string>
+  <string name="astra_pulse" formatted="false">Konfigurasi nadi</string>
+  <string name="goal_gate" formatted="false">Pintu</string>
+  <string name="cargo" formatted="false">Saman misi</string>
+  <string name="nodes" formatted="false">Butang pengaktifan</string>
+  <string name="cores" formatted="false">Teras bos</string>
+  <string name="ally" formatted="false">Sekutu</string>
+  <string name="station" formatted="false">Stesen pertahanan</string>
+  <string name="time_left" formatted="false">Kiri</string>
+  <string name="boss_open" formatted="false">TERBUKA TERAS — NADI DALAM Julat</string>
+  <string name="boss_closed" formatted="false">TUNGGU TERAS TERBUKA</string>
+  <string name="memory" formatted="false">Rentetan port</string>
+  <string name="memory_hint" formatted="false">Ulang rentetan itu</string>
+  <string name="defeat_armor" formatted="false">Habis perisai</string>
+  <string name="defeat_ally" formatted="false">Sekutu musnah</string>
+  <string name="defeat_station" formatted="false">Stesen musnah</string>
+  <string name="defeat_timeout" formatted="false">Tarikh akhir sasaran tamat tempoh</string>
+  <string name="sensitivity" formatted="false">Kepekaan tarik</string>
+  <string name="campaign_finished" formatted="false">Selesai 100 peringkat!</string>
+  <string name="ship_stats" formatted="false">Parameter kapal</string>
+  <string name="reward_base" formatted="false">Pra-survival</string>
+  <string name="reward_total" formatted="false">Jumlah kredit yang diterima</string>
+  <string name="save_before_next" formatted="false">Simpan keputusan sebelum meneruskan.</string>
+  <string name="star_damage_info" formatted="false">Mengapa penyenggaraan kapal hanya mengira bilangan kali ia kehilangan perisai; Pembaikan tidak memadamkan masa yang hilang.</string>
+  <string name="practice_hint" formatted="false">Tarik untuk mengambil item, pergi melalui pintu pagar yang betul dan gunakan nadi apabila teras terbuka.</string>
 </resources>
