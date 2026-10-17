@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">メテオダッシュ</string>
+  <string name="title" formatted="false">メテオ\nダッシュ</string>
+  <string name="survival_mode" formatted="false">エンドレスサバイバル</string>
+  <string name="ship_name" formatted="false">偵察船 / NOVA–01</string>
+  <string name="ship_ready" formatted="false">離陸準備完了</string>
+  <string name="best" formatted="false">ベスト</string>
+  <string name="wallet" formatted="false">クレジット</string>
+  <string name="play" formatted="false">フライト開始</string>
+  <string name="upgrades" formatted="false">機体強化</string>
+  <string name="settings" formatted="false">設定</string>
+  <string name="help" formatted="false">遊び方</string>
+  <string name="offline" formatted="false">オフライン · ドラッグで回避</string>
+  <string name="back" formatted="false">戻る</string>
+  <string name="home" formatted="false">ホーム</string>
+  <string name="play_again" formatted="false">もう一度</string>
+  <string name="continue_play" formatted="false">続ける</string>
+  <string name="loading" formatted="false">進行状況を読み込み中…</string>
+  <string name="loading_hint" formatted="false">機体とフライトログを準備しています。</string>
+  <string name="error_title" formatted="false">データを読み込み・保存できません</string>
+  <string name="error_body" formatted="false">空き容量を確認して再試行してください。新しい版のデータにはアプリ更新が必要です。クレジットと強化は保存後に反映されます。</string>
+  <string name="retry" formatted="false">再試行</string>
+  <string name="close" formatted="false">閉じる</string>
+  <string name="recovered_title" formatted="false">進行状況をリセットしました</string>
+  <string name="recovered_body" formatted="false">データが破損して復元できなかったため、新しいフライトログを作成しました。</string>
+  <string name="understood" formatted="false">了解</string>
+  <string name="pause" formatted="false">一時停止</string>
+  <string name="paused_title" formatted="false">星々の間で\nひと休み</string>
+  <string name="paused_body" formatted="false">フライトを一時停止しました。ひと息ついて続けましょう。</string>
+  <string name="score" formatted="false">スコア</string>
+  <string name="armor" formatted="false">装甲</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ シールド %1$d 秒</string>
+  <string name="slow_timer">◷ スロー %1$d 秒</string>
+  <string name="tutorial_title" formatted="false">左右にドラッグして隕石を回避</string>
+  <string name="tutorial_body" formatted="false">ステップ 1 / 4 · 触れて左右にドラッグすると開始。機体はドラッグに追従します。</string>
+  <string name="drag_hint" formatted="false">← ドラッグで操縦 →</string>
+  <string name="get_ready" formatted="false">離陸準備</string>
+  <string name="abandon_title" formatted="false">このフライトを中止？</string>
+  <string name="abandon_body" formatted="false">このフライトの報酬と記録は獲得できません。</string>
+  <string name="keep_playing" formatted="false">プレイを続ける</string>
+  <string name="abandon" formatted="false">中止</string>
+  <string name="mission_end" formatted="false">フライト終了</string>
+  <string name="result_title" formatted="false">次のフライトで\nまた会いましょう。</string>
+  <string name="new_record" formatted="false">✦ ベスト更新</string>
+  <string name="final_score" formatted="false">フライトスコア</string>
+  <string name="survival" formatted="false">生存時間</string>
+  <string name="collected" formatted="false">回収アイテム</string>
+  <string name="earned" formatted="false">獲得クレジット</string>
+  <string name="reward_pending" formatted="false">報酬を保存中…</string>
+  <string name="reward_failed" formatted="false">報酬が未保存です。再試行してください。</string>
+  <string name="retry_save" formatted="false">保存を再試行</string>
+  <string name="result_hint" formatted="false">飛ぶたびに、もっと遠くへ。</string>
+  <string name="hangar" formatted="false">格納庫 / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">もっと遠くへ\n飛ぶ準備を。</string>
+  <string name="upgrades_body" formatted="false">一度の強化で、すべてのフライトに効果。</string>
+  <string name="armor_name" formatted="false">強化船体</string>
+  <string name="shield_name" formatted="false">シールド発生器</string>
+  <string name="slow_name" formatted="false">スローフィールド</string>
+  <string name="level">レベル %1$d / %2$d</string>
+  <string name="armor_effect">現在：最大装甲 %1$d</string>
+  <string name="shield_effect">現在：シールド %1$d 秒</string>
+  <string name="slow_effect">現在：スロー %1$s 秒</string>
+  <string name="armor_next" formatted="false">次：最大装甲 +1</string>
+  <string name="shield_next" formatted="false">次：シールド +1 秒</string>
+  <string name="slow_next" formatted="false">次：スロー +0.5 秒</string>
+  <string name="buy">強化 · %1$d クレジット</string>
+  <string name="not_enough">%1$d クレジット必要</string>
+  <string name="max_level" formatted="false">最大レベル</string>
+  <string name="saving" formatted="false">保存中…</string>
+  <string name="settings_eyebrow" formatted="false">コックピット / オプション</string>
+  <string name="settings_title" formatted="false">自分らしく\nプレイ。</string>
+  <string name="music" formatted="false">音楽</string>
+  <string name="music_hint" formatted="false">フライト中の宇宙のメロディー</string>
+  <string name="sound" formatted="false">効果音</string>
+  <string name="sound_hint" formatted="false">回収時や被弾時のサウンド</string>
+  <string name="vibration" formatted="false">振動</string>
+  <string name="vibration_hint" formatted="false">機体やシールドの被弾時に短く振動</string>
+  <string name="reduced_motion" formatted="false">動きを減らす</string>
+  <string name="reduced_motion_hint" formatted="false">星の移動を止め、粒子を減らす</string>
+  <string name="reset" formatted="false">進行状況をリセット</string>
+  <string name="reset_title" formatted="false">フライトログを消去？</string>
+  <string name="reset_body" formatted="false">クレジット、記録、強化、チュートリアルを消去します。音、動き、言語設定は保持されます。元に戻せません。</string>
+  <string name="cancel" formatted="false">キャンセル</string>
+  <string name="privacy" formatted="false">端末内に保存。アカウント、広告、ネット接続は不要です。</string>
+  <string name="help_eyebrow" formatted="false">パイロットアカデミー</string>
+  <string name="help_title" formatted="false">指一本で\n遊べます。</string>
+  <string name="help_controls" formatted="false">01 / 操作</string>
+  <string name="help_controls_body" formatted="false">プレイエリアを左右にドラッグ。機体は移動量に従い、タッチ位置に飛びません。落ちる隕石を避けましょう。移動は横方向のみです。</string>
+  <string name="help_survive" formatted="false">02 / 生存</string>
+  <string name="help_survive_body" formatted="false">被弾で装甲が 1 減り、0 で終了。被弾後は点滅して 1.2 秒間無敵。難度は 20 秒ごとに上昇します。</string>
+  <string name="help_items" formatted="false">03 / 補給</string>
+  <string name="help_shield" formatted="false">◇ シールド：1 回の被弾を防ぐ。8 秒持続。</string>
+  <string name="help_repair" formatted="false">+ 修理：装甲を 1 回復。最大値まで。</string>
+  <string name="help_slow" formatted="false">◷ スロー：隕石が 60% の速さに。5 秒持続。</string>
+  <string name="help_rewards" formatted="false">04 / フライト報酬</string>
+  <string name="help_rewards_body" formatted="false">生存は毎秒 10 点、アイテムは 25 点。最終 20 点ごとに強化用クレジット 1 を獲得。中止したフライトに報酬はありません。</string>
+  <string name="help_accessibility" formatted="false">リアルタイムの観察とドラッグ操作が必要です。</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">バージョン 1.3 / 20 言語</string>
+  <string name="new_tagline" formatted="false">隕石をかすめてコンボ。パルスで脱出。操縦を極め、ベストを更新。</string>
+  <string name="pulse_ready" formatted="false">パルス</string>
+  <string name="pulse_charging">エネルギー %1$d/100</string>
+  <string name="pulse_hint" formatted="false">満タンで付近の隕石を除去</string>
+  <string name="combo_status">コンボ %1$d · ボーナス ×%2$d · %3$d 秒</string>
+  <string name="wave_warning">隕石雨 · %1$d</string>
+  <string name="notice_near">かすり回避！+%1$d</string>
+  <string name="notice_pickup">補給！+%1$d</string>
+  <string name="notice_hit" formatted="false">被弾！装甲 −1</string>
+  <string name="notice_shield" formatted="false">シールドが防御</string>
+  <string name="notice_pulse" formatted="false">エネルギーパルス！</string>
+  <string name="notice_wave" formatted="false">警告レーンに注意</string>
+  <string name="notice_mission">目標達成！+%1$d</string>
+  <string name="mission_survive">生存 %1$d/30 秒 · +100 点</string>
+  <string name="mission_near">かすり回避 %1$d/5 回 · +150 点</string>
+  <string name="mission_items">アイテム %1$d/3 個 · +100 点</string>
+  <string name="mission_all" formatted="false">全 3/3 目標達成</string>
+  <string name="stat_near" formatted="false">かすり回避数</string>
+  <string name="stat_combo" formatted="false">最高コンボ</string>
+  <string name="stat_pulse" formatted="false">パルス使用数</string>
+  <string name="stat_bonus" formatted="false">技巧ボーナス</string>
+  <string name="stat_missions" formatted="false">達成目標</string>
+  <string name="new_mechanics" formatted="false">05 / リスクと報酬</string>
+  <string name="new_mechanics_body" formatted="false">隕石に触れずにかすめると点数とエネルギーを獲得。5 秒以内につなぐとコンボ。3 回で ×2、6 回で ×3。装甲への被弾や時間切れで終了。生存点とアイテム点には倍率が付きません。</string>
+  <string name="pulse_help" formatted="false">06 / エネルギーパルス</string>
+  <string name="pulse_help_body" formatted="false">満タンで半径 180 の隕石を除去し 0.6 秒保護。開始時は満タン。毎秒 3、かすり回避で 12、アイテムで 20 回復。破壊した隕石はかすり回避点になりません。</string>
+  <string name="wave_help" formatted="false">07 / 警告</string>
+  <string name="wave_help_body" formatted="false">12 秒目から 18 秒ごとに隕石雨。予告は 1.6 秒。橙色は危険、シアンは隙間です。古い隕石は隙間にも残ります。20 秒後から一部の隕石が横移動します。</string>
+  <string name="mission_help" formatted="false">08 / フライト目標</string>
+  <string name="mission_help_body" formatted="false">30 秒生存：+100 点。かすり回避 5 回：+150 点。アイテム 3 個：+100 点。表示されていなくても各目標は 1 回だけ報酬。クレジットは全ボーナス込みです。</string>
+  <string name="challenge_title" formatted="false">目標を持って飛ぼう</string>
+  <string name="challenge_body" formatted="false">30 秒生存 · かすり回避 5 回 · アイテム 3 個。すべて達成で 350 点追加。</string>
+  <string name="flight_upgrade_title" formatted="false">フライト中の強化</string>
+  <string name="flight_upgrade_body" formatted="false">このフライトの残りに適用する強化を選択。選択中は時間停止。各種 1 回だけ選べます。</string>
+  <string name="flight_upgrade_choose" formatted="false">選んで続ける</string>
+  <string name="capacitor_body" formatted="false">増幅器：パルス半径 180 → 250。代償：自然回復が 30% 遅くなる。アイテムと回避の回復量は同じ。</string>
+  <string name="daredevil_body" formatted="false">冒険家：かすり回避点が 2 倍。代償：最大装甲 −1、現在の装甲も新上限までに制限。</string>
+  <string name="focus_body" formatted="false">集中：コンボ猶予 5 → 8 秒。代償：以後に拾うスローの持続が 20% 短くなる。</string>
+  <string name="flight_upgrade_help" formatted="false">45、90、135 秒で停止し、このフライト用の強化を各種 1 回選択。選択後は 3 秒カウント。増幅器は広範囲だが回復減、冒険家は回避点 2 倍だが装甲減、集中はコンボ延長だがスロー短縮。</string>
+  <string name="guide_pickup" formatted="false">ステップ 2 / 4 · アイテムを拾い、効果とエネルギーを獲得。</string>
+  <string name="guide_pulse" formatted="false">ステップ 3 / 4 · 満タンでパルスを使い、道を開こう。</string>
+  <string name="guide_near" formatted="false">ステップ 4 / 4 · 隕石に触れずに近くを通り、コンボを獲得。</string>
+  <string name="guide_skip" formatted="false">了解 · ガイドを隠す</string>
+  <string name="next_flight" formatted="false">次のフライト目標</string>
+  <string name="tip_energy" formatted="false">終了時にパルスが使えました。次は追い詰められる前に使いましょう。</string>
+  <string name="tip_survive" formatted="false">30 秒生存で 100 点追加。空いた場所を探し隕石から距離を保とう。</string>
+  <string name="tip_near" formatted="false">かすり回避 5 回で 150 点追加。逃げ道があるときだけ挑戦しよう。</string>
+  <string name="tip_combo" formatted="false">制限時間内にかすり回避を 6 回つなぎ ×3 ボーナスを狙おう。</string>
+  <string name="goal_ready" formatted="false">次の強化を購入できます。格納庫へどうぞ。</string>
+  <string name="goal_remaining">最安の次の強化まで、あと %1$d クレジット。</string>
+  <string name="all_upgraded" formatted="false">機体は最大強化済み。別の戦略で記録に挑もう！</string>
+  <string name="guide_replay" formatted="false">ステップガイド付きでプレイ</string>
+  <string name="language" formatted="false">言語</string>
+  <string name="language_system" formatted="false">端末の言語を使う</string>
+  <string name="language_hint" formatted="false">表示言語を選択。自動保存され、ゲーム進行は保持されます。</string>
+  <string name="capacitor_name" formatted="false">増幅器</string>
+  <string name="daredevil_name" formatted="false">冒険家</string>
+  <string name="focus_name" formatted="false">集中</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">DESVIE DOS\nMETEOROS</string>
+  <string name="survival_mode" formatted="false">SOBREVIVÊNCIA INFINITA</string>
+  <string name="ship_name" formatted="false">NAVE EXPLORADORA / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Pronta para decolar</string>
+  <string name="best" formatted="false">RECORDE</string>
+  <string name="wallet" formatted="false">CRÉDITOS</string>
+  <string name="play" formatted="false">INICIAR VOO</string>
+  <string name="upgrades" formatted="false">Melhorias da nave</string>
+  <string name="settings" formatted="false">Configurações</string>
+  <string name="help" formatted="false">Como jogar</string>
+  <string name="offline" formatted="false">JOGUE OFFLINE · ARRASTE PARA DESVIAR</string>
+  <string name="back" formatted="false">Voltar</string>
+  <string name="home" formatted="false">Início</string>
+  <string name="play_again" formatted="false">Jogar de novo</string>
+  <string name="continue_play" formatted="false">Continuar</string>
+  <string name="loading" formatted="false">Carregando progresso…</string>
+  <string name="loading_hint" formatted="false">Preparando sua nave e diário de voo.</string>
+  <string name="error_title" formatted="false">Não foi possível ler ou salvar dados</string>
+  <string name="error_body" formatted="false">Confira o espaço livre e tente novamente. Dados de uma versão mais recente exigem atualização. Créditos e melhorias só valem após salvar.</string>
+  <string name="retry" formatted="false">Tentar novamente</string>
+  <string name="close" formatted="false">Fechar</string>
+  <string name="recovered_title" formatted="false">Progresso redefinido</string>
+  <string name="recovered_body" formatted="false">O arquivo estava danificado e não pôde ser recuperado. Um novo diário foi criado.</string>
+  <string name="understood" formatted="false">Entendi</string>
+  <string name="pause" formatted="false">Pausar</string>
+  <string name="paused_title" formatted="false">DESCANSO ENTRE\nAS ESTRELAS</string>
+  <string name="paused_body" formatted="false">Voo pausado. Respire um pouco e continue.</string>
+  <string name="score" formatted="false">PONTOS</string>
+  <string name="armor" formatted="false">BLINDAGEM</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Escudo %1$d s</string>
+  <string name="slow_timer">◷ Lentidão %1$d s</string>
+  <string name="tutorial_title" formatted="false">Arraste para os lados e desvie dos meteoros</string>
+  <string name="tutorial_body" formatted="false">PASSO 1 / 4 · Toque e arraste para os lados para começar. A nave acompanha o arraste.</string>
+  <string name="drag_hint" formatted="false">← ARRASTE PARA PILOTAR →</string>
+  <string name="get_ready" formatted="false">PRONTO PARA DECOLAR</string>
+  <string name="abandon_title" formatted="false">Abandonar este voo?</string>
+  <string name="abandon_body" formatted="false">Este voo não dará recompensas nem recordes.</string>
+  <string name="keep_playing" formatted="false">Continuar jogando</string>
+  <string name="abandon" formatted="false">Abandonar</string>
+  <string name="mission_end" formatted="false">VOO ENCERRADO</string>
+  <string name="result_title" formatted="false">ATÉ O\nPRÓXIMO VOO.</string>
+  <string name="new_record" formatted="false">✦ NOVO RECORDE</string>
+  <string name="final_score" formatted="false">PONTUAÇÃO DO VOO</string>
+  <string name="survival" formatted="false">Tempo de sobrevivência</string>
+  <string name="collected" formatted="false">Itens coletados</string>
+  <string name="earned" formatted="false">Créditos ganhos</string>
+  <string name="reward_pending" formatted="false">Salvando recompensas…</string>
+  <string name="reward_failed" formatted="false">Recompensas não salvas. Tente novamente.</string>
+  <string name="retry_save" formatted="false">Tentar salvar novamente</string>
+  <string name="result_hint" formatted="false">Cada voo leva você mais longe.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">PRONTO PARA\nIR MAIS LONGE.</string>
+  <string name="upgrades_body" formatted="false">Melhore uma vez. Aproveite em todos os voos.</string>
+  <string name="armor_name" formatted="false">Casco reforçado</string>
+  <string name="shield_name" formatted="false">Gerador de escudo</string>
+  <string name="slow_name" formatted="false">Campo de lentidão</string>
+  <string name="level">Nível %1$d / %2$d</string>
+  <string name="armor_effect">Atual: %1$d de blindagem máxima</string>
+  <string name="shield_effect">Atual: %1$d segundos de escudo</string>
+  <string name="slow_effect">Atual: %1$s segundos de lentidão</string>
+  <string name="armor_next" formatted="false">Próximo: +1 de blindagem máxima</string>
+  <string name="shield_next" formatted="false">Próximo: +1 segundo de escudo</string>
+  <string name="slow_next" formatted="false">Próximo: +0,5 segundo de lentidão</string>
+  <string name="buy">Melhorar · %1$d créditos</string>
+  <string name="not_enough">Requer %1$d créditos</string>
+  <string name="max_level" formatted="false">Nível máximo</string>
+  <string name="saving" formatted="false">Salvando…</string>
+  <string name="settings_eyebrow" formatted="false">CABINE / OPÇÕES</string>
+  <string name="settings_title" formatted="false">JOGUE\nDO SEU JEITO.</string>
+  <string name="music" formatted="false">Música</string>
+  <string name="music_hint" formatted="false">Melodias espaciais durante o voo</string>
+  <string name="sound" formatted="false">Efeitos sonoros</string>
+  <string name="sound_hint" formatted="false">Sons ao coletar itens e sofrer impactos</string>
+  <string name="vibration" formatted="false">Vibração</string>
+  <string name="vibration_hint" formatted="false">Vibração breve ao atingir a nave ou escudo</string>
+  <string name="reduced_motion" formatted="false">Reduzir movimento</string>
+  <string name="reduced_motion_hint" formatted="false">Para as estrelas e reduz partículas</string>
+  <string name="reset" formatted="false">Redefinir progresso</string>
+  <string name="reset_title" formatted="false">Apagar o diário de voo?</string>
+  <string name="reset_body" formatted="false">Créditos, recordes, melhorias e tutorial serão apagados. Áudio, movimento e idioma serão mantidos. Não é possível desfazer.</string>
+  <string name="cancel" formatted="false">Cancelar</string>
+  <string name="privacy" formatted="false">Dados neste dispositivo. Sem conta, anúncios ou internet.</string>
+  <string name="help_eyebrow" formatted="false">ACADEMIA DE PILOTOS</string>
+  <string name="help_title" formatted="false">APENAS\nUM DEDO.</string>
+  <string name="help_controls" formatted="false">01 / CONTROLES</string>
+  <string name="help_controls_body" formatted="false">Arraste para os lados na área de jogo. A nave segue a distância arrastada, sem saltar até o toque. Desvie dos meteoros; o movimento é apenas horizontal.</string>
+  <string name="help_survive" formatted="false">02 / SOBREVIVÊNCIA</string>
+  <string name="help_survive_body" formatted="false">Cada impacto custa 1 de blindagem. Ao chegar a zero o voo acaba. Após um impacto, a nave pisca e fica invulnerável por 1,2 segundo. A dificuldade aumenta a cada 20 segundos.</string>
+  <string name="help_items" formatted="false">03 / SUPRIMENTOS</string>
+  <string name="help_shield" formatted="false">◇ Escudo: bloqueia um impacto; dura 8 segundos.</string>
+  <string name="help_repair" formatted="false">+ Reparo: restaura 1 de blindagem, até o máximo.</string>
+  <string name="help_slow" formatted="false">◷ Lentidão: meteoros a 60% da velocidade por 5 segundos.</string>
+  <string name="help_rewards" formatted="false">04 / RECOMPENSAS DE VOO</string>
+  <string name="help_rewards_body" formatted="false">Sobrevivência: 10 pontos/segundo. Itens: 25 pontos cada. Cada 20 pontos finais rendem 1 crédito para melhorias. Abandonar não rende recompensas.</string>
+  <string name="help_accessibility" formatted="false">Exige observação e arraste em tempo real.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSÃO 1.3 / 20 IDIOMAS</string>
+  <string name="new_tagline" formatted="false">Passe rente aos meteoros para criar combos. Use o pulso para escapar e superar seu recorde.</string>
+  <string name="pulse_ready" formatted="false">PULSO</string>
+  <string name="pulse_charging">ENERGIA %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Elimine meteoros próximos com energia cheia</string>
+  <string name="combo_status">COMBO %1$d · BÔNUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">CHUVA DE METEOROS · %1$d</string>
+  <string name="notice_near">POR POUCO! +%1$d</string>
+  <string name="notice_pickup">SUPRIMENTOS! +%1$d</string>
+  <string name="notice_hit" formatted="false">IMPACTO! −1 BLINDAGEM</string>
+  <string name="notice_shield" formatted="false">ESCUDO BLOQUEOU O IMPACTO</string>
+  <string name="notice_pulse" formatted="false">PULSO DE ENERGIA!</string>
+  <string name="notice_wave" formatted="false">OLHE AS FAIXAS DE ALERTA</string>
+  <string name="notice_mission">OBJETIVO CONCLUÍDO! +%1$d</string>
+  <string name="mission_survive">Sobreviva %1$d/30 s · +100 pontos</string>
+  <string name="mission_near">Desvios próximos %1$d/5 · +150 pontos</string>
+  <string name="mission_items">Itens %1$d/3 · +100 pontos</string>
+  <string name="mission_all" formatted="false">3/3 OBJETIVOS CONCLUÍDOS</string>
+  <string name="stat_near" formatted="false">Desvios próximos</string>
+  <string name="stat_combo" formatted="false">Melhor combo</string>
+  <string name="stat_pulse" formatted="false">Pulsos usados</string>
+  <string name="stat_bonus" formatted="false">Pontos de habilidade</string>
+  <string name="stat_missions" formatted="false">Objetivos concluídos</string>
+  <string name="new_mechanics" formatted="false">05 / RISCO E RECOMPENSA</string>
+  <string name="new_mechanics_body" formatted="false">Passe rente ao meteoro sem tocar para ganhar pontos e energia. Encadeie desvios em 5 segundos. Combos 3 e 6 dão ×2 e ×3. Dano à blindagem ou fim do tempo interrompe o combo. Tempo e itens não são multiplicados.</string>
+  <string name="pulse_help" formatted="false">06 / PULSO DE ENERGIA</string>
+  <string name="pulse_help_body" formatted="false">Com energia cheia, elimina meteoros no raio de 180 e protege por 0,6 segundo. Começa cheio; recarrega 3/segundo, 12 por desvio próximo e 20 por item. Destruir meteoros não dá pontos de desvio.</string>
+  <string name="wave_help" formatted="false">07 / ALERTAS</string>
+  <string name="wave_help_body" formatted="false">A partir de 12 segundos, há uma chuva a cada 18 segundos, com aviso de 1,6 segundo. Laranja é perigo; ciano é a abertura. Meteoros antigos podem estar nela. Após 20 segundos alguns se movem de lado.</string>
+  <string name="mission_help" formatted="false">08 / OBJETIVOS DE VOO</string>
+  <string name="mission_help_body" formatted="false">Sobreviva 30 segundos: +100 pontos. Desvie rente 5 vezes: +150. Colete 3 itens: +100. Cada objetivo paga uma vez, mesmo sem estar na tela. Créditos incluem todos os bônus.</string>
+  <string name="challenge_title" formatted="false">VOE COM UM PROPÓSITO</string>
+  <string name="challenge_body" formatted="false">Sobreviva 30 segundos · 5 desvios próximos · 3 itens. Complete tudo para 350 pontos extras por voo.</string>
+  <string name="flight_upgrade_title" formatted="false">MELHORIAS EM VOO</string>
+  <string name="flight_upgrade_body" formatted="false">Escolha uma mudança para o resto deste voo. O tempo fica parado enquanto decide. Cada tipo pode ser escolhido uma vez.</string>
+  <string name="flight_upgrade_choose" formatted="false">Escolher e continuar</string>
+  <string name="capacitor_body" formatted="false">Amplificador: raio do pulso 180 → 250. Em troca, recarga passiva 30% mais lenta. Energia de itens e desvios não muda.</string>
+  <string name="daredevil_body" formatted="false">Ousadia: pontos de desvios próximos em dobro. Em troca, blindagem máxima −1; a atual fica limitada ao novo máximo.</string>
+  <string name="focus_body" formatted="false">Foco: janela de combo 5 → 8 segundos. Em troca, novos itens de lentidão duram 20% menos.</string>
+  <string name="flight_upgrade_help" formatted="false">Aos 45, 90 e 135 segundos escolha uma melhoria apenas para este voo, cada tipo uma vez. Depois há contagem de 3 segundos. Amplificador: mais raio, menos recarga. Ousadia: pontos dobrados, menos blindagem. Foco: combo maior, lentidão menor.</string>
+  <string name="guide_pickup" formatted="false">PASSO 2 / 4 · Arraste até um item para ganhar efeitos e energia.</string>
+  <string name="guide_pulse" formatted="false">PASSO 3 / 4 · Use PULSO com energia cheia para abrir caminho.</string>
+  <string name="guide_near" formatted="false">PASSO 4 / 4 · Deixe um meteoro passar rente sem tocar a nave para ganhar combo.</string>
+  <string name="guide_skip" formatted="false">Entendi · Ocultar guia</string>
+  <string name="next_flight" formatted="false">META DO PRÓXIMO VOO</string>
+  <string name="tip_energy" formatted="false">Você terminou com o pulso pronto. Use antes de ficar encurralado no próximo voo.</string>
+  <string name="tip_survive" formatted="false">Sobreviva 30 segundos para 100 pontos extras. Procure espaço e mantenha distância.</string>
+  <string name="tip_near" formatted="false">Tente 5 desvios próximos para 150 pontos extras. Arrisque apenas com rota de fuga.</string>
+  <string name="tip_combo" formatted="false">Encadeie 6 desvios próximos no prazo do combo para bônus ×3.</string>
+  <string name="goal_ready" formatted="false">Você pode comprar a próxima melhoria. Visite o hangar.</string>
+  <string name="goal_remaining">Faltam %1$d créditos para a próxima melhoria mais barata.</string>
+  <string name="all_upgraded" formatted="false">Nave no máximo! Teste outra estratégia e supere seu recorde.</string>
+  <string name="guide_replay" formatted="false">Jogar com guia passo a passo</string>
+  <string name="language" formatted="false">Idioma</string>
+  <string name="language_system" formatted="false">Usar idioma do dispositivo</string>
+  <string name="language_hint" formatted="false">Escolha o idioma da tela. Salvo automaticamente; seu progresso é mantido.</string>
+  <string name="capacitor_name" formatted="false">Amplificador</string>
+  <string name="daredevil_name" formatted="false">Ousadia</string>
+  <string name="focus_name" formatted="false">Foco</string>
+</resources>

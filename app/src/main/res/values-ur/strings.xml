@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">میٹیور ڈیش</string>
+  <string name="title" formatted="false">شہابوں سے\nبچیں</string>
+  <string name="survival_mode" formatted="false">لامحدود بقا</string>
+  <string name="ship_name" formatted="false">جاسوس جہاز / NOVA–01</string>
+  <string name="ship_ready" formatted="false">پرواز کے لیے تیار</string>
+  <string name="best" formatted="false">بہترین اسکور</string>
+  <string name="wallet" formatted="false">کریڈٹ</string>
+  <string name="play" formatted="false">پرواز شروع کریں</string>
+  <string name="upgrades" formatted="false">جہاز کی اپ گریڈ</string>
+  <string name="settings" formatted="false">ترتیبات</string>
+  <string name="help" formatted="false">کھیلنے کا طریقہ</string>
+  <string name="offline" formatted="false">آف لائن · بچنے کے لیے کھینچیں</string>
+  <string name="back" formatted="false">واپس</string>
+  <string name="home" formatted="false">ہوم</string>
+  <string name="play_again" formatted="false">دوبارہ کھیلیں</string>
+  <string name="continue_play" formatted="false">جاری رکھیں</string>
+  <string name="loading" formatted="false">پیش رفت لوڈ ہو رہی ہے…</string>
+  <string name="loading_hint" formatted="false">جہاز اور پرواز کا ریکارڈ تیار ہو رہا ہے۔</string>
+  <string name="error_title" formatted="false">ڈیٹا پڑھ یا محفوظ نہیں ہو سکا</string>
+  <string name="error_body" formatted="false">خالی جگہ دیکھ کر دوبارہ کوشش کریں۔ نئے ورژن کے ڈیٹا کے لیے ایپ اپ ڈیٹ کریں۔ کریڈٹ اور اپ گریڈ محفوظ ہونے کے بعد لاگو ہوتے ہیں۔</string>
+  <string name="retry" formatted="false">دوبارہ کوشش</string>
+  <string name="close" formatted="false">بند کریں</string>
+  <string name="recovered_title" formatted="false">پیش رفت ری سیٹ ہوگئی</string>
+  <string name="recovered_body" formatted="false">خراب فائل بحال نہیں ہو سکی۔ پرواز کا نیا ریکارڈ بنایا گیا۔</string>
+  <string name="understood" formatted="false">سمجھ گیا</string>
+  <string name="pause" formatted="false">وقفہ</string>
+  <string name="paused_title" formatted="false">ستاروں کے بیچ\nآرام</string>
+  <string name="paused_body" formatted="false">پرواز رکی ہوئی ہے۔ سانس لیں، پھر جاری رکھیں۔</string>
+  <string name="score" formatted="false">اسکور</string>
+  <string name="armor" formatted="false">زرہ</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ ڈھال %1$d سیکنڈ</string>
+  <string name="slow_timer">◷ سستی %1$d سیکنڈ</string>
+  <string name="tutorial_title" formatted="false">شہابوں سے بچنے کے لیے اطراف میں کھینچیں</string>
+  <string name="tutorial_body" formatted="false">مرحلہ 1 / 4 · شروع کرنے کے لیے چھو کر ایک طرف کھینچیں۔ جہاز کھینچنے کے ساتھ چلتا ہے۔</string>
+  <string name="drag_hint" formatted="false">← چلانے کے لیے کھینچیں →</string>
+  <string name="get_ready" formatted="false">پرواز کے لیے تیار</string>
+  <string name="abandon_title" formatted="false">یہ پرواز چھوڑ دیں؟</string>
+  <string name="abandon_body" formatted="false">اس پرواز کا انعام یا ریکارڈ نہیں ملے گا۔</string>
+  <string name="keep_playing" formatted="false">کھیلتے رہیں</string>
+  <string name="abandon" formatted="false">چھوڑ دیں</string>
+  <string name="mission_end" formatted="false">پرواز ختم</string>
+  <string name="result_title" formatted="false">اگلی پرواز میں\nملاقات ہوگی۔</string>
+  <string name="new_record" formatted="false">✦ نیا ریکارڈ</string>
+  <string name="final_score" formatted="false">پرواز کا اسکور</string>
+  <string name="survival" formatted="false">بقا کا وقت</string>
+  <string name="collected" formatted="false">جمع کردہ اشیا</string>
+  <string name="earned" formatted="false">حاصل شدہ کریڈٹ</string>
+  <string name="reward_pending" formatted="false">انعام محفوظ ہو رہے ہیں…</string>
+  <string name="reward_failed" formatted="false">انعام محفوظ نہیں ہوئے۔ دوبارہ کوشش کریں۔</string>
+  <string name="retry_save" formatted="false">دوبارہ محفوظ کریں</string>
+  <string name="result_hint" formatted="false">ہر پرواز آپ کو آگے لے جاتی ہے۔</string>
+  <string name="hangar" formatted="false">ہینگر / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">مزید آگے\nجانے کو تیار۔</string>
+  <string name="upgrades_body" formatted="false">ایک بار اپ گریڈ، ہر پرواز میں فائدہ۔</string>
+  <string name="armor_name" formatted="false">مضبوط ڈھانچا</string>
+  <string name="shield_name" formatted="false">ڈھال جنریٹر</string>
+  <string name="slow_name" formatted="false">سست کرنے والا میدان</string>
+  <string name="level">درجہ %1$d / %2$d</string>
+  <string name="armor_effect">موجودہ: زیادہ سے زیادہ زرہ %1$d</string>
+  <string name="shield_effect">موجودہ: ڈھال %1$d سیکنڈ</string>
+  <string name="slow_effect">موجودہ: سستی %1$s سیکنڈ</string>
+  <string name="armor_next" formatted="false">اگلا: زیادہ سے زیادہ زرہ +1</string>
+  <string name="shield_next" formatted="false">اگلا: ڈھال +1 سیکنڈ</string>
+  <string name="slow_next" formatted="false">اگلا: سستی +0.5 سیکنڈ</string>
+  <string name="buy">اپ گریڈ · %1$d کریڈٹ</string>
+  <string name="not_enough">%1$d کریڈٹ درکار</string>
+  <string name="max_level" formatted="false">آخری درجہ</string>
+  <string name="saving" formatted="false">محفوظ ہو رہا ہے…</string>
+  <string name="settings_eyebrow" formatted="false">کاک پٹ / اختیارات</string>
+  <string name="settings_title" formatted="false">اپنے انداز میں\nکھیلیں۔</string>
+  <string name="music" formatted="false">موسیقی</string>
+  <string name="music_hint" formatted="false">پرواز میں خلائی دھنیں</string>
+  <string name="sound" formatted="false">صوتی اثرات</string>
+  <string name="sound_hint" formatted="false">اشیا لینے اور ٹکر کی آوازیں</string>
+  <string name="vibration" formatted="false">ارتعاش</string>
+  <string name="vibration_hint" formatted="false">جہاز یا ڈھال پر ضرب لگنے سے ہلکا ارتعاش</string>
+  <string name="reduced_motion" formatted="false">حرکت کم کریں</string>
+  <string name="reduced_motion_hint" formatted="false">ستاروں کی حرکت روکیں اور ذرات کم کریں</string>
+  <string name="reset" formatted="false">پیش رفت ری سیٹ کریں</string>
+  <string name="reset_title" formatted="false">پرواز کا ریکارڈ مٹائیں؟</string>
+  <string name="reset_body" formatted="false">کریڈٹ، ریکارڈ، اپ گریڈ اور تربیت مٹ جائیں گے۔ آواز، حرکت اور زبان کی ترتیبات رہیں گی۔ واپس نہیں ہو سکتا۔</string>
+  <string name="cancel" formatted="false">منسوخ</string>
+  <string name="privacy" formatted="false">ڈیٹا اسی آلے پر۔ اکاؤنٹ، اشتہار یا انٹرنیٹ کی ضرورت نہیں۔</string>
+  <string name="help_eyebrow" formatted="false">پائلٹ اکیڈمی</string>
+  <string name="help_title" formatted="false">صرف ایک\nانگلی۔</string>
+  <string name="help_controls" formatted="false">01 / کنٹرول</string>
+  <string name="help_controls_body" formatted="false">کھیل کے حصے میں اطراف میں کھینچیں۔ جہاز کھینچے گئے فاصلے کے ساتھ چلتا ہے، چھونے کی جگہ نہیں چھلانگ لگاتا۔ گرتے شہابوں سے بچیں؛ حرکت صرف افقی ہے۔</string>
+  <string name="help_survive" formatted="false">02 / بقا</string>
+  <string name="help_survive_body" formatted="false">ہر ضرب سے 1 زرہ کم ہوتی ہے۔ صفر پر پرواز ختم۔ ضرب کے بعد جہاز چمکتا ہے اور 1.2 سیکنڈ محفوظ رہتا ہے۔ ہر 20 سیکنڈ مشکل بڑھتی ہے۔</string>
+  <string name="help_items" formatted="false">03 / رسد</string>
+  <string name="help_shield" formatted="false">◇ ڈھال: ایک ضرب روکتی ہے؛ 8 سیکنڈ رہتی ہے۔</string>
+  <string name="help_repair" formatted="false">+ مرمت: حد تک 1 زرہ واپس دیتی ہے۔</string>
+  <string name="help_slow" formatted="false">◷ سستی: شہاب 5 سیکنڈ تک 60% رفتار سے چلتے ہیں۔</string>
+  <string name="help_rewards" formatted="false">04 / پرواز کے انعام</string>
+  <string name="help_rewards_body" formatted="false">بقا: 10 پوائنٹ فی سیکنڈ۔ اشیا: ہر ایک 25 پوائنٹ۔ ہر 20 آخری پوائنٹ پر اپ گریڈ کے لیے 1 کریڈٹ۔ پرواز چھوڑنے پر کچھ نہیں ملتا۔</string>
+  <string name="help_accessibility" formatted="false">کھیل کے دوران فوری مشاہدہ اور کھینچنا ضروری ہے۔</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">ورژن 1.3 / 20 زبانیں</string>
+  <string name="new_tagline" formatted="false">شہاب کے پاس سے بچ کر کومبو بنائیں۔ پلس سے نکلیں اور ریکارڈ توڑیں۔</string>
+  <string name="pulse_ready" formatted="false">پلس</string>
+  <string name="pulse_charging">توانائی %1$d/100</string>
+  <string name="pulse_hint" formatted="false">پوری توانائی پر قریبی شہاب ہٹائیں</string>
+  <string name="combo_status">کومبو %1$d · بونس ×%2$d · %3$d سیکنڈ</string>
+  <string name="wave_warning">شہابوں کی بارش · %1$d</string>
+  <string name="notice_near">بال بال بچے! +%1$d</string>
+  <string name="notice_pickup">رسد! +%1$d</string>
+  <string name="notice_hit" formatted="false">ضرب! −1 زرہ</string>
+  <string name="notice_shield" formatted="false">ڈھال نے ضرب روکی</string>
+  <string name="notice_pulse" formatted="false">توانائی پلس!</string>
+  <string name="notice_wave" formatted="false">انتباہ والی راہیں دیکھیں</string>
+  <string name="notice_mission">ہدف مکمل! +%1$d</string>
+  <string name="mission_survive">بقا %1$d/30 سیکنڈ · +100 پوائنٹ</string>
+  <string name="mission_near">قریبی بچاؤ %1$d/5 · +150 پوائنٹ</string>
+  <string name="mission_items">اشیا %1$d/3 · +100 پوائنٹ</string>
+  <string name="mission_all" formatted="false">تمام 3/3 اہداف مکمل</string>
+  <string name="stat_near" formatted="false">قریبی بچاؤ</string>
+  <string name="stat_combo" formatted="false">بہترین کومبو</string>
+  <string name="stat_pulse" formatted="false">استعمال شدہ پلس</string>
+  <string name="stat_bonus" formatted="false">مہارت کے بونس پوائنٹ</string>
+  <string name="stat_missions" formatted="false">مکمل اہداف</string>
+  <string name="new_mechanics" formatted="false">05 / خطرہ اور انعام</string>
+  <string name="new_mechanics_body" formatted="false">شہاب کو چھوئے بغیر قریب سے گزرنے پر پوائنٹ اور توانائی ملتی ہے۔ 5 سیکنڈ میں جوڑیں۔ کومبو 3 اور 6 پر ×2 اور ×3 ملتا ہے۔ زرہ پر ضرب یا وقت ختم ہونے سے کومبو ٹوٹتا ہے۔ وقت اور اشیا کے پوائنٹ ضرب نہیں ہوتے۔</string>
+  <string name="pulse_help" formatted="false">06 / توانائی پلس</string>
+  <string name="pulse_help_body" formatted="false">پوری توانائی پر 180 رداس کے شہاب ہٹاتا اور 0.6 سیکنڈ بچاتا ہے۔ آغاز پر توانائی پوری؛ فی سیکنڈ 3، قریبی بچاؤ پر 12 اور شے پر 20 بھرتی ہے۔ تباہ شہاب کے بچاؤ پوائنٹ نہیں ملتے۔</string>
+  <string name="wave_help" formatted="false">07 / انتباہ</string>
+  <string name="wave_help_body" formatted="false">12ویں سیکنڈ سے ہر 18 سیکنڈ بارش، 1.6 سیکنڈ پہلے انتباہ۔ نارنجی خطرہ، فیروزی خالی راستہ۔ پرانے شہاب راستے میں رہ سکتے ہیں۔ 20 سیکنڈ بعد کچھ اطراف میں چلتے ہیں۔</string>
+  <string name="mission_help" formatted="false">08 / پرواز کے اہداف</string>
+  <string name="mission_help_body" formatted="false">30 سیکنڈ بقا: +100 پوائنٹ۔ 5 قریبی بچاؤ: +150۔ 3 اشیا: +100۔ ہر ہدف ایک بار انعام دیتا ہے، نظر نہ آنے پر بھی۔ کریڈٹ میں تمام بونس شامل ہیں۔</string>
+  <string name="challenge_title" formatted="false">ہدف کے ساتھ اڑیں</string>
+  <string name="challenge_body" formatted="false">30 سیکنڈ بقا · 5 قریبی بچاؤ · 3 اشیا۔ سب مکمل کرکے ہر پرواز میں 350 بونس پوائنٹ لیں۔</string>
+  <string name="flight_upgrade_title" formatted="false">دوران پرواز اپ گریڈ</string>
+  <string name="flight_upgrade_body" formatted="false">باقی پرواز کے لیے ایک تبدیلی چنیں۔ چنتے وقت دنیا رکی ہے۔ ہر قسم ایک بار منتخب ہو سکتی ہے۔</string>
+  <string name="flight_upgrade_choose" formatted="false">چنیں اور جاری رکھیں</string>
+  <string name="capacitor_body" formatted="false">ایمپلی فائر: پلس رداس 180 سے 250۔ بدلے میں خودکار توانائی 30% آہستہ بھرتی ہے۔ اشیا اور بچاؤ کی توانائی وہی رہتی ہے۔</string>
+  <string name="daredevil_body" formatted="false">دلیر: قریبی بچاؤ کے دوگنے پوائنٹ۔ بدلے میں زیادہ سے زیادہ زرہ −1؛ موجودہ زرہ نئی حد تک کم ہوتی ہے۔</string>
+  <string name="focus_body" formatted="false">توجہ: کومبو کا وقت 5 سے 8 سیکنڈ۔ بدلے میں نئی سستی کی اشیا 20% کم وقت رہتی ہیں۔</string>
+  <string name="flight_upgrade_help" formatted="false">45، 90 اور 135 سیکنڈ پر صرف اس پرواز کا اپ گریڈ چنیں، ہر قسم ایک بار۔ پھر 3 سیکنڈ الٹی گنتی۔ ایمپلی فائر: بڑی پلس، آہستہ بھرائی۔ دلیر: دوگنے پوائنٹ، کم زرہ۔ توجہ: لمبا کومبو، مختصر سستی۔</string>
+  <string name="guide_pickup" formatted="false">مرحلہ 2 / 4 · اثر اور توانائی کے لیے شے کی طرف کھینچیں۔</string>
+  <string name="guide_pulse" formatted="false">مرحلہ 3 / 4 · پوری توانائی پر پلس سے راستہ بنائیں۔</string>
+  <string name="guide_near" formatted="false">مرحلہ 4 / 4 · جہاز کو چھوئے بغیر شہاب کو قریب سے گزرنے دیں اور کومبو لیں۔</string>
+  <string name="guide_skip" formatted="false">سمجھ گیا · رہنمائی چھپائیں</string>
+  <string name="next_flight" formatted="false">اگلی پرواز کا ہدف</string>
+  <string name="tip_energy" formatted="false">اختتام پر پلس تیار تھی۔ اگلی بار گھِرنے سے پہلے استعمال کریں۔</string>
+  <string name="tip_survive" formatted="false">100 بونس پوائنٹ کے لیے 30 سیکنڈ بچیں۔ خالی جگہ تلاش کریں اور فاصلہ رکھیں۔</string>
+  <string name="tip_near" formatted="false">150 بونس پوائنٹ کے لیے 5 قریبی بچاؤ کریں۔ نکلنے کا راستہ ہو تب خطرہ لیں۔</string>
+  <string name="tip_combo" formatted="false">×3 بونس کے لیے کومبو وقت میں 6 قریبی بچاؤ جوڑیں۔</string>
+  <string name="goal_ready" formatted="false">اگلا اپ گریڈ خرید سکتے ہیں۔ ہینگر جائیں۔</string>
+  <string name="goal_remaining">اگلے سب سے سستے اپ گریڈ کے لیے مزید %1$d کریڈٹ چاہیے۔</string>
+  <string name="all_upgraded" formatted="false">جہاز مکمل اپ گریڈ ہے! نئی حکمت عملی آزمائیں اور ریکارڈ توڑیں۔</string>
+  <string name="guide_replay" formatted="false">مرحلہ وار رہنمائی کے ساتھ کھیلیں</string>
+  <string name="language" formatted="false">زبان</string>
+  <string name="language_system" formatted="false">آلے کی زبان استعمال کریں</string>
+  <string name="language_hint" formatted="false">اسکرین کی زبان چنیں۔ خود محفوظ ہوگی؛ کھیل کی پیش رفت برقرار رہے گی۔</string>
+  <string name="capacitor_name" formatted="false">ایمپلی فائر</string>
+  <string name="daredevil_name" formatted="false">دلیر</string>
+  <string name="focus_name" formatted="false">توجہ</string>
+</resources>

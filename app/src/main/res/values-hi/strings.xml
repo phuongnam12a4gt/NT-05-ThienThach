@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">मीटियोर डैश</string>
+  <string name="title" formatted="false">उल्काओं से\nबचें</string>
+  <string name="survival_mode" formatted="false">अंतहीन जीवन रक्षा</string>
+  <string name="ship_name" formatted="false">खोजी यान / NOVA–01</string>
+  <string name="ship_ready" formatted="false">उड़ान के लिए तैयार</string>
+  <string name="best" formatted="false">सर्वश्रेष्ठ</string>
+  <string name="wallet" formatted="false">क्रेडिट</string>
+  <string name="play" formatted="false">उड़ान शुरू करें</string>
+  <string name="upgrades" formatted="false">यान अपग्रेड</string>
+  <string name="settings" formatted="false">सेटिंग</string>
+  <string name="help" formatted="false">कैसे खेलें</string>
+  <string name="offline" formatted="false">ऑफ़लाइन खेलें · बचने के लिए खींचें</string>
+  <string name="back" formatted="false">वापस</string>
+  <string name="home" formatted="false">होम</string>
+  <string name="play_again" formatted="false">फिर खेलें</string>
+  <string name="continue_play" formatted="false">जारी रखें</string>
+  <string name="loading" formatted="false">प्रगति लोड हो रही है…</string>
+  <string name="loading_hint" formatted="false">यान और उड़ान लॉग तैयार हो रहे हैं।</string>
+  <string name="error_title" formatted="false">डेटा पढ़ या सहेज नहीं सके</string>
+  <string name="error_body" formatted="false">खाली स्टोरेज जाँचकर फिर कोशिश करें। नए संस्करण के डेटा के लिए ऐप अपडेट चाहिए। क्रेडिट और अपग्रेड सहेजने के बाद लागू होते हैं।</string>
+  <string name="retry" formatted="false">फिर कोशिश करें</string>
+  <string name="close" formatted="false">बंद करें</string>
+  <string name="recovered_title" formatted="false">प्रगति रीसेट हुई</string>
+  <string name="recovered_body" formatted="false">खराब प्रगति फ़ाइल वापस नहीं मिल सकी। नया उड़ान लॉग बनाया गया।</string>
+  <string name="understood" formatted="false">समझ गया</string>
+  <string name="pause" formatted="false">रोकें</string>
+  <string name="paused_title" formatted="false">सितारों के बीच\nथोड़ा आराम</string>
+  <string name="paused_body" formatted="false">उड़ान रुकी है। साँस लें, फिर आगे बढ़ें।</string>
+  <string name="score" formatted="false">अंक</string>
+  <string name="armor" formatted="false">कवच</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ ढाल %1$d से</string>
+  <string name="slow_timer">◷ धीमापन %1$d से</string>
+  <string name="tutorial_title" formatted="false">उल्काओं से बचने के लिए बगल में खींचें</string>
+  <string name="tutorial_body" formatted="false">चरण 1 / 4 · शुरू करने के लिए छुएँ और बगल में खींचें। यान खींचने के साथ चलता है।</string>
+  <string name="drag_hint" formatted="false">← चलाने के लिए खींचें →</string>
+  <string name="get_ready" formatted="false">उड़ान के लिए तैयार</string>
+  <string name="abandon_title" formatted="false">यह उड़ान छोड़ें?</string>
+  <string name="abandon_body" formatted="false">इस उड़ान का इनाम या रिकॉर्ड नहीं मिलेगा।</string>
+  <string name="keep_playing" formatted="false">खेलते रहें</string>
+  <string name="abandon" formatted="false">छोड़ें</string>
+  <string name="mission_end" formatted="false">उड़ान समाप्त</string>
+  <string name="result_title" formatted="false">अगली उड़ान में\nमिलते हैं।</string>
+  <string name="new_record" formatted="false">✦ नया रिकॉर्ड</string>
+  <string name="final_score" formatted="false">उड़ान के अंक</string>
+  <string name="survival" formatted="false">जीवित रहने का समय</string>
+  <string name="collected" formatted="false">इकट्ठे किए आइटम</string>
+  <string name="earned" formatted="false">मिले क्रेडिट</string>
+  <string name="reward_pending" formatted="false">इनाम सहेजे जा रहे हैं…</string>
+  <string name="reward_failed" formatted="false">इनाम नहीं सहेजे गए। फिर कोशिश करें।</string>
+  <string name="retry_save" formatted="false">फिर सहेजें</string>
+  <string name="result_hint" formatted="false">हर उड़ान आपको और आगे ले जाती है।</string>
+  <string name="hangar" formatted="false">हैंगर / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">और आगे जाने\nके लिए तैयार।</string>
+  <string name="upgrades_body" formatted="false">एक बार अपग्रेड करें। हर उड़ान में लाभ लें।</string>
+  <string name="armor_name" formatted="false">मज़बूत ढाँचा</string>
+  <string name="shield_name" formatted="false">ढाल जनरेटर</string>
+  <string name="slow_name" formatted="false">धीमा करने वाला क्षेत्र</string>
+  <string name="level">स्तर %1$d / %2$d</string>
+  <string name="armor_effect">अभी: अधिकतम कवच %1$d</string>
+  <string name="shield_effect">अभी: ढाल %1$d सेकंड</string>
+  <string name="slow_effect">अभी: धीमापन %1$s सेकंड</string>
+  <string name="armor_next" formatted="false">अगला: अधिकतम कवच +1</string>
+  <string name="shield_next" formatted="false">अगला: ढाल +1 सेकंड</string>
+  <string name="slow_next" formatted="false">अगला: धीमापन +0.5 सेकंड</string>
+  <string name="buy">अपग्रेड · %1$d क्रेडिट</string>
+  <string name="not_enough">%1$d क्रेडिट चाहिए</string>
+  <string name="max_level" formatted="false">अधिकतम स्तर</string>
+  <string name="saving" formatted="false">सहेजा जा रहा है…</string>
+  <string name="settings_eyebrow" formatted="false">कॉकपिट / विकल्प</string>
+  <string name="settings_title" formatted="false">अपने तरीके से\nखेलें।</string>
+  <string name="music" formatted="false">संगीत</string>
+  <string name="music_hint" formatted="false">उड़ान में अंतरिक्ष की धुनें</string>
+  <string name="sound" formatted="false">ध्वनि प्रभाव</string>
+  <string name="sound_hint" formatted="false">आइटम और टक्कर की आवाज़</string>
+  <string name="vibration" formatted="false">कंपन</string>
+  <string name="vibration_hint" formatted="false">यान या ढाल पर चोट लगने पर हल्का कंपन</string>
+  <string name="reduced_motion" formatted="false">गतिविधि कम करें</string>
+  <string name="reduced_motion_hint" formatted="false">तारों की गति रोकें और कण घटाएँ</string>
+  <string name="reset" formatted="false">प्रगति रीसेट करें</string>
+  <string name="reset_title" formatted="false">उड़ान लॉग मिटाएँ?</string>
+  <string name="reset_body" formatted="false">क्रेडिट, रिकॉर्ड, अपग्रेड और ट्यूटोरियल मिटेंगे। ध्वनि, गतिविधि और भाषा सेटिंग रहेंगी। इसे वापस नहीं कर सकते।</string>
+  <string name="cancel" formatted="false">रद्द करें</string>
+  <string name="privacy" formatted="false">डेटा इसी डिवाइस पर। खाता, विज्ञापन या इंटरनेट नहीं चाहिए।</string>
+  <string name="help_eyebrow" formatted="false">पायलट अकादमी</string>
+  <string name="help_title" formatted="false">बस एक\nउँगली।</string>
+  <string name="help_controls" formatted="false">01 / नियंत्रण</string>
+  <string name="help_controls_body" formatted="false">खेल क्षेत्र में बगल में खींचें। यान खींची दूरी के साथ चलता है, छूने की जगह पर नहीं कूदता। गिरती उल्काओं से बचें; गति केवल आड़ी है।</string>
+  <string name="help_survive" formatted="false">02 / जीवन रक्षा</string>
+  <string name="help_survive_body" formatted="false">टक्कर से 1 कवच घटता है। शून्य पर उड़ान समाप्त। चोट के बाद यान चमकता है और 1.2 सेकंड सुरक्षित रहता है। हर 20 सेकंड कठिनाई बढ़ती है।</string>
+  <string name="help_items" formatted="false">03 / आपूर्ति</string>
+  <string name="help_shield" formatted="false">◇ ढाल: एक टक्कर रोकती है; 8 सेकंड रहती है।</string>
+  <string name="help_repair" formatted="false">+ मरम्मत: अधिकतम सीमा तक 1 कवच लौटाती है।</string>
+  <string name="help_slow" formatted="false">◷ धीमापन: उल्काएँ 5 सेकंड तक 60% गति से चलती हैं।</string>
+  <string name="help_rewards" formatted="false">04 / उड़ान के इनाम</string>
+  <string name="help_rewards_body" formatted="false">जीवित रहना: 10 अंक/सेकंड। आइटम: हर एक के 25 अंक। अंतिम हर 20 अंक पर अपग्रेड के लिए 1 क्रेडिट। उड़ान छोड़ने पर कुछ नहीं मिलता।</string>
+  <string name="help_accessibility" formatted="false">खेल के दौरान तुरंत देखना और खींचना ज़रूरी है।</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">संस्करण 1.3 / 20 भाषाएँ</string>
+  <string name="new_tagline" formatted="false">उल्काओं के पास से बचकर कॉम्बो बनाएँ। पल्स से निकलें और रिकॉर्ड तोड़ें।</string>
+  <string name="pulse_ready" formatted="false">पल्स</string>
+  <string name="pulse_charging">ऊर्जा %1$d/100</string>
+  <string name="pulse_hint" formatted="false">पूरी ऊर्जा पर आसपास की उल्काएँ हटाएँ</string>
+  <string name="combo_status">कॉम्बो %1$d · बोनस ×%2$d · %3$d से</string>
+  <string name="wave_warning">उल्का वर्षा · %1$d</string>
+  <string name="notice_near">बाल-बाल बचे! +%1$d</string>
+  <string name="notice_pickup">आपूर्ति! +%1$d</string>
+  <string name="notice_hit" formatted="false">चोट! −1 कवच</string>
+  <string name="notice_shield" formatted="false">ढाल ने चोट रोकी</string>
+  <string name="notice_pulse" formatted="false">ऊर्जा पल्स!</string>
+  <string name="notice_wave" formatted="false">चेतावनी वाली लेन देखें</string>
+  <string name="notice_mission">लक्ष्य पूरा! +%1$d</string>
+  <string name="mission_survive">जीवित रहें %1$d/30 से · +100 अंक</string>
+  <string name="mission_near">करीबी बचाव %1$d/5 · +150 अंक</string>
+  <string name="mission_items">आइटम %1$d/3 · +100 अंक</string>
+  <string name="mission_all" formatted="false">सभी 3/3 लक्ष्य पूरे</string>
+  <string name="stat_near" formatted="false">करीबी बचाव</string>
+  <string name="stat_combo" formatted="false">सर्वश्रेष्ठ कॉम्बो</string>
+  <string name="stat_pulse" formatted="false">इस्तेमाल किए पल्स</string>
+  <string name="stat_bonus" formatted="false">कौशल बोनस अंक</string>
+  <string name="stat_missions" formatted="false">पूरे किए लक्ष्य</string>
+  <string name="new_mechanics" formatted="false">05 / जोखिम और इनाम</string>
+  <string name="new_mechanics_body" formatted="false">उल्का को छुए बिना पास से निकलने पर अंक और ऊर्जा मिलती है। 5 सेकंड में जोड़ें। कॉम्बो 3 और 6 पर ×2 और ×3 मिलता है। कवच पर चोट या समय खत्म होने से कॉम्बो टूटता है। समय और आइटम के अंक गुणा नहीं होते।</string>
+  <string name="pulse_help" formatted="false">06 / ऊर्जा पल्स</string>
+  <string name="pulse_help_body" formatted="false">पूरी ऊर्जा पर 180 त्रिज्या की उल्काएँ हटती हैं और 0.6 सेकंड सुरक्षा मिलती है। शुरुआत पूरी ऊर्जा से; हर सेकंड 3, करीबी बचाव पर 12 और आइटम पर 20 भरती है। नष्ट उल्काओं पर बचाव अंक नहीं मिलते।</string>
+  <string name="wave_help" formatted="false">07 / चेतावनी</string>
+  <string name="wave_help_body" formatted="false">12वें सेकंड से हर 18 सेकंड वर्षा, 1.6 सेकंड पहले चेतावनी। नारंगी खतरा, सियान खाली रास्ता। पुरानी उल्काएँ उसमें रह सकती हैं। 20 सेकंड के बाद कुछ बगल में चलती हैं।</string>
+  <string name="mission_help" formatted="false">08 / उड़ान लक्ष्य</string>
+  <string name="mission_help_body" formatted="false">30 सेकंड जीवित: +100 अंक। 5 करीबी बचाव: +150। 3 आइटम: +100। हर लक्ष्य एक बार इनाम देता है, न दिखने पर भी। क्रेडिट में सभी बोनस शामिल हैं।</string>
+  <string name="challenge_title" formatted="false">लक्ष्य के साथ उड़ें</string>
+  <string name="challenge_body" formatted="false">30 सेकंड जीवित · 5 करीबी बचाव · 3 आइटम। सभी पूरे कर उड़ान में 350 बोनस अंक पाएँ।</string>
+  <string name="flight_upgrade_title" formatted="false">उड़ान में अपग्रेड</string>
+  <string name="flight_upgrade_body" formatted="false">बाकी उड़ान के लिए एक बदलाव चुनें। चुनते समय दुनिया रुकी है। हर प्रकार एक बार चुन सकते हैं।</string>
+  <string name="flight_upgrade_choose" formatted="false">चुनें और जारी रखें</string>
+  <string name="capacitor_body" formatted="false">एम्प्लीफायर: पल्स त्रिज्या 180 → 250। बदले में अपने आप ऊर्जा 30% धीमी भरती है। आइटम और बचाव की ऊर्जा वही रहती है।</string>
+  <string name="daredevil_body" formatted="false">साहसी: करीबी बचाव के दोगुने अंक। बदले में अधिकतम कवच −1; मौजूदा कवच नई सीमा तक घटता है।</string>
+  <string name="focus_body" formatted="false">एकाग्रता: कॉम्बो समय 5 → 8 सेकंड। बदले में नए धीमापन आइटम 20% कम समय चलते हैं।</string>
+  <string name="flight_upgrade_help" formatted="false">45, 90 और 135 सेकंड पर केवल इस उड़ान का अपग्रेड चुनें, हर प्रकार एक बार। फिर 3 सेकंड की उलटी गिनती। एम्प्लीफायर: बड़ी पल्स, धीमी भराई। साहसी: दोगुने अंक, कम कवच। एकाग्रता: लंबा कॉम्बो, छोटा धीमापन।</string>
+  <string name="guide_pickup" formatted="false">चरण 2 / 4 · प्रभाव और ऊर्जा के लिए आइटम की ओर खींचें।</string>
+  <string name="guide_pulse" formatted="false">चरण 3 / 4 · पूरी ऊर्जा पर पल्स से रास्ता बनाएँ।</string>
+  <string name="guide_near" formatted="false">चरण 4 / 4 · यान को छुए बिना उल्का को पास से जाने दें और कॉम्बो पाएँ।</string>
+  <string name="guide_skip" formatted="false">समझ गया · गाइड छिपाएँ</string>
+  <string name="next_flight" formatted="false">अगली उड़ान का लक्ष्य</string>
+  <string name="tip_energy" formatted="false">समाप्ति पर पल्स तैयार था। अगली बार घिरने से पहले इस्तेमाल करें।</string>
+  <string name="tip_survive" formatted="false">100 बोनस अंक के लिए 30 सेकंड जीवित रहें। खाली जगह खोजें और दूरी रखें।</string>
+  <string name="tip_near" formatted="false">150 बोनस अंक के लिए 5 करीबी बचाव करें। निकलने का रास्ता हो तभी जोखिम लें।</string>
+  <string name="tip_combo" formatted="false">×3 बोनस के लिए कॉम्बो समय में 6 करीबी बचाव जोड़ें।</string>
+  <string name="goal_ready" formatted="false">अगला अपग्रेड खरीद सकते हैं। हैंगर जाएँ।</string>
+  <string name="goal_remaining">सबसे सस्ते अगले अपग्रेड के लिए %1$d क्रेडिट और चाहिए।</string>
+  <string name="all_upgraded" formatted="false">यान पूरा अपग्रेड है! नई रणनीति आज़माएँ और रिकॉर्ड तोड़ें।</string>
+  <string name="guide_replay" formatted="false">चरणबद्ध गाइड के साथ खेलें</string>
+  <string name="language" formatted="false">भाषा</string>
+  <string name="language_system" formatted="false">डिवाइस की भाषा इस्तेमाल करें</string>
+  <string name="language_hint" formatted="false">स्क्रीन की भाषा चुनें। अपने आप सहेजी जाएगी; खेल की प्रगति सुरक्षित रहेगी।</string>
+  <string name="capacitor_name" formatted="false">एम्प्लीफायर</string>
+  <string name="daredevil_name" formatted="false">साहसी</string>
+  <string name="focus_name" formatted="false">एकाग्रता</string>
+</resources>

@@ -1,0 +1,148 @@
+{
+  "original_locale": "",
+  "restored": true,
+  "progress_unchanged": true,
+  "languages": [
+    {
+      "language": "vi",
+      "text_nodes": 24,
+      "heading_match": true,
+      "localized_text_matches": 13,
+      "ui_match": true
+    },
+    {
+      "language": "en",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 9,
+      "ui_match": true
+    },
+    {
+      "language": "zh",
+      "text_nodes": 15,
+      "heading_match": false,
+      "localized_text_matches": 12,
+      "ui_match": true
+    },
+    {
+      "language": "ja",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 9,
+      "ui_match": true
+    },
+    {
+      "language": "ko",
+      "text_nodes": 15,
+      "heading_match": false,
+      "localized_text_matches": 12,
+      "ui_match": true
+    },
+    {
+      "language": "pt",
+      "text_nodes": 10,
+      "heading_match": false,
+      "localized_text_matches": 3,
+      "ui_match": true
+    },
+    {
+      "language": "es",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "hi",
+      "text_nodes": 13,
+      "heading_match": true,
+      "localized_text_matches": 10,
+      "ui_match": true
+    },
+    {
+      "language": "id",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "th",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "ru",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "de",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "fr",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "tr",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "ar",
+      "text_nodes": 13,
+      "heading_match": true,
+      "localized_text_matches": 10,
+      "ui_match": true
+    },
+    {
+      "language": "it",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "pl",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "fil",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "ms",
+      "text_nodes": 14,
+      "heading_match": true,
+      "localized_text_matches": 11,
+      "ui_match": true
+    },
+    {
+      "language": "ur",
+      "text_nodes": 13,
+      "heading_match": true,
+      "localized_text_matches": 10,
+      "ui_match": true
+    }
+  ],
+  "method": "At least 3 visible exact localized string matches per language; headings may be off screen or covered by picker."
+}

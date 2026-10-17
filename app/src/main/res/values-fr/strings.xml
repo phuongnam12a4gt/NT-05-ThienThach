@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">ESQUIVE\nLES MÉTÉORES</string>
+  <string name="survival_mode" formatted="false">SURVIE INFINIE</string>
+  <string name="ship_name" formatted="false">VAISSEAU ÉCLAIREUR / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Prêt au décollage</string>
+  <string name="best" formatted="false">RECORD</string>
+  <string name="wallet" formatted="false">CRÉDITS</string>
+  <string name="play" formatted="false">DÉCOLLER</string>
+  <string name="upgrades" formatted="false">Améliorations</string>
+  <string name="settings" formatted="false">Paramètres</string>
+  <string name="help" formatted="false">Comment jouer</string>
+  <string name="offline" formatted="false">HORS LIGNE · GLISSEZ POUR ESQUIVER</string>
+  <string name="back" formatted="false">Retour</string>
+  <string name="home" formatted="false">Accueil</string>
+  <string name="play_again" formatted="false">Rejouer</string>
+  <string name="continue_play" formatted="false">Continuer</string>
+  <string name="loading" formatted="false">Chargement…</string>
+  <string name="loading_hint" formatted="false">Préparation du vaisseau et du journal de vol.</string>
+  <string name="error_title" formatted="false">Lecture ou sauvegarde impossible</string>
+  <string name="error_body" formatted="false">Vérifiez le stockage libre et réessayez. Des données plus récentes nécessitent une mise à jour. Crédits et améliorations sont appliqués après sauvegarde.</string>
+  <string name="retry" formatted="false">Réessayer</string>
+  <string name="close" formatted="false">Fermer</string>
+  <string name="recovered_title" formatted="false">Progression réinitialisée</string>
+  <string name="recovered_body" formatted="false">Le fichier était endommagé et irrécupérable. Un nouveau journal de vol a été créé.</string>
+  <string name="understood" formatted="false">Compris</string>
+  <string name="pause" formatted="false">Pause</string>
+  <string name="paused_title" formatted="false">REPOS PARMI\nLES ÉTOILES</string>
+  <string name="paused_body" formatted="false">Vol en pause. Soufflez un peu, puis continuez.</string>
+  <string name="score" formatted="false">SCORE</string>
+  <string name="armor" formatted="false">BLINDAGE</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Bouclier %1$d s</string>
+  <string name="slow_timer">◷ Ralenti %1$d s</string>
+  <string name="tutorial_title" formatted="false">Glissez sur les côtés pour éviter les météores</string>
+  <string name="tutorial_body" formatted="false">ÉTAPE 1 / 4 · Touchez et glissez sur les côtés pour commencer. Le vaisseau suit le glissement.</string>
+  <string name="drag_hint" formatted="false">← GLISSEZ POUR PILOTER →</string>
+  <string name="get_ready" formatted="false">PRÊT AU DÉCOLLAGE</string>
+  <string name="abandon_title" formatted="false">Abandonner ce vol ?</string>
+  <string name="abandon_body" formatted="false">Ce vol ne donnera ni récompense ni record.</string>
+  <string name="keep_playing" formatted="false">Poursuivre le jeu</string>
+  <string name="abandon" formatted="false">Abandonner</string>
+  <string name="mission_end" formatted="false">VOL TERMINÉ</string>
+  <string name="result_title" formatted="false">À BIENTÔT POUR\nLE PROCHAIN VOL.</string>
+  <string name="new_record" formatted="false">✦ NOUVEAU RECORD</string>
+  <string name="final_score" formatted="false">SCORE DU VOL</string>
+  <string name="survival" formatted="false">Durée de survie</string>
+  <string name="collected" formatted="false">Objets ramassés</string>
+  <string name="earned" formatted="false">Crédits gagnés</string>
+  <string name="reward_pending" formatted="false">Sauvegarde des récompenses…</string>
+  <string name="reward_failed" formatted="false">Récompenses non sauvegardées. Réessayez.</string>
+  <string name="retry_save" formatted="false">Réessayer la sauvegarde</string>
+  <string name="result_hint" formatted="false">Chaque vol vous emmène plus loin.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">PRÊT À ALLER\nPLUS LOIN.</string>
+  <string name="upgrades_body" formatted="false">Une amélioration, un bénéfice à chaque vol.</string>
+  <string name="armor_name" formatted="false">Coque renforcée</string>
+  <string name="shield_name" formatted="false">Générateur de bouclier</string>
+  <string name="slow_name" formatted="false">Champ de ralentissement</string>
+  <string name="level">Niveau %1$d / %2$d</string>
+  <string name="armor_effect">Actuel : %1$d de blindage maximal</string>
+  <string name="shield_effect">Actuel : %1$d secondes de bouclier</string>
+  <string name="slow_effect">Actuel : %1$s secondes de ralenti</string>
+  <string name="armor_next" formatted="false">Suivant : +1 de blindage maximal</string>
+  <string name="shield_next" formatted="false">Suivant : +1 seconde de bouclier</string>
+  <string name="slow_next" formatted="false">Suivant : +0,5 seconde de ralenti</string>
+  <string name="buy">Améliorer · %1$d crédits</string>
+  <string name="not_enough">Nécessite %1$d crédits</string>
+  <string name="max_level" formatted="false">Niveau maximal</string>
+  <string name="saving" formatted="false">Sauvegarde…</string>
+  <string name="settings_eyebrow" formatted="false">COCKPIT / OPTIONS</string>
+  <string name="settings_title" formatted="false">JOUEZ\nÀ VOTRE FAÇON.</string>
+  <string name="music" formatted="false">Musique</string>
+  <string name="music_hint" formatted="false">Mélodies spatiales pendant le vol</string>
+  <string name="sound" formatted="false">Effets sonores</string>
+  <string name="sound_hint" formatted="false">Sons des objets et des impacts</string>
+  <string name="vibration" formatted="false">Vibrations</string>
+  <string name="vibration_hint" formatted="false">Brève vibration lors des impacts</string>
+  <string name="reduced_motion" formatted="false">Réduire les animations</string>
+  <string name="reduced_motion_hint" formatted="false">Arrête les étoiles et réduit les particules</string>
+  <string name="reset" formatted="false">Réinitialiser</string>
+  <string name="reset_title" formatted="false">Effacer le journal de vol ?</string>
+  <string name="reset_body" formatted="false">Crédits, records, améliorations et tutoriel seront effacés. Les paramètres audio, animation et langue sont conservés. Action irréversible.</string>
+  <string name="cancel" formatted="false">Annuler</string>
+  <string name="privacy" formatted="false">Données sur cet appareil. Sans compte, publicité ni Internet.</string>
+  <string name="help_eyebrow" formatted="false">ACADÉMIE DES PILOTES</string>
+  <string name="help_title" formatted="false">UN SEUL\nDOIGT SUFFIT.</string>
+  <string name="help_controls" formatted="false">01 / COMMANDES</string>
+  <string name="help_controls_body" formatted="false">Glissez horizontalement dans la zone de jeu. Le vaisseau suit la distance glissée sans sauter au point touché. Évitez les météores ; déplacement horizontal uniquement.</string>
+  <string name="help_survive" formatted="false">02 / SURVIE</string>
+  <string name="help_survive_body" formatted="false">Chaque impact coûte 1 blindage. À zéro, le vol se termine. Après un impact, le vaisseau clignote et devient invulnérable 1,2 seconde. La difficulté monte toutes les 20 secondes.</string>
+  <string name="help_items" formatted="false">03 / RAVITAILLEMENT</string>
+  <string name="help_shield" formatted="false">◇ Bouclier : bloque un impact ; dure 8 secondes.</string>
+  <string name="help_repair" formatted="false">+ Réparation : restaure 1 blindage, sans dépasser le maximum.</string>
+  <string name="help_slow" formatted="false">◷ Ralenti : météores à 60% de vitesse pendant 5 secondes.</string>
+  <string name="help_rewards" formatted="false">04 / RÉCOMPENSES DE VOL</string>
+  <string name="help_rewards_body" formatted="false">Survie : 10 points/seconde. Objets : 25 points chacun. Chaque tranche de 20 points finaux donne 1 crédit pour les améliorations. Abandonner ne rapporte rien.</string>
+  <string name="help_accessibility" formatted="false">Nécessite observation et glissement en temps réel.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSION 1.3 / 20 LANGUES</string>
+  <string name="new_tagline" formatted="false">Frôlez les météores pour enchaîner les combos. Échappez-vous avec une impulsion et battez votre record.</string>
+  <string name="pulse_ready" formatted="false">IMPULSION</string>
+  <string name="pulse_charging">ÉNERGIE %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Éliminez les météores proches à pleine énergie</string>
+  <string name="combo_status">COMBO %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">PLUIE DE MÉTÉORES · %1$d</string>
+  <string name="notice_near">FRÔLEMENT ! +%1$d</string>
+  <string name="notice_pickup">RAVITAILLEMENT ! +%1$d</string>
+  <string name="notice_hit" formatted="false">IMPACT ! −1 BLINDAGE</string>
+  <string name="notice_shield" formatted="false">IMPACT BLOQUÉ PAR LE BOUCLIER</string>
+  <string name="notice_pulse" formatted="false">IMPULSION ÉNERGÉTIQUE !</string>
+  <string name="notice_wave" formatted="false">SURVEILLEZ LES VOIES SIGNALÉES</string>
+  <string name="notice_mission">OBJECTIF ATTEINT ! +%1$d</string>
+  <string name="mission_survive">Survie %1$d/30 s · +100 points</string>
+  <string name="mission_near">Frôlements %1$d/5 · +150 points</string>
+  <string name="mission_items">Objets %1$d/3 · +100 points</string>
+  <string name="mission_all" formatted="false">3/3 OBJECTIFS ATTEINTS</string>
+  <string name="stat_near" formatted="false">Frôlements</string>
+  <string name="stat_combo" formatted="false">Meilleur combo</string>
+  <string name="stat_pulse" formatted="false">Impulsions utilisées</string>
+  <string name="stat_bonus" formatted="false">Points de maîtrise</string>
+  <string name="stat_missions" formatted="false">Objectifs atteints</string>
+  <string name="new_mechanics" formatted="false">05 / RISQUE ET RÉCOMPENSE</string>
+  <string name="new_mechanics_body" formatted="false">Frôlez un météore sans le toucher pour gagner points et énergie. Enchaînez sous 5 secondes. Les combos 3 et 6 donnent ×2 et ×3. Un impact au blindage ou un délai dépassé casse le combo. Temps et objets ne sont pas multipliés.</string>
+  <string name="pulse_help" formatted="false">06 / IMPULSION ÉNERGÉTIQUE</string>
+  <string name="pulse_help_body" formatted="false">À pleine énergie, élimine les météores dans un rayon de 180 et protège 0,6 seconde. Départ à pleine énergie ; recharge de 3/seconde, 12 par frôlement et 20 par objet. Détruire ne donne pas de points de frôlement.</string>
+  <string name="wave_help" formatted="false">07 / ALERTES</string>
+  <string name="wave_help_body" formatted="false">Dès la 12e seconde, pluie toutes les 18 secondes avec préavis de 1,6 seconde. Orange : danger ; cyan : passage. Des météores précédents peuvent y rester. Après 20 secondes, certains dérivent latéralement.</string>
+  <string name="mission_help" formatted="false">08 / OBJECTIFS DE VOL</string>
+  <string name="mission_help_body" formatted="false">Survivre 30 secondes : +100 points. Frôler 5 fois : +150. Ramasser 3 objets : +100. Chaque objectif paie une fois, même hors affichage. Les crédits incluent tous les bonus.</string>
+  <string name="challenge_title" formatted="false">VOLEZ AVEC UN OBJECTIF</string>
+  <string name="challenge_body" formatted="false">Survie 30 secondes · 5 frôlements · 3 objets. Tout accomplir donne 350 points supplémentaires par vol.</string>
+  <string name="flight_upgrade_title" formatted="false">AMÉLIORATIONS EN VOL</string>
+  <string name="flight_upgrade_body" formatted="false">Choisissez un changement pour le reste du vol. Le temps est figé pendant le choix. Chaque type se choisit une fois.</string>
+  <string name="flight_upgrade_choose" formatted="false">Choisir et continuer</string>
+  <string name="capacitor_body" formatted="false">Amplificateur : rayon 180 → 250. Contrepartie : recharge passive ralentie de 30%. Énergie des objets et frôlements inchangée.</string>
+  <string name="daredevil_body" formatted="false">Téméraire : points de frôlement doublés. Contrepartie : blindage maximal −1 ; le blindage actuel est limité au nouveau maximum.</string>
+  <string name="focus_body" formatted="false">Concentration : délai de combo 5 → 8 secondes. Contrepartie : les prochains ralentis durent 20% moins longtemps.</string>
+  <string name="flight_upgrade_help" formatted="false">À 45, 90 et 135 secondes, choisissez une amélioration pour ce vol, chaque type une fois. Reprise après décompte de 3 secondes. Amplificateur : plus large, recharge lente. Téméraire : points doublés, moins de blindage. Concentration : combo prolongé, ralenti raccourci.</string>
+  <string name="guide_pickup" formatted="false">ÉTAPE 2 / 4 · Glissez vers un objet pour obtenir effets et énergie.</string>
+  <string name="guide_pulse" formatted="false">ÉTAPE 3 / 4 · Utilisez IMPULSION à pleine énergie pour ouvrir un passage.</string>
+  <string name="guide_near" formatted="false">ÉTAPE 4 / 4 · Laissez passer un météore près du vaisseau sans le toucher pour un combo.</string>
+  <string name="guide_skip" formatted="false">Compris · Masquer le guide</string>
+  <string name="next_flight" formatted="false">OBJECTIF DU PROCHAIN VOL</string>
+  <string name="tip_energy" formatted="false">Votre impulsion était prête à la fin. Utilisez-la avant de vous faire coincer.</string>
+  <string name="tip_survive" formatted="false">Survivez 30 secondes pour 100 points bonus. Cherchez des espaces libres et gardez vos distances.</string>
+  <string name="tip_near" formatted="false">Visez 5 frôlements pour 150 points bonus. Prenez des risques avec une issue disponible.</string>
+  <string name="tip_combo" formatted="false">Enchaînez 6 frôlements dans le délai pour un bonus ×3.</string>
+  <string name="goal_ready" formatted="false">Vous pouvez acheter la prochaine amélioration. Visitez le hangar.</string>
+  <string name="goal_remaining">Encore %1$d crédits pour la prochaine amélioration la moins chère.</string>
+  <string name="all_upgraded" formatted="false">Vaisseau au maximum ! Essayez une autre stratégie et battez votre record.</string>
+  <string name="guide_replay" formatted="false">Jouer avec le guide pas à pas</string>
+  <string name="language" formatted="false">Langue</string>
+  <string name="language_system" formatted="false">Utiliser la langue de l’appareil</string>
+  <string name="language_hint" formatted="false">Choisissez la langue affichée. Sauvegarde automatique, progression conservée.</string>
+  <string name="capacitor_name" formatted="false">Amplificateur</string>
+  <string name="daredevil_name" formatted="false">Téméraire</string>
+  <string name="focus_name" formatted="false">Concentration</string>
+</resources>

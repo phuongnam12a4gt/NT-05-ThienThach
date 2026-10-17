@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Метеор Дэш</string>
+  <string name="title" formatted="false">МЕТЕОР\nДЭШ</string>
+  <string name="survival_mode" formatted="false">БЕСКОНЕЧНОЕ ВЫЖИВАНИЕ</string>
+  <string name="ship_name" formatted="false">РАЗВЕДЧИК / NOVA–01</string>
+  <string name="ship_ready" formatted="false">К взлёту готов</string>
+  <string name="best" formatted="false">РЕКОРД</string>
+  <string name="wallet" formatted="false">КРЕДИТЫ</string>
+  <string name="play" formatted="false">НАЧАТЬ ПОЛЁТ</string>
+  <string name="upgrades" formatted="false">Улучшения корабля</string>
+  <string name="settings" formatted="false">Настройки</string>
+  <string name="help" formatted="false">Как играть</string>
+  <string name="offline" formatted="false">БЕЗ СЕТИ · ВЕДИТЕ ПАЛЬЦЕМ</string>
+  <string name="back" formatted="false">Назад</string>
+  <string name="home" formatted="false">Главная</string>
+  <string name="play_again" formatted="false">Играть снова</string>
+  <string name="continue_play" formatted="false">Продолжить</string>
+  <string name="loading" formatted="false">Загрузка прогресса…</string>
+  <string name="loading_hint" formatted="false">Подготовка корабля и бортового журнала.</string>
+  <string name="error_title" formatted="false">Не удалось прочитать или сохранить данные</string>
+  <string name="error_body" formatted="false">Проверьте свободное место и повторите. Для более новых данных обновите игру. Кредиты и улучшения действуют после сохранения.</string>
+  <string name="retry" formatted="false">Повторить</string>
+  <string name="close" formatted="false">Закрыть</string>
+  <string name="recovered_title" formatted="false">Прогресс сброшен</string>
+  <string name="recovered_body" formatted="false">Повреждённый файл не удалось восстановить. Создан новый бортовой журнал.</string>
+  <string name="understood" formatted="false">Понятно</string>
+  <string name="pause" formatted="false">Пауза</string>
+  <string name="paused_title" formatted="false">ОТДЫХ СРЕДИ\nЗВЁЗД</string>
+  <string name="paused_body" formatted="false">Полёт приостановлен. Передохните и продолжайте.</string>
+  <string name="score" formatted="false">ОЧКИ</string>
+  <string name="armor" formatted="false">БРОНЯ</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Щит %1$d с</string>
+  <string name="slow_timer">◷ Замедление %1$d с</string>
+  <string name="tutorial_title" formatted="false">Ведите пальцем в стороны, обходя метеоры</string>
+  <string name="tutorial_body" formatted="false">ШАГ 1 / 4 · Коснитесь и ведите в сторону, чтобы начать. Корабль следует за движением.</string>
+  <string name="drag_hint" formatted="false">← ВЕДИТЕ ПАЛЬЦЕМ ДЛЯ УПРАВЛЕНИЯ →</string>
+  <string name="get_ready" formatted="false">ГОТОВНОСТЬ К ВЗЛЁТУ</string>
+  <string name="abandon_title" formatted="false">Прервать этот полёт?</string>
+  <string name="abandon_body" formatted="false">За этот полёт не будет наград и рекордов.</string>
+  <string name="keep_playing" formatted="false">Продолжить игру</string>
+  <string name="abandon" formatted="false">Прервать</string>
+  <string name="mission_end" formatted="false">ПОЛЁТ ЗАВЕРШЁН</string>
+  <string name="result_title" formatted="false">ДО ВСТРЕЧИ\nВ СЛЕДУЮЩЕМ ПОЛЁТЕ.</string>
+  <string name="new_record" formatted="false">✦ НОВЫЙ РЕКОРД</string>
+  <string name="final_score" formatted="false">ОЧКИ ЗА ПОЛЁТ</string>
+  <string name="survival" formatted="false">Время выживания</string>
+  <string name="collected" formatted="false">Собрано предметов</string>
+  <string name="earned" formatted="false">Получено кредитов</string>
+  <string name="reward_pending" formatted="false">Сохранение наград…</string>
+  <string name="reward_failed" formatted="false">Награды не сохранены. Повторите попытку.</string>
+  <string name="retry_save" formatted="false">Повторить сохранение</string>
+  <string name="result_hint" formatted="false">Каждый полёт ведёт дальше.</string>
+  <string name="hangar" formatted="false">АНГАР / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">ГОТОВНОСТЬ\nЛЕТЕТЬ ДАЛЬШЕ.</string>
+  <string name="upgrades_body" formatted="false">Одно улучшение работает в каждом полёте.</string>
+  <string name="armor_name" formatted="false">Усиленный корпус</string>
+  <string name="shield_name" formatted="false">Генератор щита</string>
+  <string name="slow_name" formatted="false">Поле замедления</string>
+  <string name="level">Уровень %1$d / %2$d</string>
+  <string name="armor_effect">Сейчас: максимум брони %1$d</string>
+  <string name="shield_effect">Сейчас: щит на %1$d с</string>
+  <string name="slow_effect">Сейчас: замедление на %1$s с</string>
+  <string name="armor_next" formatted="false">Далее: +1 к максимуму брони</string>
+  <string name="shield_next" formatted="false">Далее: +1 с щита</string>
+  <string name="slow_next" formatted="false">Далее: +0,5 с замедления</string>
+  <string name="buy">Улучшить · %1$d кредитов</string>
+  <string name="not_enough">Нужно кредитов: %1$d</string>
+  <string name="max_level" formatted="false">Максимальный уровень</string>
+  <string name="saving" formatted="false">Сохранение…</string>
+  <string name="settings_eyebrow" formatted="false">КАБИНА / ПАРАМЕТРЫ</string>
+  <string name="settings_title" formatted="false">ИГРАЙТЕ\nПО-СВОЕМУ.</string>
+  <string name="music" formatted="false">Музыка</string>
+  <string name="music_hint" formatted="false">Космические мелодии в полёте</string>
+  <string name="sound" formatted="false">Звуковые эффекты</string>
+  <string name="sound_hint" formatted="false">Звуки сбора и попаданий</string>
+  <string name="vibration" formatted="false">Вибрация</string>
+  <string name="vibration_hint" formatted="false">Короткая вибрация при попадании в корабль или щит</string>
+  <string name="reduced_motion" formatted="false">Меньше движения</string>
+  <string name="reduced_motion_hint" formatted="false">Остановить звёзды и уменьшить число частиц</string>
+  <string name="reset" formatted="false">Сбросить прогресс</string>
+  <string name="reset_title" formatted="false">Удалить бортовой журнал?</string>
+  <string name="reset_body" formatted="false">Кредиты, рекорды, улучшения и обучение будут удалены. Настройки звука, движения и языка сохранятся. Отменить нельзя.</string>
+  <string name="cancel" formatted="false">Отмена</string>
+  <string name="privacy" formatted="false">Данные на этом устройстве. Без аккаунта, рекламы и Интернета.</string>
+  <string name="help_eyebrow" formatted="false">АКАДЕМИЯ ПИЛОТОВ</string>
+  <string name="help_title" formatted="false">ВСЕГО\nОДИН ПАЛЕЦ.</string>
+  <string name="help_controls" formatted="false">01 / УПРАВЛЕНИЕ</string>
+  <string name="help_controls_body" formatted="false">Ведите в стороны в игровой области. Корабль повторяет расстояние движения, не прыгая к касанию. Обходите падающие метеоры. Движение только по горизонтали.</string>
+  <string name="help_survive" formatted="false">02 / ВЫЖИВАНИЕ</string>
+  <string name="help_survive_body" formatted="false">Попадание отнимает 1 броню. При нуле полёт заканчивается. После удара корабль мигает и неуязвим 1,2 с. Сложность растёт каждые 20 с.</string>
+  <string name="help_items" formatted="false">03 / ПРИПАСЫ</string>
+  <string name="help_shield" formatted="false">◇ Щит: блокирует одно попадание; длится 8 с.</string>
+  <string name="help_repair" formatted="false">+ Ремонт: восстанавливает 1 броню до максимума.</string>
+  <string name="help_slow" formatted="false">◷ Замедление: метеоры летят на 60% скорости в течение 5 с.</string>
+  <string name="help_rewards" formatted="false">04 / НАГРАДЫ ЗА ПОЛЁТ</string>
+  <string name="help_rewards_body" formatted="false">Выживание: 10 очков/с. Предметы: по 25 очков. Каждые 20 итоговых очков дают 1 кредит на улучшения. Прерванный полёт ничего не даёт.</string>
+  <string name="help_accessibility" formatted="false">Нужны наблюдение и управление пальцем в реальном времени.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">ВЕРСИЯ 1.3 / 20 ЯЗЫКОВ</string>
+  <string name="new_tagline" formatted="false">Проходите вплотную к метеорам для комбо. Спасайтесь импульсом и побейте рекорд.</string>
+  <string name="pulse_ready" formatted="false">ИМПУЛЬС</string>
+  <string name="pulse_charging">ЭНЕРГИЯ %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Убирает близкие метеоры при полной энергии</string>
+  <string name="combo_status">КОМБО %1$d · БОНУС ×%2$d · %3$d с</string>
+  <string name="wave_warning">МЕТЕОРНЫЙ ДОЖДЬ · %1$d</string>
+  <string name="notice_near">ВПЛОТНУЮ! +%1$d</string>
+  <string name="notice_pickup">ПРИПАСЫ! +%1$d</string>
+  <string name="notice_hit" formatted="false">ПОПАДАНИЕ! −1 БРОНЯ</string>
+  <string name="notice_shield" formatted="false">ЩИТ ОТРАЗИЛ ПОПАДАНИЕ</string>
+  <string name="notice_pulse" formatted="false">ЭНЕРГОИМПУЛЬС!</string>
+  <string name="notice_wave" formatted="false">СЛЕДИТЕ ЗА ПРЕДУПРЕЖДЕНИЯМИ</string>
+  <string name="notice_mission">ЦЕЛЬ ДОСТИГНУТА! +%1$d</string>
+  <string name="mission_survive">Выжить %1$d/30 с · +100 очков</string>
+  <string name="mission_near">Близкие проходы %1$d/5 · +150 очков</string>
+  <string name="mission_items">Предметы %1$d/3 · +100 очков</string>
+  <string name="mission_all" formatted="false">ВСЕ 3/3 ЦЕЛИ ДОСТИГНУТЫ</string>
+  <string name="stat_near" formatted="false">Близкие проходы</string>
+  <string name="stat_combo" formatted="false">Лучшее комбо</string>
+  <string name="stat_pulse" formatted="false">Использовано импульсов</string>
+  <string name="stat_bonus" formatted="false">Очки за мастерство</string>
+  <string name="stat_missions" formatted="false">Выполнено целей</string>
+  <string name="new_mechanics" formatted="false">05 / РИСК И НАГРАДА</string>
+  <string name="new_mechanics_body" formatted="false">Пролетайте рядом с метеором без касания ради очков и энергии. Соединяйте проходы в течение 5 с. Комбо 3 и 6 дают ×2 и ×3. Удар по броне или истечение времени сбрасывают комбо. Очки времени и предметов не умножаются.</string>
+  <string name="pulse_help" formatted="false">06 / ЭНЕРГОИМПУЛЬС</string>
+  <string name="pulse_help_body" formatted="false">При полной энергии очищает радиус 180 и защищает 0,6 с. В начале энергия полная; заряд 3/с, 12 за близкий проход и 20 за предмет. Уничтожение не даёт очков прохода.</string>
+  <string name="wave_help" formatted="false">07 / ПРЕДУПРЕЖДЕНИЯ</string>
+  <string name="wave_help_body" formatted="false">С 12-й секунды дождь каждые 18 с, предупреждение за 1,6 с. Оранжевый — опасность, голубой — проход. Старые метеоры могут оставаться в нём. После 20 с часть метеоров движется в стороны.</string>
+  <string name="mission_help" formatted="false">08 / ЦЕЛИ ПОЛЁТА</string>
+  <string name="mission_help_body" formatted="false">Выжить 30 с: +100 очков. 5 близких проходов: +150. Собрать 3 предмета: +100. Каждая цель награждает один раз, даже вне экрана. Кредиты включают все бонусы.</string>
+  <string name="challenge_title" formatted="false">ЛЕТИТЕ К ЦЕЛИ</string>
+  <string name="challenge_body" formatted="false">Выжить 30 с · 5 близких проходов · 3 предмета. Выполните всё ради 350 бонусных очков.</string>
+  <string name="flight_upgrade_title" formatted="false">УЛУЧШЕНИЯ В ПОЛЁТЕ</string>
+  <string name="flight_upgrade_body" formatted="false">Выберите изменение до конца полёта. На время выбора мир заморожен. Каждый тип доступен один раз.</string>
+  <string name="flight_upgrade_choose" formatted="false">Выбрать и продолжить</string>
+  <string name="capacitor_body" formatted="false">Усилитель: радиус импульса 180 → 250. Цена: пассивный заряд на 30% медленнее. Энергия предметов и проходов не меняется.</string>
+  <string name="daredevil_body" formatted="false">Сорвиголова: двойные очки за близкие проходы. Цена: максимум брони −1; текущая броня ограничивается новым максимумом.</string>
+  <string name="focus_body" formatted="false">Фокус: окно комбо 5 → 8 с. Цена: новые предметы замедления действуют на 20% меньше.</string>
+  <string name="flight_upgrade_help" formatted="false">На 45, 90 и 135 с выберите улучшение только для этого полёта, каждый тип один раз. Затем отсчёт 3 с. Усилитель: больше радиус, медленнее заряд. Сорвиголова: двойные очки, меньше брони. Фокус: дольше комбо, короче замедление.</string>
+  <string name="guide_pickup" formatted="false">ШАГ 2 / 4 · Соберите предмет для эффекта и энергии.</string>
+  <string name="guide_pulse" formatted="false">ШАГ 3 / 4 · При полной энергии нажмите ИМПУЛЬС, чтобы расчистить путь.</string>
+  <string name="guide_near" formatted="false">ШАГ 4 / 4 · Пропустите метеор рядом без касания, чтобы получить комбо.</string>
+  <string name="guide_skip" formatted="false">Понятно · Скрыть подсказки</string>
+  <string name="next_flight" formatted="false">ЦЕЛЬ СЛЕДУЮЩЕГО ПОЛЁТА</string>
+  <string name="tip_energy" formatted="false">В конце импульс был готов. В следующий раз используйте его до попадания в ловушку.</string>
+  <string name="tip_survive" formatted="false">Выживайте 30 с ради 100 бонусных очков. Ищите свободные места и держите дистанцию.</string>
+  <string name="tip_near" formatted="false">Попробуйте 5 близких проходов ради 150 очков. Рискуйте только с путём отхода.</string>
+  <string name="tip_combo" formatted="false">Соедините 6 проходов в окне комбо ради бонуса ×3.</string>
+  <string name="goal_ready" formatted="false">Вы можете купить следующее улучшение. Посетите ангар.</string>
+  <string name="goal_remaining">До самого дешёвого следующего улучшения ещё %1$d кредитов.</string>
+  <string name="all_upgraded" formatted="false">Корабль полностью улучшен! Попробуйте другую стратегию и побейте рекорд.</string>
+  <string name="guide_replay" formatted="false">Играть с пошаговыми подсказками</string>
+  <string name="language" formatted="false">Язык</string>
+  <string name="language_system" formatted="false">Язык устройства</string>
+  <string name="language_hint" formatted="false">Выберите язык интерфейса. Сохраняется автоматически; прогресс остаётся.</string>
+  <string name="capacitor_name" formatted="false">Усилитель</string>
+  <string name="daredevil_name" formatted="false">Сорвиголова</string>
+  <string name="focus_name" formatted="false">Фокус</string>
+</resources>

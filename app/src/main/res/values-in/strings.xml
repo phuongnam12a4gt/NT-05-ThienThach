@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">HINDARI\nMETEOR</string>
+  <string name="survival_mode" formatted="false">BERTAHAN TANPA AKHIR</string>
+  <string name="ship_name" formatted="false">KAPAL PENGINTAI / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Siap lepas landas</string>
+  <string name="best" formatted="false">REKOR</string>
+  <string name="wallet" formatted="false">KREDIT</string>
+  <string name="play" formatted="false">MULAI TERBANG</string>
+  <string name="upgrades" formatted="false">Peningkatan kapal</string>
+  <string name="settings" formatted="false">Pengaturan</string>
+  <string name="help" formatted="false">Cara bermain</string>
+  <string name="offline" formatted="false">OFFLINE · GESER UNTUK MENGHINDAR</string>
+  <string name="back" formatted="false">Kembali</string>
+  <string name="home" formatted="false">Beranda</string>
+  <string name="play_again" formatted="false">Main lagi</string>
+  <string name="continue_play" formatted="false">Lanjutkan</string>
+  <string name="loading" formatted="false">Memuat progres…</string>
+  <string name="loading_hint" formatted="false">Menyiapkan kapal dan catatan penerbangan.</string>
+  <string name="error_title" formatted="false">Tidak dapat membaca atau menyimpan data</string>
+  <string name="error_body" formatted="false">Periksa ruang penyimpanan dan coba lagi. Data versi lebih baru perlu pembaruan aplikasi. Kredit dan peningkatan berlaku setelah tersimpan.</string>
+  <string name="retry" formatted="false">Coba lagi</string>
+  <string name="close" formatted="false">Tutup</string>
+  <string name="recovered_title" formatted="false">Progres direset</string>
+  <string name="recovered_body" formatted="false">File progres rusak dan tidak dapat dipulihkan. Catatan penerbangan baru dibuat.</string>
+  <string name="understood" formatted="false">Mengerti</string>
+  <string name="pause" formatted="false">Jeda</string>
+  <string name="paused_title" formatted="false">ISTIRAHAT DI\nANTARA BINTANG</string>
+  <string name="paused_body" formatted="false">Penerbangan dijeda. Tarik napas lalu lanjutkan.</string>
+  <string name="score" formatted="false">SKOR</string>
+  <string name="armor" formatted="false">PELINDUNG</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Perisai %1$d dtk</string>
+  <string name="slow_timer">◷ Lambat %1$d dtk</string>
+  <string name="tutorial_title" formatted="false">Geser ke samping untuk menghindari meteor</string>
+  <string name="tutorial_body" formatted="false">LANGKAH 1 / 4 · Sentuh dan geser ke samping untuk mulai. Kapal mengikuti jarak geseran.</string>
+  <string name="drag_hint" formatted="false">← GESER UNTUK MENGEMUDI →</string>
+  <string name="get_ready" formatted="false">SIAP LEPAS LANDAS</string>
+  <string name="abandon_title" formatted="false">Tinggalkan penerbangan ini?</string>
+  <string name="abandon_body" formatted="false">Penerbangan ini tidak memberi hadiah atau rekor.</string>
+  <string name="keep_playing" formatted="false">Terus bermain</string>
+  <string name="abandon" formatted="false">Tinggalkan</string>
+  <string name="mission_end" formatted="false">PENERBANGAN SELESAI</string>
+  <string name="result_title" formatted="false">SAMPAI DI\nPENERBANGAN BERIKUTNYA.</string>
+  <string name="new_record" formatted="false">✦ REKOR BARU</string>
+  <string name="final_score" formatted="false">SKOR PENERBANGAN</string>
+  <string name="survival" formatted="false">Waktu bertahan</string>
+  <string name="collected" formatted="false">Item terkumpul</string>
+  <string name="earned" formatted="false">Kredit diperoleh</string>
+  <string name="reward_pending" formatted="false">Menyimpan hadiah…</string>
+  <string name="reward_failed" formatted="false">Hadiah belum tersimpan. Coba lagi.</string>
+  <string name="retry_save" formatted="false">Coba simpan lagi</string>
+  <string name="result_hint" formatted="false">Setiap penerbangan membawamu lebih jauh.</string>
+  <string name="hangar" formatted="false">HANGGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">SIAP TERBANG\nLEBIH JAUH.</string>
+  <string name="upgrades_body" formatted="false">Tingkatkan sekali. Nikmati di setiap penerbangan.</string>
+  <string name="armor_name" formatted="false">Lambung diperkuat</string>
+  <string name="shield_name" formatted="false">Generator perisai</string>
+  <string name="slow_name" formatted="false">Medan pelambat</string>
+  <string name="level">Level %1$d / %2$d</string>
+  <string name="armor_effect">Saat ini: %1$d pelindung maksimum</string>
+  <string name="shield_effect">Saat ini: %1$d detik perisai</string>
+  <string name="slow_effect">Saat ini: %1$s detik perlambatan</string>
+  <string name="armor_next" formatted="false">Berikutnya: +1 pelindung maksimum</string>
+  <string name="shield_next" formatted="false">Berikutnya: +1 detik perisai</string>
+  <string name="slow_next" formatted="false">Berikutnya: +0,5 detik perlambatan</string>
+  <string name="buy">Tingkatkan · %1$d kredit</string>
+  <string name="not_enough">Perlu %1$d kredit</string>
+  <string name="max_level" formatted="false">Level maksimum</string>
+  <string name="saving" formatted="false">Menyimpan…</string>
+  <string name="settings_eyebrow" formatted="false">KOKPIT / OPSI</string>
+  <string name="settings_title" formatted="false">MAIN DENGAN\nCARAMU.</string>
+  <string name="music" formatted="false">Musik</string>
+  <string name="music_hint" formatted="false">Melodi antariksa saat terbang</string>
+  <string name="sound" formatted="false">Efek suara</string>
+  <string name="sound_hint" formatted="false">Suara item dan benturan</string>
+  <string name="vibration" formatted="false">Getaran</string>
+  <string name="vibration_hint" formatted="false">Getaran singkat saat kapal atau perisai terkena</string>
+  <string name="reduced_motion" formatted="false">Kurangi gerakan</string>
+  <string name="reduced_motion_hint" formatted="false">Hentikan bintang bergerak dan kurangi partikel</string>
+  <string name="reset" formatted="false">Reset progres</string>
+  <string name="reset_title" formatted="false">Hapus catatan penerbangan?</string>
+  <string name="reset_body" formatted="false">Kredit, rekor, peningkatan dan tutorial akan dihapus. Pengaturan audio, gerakan dan bahasa tetap. Tidak bisa dibatalkan.</string>
+  <string name="cancel" formatted="false">Batal</string>
+  <string name="privacy" formatted="false">Data di perangkat ini. Tanpa akun, iklan atau internet.</string>
+  <string name="help_eyebrow" formatted="false">AKADEMI PILOT</string>
+  <string name="help_title" formatted="false">CUKUP\nSATU JARI.</string>
+  <string name="help_controls" formatted="false">01 / KONTROL</string>
+  <string name="help_controls_body" formatted="false">Geser ke samping di area bermain. Kapal mengikuti jarak geseran, tidak melompat ke titik sentuhan. Hindari meteor jatuh; gerakan hanya mendatar.</string>
+  <string name="help_survive" formatted="false">02 / BERTAHAN</string>
+  <string name="help_survive_body" formatted="false">Benturan mengurangi 1 pelindung. Saat nol, penerbangan berakhir. Setelah terkena, kapal berkedip dan kebal 1,2 detik. Kesulitan naik tiap 20 detik.</string>
+  <string name="help_items" formatted="false">03 / PERBEKALAN</string>
+  <string name="help_shield" formatted="false">◇ Perisai: menahan satu benturan; bertahan 8 detik.</string>
+  <string name="help_repair" formatted="false">+ Perbaikan: memulihkan 1 pelindung hingga maksimum.</string>
+  <string name="help_slow" formatted="false">◷ Lambat: meteor bergerak 60% kecepatan selama 5 detik.</string>
+  <string name="help_rewards" formatted="false">04 / HADIAH PENERBANGAN</string>
+  <string name="help_rewards_body" formatted="false">Bertahan: 10 poin/detik. Item: masing-masing 25 poin. Setiap 20 poin akhir memberi 1 kredit peningkatan. Meninggalkan penerbangan tidak mendapat hadiah.</string>
+  <string name="help_accessibility" formatted="false">Perlu pengamatan dan geseran waktu nyata.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSI 1.3 / 20 BAHASA</string>
+  <string name="new_tagline" formatted="false">Lewati dekat meteor untuk kombo. Lolos dengan pulsa dan pecahkan rekor.</string>
+  <string name="pulse_ready" formatted="false">PULSA</string>
+  <string name="pulse_charging">ENERGI %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Bersihkan meteor dekat saat energi penuh</string>
+  <string name="combo_status">KOMBO %1$d · BONUS ×%2$d · %3$d dtk</string>
+  <string name="wave_warning">HUJAN METEOR · %1$d</string>
+  <string name="notice_near">NYARIS! +%1$d</string>
+  <string name="notice_pickup">PERBEKALAN! +%1$d</string>
+  <string name="notice_hit" formatted="false">TERKENA! −1 PELINDUNG</string>
+  <string name="notice_shield" formatted="false">PERISAI MENAHAN BENTURAN</string>
+  <string name="notice_pulse" formatted="false">PULSA ENERGI!</string>
+  <string name="notice_wave" formatted="false">PERHATIKAN JALUR PERINGATAN</string>
+  <string name="notice_mission">TARGET SELESAI! +%1$d</string>
+  <string name="mission_survive">Bertahan %1$d/30 dtk · +100 poin</string>
+  <string name="mission_near">Hindaran dekat %1$d/5 · +150 poin</string>
+  <string name="mission_items">Item %1$d/3 · +100 poin</string>
+  <string name="mission_all" formatted="false">SEMUA 3/3 TARGET SELESAI</string>
+  <string name="stat_near" formatted="false">Hindaran dekat</string>
+  <string name="stat_combo" formatted="false">Kombo terbaik</string>
+  <string name="stat_pulse" formatted="false">Pulsa digunakan</string>
+  <string name="stat_bonus" formatted="false">Poin bonus keahlian</string>
+  <string name="stat_missions" formatted="false">Target selesai</string>
+  <string name="new_mechanics" formatted="false">05 / RISIKO DAN HADIAH</string>
+  <string name="new_mechanics_body" formatted="false">Lewati meteor dari dekat tanpa menyentuh untuk poin dan energi. Rangkai dalam 5 detik. Kombo 3 dan 6 memberi ×2 dan ×3. Benturan pelindung atau habis waktu memutus kombo. Poin waktu dan item tidak dikalikan.</string>
+  <string name="pulse_help" formatted="false">06 / PULSA ENERGI</string>
+  <string name="pulse_help_body" formatted="false">Saat penuh, bersihkan meteor dalam radius 180 dan terlindung 0,6 detik. Mulai dengan energi penuh; isi 3/detik, 12 per hindaran dekat dan 20 per item. Meteor yang dihancurkan tidak memberi poin hindaran.</string>
+  <string name="wave_help" formatted="false">07 / PERINGATAN</string>
+  <string name="wave_help_body" formatted="false">Dari detik 12, hujan tiap 18 detik dengan peringatan 1,6 detik. Oranye bahaya, sian celah. Meteor lama masih bisa di celah. Setelah 20 detik beberapa meteor bergerak ke samping.</string>
+  <string name="mission_help" formatted="false">08 / TARGET PENERBANGAN</string>
+  <string name="mission_help_body" formatted="false">Bertahan 30 detik: +100 poin. Hindari dekat 5 kali: +150. Kumpulkan 3 item: +100. Tiap target memberi hadiah sekali, meski tidak tampil. Kredit mencakup semua bonus.</string>
+  <string name="challenge_title" formatted="false">TERBANG DENGAN TUJUAN</string>
+  <string name="challenge_body" formatted="false">Bertahan 30 detik · 5 hindaran dekat · 3 item. Selesaikan semua untuk 350 poin bonus per penerbangan.</string>
+  <string name="flight_upgrade_title" formatted="false">PENINGKATAN SAAT TERBANG</string>
+  <string name="flight_upgrade_body" formatted="false">Pilih perubahan untuk sisa penerbangan. Waktu berhenti saat memilih. Tiap jenis hanya bisa dipilih sekali.</string>
+  <string name="flight_upgrade_choose" formatted="false">Pilih dan lanjutkan</string>
+  <string name="capacitor_body" formatted="false">Penguat: radius pulsa 180 → 250. Konsekuensi: isi energi pasif 30% lebih lambat. Energi item dan hindaran tetap.</string>
+  <string name="daredevil_body" formatted="false">Pemberani: poin hindaran dekat dua kali lipat. Konsekuensi: pelindung maksimum −1; pelindung saat ini dibatasi maksimum baru.</string>
+  <string name="focus_body" formatted="false">Fokus: jendela kombo 5 → 8 detik. Konsekuensi: item pelambat yang baru diambil bertahan 20% lebih singkat.</string>
+  <string name="flight_upgrade_help" formatted="false">Pada detik 45, 90 dan 135 pilih peningkatan khusus penerbangan ini, tiap jenis sekali. Lalu hitung mundur 3 detik. Penguat: radius besar, isi lambat. Pemberani: poin ganda, pelindung berkurang. Fokus: kombo lama, perlambatan singkat.</string>
+  <string name="guide_pickup" formatted="false">LANGKAH 2 / 4 · Geser ke item untuk efek dan energi.</string>
+  <string name="guide_pulse" formatted="false">LANGKAH 3 / 4 · Gunakan PULSA saat penuh untuk membuka jalan.</string>
+  <string name="guide_near" formatted="false">LANGKAH 4 / 4 · Biarkan meteor lewat dekat tanpa menyentuh kapal untuk kombo.</string>
+  <string name="guide_skip" formatted="false">Mengerti · Sembunyikan panduan</string>
+  <string name="next_flight" formatted="false">TARGET PENERBANGAN BERIKUTNYA</string>
+  <string name="tip_energy" formatted="false">Kamu berakhir saat pulsa siap. Gunakan sebelum terpojok di penerbangan berikutnya.</string>
+  <string name="tip_survive" formatted="false">Bertahan 30 detik untuk 100 poin bonus. Cari ruang kosong dan jaga jarak.</string>
+  <string name="tip_near" formatted="false">Coba 5 hindaran dekat untuk 150 poin bonus. Ambil risiko hanya jika ada jalan keluar.</string>
+  <string name="tip_combo" formatted="false">Rangkai 6 hindaran dekat dalam waktu kombo untuk bonus ×3.</string>
+  <string name="goal_ready" formatted="false">Kamu bisa membeli peningkatan berikutnya. Kunjungi hanggar.</string>
+  <string name="goal_remaining">Butuh %1$d kredit lagi untuk peningkatan berikutnya yang termurah.</string>
+  <string name="all_upgraded" formatted="false">Kapal sudah maksimal! Coba strategi lain dan pecahkan rekor.</string>
+  <string name="guide_replay" formatted="false">Main dengan panduan bertahap</string>
+  <string name="language" formatted="false">Bahasa</string>
+  <string name="language_system" formatted="false">Gunakan bahasa perangkat</string>
+  <string name="language_hint" formatted="false">Pilih bahasa tampilan. Tersimpan otomatis; progres permainan tetap aman.</string>
+  <string name="capacitor_name" formatted="false">Penguat</string>
+  <string name="daredevil_name" formatted="false">Pemberani</string>
+  <string name="focus_name" formatted="false">Fokus</string>
+</resources>

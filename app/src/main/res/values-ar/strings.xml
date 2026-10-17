@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">اندفاع النيازك</string>
+  <string name="title" formatted="false">اندفاع\nالنيازك</string>
+  <string name="survival_mode" formatted="false">بقاء بلا نهاية</string>
+  <string name="ship_name" formatted="false">مركبة استطلاع / NOVA–01</string>
+  <string name="ship_ready" formatted="false">جاهزة للإقلاع</string>
+  <string name="best" formatted="false">أفضل نتيجة</string>
+  <string name="wallet" formatted="false">الرصيد</string>
+  <string name="play" formatted="false">ابدأ الرحلة</string>
+  <string name="upgrades" formatted="false">ترقيات المركبة</string>
+  <string name="settings" formatted="false">الإعدادات</string>
+  <string name="help" formatted="false">طريقة اللعب</string>
+  <string name="offline" formatted="false">دون إنترنت · اسحب للتفادي</string>
+  <string name="back" formatted="false">رجوع</string>
+  <string name="home" formatted="false">الرئيسية</string>
+  <string name="play_again" formatted="false">العب مجددًا</string>
+  <string name="continue_play" formatted="false">متابعة</string>
+  <string name="loading" formatted="false">جارٍ تحميل التقدم…</string>
+  <string name="loading_hint" formatted="false">جارٍ تجهيز المركبة وسجل الرحلات.</string>
+  <string name="error_title" formatted="false">تعذرت قراءة البيانات أو حفظها</string>
+  <string name="error_body" formatted="false">تحقق من المساحة المتاحة ثم أعد المحاولة. بيانات إصدار أحدث تتطلب تحديث التطبيق. تُعتمد الأرصدة والترقيات بعد الحفظ فقط.</string>
+  <string name="retry" formatted="false">أعد المحاولة</string>
+  <string name="close" formatted="false">إغلاق</string>
+  <string name="recovered_title" formatted="false">أُعيد ضبط التقدم</string>
+  <string name="recovered_body" formatted="false">ملف التقدم تالف وتعذر استعادته. أُنشئ سجل رحلات جديد.</string>
+  <string name="understood" formatted="false">فهمت</string>
+  <string name="pause" formatted="false">إيقاف مؤقت</string>
+  <string name="paused_title" formatted="false">استراحة بين\nالنجوم</string>
+  <string name="paused_body" formatted="false">الرحلة متوقفة. التقط أنفاسك ثم تابع.</string>
+  <string name="score" formatted="false">النقاط</string>
+  <string name="armor" formatted="false">التدريع</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ درع %1$d ث</string>
+  <string name="slow_timer">◷ إبطاء %1$d ث</string>
+  <string name="tutorial_title" formatted="false">اسحب جانبيًا لتفادي النيازك</string>
+  <string name="tutorial_body" formatted="false">الخطوة 1 / 4 · المس واسحب جانبيًا للبدء. تتحرك المركبة مع السحب.</string>
+  <string name="drag_hint" formatted="false">← اسحب للتحكم →</string>
+  <string name="get_ready" formatted="false">استعد للإقلاع</string>
+  <string name="abandon_title" formatted="false">هل تريد ترك هذه الرحلة؟</string>
+  <string name="abandon_body" formatted="false">لن تحصل على مكافآت أو أرقام قياسية لهذه الرحلة.</string>
+  <string name="keep_playing" formatted="false">واصل اللعب</string>
+  <string name="abandon" formatted="false">ترك الرحلة</string>
+  <string name="mission_end" formatted="false">انتهت الرحلة</string>
+  <string name="result_title" formatted="false">نراك في\nالرحلة القادمة.</string>
+  <string name="new_record" formatted="false">✦ رقم قياسي جديد</string>
+  <string name="final_score" formatted="false">نقاط الرحلة</string>
+  <string name="survival" formatted="false">مدة البقاء</string>
+  <string name="collected" formatted="false">العناصر المجموعة</string>
+  <string name="earned" formatted="false">الرصيد المكتسب</string>
+  <string name="reward_pending" formatted="false">جارٍ حفظ المكافآت…</string>
+  <string name="reward_failed" formatted="false">لم تُحفظ المكافآت. أعد المحاولة.</string>
+  <string name="retry_save" formatted="false">أعد الحفظ</string>
+  <string name="result_hint" formatted="false">كل رحلة تأخذك أبعد.</string>
+  <string name="hangar" formatted="false">الحظيرة / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">استعد\nللمزيد.</string>
+  <string name="upgrades_body" formatted="false">رقِّ مرة واحدة واستفد في كل رحلة.</string>
+  <string name="armor_name" formatted="false">هيكل مقوّى</string>
+  <string name="shield_name" formatted="false">مولد الدرع</string>
+  <string name="slow_name" formatted="false">حقل الإبطاء</string>
+  <string name="level">المستوى %1$d / %2$d</string>
+  <string name="armor_effect">الحالي: %1$d حد التدريع</string>
+  <string name="shield_effect">الحالي: %1$d ثوانٍ من الدرع</string>
+  <string name="slow_effect">الحالي: %1$s ثوانٍ من الإبطاء</string>
+  <string name="armor_next" formatted="false">التالي: +1 لحد التدريع</string>
+  <string name="shield_next" formatted="false">التالي: +1 ثانية للدرع</string>
+  <string name="slow_next" formatted="false">التالي: +0.5 ثانية للإبطاء</string>
+  <string name="buy">ترقية · %1$d من الرصيد</string>
+  <string name="not_enough">يتطلب %1$d من الرصيد</string>
+  <string name="max_level" formatted="false">المستوى الأقصى</string>
+  <string name="saving" formatted="false">جارٍ الحفظ…</string>
+  <string name="settings_eyebrow" formatted="false">قمرة القيادة / الخيارات</string>
+  <string name="settings_title" formatted="false">العب\nبطريقتك.</string>
+  <string name="music" formatted="false">الموسيقى</string>
+  <string name="music_hint" formatted="false">ألحان فضائية أثناء الرحلة</string>
+  <string name="sound" formatted="false">المؤثرات الصوتية</string>
+  <string name="sound_hint" formatted="false">أصوات جمع العناصر والإصابات</string>
+  <string name="vibration" formatted="false">الاهتزاز</string>
+  <string name="vibration_hint" formatted="false">اهتزاز قصير عند إصابة المركبة أو الدرع</string>
+  <string name="reduced_motion" formatted="false">تقليل الحركة</string>
+  <string name="reduced_motion_hint" formatted="false">إيقاف حركة النجوم وتقليل الجسيمات</string>
+  <string name="reset" formatted="false">إعادة ضبط التقدم</string>
+  <string name="reset_title" formatted="false">هل تريد مسح سجل الرحلات؟</string>
+  <string name="reset_body" formatted="false">ستُحذف الأرصدة والأرقام القياسية والترقيات وتقدم التدريب. تبقى إعدادات الصوت والحركة واللغة. لا يمكن التراجع.</string>
+  <string name="cancel" formatted="false">إلغاء</string>
+  <string name="privacy" formatted="false">البيانات على هذا الجهاز. لا حسابات أو إعلانات أو إنترنت.</string>
+  <string name="help_eyebrow" formatted="false">أكاديمية الطيارين</string>
+  <string name="help_title" formatted="false">إصبع واحد\nيكفي.</string>
+  <string name="help_controls" formatted="false">01 / التحكم</string>
+  <string name="help_controls_body" formatted="false">اسحب جانبيًا داخل منطقة اللعب. تتبع المركبة مسافة السحب ولا تقفز إلى موضع اللمس. تفادَ النيازك الساقطة؛ الحركة أفقية فقط.</string>
+  <string name="help_survive" formatted="false">02 / البقاء</string>
+  <string name="help_survive_body" formatted="false">كل إصابة تنقص التدريع بمقدار 1. تنتهي الرحلة عند الصفر. بعد الإصابة تومض المركبة وتصبح محصنة لمدة 1.2 ثانية. تزداد الصعوبة كل 20 ثانية.</string>
+  <string name="help_items" formatted="false">03 / الإمدادات</string>
+  <string name="help_shield" formatted="false">◇ الدرع: يصد إصابة واحدة؛ يدوم 8 ثوانٍ.</string>
+  <string name="help_repair" formatted="false">+ الإصلاح: يعيد 1 تدريع، حتى الحد الأقصى.</string>
+  <string name="help_slow" formatted="false">◷ الإبطاء: تتحرك النيازك بسرعة 60% لمدة 5 ثوانٍ.</string>
+  <string name="help_rewards" formatted="false">04 / مكافآت الرحلة</string>
+  <string name="help_rewards_body" formatted="false">البقاء: 10 نقاط/ثانية. العناصر: 25 نقطة لكل عنصر. كل 20 نقطة نهائية تمنح 1 رصيد للترقيات. ترك الرحلة لا يمنح شيئًا.</string>
+  <string name="help_accessibility" formatted="false">يتطلب اللعب المراقبة والسحب في الوقت الفعلي.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">الإصدار 1.3 / 20 لغة</string>
+  <string name="new_tagline" formatted="false">مر قرب النيازك لبناء سلسلة. اهرب بالنبضة وحطم رقمك القياسي.</string>
+  <string name="pulse_ready" formatted="false">نبضة</string>
+  <string name="pulse_charging">الطاقة %1$d/100</string>
+  <string name="pulse_hint" formatted="false">أزل النيازك القريبة عند اكتمال الطاقة</string>
+  <string name="combo_status">سلسلة %1$d · مكافأة ×%2$d · %3$d ث</string>
+  <string name="wave_warning">وابل نيازك · %1$d</string>
+  <string name="notice_near">تفادٍ قريب! +%1$d</string>
+  <string name="notice_pickup">إمدادات! +%1$d</string>
+  <string name="notice_hit" formatted="false">إصابة! −1 تدريع</string>
+  <string name="notice_shield" formatted="false">الدرع صد الإصابة</string>
+  <string name="notice_pulse" formatted="false">نبضة طاقة!</string>
+  <string name="notice_wave" formatted="false">راقب المسارات المحذَّر منها</string>
+  <string name="notice_mission">اكتمل الهدف! +%1$d</string>
+  <string name="mission_survive">البقاء %1$d/30 ث · +100 نقطة</string>
+  <string name="mission_near">تفادٍ قريب %1$d/5 · +150 نقطة</string>
+  <string name="mission_items">العناصر %1$d/3 · +100 نقطة</string>
+  <string name="mission_all" formatted="false">اكتملت الأهداف 3/3</string>
+  <string name="stat_near" formatted="false">التفاديات القريبة</string>
+  <string name="stat_combo" formatted="false">أفضل سلسلة</string>
+  <string name="stat_pulse" formatted="false">النبضات المستخدمة</string>
+  <string name="stat_bonus" formatted="false">نقاط مكافأة المهارة</string>
+  <string name="stat_missions" formatted="false">الأهداف المكتملة</string>
+  <string name="new_mechanics" formatted="false">05 / المخاطرة والمكافأة</string>
+  <string name="new_mechanics_body" formatted="false">مر قريبًا من نيزك دون لمسه لكسب نقاط وطاقة. اربط التفاديات خلال 5 ثوانٍ. السلسلتان 3 و6 تمنحان ×2 و×3. إصابة التدريع أو انتهاء الوقت يقطع السلسلة. نقاط الوقت والعناصر لا تتضاعف.</string>
+  <string name="pulse_help" formatted="false">06 / نبضة الطاقة</string>
+  <string name="pulse_help_body" formatted="false">عند اكتمال الطاقة تزيل النيازك ضمن نصف قطر 180 وتحمي 0.6 ثانية. تبدأ بطاقة كاملة؛ تستعيد 3/ثانية و12 لكل تفادٍ قريب و20 لكل عنصر. تدمير النيازك لا يمنح نقاط تفادٍ.</string>
+  <string name="wave_help" formatted="false">07 / التحذيرات</string>
+  <string name="wave_help_body" formatted="false">من الثانية 12 يأتي وابل كل 18 ثانية بتحذير قبل 1.6 ثانية. البرتقالي خطر والسماوي فجوة. قد تبقى نيازك قديمة في الفجوة. بعد 20 ثانية ينحرف بعضها جانبيًا.</string>
+  <string name="mission_help" formatted="false">08 / أهداف الرحلة</string>
+  <string name="mission_help_body" formatted="false">البقاء 30 ثانية: +100 نقطة. تفادٍ قريب 5 مرات: +150. جمع 3 عناصر: +100. يمنح كل هدف مكافأة مرة واحدة ولو لم يُعرض. يشمل الرصيد جميع نقاط المكافأة.</string>
+  <string name="challenge_title" formatted="false">حلّق بهدف</string>
+  <string name="challenge_body" formatted="false">البقاء 30 ثانية · 5 تفاديات قريبة · 3 عناصر. أكمل الجميع لكسب 350 نقطة إضافية لكل رحلة.</string>
+  <string name="flight_upgrade_title" formatted="false">ترقيات أثناء الرحلة</string>
+  <string name="flight_upgrade_body" formatted="false">اختر تغييرًا لبقية الرحلة. الوقت متوقف أثناء الاختيار. يمكن اختيار كل نوع مرة واحدة.</string>
+  <string name="flight_upgrade_choose" formatted="false">اختر وتابع</string>
+  <string name="capacitor_body" formatted="false">المضخّم: نصف قطر النبضة 180 ← 250. المقابل: استعادة الطاقة التلقائية أبطأ 30%. طاقة العناصر والتفادي لا تتغير.</string>
+  <string name="daredevil_body" formatted="false">المغامر: نقاط التفادي القريب مضاعفة. المقابل: حد التدريع −1؛ التدريع الحالي يُحدَّد بالحد الجديد.</string>
+  <string name="focus_body" formatted="false">التركيز: مهلة السلسلة 5 ← 8 ثوانٍ. المقابل: عناصر الإبطاء الجديدة تدوم أقل بنسبة 20%.</string>
+  <string name="flight_upgrade_help" formatted="false">عند 45 و90 و135 ثانية اختر ترقية لهذه الرحلة فقط، كل نوع مرة. يلي ذلك عد تنازلي 3 ثوانٍ. المضخّم: نبضة أوسع وشحن أبطأ. المغامر: نقاط مضاعفة وتدريع أقل. التركيز: سلسلة أطول وإبطاء أقصر.</string>
+  <string name="guide_pickup" formatted="false">الخطوة 2 / 4 · اسحب نحو عنصر للحصول على تأثير وطاقة.</string>
+  <string name="guide_pulse" formatted="false">الخطوة 3 / 4 · استخدم النبضة عند اكتمال الطاقة لفتح طريق.</string>
+  <string name="guide_near" formatted="false">الخطوة 4 / 4 · دع نيزكًا يمر قريبًا دون لمس المركبة لكسب سلسلة.</string>
+  <string name="guide_skip" formatted="false">فهمت · إخفاء الدليل</string>
+  <string name="next_flight" formatted="false">هدف الرحلة القادمة</string>
+  <string name="tip_energy" formatted="false">انتهت الرحلة والنبضة جاهزة. استخدمها قبل أن تُحاصَر في المرة القادمة.</string>
+  <string name="tip_survive" formatted="false">ابقَ 30 ثانية لكسب 100 نقطة إضافية. ابحث عن فراغ وحافظ على المسافة.</string>
+  <string name="tip_near" formatted="false">جرّب 5 تفاديات قريبة لكسب 150 نقطة. خاطر فقط مع وجود طريق هروب.</string>
+  <string name="tip_combo" formatted="false">اربط 6 تفاديات قريبة ضمن مهلة السلسلة لمكافأة ×3.</string>
+  <string name="goal_ready" formatted="false">يمكنك شراء الترقية التالية. زر الحظيرة.</string>
+  <string name="goal_remaining">تحتاج إلى %1$d إضافية لشراء أرخص ترقية تالية.</string>
+  <string name="all_upgraded" formatted="false">المركبة مطورة بالكامل! جرّب استراتيجية أخرى وحطم رقمك.</string>
+  <string name="guide_replay" formatted="false">العب مع دليل خطوة بخطوة</string>
+  <string name="language" formatted="false">اللغة</string>
+  <string name="language_system" formatted="false">استخدام لغة الجهاز</string>
+  <string name="language_hint" formatted="false">اختر لغة العرض. تُحفظ تلقائيًا مع الحفاظ على تقدم اللعب.</string>
+  <string name="capacitor_name" formatted="false">المضخّم</string>
+  <string name="daredevil_name" formatted="false">المغامر</string>
+  <string name="focus_name" formatted="false">التركيز</string>
+</resources>

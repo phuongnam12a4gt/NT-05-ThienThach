@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Né Thiên Thạch</string>
+  <string name="title" formatted="false">NÉ THIÊN\nTHẠCH</string>
+  <string name="survival_mode" formatted="false">SINH TỒN VÔ TẬN</string>
+  <string name="ship_name" formatted="false">TÀU THĂM DÒ / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Sẵn sàng cất cánh</string>
+  <string name="best" formatted="false">KỶ LỤC</string>
+  <string name="wallet" formatted="false">TÍN DỤNG</string>
+  <string name="play" formatted="false">BẮT ĐẦU CHUYẾN BAY</string>
+  <string name="upgrades" formatted="false">Nâng cấp tàu</string>
+  <string name="settings" formatted="false">Cài đặt</string>
+  <string name="help" formatted="false">Hướng dẫn</string>
+  <string name="offline" formatted="false">CHƠI OFFLINE  ·  KÉO NGANG ĐỂ NÉ</string>
+  <string name="back" formatted="false">Quay lại</string>
+  <string name="home" formatted="false">Trang chủ</string>
+  <string name="play_again" formatted="false">Chơi lại</string>
+  <string name="continue_play" formatted="false">Tiếp tục</string>
+  <string name="loading" formatted="false">Đang tải tiến trình…</string>
+  <string name="loading_hint" formatted="false">Chuẩn bị tàu và nhật ký chuyến bay của bạn.</string>
+  <string name="error_title" formatted="false">Chưa thể đọc hoặc lưu dữ liệu</string>
+  <string name="error_body" formatted="false">Hãy kiểm tra dung lượng trống rồi thử lại. Nếu dữ liệu đến từ phiên bản mới hơn, cần cập nhật ứng dụng. Tiền và nâng cấp chỉ có hiệu lực sau khi lưu thành công.</string>
+  <string name="retry" formatted="false">Thử lại</string>
+  <string name="close" formatted="false">Đóng</string>
+  <string name="recovered_title" formatted="false">Đã đặt lại tiến trình</string>
+  <string name="recovered_body" formatted="false">Tệp tiến trình bị hỏng và không thể khôi phục. Một nhật ký mới đã được tạo.</string>
+  <string name="understood" formatted="false">Đã hiểu</string>
+  <string name="pause" formatted="false">Tạm dừng</string>
+  <string name="paused_title" formatted="false">NGHỈ GIỮA\nCÁC VÌ SAO</string>
+  <string name="paused_body" formatted="false">Chuyến bay đang được tạm dừng.\nHít thở một chút, rồi tiếp tục nhé.</string>
+  <string name="score" formatted="false">ĐIỂM</string>
+  <string name="armor" formatted="false">GIÁP</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Khiên %1$d s</string>
+  <string name="slow_timer">◷ Chậm %1$d s</string>
+  <string name="tutorial_title" formatted="false">Kéo ngang để né thiên thạch</string>
+  <string name="tutorial_body" formatted="false">BƯỚC 1 / 4 · Chạm và kéo sang hai bên để bắt đầu.\nTàu sẽ di chuyển theo ngón tay của bạn.</string>
+  <string name="drag_hint" formatted="false">← KÉO ĐỂ ĐIỀU KHIỂN →</string>
+  <string name="get_ready" formatted="false">CHUẨN BỊ CẤT CÁNH</string>
+  <string name="abandon_title" formatted="false">Bỏ lượt hiện tại?</string>
+  <string name="abandon_body" formatted="false">Bạn sẽ không nhận thưởng hay ghi kỷ lục của lượt này.</string>
+  <string name="keep_playing" formatted="false">Tiếp tục chơi</string>
+  <string name="abandon" formatted="false">Bỏ lượt</string>
+  <string name="mission_end" formatted="false">CHUYẾN BAY KẾT THÚC</string>
+  <string name="result_title" formatted="false">HẸN GẶP Ở\nCHUYẾN BAY SAU.</string>
+  <string name="new_record" formatted="false">✦ KỶ LỤC MỚI</string>
+  <string name="final_score" formatted="false">ĐIỂM CHUYẾN BAY</string>
+  <string name="survival" formatted="false">Thời gian sống</string>
+  <string name="collected" formatted="false">Vật phẩm đã nhặt</string>
+  <string name="earned" formatted="false">Tín dụng nhận được</string>
+  <string name="reward_pending" formatted="false">Đang lưu phần thưởng…</string>
+  <string name="reward_failed" formatted="false">Chưa lưu phần thưởng. Hãy thử lưu lại.</string>
+  <string name="retry_save" formatted="false">Thử lưu lại</string>
+  <string name="result_hint" formatted="false">Mỗi chuyến bay giúp bạn tiến xa hơn.</string>
+  <string name="hangar" formatted="false">XƯỞNG TÀU / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">SẴN SÀNG\nĐI XA HƠN.</string>
+  <string name="upgrades_body" formatted="false">Nâng cấp một lần. Đồng hành mọi chuyến bay.</string>
+  <string name="armor_name" formatted="false">Vỏ giáp gia cường</string>
+  <string name="shield_name" formatted="false">Bộ tạo khiên</string>
+  <string name="slow_name" formatted="false">Trường làm chậm</string>
+  <string name="level">Cấp %1$d / %2$d</string>
+  <string name="armor_effect">Hiện tại: %1$d giáp tối đa</string>
+  <string name="shield_effect">Hiện tại: %1$d giây bảo vệ</string>
+  <string name="slow_effect">Hiện tại: %1$s giây làm chậm</string>
+  <string name="armor_next" formatted="false">Cấp tiếp theo: +1 giáp tối đa</string>
+  <string name="shield_next" formatted="false">Cấp tiếp theo: +1 giây khiên</string>
+  <string name="slow_next" formatted="false">Cấp tiếp theo: +0,5 giây làm chậm</string>
+  <string name="buy">Nâng cấp · %1$d tín dụng</string>
+  <string name="not_enough">Cần %1$d tín dụng</string>
+  <string name="max_level" formatted="false">Đã tối đa</string>
+  <string name="saving" formatted="false">Đang lưu…</string>
+  <string name="settings_eyebrow" formatted="false">BUỒNG LÁI / TÙY CHỈNH</string>
+  <string name="settings_title" formatted="false">THEO CÁCH\nCỦA BẠN.</string>
+  <string name="music" formatted="false">Nhạc nền</string>
+  <string name="music_hint" formatted="false">Giai điệu không gian trong chuyến bay</string>
+  <string name="sound" formatted="false">Hiệu ứng âm thanh</string>
+  <string name="sound_hint" formatted="false">Phản hồi khi nhặt đồ và va chạm</string>
+  <string name="vibration" formatted="false">Rung thiết bị</string>
+  <string name="vibration_hint" formatted="false">Rung ngắn khi tàu hoặc khiên trúng đòn</string>
+  <string name="reduced_motion" formatted="false">Giảm chuyển động</string>
+  <string name="reduced_motion_hint" formatted="false">Dừng nền sao, giảm số hạt hiệu ứng</string>
+  <string name="reset" formatted="false">Xóa tiến trình</string>
+  <string name="reset_title" formatted="false">Xóa nhật ký chuyến bay?</string>
+  <string name="reset_body" formatted="false">Tất cả tín dụng, kỷ lục, nâng cấp và hướng dẫn lần đầu sẽ được đặt lại. Tùy chọn âm thanh, rung và chuyển động được giữ nguyên. Không thể hoàn tác.</string>
+  <string name="cancel" formatted="false">Hủy</string>
+  <string name="privacy" formatted="false">Dữ liệu được lưu trên thiết bị. Không tài khoản, không quảng cáo, không cần kết nối mạng.</string>
+  <string name="help_eyebrow" formatted="false">HỌC VIỆN PHI CÔNG</string>
+  <string name="help_title" formatted="false">CHỈ CẦN\nMỘT NGÓN TAY.</string>
+  <string name="help_controls" formatted="false">01 / ĐIỀU KHIỂN</string>
+  <string name="help_controls_body" formatted="false">Chạm vùng chơi rồi kéo ngang. Tàu di chuyển theo quãng kéo, không nhảy đến vị trí chạm. Né các thiên thạch đang rơi; tàu chỉ di chuyển sang hai bên.</string>
+  <string name="help_survive" formatted="false">02 / SỐNG SÓT</string>
+  <string name="help_survive_body" formatted="false">Mỗi va chạm mất 1 giáp. Hết giáp là kết thúc chuyến bay. Sau khi trúng đòn, tàu nhấp nháy và bất tử trong 1,2 giây. Độ khó tăng sau mỗi 20 giây.</string>
+  <string name="help_items" formatted="false">03 / VẬT PHẨM TIẾP TẾ</string>
+  <string name="help_shield" formatted="false">◇ Khiên — chặn một va chạm, tồn tại 8 giây.</string>
+  <string name="help_repair" formatted="false">+ Sửa chữa — hồi một giáp, tối đa bằng giáp tàu.</string>
+  <string name="help_slow" formatted="false">◷ Làm chậm — thiên thạch còn 60% tốc độ trong 5 giây.</string>
+  <string name="help_rewards" formatted="false">04 / MỖI CHUYẾN BAY ĐỀU CÓ GIÁ TRỊ</string>
+  <string name="help_rewards_body" formatted="false">Mỗi giây sống sót được 10 điểm; mỗi vật phẩm được 25 điểm. Cứ 20 điểm hoàn tất nhận 1 tín dụng. Dùng tín dụng nâng cấp tàu. Bỏ lượt giữa chừng sẽ không có thưởng.</string>
+  <string name="help_accessibility" formatted="false">Gameplay cần quan sát và thao tác kéo theo thời gian thực.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">BẢN 1.3 / 20 NGÔN NGỮ</string>
+  <string name="new_tagline" formatted="false">Né sát để nối combo. Phát xung để thoát hiểm.\nLàm chủ nhịp bay và phá kỷ lục của bạn.</string>
+  <string name="pulse_ready" formatted="false">PHÁT XUNG</string>
+  <string name="pulse_charging">NĂNG LƯỢNG %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Dọn thiên thạch quanh tàu khi đầy năng lượng</string>
+  <string name="combo_status">COMBO %1$d · THƯỞNG ×%2$d · %3$d s</string>
+  <string name="wave_warning">MƯA THIÊN THẠCH · %1$d</string>
+  <string name="notice_near">NÉ SÁT! +%1$d</string>
+  <string name="notice_pickup">TIẾP TẾ! +%1$d</string>
+  <string name="notice_hit" formatted="false">TRÚNG ĐÒN! −1 GIÁP</string>
+  <string name="notice_shield" formatted="false">KHIÊN ĐÃ CHẶN ĐÒN</string>
+  <string name="notice_pulse" formatted="false">XUNG NĂNG LƯỢNG!</string>
+  <string name="notice_wave" formatted="false">CHÚ Ý LÀN CẢNH BÁO</string>
+  <string name="notice_mission">HOÀN THÀNH MỤC TIÊU! +%1$d</string>
+  <string name="mission_survive">Sống sót %1$d/30 giây · +100 điểm</string>
+  <string name="mission_near">Né sát %1$d/5 lần · +150 điểm</string>
+  <string name="mission_items">Nhặt %1$d/3 vật phẩm · +100 điểm</string>
+  <string name="mission_all" formatted="false">HOÀN THÀNH 3/3 MỤC TIÊU</string>
+  <string name="stat_near" formatted="false">Lần né sát</string>
+  <string name="stat_combo" formatted="false">Combo cao nhất</string>
+  <string name="stat_pulse" formatted="false">Lần phát xung</string>
+  <string name="stat_bonus" formatted="false">Điểm thưởng kỹ năng</string>
+  <string name="stat_missions" formatted="false">Mục tiêu hoàn thành</string>
+  <string name="new_mechanics" formatted="false">05 / BAY MẠO HIỂM, THƯỞNG XỨNG ĐÁNG</string>
+  <string name="new_mechanics_body" formatted="false">Né thiên thạch ở khoảng cách sát cạnh để nhận điểm thưởng và năng lượng. Nối lần né sát trong 5 giây để tăng combo; mốc 3 và 6 nâng hệ số thưởng lên ×2 và ×3. Trúng giáp hoặc hết thời gian sẽ đứt chuỗi. Điểm thời gian và vật phẩm không nhân hệ số.</string>
+  <string name="pulse_help" formatted="false">06 / XUNG NĂNG LƯỢNG</string>
+  <string name="pulse_help_body" formatted="false">Bấm PHÁT XUNG khi thanh năng lượng đầy để phá thiên thạch trong bán kính 180 quanh tàu và được bảo vệ 0,6 giây. Kỹ năng có sẵn đầu lượt, tự nạp 3 năng lượng mỗi giây; né sát nạp 12, nhặt đồ nạp 20. Phá thiên thạch bằng xung không được điểm né sát.</string>
+  <string name="wave_help" formatted="false">07 / ĐỌC CẢNH BÁO</string>
+  <string name="wave_help_body" formatted="false">Từ giây 12, mỗi 18 giây có mưa thiên thạch. Hai làn màu cam có dấu gạch cảnh báo; làn xanh có mũi tên là khoảng trống của đợt mưa. Bạn có 1,6 giây chuẩn bị. Thiên thạch cũ vẫn có thể ở trong làn đó: hãy tiếp tục quan sát. Sau giây 20, một số thiên thạch bay chéo.</string>
+  <string name="mission_help" formatted="false">08 / MỤC TIÊU TRONG LƯỢT</string>
+  <string name="mission_help_body" formatted="false">Sống sót 30 giây: +100 điểm. Né sát 5 lần: +150 điểm. Nhặt 3 vật phẩm: +100 điểm. Mỗi mục tiêu chỉ thưởng một lần trong lượt, tự tính dù chưa hiện trên HUD. Tín dụng cuối lượt tính từ tổng điểm, bao gồm điểm thưởng kỹ năng.</string>
+  <string name="challenge_title" formatted="false">BAY CÓ CHỦ ĐÍCH</string>
+  <string name="challenge_body" formatted="false">Sống sót 30 giây · Né sát 5 lần · Nhặt 3 vật phẩm. Hoàn thành cả ba để thêm 350 điểm mỗi lượt.</string>
+  <string name="flight_upgrade_title" formatted="false">NÂNG CẤP TRONG CHUYẾN BAY</string>
+  <string name="flight_upgrade_body" formatted="false">Chọn một thay đổi cho phần còn lại của lượt. Thế giới đang dừng; bạn có thời gian cân nhắc. Mỗi loại chỉ chọn một lần.</string>
+  <string name="flight_upgrade_choose" formatted="false">Chọn và tiếp tục</string>
+  <string name="capacitor_body" formatted="false">Tụ khuếch đại: bán kính xung tăng từ 180 lên 250. Đánh đổi: tự nạp năng lượng chậm hơn 30%. Năng lượng từ vật phẩm và né sát giữ nguyên.</string>
+  <string name="daredevil_body" formatted="false">Phi công mạo hiểm: điểm né sát gấp đôi. Đánh đổi: giảm 1 giáp tối đa và hạ giáp hiện có nếu vượt mức mới.</string>
+  <string name="focus_body" formatted="false">Tập trung: thời gian nối combo tăng từ 5 lên 8 giây. Đánh đổi: vật phẩm làm chậm nhặt từ lúc này có thời gian ngắn hơn 20%.</string>
+  <string name="flight_upgrade_help" formatted="false">Ở giây 45, 90 và 135, game dừng để bạn chọn nâng cấp dùng riêng trong lượt. Mỗi loại chỉ chọn một lần; đọc lợi ích và đánh đổi trước khi chọn. Chọn xong có đếm ngược 3 giây. Tụ khuếch đại mở rộng xung nhưng nạp chậm; Mạo hiểm tăng điểm né sát nhưng giảm giáp; Tập trung nối combo lâu hơn nhưng giảm thời gian vật phẩm làm chậm.</string>
+  <string name="guide_pickup" formatted="false">BƯỚC 2 / 4 · Kéo tàu tới một vật phẩm để nhận hiệu ứng và năng lượng.</string>
+  <string name="guide_pulse" formatted="false">BƯỚC 3 / 4 · Bấm PHÁT XUNG khi đầy năng lượng để dọn đường.</string>
+  <string name="guide_near" formatted="false">BƯỚC 4 / 4 · Thử để thiên thạch lướt sát cạnh tàu mà không chạm để nhận combo.</string>
+  <string name="guide_skip" formatted="false">Đã hiểu · Ẩn hướng dẫn</string>
+  <string name="next_flight" formatted="false">MỤC TIÊU CHUYẾN BAY TIẾP</string>
+  <string name="tip_energy" formatted="false">Bạn kết thúc khi xung đã sẵn sàng. Lượt sau hãy dùng xung trước khi bị dồn vào góc.</string>
+  <string name="tip_survive" formatted="false">Thử sống sót 30 giây để nhận thêm 100 điểm. Ưu tiên khoảng trống và giữ khoảng cách với thiên thạch.</string>
+  <string name="tip_near" formatted="false">Thử đạt 5 lần né sát để nhận thêm 150 điểm. Chỉ mạo hiểm khi phía trước có đường thoát.</string>
+  <string name="tip_combo" formatted="false">Thử nối 6 lần né sát trong thời hạn combo để đạt hệ số thưởng ×3.</string>
+  <string name="goal_ready" formatted="false">Bạn đủ tín dụng mua nâng cấp tiếp theo. Ghé xưởng tàu để chọn.</string>
+  <string name="goal_remaining">Còn %1$d tín dụng để mua nâng cấp có giá thấp nhất tiếp theo.</string>
+  <string name="all_upgraded" formatted="false">Tàu đã nâng cấp tối đa. Thử một lựa chọn chiến thuật khác và phá kỷ lục!</string>
+  <string name="guide_replay" formatted="false">Chơi với hướng dẫn từng bước</string>
+  <string name="language" formatted="false">Ngôn ngữ</string>
+  <string name="language_system" formatted="false">Theo ngôn ngữ thiết bị</string>
+  <string name="language_hint" formatted="false">Chọn ngôn ngữ hiển thị. Lựa chọn được lưu tự động; không ảnh hưởng tiến trình chơi.</string>
+  <string name="capacitor_name" formatted="false">Tụ khuếch đại</string>
+  <string name="daredevil_name" formatted="false">Phi công mạo hiểm</string>
+  <string name="focus_name" formatted="false">Tập trung</string>
+</resources>

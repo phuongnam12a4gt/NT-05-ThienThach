@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">IWAS\nMETEOR</string>
+  <string name="survival_mode" formatted="false">WALANG-HANGGANG KALIGTASAN</string>
+  <string name="ship_name" formatted="false">SASAKYANG PANG-ESPIYA / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Handa nang lumipad</string>
+  <string name="best" formatted="false">REKORD</string>
+  <string name="wallet" formatted="false">KREDITO</string>
+  <string name="play" formatted="false">SIMULAN ANG LIPAD</string>
+  <string name="upgrades" formatted="false">Pag-upgrade ng sasakyan</string>
+  <string name="settings" formatted="false">Mga setting</string>
+  <string name="help" formatted="false">Paano maglaro</string>
+  <string name="offline" formatted="false">OFFLINE · I-DRAG PARA UMIWAS</string>
+  <string name="back" formatted="false">Bumalik</string>
+  <string name="home" formatted="false">Home</string>
+  <string name="play_again" formatted="false">Maglaro muli</string>
+  <string name="continue_play" formatted="false">Magpatuloy</string>
+  <string name="loading" formatted="false">Nilo-load ang progreso…</string>
+  <string name="loading_hint" formatted="false">Inihahanda ang sasakyan at tala ng lipad.</string>
+  <string name="error_title" formatted="false">Hindi mabasa o mai-save ang data</string>
+  <string name="error_body" formatted="false">Suriin ang libreng storage at subukan muli. Kailangan ng update para sa mas bagong data. Magkakabisa ang kredito at upgrade kapag na-save.</string>
+  <string name="retry" formatted="false">Subukan muli</string>
+  <string name="close" formatted="false">Isara</string>
+  <string name="recovered_title" formatted="false">Na-reset ang progreso</string>
+  <string name="recovered_body" formatted="false">Sira ang file at hindi na maibalik. Gumawa ng bagong tala ng lipad.</string>
+  <string name="understood" formatted="false">Naintindihan</string>
+  <string name="pause" formatted="false">I-pause</string>
+  <string name="paused_title" formatted="false">PAHINGA SA\nMGA BITUIN</string>
+  <string name="paused_body" formatted="false">Naka-pause ang lipad. Huminga muna bago magpatuloy.</string>
+  <string name="score" formatted="false">PUNTOS</string>
+  <string name="armor" formatted="false">BALUTI</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Kalasag %1$d s</string>
+  <string name="slow_timer">◷ Pagbagal %1$d s</string>
+  <string name="tutorial_title" formatted="false">I-drag pakaliwa o pakanan para umiwas sa meteor</string>
+  <string name="tutorial_body" formatted="false">HAKBANG 1 / 4 · Pindutin at i-drag sa gilid para magsimula. Susunod ang sasakyan sa pag-drag.</string>
+  <string name="drag_hint" formatted="false">← I-DRAG PARA MAGMANEHO →</string>
+  <string name="get_ready" formatted="false">HANDA NANG LUMIPAD</string>
+  <string name="abandon_title" formatted="false">Iwan ang lipad na ito?</string>
+  <string name="abandon_body" formatted="false">Walang gantimpala o rekord para sa lipad na ito.</string>
+  <string name="keep_playing" formatted="false">Ituloy ang laro</string>
+  <string name="abandon" formatted="false">Iwan</string>
+  <string name="mission_end" formatted="false">TAPOS NA ANG LIPAD</string>
+  <string name="result_title" formatted="false">KITA SA\nSUSUNOD NA LIPAD.</string>
+  <string name="new_record" formatted="false">✦ BAGONG REKORD</string>
+  <string name="final_score" formatted="false">PUNTOS SA LIPAD</string>
+  <string name="survival" formatted="false">Tagal ng kaligtasan</string>
+  <string name="collected" formatted="false">Mga item na nakuha</string>
+  <string name="earned" formatted="false">Kreditong nakuha</string>
+  <string name="reward_pending" formatted="false">Sine-save ang gantimpala…</string>
+  <string name="reward_failed" formatted="false">Hindi na-save ang gantimpala. Subukan muli.</string>
+  <string name="retry_save" formatted="false">I-save muli</string>
+  <string name="result_hint" formatted="false">Bawat lipad ay mas malayo ang mararating.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">HANDANG\nLUMIPAD PA.</string>
+  <string name="upgrades_body" formatted="false">Isang upgrade. Pakinabang sa bawat lipad.</string>
+  <string name="armor_name" formatted="false">Pinatibay na katawan</string>
+  <string name="shield_name" formatted="false">Generator ng kalasag</string>
+  <string name="slow_name" formatted="false">Larangan ng pagbagal</string>
+  <string name="level">Antas %1$d / %2$d</string>
+  <string name="armor_effect">Ngayon: %1$d pinakamataas na baluti</string>
+  <string name="shield_effect">Ngayon: %1$d segundo ng kalasag</string>
+  <string name="slow_effect">Ngayon: %1$s segundo ng pagbagal</string>
+  <string name="armor_next" formatted="false">Susunod: +1 pinakamataas na baluti</string>
+  <string name="shield_next" formatted="false">Susunod: +1 segundo ng kalasag</string>
+  <string name="slow_next" formatted="false">Susunod: +0.5 segundo ng pagbagal</string>
+  <string name="buy">I-upgrade · %1$d kredito</string>
+  <string name="not_enough">Kailangan ng %1$d kredito</string>
+  <string name="max_level" formatted="false">Pinakamataas na antas</string>
+  <string name="saving" formatted="false">Sine-save…</string>
+  <string name="settings_eyebrow" formatted="false">COCKPIT / MGA OPSYON</string>
+  <string name="settings_title" formatted="false">MAGLARO SA\nPARAAN MO.</string>
+  <string name="music" formatted="false">Musika</string>
+  <string name="music_hint" formatted="false">Himig ng kalawakan habang lumilipad</string>
+  <string name="sound" formatted="false">Mga sound effect</string>
+  <string name="sound_hint" formatted="false">Tunog sa pagkuha at pagtama</string>
+  <string name="vibration" formatted="false">Pag-vibrate</string>
+  <string name="vibration_hint" formatted="false">Maikling pag-vibrate kapag tinamaan</string>
+  <string name="reduced_motion" formatted="false">Bawasan ang galaw</string>
+  <string name="reduced_motion_hint" formatted="false">Ihinto ang mga bituin at bawasan ang particle</string>
+  <string name="reset" formatted="false">I-reset ang progreso</string>
+  <string name="reset_title" formatted="false">Burahin ang tala ng lipad?</string>
+  <string name="reset_body" formatted="false">Mabubura ang kredito, rekord, upgrade at tutorial. Mananatili ang audio, galaw at wika. Hindi na mababawi.</string>
+  <string name="cancel" formatted="false">Kanselahin</string>
+  <string name="privacy" formatted="false">Data sa device na ito. Walang account, ad o internet na kailangan.</string>
+  <string name="help_eyebrow" formatted="false">AKADEMYA NG PILOTO</string>
+  <string name="help_title" formatted="false">ISANG DALIRI\nLANG.</string>
+  <string name="help_controls" formatted="false">01 / KONTROL</string>
+  <string name="help_controls_body" formatted="false">I-drag sa gilid sa lugar ng laro. Sinusundan ng sasakyan ang layo ng drag, hindi tumatalon sa pinindot. Iwasan ang bumabagsak na meteor; pahalang lang ang galaw.</string>
+  <string name="help_survive" formatted="false">02 / KALIGTASAN</string>
+  <string name="help_survive_body" formatted="false">Bawat tama ay bawas 1 baluti. Sa zero, tapos ang lipad. Pagkatama, kumikislap at ligtas sa pinsala nang 1.2 segundo. Tumataas ang hirap bawat 20 segundo.</string>
+  <string name="help_items" formatted="false">03 / SUPLAY</string>
+  <string name="help_shield" formatted="false">◇ Kalasag: humaharang ng isang tama; tumatagal ng 8 segundo.</string>
+  <string name="help_repair" formatted="false">+ Pagkumpuni: ibinabalik ang 1 baluti, hanggang sa pinakamataas.</string>
+  <string name="help_slow" formatted="false">◷ Pagbagal: 60% bilis ang meteor sa loob ng 5 segundo.</string>
+  <string name="help_rewards" formatted="false">04 / GANTIMPALA SA LIPAD</string>
+  <string name="help_rewards_body" formatted="false">Kaligtasan: 10 puntos/segundo. Item: tig-25 puntos. Bawat 20 huling puntos ay 1 kredito para sa upgrade. Walang makukuha sa iniwang lipad.</string>
+  <string name="help_accessibility" formatted="false">Kailangan ng pagmamasid at pag-drag sa mismong oras ng laro.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">BERSYON 1.3 / 20 WIKA</string>
+  <string name="new_tagline" formatted="false">Dumaan malapit sa meteor para sa combo. Tumakas gamit ang pulso at lampasan ang rekord.</string>
+  <string name="pulse_ready" formatted="false">PULSO</string>
+  <string name="pulse_charging">ENERHIYA %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Alisin ang malapit na meteor kapag puno ang enerhiya</string>
+  <string name="combo_status">COMBO %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">ULAN NG METEOR · %1$d</string>
+  <string name="notice_near">MUNTIK NA! +%1$d</string>
+  <string name="notice_pickup">SUPLAY! +%1$d</string>
+  <string name="notice_hit" formatted="false">TINAMAAN! −1 BALUTI</string>
+  <string name="notice_shield" formatted="false">HINARANG NG KALASAG ANG TAMA</string>
+  <string name="notice_pulse" formatted="false">PULSO NG ENERHIYA!</string>
+  <string name="notice_wave" formatted="false">TINGNAN ANG MGA BABALANG LINYA</string>
+  <string name="notice_mission">TAPOS ANG LAYUNIN! +%1$d</string>
+  <string name="mission_survive">Mabuhay %1$d/30 s · +100 puntos</string>
+  <string name="mission_near">Malapit na iwas %1$d/5 · +150 puntos</string>
+  <string name="mission_items">Item %1$d/3 · +100 puntos</string>
+  <string name="mission_all" formatted="false">TAPOS ANG LAHAT NG 3/3 LAYUNIN</string>
+  <string name="stat_near" formatted="false">Malalapit na iwas</string>
+  <string name="stat_combo" formatted="false">Pinakamahusay na combo</string>
+  <string name="stat_pulse" formatted="false">Pulsong ginamit</string>
+  <string name="stat_bonus" formatted="false">Bonus na puntos sa husay</string>
+  <string name="stat_missions" formatted="false">Natapos na layunin</string>
+  <string name="new_mechanics" formatted="false">05 / PANGANIB AT GANTIMPALA</string>
+  <string name="new_mechanics_body" formatted="false">Dumaan malapit sa meteor nang hindi sumasagi para sa puntos at enerhiya. Pagsunurin sa loob ng 5 segundo. Combo 3 at 6 ay ×2 at ×3. Tama sa baluti o pagkaubos ng oras ay pumuputol ng combo. Hindi minumultiply ang puntos sa oras at item.</string>
+  <string name="pulse_help" formatted="false">06 / PULSO NG ENERHIYA</string>
+  <string name="pulse_help_body" formatted="false">Kapag puno, inaalis ang meteor sa radius 180 at pinoprotektahan ka nang 0.6 segundo. Puno sa simula; dagdag 3/segundo, 12 bawat malapit na iwas at 20 bawat item. Walang puntos sa iwas ang nawasak na meteor.</string>
+  <string name="wave_help" formatted="false">07 / BABALA</string>
+  <string name="wave_help_body" formatted="false">Mula segundo 12, may ulan bawat 18 segundo na may babalang 1.6 segundo. Kahel ay panganib, cyan ay puwang. Maaaring may lumang meteor pa roon. Pagkalipas ng 20 segundo may gumagalaw sa gilid.</string>
+  <string name="mission_help" formatted="false">08 / LAYUNIN SA LIPAD</string>
+  <string name="mission_help_body" formatted="false">Mabuhay nang 30 segundo: +100 puntos. 5 malapit na iwas: +150. Kumuha ng 3 item: +100. Minsan lang ang gantimpala bawat layunin kahit hindi nakikita. Kasama sa kredito ang lahat ng bonus.</string>
+  <string name="challenge_title" formatted="false">LUMIPAD NANG MAY LAYUNIN</string>
+  <string name="challenge_body" formatted="false">Mabuhay 30 segundo · 5 malapit na iwas · 3 item. Tapusin lahat para sa 350 bonus na puntos bawat lipad.</string>
+  <string name="flight_upgrade_title" formatted="false">UPGRADE HABANG LUMILIPAD</string>
+  <string name="flight_upgrade_body" formatted="false">Pumili ng pagbabago para sa natitirang lipad. Nakatigil ang oras habang pumipili. Isang beses lang ang bawat uri.</string>
+  <string name="flight_upgrade_choose" formatted="false">Piliin at magpatuloy</string>
+  <string name="capacitor_body" formatted="false">Amplifier: radius ng pulso 180 → 250. Kapalit: 30% mas mabagal ang kusang recharge. Pareho pa rin ang enerhiya sa item at iwas.</string>
+  <string name="daredevil_body" formatted="false">Matapang: doble ang puntos sa malapit na iwas. Kapalit: pinakamataas na baluti −1; nililimitahan din ang kasalukuyang baluti.</string>
+  <string name="focus_body" formatted="false">Pokus: oras ng combo 5 → 8 segundo. Kapalit: 20% mas maikli ang mga bagong item ng pagbagal.</string>
+  <string name="flight_upgrade_help" formatted="false">Sa 45, 90 at 135 segundo pumili ng upgrade para sa lipad na ito lang, bawat uri minsan. May 3 segundong countdown. Amplifier: mas malawak pero mabagal mag-recharge. Matapang: dobleng puntos pero bawas baluti. Pokus: mahabang combo pero maikling pagbagal.</string>
+  <string name="guide_pickup" formatted="false">HAKBANG 2 / 4 · I-drag papunta sa item para sa epekto at enerhiya.</string>
+  <string name="guide_pulse" formatted="false">HAKBANG 3 / 4 · Gamitin ang PULSO kapag puno para gumawa ng daan.</string>
+  <string name="guide_near" formatted="false">HAKBANG 4 / 4 · Padaanin ang meteor nang malapit pero hindi sumasagi para sa combo.</string>
+  <string name="guide_skip" formatted="false">Naintindihan · Itago ang gabay</string>
+  <string name="next_flight" formatted="false">LAYUNIN SA SUSUNOD NA LIPAD</string>
+  <string name="tip_energy" formatted="false">Handa ang pulso nang matapos. Gamitin bago ka makulong sa susunod na lipad.</string>
+  <string name="tip_survive" formatted="false">Mabuhay nang 30 segundo para sa 100 bonus na puntos. Humanap ng puwang at lumayo sa meteor.</string>
+  <string name="tip_near" formatted="false">Subukan ang 5 malapit na iwas para sa 150 bonus na puntos. Sumugal lang kung may takasan.</string>
+  <string name="tip_combo" formatted="false">Pagsunurin ang 6 malapit na iwas sa oras ng combo para sa bonus ×3.</string>
+  <string name="goal_ready" formatted="false">Kaya mo nang bilhin ang susunod na upgrade. Bisitahin ang hangar.</string>
+  <string name="goal_remaining">Kulang pa ng %1$d kredito para sa pinakamurang susunod na upgrade.</string>
+  <string name="all_upgraded" formatted="false">Pinakamataas na ang upgrade! Subukan ang ibang taktika at lampasan ang rekord.</string>
+  <string name="guide_replay" formatted="false">Maglaro nang may sunod-sunod na gabay</string>
+  <string name="language" formatted="false">Wika</string>
+  <string name="language_system" formatted="false">Gamitin ang wika ng device</string>
+  <string name="language_hint" formatted="false">Piliin ang wika ng screen. Awtomatikong nase-save; mananatili ang progreso.</string>
+  <string name="capacitor_name" formatted="false">Amplifier</string>
+  <string name="daredevil_name" formatted="false">Matapang</string>
+  <string name="focus_name" formatted="false">Pokus</string>
+</resources>

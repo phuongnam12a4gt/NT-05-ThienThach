@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">SCHIVA\nLE METEORE</string>
+  <string name="survival_mode" formatted="false">SOPRAVVIVENZA INFINITA</string>
+  <string name="ship_name" formatted="false">NAVE ESPLORATRICE / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Pronta al decollo</string>
+  <string name="best" formatted="false">RECORD</string>
+  <string name="wallet" formatted="false">CREDITI</string>
+  <string name="play" formatted="false">INIZIA VOLO</string>
+  <string name="upgrades" formatted="false">Potenziamenti nave</string>
+  <string name="settings" formatted="false">Impostazioni</string>
+  <string name="help" formatted="false">Come giocare</string>
+  <string name="offline" formatted="false">OFFLINE · TRASCINA PER SCHIVARE</string>
+  <string name="back" formatted="false">Indietro</string>
+  <string name="home" formatted="false">Home</string>
+  <string name="play_again" formatted="false">Gioca ancora</string>
+  <string name="continue_play" formatted="false">Continua</string>
+  <string name="loading" formatted="false">Caricamento progressi…</string>
+  <string name="loading_hint" formatted="false">Preparazione della nave e del diario di volo.</string>
+  <string name="error_title" formatted="false">Impossibile leggere o salvare i dati</string>
+  <string name="error_body" formatted="false">Controlla lo spazio libero e riprova. I dati più recenti richiedono un aggiornamento. Crediti e potenziamenti si applicano dopo il salvataggio.</string>
+  <string name="retry" formatted="false">Riprova</string>
+  <string name="close" formatted="false">Chiudi</string>
+  <string name="recovered_title" formatted="false">Progressi azzerati</string>
+  <string name="recovered_body" formatted="false">Il file era danneggiato e irrecuperabile. È stato creato un nuovo diario di volo.</string>
+  <string name="understood" formatted="false">Capito</string>
+  <string name="pause" formatted="false">Pausa</string>
+  <string name="paused_title" formatted="false">RIPOSO TRA\nLE STELLE</string>
+  <string name="paused_body" formatted="false">Volo in pausa. Respira e poi continua.</string>
+  <string name="score" formatted="false">PUNTI</string>
+  <string name="armor" formatted="false">CORAZZA</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Scudo %1$d s</string>
+  <string name="slow_timer">◷ Rallentamento %1$d s</string>
+  <string name="tutorial_title" formatted="false">Trascina di lato per schivare le meteore</string>
+  <string name="tutorial_body" formatted="false">PASSO 1 / 4 · Tocca e trascina di lato per iniziare. La nave segue il trascinamento.</string>
+  <string name="drag_hint" formatted="false">← TRASCINA PER PILOTARE →</string>
+  <string name="get_ready" formatted="false">PRONTI AL DECOLLO</string>
+  <string name="abandon_title" formatted="false">Abbandonare il volo?</string>
+  <string name="abandon_body" formatted="false">Questo volo non darà ricompense né record.</string>
+  <string name="keep_playing" formatted="false">Continua a giocare</string>
+  <string name="abandon" formatted="false">Abbandona</string>
+  <string name="mission_end" formatted="false">VOLO TERMINATO</string>
+  <string name="result_title" formatted="false">AL\nPROSSIMO VOLO.</string>
+  <string name="new_record" formatted="false">✦ NUOVO RECORD</string>
+  <string name="final_score" formatted="false">PUNTI DEL VOLO</string>
+  <string name="survival" formatted="false">Tempo di sopravvivenza</string>
+  <string name="collected" formatted="false">Oggetti raccolti</string>
+  <string name="earned" formatted="false">Crediti guadagnati</string>
+  <string name="reward_pending" formatted="false">Salvataggio ricompense…</string>
+  <string name="reward_failed" formatted="false">Ricompense non salvate. Riprova.</string>
+  <string name="retry_save" formatted="false">Riprova salvataggio</string>
+  <string name="result_hint" formatted="false">Ogni volo ti porta più lontano.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">PRONTI AD ANDARE\nPIÙ LONTANO.</string>
+  <string name="upgrades_body" formatted="false">Potenzia una volta. Vantaggi in ogni volo.</string>
+  <string name="armor_name" formatted="false">Scafo rinforzato</string>
+  <string name="shield_name" formatted="false">Generatore di scudi</string>
+  <string name="slow_name" formatted="false">Campo rallentante</string>
+  <string name="level">Livello %1$d / %2$d</string>
+  <string name="armor_effect">Attuale: %1$d corazza massima</string>
+  <string name="shield_effect">Attuale: %1$d secondi di scudo</string>
+  <string name="slow_effect">Attuale: %1$s secondi di rallentamento</string>
+  <string name="armor_next" formatted="false">Prossimo: +1 corazza massima</string>
+  <string name="shield_next" formatted="false">Prossimo: +1 secondo di scudo</string>
+  <string name="slow_next" formatted="false">Prossimo: +0,5 secondi di rallentamento</string>
+  <string name="buy">Potenzia · %1$d crediti</string>
+  <string name="not_enough">Richiede %1$d crediti</string>
+  <string name="max_level" formatted="false">Livello massimo</string>
+  <string name="saving" formatted="false">Salvataggio…</string>
+  <string name="settings_eyebrow" formatted="false">ABITACOLO / OPZIONI</string>
+  <string name="settings_title" formatted="false">GIOCA\nA MODO TUO.</string>
+  <string name="music" formatted="false">Musica</string>
+  <string name="music_hint" formatted="false">Melodie spaziali durante il volo</string>
+  <string name="sound" formatted="false">Effetti sonori</string>
+  <string name="sound_hint" formatted="false">Suoni per raccolte e impatti</string>
+  <string name="vibration" formatted="false">Vibrazione</string>
+  <string name="vibration_hint" formatted="false">Breve vibrazione quando nave o scudo sono colpiti</string>
+  <string name="reduced_motion" formatted="false">Riduci movimento</string>
+  <string name="reduced_motion_hint" formatted="false">Ferma le stelle e riduce le particelle</string>
+  <string name="reset" formatted="false">Azzera progressi</string>
+  <string name="reset_title" formatted="false">Cancellare il diario di volo?</string>
+  <string name="reset_body" formatted="false">Crediti, record, potenziamenti e tutorial saranno cancellati. Audio, movimento e lingua restano. Operazione irreversibile.</string>
+  <string name="cancel" formatted="false">Annulla</string>
+  <string name="privacy" formatted="false">Dati su questo dispositivo. Niente account, pubblicità o Internet.</string>
+  <string name="help_eyebrow" formatted="false">ACCADEMIA PILOTI</string>
+  <string name="help_title" formatted="false">BASTA\nUN DITO.</string>
+  <string name="help_controls" formatted="false">01 / COMANDI</string>
+  <string name="help_controls_body" formatted="false">Trascina di lato nell’area di gioco. La nave segue la distanza trascinata senza saltare al tocco. Schiva le meteore; movimento solo orizzontale.</string>
+  <string name="help_survive" formatted="false">02 / SOPRAVVIVENZA</string>
+  <string name="help_survive_body" formatted="false">Ogni impatto costa 1 corazza. A zero finisce il volo. Dopo un colpo la nave lampeggia ed è invulnerabile per 1,2 secondi. La difficoltà sale ogni 20 secondi.</string>
+  <string name="help_items" formatted="false">03 / RIFORNIMENTI</string>
+  <string name="help_shield" formatted="false">◇ Scudo: blocca un impatto; dura 8 secondi.</string>
+  <string name="help_repair" formatted="false">+ Riparazione: recupera 1 corazza, fino al massimo.</string>
+  <string name="help_slow" formatted="false">◷ Rallentamento: meteore al 60% della velocità per 5 secondi.</string>
+  <string name="help_rewards" formatted="false">04 / RICOMPENSE DI VOLO</string>
+  <string name="help_rewards_body" formatted="false">Sopravvivenza: 10 punti/secondo. Oggetti: 25 punti ciascuno. Ogni 20 punti finali danno 1 credito per potenziare la nave. Abbandonare non dà ricompense.</string>
+  <string name="help_accessibility" formatted="false">Richiede osservazione e trascinamento in tempo reale.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSIONE 1.3 / 20 LINGUE</string>
+  <string name="new_tagline" formatted="false">Sfiora le meteore per creare combo. Scappa con un impulso e supera il record.</string>
+  <string name="pulse_ready" formatted="false">IMPULSO</string>
+  <string name="pulse_charging">ENERGIA %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Elimina le meteore vicine a energia piena</string>
+  <string name="combo_status">COMBO %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">PIOGGIA DI METEORE · %1$d</string>
+  <string name="notice_near">PER UN SOFFIO! +%1$d</string>
+  <string name="notice_pickup">RIFORNIMENTI! +%1$d</string>
+  <string name="notice_hit" formatted="false">COLPITO! −1 CORAZZA</string>
+  <string name="notice_shield" formatted="false">LO SCUDO HA BLOCCATO IL COLPO</string>
+  <string name="notice_pulse" formatted="false">IMPULSO ENERGETICO!</string>
+  <string name="notice_wave" formatted="false">OSSERVA LE CORSIE DI ALLARME</string>
+  <string name="notice_mission">OBIETTIVO COMPLETATO! +%1$d</string>
+  <string name="mission_survive">Sopravvivi %1$d/30 s · +100 punti</string>
+  <string name="mission_near">Schivate ravvicinate %1$d/5 · +150 punti</string>
+  <string name="mission_items">Oggetti %1$d/3 · +100 punti</string>
+  <string name="mission_all" formatted="false">TUTTI I 3/3 OBIETTIVI COMPLETATI</string>
+  <string name="stat_near" formatted="false">Schivate ravvicinate</string>
+  <string name="stat_combo" formatted="false">Combo migliore</string>
+  <string name="stat_pulse" formatted="false">Impulsi usati</string>
+  <string name="stat_bonus" formatted="false">Punti abilità bonus</string>
+  <string name="stat_missions" formatted="false">Obiettivi completati</string>
+  <string name="new_mechanics" formatted="false">05 / RISCHIO E RICOMPENSA</string>
+  <string name="new_mechanics_body" formatted="false">Sfiora una meteora senza toccarla per punti ed energia. Concatena entro 5 secondi. Combo 3 e 6 danno ×2 e ×3. Colpi alla corazza o tempo scaduto spezzano la combo. Punti tempo e oggetti non vengono moltiplicati.</string>
+  <string name="pulse_help" formatted="false">06 / IMPULSO ENERGETICO</string>
+  <string name="pulse_help_body" formatted="false">A energia piena elimina meteore entro raggio 180 e protegge per 0,6 secondi. Parti a energia piena; ricarica 3/secondo, 12 per schivata vicina e 20 per oggetto. Distruggere meteore non dà punti schivata.</string>
+  <string name="wave_help" formatted="false">07 / ALLARMI</string>
+  <string name="wave_help_body" formatted="false">Dal secondo 12 piove ogni 18 secondi, con avviso di 1,6 secondi. Arancione: pericolo; ciano: varco. Vecchie meteore possono ancora occuparlo. Dopo 20 secondi alcune si muovono lateralmente.</string>
+  <string name="mission_help" formatted="false">08 / OBIETTIVI DI VOLO</string>
+  <string name="mission_help_body" formatted="false">Sopravvivi 30 secondi: +100 punti. Sfiora 5 meteore: +150. Raccogli 3 oggetti: +100. Ogni obiettivo premia una volta, anche se non visibile. I crediti includono tutti i bonus.</string>
+  <string name="challenge_title" formatted="false">VOLA CON UNO SCOPO</string>
+  <string name="challenge_body" formatted="false">30 secondi di sopravvivenza · 5 schivate vicine · 3 oggetti. Completa tutto per 350 punti extra a volo.</string>
+  <string name="flight_upgrade_title" formatted="false">POTENZIAMENTI IN VOLO</string>
+  <string name="flight_upgrade_body" formatted="false">Scegli un cambiamento per il resto del volo. Il tempo è fermo mentre decidi. Ogni tipo si sceglie una volta.</string>
+  <string name="flight_upgrade_choose" formatted="false">Scegli e continua</string>
+  <string name="capacitor_body" formatted="false">Amplificatore: raggio impulso 180 → 250. Svantaggio: ricarica passiva più lenta del 30%. Energia da oggetti e schivate invariata.</string>
+  <string name="daredevil_body" formatted="false">Temerario: punti schivata ravvicinata raddoppiati. Svantaggio: corazza massima −1; quella attuale si limita al nuovo massimo.</string>
+  <string name="focus_body" formatted="false">Concentrazione: finestra combo 5 → 8 secondi. Svantaggio: i nuovi rallentamenti durano il 20% in meno.</string>
+  <string name="flight_upgrade_help" formatted="false">A 45, 90 e 135 secondi scegli un potenziamento solo per quel volo, ogni tipo una volta. Poi conto alla rovescia di 3 secondi. Amplificatore: più raggio e meno ricarica. Temerario: doppi punti e meno corazza. Concentrazione: combo più lunga e rallentamento più breve.</string>
+  <string name="guide_pickup" formatted="false">PASSO 2 / 4 · Trascina verso un oggetto per effetti ed energia.</string>
+  <string name="guide_pulse" formatted="false">PASSO 3 / 4 · Usa IMPULSO a energia piena per aprire un varco.</string>
+  <string name="guide_near" formatted="false">PASSO 4 / 4 · Fai passare una meteora vicina senza toccare la nave per una combo.</string>
+  <string name="guide_skip" formatted="false">Capito · Nascondi guida</string>
+  <string name="next_flight" formatted="false">OBIETTIVO DEL PROSSIMO VOLO</string>
+  <string name="tip_energy" formatted="false">Hai concluso con impulso pronto. Usalo prima di finire in trappola nel prossimo volo.</string>
+  <string name="tip_survive" formatted="false">Sopravvivi 30 secondi per 100 punti bonus. Cerca spazio e mantieni le distanze.</string>
+  <string name="tip_near" formatted="false">Prova 5 schivate vicine per 150 punti bonus. Rischia solo con una via di fuga.</string>
+  <string name="tip_combo" formatted="false">Concatena 6 schivate vicine entro il tempo combo per bonus ×3.</string>
+  <string name="goal_ready" formatted="false">Puoi comprare il prossimo potenziamento. Visita l’hangar.</string>
+  <string name="goal_remaining">Mancano %1$d crediti al prossimo potenziamento meno costoso.</string>
+  <string name="all_upgraded" formatted="false">Nave al massimo! Prova un’altra strategia e supera il record.</string>
+  <string name="guide_replay" formatted="false">Gioca con guida passo passo</string>
+  <string name="language" formatted="false">Lingua</string>
+  <string name="language_system" formatted="false">Usa lingua del dispositivo</string>
+  <string name="language_hint" formatted="false">Scegli la lingua visualizzata. Salvataggio automatico; progressi mantenuti.</string>
+  <string name="capacitor_name" formatted="false">Amplificatore</string>
+  <string name="daredevil_name" formatted="false">Temerario</string>
+  <string name="focus_name" formatted="false">Concentrazione</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">UNIKAJ\nMETEORÓW</string>
+  <string name="survival_mode" formatted="false">NIESKOŃCZONE PRZETRWANIE</string>
+  <string name="ship_name" formatted="false">STATEK ZWIADOWCZY / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Gotowy do startu</string>
+  <string name="best" formatted="false">REKORD</string>
+  <string name="wallet" formatted="false">KREDYTY</string>
+  <string name="play" formatted="false">ROZPOCZNIJ LOT</string>
+  <string name="upgrades" formatted="false">Ulepszenia statku</string>
+  <string name="settings" formatted="false">Ustawienia</string>
+  <string name="help" formatted="false">Jak grać</string>
+  <string name="offline" formatted="false">OFFLINE · PRZECIĄGAJ, ABY UNIKAĆ</string>
+  <string name="back" formatted="false">Wstecz</string>
+  <string name="home" formatted="false">Strona główna</string>
+  <string name="play_again" formatted="false">Zagraj ponownie</string>
+  <string name="continue_play" formatted="false">Kontynuuj</string>
+  <string name="loading" formatted="false">Wczytywanie postępu…</string>
+  <string name="loading_hint" formatted="false">Przygotowywanie statku i dziennika lotu.</string>
+  <string name="error_title" formatted="false">Nie można odczytać lub zapisać danych</string>
+  <string name="error_body" formatted="false">Sprawdź wolne miejsce i spróbuj ponownie. Nowsze dane wymagają aktualizacji gry. Kredyty i ulepszenia działają po zapisie.</string>
+  <string name="retry" formatted="false">Spróbuj ponownie</string>
+  <string name="close" formatted="false">Zamknij</string>
+  <string name="recovered_title" formatted="false">Postęp zresetowany</string>
+  <string name="recovered_body" formatted="false">Uszkodzony plik był nie do odzyskania. Utworzono nowy dziennik lotu.</string>
+  <string name="understood" formatted="false">Rozumiem</string>
+  <string name="pause" formatted="false">Pauza</string>
+  <string name="paused_title" formatted="false">ODPOCZYNEK\nWŚRÓD GWIAZD</string>
+  <string name="paused_body" formatted="false">Lot wstrzymany. Odetchnij i leć dalej.</string>
+  <string name="score" formatted="false">PUNKTY</string>
+  <string name="armor" formatted="false">PANCERZ</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Osłona %1$d s</string>
+  <string name="slow_timer">◷ Spowolnienie %1$d s</string>
+  <string name="tutorial_title" formatted="false">Przeciągaj na boki, by omijać meteory</string>
+  <string name="tutorial_body" formatted="false">KROK 1 / 4 · Dotknij i przeciągnij w bok, aby zacząć. Statek podąża za ruchem palca.</string>
+  <string name="drag_hint" formatted="false">← PRZECIĄGAJ, ABY STEROWAĆ →</string>
+  <string name="get_ready" formatted="false">GOTOWOŚĆ DO STARTU</string>
+  <string name="abandon_title" formatted="false">Porzucić ten lot?</string>
+  <string name="abandon_body" formatted="false">Ten lot nie przyniesie nagród ani rekordów.</string>
+  <string name="keep_playing" formatted="false">Graj dalej</string>
+  <string name="abandon" formatted="false">Porzuć</string>
+  <string name="mission_end" formatted="false">KONIEC LOTU</string>
+  <string name="result_title" formatted="false">DO ZOBACZENIA\nW NASTĘPNYM LOCIE.</string>
+  <string name="new_record" formatted="false">✦ NOWY REKORD</string>
+  <string name="final_score" formatted="false">WYNIK LOTU</string>
+  <string name="survival" formatted="false">Czas przetrwania</string>
+  <string name="collected" formatted="false">Zebrane przedmioty</string>
+  <string name="earned" formatted="false">Zdobyte kredyty</string>
+  <string name="reward_pending" formatted="false">Zapisywanie nagród…</string>
+  <string name="reward_failed" formatted="false">Nagrody niezapisane. Spróbuj ponownie.</string>
+  <string name="retry_save" formatted="false">Ponów zapis</string>
+  <string name="result_hint" formatted="false">Każdy lot prowadzi dalej.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">GOTOWOŚĆ\nNA DALSZY LOT.</string>
+  <string name="upgrades_body" formatted="false">Ulepsz raz. Korzystaj w każdym locie.</string>
+  <string name="armor_name" formatted="false">Wzmocniony kadłub</string>
+  <string name="shield_name" formatted="false">Generator osłony</string>
+  <string name="slow_name" formatted="false">Pole spowolnienia</string>
+  <string name="level">Poziom %1$d / %2$d</string>
+  <string name="armor_effect">Teraz: maksymalny pancerz %1$d</string>
+  <string name="shield_effect">Teraz: osłona %1$d s</string>
+  <string name="slow_effect">Teraz: spowolnienie %1$s s</string>
+  <string name="armor_next" formatted="false">Dalej: +1 maksymalnego pancerza</string>
+  <string name="shield_next" formatted="false">Dalej: +1 s osłony</string>
+  <string name="slow_next" formatted="false">Dalej: +0,5 s spowolnienia</string>
+  <string name="buy">Ulepsz · %1$d kredytów</string>
+  <string name="not_enough">Wymagane kredyty: %1$d</string>
+  <string name="max_level" formatted="false">Poziom maksymalny</string>
+  <string name="saving" formatted="false">Zapisywanie…</string>
+  <string name="settings_eyebrow" formatted="false">KOKPIT / OPCJE</string>
+  <string name="settings_title" formatted="false">GRAJ\nPO SWOJEMU.</string>
+  <string name="music" formatted="false">Muzyka</string>
+  <string name="music_hint" formatted="false">Kosmiczne melodie podczas lotu</string>
+  <string name="sound" formatted="false">Efekty dźwiękowe</string>
+  <string name="sound_hint" formatted="false">Dźwięki zbierania i trafień</string>
+  <string name="vibration" formatted="false">Wibracje</string>
+  <string name="vibration_hint" formatted="false">Krótkie wibracje po trafieniu statku lub osłony</string>
+  <string name="reduced_motion" formatted="false">Ogranicz ruch</string>
+  <string name="reduced_motion_hint" formatted="false">Zatrzymaj gwiazdy i zmniejsz liczbę cząsteczek</string>
+  <string name="reset" formatted="false">Resetuj postęp</string>
+  <string name="reset_title" formatted="false">Usunąć dziennik lotu?</string>
+  <string name="reset_body" formatted="false">Kredyty, rekordy, ulepszenia i samouczek zostaną usunięte. Dźwięk, ruch i język pozostaną. Tej operacji nie można cofnąć.</string>
+  <string name="cancel" formatted="false">Anuluj</string>
+  <string name="privacy" formatted="false">Dane na tym urządzeniu. Bez konta, reklam i Internetu.</string>
+  <string name="help_eyebrow" formatted="false">AKADEMIA PILOTÓW</string>
+  <string name="help_title" formatted="false">WYSTARCZY\nJEDEN PALEC.</string>
+  <string name="help_controls" formatted="false">01 / STEROWANIE</string>
+  <string name="help_controls_body" formatted="false">Przeciągaj w bok w obszarze gry. Statek podąża za odległością przeciągnięcia, nie przeskakuje do dotknięcia. Omijaj meteory; ruch tylko poziomy.</string>
+  <string name="help_survive" formatted="false">02 / PRZETRWANIE</string>
+  <string name="help_survive_body" formatted="false">Trafienie zabiera 1 pancerza. Przy zerze lot się kończy. Po trafieniu statek miga i jest nietykalny przez 1,2 s. Trudność rośnie co 20 s.</string>
+  <string name="help_items" formatted="false">03 / ZAOPATRZENIE</string>
+  <string name="help_shield" formatted="false">◇ Osłona: blokuje jedno trafienie; trwa 8 s.</string>
+  <string name="help_repair" formatted="false">+ Naprawa: przywraca 1 pancerza, do maksimum.</string>
+  <string name="help_slow" formatted="false">◷ Spowolnienie: meteory lecą z 60% prędkości przez 5 s.</string>
+  <string name="help_rewards" formatted="false">04 / NAGRODY ZA LOT</string>
+  <string name="help_rewards_body" formatted="false">Przetrwanie: 10 punktów/s. Przedmioty: po 25 punktów. Każde 20 końcowych punktów daje 1 kredyt na ulepszenia. Porzucenie lotu nic nie daje.</string>
+  <string name="help_accessibility" formatted="false">Wymaga obserwacji i przeciągania w czasie rzeczywistym.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">WERSJA 1.3 / 20 JĘZYKÓW</string>
+  <string name="new_tagline" formatted="false">Mijaj meteory tuż obok, by budować serie. Uciekaj impulsem i pobij rekord.</string>
+  <string name="pulse_ready" formatted="false">IMPULS</string>
+  <string name="pulse_charging">ENERGIA %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Usuwaj pobliskie meteory przy pełnej energii</string>
+  <string name="combo_status">SERIA %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">DESZCZ METEORÓW · %1$d</string>
+  <string name="notice_near">O WŁOS! +%1$d</string>
+  <string name="notice_pickup">ZAOPATRZENIE! +%1$d</string>
+  <string name="notice_hit" formatted="false">TRAFIENIE! −1 PANCERZA</string>
+  <string name="notice_shield" formatted="false">OSŁONA ZABLOKOWAŁA TRAFIENIE</string>
+  <string name="notice_pulse" formatted="false">IMPULS ENERGII!</string>
+  <string name="notice_wave" formatted="false">PATRZ NA OSTRZEGANE PASY</string>
+  <string name="notice_mission">CEL OSIĄGNIĘTY! +%1$d</string>
+  <string name="mission_survive">Przetrwaj %1$d/30 s · +100 punktów</string>
+  <string name="mission_near">Minięcia o włos %1$d/5 · +150 punktów</string>
+  <string name="mission_items">Przedmioty %1$d/3 · +100 punktów</string>
+  <string name="mission_all" formatted="false">WSZYSTKIE 3/3 CELE OSIĄGNIĘTE</string>
+  <string name="stat_near" formatted="false">Minięcia o włos</string>
+  <string name="stat_combo" formatted="false">Najlepsza seria</string>
+  <string name="stat_pulse" formatted="false">Użyte impulsy</string>
+  <string name="stat_bonus" formatted="false">Premia za umiejętności</string>
+  <string name="stat_missions" formatted="false">Osiągnięte cele</string>
+  <string name="new_mechanics" formatted="false">05 / RYZYKO I NAGRODA</string>
+  <string name="new_mechanics_body" formatted="false">Miń meteor blisko bez dotykania, by zdobyć punkty i energię. Łącz minięcia w ciągu 5 s. Serie 3 i 6 dają ×2 i ×3. Trafienie pancerza lub upływ czasu przerywa serię. Punkty za czas i przedmioty nie są mnożone.</string>
+  <string name="pulse_help" formatted="false">06 / IMPULS ENERGII</string>
+  <string name="pulse_help_body" formatted="false">Przy pełnej energii usuwa meteory w promieniu 180 i chroni przez 0,6 s. Start z pełną energią; regeneracja 3/s, 12 za minięcie i 20 za przedmiot. Zniszczenia nie dają punktów minięcia.</string>
+  <string name="wave_help" formatted="false">07 / OSTRZEŻENIA</string>
+  <string name="wave_help_body" formatted="false">Od 12. sekundy deszcz co 18 s, z ostrzeżeniem 1,6 s. Pomarańczowy: zagrożenie; turkusowy: luka. Starsze meteory mogą w niej pozostać. Po 20 s część porusza się na boki.</string>
+  <string name="mission_help" formatted="false">08 / CELE LOTU</string>
+  <string name="mission_help_body" formatted="false">Przetrwaj 30 s: +100 punktów. Miń blisko 5 meteorów: +150. Zbierz 3 przedmioty: +100. Każdy cel nagradza raz, nawet gdy niewidoczny. Kredyty obejmują wszystkie premie.</string>
+  <string name="challenge_title" formatted="false">LEĆ Z CELEM</string>
+  <string name="challenge_body" formatted="false">Przetrwaj 30 s · 5 minięć o włos · 3 przedmioty. Wykonaj wszystko, by zdobyć 350 punktów premii.</string>
+  <string name="flight_upgrade_title" formatted="false">ULEPSZENIA W LOCIE</string>
+  <string name="flight_upgrade_body" formatted="false">Wybierz zmianę na resztę lotu. Podczas wyboru czas stoi. Każdy typ można wybrać raz.</string>
+  <string name="flight_upgrade_choose" formatted="false">Wybierz i kontynuuj</string>
+  <string name="capacitor_body" formatted="false">Wzmacniacz: promień impulsu 180 → 250. Koszt: pasywna regeneracja wolniejsza o 30%. Energia za przedmioty i minięcia bez zmian.</string>
+  <string name="daredevil_body" formatted="false">Ryzykant: podwójne punkty za minięcia o włos. Koszt: maksymalny pancerz −1; obecny zostaje ograniczony do nowego maksimum.</string>
+  <string name="focus_body" formatted="false">Skupienie: okno serii 5 → 8 s. Koszt: nowo zebrane spowolnienia trwają o 20% krócej.</string>
+  <string name="flight_upgrade_help" formatted="false">W 45., 90. i 135. sekundzie wybierz ulepszenie tylko na ten lot, każdy typ raz. Potem 3 s odliczania. Wzmacniacz: większy promień i wolniejsza regeneracja. Ryzykant: podwójne punkty i mniej pancerza. Skupienie: dłuższa seria i krótsze spowolnienie.</string>
+  <string name="guide_pickup" formatted="false">KROK 2 / 4 · Zbierz przedmiot, by dostać efekt i energię.</string>
+  <string name="guide_pulse" formatted="false">KROK 3 / 4 · Użyj IMPULSU przy pełnej energii, by otworzyć drogę.</string>
+  <string name="guide_near" formatted="false">KROK 4 / 4 · Pozwól meteorowi minąć statek blisko bez dotykania, by zacząć serię.</string>
+  <string name="guide_skip" formatted="false">Rozumiem · Ukryj poradnik</string>
+  <string name="next_flight" formatted="false">CEL NASTĘPNEGO LOTU</string>
+  <string name="tip_energy" formatted="false">Na końcu impuls był gotowy. Następnym razem użyj go przed osaczeniem.</string>
+  <string name="tip_survive" formatted="false">Przetrwaj 30 s, by zdobyć 100 punktów premii. Szukaj luk i zachowaj dystans.</string>
+  <string name="tip_near" formatted="false">Spróbuj 5 minięć o włos dla 150 punktów premii. Ryzykuj tylko z drogą ucieczki.</string>
+  <string name="tip_combo" formatted="false">Połącz 6 minięć w oknie serii dla bonusu ×3.</string>
+  <string name="goal_ready" formatted="false">Stać cię na kolejne ulepszenie. Odwiedź hangar.</string>
+  <string name="goal_remaining">Brakuje %1$d kredytów do najtańszego kolejnego ulepszenia.</string>
+  <string name="all_upgraded" formatted="false">Statek w pełni ulepszony! Wypróbuj inną strategię i pobij rekord.</string>
+  <string name="guide_replay" formatted="false">Graj z poradnikiem krok po kroku</string>
+  <string name="language" formatted="false">Język</string>
+  <string name="language_system" formatted="false">Użyj języka urządzenia</string>
+  <string name="language_hint" formatted="false">Wybierz język. Zapis automatyczny; postęp gry pozostaje bez zmian.</string>
+  <string name="capacitor_name" formatted="false">Wzmacniacz</string>
+  <string name="daredevil_name" formatted="false">Ryzykant</string>
+  <string name="focus_name" formatted="false">Skupienie</string>
+</resources>

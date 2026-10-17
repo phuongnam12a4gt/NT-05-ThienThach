@@ -54,3 +54,7 @@ Cần playtest cân bằng và đo FPS/bộ nhớ trên thiết bị thật; kh�
 ## Bản 1.2
 
 Thêm ba lựa chọn chiến thuật trong lượt tại mốc 45/90/135 giây, hướng dẫn theo hành động có thể chơi lại, mục tiêu và gợi ý ở màn kết quả. Xem [METEOR_DASH_UPGRADE_v1.2.md](METEOR_DASH_UPGRADE_v1.2.md) để biết lợi ích/đánh đổi và kết quả xác minh mới nhất (59 test đạt).
+
+## Bản 1.3 — 20 ngôn ngữ
+
+Chọn ngôn ngữ từ nút 🌐 trên trang chủ hoặc Cài đặt. Tự theo thiết bị hoặc chọn thủ công; lưu qua lần mở app, hỗ trợ RTL, dùng offline và giữ tiến trình. Xem [METEOR_DASH_UPGRADE_v1.3.md](METEOR_DASH_UPGRADE_v1.3.md) để biết danh sách 20 thị trường, cách cập nhật bản dịch và xác minh mới nhất (63 unit test đạt, kiểm tra giao diện 20 locale trên điện thoại).

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">เมเทออร์แดช</string>
+  <string name="title" formatted="false">หลบ\nอุกกาบาต</string>
+  <string name="survival_mode" formatted="false">เอาชีวิตรอดไม่สิ้นสุด</string>
+  <string name="ship_name" formatted="false">ยานสำรวจ / NOVA–01</string>
+  <string name="ship_ready" formatted="false">พร้อมออกบิน</string>
+  <string name="best" formatted="false">สถิติสูงสุด</string>
+  <string name="wallet" formatted="false">เครดิต</string>
+  <string name="play" formatted="false">เริ่มบิน</string>
+  <string name="upgrades" formatted="false">อัปเกรดยาน</string>
+  <string name="settings" formatted="false">ตั้งค่า</string>
+  <string name="help" formatted="false">วิธีเล่น</string>
+  <string name="offline" formatted="false">เล่นออฟไลน์ · ลากเพื่อหลบ</string>
+  <string name="back" formatted="false">ย้อนกลับ</string>
+  <string name="home" formatted="false">หน้าหลัก</string>
+  <string name="play_again" formatted="false">เล่นอีกครั้ง</string>
+  <string name="continue_play" formatted="false">เล่นต่อ</string>
+  <string name="loading" formatted="false">กำลังโหลดความคืบหน้า…</string>
+  <string name="loading_hint" formatted="false">กำลังเตรียมยานและบันทึกการบิน</string>
+  <string name="error_title" formatted="false">ไม่สามารถอ่านหรือบันทึกข้อมูล</string>
+  <string name="error_body" formatted="false">ตรวจสอบพื้นที่ว่างแล้วลองใหม่ ข้อมูลจากรุ่นใหม่กว่าต้องอัปเดตแอป เครดิตและการอัปเกรดมีผลหลังบันทึกสำเร็จ</string>
+  <string name="retry" formatted="false">ลองใหม่</string>
+  <string name="close" formatted="false">ปิด</string>
+  <string name="recovered_title" formatted="false">รีเซ็ตความคืบหน้าแล้ว</string>
+  <string name="recovered_body" formatted="false">ไฟล์เสียหายและกู้คืนไม่ได้ จึงสร้างบันทึกการบินใหม่</string>
+  <string name="understood" formatted="false">เข้าใจแล้ว</string>
+  <string name="pause" formatted="false">หยุดพัก</string>
+  <string name="paused_title" formatted="false">พักท่ามกลาง\nดวงดาว</string>
+  <string name="paused_body" formatted="false">หยุดบินชั่วคราว หายใจสักนิดแล้วไปต่อ</string>
+  <string name="score" formatted="false">คะแนน</string>
+  <string name="armor" formatted="false">เกราะ</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ โล่ %1$d วิ</string>
+  <string name="slow_timer">◷ ชะลอ %1$d วิ</string>
+  <string name="tutorial_title" formatted="false">ลากไปด้านข้างเพื่อหลบอุกกาบาต</string>
+  <string name="tutorial_body" formatted="false">ขั้น 1 / 4 · แตะแล้วลากด้านข้างเพื่อเริ่ม ยานจะเคลื่อนตามระยะที่ลาก</string>
+  <string name="drag_hint" formatted="false">← ลากเพื่อบังคับ →</string>
+  <string name="get_ready" formatted="false">เตรียมออกบิน</string>
+  <string name="abandon_title" formatted="false">ยกเลิกเที่ยวบินนี้หรือไม่?</string>
+  <string name="abandon_body" formatted="false">เที่ยวบินนี้จะไม่ได้รางวัลหรือสถิติ</string>
+  <string name="keep_playing" formatted="false">เล่นต่อไป</string>
+  <string name="abandon" formatted="false">ยกเลิกเที่ยวบิน</string>
+  <string name="mission_end" formatted="false">จบเที่ยวบิน</string>
+  <string name="result_title" formatted="false">พบกันใน\nเที่ยวบินหน้า</string>
+  <string name="new_record" formatted="false">✦ สถิติใหม่</string>
+  <string name="final_score" formatted="false">คะแนนเที่ยวบิน</string>
+  <string name="survival" formatted="false">เวลาที่รอด</string>
+  <string name="collected" formatted="false">ไอเทมที่เก็บ</string>
+  <string name="earned" formatted="false">เครดิตที่ได้รับ</string>
+  <string name="reward_pending" formatted="false">กำลังบันทึกรางวัล…</string>
+  <string name="reward_failed" formatted="false">ยังไม่ได้บันทึกรางวัล โปรดลองใหม่</string>
+  <string name="retry_save" formatted="false">ลองบันทึกใหม่</string>
+  <string name="result_hint" formatted="false">ทุกเที่ยวบินพาคุณไปไกลขึ้น</string>
+  <string name="hangar" formatted="false">โรงเก็บยาน / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">พร้อมไป\nให้ไกลกว่าเดิม</string>
+  <string name="upgrades_body" formatted="false">อัปเกรดครั้งเดียว ใช้ได้ทุกเที่ยวบิน</string>
+  <string name="armor_name" formatted="false">ตัวยานเสริมแกร่ง</string>
+  <string name="shield_name" formatted="false">เครื่องสร้างโล่</string>
+  <string name="slow_name" formatted="false">สนามชะลอ</string>
+  <string name="level">ระดับ %1$d / %2$d</string>
+  <string name="armor_effect">ปัจจุบัน: เกราะสูงสุด %1$d</string>
+  <string name="shield_effect">ปัจจุบัน: โล่ %1$d วินาที</string>
+  <string name="slow_effect">ปัจจุบัน: ชะลอ %1$s วินาที</string>
+  <string name="armor_next" formatted="false">ถัดไป: เกราะสูงสุด +1</string>
+  <string name="shield_next" formatted="false">ถัดไป: โล่ +1 วินาที</string>
+  <string name="slow_next" formatted="false">ถัดไป: ชะลอ +0.5 วินาที</string>
+  <string name="buy">อัปเกรด · %1$d เครดิต</string>
+  <string name="not_enough">ต้องใช้ %1$d เครดิต</string>
+  <string name="max_level" formatted="false">ระดับสูงสุดแล้ว</string>
+  <string name="saving" formatted="false">กำลังบันทึก…</string>
+  <string name="settings_eyebrow" formatted="false">ห้องนักบิน / ตัวเลือก</string>
+  <string name="settings_title" formatted="false">เล่นในแบบ\nของคุณ</string>
+  <string name="music" formatted="false">เพลง</string>
+  <string name="music_hint" formatted="false">ทำนองอวกาศระหว่างบิน</string>
+  <string name="sound" formatted="false">เสียงเอฟเฟกต์</string>
+  <string name="sound_hint" formatted="false">เสียงเก็บของและถูกชน</string>
+  <string name="vibration" formatted="false">การสั่น</string>
+  <string name="vibration_hint" formatted="false">สั่นสั้นเมื่อยานหรือโล่ถูกชน</string>
+  <string name="reduced_motion" formatted="false">ลดการเคลื่อนไหว</string>
+  <string name="reduced_motion_hint" formatted="false">หยุดดาวเคลื่อนและลดอนุภาค</string>
+  <string name="reset" formatted="false">รีเซ็ตความคืบหน้า</string>
+  <string name="reset_title" formatted="false">ลบบันทึกการบินหรือไม่?</string>
+  <string name="reset_body" formatted="false">เครดิต สถิติ อัปเกรด และบทสอนจะถูกลบ การตั้งค่าเสียง การเคลื่อนไหว และภาษายังคงอยู่ ย้อนกลับไม่ได้</string>
+  <string name="cancel" formatted="false">ยกเลิก</string>
+  <string name="privacy" formatted="false">ข้อมูลอยู่ในเครื่องนี้ ไม่ต้องมีบัญชี โฆษณา หรืออินเทอร์เน็ต</string>
+  <string name="help_eyebrow" formatted="false">โรงเรียนนักบิน</string>
+  <string name="help_title" formatted="false">เพียง\nนิ้วเดียว</string>
+  <string name="help_controls" formatted="false">01 / การควบคุม</string>
+  <string name="help_controls_body" formatted="false">ลากด้านข้างในพื้นที่เล่น ยานเคลื่อนตามระยะลาก ไม่กระโดดไปจุดแตะ หลบอุกกาบาตที่ตกลงมา เคลื่อนได้แนวนอนเท่านั้น</string>
+  <string name="help_survive" formatted="false">02 / เอาชีวิตรอด</string>
+  <string name="help_survive_body" formatted="false">ถูกชนเสียเกราะ 1 เมื่อเหลือศูนย์จะจบเที่ยวบิน หลังถูกชนยานกะพริบและอมตะ 1.2 วินาที ความยากเพิ่มทุก 20 วินาที</string>
+  <string name="help_items" formatted="false">03 / เสบียง</string>
+  <string name="help_shield" formatted="false">◇ โล่: กันการชนหนึ่งครั้ง อยู่ได้ 8 วินาที</string>
+  <string name="help_repair" formatted="false">+ ซ่อม: ฟื้นเกราะ 1 ไม่เกินค่าสูงสุด</string>
+  <string name="help_slow" formatted="false">◷ ชะลอ: อุกกาบาตเหลือความเร็ว 60% นาน 5 วินาที</string>
+  <string name="help_rewards" formatted="false">04 / รางวัลเที่ยวบิน</string>
+  <string name="help_rewards_body" formatted="false">รอดชีวิตได้ 10 คะแนน/วินาที ไอเทมชิ้นละ 25 คะแนน ทุก 20 คะแนนสุดท้ายได้ 1 เครดิตอัปเกรด ยกเลิกเที่ยวบินไม่ได้รางวัล</string>
+  <string name="help_accessibility" formatted="false">ต้องสังเกตและลากควบคุมแบบเรียลไทม์</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">รุ่น 1.3 / 20 ภาษา</string>
+  <string name="new_tagline" formatted="false">เฉียดอุกกาบาตเพื่อสะสมคอมโบ ใช้พัลส์หนีและทำลายสถิติ</string>
+  <string name="pulse_ready" formatted="false">พัลส์</string>
+  <string name="pulse_charging">พลังงาน %1$d/100</string>
+  <string name="pulse_hint" formatted="false">กำจัดอุกกาบาตใกล้ตัวเมื่อพลังงานเต็ม</string>
+  <string name="combo_status">คอมโบ %1$d · โบนัส ×%2$d · %3$d วิ</string>
+  <string name="wave_warning">ฝนอุกกาบาต · %1$d</string>
+  <string name="notice_near">หลบเฉียด! +%1$d</string>
+  <string name="notice_pickup">เสบียง! +%1$d</string>
+  <string name="notice_hit" formatted="false">ถูกชน! เกราะ −1</string>
+  <string name="notice_shield" formatted="false">โล่กันการชนแล้ว</string>
+  <string name="notice_pulse" formatted="false">พัลส์พลังงาน!</string>
+  <string name="notice_wave" formatted="false">ดูช่องทางที่เตือน</string>
+  <string name="notice_mission">สำเร็จเป้าหมาย! +%1$d</string>
+  <string name="mission_survive">รอดชีวิต %1$d/30 วิ · +100 คะแนน</string>
+  <string name="mission_near">หลบเฉียด %1$d/5 ครั้ง · +150 คะแนน</string>
+  <string name="mission_items">ไอเทม %1$d/3 ชิ้น · +100 คะแนน</string>
+  <string name="mission_all" formatted="false">สำเร็จครบ 3/3 เป้าหมาย</string>
+  <string name="stat_near" formatted="false">ครั้งที่หลบเฉียด</string>
+  <string name="stat_combo" formatted="false">คอมโบสูงสุด</string>
+  <string name="stat_pulse" formatted="false">พัลส์ที่ใช้</string>
+  <string name="stat_bonus" formatted="false">คะแนนโบนัสทักษะ</string>
+  <string name="stat_missions" formatted="false">เป้าหมายที่สำเร็จ</string>
+  <string name="new_mechanics" formatted="false">05 / เสี่ยงเพื่อรางวัล</string>
+  <string name="new_mechanics_body" formatted="false">เฉียดอุกกาบาตโดยไม่ชนเพื่อรับคะแนนและพลังงาน ต่อเนื่องภายใน 5 วินาทีเป็นคอมโบ ครั้งที่ 3 และ 6 ให้โบนัส ×2 และ ×3 เกราะถูกชนหรือหมดเวลาจะตัดคอมโบ คะแนนเวลาและไอเทมไม่คูณ</string>
+  <string name="pulse_help" formatted="false">06 / พัลส์พลังงาน</string>
+  <string name="pulse_help_body" formatted="false">เมื่อพลังงานเต็ม กำจัดอุกกาบาตในรัศมี 180 และป้องกัน 0.6 วินาที เริ่มด้วยพลังงานเต็ม ฟื้น 3/วินาที หลบเฉียดได้ 12 ไอเทมได้ 20 ทำลายอุกกาบาตไม่ได้คะแนนหลบ</string>
+  <string name="wave_help" formatted="false">07 / คำเตือน</string>
+  <string name="wave_help_body" formatted="false">ตั้งแต่วินาที 12 มีฝนทุก 18 วินาที เตือนล่วงหน้า 1.6 วินาที สีส้มอันตราย สีฟ้าเป็นช่องว่าง อุกกาบาตเก่าอาจยังอยู่ในช่อง หลัง 20 วินาทีบางลูกเคลื่อนด้านข้าง</string>
+  <string name="mission_help" formatted="false">08 / เป้าหมายเที่ยวบิน</string>
+  <string name="mission_help_body" formatted="false">รอด 30 วินาที: +100 คะแนน หลบเฉียด 5 ครั้ง: +150 เก็บ 3 ไอเทม: +100 แต่ละเป้าหมายให้ครั้งเดียว แม้ไม่แสดง เครดิตรวมคะแนนโบนัสทั้งหมด</string>
+  <string name="challenge_title" formatted="false">บินอย่างมีเป้าหมาย</string>
+  <string name="challenge_body" formatted="false">รอด 30 วินาที · หลบเฉียด 5 ครั้ง · 3 ไอเทม ทำครบได้โบนัส 350 คะแนนต่อเที่ยวบิน</string>
+  <string name="flight_upgrade_title" formatted="false">อัปเกรดระหว่างบิน</string>
+  <string name="flight_upgrade_body" formatted="false">เลือกการเปลี่ยนแปลงสำหรับเที่ยวบินที่เหลือ เวลาหยุดขณะเลือก แต่ละชนิดเลือกได้ครั้งเดียว</string>
+  <string name="flight_upgrade_choose" formatted="false">เลือกแล้วไปต่อ</string>
+  <string name="capacitor_body" formatted="false">ตัวขยาย: รัศมีพัลส์ 180 → 250 แลกกับฟื้นพลังงานอัตโนมัติช้าลง 30% พลังงานจากไอเทมและหลบเฉียดเท่าเดิม</string>
+  <string name="daredevil_body" formatted="false">ใจกล้า: คะแนนหลบเฉียดสองเท่า แลกกับเกราะสูงสุด −1 เกราะปัจจุบันถูกจำกัดที่ค่าสูงสุดใหม่</string>
+  <string name="focus_body" formatted="false">สมาธิ: เวลาคอมโบ 5 → 8 วินาที แลกกับไอเทมชะลอที่เก็บใหม่อยู่น้อยลง 20%</string>
+  <string name="flight_upgrade_help" formatted="false">ที่ 45, 90 และ 135 วินาที เลือกอัปเกรดเฉพาะเที่ยวบินนี้ ชนิดละครั้ง แล้วนับถอยหลัง 3 วินาที ตัวขยาย: กว้างขึ้นแต่ฟื้นช้า ใจกล้า: คะแนนสองเท่าแต่เกราะลด สมาธิ: คอมโบนานแต่ชะลอสั้น</string>
+  <string name="guide_pickup" formatted="false">ขั้น 2 / 4 · ลากหาไอเทมเพื่อรับผลและพลังงาน</string>
+  <string name="guide_pulse" formatted="false">ขั้น 3 / 4 · ใช้พัลส์เมื่อพลังงานเต็มเพื่อเปิดทาง</string>
+  <string name="guide_near" formatted="false">ขั้น 4 / 4 · ให้อุกกาบาตผ่านใกล้แต่ไม่ชนยานเพื่อรับคอมโบ</string>
+  <string name="guide_skip" formatted="false">เข้าใจแล้ว · ซ่อนคำแนะนำ</string>
+  <string name="next_flight" formatted="false">เป้าหมายเที่ยวบินหน้า</string>
+  <string name="tip_energy" formatted="false">จบลงตอนพัลส์พร้อมใช้ ครั้งหน้าใช้ก่อนถูกต้อนจนมุม</string>
+  <string name="tip_survive" formatted="false">รอด 30 วินาทีเพื่อรับ 100 คะแนนโบนัส หาช่องว่างและรักษาระยะ</string>
+  <string name="tip_near" formatted="false">ลองหลบเฉียด 5 ครั้งเพื่อรับ 150 คะแนนโบนัส เสี่ยงเมื่อมีทางหนีเท่านั้น</string>
+  <string name="tip_combo" formatted="false">หลบเฉียดต่อเนื่อง 6 ครั้งในเวลาคอมโบเพื่อโบนัส ×3</string>
+  <string name="goal_ready" formatted="false">คุณซื้ออัปเกรดถัดไปได้แล้ว ไปโรงเก็บยาน</string>
+  <string name="goal_remaining">ขาดอีก %1$d เครดิตสำหรับอัปเกรดถัดไปที่ถูกที่สุด</string>
+  <string name="all_upgraded" formatted="false">ยานอัปเกรดเต็มแล้ว ลองกลยุทธ์อื่นและทำลายสถิติ!</string>
+  <string name="guide_replay" formatted="false">เล่นพร้อมคำแนะนำทีละขั้น</string>
+  <string name="language" formatted="false">ภาษา</string>
+  <string name="language_system" formatted="false">ใช้ภาษาของอุปกรณ์</string>
+  <string name="language_hint" formatted="false">เลือกภาษาที่แสดง บันทึกอัตโนมัติและเก็บความคืบหน้าเกมไว้</string>
+  <string name="capacitor_name" formatted="false">ตัวขยาย</string>
+  <string name="daredevil_name" formatted="false">ใจกล้า</string>
+  <string name="focus_name" formatted="false">สมาธิ</string>
+</resources>

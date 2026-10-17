@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">METEOR\nKAÇIŞI</string>
+  <string name="survival_mode" formatted="false">SONSUZ HAYATTA KALMA</string>
+  <string name="ship_name" formatted="false">KEŞİF GEMİSİ / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Kalkışa hazır</string>
+  <string name="best" formatted="false">REKOR</string>
+  <string name="wallet" formatted="false">KREDİ</string>
+  <string name="play" formatted="false">UÇUŞU BAŞLAT</string>
+  <string name="upgrades" formatted="false">Gemi geliştirmeleri</string>
+  <string name="settings" formatted="false">Ayarlar</string>
+  <string name="help" formatted="false">Nasıl oynanır</string>
+  <string name="offline" formatted="false">ÇEVRİMDIŞI · KAÇMAK İÇİN SÜRÜKLE</string>
+  <string name="back" formatted="false">Geri</string>
+  <string name="home" formatted="false">Ana sayfa</string>
+  <string name="play_again" formatted="false">Tekrar oyna</string>
+  <string name="continue_play" formatted="false">Devam et</string>
+  <string name="loading" formatted="false">İlerleme yükleniyor…</string>
+  <string name="loading_hint" formatted="false">Gemi ve uçuş günlüğü hazırlanıyor.</string>
+  <string name="error_title" formatted="false">Veri okunamadı veya kaydedilemedi</string>
+  <string name="error_body" formatted="false">Boş alanı kontrol edip tekrar deneyin. Yeni sürüm verileri uygulama güncellemesi gerektirir. Kredi ve geliştirmeler kayıttan sonra geçerlidir.</string>
+  <string name="retry" formatted="false">Tekrar dene</string>
+  <string name="close" formatted="false">Kapat</string>
+  <string name="recovered_title" formatted="false">İlerleme sıfırlandı</string>
+  <string name="recovered_body" formatted="false">Hasarlı ilerleme dosyası kurtarılamadı. Yeni uçuş günlüğü oluşturuldu.</string>
+  <string name="understood" formatted="false">Anladım</string>
+  <string name="pause" formatted="false">Duraklat</string>
+  <string name="paused_title" formatted="false">YILDIZLAR ARASINDA\nBİR MOLA</string>
+  <string name="paused_body" formatted="false">Uçuş duraklatıldı. Nefes al ve devam et.</string>
+  <string name="score" formatted="false">PUAN</string>
+  <string name="armor" formatted="false">ZIRH</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Kalkan %1$d sn</string>
+  <string name="slow_timer">◷ Yavaşlatma %1$d sn</string>
+  <string name="tutorial_title" formatted="false">Meteorlardan kaçmak için yana sürükle</string>
+  <string name="tutorial_body" formatted="false">ADIM 1 / 4 · Başlamak için dokunup yana sürükle. Gemi sürükleme hareketini izler.</string>
+  <string name="drag_hint" formatted="false">← YÖNETMEK İÇİN SÜRÜKLE →</string>
+  <string name="get_ready" formatted="false">KALKIŞA HAZIR</string>
+  <string name="abandon_title" formatted="false">Bu uçuş bırakılsın mı?</string>
+  <string name="abandon_body" formatted="false">Bu uçuştan ödül veya rekor kazanılmaz.</string>
+  <string name="keep_playing" formatted="false">Oynamaya devam et</string>
+  <string name="abandon" formatted="false">Bırak</string>
+  <string name="mission_end" formatted="false">UÇUŞ BİTTİ</string>
+  <string name="result_title" formatted="false">SONRAKİ UÇUŞTA\nGÖRÜŞÜRÜZ.</string>
+  <string name="new_record" formatted="false">✦ YENİ REKOR</string>
+  <string name="final_score" formatted="false">UÇUŞ PUANI</string>
+  <string name="survival" formatted="false">Hayatta kalma süresi</string>
+  <string name="collected" formatted="false">Toplanan eşyalar</string>
+  <string name="earned" formatted="false">Kazanılan kredi</string>
+  <string name="reward_pending" formatted="false">Ödüller kaydediliyor…</string>
+  <string name="reward_failed" formatted="false">Ödüller kaydedilmedi. Tekrar dene.</string>
+  <string name="retry_save" formatted="false">Kaydı tekrar dene</string>
+  <string name="result_hint" formatted="false">Her uçuş seni daha ileri taşır.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">DAHA İLERİYE\nUÇMAYA HAZIR.</string>
+  <string name="upgrades_body" formatted="false">Bir kez geliştir. Her uçuşta yararlan.</string>
+  <string name="armor_name" formatted="false">Güçlendirilmiş gövde</string>
+  <string name="shield_name" formatted="false">Kalkan üreteci</string>
+  <string name="slow_name" formatted="false">Yavaşlatma alanı</string>
+  <string name="level">Seviye %1$d / %2$d</string>
+  <string name="armor_effect">Şimdi: %1$d azami zırh</string>
+  <string name="shield_effect">Şimdi: %1$d saniye kalkan</string>
+  <string name="slow_effect">Şimdi: %1$s saniye yavaşlatma</string>
+  <string name="armor_next" formatted="false">Sonraki: +1 azami zırh</string>
+  <string name="shield_next" formatted="false">Sonraki: +1 saniye kalkan</string>
+  <string name="slow_next" formatted="false">Sonraki: +0,5 saniye yavaşlatma</string>
+  <string name="buy">Geliştir · %1$d kredi</string>
+  <string name="not_enough">%1$d kredi gerekli</string>
+  <string name="max_level" formatted="false">Azami seviye</string>
+  <string name="saving" formatted="false">Kaydediliyor…</string>
+  <string name="settings_eyebrow" formatted="false">KOKPİT / SEÇENEKLER</string>
+  <string name="settings_title" formatted="false">KENDİ TARZINDA\nOYNA.</string>
+  <string name="music" formatted="false">Müzik</string>
+  <string name="music_hint" formatted="false">Uçuşta uzay melodileri</string>
+  <string name="sound" formatted="false">Ses efektleri</string>
+  <string name="sound_hint" formatted="false">Eşya ve çarpma sesleri</string>
+  <string name="vibration" formatted="false">Titreşim</string>
+  <string name="vibration_hint" formatted="false">Gemi veya kalkana darbede kısa titreşim</string>
+  <string name="reduced_motion" formatted="false">Hareketi azalt</string>
+  <string name="reduced_motion_hint" formatted="false">Yıldızları durdur ve parçacıkları azalt</string>
+  <string name="reset" formatted="false">İlerlemeyi sıfırla</string>
+  <string name="reset_title" formatted="false">Uçuş günlüğü silinsin mi?</string>
+  <string name="reset_body" formatted="false">Krediler, rekorlar, geliştirmeler ve eğitim silinir. Ses, hareket ve dil ayarları korunur. Geri alınamaz.</string>
+  <string name="cancel" formatted="false">İptal</string>
+  <string name="privacy" formatted="false">Veriler bu cihazda. Hesap, reklam veya internet gerekmez.</string>
+  <string name="help_eyebrow" formatted="false">PİLOT AKADEMİSİ</string>
+  <string name="help_title" formatted="false">TEK PARMAK\nYETER.</string>
+  <string name="help_controls" formatted="false">01 / KONTROLLER</string>
+  <string name="help_controls_body" formatted="false">Oyun alanında yana sürükle. Gemi dokunma yerine sıçramadan sürükleme mesafesini izler. Düşen meteorlardan kaç; hareket yalnızca yataydır.</string>
+  <string name="help_survive" formatted="false">02 / HAYATTA KALMA</string>
+  <string name="help_survive_body" formatted="false">Her darbe 1 zırh götürür. Sıfırda uçuş biter. Darbeden sonra gemi yanıp söner ve 1,2 saniye dokunulmaz olur. Zorluk her 20 saniyede artar.</string>
+  <string name="help_items" formatted="false">03 / İKMAL</string>
+  <string name="help_shield" formatted="false">◇ Kalkan: bir darbeyi engeller; 8 saniye sürer.</string>
+  <string name="help_repair" formatted="false">+ Onarım: azami sınırı aşmadan 1 zırh yeniler.</string>
+  <string name="help_slow" formatted="false">◷ Yavaşlatma: meteorlar 5 saniye boyunca %60 hızla ilerler.</string>
+  <string name="help_rewards" formatted="false">04 / UÇUŞ ÖDÜLLERİ</string>
+  <string name="help_rewards_body" formatted="false">Hayatta kalma: saniyede 10 puan. Eşyalar: her biri 25 puan. Son puandaki her 20 puan 1 geliştirme kredisi kazandırır. Bırakılan uçuş ödül vermez.</string>
+  <string name="help_accessibility" formatted="false">Gerçek zamanlı gözlem ve sürükleme gerektirir.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">SÜRÜM 1.3 / 20 DİL</string>
+  <string name="new_tagline" formatted="false">Meteorlara yakın geçerek kombo yap. Darbeyle kurtul ve rekorunu kır.</string>
+  <string name="pulse_ready" formatted="false">DARBE</string>
+  <string name="pulse_charging">ENERJİ %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Tam enerjide yakındaki meteorları temizle</string>
+  <string name="combo_status">KOMBO %1$d · BONUS ×%2$d · %3$d sn</string>
+  <string name="wave_warning">METEOR YAĞMURU · %1$d</string>
+  <string name="notice_near">TEĞET GEÇTİ! +%1$d</string>
+  <string name="notice_pickup">İKMAL! +%1$d</string>
+  <string name="notice_hit" formatted="false">İSABET! −1 ZIRH</string>
+  <string name="notice_shield" formatted="false">KALKAN DARBEYİ ENGELLEDİ</string>
+  <string name="notice_pulse" formatted="false">ENERJİ DARBESİ!</string>
+  <string name="notice_wave" formatted="false">UYARI ŞERİTLERİNE BAK</string>
+  <string name="notice_mission">HEDEF TAMAM! +%1$d</string>
+  <string name="mission_survive">Hayatta kal %1$d/30 sn · +100 puan</string>
+  <string name="mission_near">Yakın geçiş %1$d/5 · +150 puan</string>
+  <string name="mission_items">Eşyalar %1$d/3 · +100 puan</string>
+  <string name="mission_all" formatted="false">3/3 HEDEF TAMAMLANDI</string>
+  <string name="stat_near" formatted="false">Yakın geçişler</string>
+  <string name="stat_combo" formatted="false">En iyi kombo</string>
+  <string name="stat_pulse" formatted="false">Kullanılan darbeler</string>
+  <string name="stat_bonus" formatted="false">Beceri bonus puanı</string>
+  <string name="stat_missions" formatted="false">Tamamlanan hedefler</string>
+  <string name="new_mechanics" formatted="false">05 / RİSK VE ÖDÜL</string>
+  <string name="new_mechanics_body" formatted="false">Temas etmeden meteora yakın geçerek puan ve enerji kazan. 5 saniye içinde zincirle. 3 ve 6 kombo ×2 ve ×3 verir. Zırha darbe veya sürenin dolması komboyu bozar. Zaman ve eşya puanları çarpılmaz.</string>
+  <string name="pulse_help" formatted="false">06 / ENERJİ DARBESİ</string>
+  <string name="pulse_help_body" formatted="false">Tam enerjide 180 yarıçapındaki meteorları temizler ve 0,6 saniye korur. Başlangıç enerjisi tamdır; saniyede 3, yakın geçişte 12, eşyada 20 dolar. Yok edilen meteor yakın geçiş puanı vermez.</string>
+  <string name="wave_help" formatted="false">07 / UYARILAR</string>
+  <string name="wave_help_body" formatted="false">12. saniyeden itibaren her 18 saniyede yağmur, 1,6 saniye önce uyarı. Turuncu tehlike, camgöbeği boşluktur. Eski meteorlar boşlukta kalabilir. 20 saniyeden sonra bazıları yana kayar.</string>
+  <string name="mission_help" formatted="false">08 / UÇUŞ HEDEFLERİ</string>
+  <string name="mission_help_body" formatted="false">30 saniye yaşa: +100 puan. 5 yakın geçiş: +150. 3 eşya topla: +100. Gösterilmese de her hedef bir kez ödül verir. Krediler tüm bonusları içerir.</string>
+  <string name="challenge_title" formatted="false">BİR HEDEFLE UÇ</string>
+  <string name="challenge_body" formatted="false">30 saniye yaşa · 5 yakın geçiş · 3 eşya. Hepsini tamamlayıp uçuş başına 350 bonus puan kazan.</string>
+  <string name="flight_upgrade_title" formatted="false">UÇUŞ İÇİ GELİŞTİRMELER</string>
+  <string name="flight_upgrade_body" formatted="false">Uçuşun kalanı için bir değişiklik seç. Karar verirken zaman donar. Her tür bir kez seçilebilir.</string>
+  <string name="flight_upgrade_choose" formatted="false">Seç ve devam et</string>
+  <string name="capacitor_body" formatted="false">Yükseltici: darbe yarıçapı 180 → 250. Bedeli: pasif enerji dolumu %30 daha yavaş. Eşya ve yakın geçiş enerjisi değişmez.</string>
+  <string name="daredevil_body" formatted="false">Gözü pek: yakın geçiş puanı iki kat. Bedeli: azami zırh −1; mevcut zırh yeni sınırı aşamaz.</string>
+  <string name="focus_body" formatted="false">Odak: kombo süresi 5 → 8 saniye. Bedeli: bundan sonra toplanan yavaşlatmalar %20 daha kısa sürer.</string>
+  <string name="flight_upgrade_help" formatted="false">45, 90 ve 135. saniyelerde bu uçuşa özel geliştirme seç, her tür bir kez. Ardından 3 saniye geri sayım. Yükseltici: geniş darbe, yavaş dolum. Gözü pek: çift puan, az zırh. Odak: uzun kombo, kısa yavaşlatma.</string>
+  <string name="guide_pickup" formatted="false">ADIM 2 / 4 · Etki ve enerji için eşyaya doğru sürükle.</string>
+  <string name="guide_pulse" formatted="false">ADIM 3 / 4 · Tam enerjide DARBE ile yol aç.</string>
+  <string name="guide_near" formatted="false">ADIM 4 / 4 · Kombo için meteoru gemiye dokunmadan yakınından geçir.</string>
+  <string name="guide_skip" formatted="false">Anladım · Rehberi gizle</string>
+  <string name="next_flight" formatted="false">SONRAKİ UÇUŞ HEDEFİ</string>
+  <string name="tip_energy" formatted="false">Darbe hazırken bitirdin. Sonraki uçuşta köşeye sıkışmadan kullan.</string>
+  <string name="tip_survive" formatted="false">100 bonus puan için 30 saniye yaşa. Boşluk ara ve mesafeni koru.</string>
+  <string name="tip_near" formatted="false">150 bonus puan için 5 yakın geçiş dene. Yalnızca kaçış yolu varken risk al.</string>
+  <string name="tip_combo" formatted="false">×3 bonus için kombo süresinde 6 yakın geçişi zincirle.</string>
+  <string name="goal_ready" formatted="false">Sonraki geliştirmeyi alabilirsin. Hangarı ziyaret et.</string>
+  <string name="goal_remaining">En ucuz sonraki geliştirme için %1$d kredi daha gerekli.</string>
+  <string name="all_upgraded" formatted="false">Gemi tamamen gelişti! Başka strateji dene ve rekorunu kır.</string>
+  <string name="guide_replay" formatted="false">Adım adım rehberle oyna</string>
+  <string name="language" formatted="false">Dil</string>
+  <string name="language_system" formatted="false">Cihaz dilini kullan</string>
+  <string name="language_hint" formatted="false">Ekran dilini seç. Otomatik kaydedilir, oyun ilerlemesi korunur.</string>
+  <string name="capacitor_name" formatted="false">Yükseltici</string>
+  <string name="daredevil_name" formatted="false">Gözü pek</string>
+  <string name="focus_name" formatted="false">Odak</string>
+</resources>

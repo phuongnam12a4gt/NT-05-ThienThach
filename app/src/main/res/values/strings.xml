@@ -1,96 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-<string name="app_name">Né Thiên Thạch</string><string name="brand">METEOR DASH</string>
-<string name="home_eyebrow">NHẬT KÝ PHI CÔNG / 01</string><string name="title">NÉ THIÊN\nTHẠCH</string>
-<string name="tagline">Một con tàu. Vô vàn thử thách.\nBạn sẽ sống sót bao lâu giữa các vì sao?</string>
-<string name="survival_mode">SINH TỒN VÔ TẬN</string><string name="ship_name">TÀU THĂM DÒ / NOVA–01</string><string name="ship_ready">Sẵn sàng cất cánh</string>
-<string name="best">KỶ LỤC</string><string name="wallet">TÍN DỤNG</string><string name="play">BẮT ĐẦU CHUYẾN BAY</string>
-<string name="upgrades">Nâng cấp tàu</string><string name="settings">Cài đặt</string><string name="help">Hướng dẫn</string>
-<string name="offline">CHƠI OFFLINE  ·  KÉO NGANG ĐỂ NÉ</string><string name="back">Quay lại</string><string name="home">Trang chủ</string>
-<string name="play_again">Chơi lại</string><string name="continue_play">Tiếp tục</string><string name="loading">Đang tải tiến trình…</string>
-<string name="loading_hint">Chuẩn bị tàu và nhật ký chuyến bay của bạn.</string>
-<string name="error_title">Chưa thể đọc hoặc lưu dữ liệu</string>
-<string name="error_body">Hãy kiểm tra dung lượng trống rồi thử lại. Nếu dữ liệu đến từ phiên bản mới hơn, cần cập nhật ứng dụng. Tiền và nâng cấp chỉ có hiệu lực sau khi lưu thành công.</string>
-<string name="retry">Thử lại</string><string name="close">Đóng</string><string name="recovered_title">Đã đặt lại tiến trình</string>
-<string name="recovered_body">Tệp tiến trình bị hỏng và không thể khôi phục. Một nhật ký mới đã được tạo.</string><string name="understood">Đã hiểu</string>
-<string name="pause">Tạm dừng</string><string name="paused_title">NGHỈ GIỮA\nCÁC VÌ SAO</string><string name="paused_body">Chuyến bay đang được tạm dừng.\nHít thở một chút, rồi tiếp tục nhé.</string>
-<string name="score">ĐIỂM</string><string name="armor">GIÁP</string><string name="armor_value">%1$d/%2$d</string><string name="sector">KHU VỰC %1$02d</string>
-<string name="shield_timer">◇ Khiên %1$d s</string><string name="slow_timer">◷ Chậm %1$d s</string>
-<string name="tutorial_title">Kéo ngang để né thiên thạch</string><string name="tutorial_body">BƯỚC 1 / 4 · Chạm và kéo sang hai bên để bắt đầu.\nTàu sẽ di chuyển theo ngón tay của bạn.</string>
-<string name="drag_hint">← KÉO ĐỂ ĐIỀU KHIỂN →</string><string name="get_ready">CHUẨN BỊ CẤT CÁNH</string>
-<string name="abandon_title">Bỏ lượt hiện tại?</string><string name="abandon_body">Bạn sẽ không nhận thưởng hay ghi kỷ lục của lượt này.</string>
-<string name="keep_playing">Tiếp tục chơi</string><string name="abandon">Bỏ lượt</string>
-<string name="mission_end">CHUYẾN BAY KẾT THÚC</string><string name="result_title">HẸN GẶP Ở\nCHUYẾN BAY SAU.</string><string name="new_record">✦ KỶ LỤC MỚI</string>
-<string name="final_score">ĐIỂM CHUYẾN BAY</string><string name="survival">Thời gian sống</string><string name="collected">Vật phẩm đã nhặt</string><string name="earned">Tín dụng nhận được</string>
-<string name="reward_pending">Đang lưu phần thưởng…</string><string name="reward_failed">Chưa lưu phần thưởng. Hãy thử lưu lại.</string><string name="retry_save">Thử lưu lại</string><string name="result_hint">Mỗi chuyến bay giúp bạn tiến xa hơn.</string>
-<string name="hangar">XƯỞNG TÀU / NOVA–01</string><string name="upgrades_title">SẴN SÀNG\nĐI XA HƠN.</string><string name="upgrades_body">Nâng cấp một lần. Đồng hành mọi chuyến bay.</string>
-<string name="armor_name">Vỏ giáp gia cường</string><string name="shield_name">Bộ tạo khiên</string><string name="slow_name">Trường làm chậm</string><string name="level">Cấp %1$d / %2$d</string>
-<string name="armor_effect">Hiện tại: %1$d giáp tối đa</string><string name="shield_effect">Hiện tại: %1$d giây bảo vệ</string><string name="slow_effect">Hiện tại: %1$s giây làm chậm</string>
-<string name="armor_next">Cấp tiếp theo: +1 giáp tối đa</string><string name="shield_next">Cấp tiếp theo: +1 giây khiên</string><string name="slow_next">Cấp tiếp theo: +0,5 giây làm chậm</string>
-<string name="buy">Nâng cấp · %1$d tín dụng</string><string name="not_enough">Cần %1$d tín dụng</string><string name="max_level">Đã tối đa</string><string name="saving">Đang lưu…</string>
-<string name="settings_eyebrow">BUỒNG LÁI / TÙY CHỈNH</string><string name="settings_title">THEO CÁCH\nCỦA BẠN.</string><string name="music">Nhạc nền</string><string name="music_hint">Giai điệu không gian trong chuyến bay</string>
-<string name="sound">Hiệu ứng âm thanh</string><string name="sound_hint">Phản hồi khi nhặt đồ và va chạm</string><string name="vibration">Rung thiết bị</string><string name="vibration_hint">Rung ngắn khi tàu hoặc khiên trúng đòn</string>
-<string name="reduced_motion">Giảm chuyển động</string><string name="reduced_motion_hint">Dừng nền sao, giảm số hạt hiệu ứng</string>
-<string name="reset">Xóa tiến trình</string><string name="reset_title">Xóa nhật ký chuyến bay?</string><string name="reset_body">Tất cả tín dụng, kỷ lục, nâng cấp và hướng dẫn lần đầu sẽ được đặt lại. Tùy chọn âm thanh, rung và chuyển động được giữ nguyên. Không thể hoàn tác.</string><string name="cancel">Hủy</string>
-<string name="privacy">Dữ liệu được lưu trên thiết bị. Không tài khoản, không quảng cáo, không cần kết nối mạng.</string>
-<string name="help_eyebrow">HỌC VIỆN PHI CÔNG</string><string name="help_title">CHỈ CẦN\nMỘT NGÓN TAY.</string>
-<string name="help_controls">01 / ĐIỀU KHIỂN</string><string name="help_controls_body">Chạm vùng chơi rồi kéo ngang. Tàu di chuyển theo quãng kéo, không nhảy đến vị trí chạm. Né các thiên thạch đang rơi; tàu chỉ di chuyển sang hai bên.</string>
-<string name="help_survive">02 / SỐNG SÓT</string><string name="help_survive_body">Mỗi va chạm mất 1 giáp. Hết giáp là kết thúc chuyến bay. Sau khi trúng đòn, tàu nhấp nháy và bất tử trong 1,2 giây. Độ khó tăng sau mỗi 20 giây.</string>
-<string name="help_items">03 / VẬT PHẨM TIẾP TẾ</string><string name="help_shield">◇ Khiên — chặn một va chạm, tồn tại 8 giây.</string><string name="help_repair">+ Sửa chữa — hồi một giáp, tối đa bằng giáp tàu.</string><string name="help_slow" formatted="false">◷ Làm chậm — thiên thạch còn 60% tốc độ trong 5 giây.</string>
-<string name="help_rewards">04 / MỖI CHUYẾN BAY ĐỀU CÓ GIÁ TRỊ</string><string name="help_rewards_body">Mỗi giây sống sót được 10 điểm; mỗi vật phẩm được 25 điểm. Cứ 20 điểm hoàn tất nhận 1 tín dụng. Dùng tín dụng nâng cấp tàu. Bỏ lượt giữa chừng sẽ không có thưởng.</string>
-<string name="help_accessibility">Gameplay cần quan sát và thao tác kéo theo thời gian thực.</string><string name="time_format">%1$02d:%2$02d</string>
-<string name="update_badge">BẢN 1.2 / CHỌN CÁCH BAY</string>
-<string name="new_tagline">Né sát để nối combo. Phát xung để thoát hiểm.\nLàm chủ nhịp bay và phá kỷ lục của bạn.</string>
-<string name="pulse_ready">PHÁT XUNG</string>
-<string name="pulse_charging">NĂNG LƯỢNG %1$d/100</string>
-<string name="pulse_hint">Dọn thiên thạch quanh tàu khi đầy năng lượng</string>
-<string name="combo_status">COMBO %1$d · THƯỞNG ×%2$d · %3$d s</string>
-<string name="wave_warning">MƯA THIÊN THẠCH · %1$d</string>
-<string name="safe_lane">LÀN TRỐNG</string>
-<string name="notice_near">NÉ SÁT! +%1$d</string>
-<string name="notice_pickup">TIẾP TẾ! +%1$d</string>
-<string name="notice_hit">TRÚNG ĐÒN! −1 GIÁP</string>
-<string name="notice_shield">KHIÊN ĐÃ CHẶN ĐÒN</string>
-<string name="notice_pulse">XUNG NĂNG LƯỢNG!</string>
-<string name="notice_wave">CHÚ Ý LÀN CẢNH BÁO</string>
-<string name="notice_mission">HOÀN THÀNH MỤC TIÊU! +%1$d</string>
-<string name="mission_survive">Sống sót %1$d/30 giây · +100 điểm</string>
-<string name="mission_near">Né sát %1$d/5 lần · +150 điểm</string>
-<string name="mission_items">Nhặt %1$d/3 vật phẩm · +100 điểm</string>
-<string name="mission_all">HOÀN THÀNH 3/3 MỤC TIÊU</string>
-<string name="mission_header">MỤC TIÊU CHUYẾN BAY</string>
-<string name="stat_near">Lần né sát</string><string name="stat_combo">Combo cao nhất</string>
-<string name="stat_pulse">Lần phát xung</string><string name="stat_bonus">Điểm thưởng kỹ năng</string>
-<string name="stat_missions">Mục tiêu hoàn thành</string>
-<string name="new_mechanics">05 / BAY MẠO HIỂM, THƯỞNG XỨNG ĐÁNG</string>
-<string name="new_mechanics_body">Né thiên thạch ở khoảng cách sát cạnh để nhận điểm thưởng và năng lượng. Nối lần né sát trong 5 giây để tăng combo; mốc 3 và 6 nâng hệ số thưởng lên ×2 và ×3. Trúng giáp hoặc hết thời gian sẽ đứt chuỗi. Điểm thời gian và vật phẩm không nhân hệ số.</string>
-<string name="pulse_help">06 / XUNG NĂNG LƯỢNG</string>
-<string name="pulse_help_body">Bấm PHÁT XUNG khi thanh năng lượng đầy để phá thiên thạch trong bán kính 180 quanh tàu và được bảo vệ 0,6 giây. Kỹ năng có sẵn đầu lượt, tự nạp 3 năng lượng mỗi giây; né sát nạp 12, nhặt đồ nạp 20. Phá thiên thạch bằng xung không được điểm né sát.</string>
-<string name="wave_help">07 / ĐỌC CẢNH BÁO</string>
-<string name="wave_help_body">Từ giây 12, mỗi 18 giây có mưa thiên thạch. Hai làn màu cam có dấu gạch cảnh báo; làn xanh có mũi tên là khoảng trống của đợt mưa. Bạn có 1,6 giây chuẩn bị. Thiên thạch cũ vẫn có thể ở trong làn đó: hãy tiếp tục quan sát. Sau giây 20, một số thiên thạch bay chéo.</string>
-<string name="mission_help">08 / MỤC TIÊU TRONG LƯỢT</string>
-<string name="mission_help_body">Sống sót 30 giây: +100 điểm. Né sát 5 lần: +150 điểm. Nhặt 3 vật phẩm: +100 điểm. Mỗi mục tiêu chỉ thưởng một lần trong lượt, tự tính dù chưa hiện trên HUD. Tín dụng cuối lượt tính từ tổng điểm, bao gồm điểm thưởng kỹ năng.</string>
-<string name="challenge_title">BAY CÓ CHỦ ĐÍCH</string>
-<string name="challenge_body">Sống sót 30 giây · Né sát 5 lần · Nhặt 3 vật phẩm. Hoàn thành cả ba để thêm 350 điểm mỗi lượt.</string>
-<string name="flight_upgrade_title">NÂNG CẤP TRONG CHUYẾN BAY</string>
-<string name="flight_upgrade_body">Chọn một thay đổi cho phần còn lại của lượt. Thế giới đang dừng; bạn có thời gian cân nhắc. Mỗi loại chỉ chọn một lần.</string>
-<string name="flight_upgrade_choose">Chọn và tiếp tục</string>
-<string name="capacitor_body">Tụ khuếch đại: bán kính xung tăng từ 180 lên 250. Đánh đổi: tự nạp năng lượng chậm hơn 30%. Năng lượng từ vật phẩm và né sát giữ nguyên.</string>
-<string name="daredevil_body">Phi công mạo hiểm: điểm né sát gấp đôi. Đánh đổi: giảm 1 giáp tối đa và hạ giáp hiện có nếu vượt mức mới.</string>
-<string name="focus_body">Tập trung: thời gian nối combo tăng từ 5 lên 8 giây. Đánh đổi: vật phẩm làm chậm nhặt từ lúc này có thời gian ngắn hơn 20%.</string>
-<string name="flight_upgrade_help">Ở giây 45, 90 và 135, game dừng để bạn chọn nâng cấp dùng riêng trong lượt. Mỗi loại chỉ chọn một lần; đọc lợi ích và đánh đổi trước khi chọn. Chọn xong có đếm ngược 3 giây. Tụ khuếch đại mở rộng xung nhưng nạp chậm; Mạo hiểm tăng điểm né sát nhưng giảm giáp; Tập trung nối combo lâu hơn nhưng giảm thời gian vật phẩm làm chậm.</string>
-<string name="guide_pickup">BƯỚC 2 / 4 · Kéo tàu tới một vật phẩm để nhận hiệu ứng và năng lượng.</string>
-<string name="guide_pulse">BƯỚC 3 / 4 · Bấm PHÁT XUNG khi đầy năng lượng để dọn đường.</string>
-<string name="guide_near">BƯỚC 4 / 4 · Thử để thiên thạch lướt sát cạnh tàu mà không chạm để nhận combo.</string>
-<string name="guide_skip">Đã hiểu · Ẩn hướng dẫn</string>
-<string name="next_flight">MỤC TIÊU CHUYẾN BAY TIẾP</string>
-<string name="tip_energy">Bạn kết thúc khi xung đã sẵn sàng. Lượt sau hãy dùng xung trước khi bị dồn vào góc.</string>
-<string name="tip_survive">Thử sống sót 30 giây để nhận thêm 100 điểm. Ưu tiên khoảng trống và giữ khoảng cách với thiên thạch.</string>
-<string name="tip_near">Thử đạt 5 lần né sát để nhận thêm 150 điểm. Chỉ mạo hiểm khi phía trước có đường thoát.</string>
-<string name="tip_combo">Thử nối 6 lần né sát trong thời hạn combo để đạt hệ số thưởng ×3.</string>
-<string name="goal_ready">Bạn đủ tín dụng mua nâng cấp tiếp theo. Ghé xưởng tàu để chọn.</string>
-<string name="goal_remaining">Còn %1$d tín dụng để mua nâng cấp có giá thấp nhất tiếp theo.</string>
-<string name="all_upgraded">Tàu đã nâng cấp tối đa. Thử một lựa chọn chiến thuật khác và phá kỷ lục!</string>
-<string name="guide_replay">Chơi với hướng dẫn từng bước</string>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="brand" translatable="false" formatted="false">METEOR DASH</string>
+  <string name="title" formatted="false">METEOR\nDASH</string>
+  <string name="survival_mode" formatted="false">ENDLESS SURVIVAL</string>
+  <string name="ship_name" formatted="false">SCOUT SHIP / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Ready for takeoff</string>
+  <string name="best" formatted="false">BEST</string>
+  <string name="wallet" formatted="false">CREDITS</string>
+  <string name="play" formatted="false">START FLIGHT</string>
+  <string name="upgrades" formatted="false">Ship upgrades</string>
+  <string name="settings" formatted="false">Settings</string>
+  <string name="help" formatted="false">How to play</string>
+  <string name="offline" formatted="false">PLAY OFFLINE · DRAG TO DODGE</string>
+  <string name="back" formatted="false">Back</string>
+  <string name="home" formatted="false">Home</string>
+  <string name="play_again" formatted="false">Play again</string>
+  <string name="continue_play" formatted="false">Continue</string>
+  <string name="loading" formatted="false">Loading progress…</string>
+  <string name="loading_hint" formatted="false">Preparing your ship and flight log.</string>
+  <string name="error_title" formatted="false">Could not read or save data</string>
+  <string name="error_body" formatted="false">Check free storage and retry. Data from a newer version needs an app update. Credits and upgrades take effect only after saving.</string>
+  <string name="retry" formatted="false">Retry</string>
+  <string name="close" formatted="false">Close</string>
+  <string name="recovered_title" formatted="false">Progress reset</string>
+  <string name="recovered_body" formatted="false">The progress file was damaged and could not be recovered. A new flight log was created.</string>
+  <string name="understood" formatted="false">Got it</string>
+  <string name="pause" formatted="false">Pause</string>
+  <string name="paused_title" formatted="false">REST AMONG\nTHE STARS</string>
+  <string name="paused_body" formatted="false">Flight paused. Take a breath, then carry on.</string>
+  <string name="score" formatted="false">SCORE</string>
+  <string name="armor" formatted="false">ARMOR</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Shield %1$d s</string>
+  <string name="slow_timer">◷ Slow %1$d s</string>
+  <string name="tutorial_title" formatted="false">Drag sideways to dodge meteors</string>
+  <string name="tutorial_body" formatted="false">STEP 1 / 4 · Touch and drag sideways to begin. The ship follows your drag.</string>
+  <string name="drag_hint" formatted="false">← DRAG TO STEER →</string>
+  <string name="get_ready" formatted="false">READY FOR TAKEOFF</string>
+  <string name="abandon_title" formatted="false">Abandon this flight?</string>
+  <string name="abandon_body" formatted="false">This flight will earn no rewards or records.</string>
+  <string name="keep_playing" formatted="false">Keep playing</string>
+  <string name="abandon" formatted="false">Abandon</string>
+  <string name="mission_end" formatted="false">FLIGHT COMPLETE</string>
+  <string name="result_title" formatted="false">SEE YOU ON\nTHE NEXT FLIGHT.</string>
+  <string name="new_record" formatted="false">✦ NEW BEST</string>
+  <string name="final_score" formatted="false">FLIGHT SCORE</string>
+  <string name="survival" formatted="false">Time survived</string>
+  <string name="collected" formatted="false">Items collected</string>
+  <string name="earned" formatted="false">Credits earned</string>
+  <string name="reward_pending" formatted="false">Saving rewards…</string>
+  <string name="reward_failed" formatted="false">Rewards not saved. Please retry.</string>
+  <string name="retry_save" formatted="false">Retry saving</string>
+  <string name="result_hint" formatted="false">Every flight takes you further.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">READY TO\nGO FURTHER.</string>
+  <string name="upgrades_body" formatted="false">Upgrade once. Benefit on every flight.</string>
+  <string name="armor_name" formatted="false">Reinforced hull</string>
+  <string name="shield_name" formatted="false">Shield generator</string>
+  <string name="slow_name" formatted="false">Slow field</string>
+  <string name="level">Level %1$d / %2$d</string>
+  <string name="armor_effect">Current: %1$d maximum armor</string>
+  <string name="shield_effect">Current: %1$d seconds of shield</string>
+  <string name="slow_effect">Current: %1$s seconds of slow</string>
+  <string name="armor_next" formatted="false">Next: +1 maximum armor</string>
+  <string name="shield_next" formatted="false">Next: +1 second of shield</string>
+  <string name="slow_next" formatted="false">Next: +0.5 seconds of slow</string>
+  <string name="buy">Upgrade · %1$d credits</string>
+  <string name="not_enough">Requires %1$d credits</string>
+  <string name="max_level" formatted="false">Maxed out</string>
+  <string name="saving" formatted="false">Saving…</string>
+  <string name="settings_eyebrow" formatted="false">COCKPIT / OPTIONS</string>
+  <string name="settings_title" formatted="false">PLAY\nYOUR WAY.</string>
+  <string name="music" formatted="false">Music</string>
+  <string name="music_hint" formatted="false">Space melodies during flight</string>
+  <string name="sound" formatted="false">Sound effects</string>
+  <string name="sound_hint" formatted="false">Feedback for pickups and hits</string>
+  <string name="vibration" formatted="false">Vibration</string>
+  <string name="vibration_hint" formatted="false">Short vibration when ship or shield is hit</string>
+  <string name="reduced_motion" formatted="false">Reduce motion</string>
+  <string name="reduced_motion_hint" formatted="false">Stop moving stars and reduce particles</string>
+  <string name="reset" formatted="false">Reset progress</string>
+  <string name="reset_title" formatted="false">Erase the flight log?</string>
+  <string name="reset_body" formatted="false">Credits, records, upgrades and tutorial progress will be erased. Audio, motion and language settings stay. This cannot be undone.</string>
+  <string name="cancel" formatted="false">Cancel</string>
+  <string name="privacy" formatted="false">Stored on this device. No accounts, ads or internet required.</string>
+  <string name="help_eyebrow" formatted="false">PILOT ACADEMY</string>
+  <string name="help_title" formatted="false">JUST\nONE FINGER.</string>
+  <string name="help_controls" formatted="false">01 / CONTROLS</string>
+  <string name="help_controls_body" formatted="false">Drag sideways in the play area. The ship follows drag distance, without jumping to your touch. Dodge falling meteors; movement is horizontal only.</string>
+  <string name="help_survive" formatted="false">02 / SURVIVAL</string>
+  <string name="help_survive_body" formatted="false">Hits cost 1 armor. At zero, the flight ends. After a hit, the ship flashes and is invulnerable for 1.2 seconds. Difficulty rises every 20 seconds.</string>
+  <string name="help_items" formatted="false">03 / SUPPLIES</string>
+  <string name="help_shield" formatted="false">◇ Shield: blocks one hit; lasts 8 seconds.</string>
+  <string name="help_repair" formatted="false">+ Repair: restores 1 armor, up to your maximum.</string>
+  <string name="help_slow" formatted="false">◷ Slow: meteors move at 60% speed for 5 seconds.</string>
+  <string name="help_rewards" formatted="false">04 / FLIGHT REWARDS</string>
+  <string name="help_rewards_body" formatted="false">Survival: 10 points/second. Items: 25 points each. Every 20 final points earn 1 credit for ship upgrades. Abandoned flights earn nothing.</string>
+  <string name="help_accessibility" formatted="false">Play requires real-time observation and dragging.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSION 1.3 / 20 LANGUAGES</string>
+  <string name="new_tagline" formatted="false">Graze meteors to build combos. Pulse to escape. Master your flight and beat your best.</string>
+  <string name="pulse_ready" formatted="false">PULSE</string>
+  <string name="pulse_charging">ENERGY %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Clear nearby meteors when energy is full</string>
+  <string name="combo_status">COMBO %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">METEOR SHOWER · %1$d</string>
+  <string name="notice_near">NEAR MISS! +%1$d</string>
+  <string name="notice_pickup">SUPPLIES! +%1$d</string>
+  <string name="notice_hit" formatted="false">HIT! −1 ARMOR</string>
+  <string name="notice_shield" formatted="false">SHIELD BLOCKED A HIT</string>
+  <string name="notice_pulse" formatted="false">ENERGY PULSE!</string>
+  <string name="notice_wave" formatted="false">WATCH THE WARNING LANES</string>
+  <string name="notice_mission">OBJECTIVE COMPLETE! +%1$d</string>
+  <string name="mission_survive">Survive %1$d/30 s · +100 points</string>
+  <string name="mission_near">Near misses %1$d/5 · +150 points</string>
+  <string name="mission_items">Items %1$d/3 · +100 points</string>
+  <string name="mission_all" formatted="false">ALL 3/3 OBJECTIVES COMPLETE</string>
+  <string name="stat_near" formatted="false">Near misses</string>
+  <string name="stat_combo" formatted="false">Best combo</string>
+  <string name="stat_pulse" formatted="false">Pulses used</string>
+  <string name="stat_bonus" formatted="false">Skill bonus points</string>
+  <string name="stat_missions" formatted="false">Objectives completed</string>
+  <string name="new_mechanics" formatted="false">05 / RISK AND REWARD</string>
+  <string name="new_mechanics_body" formatted="false">Graze a meteor without touching it to earn points and energy. Chain near misses within 5 seconds. Combos 3 and 6 give ×2 and ×3 bonuses. Armor hits or timeout break the combo. Time and item points are not multiplied.</string>
+  <string name="pulse_help" formatted="false">06 / ENERGY PULSE</string>
+  <string name="pulse_help_body" formatted="false">At full energy, pulse clears meteors within radius 180 and protects for 0.6 seconds. Start with full energy; recharge 3/second, 12 per near miss and 20 per item. Destroyed meteors give no near-miss points.</string>
+  <string name="wave_help" formatted="false">07 / WARNINGS</string>
+  <string name="wave_help_body" formatted="false">From second 12, a shower arrives every 18 seconds with 1.6 seconds of warning. Orange marks danger; cyan marks the shower gap. Older meteors may still occupy it. After 20 seconds, some meteors drift sideways.</string>
+  <string name="mission_help" formatted="false">08 / FLIGHT OBJECTIVES</string>
+  <string name="mission_help_body" formatted="false">Survive 30 seconds: +100 points. Graze 5 meteors: +150. Collect 3 items: +100. Each objective pays once, even when not displayed. Final credits include all bonus points.</string>
+  <string name="challenge_title" formatted="false">FLY WITH A PURPOSE</string>
+  <string name="challenge_body" formatted="false">Survive 30 seconds · 5 near misses · 3 items. Complete all three for 350 bonus points per flight.</string>
+  <string name="flight_upgrade_title" formatted="false">IN-FLIGHT UPGRADES</string>
+  <string name="flight_upgrade_body" formatted="false">Choose one change for the rest of this flight. Time is frozen while you decide. Each type can be chosen once.</string>
+  <string name="flight_upgrade_choose" formatted="false">Choose and continue</string>
+  <string name="capacitor_body" formatted="false">Amplifier: pulse radius 180 → 250. Tradeoff: passive energy recharge is 30% slower. Item and near-miss energy stay unchanged.</string>
+  <string name="daredevil_body" formatted="false">Daredevil: double near-miss points. Tradeoff: maximum armor −1; current armor is capped at the new maximum.</string>
+  <string name="focus_body" formatted="false">Focus: combo window 5 → 8 seconds. Tradeoff: newly collected slow items last 20% less time.</string>
+  <string name="flight_upgrade_help" formatted="false">At 45, 90 and 135 seconds, pause to choose an upgrade for this flight only; each type once. A 3-second countdown follows. Amplifier: wider pulse, slower recharge. Daredevil: double near-miss points, less armor. Focus: longer combos, shorter slow effects.</string>
+  <string name="guide_pickup" formatted="false">STEP 2 / 4 · Drag into an item for effects and energy.</string>
+  <string name="guide_pulse" formatted="false">STEP 3 / 4 · Use PULSE at full energy to clear a path.</string>
+  <string name="guide_near" formatted="false">STEP 4 / 4 · Let a meteor pass close without touching the ship to earn a combo.</string>
+  <string name="guide_skip" formatted="false">Got it · Hide guide</string>
+  <string name="next_flight" formatted="false">NEXT FLIGHT GOAL</string>
+  <string name="tip_energy" formatted="false">You ended with pulse ready. Next flight, use it before you get cornered.</string>
+  <string name="tip_survive" formatted="false">Survive 30 seconds for 100 bonus points. Seek open space and keep away from meteors.</string>
+  <string name="tip_near" formatted="false">Try 5 near misses for 150 bonus points. Take risks only with an escape route.</string>
+  <string name="tip_combo" formatted="false">Chain 6 near misses within the combo window for a ×3 bonus.</string>
+  <string name="goal_ready" formatted="false">You can afford your next upgrade. Visit the hangar.</string>
+  <string name="goal_remaining">%1$d more credits to afford the cheapest next upgrade.</string>
+  <string name="all_upgraded" formatted="false">Ship fully upgraded. Try another strategy and beat your best!</string>
+  <string name="guide_replay" formatted="false">Play with step-by-step guidance</string>
+  <string name="language" formatted="false">Language</string>
+  <string name="language_system" formatted="false">Use device language</string>
+  <string name="language_hint" formatted="false">Choose your display language. Saved automatically; game progress is preserved.</string>
+  <string name="capacitor_name" formatted="false">Amplifier</string>
+  <string name="daredevil_name" formatted="false">Daredevil</string>
+  <string name="focus_name" formatted="false">Focus</string>
 </resources>
-
-

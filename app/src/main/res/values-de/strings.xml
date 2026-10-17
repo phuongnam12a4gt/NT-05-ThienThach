@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">Meteor Dash</string>
+  <string name="title" formatted="false">METEOR\nDASH</string>
+  <string name="survival_mode" formatted="false">ENDLOSES ÜBERLEBEN</string>
+  <string name="ship_name" formatted="false">AUFKLÄRER / NOVA–01</string>
+  <string name="ship_ready" formatted="false">Startbereit</string>
+  <string name="best" formatted="false">REKORD</string>
+  <string name="wallet" formatted="false">CREDITS</string>
+  <string name="play" formatted="false">FLUG STARTEN</string>
+  <string name="upgrades" formatted="false">Schiff verbessern</string>
+  <string name="settings" formatted="false">Einstellungen</string>
+  <string name="help" formatted="false">Spielanleitung</string>
+  <string name="offline" formatted="false">OFFLINE · ZUM AUSWEICHEN ZIEHEN</string>
+  <string name="back" formatted="false">Zurück</string>
+  <string name="home" formatted="false">Startseite</string>
+  <string name="play_again" formatted="false">Erneut spielen</string>
+  <string name="continue_play" formatted="false">Fortsetzen</string>
+  <string name="loading" formatted="false">Fortschritt wird geladen…</string>
+  <string name="loading_hint" formatted="false">Schiff und Flugbuch werden vorbereitet.</string>
+  <string name="error_title" formatted="false">Daten konnten nicht gelesen oder gespeichert werden</string>
+  <string name="error_body" formatted="false">Speicherplatz prüfen und erneut versuchen. Neuere Daten benötigen ein App-Update. Credits und Verbesserungen gelten erst nach dem Speichern.</string>
+  <string name="retry" formatted="false">Erneut versuchen</string>
+  <string name="close" formatted="false">Schließen</string>
+  <string name="recovered_title" formatted="false">Fortschritt zurückgesetzt</string>
+  <string name="recovered_body" formatted="false">Die beschädigte Datei konnte nicht wiederhergestellt werden. Ein neues Flugbuch wurde erstellt.</string>
+  <string name="understood" formatted="false">Verstanden</string>
+  <string name="pause" formatted="false">Pause</string>
+  <string name="paused_title" formatted="false">PAUSE ZWISCHEN\nDEN STERNEN</string>
+  <string name="paused_body" formatted="false">Flug pausiert. Durchatmen und dann weiterfliegen.</string>
+  <string name="score" formatted="false">PUNKTE</string>
+  <string name="armor" formatted="false">PANZERUNG</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ Schild %1$d s</string>
+  <string name="slow_timer">◷ Verlangsamung %1$d s</string>
+  <string name="tutorial_title" formatted="false">Seitlich ziehen, um Meteoren auszuweichen</string>
+  <string name="tutorial_body" formatted="false">SCHRITT 1 / 4 · Berühren und seitlich ziehen, um zu starten. Das Schiff folgt der Ziehbewegung.</string>
+  <string name="drag_hint" formatted="false">← ZUM STEUERN ZIEHEN →</string>
+  <string name="get_ready" formatted="false">BEREIT ZUM START</string>
+  <string name="abandon_title" formatted="false">Diesen Flug abbrechen?</string>
+  <string name="abandon_body" formatted="false">Dieser Flug bringt keine Belohnung und keinen Rekord.</string>
+  <string name="keep_playing" formatted="false">Weiterspielen</string>
+  <string name="abandon" formatted="false">Abbrechen</string>
+  <string name="mission_end" formatted="false">FLUG BEENDET</string>
+  <string name="result_title" formatted="false">BIS ZUM\nNÄCHSTEN FLUG.</string>
+  <string name="new_record" formatted="false">✦ NEUER REKORD</string>
+  <string name="final_score" formatted="false">FLUGPUNKTE</string>
+  <string name="survival" formatted="false">Überlebenszeit</string>
+  <string name="collected" formatted="false">Gesammelte Gegenstände</string>
+  <string name="earned" formatted="false">Verdiente Credits</string>
+  <string name="reward_pending" formatted="false">Belohnungen werden gespeichert…</string>
+  <string name="reward_failed" formatted="false">Belohnungen nicht gespeichert. Erneut versuchen.</string>
+  <string name="retry_save" formatted="false">Speichern wiederholen</string>
+  <string name="result_hint" formatted="false">Jeder Flug bringt dich weiter.</string>
+  <string name="hangar" formatted="false">HANGAR / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">BEREIT FÜR\nWEITERE FLÜGE.</string>
+  <string name="upgrades_body" formatted="false">Einmal verbessern. Bei jedem Flug profitieren.</string>
+  <string name="armor_name" formatted="false">Verstärkte Hülle</string>
+  <string name="shield_name" formatted="false">Schildgenerator</string>
+  <string name="slow_name" formatted="false">Zeitlupenfeld</string>
+  <string name="level">Stufe %1$d / %2$d</string>
+  <string name="armor_effect">Aktuell: %1$d maximale Panzerung</string>
+  <string name="shield_effect">Aktuell: %1$d Sekunden Schild</string>
+  <string name="slow_effect">Aktuell: %1$s Sekunden Verlangsamung</string>
+  <string name="armor_next" formatted="false">Weiter: +1 maximale Panzerung</string>
+  <string name="shield_next" formatted="false">Weiter: +1 Sekunde Schild</string>
+  <string name="slow_next" formatted="false">Weiter: +0,5 Sekunden Verlangsamung</string>
+  <string name="buy">Verbessern · %1$d Credits</string>
+  <string name="not_enough">Benötigt %1$d Credits</string>
+  <string name="max_level" formatted="false">Maximale Stufe</string>
+  <string name="saving" formatted="false">Speichern…</string>
+  <string name="settings_eyebrow" formatted="false">COCKPIT / OPTIONEN</string>
+  <string name="settings_title" formatted="false">SPIELE AUF\nDEINE ART.</string>
+  <string name="music" formatted="false">Musik</string>
+  <string name="music_hint" formatted="false">Weltraumklänge während des Flugs</string>
+  <string name="sound" formatted="false">Soundeffekte</string>
+  <string name="sound_hint" formatted="false">Töne bei Gegenständen und Treffern</string>
+  <string name="vibration" formatted="false">Vibration</string>
+  <string name="vibration_hint" formatted="false">Kurze Vibration bei Treffern</string>
+  <string name="reduced_motion" formatted="false">Bewegung reduzieren</string>
+  <string name="reduced_motion_hint" formatted="false">Sterne anhalten und Partikel reduzieren</string>
+  <string name="reset" formatted="false">Fortschritt zurücksetzen</string>
+  <string name="reset_title" formatted="false">Flugbuch löschen?</string>
+  <string name="reset_body" formatted="false">Credits, Rekorde, Verbesserungen und Tutorial werden gelöscht. Ton-, Bewegungs- und Spracheinstellungen bleiben. Nicht rückgängig zu machen.</string>
+  <string name="cancel" formatted="false">Abbrechen</string>
+  <string name="privacy" formatted="false">Daten auf diesem Gerät. Kein Konto, keine Werbung, kein Internet nötig.</string>
+  <string name="help_eyebrow" formatted="false">PILOTENAKADEMIE</string>
+  <string name="help_title" formatted="false">NUR EIN\nFINGER.</string>
+  <string name="help_controls" formatted="false">01 / STEUERUNG</string>
+  <string name="help_controls_body" formatted="false">Im Spielfeld seitlich ziehen. Das Schiff folgt der gezogenen Strecke und springt nicht zur Berührung. Fallenden Meteoren ausweichen; Bewegung nur horizontal.</string>
+  <string name="help_survive" formatted="false">02 / ÜBERLEBEN</string>
+  <string name="help_survive_body" formatted="false">Treffer kosten 1 Panzerung. Bei null endet der Flug. Danach blinkt das Schiff und ist 1,2 Sekunden unverwundbar. Alle 20 Sekunden steigt die Schwierigkeit.</string>
+  <string name="help_items" formatted="false">03 / VERSORGUNG</string>
+  <string name="help_shield" formatted="false">◇ Schild: blockiert einen Treffer; hält 8 Sekunden.</string>
+  <string name="help_repair" formatted="false">+ Reparatur: stellt 1 Panzerung bis zum Maximum wieder her.</string>
+  <string name="help_slow" formatted="false">◷ Verlangsamung: Meteore 5 Sekunden lang bei 60% Tempo.</string>
+  <string name="help_rewards" formatted="false">04 / FLUGBELOHNUNGEN</string>
+  <string name="help_rewards_body" formatted="false">Überleben: 10 Punkte/Sekunde. Gegenstände: je 25 Punkte. Je 20 Endpunkte geben 1 Credit für Verbesserungen. Abgebrochene Flüge bringen nichts.</string>
+  <string name="help_accessibility" formatted="false">Erfordert Beobachtung und Ziehen in Echtzeit.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">VERSION 1.3 / 20 SPRACHEN</string>
+  <string name="new_tagline" formatted="false">Knapp ausweichen für Kombos. Mit Impulsen entkommen und den Rekord brechen.</string>
+  <string name="pulse_ready" formatted="false">IMPULS</string>
+  <string name="pulse_charging">ENERGIE %1$d/100</string>
+  <string name="pulse_hint" formatted="false">Bei voller Energie nahe Meteore entfernen</string>
+  <string name="combo_status">KOMBO %1$d · BONUS ×%2$d · %3$d s</string>
+  <string name="wave_warning">METEORSCHAUER · %1$d</string>
+  <string name="notice_near">KNAPP VORBEI! +%1$d</string>
+  <string name="notice_pickup">VERSORGUNG! +%1$d</string>
+  <string name="notice_hit" formatted="false">TREFFER! −1 PANZERUNG</string>
+  <string name="notice_shield" formatted="false">SCHILD HAT TREFFER BLOCKIERT</string>
+  <string name="notice_pulse" formatted="false">ENERGIEIMPULS!</string>
+  <string name="notice_wave" formatted="false">WARNBAHNEN BEACHTEN</string>
+  <string name="notice_mission">ZIEL ERREICHT! +%1$d</string>
+  <string name="mission_survive">Überleben %1$d/30 s · +100 Punkte</string>
+  <string name="mission_near">Knapp ausgewichen %1$d/5 · +150 Punkte</string>
+  <string name="mission_items">Gegenstände %1$d/3 · +100 Punkte</string>
+  <string name="mission_all" formatted="false">ALLE 3/3 ZIELE ERREICHT</string>
+  <string name="stat_near" formatted="false">Knappe Ausweichmanöver</string>
+  <string name="stat_combo" formatted="false">Beste Kombo</string>
+  <string name="stat_pulse" formatted="false">Genutzte Impulse</string>
+  <string name="stat_bonus" formatted="false">Könnensbonus</string>
+  <string name="stat_missions" formatted="false">Erreichte Ziele</string>
+  <string name="new_mechanics" formatted="false">05 / RISIKO UND BELOHNUNG</string>
+  <string name="new_mechanics_body" formatted="false">Knapp ohne Berührung vorbeifliegen gibt Punkte und Energie. Innerhalb von 5 Sekunden verketten. Kombos 3 und 6 geben ×2 und ×3. Panzerungstreffer oder Zeitablauf beenden die Kombo. Zeit- und Gegenstandspunkte werden nicht multipliziert.</string>
+  <string name="pulse_help" formatted="false">06 / ENERGIEIMPULS</string>
+  <string name="pulse_help_body" formatted="false">Bei voller Energie Meteore im Radius 180 entfernen und 0,6 Sekunden Schutz. Startenergie voll; Aufladung 3/Sekunde, 12 je knappem Ausweichen und 20 je Gegenstand. Zerstörte Meteore geben keine Ausweichpunkte.</string>
+  <string name="wave_help" formatted="false">07 / WARNUNGEN</string>
+  <string name="wave_help_body" formatted="false">Ab Sekunde 12 alle 18 Sekunden ein Schauer mit 1,6 Sekunden Vorwarnung. Orange: Gefahr; Cyan: Lücke. Alte Meteore können darin bleiben. Nach 20 Sekunden driften einige seitlich.</string>
+  <string name="mission_help" formatted="false">08 / FLUGZIELE</string>
+  <string name="mission_help_body" formatted="false">30 Sekunden überleben: +100 Punkte. 5-mal knapp ausweichen: +150. 3 Gegenstände sammeln: +100. Jedes Ziel zahlt einmal, auch ohne Anzeige. Credits enthalten alle Boni.</string>
+  <string name="challenge_title" formatted="false">FLIEGE MIT EINEM ZIEL</string>
+  <string name="challenge_body" formatted="false">30 Sekunden überleben · 5 knappe Manöver · 3 Gegenstände. Alles schaffen für 350 Bonuspunkte pro Flug.</string>
+  <string name="flight_upgrade_title" formatted="false">VERBESSERUNGEN IM FLUG</string>
+  <string name="flight_upgrade_body" formatted="false">Wähle eine Änderung für den restlichen Flug. Während der Wahl steht die Zeit still. Jede Art nur einmal.</string>
+  <string name="flight_upgrade_choose" formatted="false">Wählen und fortsetzen</string>
+  <string name="capacitor_body" formatted="false">Verstärker: Impulsradius 180 → 250. Nachteil: passive Aufladung 30% langsamer. Energie aus Gegenständen und Ausweichen bleibt gleich.</string>
+  <string name="daredevil_body" formatted="false">Draufgänger: doppelte Ausweichpunkte. Nachteil: maximale Panzerung −1; aktuelle Panzerung wird auf das neue Maximum begrenzt.</string>
+  <string name="focus_body" formatted="false">Fokus: Kombofenster 5 → 8 Sekunden. Nachteil: neu gesammelte Verlangsamungen halten 20% kürzer.</string>
+  <string name="flight_upgrade_help" formatted="false">Bei 45, 90 und 135 Sekunden eine Verbesserung nur für diesen Flug wählen, jede Art einmal. Danach 3 Sekunden Countdown. Verstärker: größerer Radius, langsamere Aufladung. Draufgänger: doppelte Punkte, weniger Panzerung. Fokus: längere Kombo, kürzere Verlangsamung.</string>
+  <string name="guide_pickup" formatted="false">SCHRITT 2 / 4 · Gegenstand einsammeln für Effekte und Energie.</string>
+  <string name="guide_pulse" formatted="false">SCHRITT 3 / 4 · Bei voller Energie IMPULS nutzen, um den Weg freizumachen.</string>
+  <string name="guide_near" formatted="false">SCHRITT 4 / 4 · Meteor knapp ohne Berührung passieren lassen für eine Kombo.</string>
+  <string name="guide_skip" formatted="false">Verstanden · Anleitung ausblenden</string>
+  <string name="next_flight" formatted="false">ZIEL FÜR DEN NÄCHSTEN FLUG</string>
+  <string name="tip_energy" formatted="false">Dein Impuls war am Ende bereit. Nutze ihn nächstes Mal, bevor du eingekesselt wirst.</string>
+  <string name="tip_survive" formatted="false">30 Sekunden überleben für 100 Bonuspunkte. Freie Stellen suchen und Abstand halten.</string>
+  <string name="tip_near" formatted="false">5 knappe Manöver für 150 Bonuspunkte versuchen. Nur mit Fluchtweg riskieren.</string>
+  <string name="tip_combo" formatted="false">6 knappe Manöver im Kombofenster verketten für ×3 Bonus.</string>
+  <string name="goal_ready" formatted="false">Du kannst die nächste Verbesserung kaufen. Besuche den Hangar.</string>
+  <string name="goal_remaining">Noch %1$d Credits bis zur günstigsten nächsten Verbesserung.</string>
+  <string name="all_upgraded" formatted="false">Schiff voll verbessert! Andere Strategie versuchen und den Rekord brechen.</string>
+  <string name="guide_replay" formatted="false">Mit Schritt-für-Schritt-Anleitung spielen</string>
+  <string name="language" formatted="false">Sprache</string>
+  <string name="language_system" formatted="false">Gerätesprache verwenden</string>
+  <string name="language_hint" formatted="false">Anzeigesprache wählen. Wird automatisch gespeichert; Fortschritt bleibt erhalten.</string>
+  <string name="capacitor_name" formatted="false">Verstärker</string>
+  <string name="daredevil_name" formatted="false">Draufgänger</string>
+  <string name="focus_name" formatted="false">Fokus</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name" formatted="false">메테오 대시</string>
+  <string name="title" formatted="false">메테오\n대시</string>
+  <string name="survival_mode" formatted="false">끝없는 생존</string>
+  <string name="ship_name" formatted="false">정찰선 / NOVA–01</string>
+  <string name="ship_ready" formatted="false">이륙 준비 완료</string>
+  <string name="best" formatted="false">최고 기록</string>
+  <string name="wallet" formatted="false">크레딧</string>
+  <string name="play" formatted="false">비행 시작</string>
+  <string name="upgrades" formatted="false">기체 강화</string>
+  <string name="settings" formatted="false">설정</string>
+  <string name="help" formatted="false">게임 방법</string>
+  <string name="offline" formatted="false">오프라인 플레이 · 드래그로 회피</string>
+  <string name="back" formatted="false">뒤로</string>
+  <string name="home" formatted="false">홈</string>
+  <string name="play_again" formatted="false">다시 하기</string>
+  <string name="continue_play" formatted="false">계속</string>
+  <string name="loading" formatted="false">진행 상황 불러오는 중…</string>
+  <string name="loading_hint" formatted="false">기체와 비행 일지를 준비합니다.</string>
+  <string name="error_title" formatted="false">데이터를 읽거나 저장할 수 없음</string>
+  <string name="error_body" formatted="false">저장 공간을 확인하고 다시 시도하세요. 더 최신 데이터는 앱 업데이트가 필요합니다. 크레딧과 강화는 저장 후 적용됩니다.</string>
+  <string name="retry" formatted="false">다시 시도</string>
+  <string name="close" formatted="false">닫기</string>
+  <string name="recovered_title" formatted="false">진행 상황 초기화됨</string>
+  <string name="recovered_body" formatted="false">진행 파일이 손상되어 복구할 수 없습니다. 새 비행 일지를 만들었습니다.</string>
+  <string name="understood" formatted="false">확인</string>
+  <string name="pause" formatted="false">일시정지</string>
+  <string name="paused_title" formatted="false">별들 사이에서\n잠시 쉬기</string>
+  <string name="paused_body" formatted="false">비행이 멈췄습니다. 숨을 고르고 계속하세요.</string>
+  <string name="score" formatted="false">점수</string>
+  <string name="armor" formatted="false">장갑</string>
+  <string name="armor_value">%1$d/%2$d</string>
+  <string name="shield_timer">◇ 보호막 %1$d초</string>
+  <string name="slow_timer">◷ 감속 %1$d초</string>
+  <string name="tutorial_title" formatted="false">좌우로 드래그해 운석 회피</string>
+  <string name="tutorial_body" formatted="false">1 / 4 단계 · 화면을 누르고 좌우로 드래그하면 시작합니다. 기체가 드래그를 따라갑니다.</string>
+  <string name="drag_hint" formatted="false">← 드래그로 조종 →</string>
+  <string name="get_ready" formatted="false">이륙 준비</string>
+  <string name="abandon_title" formatted="false">이번 비행을 포기할까요?</string>
+  <string name="abandon_body" formatted="false">이번 비행의 보상과 기록을 얻지 못합니다.</string>
+  <string name="keep_playing" formatted="false">계속 플레이</string>
+  <string name="abandon" formatted="false">포기</string>
+  <string name="mission_end" formatted="false">비행 종료</string>
+  <string name="result_title" formatted="false">다음 비행에서\n만나요.</string>
+  <string name="new_record" formatted="false">✦ 새 최고 기록</string>
+  <string name="final_score" formatted="false">비행 점수</string>
+  <string name="survival" formatted="false">생존 시간</string>
+  <string name="collected" formatted="false">수집한 아이템</string>
+  <string name="earned" formatted="false">획득 크레딧</string>
+  <string name="reward_pending" formatted="false">보상 저장 중…</string>
+  <string name="reward_failed" formatted="false">보상을 저장하지 못했습니다. 다시 시도하세요.</string>
+  <string name="retry_save" formatted="false">저장 재시도</string>
+  <string name="result_hint" formatted="false">비행할 때마다 더 멀리 나아갑니다.</string>
+  <string name="hangar" formatted="false">격납고 / NOVA–01</string>
+  <string name="upgrades_title" formatted="false">더 멀리\n날아갈 준비.</string>
+  <string name="upgrades_body" formatted="false">한 번 강화로 모든 비행에 효과.</string>
+  <string name="armor_name" formatted="false">강화 선체</string>
+  <string name="shield_name" formatted="false">보호막 생성기</string>
+  <string name="slow_name" formatted="false">감속장</string>
+  <string name="level">레벨 %1$d / %2$d</string>
+  <string name="armor_effect">현재: 최대 장갑 %1$d</string>
+  <string name="shield_effect">현재: 보호막 %1$d초</string>
+  <string name="slow_effect">현재: 감속 %1$s초</string>
+  <string name="armor_next" formatted="false">다음: 최대 장갑 +1</string>
+  <string name="shield_next" formatted="false">다음: 보호막 +1초</string>
+  <string name="slow_next" formatted="false">다음: 감속 +0.5초</string>
+  <string name="buy">강화 · %1$d 크레딧</string>
+  <string name="not_enough">%1$d 크레딧 필요</string>
+  <string name="max_level" formatted="false">최대 레벨</string>
+  <string name="saving" formatted="false">저장 중…</string>
+  <string name="settings_eyebrow" formatted="false">조종석 / 옵션</string>
+  <string name="settings_title" formatted="false">나만의 방식으로\n플레이.</string>
+  <string name="music" formatted="false">음악</string>
+  <string name="music_hint" formatted="false">비행 중 우주 멜로디</string>
+  <string name="sound" formatted="false">효과음</string>
+  <string name="sound_hint" formatted="false">아이템 획득 및 피격 소리</string>
+  <string name="vibration" formatted="false">진동</string>
+  <string name="vibration_hint" formatted="false">기체나 보호막 피격 시 짧게 진동</string>
+  <string name="reduced_motion" formatted="false">움직임 줄이기</string>
+  <string name="reduced_motion_hint" formatted="false">별 움직임 정지 및 입자 감소</string>
+  <string name="reset" formatted="false">진행 상황 초기화</string>
+  <string name="reset_title" formatted="false">비행 일지를 지울까요?</string>
+  <string name="reset_body" formatted="false">크레딧, 기록, 강화와 튜토리얼 진행이 삭제됩니다. 소리, 움직임, 언어 설정은 유지됩니다. 되돌릴 수 없습니다.</string>
+  <string name="cancel" formatted="false">취소</string>
+  <string name="privacy" formatted="false">이 기기에 저장됩니다. 계정, 광고, 인터넷이 필요 없습니다.</string>
+  <string name="help_eyebrow" formatted="false">파일럿 아카데미</string>
+  <string name="help_title" formatted="false">손가락\n하나면 충분.</string>
+  <string name="help_controls" formatted="false">01 / 조작</string>
+  <string name="help_controls_body" formatted="false">게임 영역에서 좌우로 드래그하세요. 기체는 드래그 거리만큼 움직이며 터치 위치로 순간 이동하지 않습니다. 낙하 운석을 피하세요. 수평으로만 이동합니다.</string>
+  <string name="help_survive" formatted="false">02 / 생존</string>
+  <string name="help_survive_body" formatted="false">피격 시 장갑 1 감소, 0이면 비행 종료. 피격 후 깜빡이며 1.2초 무적입니다. 20초마다 난도가 오릅니다.</string>
+  <string name="help_items" formatted="false">03 / 보급</string>
+  <string name="help_shield" formatted="false">◇ 보호막: 한 번의 피격 방어, 8초 지속.</string>
+  <string name="help_repair" formatted="false">+ 수리: 최대치 내에서 장갑 1 회복.</string>
+  <string name="help_slow" formatted="false">◷ 감속: 5초 동안 운석 속도가 60%로 감소.</string>
+  <string name="help_rewards" formatted="false">04 / 비행 보상</string>
+  <string name="help_rewards_body" formatted="false">생존 초당 10점, 아이템당 25점. 최종 점수 20점마다 강화용 크레딧 1 획득. 비행 포기 시 보상이 없습니다.</string>
+  <string name="help_accessibility" formatted="false">실시간 관찰과 드래그 조작이 필요합니다.</string>
+  <string name="time_format">%1$02d:%2$02d</string>
+  <string name="update_badge" formatted="false">버전 1.3 / 20개 언어</string>
+  <string name="new_tagline" formatted="false">운석을 아슬아슬하게 피해 콤보를 쌓고 펄스로 탈출하세요. 최고 기록에 도전하세요.</string>
+  <string name="pulse_ready" formatted="false">펄스</string>
+  <string name="pulse_charging">에너지 %1$d/100</string>
+  <string name="pulse_hint" formatted="false">에너지가 가득 차면 주변 운석 제거</string>
+  <string name="combo_status">콤보 %1$d · 보너스 ×%2$d · %3$d초</string>
+  <string name="wave_warning">운석 소나기 · %1$d</string>
+  <string name="notice_near">아슬아슬 회피! +%1$d</string>
+  <string name="notice_pickup">보급! +%1$d</string>
+  <string name="notice_hit" formatted="false">피격! 장갑 −1</string>
+  <string name="notice_shield" formatted="false">보호막으로 방어</string>
+  <string name="notice_pulse" formatted="false">에너지 펄스!</string>
+  <string name="notice_wave" formatted="false">경고 구역을 확인하세요</string>
+  <string name="notice_mission">목표 달성! +%1$d</string>
+  <string name="mission_survive">생존 %1$d/30초 · +100점</string>
+  <string name="mission_near">아슬아슬 회피 %1$d/5회 · +150점</string>
+  <string name="mission_items">아이템 %1$d/3개 · +100점</string>
+  <string name="mission_all" formatted="false">목표 3/3 모두 달성</string>
+  <string name="stat_near" formatted="false">아슬아슬 회피 횟수</string>
+  <string name="stat_combo" formatted="false">최고 콤보</string>
+  <string name="stat_pulse" formatted="false">펄스 사용 횟수</string>
+  <string name="stat_bonus" formatted="false">기술 보너스 점수</string>
+  <string name="stat_missions" formatted="false">달성한 목표</string>
+  <string name="new_mechanics" formatted="false">05 / 위험과 보상</string>
+  <string name="new_mechanics_body" formatted="false">충돌 없이 운석을 스치면 점수와 에너지를 얻습니다. 5초 안에 연속 회피로 콤보를 쌓으세요. 3회는 ×2, 6회는 ×3 보너스입니다. 장갑 피격이나 시간 초과로 끊깁니다. 생존과 아이템 점수에는 배수가 없습니다.</string>
+  <string name="pulse_help" formatted="false">06 / 에너지 펄스</string>
+  <string name="pulse_help_body" formatted="false">에너지가 가득 차면 반경 180 내 운석 제거와 0.6초 보호. 시작 시 에너지 가득, 초당 3, 아슬아슬 회피당 12, 아이템당 20 회복. 파괴한 운석은 회피 점수를 주지 않습니다.</string>
+  <string name="wave_help" formatted="false">07 / 경고</string>
+  <string name="wave_help_body" formatted="false">12초부터 18초마다 소나기가 오며 1.6초 전에 경고합니다. 주황은 위험, 청록은 빈 구역입니다. 기존 운석은 그곳에도 남을 수 있습니다. 20초 후 일부 운석은 옆으로 움직입니다.</string>
+  <string name="mission_help" formatted="false">08 / 비행 목표</string>
+  <string name="mission_help_body" formatted="false">30초 생존: +100점. 아슬아슬 회피 5회: +150점. 아이템 3개: +100점. 표시되지 않아도 각 목표는 한 번만 보상을 줍니다. 크레딧에는 모든 보너스가 포함됩니다.</string>
+  <string name="challenge_title" formatted="false">목표를 향해 비행</string>
+  <string name="challenge_body" formatted="false">30초 생존 · 아슬아슬 회피 5회 · 아이템 3개. 모두 달성하면 비행당 350점 추가.</string>
+  <string name="flight_upgrade_title" formatted="false">비행 중 강화</string>
+  <string name="flight_upgrade_body" formatted="false">이번 비행의 남은 시간에 적용할 강화를 선택하세요. 선택 중 시간은 멈추며 각 종류는 한 번만 선택할 수 있습니다.</string>
+  <string name="flight_upgrade_choose" formatted="false">선택 후 계속</string>
+  <string name="capacitor_body" formatted="false">증폭기: 펄스 반경 180 → 250. 대신 자동 에너지 충전 30% 감소. 아이템과 회피 충전량은 유지.</string>
+  <string name="daredevil_body" formatted="false">모험가: 아슬아슬 회피 점수 2배. 대신 최대 장갑 −1, 현재 장갑도 새 최대치로 제한.</string>
+  <string name="focus_body" formatted="false">집중: 콤보 시간 5 → 8초. 대신 이후 얻는 감속 아이템의 지속 시간이 20% 감소.</string>
+  <string name="flight_upgrade_help" formatted="false">45, 90, 135초에 이번 비행 전용 강화를 각 종류 한 번 선택합니다. 선택 후 3초 카운트다운. 증폭기는 범위 증가와 충전 감소, 모험가는 회피 점수 2배와 장갑 감소, 집중은 콤보 연장과 감속 시간 단축.</string>
+  <string name="guide_pickup" formatted="false">2 / 4 단계 · 아이템을 향해 드래그해 효과와 에너지를 얻으세요.</string>
+  <string name="guide_pulse" formatted="false">3 / 4 단계 · 에너지가 가득 차면 펄스로 길을 만드세요.</string>
+  <string name="guide_near" formatted="false">4 / 4 단계 · 기체에 닿지 않게 운석을 가까이 지나쳐 콤보를 얻으세요.</string>
+  <string name="guide_skip" formatted="false">확인 · 안내 숨기기</string>
+  <string name="next_flight" formatted="false">다음 비행 목표</string>
+  <string name="tip_energy" formatted="false">펄스가 준비된 상태로 끝났습니다. 다음에는 구석에 몰리기 전에 사용하세요.</string>
+  <string name="tip_survive" formatted="false">30초 생존으로 100점 추가. 빈 공간을 찾고 운석과 거리를 유지하세요.</string>
+  <string name="tip_near" formatted="false">아슬아슬 회피 5회로 150점 추가. 탈출로가 있을 때만 위험을 감수하세요.</string>
+  <string name="tip_combo" formatted="false">시간 내 아슬아슬 회피 6회를 이어 ×3 보너스를 노리세요.</string>
+  <string name="goal_ready" formatted="false">다음 강화를 구매할 수 있습니다. 격납고로 가세요.</string>
+  <string name="goal_remaining">가장 저렴한 다음 강화까지 %1$d 크레딧 더 필요합니다.</string>
+  <string name="all_upgraded" formatted="false">모든 기체 강화 완료. 다른 전략으로 최고 기록에 도전하세요!</string>
+  <string name="guide_replay" formatted="false">단계별 안내와 함께 플레이</string>
+  <string name="language" formatted="false">언어</string>
+  <string name="language_system" formatted="false">기기 언어 사용</string>
+  <string name="language_hint" formatted="false">표시 언어를 선택하세요. 자동 저장되며 게임 진행은 유지됩니다.</string>
+  <string name="capacitor_name" formatted="false">증폭기</string>
+  <string name="daredevil_name" formatted="false">모험가</string>
+  <string name="focus_name" formatted="false">집중</string>
+</resources>

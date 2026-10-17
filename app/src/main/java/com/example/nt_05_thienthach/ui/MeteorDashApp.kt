@@ -2,10 +2,16 @@ package com.example.nt_05_thienthach.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.*
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.os.LocaleListCompat
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.unit.LayoutDirection
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -19,9 +25,11 @@ import com.example.nt_05_thienthach.*
 import com.example.nt_05_thienthach.R
 import com.example.nt_05_thienthach.data.*
 import com.example.nt_05_thienthach.game.*
-import java.util.Locale
 
 @Composable fun MeteorDashApp(vm: GameViewModel) {
+    var showLanguages by remember { mutableStateOf(false) }
+    val openLanguages = { showLanguages = true }
+
     MaterialTheme(colorScheme = darkColorScheme(primary = Cyan, onPrimary = Space, background = Space,
         surface = Panel, onSurface = Ink, secondary = Orange, onBackground = Ink)) {
         BackHandler(enabled = vm.screen != Screen.HOME) { vm.back() }
@@ -30,15 +38,16 @@ import java.util.Locale
             Box(Modifier.fillMaxSize().safeDrawingPadding()) {
                 if (!vm.loaded) Loading(vm)
                 else when (vm.screen) {
-                    Screen.HOME -> Home(vm)
+                    Screen.HOME -> Home(vm, openLanguages)
                     Screen.GAME -> Gameplay(vm)
                     Screen.RESULT -> Results(vm)
                     Screen.UPGRADES -> Upgrades(vm)
-                    Screen.SETTINGS -> SettingsScreen(vm)
+                    Screen.SETTINGS -> SettingsScreen(vm, openLanguages)
                     Screen.HELP -> Help(vm)
                 }
             }
         }
+        if (showLanguages) LanguagePicker { showLanguages = false }
         if (vm.confirmAbandon != null) AlertDialog(
             onDismissRequest = { vm.confirmAbandon = null },
             title = { Text(stringResource(R.string.abandon_title)) }, text = { Text(stringResource(R.string.abandon_body)) },
@@ -66,8 +75,16 @@ import java.util.Locale
         if (vm.error) TextButton(onClick = vm::reload) { Text(stringResource(R.string.retry)) }
     }
 }
-@Composable private fun Eyebrow(id: Int) { Text(stringResource(id), color = Cyan, fontSize = 10.sp, letterSpacing = 2.sp, fontWeight = FontWeight.Bold) }
-@Composable private fun BigTitle(id: Int) { Text(stringResource(id), fontSize = 38.sp, lineHeight = 42.sp, fontWeight = FontWeight.Black, letterSpacing = (-1).sp, color = Ink) }
+@Composable private fun Eyebrow(id: Int) {
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
+    Text(stringResource(id), color = Cyan, fontSize = 10.sp, letterSpacing = if (rtl) 0.sp else 2.sp, fontWeight = FontWeight.Bold)
+}
+@Composable private fun BigTitle(id: Int) {
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
+    Text(stringResource(id), modifier = Modifier.fillMaxWidth(), fontSize = 38.sp,
+        lineHeight = if (rtl) 50.sp else 42.sp, fontWeight = FontWeight.Black,
+        letterSpacing = if (rtl) 0.sp else (-1).sp, color = Ink)
+}
 @Composable private fun Action(id: Int, onClick: () -> Unit, enabled: Boolean = true, primary: Boolean = true) {
     if (primary) Button(onClick = onClick, enabled = enabled, modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp),
         shape = RoundedCornerShape(16.dp), contentPadding = PaddingValues(16.dp)) { Text(stringResource(id), fontWeight = FontWeight.Bold, fontSize = 14.sp) }
@@ -85,16 +102,18 @@ import java.util.Locale
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp)) {
         TextButton(onClick = { vm.navigate(Screen.HOME) }, contentPadding = PaddingValues(0.dp), modifier = Modifier.heightIn(min = 48.dp)) {
-            Text("←  " + stringResource(R.string.back), color = Muted)
+            Text((if (LocalLayoutDirection.current == LayoutDirection.Rtl) "→  " else "←  ") + stringResource(R.string.back), color = Muted)
         }
         content()
     }
 }
-@Composable private fun Home(vm: GameViewModel) {
+@Composable private fun Home(vm: GameViewModel, openLanguages: () -> Unit) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Text(stringResource(R.string.brand), fontSize = 12.sp, letterSpacing = 3.sp, fontWeight = FontWeight.Bold, color = Ink)
-            Text("✦", color = Cyan, fontSize = 24.sp, modifier = Modifier.clearAndSetSemantics { })
+            TextButton(onClick = openLanguages, modifier = Modifier.heightIn(min = 48.dp)) {
+                Text("🌐 " + stringResource(R.string.language), color = Cyan, fontSize = 12.sp)
+            }
         }
         Spacer(Modifier.height(4.dp))
         Eyebrow(R.string.update_badge)
@@ -165,7 +184,7 @@ import java.util.Locale
                             if (vm.hud.slow > 0) Text(stringResource(R.string.slow_timer, vm.hud.slow), color = Color(0xFFBDA4FF), fontSize = 10.sp)
                         }
                         FlightChallenge(vm)
-                        if (vm.hud.flightUpgrades.isNotEmpty()) Text(vm.hud.flightUpgrades.joinToString(" · ") { flightUpgradeName(it) }, color = Cyan, fontSize = 10.sp)
+                        if (vm.hud.flightUpgrades.isNotEmpty()) Text(flightUpgradeNames(vm.hud.flightUpgrades), color = Cyan, fontSize = 10.sp)
                     }
                     FlightNotice(vm, Modifier.align(Alignment.TopCenter).padding(top = boardWidth * .75f, start = 8.dp, end = 8.dp))
                     Text(stringResource(R.string.drag_hint), color = Muted.copy(alpha = .65f), fontSize = 9.sp,
@@ -262,7 +281,7 @@ import java.util.Locale
                 result.nearMisses < 5 -> R.string.tip_near
                 else -> R.string.tip_combo
             }), color = Ink, lineHeight = 22.sp)
-            if (result.flightUpgrades.isNotEmpty()) Text(result.flightUpgrades.joinToString(" · ") { flightUpgradeName(it) }, color = Cyan)
+            if (result.flightUpgrades.isNotEmpty()) Text(flightUpgradeNames(result.flightUpgrades), color = Cyan)
             if (vm.rewardSaved) {
                 val progress = vm.saved.progress
                 val next = UpgradeKind.entries.mapNotNull { kind ->
@@ -303,7 +322,7 @@ import java.util.Locale
             Text(when (kind) {
                 UpgradeKind.ARMOR -> stringResource(R.string.armor_effect, p.upgrades.maxArmor)
                 UpgradeKind.SHIELD -> stringResource(R.string.shield_effect, p.upgrades.shieldSeconds.toInt())
-                UpgradeKind.SLOW -> stringResource(R.string.slow_effect, String.format(Locale.forLanguageTag("vi"), "%.1f", p.upgrades.slowSeconds))
+                UpgradeKind.SLOW -> stringResource(R.string.slow_effect, String.format(LocalConfiguration.current.locales[0], "%.1f", p.upgrades.slowSeconds))
             }, color = Muted, fontSize = 13.sp)
             if (price != null) Text(stringResource(when (kind) {
                 UpgradeKind.ARMOR -> R.string.armor_next; UpgradeKind.SHIELD -> R.string.shield_next; UpgradeKind.SLOW -> R.string.slow_next
@@ -323,8 +342,14 @@ import java.util.Locale
         }
     }
 }
-@Composable private fun SettingsScreen(vm: GameViewModel) = MenuPage(vm) {
+@Composable private fun SettingsScreen(vm: GameViewModel, openLanguages: () -> Unit) = MenuPage(vm) {
     Eyebrow(R.string.settings_eyebrow); BigTitle(R.string.settings_title)
+    Sheet {
+        Text(stringResource(R.string.language_hint), color = Muted)
+        OutlinedButton(onClick = openLanguages, modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp)) {
+            Text("🌐 " + stringResource(R.string.language))
+        }
+    }
     Sheet {
         val s = vm.saved.settings
         Toggle(R.string.music, R.string.music_hint, s.music, !vm.busy) { vm.settings(s.copy(music = it)) }
@@ -402,8 +427,40 @@ import java.util.Locale
 }
 
 
-private fun flightUpgradeName(choice: FlightUpgrade): String = when (choice) {
-    FlightUpgrade.CAPACITOR -> "Tụ khuếch đại"
-    FlightUpgrade.DAREDEVIL -> "Phi công mạo hiểm"
-    FlightUpgrade.FOCUS -> "Tập trung"
+@Composable private fun flightUpgradeName(choice: FlightUpgrade): String = stringResource(when (choice) {
+    FlightUpgrade.CAPACITOR -> R.string.capacitor_name
+    FlightUpgrade.DAREDEVIL -> R.string.daredevil_name
+    FlightUpgrade.FOCUS -> R.string.focus_name
+})
+@Composable private fun flightUpgradeNames(choices: List<FlightUpgrade>): String {
+    val names = choices.map { flightUpgradeName(it) }
+    return names.joinToString(" · ")
+}
+@Composable private fun LanguagePicker(dismiss: () -> Unit) {
+    LocalConfiguration.current // Recompose selection when framework locales change.
+    val current = AppCompatDelegate.getApplicationLocales().toLanguageTags()
+    AlertDialog(onDismissRequest = dismiss,
+        title = { Text("🌐 " + stringResource(R.string.language)) },
+        text = {
+            Column(Modifier.fillMaxWidth().heightIn(max = 440.dp).verticalScroll(rememberScrollState())) {
+                Text(stringResource(R.string.language_hint), color = Muted, modifier = Modifier.padding(bottom = 12.dp))
+                LanguageRow(stringResource(R.string.language_system), current.isEmpty()) {
+                    dismiss(); AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList())
+                }
+                AppLanguages.supported.forEach { language ->
+                    LanguageRow(language.nativeName + " · " + language.market,
+                        AppLanguages.resolve(current)?.tag == language.tag) {
+                        dismiss(); AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(language.tag))
+                    }
+                }
+            }
+        },
+        confirmButton = { TextButton(onClick = dismiss) { Text(stringResource(R.string.close)) } })
+}
+@Composable private fun LanguageRow(label: String, selected: Boolean, choose: () -> Unit) {
+    Row(Modifier.fillMaxWidth().selectable(selected, role = androidx.compose.ui.semantics.Role.RadioButton, onClick = choose)
+        .heightIn(min = 52.dp).padding(vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+        RadioButton(selected = selected, onClick = null)
+        Text(label, modifier = Modifier.weight(1f).padding(start = 8.dp), fontSize = 14.sp)
+    }
 }
